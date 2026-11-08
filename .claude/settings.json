@@ -1,0 +1,16 @@
+{
+  "env": {
+    "LEMO_OPUSCAR_HOME": "tools/lemo-opuscar",
+    "HYPERFRAMES_NO_TELEMETRY": "1",
+    "DO_NOT_TRACK": "1"
+  },
+  "includeCoAuthoredBy": false,
+  "hooks": {
+    "UserPromptSubmit": [
+      { "hooks": [ { "type": "command", "command": "cd \"$CLAUDE_PROJECT_DIR\" && sh pipeline/sync.sh 2>&1 | tail -4" } ] }
+    ],
+    "Stop": [
+      { "hooks": [ { "type": "command", "command": "cd \"$CLAUDE_PROJECT_DIR\" && sh pipeline/push.sh \"wip: $(git config user.name) $(date +%Y-%m-%d_%H:%M)\" 2>&1 | tail -2" } ] }
+    ]
+  }
+}

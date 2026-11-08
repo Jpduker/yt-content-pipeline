@@ -1,0 +1,130 @@
+[
+ {
+  "id": "hook",
+  "text": "Someone ate Gus's sandwich. Can you catch the thief?",
+  "asr": "Someone ate Gus's sandwich. Can you catch the thief?",
+  "caption": "Someone ate Gus's sandwich. Can you catch the thief?",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "paint",
+  "text": "This morning, Gus painted every stair yellow.",
+  "asr": "This morning, Gus painted every stair yellow.",
+  "caption": "This morning, Gus painted every stair yellow.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "shut",
+  "text": "He left his sandwich up by the lamp, and shut every window.",
+  "asr": "He left his sandwich up by the lamp, and shut every window.",
+  "caption": "He left his sandwich up by the lamp, and shut every window.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "gone",
+  "text": "When he came back, it was gone.",
+  "asr": "When he came back, it was gone.",
+  "caption": "When he came back, it was gone.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "three",
+  "text": "Three suspects.",
+  "asr": "Three suspects.",
+  "caption": "Three suspects.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "pip",
+  "text": "Pip the seagull: I was flying over the sea all morning.",
+  "asr": "Pip the seagull: \"I was flying over the sea all morning.\"",
+  "caption": "Pip the seagull: \"I was flying over the sea all morning.\"",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "mabel",
+  "text": "Mabel the cat: I napped downstairs all day.",
+  "asr": "Mabel the cat: \"I napped downstairs all day.\"",
+  "caption": "Mabel the cat: \"I napped downstairs all day.\"",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "rollo",
+  "text": "Rollo the mouse: I never climb stairs. I'm too small!",
+  "asr": "Rollo the mouse: \"I never climb stairs. I'm too small!\"",
+  "caption": "Rollo the mouse: \"I never climb stairs. I'm too small!\"",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "ask",
+  "text": "Look closely. Who is lying?",
+  "asr": "Look closely. Who is lying?",
+  "caption": "Look closely. Who is lying?",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "comment",
+  "text": "Comment your answer!",
+  "asr": "Comment your answer!",
+  "caption": "Comment your answer!",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "clue",
+  "text": "Here's the clue.",
+  "asr": "Here's the clue.",
+  "caption": "Here's the clue.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "windows",
+  "text": "The windows were shut, so nobody flew in.",
+  "asr": "The windows were shut, so nobody flew in.",
+  "caption": "The windows were shut, so nobody flew in.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "stairs",
+  "text": "The thief had to climb the wet stairs.",
+  "asr": "The thief had to climb the wet stairs.",
+  "caption": "The thief had to climb the wet stairs.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "paws",
+  "text": "Mabel's paws are clean. Rollo's paws are yellow!",
+  "asr": "Mabel's paws are clean. Rollo's paws are yellow!",
+  "caption": "Mabel's paws are clean. Rollo's paws are yellow!",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "guilty",
+  "text": "Rollo climbed. Rollo lied. Rollo ate the sandwich.",
+  "asr": "Rollo climbed. Rollo lied. Rollo ate the sandwich.",
+  "caption": "Rollo climbed. Rollo lied. Rollo ate the sandwich.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "outro",
+  "text": "Did you spot it? Follow for the next riddle.",
+  "asr": "Did you spot it? Follow for the next riddle.",
+  "caption": "Did you spot it? Follow for the next riddle.",
+  "voice": "am_michael",
+  "speed": 0.98
+ }
+]

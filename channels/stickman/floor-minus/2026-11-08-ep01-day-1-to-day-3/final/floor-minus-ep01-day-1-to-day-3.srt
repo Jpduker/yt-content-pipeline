@@ -1,0 +1,227 @@
+1
+00:00:00,600 --> 00:00:02,885
+You have three floors to learn the rules.
+
+2
+00:00:04,000 --> 00:00:06,237
+Most people don't make it past one.
+
+3
+00:00:07,200 --> 00:00:10,079
+It starts with an elevator that only goes down.
+
+4
+00:00:11,600 --> 00:00:16,287
+OPERATOR: Good morning. This elevator goes down. Please enjoy your stay.
+
+5
+00:00:16,600 --> 00:00:18,121
+There is no up button.
+
+6
+00:00:24,000 --> 00:00:25,838
+Floor minus one. Day one.
+
+7
+00:00:27,000 --> 00:00:30,377
+A sign on the wall: before every action, say thank you.
+
+8
+00:00:32,200 --> 00:00:34,064
+You step out without saying it.
+
+9
+00:00:35,600 --> 00:00:37,122
+The whole floor tilts.
+
+10
+00:00:38,800 --> 00:00:42,012
+You grab a pillar. Thank you, you gasp. And it levels out.
+
+11
+00:00:45,200 --> 00:00:48,588
+Thank you for the step. Thank you for the chair. Thank you for the air.
+
+12
+00:00:52,000 --> 00:00:54,122
+NORA: Thank you for finally showing up.
+
+13
+00:00:55,400 --> 00:00:58,010
+That's Nora. She's been here since yesterday.
+
+14
+00:00:59,200 --> 00:01:01,895
+NORA: Thank you. Don't forget. Not even once.
+
+15
+00:01:03,400 --> 00:01:06,094
+You eat one of your three sandwiches. Thank you.
+
+16
+00:01:08,800 --> 00:01:11,147
+Then a man runs past. He forgets.
+
+17
+00:01:15,400 --> 00:01:18,259
+The floor tips, and he slides right out of sight.
+
+18
+00:01:20,400 --> 00:01:22,308
+At midnight, the elevator dings.
+
+19
+00:01:23,400 --> 00:01:25,596
+You both say thank you, and step in.
+
+20
+00:01:28,200 --> 00:01:32,696
+OPERATOR: Thank you for choosing Floor Minus. Next stop, minus two.
+
+21
+00:01:37,200 --> 00:01:39,036
+Floor minus two. Day two.
+
+22
+00:01:40,200 --> 00:01:41,855
+Here, the rain falls up.
+
+23
+00:01:43,000 --> 00:01:46,623
+It pools on the ceiling. And the ceiling is getting closer.
+
+24
+00:01:48,600 --> 00:01:51,219
+NORA: Stay low. The air is at the bottom.
+
+25
+00:01:52,000 --> 00:01:55,515
+You crawl under the desks. Your phone light is all you have.
+
+26
+00:01:57,800 --> 00:02:00,012
+Under the last desk, you find a note.
+
+27
+00:02:01,400 --> 00:02:02,911
+It's in your handwriting.
+
+28
+00:02:04,400 --> 00:02:06,056
+Don't trust the Operator.
+
+29
+00:02:08,000 --> 00:02:10,245
+You've never been here before. Have you?
+
+30
+00:02:12,600 --> 00:02:15,939
+OPERATOR: Please keep your head above water. Thank you.
+
+31
+00:02:17,200 --> 00:02:21,089
+The water is a hand's width from the floor when the elevator dings.
+
+32
+00:02:24,400 --> 00:02:27,047
+You roll in. Food: one sandwich left.
+
+33
+00:02:29,000 --> 00:02:32,421
+OPERATOR: Next stop, minus three. Please be quiet.
+
+34
+00:02:38,000 --> 00:02:39,900
+Floor minus three. Day three.
+
+35
+00:02:41,200 --> 00:02:45,139
+The Quiet Floor. Every sound above a whisper turns off a light.
+
+36
+00:02:47,200 --> 00:02:49,052
+Ten lights. Ten mistakes.
+
+37
+00:02:52,000 --> 00:02:53,322
+A creak. Nine.
+
+38
+00:02:55,000 --> 00:02:56,432
+NORA: Walk where I walk.
+
+39
+00:02:58,200 --> 00:03:00,138
+Your stomach growls. Eight.
+
+40
+00:03:03,000 --> 00:03:06,159
+OPERATOR: Hello! How are you enjoying the Quiet Floor?
+
+41
+00:03:08,600 --> 00:03:11,959
+The Operator is helping. Loudly. Four lights left.
+
+42
+00:03:13,600 --> 00:03:15,168
+And then, Nora is gone.
+
+43
+00:03:17,400 --> 00:03:19,887
+Ten seconds. You don't dare call her name.
+
+44
+00:03:25,400 --> 00:03:28,038
+Then she's back. Same face. Same smile.
+
+45
+00:03:29,600 --> 00:03:31,148
+But her scarf is blue.
+
+46
+00:03:32,800 --> 00:03:34,297
+NORA: Thank you for waiting.
+
+47
+00:03:36,000 --> 00:03:38,140
+Nobody says thank you on this floor.
+
+48
+00:03:40,000 --> 00:03:42,471
+The elevator dings. Three lights left.
+
+49
+00:03:45,600 --> 00:03:47,748
+Day three ends. Food: zero.
+
+50
+00:03:50,000 --> 00:03:53,371
+OPERATOR: Next stop, minus four. Welcome home.
+
+51
+00:04:00,600 --> 00:04:02,495
+Minus four is your apartment.
+
+52
+00:04:04,000 --> 00:04:06,675
+Your sofa. Your plant. Your mug, still warm.
+
+53
+00:04:09,600 --> 00:04:11,630
+And someone is sitting on your sofa.
+
+54
+00:04:14,400 --> 00:04:15,773
+It turns around.
+
+55
+00:04:17,400 --> 00:04:18,450
+It's you.
+
+56
+00:04:20,000 --> 00:04:23,385
+Took you three days. Sit down. Day four is the worst.
+
+57
+00:04:26,600 --> 00:04:28,490
+Day four. Next Saturday.

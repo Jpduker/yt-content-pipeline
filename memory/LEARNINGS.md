@@ -1,0 +1,49 @@
+# Learnings log
+Append-only, newest at the bottom. Format: date · what happened · evidence · (→ rule, if promoted).
+
+- 2026-11-04 · v1 "ffmpeg placeholder" proof rejected by Jp: static shapes, no world · Jp: "I really did not like the 10sec video" → rule: build a world.
+- 2026-11-04 · lemo cel-anime-80s demo rendered end to end in cloud: 1416 frames, 2 workers, software WebGL, 27 min (≈1.15 s/frame/core); Kokoro 8 lines in 30 s; score 19 s; mix 10 s · Jp liked it, rewatched twice.
+- 2026-11-04 · lemo setup hardcodes `.venv/bin/python` → needs WSL, not Git Bash → rule.
+- 2026-11-04 · lemo demo mix needs `librosa` (listed as maintainer-only); demo fonts not in git → fixed in pipeline/setup.sh → rule.
+- 2026-11-04 · hyperframes media-use / reverse-any-video / style-sampling route to paid HeyGen → kept inactive.
+- 2026-11-04 · Reference study: favourites cut every ~3.7 s; disliked ones held 15–28 s per shot · measured with ffmpeg scene>0.30 → rule: shot change ≤4 s.
+- 2026-11-04 · Cloud/linked sessions: device sandbox calls stop at 180 s, git over the mounted folder is slow (use sparse checkouts), computer use cannot type into terminals, Hugging Face blocked from both sandboxes.
+- 2026-11-05 · EP01 "The Lighthouse Switches" (riddle Short, midcentury-toon) produced end to end in the cloud: 2D canvas renders ≈0.16 s/frame (960 frames in 158 s on 2 workers): 2D styles are ~7× faster than the WebGL cel-anime demo.
+- 2026-11-05 · Built the timeline AFTER the TTS: generate voice first, then place lines on the beat grid from real durations (27.9 s of narration in a 40 s Short worked).
+- 2026-11-05 · lemo `dashed()` draws nothing on long straight segments: densify the polyline first (every ~8 px).
+- 2026-11-05 · ffmpeg 6.x breaks `mux.sh` ("only 37.1 s could be decoded"); ffmpeg 7+ required (pip `imageio-ffmpeg` bundles 9.x as a fallback).
+- 2026-11-05 · Vertical Shorts layout that worked: subject in the upper 2/3, caption card centred at y≈1420, nothing important below y≈1550 (Shorts UI), counters top-left.
+- 2026-11-05 · Seamless loop: make the hook motion periodic (2 s period) and reset world state while the camera is elsewhere; measured first/last frame difference 0.57/255.
+- 2026-11-05 · Review stills caught 5 staging bugs before the full render (character covering the key prop, rules not leaving, dark void under the floor, caption over the subject, arm pose): always do stills QA first.
+- 2026-11-05 · No Whisper check possible from the cloud (Hugging Face blocked): run core/tts/asr_check.py on Jp's machine.
+- 2026-11-05 · Two sets + colour-block wipes (EP02 room / line-up) read faster than one tall world; hold the outgoing set's last frame during the wipe (state is a function of t, so render the old side at the cut time).
+- 2026-11-05 · A fair whodunit: put the clue (yellow paint on Rollo's feet) in EVERY line-up shot before the countdown, and show it big in the reveal callout.
+- 2026-11-05 · Hook shows the room AFTER the crime (empty plate, wet stairs) = loop end state; "THIS MORNING" wipe resets to before. Loop stays seamless without resetting state on screen.
+- 2026-11-05 · Stickman rig: IK hand/foot targets must be converted from world to the rig's local space (scale + squash), or arms point at nothing. Props drawn inside the rig need the same transform.
+- 2026-11-05 · Stickman framing: characters ~1/3 of frame height looked lost; per-scene camera zoom 1.35–1.65 fixed it. Keep labels/counters in screen space, bubbles in world space.
+- 2026-11-05 · Ukiyo-e engine is 1920x1080: switched print.js to a portrait 1080x1920 sheet (hashira-e proportions) and scroll prints vertically like a hanging scroll. Clip live layers to the print frame or mist bands spill over the border.
+- 2026-11-05 · Shadows as story devices: render the figure to an offscreen canvas, source-in to sumi, then lay it with a shear/squash transform; peeling = clip by height + a rolled cylinder.
+- 2026-11-05 · Shippori Mincho / Yuji Syuku TTFs download from github.com/google/fonts (raw) even when Google Fonts CDN is blocked.
+- 2026-11-05 · Cloud render speeds (2 CPU workers): EP02 1248 frames 195 s; stickman 912 frames 137 s; ukiyo-e 1344 frames in 160 s.
+- 2026-11-05 · v2 (Jp: "music too loud, caption/sound timing off, mute moment, endings unclear"). Causes found: (1) music bed sat ~at voice level (RMS ≈ voice, only -8 dB duck); (2) captions popped by character share of the line, up to 0.48 s EARLY after commas/full stops; (3) the shadow tale gated ALL audio for 1.8 s ("ma") — reads as a bug, not drama.
+- 2026-11-05 · Fixes now standard: music bed scaled from the voice RMS: -12 dB in gaps, -19 dB under speech; captions use voices/words.json from pipeline/align_words.py (pauses + espeak phoneme counts, ±20 ms at phrase starts) and pop 40 ms before the word; never full silence longer than 0.5 s, keep ambience or a drone under pauses.
+- 2026-11-05 · Real instruments: lemo `tools/fetch.sh instruments vsco2ce vcsl karoryfer freepats salamander` (~1.4 GB, mostly CC0; Salamander piano CC BY 3.0 must be credited) → 97 sampled instruments via core/audio/sampler.py. Scores take ~3 s to render.
+- 2026-11-05 · Endings must state the payoff in words: stickman v2 "for the first time all week, you don't shrink"; tale v2 "One is his shadow. The other is him."
+- 2026-11-05 · Ukiyo-e continuity: dissolves (0.9 s) + a slow zoom about each print's focus point read as one continuous film; better than scroll slides.
+- 2026-11-05 · Cloud safety rule: installing/running newly cloned third-party code in the cloud workspace is blocked; clone such tools into tools/ and run them in WSL.
+- 2026-11-08 · three.js in our pages: import from "/node_modules/three/..." via an importmap works for episode folders outside the library (the tools serve the library root). Software WebGL: 720 frames at 1080x1920 with a Reflector floor, shadows and bloom took 870 s on 2 workers (≈2.4 s/frame/worker).
+- 2026-11-08 · Spotlight intensity in three r170 with decay 0: ~5–7 is right for a single key light; 60 blew everything out. Add a hemisphere (.5), a soft front fill and a cold back rim or the clay figures turn into black silhouettes.
+- 2026-11-08 · Character staging inside props: check feet and hands against walls at every pose change (the push pose put the shins through the brick wall; caught in the contact sheet, not the stills).
+- 2026-11-08 · Poetic confession reels (studied): one still image for 38 s, text typed on word by word in time with the music, emotional turn every ~5 s, music never drops; zarwhisper: 5 shots cut on line breaks, painted lofi figures from behind, gentle loops, "comment BOOK" funnel.
+- 2026-11-08 · The Cowork device VM has no GPU and cannot run lemo's WSL venv; GPU/ML steps (Chatterbox, rembg, depth) need Jp's WSL.
+- 2026-11-08 · Collisions: v2 spotlight had limbs through bricks/bodies; contact sheets miss some. Add an automated per-frame overlap check before final renders.
+- 2026-11-08 s2 · Cloud session: running cloned third-party code (lemo fetch.sh, its renderer/sampler, Kokoro) is blocked, but our own Playwright renderer (page contract READY/render(t), canvas.toDataURL JPEG → ffmpeg) works: 2D toon film 0.11 s/frame/worker (9360 frames ≈ 11 min, 2 workers); our WebGL-quad 2.5D ≈ 0.6 s/frame/worker; three.js stills fine. npm i three works. So: cloud = picture + previews; WSL build.sh = voice, sampler score, mix, final mux.
+- 2026-11-08 s2 · Long-form timing: give every line a planned "start" in lines.json and let the film push a line later only if the previous one runs long (warned in the console); visuals key off VT(id). Shorts can then be cut from the same code (?short=N) with no second timeline.
+- 2026-11-08 s2 · Vertical Shorts from 16:9 sets: keep the same world coords, re-frame per set (track the hero's x), and extend floor/wall planes, because the taller view shows above/below the 16:9 set.
+- 2026-11-08 s2 · Slab font (Alfa Slab One) has no U+2212 minus: use a plain hyphen in display numbers.
+- 2026-11-08 s2 · Smoke-testing music.py/mix.py with stand-in modules (shim sampler that checks instrument ranges) caught 10 out-of-range notes and a 1-D limiter misuse before Jp's WSL run.
+- 2026-11-08 · Render speeds, 2D long-forms: Jp's laptop WSL ≈ 5–6 fps (Island 9400 fr + Shorts 49 min); session-1 cloud ≈ 12 fps (Floor Minus 8460 fr + Shorts 26.5 min). Split videos across both machines for speed.
+- 2026-11-08 · New cloud sessions cannot install/run lemo (safety rule) → picture previews only. Voice/music/final run in WSL or in the original session that already has lemo set up.
+- 2026-11-08 · Kokoro's ONNX graph computes phoneme durations ('/encoder/Gather_output_0'); exposing it as output 'duration' gives kokoro-onnx create_timed() real timings → exact captions + lip sync (pipeline/make_timed_kokoro.py).
+- 2026-11-08 · Keying sheet portraits: flood only from pixels that are almost exactly the backdrop colour (dist<.045), then dilate; global colour distance eats white sleeves.
+- 2026-11-08 · Session-4 render speeds (cloud, 2 workers): C01 v2 WebGL face rig 1137 fr ≈ 13 min; island paper 2D 720 fr ≈ 4 min.

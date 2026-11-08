@@ -1,0 +1,7 @@
+Who Ate the Sandwich? (episode 02)
+
+Original: riddle (written for this channel, not a known puzzle), characters (Gus the keeper; Pip the seagull, Mabel the cat, Rollo the mouse), world, animation code (film.js, keeper.js, suspects.js), score (music.py, synthesized, no samples), sound effects (mix.py, synthesized).
+Drawing engine: engine/toon.js copied unchanged from lemo-opuscar (github.com/lemomo-ai/lemo-opuscar), MIT licence.
+Render, events and mux tools: lemo-opuscar core/ (MIT), used from the library, not copied.
+Voice: Kokoro-82M (kokoro-onnx), voice am_michael, Apache 2.0.
+Fonts (SIL Open Font License 1.1, in fonts/): Alfa Slab One, Jost, Oleo Script.

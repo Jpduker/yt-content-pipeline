@@ -1,0 +1,7 @@
+Old Tales of the Island #1: The Man Who Sold His Shadow
+
+Original: the fable (written for this channel; not a retold folk tale), the mist woman and fisherman staging, the nine prints (film.js), score (music.py), sound effects (mix.py, synthesized).
+Woodblock engine: print.js and traveler.js adapted from lemo-opuscar's ukiyo-e demo (github.com/lemomo-ai/lemo-opuscar), MIT licence (portrait sheet adaptation ours); lib.js copied from lemo-opuscar core (MIT). See CREDITS.ukiyoe for the demo's own notes.
+Shamisen: lemo-opuscar core/audio/pluck.py (physically modelled, MIT), used from the library. Shakuhachi, taiko, rin: synthesized in music.py.
+Voice: Kokoro-82M (kokoro-onnx), voice am_michael, Apache 2.0.
+Fonts (SIL Open Font License 1.1, in fonts/): Shippori Mincho (FONTDASU), Yuji Syuku. Downloaded from github.com/google/fonts.

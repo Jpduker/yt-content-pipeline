@@ -1,0 +1,44 @@
+# ---- yt-content-pipeline: keep SOURCE + docs in git; everything regenerable or heavy stays local ----
+# rendered media and audio (regenerate with each episode's build.sh)
+*.mp4
+*.mov
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.aac
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+**/out/
+**/.ffbin/
+**/.video_segs*
+**/node_modules/
+**/__pycache__/
+**/.venv/
+.DS_Store
+Thumbs.db
+desktop.ini
+# local-only folders
+Claude outputs/
+logs/
+# third-party upstream clones: recreated by `sh pipeline/get-tools.sh` (list + pinned commits in tools/README.md)
+tools/*
+!tools/README.md
+!tools/chatterbox/
+tools/chatterbox/.venv/
+# generated: `sh pipeline/sync-skills.sh` rebuilds it from tools/ + skills/
+.claude/skills/
+# real-sfx comes from Clipwing (no licence file: private use only, don't redistribute) -> copied in by get-tools.sh
+skills/real-sfx/
+# secrets
+.env
+*.env
+!*.env.example
+# private: Vivek's Whispers characters (based on real people) - NOT in the public repo; share privately (see channels/whispers/characters/README.md)
+channels/whispers/characters/vivek-cast/
+channels/whispers/confessions/*/assets/
+# per-machine build markers
+CLOUD-BUILDING

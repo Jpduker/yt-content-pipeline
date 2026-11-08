@@ -1,0 +1,58 @@
+[
+ {
+  "id": "l1",
+  "text": "He said \"I'm fine\" so many times,",
+  "caption": "He said \"I'm fine\" so many times,",
+  "voice": "af_heart",
+  "speed": 0.88
+ },
+ {
+  "id": "l2",
+  "text": "that every \"I'm fine\" became a brick.",
+  "caption": "that every \"I'm fine\" became a brick.",
+  "voice": "af_heart",
+  "speed": 0.88
+ },
+ {
+  "id": "l3",
+  "text": "And bricks add up.",
+  "caption": "And bricks add up.",
+  "voice": "af_heart",
+  "speed": 0.86
+ },
+ {
+  "id": "l4",
+  "text": "One day, he couldn't see anyone.",
+  "caption": "One day, he couldn't see anyone.",
+  "voice": "af_heart",
+  "speed": 0.84
+ },
+ {
+  "id": "l5",
+  "text": "So he said one true thing.",
+  "caption": "So he said one true thing.",
+  "voice": "af_heart",
+  "speed": 0.86
+ },
+ {
+  "id": "hero",
+  "text": "I'm not okay.",
+  "caption": "I'm not okay.",
+  "voice": "am_echo",
+  "speed": 0.8
+ },
+ {
+  "id": "l6",
+  "text": "And the wall came down faster than it ever went up.",
+  "caption": "And the wall came down faster than it ever went up.",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ {
+  "id": "l7",
+  "text": "The truth is heavy. But it's lighter than a wall.",
+  "caption": "The truth is heavy. But it's lighter than a wall.",
+  "voice": "af_heart",
+  "speed": 0.84
+ }
+]

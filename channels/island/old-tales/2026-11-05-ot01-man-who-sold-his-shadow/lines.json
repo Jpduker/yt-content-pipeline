@@ -1,0 +1,93 @@
+[
+ {
+  "id": "open",
+  "text": "Never sell what follows you.",
+  "caption": "Never sell what follows you.",
+  "voice": "am_michael",
+  "speed": 0.86
+ },
+ {
+  "id": "forty",
+  "text": "Long ago, a fisherman on this island caught nothing for forty days.",
+  "caption": "Long ago, a fisherman on this island caught nothing for forty days.",
+  "voice": "am_michael",
+  "speed": 0.86
+ },
+ {
+  "id": "mist",
+  "text": "On the forty-first night, a woman made of mist rose from the sea.",
+  "caption": "On the forty-first night, a woman made of mist rose from the sea.",
+  "voice": "am_michael",
+  "speed": 0.86
+ },
+ {
+  "id": "offer",
+  "text": "Give me your shadow, she whispered, and your nets will never be empty.",
+  "caption": "\u201cGive me your shadow,\u201d she whispered, \u201cand your nets will never be empty.\u201d",
+  "voice": "am_michael",
+  "speed": 0.86
+ },
+ {
+  "id": "agree",
+  "text": "What use is a shadow? He agreed.",
+  "caption": "What use is a shadow? He agreed.",
+  "voice": "am_michael",
+  "speed": 0.86
+ },
+ {
+  "id": "dawn",
+  "text": "From that dawn, his nets overflowed.",
+  "caption": "From that dawn, his nets overflowed.",
+  "voice": "am_michael",
+  "speed": 0.86
+ },
+ {
+  "id": "noon",
+  "text": "But at noon, the village whispered. That man casts no shadow.",
+  "caption": "But at noon, the village whispered: \u201cThat man casts no shadow.\u201d",
+  "voice": "am_michael",
+  "speed": 0.86
+ },
+ {
+  "id": "wife",
+  "text": "His own wife would not look at him.",
+  "caption": "His own wife would not look at him.",
+  "voice": "am_michael",
+  "speed": 0.86
+ },
+ {
+  "id": "row",
+  "text": "So he rowed out, to beg for it back.",
+  "caption": "So he rowed out, to beg for it back.",
+  "voice": "am_michael",
+  "speed": 0.86
+ },
+ {
+  "id": "return",
+  "text": "She gave it back. But it would not follow him.",
+  "caption": "She gave it back. But it would not follow him.",
+  "voice": "am_michael",
+  "speed": 0.86
+ },
+ {
+  "id": "sea",
+  "text": "It walked into the sea. He followed it, and never came back.",
+  "caption": "It walked into the sea. He followed it, and never came back.",
+  "voice": "am_michael",
+  "speed": 0.86
+ },
+ {
+  "id": "bay",
+  "text": "Now, on still nights, two shadows cross the bay.",
+  "caption": "Now, on still nights, two shadows cross the bay.",
+  "voice": "am_michael",
+  "speed": 0.86
+ },
+ {
+  "id": "end",
+  "text": "One is his shadow. The other is him.",
+  "caption": "One is his shadow. The other is him.",
+  "voice": "am_michael",
+  "speed": 0.86
+ }
+]

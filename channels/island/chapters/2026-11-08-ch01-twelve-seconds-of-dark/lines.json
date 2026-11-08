@@ -1,0 +1,435 @@
+[
+ {
+  "id": "a1",
+  "start": 1.2,
+  "text": "Three eleven in the morning. The worst storm of the year.",
+  "asr": "Three eleven in the morning. The worst storm of the year.",
+  "caption": "Three eleven in the morning. The worst storm of the year.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "a2",
+  "start": 5.6,
+  "text": "And then my lamp, the lamp I've kept for thirty years, went dark.",
+  "asr": "And then my lamp, the lamp I've kept for thirty years, went dark.",
+  "caption": "And then my lamp, the lamp I've kept for thirty years, went dark.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "a3",
+  "start": 14.0,
+  "text": "Twelve seconds. Just twelve seconds of dark.",
+  "asr": "Twelve seconds. Just twelve seconds of dark.",
+  "caption": "Twelve seconds. Just twelve seconds of dark.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "a4",
+  "start": 23.0,
+  "text": "Then it came back on. All by itself.",
+  "asr": "Then it came back on. All by itself.",
+  "caption": "Then it came back on. All by itself.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "b1",
+  "start": 33.0,
+  "text": "By morning, a boat lay broken on the north rocks.",
+  "asr": "By morning, a boat lay broken on the north rocks.",
+  "caption": "By morning, a boat lay broken on the north rocks.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "b2",
+  "start": 37.6,
+  "text": "Nobody was hurt, thank the tides. But the harbour master was furious.",
+  "asr": "Nobody was hurt, thank the tides. But the harbour master was furious.",
+  "caption": "Nobody was hurt, thank the tides. But the harbour master was furious.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "b3",
+  "start": 43.4,
+  "text": "He said I fell asleep. He said I let the lamp go out.",
+  "asr": "He said I fell asleep. He said I let the lamp go out.",
+  "caption": "He said I fell asleep. He said I let the lamp go out.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "b4",
+  "start": 48.4,
+  "text": "I have three days to prove it wasn't me, or I lose the lighthouse.",
+  "asr": "I have three days to prove it wasn't me, or I lose the lighthouse.",
+  "caption": "I have three days to prove it wasn't me, or I lose the lighthouse.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "b5",
+  "start": 54.6,
+  "text": "Lucky for me, I don't work alone.",
+  "asr": "Lucky for me, I don't work alone.",
+  "caption": "Lucky for me, I don't work alone.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "c1",
+  "start": 62.6,
+  "text": "First stop: the lamp room clock.",
+  "asr": "First stop: the lamp room clock.",
+  "caption": "First stop: the lamp room clock.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "c2",
+  "start": 65.6,
+  "text": "It runs twelve seconds slow. But nobody has touched it in years.",
+  "asr": "It runs twelve seconds slow. But nobody has touched it in years.",
+  "caption": "It runs twelve seconds slow. But nobody has touched it in years.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "c3",
+  "start": 71.0,
+  "text": "Someone moved the pendulum. And look what they left behind.",
+  "asr": "Someone moved the pendulum. And look what they left behind.",
+  "caption": "Someone moved the pendulum. And look what they left behind.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "c4",
+  "start": 76.6,
+  "text": "Wet footprints. Webbed, like a bird's.",
+  "asr": "Wet footprints. Webbed, like a bird's.",
+  "caption": "Wet footprints. Webbed, like a bird's.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "c5",
+  "start": 80.2,
+  "text": "But Pip's foot is tiny next to them, and they're longer than my boot.",
+  "asr": "But Pip's foot is tiny next to them, and they're longer than my boot.",
+  "caption": "But Pip's foot is tiny next to them, and they're longer than my boot.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "c6",
+  "start": 86.2,
+  "text": "No claws. A flat, straight edge at the back. And they come from the sea window.",
+  "asr": "No claws. A flat, straight edge at the back. And they come from the sea window.",
+  "caption": "No claws. A flat, straight edge at the back. And they come from the sea window.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "c7",
+  "start": 92.0,
+  "text": "So who made them? Pause now, and think.",
+  "asr": "So who made them? Pause now, and think.",
+  "caption": "So who made them? Pause now, and think.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "c8",
+  "start": 105.0,
+  "text": "Time's up. Those aren't feet at all. They're swim fins.",
+  "asr": "Time's up. Those aren't feet at all. They're swim fins.",
+  "caption": "Time's up. Those aren't feet at all. They're swim fins.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "c9",
+  "start": 110.2,
+  "text": "Someone climbed up from the sea, in the middle of a storm.",
+  "asr": "Someone climbed up from the sea, in the middle of a storm.",
+  "caption": "Someone climbed up from the sea, in the middle of a storm.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "c10",
+  "start": 115.6,
+  "text": "Someone who didn't want to be seen.",
+  "asr": "Someone who didn't want to be seen.",
+  "caption": "Someone who didn't want to be seen.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "d1",
+  "start": 122.6,
+  "text": "So that night, we kept watch.",
+  "asr": "So that night, we kept watch.",
+  "caption": "So that night, we kept watch.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "d2",
+  "start": 125.6,
+  "text": "Pip took the window. Mabel took a nap. Of course.",
+  "asr": "Pip took the window. Mabel took a nap. Of course.",
+  "caption": "Pip took the window. Mabel took a nap. Of course.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "d3",
+  "start": 131.0,
+  "text": "And Rollo took care of the stake-out sandwiches. All of them.",
+  "asr": "And Rollo took care of the stake-out sandwiches. All of them.",
+  "caption": "And Rollo took care of the stake-out sandwiches. All of them.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "d4",
+  "start": 137.0,
+  "text": "Then, at three twelve exactly...",
+  "asr": "Then, at three twelve exactly...",
+  "caption": "Then, at three twelve exactly...",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "d5",
+  "start": 144.6,
+  "text": "It happened again. Right under our noses.",
+  "asr": "It happened again. Right under our noses.",
+  "caption": "It happened again. Right under our noses.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "d6",
+  "start": 154.0,
+  "text": "But this time, I found how.",
+  "asr": "But this time, I found how.",
+  "caption": "But this time, I found how.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "e1",
+  "start": 160.2,
+  "text": "Three cables feed the lamp. One of them was cut clean through.",
+  "asr": "Three cables feed the lamp. One of them was cut clean through.",
+  "caption": "Three cables feed the lamp. One of them was cut clean through.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "e2",
+  "start": 165.6,
+  "text": "The cutter had two ways out: the window, or the stairs.",
+  "asr": "The cutter had two ways out: the window, or the stairs.",
+  "caption": "The cutter had two ways out: the window, or the stairs.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "e3",
+  "start": 170.6,
+  "text": "Look at the window. A spider's web stretches right across it. Not one thread broken.",
+  "asr": "Look at the window. A spider's web stretches right across it. Not one thread broken.",
+  "caption": "Look at the window. A spider's web stretches right across it. Not one thread broken.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "e4",
+  "start": 177.4,
+  "text": "And on the cut cable, a smudge of yellow.",
+  "asr": "And on the cut cable, a smudge of yellow.",
+  "caption": "And on the cut cable, a smudge of yellow.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "e5",
+  "start": 181.2,
+  "text": "Window, or stairs? Which way did the cutter go?",
+  "asr": "Window, or stairs? Which way did the cutter go?",
+  "caption": "Window, or stairs? Which way did the cutter go?",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "e6",
+  "start": 195.2,
+  "text": "The stairs! The web says nobody went through that window.",
+  "asr": "The stairs! The web says nobody went through that window.",
+  "caption": "The stairs! The web says nobody went through that window.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "e7",
+  "start": 200.4,
+  "text": "And the yellow? I painted these stairs last week. The paint never quite dried.",
+  "asr": "And the yellow? I painted these stairs last week. The paint never quite dried.",
+  "caption": "And the yellow? I painted these stairs last week. The paint never quite dried.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "e8",
+  "start": 207.4,
+  "text": "Yellow prints. Down the stairs, past the kitchen, all the way",
+  "asr": "Yellow prints. Down the stairs, past the kitchen, all the way",
+  "caption": "Yellow prints. Down the stairs, past the kitchen, all the way",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "e9",
+  "start": 213.0,
+  "text": "to the cellar door. A door I have never been able to open.",
+  "asr": "to the cellar door. A door I have never been able to open.",
+  "caption": "to the cellar door. A door I have never been able to open.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "f1",
+  "start": 222.6,
+  "text": "It has a lock with four stones. A net, a moon, a sun, and a wave.",
+  "asr": "It has a lock with four stones. A net, a moon, a sun, and a wave.",
+  "caption": "It has a lock with four stones. A net, a moon, a sun, and a wave.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "f2",
+  "start": 229.2,
+  "text": "Above it, someone carved: tell the shadow's story, first to last.",
+  "asr": "Above it, someone carved: tell the shadow's story, first to last.",
+  "caption": "Above it, someone carved: tell the shadow's story, first to last.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "f3",
+  "start": 235.2,
+  "text": "If you heard our Old Tale, The Man Who Sold His Shadow, you already know this one.",
+  "asr": "If you heard our Old Tale, The Man Who Sold His Shadow, you already know this one.",
+  "caption": "If you heard our Old Tale, The Man Who Sold His Shadow, you already know this one.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "f4",
+  "start": 242.4,
+  "text": "What order opens the door?",
+  "asr": "What order opens the door?",
+  "caption": "What order opens the door?",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "f5",
+  "start": 255.6,
+  "text": "The net: forty days of empty nets. The moon: the night the mist woman rose.",
+  "asr": "The net: forty days of empty nets. The moon: the night the mist woman rose.",
+  "caption": "The net: forty days of empty nets. The moon: the night the mist woman rose.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "f6",
+  "start": 262.6,
+  "text": "The sun: noon, and no shadow. The wave: he followed it into the sea.",
+  "asr": "The sun: noon, and no shadow. The wave: he followed it into the sea.",
+  "caption": "The sun: noon, and no shadow. The wave: he followed it into the sea.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "g1",
+  "start": 270.6,
+  "text": "Behind the door, a tunnel. Straight down to the sea.",
+  "asr": "Behind the door, a tunnel. Straight down to the sea.",
+  "caption": "Behind the door, a tunnel. Straight down to the sea.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "g2",
+  "start": 275.4,
+  "text": "In the wet sand, two sets of prints. Swim fins, and boots.",
+  "asr": "In the wet sand, two sets of prints. Swim fins, and boots.",
+  "caption": "In the wet sand, two sets of prints. Swim fins, and boots.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "g3",
+  "start": 281.0,
+  "text": "And on the wall, in my lantern light, I counted our shadows.",
+  "asr": "And on the wall, in my lantern light, I counted our shadows.",
+  "caption": "And on the wall, in my lantern light, I counted our shadows.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "g4",
+  "start": 286.4,
+  "text": "Four of us. Five shadows.",
+  "asr": "Four of us. Five shadows.",
+  "caption": "Four of us. Five shadows.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "h1",
+  "start": 293.0,
+  "text": "The next day at noon, with the sun high and bright,",
+  "asr": "The next day at noon, with the sun high and bright,",
+  "caption": "The next day at noon, with the sun high and bright,",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "h2",
+  "start": 297.8,
+  "text": "my lamp went dark again.",
+  "asr": "my lamp went dark again.",
+  "caption": "my lamp went dark again.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "h3",
+  "start": 302.2,
+  "text": "And someone was watching.",
+  "asr": "And someone was watching.",
+  "caption": "And someone was watching.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "sx",
+  "start": 0,
+  "short": true,
+  "text": "The answer is in Chapter One. Comment yours first!",
+  "asr": "The answer is in Chapter One. Comment yours first!",
+  "caption": "The answer is in Chapter One. Comment yours first!",
+  "voice": "am_michael",
+  "speed": 0.98
+ }
+]

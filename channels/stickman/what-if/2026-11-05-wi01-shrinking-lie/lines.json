@@ -1,0 +1,79 @@
+[
+ {
+  "id": "hook",
+  "text": "What if every lie you told made you one centimetre shorter?",
+  "caption": "What if every lie you told made you one centimetre shorter?",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "boss",
+  "text": "Monday. Your boss asks if you read his email.",
+  "caption": "Monday. Your boss asks if you read his email.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "hair",
+  "text": "Your friend asks how her new haircut looks.",
+  "caption": "Your friend asks how her new haircut looks.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "lunch",
+  "text": "By lunch, you're eleven centimetres shorter. Your trousers notice first.",
+  "caption": "By lunch, you're eleven centimetres shorter. Your trousers notice first.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "friday",
+  "text": "By Friday, you need a ladder for the coffee machine.",
+  "caption": "By Friday, you need a ladder for the coffee machine.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "twist",
+  "text": "But here's the twist. Everyone else is shrinking too.",
+  "caption": "But here's the twist. Everyone else is shrinking too.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "world",
+  "text": "Doors get lower. Cars get tiny. Basketball gets weird.",
+  "caption": "Doors get lower. Cars get tiny. Basketball gets weird.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "song",
+  "text": "Then your friend plays you her new song. It's terrible.",
+  "caption": "Then your friend plays you her new song. It's terrible.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "truth",
+  "text": "So, for once, you tell the truth.",
+  "caption": "So, for once, you tell the truth.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "same",
+  "text": "And for the first time all week, you don't shrink.",
+  "caption": "And for the first time all week, you don't shrink.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "cta",
+  "text": "So be honest. How tall would you be by Friday?",
+  "caption": "So be honest. How tall would you be by Friday?",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ }
+]

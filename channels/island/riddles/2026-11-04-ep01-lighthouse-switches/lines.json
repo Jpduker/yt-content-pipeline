@@ -1,0 +1,114 @@
+[
+ {
+  "id": "hook",
+  "text": "Only one of these switches lights the lamp.",
+  "asr": "Only one of these switches lights the lamp.",
+  "caption": "Only one of these switches lights the lamp.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "climb",
+  "text": "And the lamp is one hundred and twenty steps up.",
+  "asr": "And the lamp is 120 steps up.",
+  "caption": "And the lamp is 120 steps up.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "rule1",
+  "text": "Flip the switches as much as you like.",
+  "asr": "Flip the switches as much as you like.",
+  "caption": "Flip the switches as much as you like.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "rule2",
+  "text": "But you can climb the stairs only once.",
+  "asr": "But you can climb the stairs only once.",
+  "caption": "But you can climb the stairs only once.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "ask",
+  "text": "So, which switch is it?",
+  "asr": "So, which switch is it?",
+  "caption": "So, which switch is it?",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "comment",
+  "text": "Comment your answer!",
+  "asr": "Comment your answer!",
+  "caption": "Comment your answer!",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "trick",
+  "text": "Here's the trick.",
+  "asr": "Here's the trick.",
+  "caption": "Here's the trick.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "step1",
+  "text": "Turn on switch one, and wait five minutes.",
+  "asr": "Turn on switch 1, and wait 5 minutes.",
+  "caption": "Turn on switch 1, and wait 5 minutes.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "step2",
+  "text": "Turn it off. Turn on switch two. Now climb.",
+  "asr": "Turn it off. Turn on switch 2. Now climb.",
+  "caption": "Turn it off. Turn on switch 2. Now climb.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "lit",
+  "text": "Lamp on? It's switch two.",
+  "asr": "Lamp on? It's switch 2.",
+  "caption": "Lamp on? It's switch 2.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "warm",
+  "text": "Off, but warm? Switch one.",
+  "asr": "Off, but warm? Switch 1.",
+  "caption": "Off, but warm? Switch 1.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "cold",
+  "text": "Off and cold? Switch three.",
+  "asr": "Off and cold? Switch 3.",
+  "caption": "Off and cold? Switch 3.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "moral",
+  "text": "A bulb remembers its heat.",
+  "asr": "A bulb remembers its heat.",
+  "caption": "A bulb remembers its heat.",
+  "voice": "am_michael",
+  "speed": 0.98
+ },
+ {
+  "id": "outro",
+  "text": "Did you get it? Follow for the next riddle.",
+  "asr": "Did you get it? Follow for the next riddle.",
+  "caption": "Did you get it? Follow for the next riddle.",
+  "voice": "am_michael",
+  "speed": 0.98
+ }
+]

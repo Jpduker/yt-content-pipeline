@@ -1,0 +1,3 @@
+[{"id":"flat","text":"You stole my heart, but I'll let you keep it.","voice":"narrator-f","emotion":0.3},
+ {"id":"warm","text":"You stole my heart, but I'll let you keep it.","voice":"narrator-f","emotion":0.65,"cfg":0.4},
+ {"id":"aching","text":"You stole my heart, but I'll let you keep it.","voice":"narrator-f","emotion":0.95,"cfg":0.3}]

@@ -1,0 +1,9 @@
+The Lighthouse Switches (episode 01)
+
+Original: story staging, character (Gus the keeper), world, animation code (film.js, keeper.js), score (music.py, synthesized, no samples), sound effects (mix.py, synthesized).
+Riddle: the classic "three switches, one bulb" logic puzzle (traditional, public domain idea), re-staged in an original setting.
+
+Drawing engine: engine/toon.js copied unchanged from lemo-opuscar (github.com/lemomo-ai/lemo-opuscar), MIT licence. Hand-drawing technique in keeper.js adapted from the same library.
+Render, events and mux tools: lemo-opuscar core/ (MIT), used from the library, not copied.
+Voice: Kokoro-82M (kokoro-onnx), voice am_michael, Apache 2.0 (model by hexgrad; onnx runtime by thewh1teagle).
+Fonts (SIL Open Font License 1.1, files and licences in fonts/): Alfa Slab One, Jost, Oleo Script (Google Fonts).

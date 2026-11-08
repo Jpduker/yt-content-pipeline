@@ -1,0 +1,531 @@
+[
+ {
+  "id": "n01",
+  "start": 0.6,
+  "text": "You have three floors to learn the rules.",
+  "asr": "You have three floors to learn the rules.",
+  "caption": "You have three floors to learn the rules.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n02",
+  "start": 4.0,
+  "text": "Most people don't make it past one.",
+  "asr": "Most people don't make it past one.",
+  "caption": "Most people don't make it past one.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n03",
+  "start": 7.2,
+  "text": "It starts with an elevator that only goes down.",
+  "asr": "It starts with an elevator that only goes down.",
+  "caption": "It starts with an elevator that only goes down.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "op01",
+  "start": 11.6,
+  "text": "Good morning. This elevator goes down. Please enjoy your stay.",
+  "asr": "Good morning. This elevator goes down. Please enjoy your stay.",
+  "caption": "Good morning. This elevator goes down. Please enjoy your stay.",
+  "voice": "bm_george",
+  "speed": 0.95,
+  "fx": "radio"
+ },
+ {
+  "id": "n04",
+  "start": 16.6,
+  "text": "There is no up button.",
+  "asr": "There is no up button.",
+  "caption": "There is no up button.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n05",
+  "start": 24.0,
+  "text": "Floor minus one. Day one.",
+  "asr": "Floor minus one. Day one.",
+  "caption": "Floor minus one. Day one.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n06",
+  "start": 27.0,
+  "text": "A sign on the wall: before every action, say thank you.",
+  "asr": "A sign on the wall: before every action, say thank you.",
+  "caption": "A sign on the wall: before every action, say thank you.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n07",
+  "start": 32.2,
+  "text": "You step out without saying it.",
+  "asr": "You step out without saying it.",
+  "caption": "You step out without saying it.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n08",
+  "start": 35.6,
+  "text": "The whole floor tilts.",
+  "asr": "The whole floor tilts.",
+  "caption": "The whole floor tilts.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n09",
+  "start": 38.8,
+  "text": "You grab a pillar. Thank you, you gasp. And it levels out.",
+  "asr": "You grab a pillar. Thank you, you gasp. And it levels out.",
+  "caption": "You grab a pillar. Thank you, you gasp. And it levels out.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n10",
+  "start": 45.2,
+  "text": "Thank you for the step. Thank you for the chair. Thank you for the air.",
+  "asr": "Thank you for the step. Thank you for the chair. Thank you for the air.",
+  "caption": "Thank you for the step. Thank you for the chair. Thank you for the air.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "nr1",
+  "start": 52.0,
+  "text": "Thank you for finally showing up.",
+  "asr": "Thank you for finally showing up.",
+  "caption": "Thank you for finally showing up.",
+  "voice": "af_bella",
+  "speed": 0.95
+ },
+ {
+  "id": "n11",
+  "start": 55.4,
+  "text": "That's Nora. She's been here since yesterday.",
+  "asr": "That's Nora. She's been here since yesterday.",
+  "caption": "That's Nora. She's been here since yesterday.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "nr2",
+  "start": 59.2,
+  "text": "Thank you. Don't forget. Not even once.",
+  "asr": "Thank you. Don't forget. Not even once.",
+  "caption": "Thank you. Don't forget. Not even once.",
+  "voice": "af_bella",
+  "speed": 0.95
+ },
+ {
+  "id": "n12",
+  "start": 63.4,
+  "text": "You eat one of your three sandwiches. Thank you.",
+  "asr": "You eat one of your three sandwiches. Thank you.",
+  "caption": "You eat one of your three sandwiches. Thank you.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n13",
+  "start": 68.8,
+  "text": "Then a man runs past. He forgets.",
+  "asr": "Then a man runs past. He forgets.",
+  "caption": "Then a man runs past. He forgets.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n14",
+  "start": 75.4,
+  "text": "The floor tips, and he slides right out of sight.",
+  "asr": "The floor tips, and he slides right out of sight.",
+  "caption": "The floor tips, and he slides right out of sight.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n15",
+  "start": 80.4,
+  "text": "At midnight, the elevator dings.",
+  "asr": "At midnight, the elevator dings.",
+  "caption": "At midnight, the elevator dings.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n16",
+  "start": 83.4,
+  "text": "You both say thank you, and step in.",
+  "asr": "You both say thank you, and step in.",
+  "caption": "You both say thank you, and step in.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "op02",
+  "start": 88.2,
+  "text": "Thank you for choosing Floor Minus. Next stop, minus two.",
+  "asr": "Thank you for choosing Floor Minus. Next stop, minus two.",
+  "caption": "Thank you for choosing Floor Minus. Next stop, minus two.",
+  "voice": "bm_george",
+  "speed": 0.95,
+  "fx": "radio"
+ },
+ {
+  "id": "n17",
+  "start": 97.2,
+  "text": "Floor minus two. Day two.",
+  "asr": "Floor minus two. Day two.",
+  "caption": "Floor minus two. Day two.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n18",
+  "start": 100.2,
+  "text": "Here, the rain falls up.",
+  "asr": "Here, the rain falls up.",
+  "caption": "Here, the rain falls up.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n19",
+  "start": 103.0,
+  "text": "It pools on the ceiling. And the ceiling is getting closer.",
+  "asr": "It pools on the ceiling. And the ceiling is getting closer.",
+  "caption": "It pools on the ceiling. And the ceiling is getting closer.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "nr3",
+  "start": 108.6,
+  "text": "Stay low. The air is at the bottom.",
+  "asr": "Stay low. The air is at the bottom.",
+  "caption": "Stay low. The air is at the bottom.",
+  "voice": "af_bella",
+  "speed": 0.95
+ },
+ {
+  "id": "n20",
+  "start": 112.0,
+  "text": "You crawl under the desks. Your phone light is all you have.",
+  "asr": "You crawl under the desks. Your phone light is all you have.",
+  "caption": "You crawl under the desks. Your phone light is all you have.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n21",
+  "start": 117.8,
+  "text": "Under the last desk, you find a note.",
+  "asr": "Under the last desk, you find a note.",
+  "caption": "Under the last desk, you find a note.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n22",
+  "start": 121.4,
+  "text": "It's in your handwriting.",
+  "asr": "It's in your handwriting.",
+  "caption": "It's in your handwriting.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n23",
+  "start": 124.4,
+  "text": "Don't trust the Operator.",
+  "asr": "Don't trust the Operator.",
+  "caption": "Don't trust the Operator.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n24",
+  "start": 128.0,
+  "text": "You've never been here before. Have you?",
+  "asr": "You've never been here before. Have you?",
+  "caption": "You've never been here before. Have you?",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "op03",
+  "start": 132.6,
+  "text": "Please keep your head above water. Thank you.",
+  "asr": "Please keep your head above water. Thank you.",
+  "caption": "Please keep your head above water. Thank you.",
+  "voice": "bm_george",
+  "speed": 0.95,
+  "fx": "radio"
+ },
+ {
+  "id": "n25",
+  "start": 137.2,
+  "text": "The water is a hand's width from the floor when the elevator dings.",
+  "asr": "The water is a hand's width from the floor when the elevator dings.",
+  "caption": "The water is a hand's width from the floor when the elevator dings.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n26",
+  "start": 144.4,
+  "text": "You roll in. Food: one sandwich left.",
+  "asr": "You roll in. Food: one sandwich left.",
+  "caption": "You roll in. Food: one sandwich left.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "op04",
+  "start": 149.0,
+  "text": "Next stop, minus three. Please be quiet.",
+  "asr": "Next stop, minus three. Please be quiet.",
+  "caption": "Next stop, minus three. Please be quiet.",
+  "voice": "bm_george",
+  "speed": 0.95,
+  "fx": "radio"
+ },
+ {
+  "id": "n27",
+  "start": 158.0,
+  "text": "Floor minus three. Day three.",
+  "asr": "Floor minus three. Day three.",
+  "caption": "Floor minus three. Day three.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n28",
+  "start": 161.2,
+  "text": "The Quiet Floor. Every sound above a whisper turns off a light.",
+  "asr": "The Quiet Floor. Every sound above a whisper turns off a light.",
+  "caption": "The Quiet Floor. Every sound above a whisper turns off a light.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n29",
+  "start": 167.2,
+  "text": "Ten lights. Ten mistakes.",
+  "asr": "Ten lights. Ten mistakes.",
+  "caption": "Ten lights. Ten mistakes.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n30",
+  "start": 172.0,
+  "text": "A creak. Nine.",
+  "asr": "A creak. Nine.",
+  "caption": "A creak. Nine.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "nr4",
+  "start": 175.0,
+  "text": "Walk where I walk.",
+  "asr": "Walk where I walk.",
+  "caption": "Walk where I walk.",
+  "voice": "af_bella",
+  "speed": 0.95
+ },
+ {
+  "id": "n31",
+  "start": 178.2,
+  "text": "Your stomach growls. Eight.",
+  "asr": "Your stomach growls. Eight.",
+  "caption": "Your stomach growls. Eight.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "op05",
+  "start": 183.0,
+  "text": "Hello! How are you enjoying the Quiet Floor?",
+  "asr": "Hello! How are you enjoying the Quiet Floor?",
+  "caption": "Hello! How are you enjoying the Quiet Floor?",
+  "voice": "bm_george",
+  "speed": 0.95,
+  "fx": "radio"
+ },
+ {
+  "id": "n32",
+  "start": 188.6,
+  "text": "The Operator is helping. Loudly. Four lights left.",
+  "asr": "The Operator is helping. Loudly. Four lights left.",
+  "caption": "The Operator is helping. Loudly. Four lights left.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n33",
+  "start": 193.6,
+  "text": "And then, Nora is gone.",
+  "asr": "And then, Nora is gone.",
+  "caption": "And then, Nora is gone.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n34",
+  "start": 197.4,
+  "text": "Ten seconds. You don't dare call her name.",
+  "asr": "Ten seconds. You don't dare call her name.",
+  "caption": "Ten seconds. You don't dare call her name.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n35",
+  "start": 205.4,
+  "text": "Then she's back. Same face. Same smile.",
+  "asr": "Then she's back. Same face. Same smile.",
+  "caption": "Then she's back. Same face. Same smile.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n36",
+  "start": 209.6,
+  "text": "But her scarf is blue.",
+  "asr": "But her scarf is blue.",
+  "caption": "But her scarf is blue.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "nr5",
+  "start": 212.8,
+  "text": "Thank you for waiting.",
+  "asr": "Thank you for waiting.",
+  "caption": "Thank you for waiting.",
+  "voice": "af_bella",
+  "speed": 0.95
+ },
+ {
+  "id": "n37",
+  "start": 216.0,
+  "text": "Nobody says thank you on this floor.",
+  "asr": "Nobody says thank you on this floor.",
+  "caption": "Nobody says thank you on this floor.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n38",
+  "start": 220.0,
+  "text": "The elevator dings. Three lights left.",
+  "asr": "The elevator dings. Three lights left.",
+  "caption": "The elevator dings. Three lights left.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n39",
+  "start": 225.6,
+  "text": "Day three ends. Food: zero.",
+  "asr": "Day three ends. Food: zero.",
+  "caption": "Day three ends. Food: zero.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "op06",
+  "start": 230.0,
+  "text": "Next stop, minus four. Welcome home.",
+  "asr": "Next stop, minus four. Welcome home.",
+  "caption": "Next stop, minus four. Welcome home.",
+  "voice": "bm_george",
+  "speed": 0.95,
+  "fx": "radio"
+ },
+ {
+  "id": "n40",
+  "start": 240.6,
+  "text": "Minus four is your apartment.",
+  "asr": "Minus four is your apartment.",
+  "caption": "Minus four is your apartment.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n41",
+  "start": 244.0,
+  "text": "Your sofa. Your plant. Your mug, still warm.",
+  "asr": "Your sofa. Your plant. Your mug, still warm.",
+  "caption": "Your sofa. Your plant. Your mug, still warm.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n42",
+  "start": 249.6,
+  "text": "And someone is sitting on your sofa.",
+  "asr": "And someone is sitting on your sofa.",
+  "caption": "And someone is sitting on your sofa.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n43",
+  "start": 254.4,
+  "text": "It turns around.",
+  "asr": "It turns around.",
+  "caption": "It turns around.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n44",
+  "start": 257.4,
+  "text": "It's you.",
+  "asr": "It's you.",
+  "caption": "It's you.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "yu1",
+  "start": 260.0,
+  "text": "Took you three days. Sit down. Day four is the worst.",
+  "asr": "Took you three days. Sit down. Day four is the worst.",
+  "caption": "Took you three days. Sit down. Day four is the worst.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "n45",
+  "start": 266.6,
+  "text": "Day four. Next Saturday.",
+  "asr": "Day four. Next Saturday.",
+  "caption": "Day four. Next Saturday.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "sx",
+  "start": 0,
+  "short": true,
+  "text": "What would you do? Full story: Floor Minus, episode one.",
+  "asr": "What would you do? Full story: Floor Minus, episode one.",
+  "caption": "What would you do? Full story: Floor Minus, episode one.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ }
+]

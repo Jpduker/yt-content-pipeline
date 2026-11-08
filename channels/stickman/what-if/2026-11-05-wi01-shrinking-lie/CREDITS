@@ -1,0 +1,6 @@
+The Shrinking Lie (stickman test)
+
+Original: script, characters, stickman rig with IK motion (rig.js), animation (film.js), score (music.py, synthesized: marimba, Karplus-Strong plucks, claps), sound effects (mix.py, synthesized).
+Look inspired in general terms by round-head stickman explainer channels (study only; no frames, characters or scripts copied).
+Drawing helpers: engine/toon.js from lemo-opuscar (MIT). Render/mux tools: lemo-opuscar core/ (MIT).
+Voice: Kokoro-82M (kokoro-onnx), voice am_fenrir, Apache 2.0.  Fonts (OFL 1.1): Alfa Slab One, Jost, Oleo Script.

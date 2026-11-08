@@ -1,0 +1,9 @@
+[
+ {"id": "h",  "start": 0.35, "text": "This message in a bottle is lying.", "kokoro_voice": "am_michael", "speed": 0.98},
+ {"id": "l2", "start": 2.75, "text": "It says: Help! My ship sank yesterday.", "kokoro_voice": "am_michael", "speed": 0.98},
+ {"id": "l3", "start": 5.9,  "text": "Gus took one look at the bottle, and knew.", "kokoro_voice": "am_michael", "speed": 0.96},
+ {"id": "l4", "start": 8.85, "text": "Can you see why?", "kokoro_voice": "am_michael", "speed": 0.95},
+ {"id": "l5", "start": 13.7, "text": "Barnacles. They take weeks to grow.", "kokoro_voice": "am_michael", "speed": 0.96},
+ {"id": "l6", "start": 16.5, "text": "This bottle has been at sea for a month.", "kokoro_voice": "am_michael", "speed": 0.98},
+ {"id": "l7", "start": 19.3, "text": "So who wrote yesterday, and why?", "kokoro_voice": "am_michael", "speed": 0.92}
+]

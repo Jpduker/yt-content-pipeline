@@ -1,0 +1,86 @@
+[
+ {
+  "id": "l1",
+  "start": 0.7,
+  "text": "You stole my heart, but I'll let you keep it,",
+  "asr": "You stole my heart, but I'll let you keep it,",
+  "caption": "You stole my heart, but I'll let you keep it,",
+  "voice": "him",
+  "emotion": 0.6,
+  "cfg": 0.4,
+  "kokoro_voice": "am_echo",
+  "speed": 0.85
+ },
+ {
+  "id": "l2",
+  "start": 4.2,
+  "text": "because some things are worth losing if it's to the right person.",
+  "asr": "because some things are worth losing if it's to the right person.",
+  "caption": "because some things are worth losing if it's to the right person.",
+  "voice": "him",
+  "emotion": 0.6,
+  "cfg": 0.4,
+  "kokoro_voice": "am_echo",
+  "speed": 0.85
+ },
+ {
+  "id": "l3",
+  "start": 8.1,
+  "text": "From the moment you walked in, my world rearranged itself around you,",
+  "asr": "From the moment you walked in, my world rearranged itself around you,",
+  "caption": "From the moment you walked in, my world rearranged itself around you,",
+  "voice": "him",
+  "emotion": 0.6,
+  "cfg": 0.4,
+  "kokoro_voice": "am_echo",
+  "speed": 0.85
+ },
+ {
+  "id": "l4",
+  "start": 13.6,
+  "text": "quietly, completely.",
+  "asr": "quietly, completely.",
+  "caption": "quietly, completely.",
+  "voice": "him",
+  "emotion": 0.6,
+  "cfg": 0.4,
+  "kokoro_voice": "am_echo",
+  "speed": 0.85
+ },
+ {
+  "id": "l5",
+  "start": 16.9,
+  "text": "I didn't choose this, it chose me.",
+  "asr": "I didn't choose this, it chose me.",
+  "caption": "I didn't choose this, it chose me.",
+  "voice": "him",
+  "emotion": 0.6,
+  "cfg": 0.4,
+  "kokoro_voice": "am_echo",
+  "speed": 0.85
+ },
+ {
+  "id": "l6",
+  "start": 20.8,
+  "text": "Every ordinary day with you feels like something out of a story I never want to end,",
+  "asr": "Every ordinary day with you feels like something out of a story I never want to end,",
+  "caption": "Every ordinary day with you feels like something out of a story I never want to end,",
+  "voice": "him",
+  "emotion": 0.6,
+  "cfg": 0.4,
+  "kokoro_voice": "am_echo",
+  "speed": 0.85
+ },
+ {
+  "id": "l7",
+  "start": 29.0,
+  "text": "so keep my heart. I was only ever holding it for you.",
+  "asr": "so keep my heart. I was only ever holding it for you.",
+  "caption": "so keep my heart. I was only ever holding it for you.",
+  "voice": "him",
+  "emotion": 0.6,
+  "cfg": 0.4,
+  "kokoro_voice": "am_echo",
+  "speed": 0.85
+ }
+]

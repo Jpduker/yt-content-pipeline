@@ -1,0 +1,9 @@
+Floor Minus · Episode 1 "Day 1 to Day 3" (+ 3 floor Shorts)
+Original: series, story, script, characters (You, Nora, the Operator, the running man, the other You), sets, animation code (film.js),
+score composition (music.py), sound effects (mix.py, synthesized).
+Stickman rig: rig.js (our own, from WI01). Drawing engine: engine/toon.js copied unchanged from lemo-opuscar (MIT).
+Render, events, TTS and mux tools: lemo-opuscar core/ (MIT), used from the library.
+Voices: Kokoro-82M (kokoro-onnx), Apache 2.0: am_fenrir (narrator, the other You), af_bella (Nora), bm_george (the Operator, speaker-filtered).
+Music samples (played through the lemo-opuscar sampler), CC0 1.0: VS Chamber Orchestra Community Edition (Versilian Studios / Sam Gossner),
+Versilian Community Sample Library, Karoryfer "Sneakybass". No piano / drum_kit (no CC BY lines needed).
+Fonts (SIL OFL 1.1, in fonts/): Alfa Slab One, Jost, Oleo Script.

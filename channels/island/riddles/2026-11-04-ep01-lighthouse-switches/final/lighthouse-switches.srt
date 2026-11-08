@@ -1,0 +1,55 @@
+1
+00:00:00,250 --> 00:00:04,170
+Only one of these switches lights the lamp.
+
+2
+00:00:04,250 --> 00:00:07,667
+And the lamp is 120 steps up.
+
+3
+00:00:08,250 --> 00:00:10,670
+Flip the switches as much as you like.
+
+4
+00:00:10,750 --> 00:00:13,170
+But you can climb the stairs only once.
+
+5
+00:00:13,250 --> 00:00:14,670
+So, which switch is it?
+
+6
+00:00:14,750 --> 00:00:17,417
+Comment your answer!
+
+7
+00:00:21,000 --> 00:00:22,170
+Here's the trick.
+
+8
+00:00:22,250 --> 00:00:25,170
+Turn on switch 1, and wait 5 minutes.
+
+9
+00:00:25,250 --> 00:00:29,667
+Turn it off. Turn on switch 2. Now climb.
+
+10
+00:00:29,750 --> 00:00:31,420
+Lamp on? It's switch 2.
+
+11
+00:00:31,500 --> 00:00:33,170
+Off, but warm? Switch 1.
+
+12
+00:00:33,250 --> 00:00:35,170
+Off and cold? Switch 3.
+
+13
+00:00:35,250 --> 00:00:37,170
+A bulb remembers its heat.
+
+14
+00:00:37,250 --> 00:00:39,920
+Did you get it? Follow for the next riddle.

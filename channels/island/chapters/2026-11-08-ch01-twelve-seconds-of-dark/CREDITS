@@ -1,0 +1,12 @@
+The Keeper's Island · Chapter 1 "Twelve Seconds of Dark" (+ 3 riddle Shorts)
+
+Original: story, three riddles, script, characters (Gus the keeper; Pip, Mabel, Rollo from EP02; NEW: the Harbour Master and
+the Stranger in the yellow coat, cast2.js), sets (sets_ext.js, sets_in.js), animation code (film.js), score composition (music.py),
+sound effects (mix.py, synthesized).
+Drawing engine: engine/toon.js copied unchanged from lemo-opuscar (github.com/lemomo-ai/lemo-opuscar), MIT licence.
+Render, events, TTS and mux tools: lemo-opuscar core/ (MIT), used from the library, not copied.
+Voice: Kokoro-82M (kokoro-onnx), voice am_michael, Apache 2.0.
+Music samples (played by music.py through the lemo-opuscar sampler), all CC0 1.0:
+  VS Chamber Orchestra: Community Edition (Versilian Studios / Sam Gossner) · Versilian Community Sample Library ·
+  Karoryfer Samples "Sneakybass" jazz double bass. (Credit not required; given as thanks.) No piano or drum_kit used (no CC BY lines needed).
+Fonts (SIL Open Font License 1.1, in fonts/): Alfa Slab One, Jost, Oleo Script.

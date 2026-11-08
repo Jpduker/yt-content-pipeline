@@ -1,0 +1,33 @@
+# Decisions log
+Append-only. date · decision · why.
+
+- 2026-11-04 · Code-rendered animation (lemo-opuscar main engine) instead of AI video · free, runs on a 4 GB GTX 1650, Jp liked the result.
+- 2026-11-04 · One self-contained workspace at Downloads\YouTube; tools cloned untouched under tools/, project-scoped skills · versions pinned, nothing global.
+- 2026-11-04 · Run everything (and Claude Code) inside WSL Ubuntu-24.04 · lemo needs a Linux venv layout.
+- 2026-11-04 · Faceless channels only · Jp's preference.
+- 2026-11-04 · Self-improvement through a mandatory /retro after every video, feeding memory/ and workflows/ · Jp asked for a self-improving studio.
+- 2026-11-04 · Skipped: gbro-collage-broll (paid Gemini), onetake (noncommercial licence), hyperframes paid skills; parked HunyuanVideo-Avatar (VRAM, licence).
+- 2026-11-05 · Old Tales of the Island live on channel 1 (narrated in Gus's voice) and foreshadow the serial, instead of a separate fairy-tale channel · one world builds one audience.
+- 2026-11-05 · Stickman "what if" Shorts are a separate channel-2 test (own narrator am_fenrir) · different audience from the island serial.
+- 2026-11-05 · Every episode ships with build.sh + PUBLISH.md + CREDITS · renders locally in one command; uploads need no extra writing.
+- 2026-11-05 · Music sources, in order: (1) our own scores on real sampled instruments (lemo sampler, CC0) — owned outright, no Content ID risk; (2) YouTube Audio Library tracks (filter "attribution not required"; credit CC BY ones); (3) a local generator only after its weight licence is checked. Never rip music from YouTube/Instagram.
+- 2026-11-05 · Installed into tools/ + skills: earshot (MIT), claude-video /watch (MIT), Clipwing real-sfx (no licence file: private use only). Skipped oxbshw watch-skill (overlaps /watch, heavy DeepWatch stack).
+- 2026-11-05 · Caption styles per series: island riddles = kinetic word card; stickman = big outlined karaoke chunks (1–3 words, active word yellow); Old Tales = woodblock cartouche.
+- 2026-11-08 · Workspace organised by channel: channels/<channel>/<series>/<date>-<code>-<slug>/ with final/ as the only home of publishable files; lab/ for style tests; references grouped by source; research/ for NexLev + creator-lab. Removed unused output/ and episodes/ · Jp found output/ vs episodes/ confusing and wants to think per channel.
+- 2026-11-08 · We do NOT reuse another creator's music, poem or storyline (Jp asked for "same music" and to "steal story lines"). We study patterns and compose/write our own: same feel, our work · copyright, Content ID claims and YouTube's reused-content policy would put the channel at risk.
+- 2026-11-08 · creator-lab (MIT) cloned to tools/, keys go in research/creator-lab/.env (git-ignored), run via pipeline/creator-lab.sh in WSL. It only analyses SPOKEN reels (skips <6 spoken words), so music/text reels are studied by hand.
+- 2026-11-08 · New channel path "whispers" (poetic confessions) opened as a study; look = one-line ink + watercolour wash, caption style #5 "ink whisper".
+- 2026-11-08 · Jp's rule: warn about policy risks, never block his ideas. Local tests with commercial music are OK; files live in library/music/local-test-only/ and outputs are named __LOCAL-TEST; replace before upload (or add the song in YouTube's own Shorts editor).
+- 2026-11-08 · creator-lab parked until the channels earn (no paid keys). claude-video-vision kept in tools/ (local Whisper backend only).
+- 2026-11-08 · Next long-forms: Island S1 "The Lamp That Lies" (riddles inside a serial mystery) and stickman "Floor Minus" (Day-counter survival serial) — both from NexLev outlier patterns.
+- 2026-11-08 · Chatterbox approved as the emotional voice engine (WSL GPU); Kokoro fallback.
+- 2026-11-08 · Island Ch1 + Floor Minus Ep1 storylines approved; long-form 16:9 1080p, Shorts 9:16.
+- 2026-11-08 · Whispers uses Vivek's own characters (vivek-cast); Ira/Sol rejected.
+- 2026-11-08 · NexLev numbers must come with channel + video links.
+- 2026-11-08 s2 · Island CH01 built (fair riddles revised: swim-fin prints, intact web + yellow smudge, Old-Tale stone order); Stranger casts no shadow = season clue. Gus narrates first person.
+- 2026-11-08 s2 · Floor Minus: −2's water pools on the ceiling and comes DOWN (stay low); battery counter dropped; Operator = bm_george through a speaker filter.
+- 2026-11-08 s2 · Whispers C01 motion = our own WebGL 2.5D (depth parallax + breathing + masked hair sway + music-energy light); pseudo-depth now, Depth-Anything optional in WSL (prep_wsl.sh). Output stays in out/ with LOCAL-TEST.
+- 2026-11-08 s2 · Spotlight-clay cast v1 (cast.js + collide.js); v3 waits for Jp's approval of the turnarounds.
+- 2026-11-08 · Team: Vivek + JP share one git repo (main only, pull first, push after every change, no AI co-author).
+- 2026-11-08 · Whispers cast folder renamed vivek-cast; the Whispers idea is Vivek's.
+- 2026-11-08 · All new voices use tts_timed.py (word-exact captions).
