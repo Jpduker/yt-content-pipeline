@@ -42,3 +42,5 @@ On-camera presenting, face/avatar content (for now).
 - 2026-11-08 · Didn't feel our generated confession score; wants the real reel tracks (local test).
 - 2026-11-08 · Vivek on C01 v1: characters must move (expressions, talking, small body moves), mix single close-ups with both-in-frame shots; audio and captions must be in sync.
 - 2026-11-08 · Vivek on CH01/FM01: 'more room for improvement on the visuals', 'a lot of visual errors'; disliked the island caption card.
+- 2026-11-08 · Vivek on C01 v2: 'the worst' — the reel audio already contains the narration, a TTS voice on top made it double. Rule: if a supplied track has a voice, use it as-is and cut/caption to it.
+- 2026-11-08 · Vivek: 'Do not try any eye movements… just keep those static images' (face-rig blinks/smiles distorted his storyboard frames). Whispers = his frames shown exactly as drawn.

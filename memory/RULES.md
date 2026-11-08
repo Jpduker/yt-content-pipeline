@@ -25,3 +25,4 @@ Short, proven rules. A rule gets here from Jp's explicit instruction or a learni
 - Policy/licence risks: warn clearly, then do what Jp decides for local tests; label such files LOCAL-TEST and never let them reach a final/ meant for upload.
 - Narrated pieces need captions synced to the voice; no static text blocks.
 - NexLev numbers: always include channel + video URLs.
+- Whispers: never add TTS over a track that already has narration; never deform Vivek's character frames (no blinks/face warps).
