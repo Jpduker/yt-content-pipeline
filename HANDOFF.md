@@ -2,6 +2,19 @@
 Paste into the new session:  **"Read HANDOFF.md in the YouTube folder and work through it in order. Ask me only what it says to ask."**
 
 
+## STATUS AFTER SESSION 5 (2026-11-08 ~23:55, Vivek)
+- Whispers C01 v3 DONE (local test): channels/whispers/confessions/2026-11-08-c01-v3-i-was-holding-it-for-you/ — Vivek's 12 storyboard frames
+  STATIC (Vivek: "do not try any eye movements"), reel audio only (it already has the narration; v2's extra TTS voice was a mistake), cuts +
+  captions on the measured phrases. Waiting on his notes.
+- Island paper-popup test: Vivek did NOT like it ("visuals are not appealing"). He wants **HD-2D** (lemo style hd-2d, demo "The Lampbearer")
+  for the island. NEXT BIG TASK: an HD-2D island riddle test (20–25 s) — measure render speed first; lemo's demo needs its voices/music
+  generated before it runs (it fails with a network error as shipped). Also test 2–3 other lemo styles (suggested: shadow-puppet, crayon-book,
+  isometric-picture-book / lowpoly-island) as short stills/clips for Vivek to compare.
+- Competitor study: research/competitors/2026-11-08-devpsyche-casualfinance.md (formulas + links). Visual style not captured yet (NexLev
+  video tool is paid) → run /watch or claude-video-vision locally in WSL on the two top videos.
+- GIT: commits are made in Vivek's folder as VivekSai07, but the Cowork sandbox shell has NO GitHub login, so pushes fail there and the cloud
+  session has no write access. Vivek: run `git push` in WSL after a session, or give the sandbox a credential (see below). Do not claim a push succeeded.
+
 ## STATUS AFTER SESSION 4 (2026-11-08 ~23:15, Vivek)
 - TEAM: Vivek (VivekSai07, Germany, WSL) + JP (Jpduker, NYC, Mac). Read CLAUDE.md "Team + git" FIRST. Repo: github.com/Jpduker/yt-content-pipeline, main only,
   pull before every prompt, push after every change, no AI co-author lines (hooks in .claude/settings.json enforce pull/push).
