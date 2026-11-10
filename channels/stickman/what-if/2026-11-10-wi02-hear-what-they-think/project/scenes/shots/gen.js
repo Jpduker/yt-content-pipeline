@@ -141,11 +141,12 @@ function scene(g, t, info) {
   if (p.fg) fgBlur(g, p.fg, t, p.fgSide ?? -1, p.fgCol);
   listenVignette(g, thAmt);
   if (p.recall) recall(g, t, p);
-  if (p.readout) UI.readout(g, { value: p.readout, x: E.W / 2, y: E.H * .2, align: 'center', a: ease.out(prog(t, .3, .7)) });
+  if (p.readout) UI.readout(g, { value: p.readout, x: E.W * .92, y: E.H * .19, align: 'right', a: ease.out(prog(t, .3, .7)) });
   overlays(g, t, p);
 }
 function recall(g, t, p) {
-  const L = p.recall.map(id => LINES.find(l => l.id === id)), y0 = E.H * .2;
+  const L = p.recall.map(id => LINES.find(l => l.id === id)), y0 = E.H * .15;
+  { const a = ease.out(prog(t, .1, .5)); rr(g, E.W * .14, y0 - V(50, 60), E.W * .72, V(78, 96) * (L.length - 1) + V(100, 120), 24); g.fillStyle = `rgba(16,8,18,${.55 * a})`; g.fill(); }
   L.forEach((l, i) => { const a = ease.out(prog(t, .2 + i * .35, .7 + i * .35)) * (p.dimOthers && i > 0 ? .35 : 1); if (a <= 0) return;
     text(g, '“' + l.text + '”', E.W / 2, y0 + i * V(78, 96), { size: V(44, 50), font: FONTS.ui, weight: 800, italic: true, color: i === 0 && p.hiFirst ? '#fff6e6' : IVORY, alpha: a, stroke: 6, strokeColor: 'rgba(16,8,18,.7)' }); });
 }

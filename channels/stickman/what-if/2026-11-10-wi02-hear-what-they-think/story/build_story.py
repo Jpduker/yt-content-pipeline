@@ -26,7 +26,7 @@ def sh(a, k, tr='cut', bars=None, cap=True, **p): S.append(dict(a=a, tr=tr, bars
 AM = dict(set='cafe', so=dict(variant='am')); PM = dict(set='cafe', so=dict(variant='pm')); NT = dict(set='cafe', so=dict(variant='night'))
 
 # ---------------- HOOK ----------------
-sh('L001', 'scene', 'fade', set='bedroom', cam=[[760, 600, 1.25], [740, 600, 1.32]], who=[Y(720, pose=[[0, 'lie'], [.45, 'sit']], rot=[[0, -1.5], [.45, 0]], expr=[[0, 'sleepy'], [.5, 'confused']], dy=[[0, 30], [.45, -10]], f=1)], clock='07:42', ft=0)
+sh('L001', 'scene', 'fade', set='bedroom', cam=[[760, 600, 1.25], [740, 600, 1.32]], who=[Y(720, pose=[[0, 'lie'], [.45, 'sit']], rot=[[0, -1.5], [.45, 0]], expr=[[0, 'sleepy'], [.5, 'confused']], dy=[[0, 30], [.45, 19]], f=1)], clock='07:42', ft=0)
 sh('L001:6', 'face', set='bedroom', who='YOU', expr=[[0, 'confused'], [.5, 'thinking']], ring='#f2e6d0', bgCam=[700, 520, 1.5])
 sh('L002', 'scene', 'dip', 'scope', **NT, hub=True, cam=[[960, 600, .9], [960, 610, 1.0]], who=[Y(L, 'sitSmall', 'flat', id='YOU'), Mi(R, 'sitSad', 'sad', id='MIRA_EVE', look=[-.2, .4])], chairs=CH_PM, clock='23:00', sleeve2='#f2c21a')
 sh('L003', 'scene', 'cut', 'scope', **NT, hub=True, cam=two([1060, 640, 1.6]), who=[Y(L, 'sitSmall', [[0, 'flat'], [.55, 'surprised']], id='YOU'), Mi(R, 'sitSad', 'sad', id='MIRA_EVE', look=[-.3, .3])], thoughtX=1180, sleeve2='#f2c21a')
@@ -134,7 +134,9 @@ def anchor_time(a):
     return at(a)
 shots = []
 for i, s in enumerate(S):
-    st = 0 if i == 0 else max(0, anchor_time(s['a']) - .15)
+    an = anchor_time(s['a']); st = 0 if i == 0 else max(0, an - .15)
+    for w in WALL:   # never cut in the middle of a spoken word: move the cut into the gap before the anchor word
+        if w['t0'] + .02 < st < w['t1'] - .02 and w['t1'] <= an + .001: st = w['t1'] + .01
     shots.append([st, s])
 shots.sort(key=lambda x: x[0])
 dur = round(max(l['end'] for l in LINES.values()) + 2.5, 2)
