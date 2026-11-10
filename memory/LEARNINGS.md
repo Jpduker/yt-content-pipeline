@@ -51,3 +51,11 @@ Append-only, newest at the bottom. Format: date · what happened · evidence · 
 - 2026-11-09 · Render speeds (cloud, 2 workers, 1080x1920): three.js toon + bloom ≈ 1.7 s/frame (24 s = 20 min); 2D canvas ≈ 0.04 s/frame; GrowKaz kit 19 s 1080p ≈ 5 min.
 - 2026-11-10 · What-if market: 30+ GrowKaz-look channels launched Sep–Oct 2026; Ifverse's new uploads fell to 10–35K. The look no longer wins alone: idea + emotional payoff + polish do (biggest small-channel hit = 'see how long everyone has left', 1.83M).
 - 2026-11-10 · Git from the device shell works once delete permission is granted for the YouTube folder (lock files), but neither the device shell nor the cloud session can push (no GitHub credentials); push from WSL.
+
+## 2026-11-10 · WI02 (growkaz-ifverse v2, session 7)
+- GrowKaz kit v1.1.0 brow bug: expression brows 'worried' draw as ANGRY and 'angry' as worried (brow() slants the wrong way). Fix without touching the kit: pass `face: { brows: 'angry' }` for sad/worried/nervous/scared faces (see WI02 gen.js fixFace).
+- Kit outfits: `top: 'tshirt'` with no colour defaults to RED (#d64a33). Extras and side characters whose colour item is a hat/headband need `top: 'none'`.
+- bigFace with `head: 'ponytail'` draws a big black blob beside the face; use 'bun' in close-ups.
+- Kit captions group words by index (cross sentences). WI02 _cap.js groups per line + punctuation and skips thought words.
+- Cloud container renders the kit at ~20 fps at 0.5 scale (2 workers); kit's pinned playwright 1.56 needs the pre-installed global playwright symlinked into kit/node_modules.
+- Data-driven shots (one builder file + shots.json params) made 95 shots in one evening; the shot list lives in story/build_story.py, timed to the real voice lines.
