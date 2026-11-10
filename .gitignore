@@ -42,3 +42,9 @@ channels/whispers/characters/vivek-cast/
 channels/whispers/confessions/*/assets/
 # per-machine build markers
 CLOUD-BUILDING
+
+# transfer scratch + third-party plugin unzips (no licence: never commit)
+_xfer/
+lab/*/plugin/
+# downloaded reference clips + extracted frames: study only, other creators footage, heavy -> never commit (re-fetch: sh pipeline/fetch-refs.sh)
+references/videos/*/

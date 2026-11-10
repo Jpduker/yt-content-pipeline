@@ -1,0 +1,12 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Capital-Case-style test (lab)</title>
+<style>@font-face{font-family:'Lora';src:url(fonts/Lora-Variable.ttf);font-weight:400 700;font-display:block}
+@font-face{font-family:'PopM';src:url(fonts/Poppins-Medium.ttf);font-display:block}
+html,body{margin:0;background:#000;overflow:hidden}canvas{display:block}</style></head>
+<body><canvas id="c" width="1920" height="1080"></canvas>
+<script type="module">
+const cv = document.getElementById('c'), g = cv.getContext('2d');
+await document.fonts.load('600 40px Lora'); await document.fonts.load('40px PopM');
+const film = await import('./film.js');
+window.DUR = film.DURATION; window.EV = []; window.render = t => { g.setTransform(1,0,0,1,0,0); film.render(g, t); }; window.READY = true;
+</script></body></html>

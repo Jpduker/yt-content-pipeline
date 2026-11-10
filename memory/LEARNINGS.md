@@ -47,3 +47,5 @@ Append-only, newest at the bottom. Format: date · what happened · evidence · 
 - 2026-11-08 · Kokoro's ONNX graph computes phoneme durations ('/encoder/Gather_output_0'); exposing it as output 'duration' gives kokoro-onnx create_timed() real timings → exact captions + lip sync (pipeline/make_timed_kokoro.py).
 - 2026-11-08 · Keying sheet portraits: flood only from pixels that are almost exactly the backdrop colour (dist<.045), then dilate; global colour distance eats white sleeves.
 - 2026-11-08 · Session-4 render speeds (cloud, 2 workers): C01 v2 WebGL face rig 1137 fr ≈ 13 min; island paper 2D 720 fr ≈ 4 min.
+- 2026-11-09 · Replicating a reference: download it, cut 4 fps sheets + an ffmpeg scene-cut list, then build a ref|ours compare sheet at every beat and iterate camera distances until framing matches (our first guesses were ~2x too close). Afterhour has only 16 hard cuts in 170 s; the rest are continuous camera flights + whips with motion blur.
+- 2026-11-09 · Render speeds (cloud, 2 workers, 1080x1920): three.js toon + bloom ≈ 1.7 s/frame (24 s = 20 min); 2D canvas ≈ 0.04 s/frame; GrowKaz kit 19 s 1080p ≈ 5 min.

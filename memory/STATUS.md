@@ -14,3 +14,11 @@ Updated: 2026-11-08 ~23:15 (session 4, Vivek). **Next session: CLAUDE.md "Team +
 2. Strict review of the island style test + C01 v2.
 3. Which audit items to fix first in FM01; CH01 gets rebuilt in the approved island look.
 4. Chatterbox repair (WSL); YouTube channels → Audio Library.
+
+## Session 5 (2026-11-09 night, Vivek): stickman channel for the Nov 11 launch
+- Afterhour replica v2 rebuilt frame-matched to the downloaded short: lab/2026-11-09-afterhour-replica-v2 (out/ has the replica + a ref|ours side-by-side, LOCAL study only).
+- Style tests built: Ricks (lab/2026-11-09-ricks-style-test), Ifverse via GrowKaz kit (lab/2026-11-09-growkaz-plugin-test), Capital Case (lab/2026-11-09-capitalcase-style-test).
+- All four are silent lab tests (cloud can't run Kokoro): voice + music get added in WSL once a style is picked.
+- Not pushed yet: run `sh pipeline/sync.sh && sh pipeline/push.sh "stickman style tests"` in WSL (the device shell can't delete git lock files).
+## Next up
+1. Vivek/JP pick the launch style from the four tests → build the first full video in it (voice, music, Shorts).

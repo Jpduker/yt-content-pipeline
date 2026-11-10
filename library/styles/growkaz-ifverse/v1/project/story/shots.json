@@ -1,0 +1,97 @@
+{
+ "title": "What If You Could Stop Time For 10 Seconds?",
+ "duration": 19.0,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 3.6,
+   "line": "What if you could stop time for ten seconds?",
+   "scene": "",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "notes": "",
+   "captions": true
+  },
+  {
+   "id": "s002",
+   "start": 3.6,
+   "end": 5.4,
+   "line": "Your friend's coffee is already falling.",
+   "scene": "",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "notes": "",
+   "captions": true
+  },
+  {
+   "id": "s003",
+   "start": 5.4,
+   "end": 7.0,
+   "line": "You snap your fingers.",
+   "scene": "",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "notes": "",
+   "captions": true
+  },
+  {
+   "id": "s004",
+   "start": 7.0,
+   "end": 11.2,
+   "line": "And everything just stops.",
+   "scene": "",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "notes": "",
+   "captions": true
+  },
+  {
+   "id": "s005",
+   "start": 11.2,
+   "end": 14.6,
+   "line": "You have ten seconds. The world has zero.",
+   "scene": "",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "notes": "",
+   "captions": true
+  },
+  {
+   "id": "s006",
+   "start": 14.6,
+   "end": 19.0,
+   "line": "What if you could stop time?",
+   "scene": "",
+   "bars": "scope",
+   "in": {
+    "type": "fade",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "notes": "",
+   "captions": false
+  }
+ ],
+ "music": []
+}

@@ -29,3 +29,4 @@ Claude builds a custom style folder here (`library/styles/<name>/STYLE.md`) from
 |---|---|---|
 | Island stickman (round-head ink stickmen + IK motion, flat pastel sets, white caption card) | channels/stickman/what-if/2026-11-05-wi01-shrinking-lie/rig.js + film.js | test (channel 2) |
 | spotlight-clay (dark spotlit stage, clay stickmen, one accent colour, typewriter captions) | library/styles/spotlight-clay/STYLE.md | draft: learned from @neuronvisuals, needs a proof shot |
+| growkaz-ifverse v1 / toon3d-afterhour v1 / toon3d-palace v1 / flat2d-history v1 | library/styles/STYLES.md (frozen, version-numbered) | frozen 2026-11-10; growkaz-ifverse = What-If launch style |
