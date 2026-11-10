@@ -1,6 +1,6 @@
 // WI02 shot builders. Every shot in story/shots.json carries params.k (builder) + data; this file draws them.
 // Automatic from the voice timeline: lip-sync for spoken lines, thought threads (style v2 motif) for "-T" lines.
-import { E, V, S, registerShot, mood, layer, blurLayer, veil, backdrop, ease, prog, key, clamp, lerp, seg, circle, ring, rr, poly, glow, alpha, shade, text, talkAmount, FONTS } from '/engine/core.js';
+import { E, V, S, registerShot, mood, layer, blurLayer, veil, backdrop, ease, prog, key, clamp, lerp, seg, circle, ring, rr, poly, glow, alpha, shade, text, talkAmount, FONTS, radGrad } from '/engine/core.js';
 import { drawFigure, POSES, posesAt, breathe, walkPose, bigFace, headPos } from '/engine/rig2d.js';
 import * as FX from '/engine/fx2d.js';
 import * as UI from '/engine/ui2d.js';
@@ -46,6 +46,23 @@ function poseSeq(seq, t, dur, seed) {
 // ---------- voice timeline ----------
 const linesIn = (a, b) => LINES.filter(l => l.end > a && l.start < b);
 function talkFor(id, gt) { const tag = TAGOF(id); for (const l of LINES) if (!l.thought && l.tag === tag && gt > l.start - .05 && gt < l.end + .05) return talkAmount(gt, l.start, l.end); return 0; }
+// v3 thought language (Vivek + Codex, 2026-11-10): no ribbon. A faint ivory "echo" outline slips off the THINKER's head and settles back,
+// the background softens a little, edges darken; the words appear in the caption line in the thought style (_cap.js).
+// Strong the first time (barista), fading as viewers learn the rule; none on "I miss him".
+export const ECHO = { L003: .2, L008: 1, L016: .8, L019: .75, L024: .55, L028: .5, L039: .45, L041: .4, L049: .4, L052: .35, L055: .3, L057: .3, L066: 0, L081: .3, L083: .3, L088: .25, L096: .2 };
+const IVORY = '#efe6d6';
+function thoughtEnv(gt) { const l = LINES.find(l => l.thought && gt > l.start - .35 && gt < l.end + .5); if (!l) return [null, 0];
+  const e = Math.min(ease.inOut(prog(gt, l.start - .35, l.start + .05)), 1 - ease.inOut(prog(gt, l.end + .05, l.end + .5))); return [l, e * (ECHO[l.id] ?? .3)]; }
+function echo(g, x, y, r, line, gt, side = 1) {
+  const k = ECHO[line.id] ?? .3; if (k <= 0) return;
+  const q = prog(gt, line.start - .12, line.start + .6); if (q <= 0 || q >= 1) return;
+  const a = Math.sin(Math.PI * q) * k, off = Math.sin(Math.PI * q) * r * .16;
+  g.save(); g.globalAlpha *= a; g.strokeStyle = IVORY; g.lineWidth = Math.max(2, r * .06);
+  g.beginPath(); g.arc(x + side * off, y - off * .35, r * 1.04, 0, Math.PI * 2); g.stroke();
+  g.globalAlpha *= .45; g.lineWidth = Math.max(1.5, r * .035); g.beginPath(); g.arc(x + side * off * 1.9, y - off * .7, r * 1.08, 0, Math.PI * 2); g.stroke();
+  g.restore();
+}
+function listenVignette(g, amt) { if (amt <= .01) return; g.save(); g.fillStyle = radGrad(g, E.W / 2, E.H * .48, E.H * .35, E.W * .75, ['rgba(10,4,12,0)', `rgba(10,4,12,${.42 * amt})`]); g.fillRect(0, 0, E.W, E.H); g.restore(); }
 function thoughtNow(gt) { return LINES.find(l => l.thought && gt > l.start - .25 && gt < l.end + 1.1); }
 
 // ---------- motif: thought threads ----------
@@ -93,7 +110,9 @@ function scene(g, t, info) {
   const p = info, dur = info.dur, k = ease.inOut(clamp(t / dur)), gt = info.globalT, frozen = !!p.freeze;
   const c0 = p.cam?.[0] || [960, 560, .75], c1 = p.cam?.[1] || [c0[0] - 20, c0[1], c0[2] * 1.03];
   const cam = lerpCam(F(...c0), F(...c1), k); if (p.roll) cam.r = p.roll;
-  const S0 = SETS[p.set](g, frozen ? (p.ft ?? 0) : t, cam, { ...(p.so || {}), frozen, counterAt1: p.set === 'cafe' });
+  const [thL, thAmt] = frozen ? [null, 0] : thoughtEnv(gt); let S0;
+  const drawSet = g => { S0 = SETS[p.set](g, frozen ? (p.ft ?? 0) : t, cam, { ...(p.so || {}), frozen, counterAt1: p.set === 'cafe' }); };
+  if (thAmt > .03) blurLayer(g, 7 * thAmt, drawSet); else drawSet(g);
   const { GY, CX, M } = S0, rim = { color: (S0.MI || M).rim, dir: p.rimDir || [0, -1], w: 4 }, figs = {};
   layer(g, cam, 1, g => {
     if (p.hub) { chair(g, CX + 210, GY, -1); chair(g, CX - 210, GY, 1); }
@@ -113,19 +132,22 @@ function scene(g, t, info) {
     if (p.hub) { const top = table(g, CX, GY); cup(g, CX - 40, top, 1.2, { sleeve: p.sleeve }); cup(g, CX + 60, top, 1.2, { sleeve: p.sleeve2 }); steam(g, CX - 40, top - 40, t, .3, frozen); steam(g, CX + 60, top - 40, t + .4, .3, frozen); if (p.napkin) napkinOnTable(g, CX + (p.napkinX ?? -70), top, p.napkin); }
     if (p.long) { const top = longTable(g, CX - 560, CX + 560, GY); for (const x of [CX - 380, CX - 140, CX + 160, CX + 420]) { rr(g, x - 50, top - 14, 100, 14, 4); g.fillStyle = '#d8d0c8'; g.fill(); } if (p.napkin) napkinOnTable(g, CX - 90, top, p.napkin); }
     if (p.set === 'cafe') cafeCounter(g, frozen ? 0 : t, GY, S0.M, { ...(p.so || {}), frozen });
-    // thought threads (auto): thinker in frame → hero
-    const th = thoughtNow(gt); const hero = figs[p.hero || 'YOU'];
-    if (th && !p.noThread && figs[th.tag] && hero && th.end > info.globalT - info.p * dur - .5) {
-      const a = figs[th.tag], b = [hero.hx, hero.hy];
-      thread(g, [a.hx, a.hy - a.hr * 1.2], b, th, gt, { arc: p.arc ?? 230 });
-    }
+    // thought echo on the thinker (if in frame)
+    if (thL && figs[thL.tag]) { const a = figs[thL.tag]; echo(g, a.hx, a.hy, a.hr, thL, gt, -a.facing); }
   });
   if (frozen) { FX.drops(g, t, { count: 34, color: '#d8e4ff', rMax: 6, drift: 1.5 }); freezeTint(g); }
   FX.dust(g, frozen ? 0 : t, { count: 36, color: '#ffe2bd', a: .3 });
   if (p.streak) FX.lensStreak(g, E.W / 2, E.H * .32, E.W * 1.2, '#ffe0b0', .16);
   if (p.fg) fgBlur(g, p.fg, t, p.fgSide ?? -1, p.fgCol);
+  listenVignette(g, thAmt);
+  if (p.recall) recall(g, t, p);
   if (p.readout) UI.readout(g, { value: p.readout, x: E.W / 2, y: E.H * .2, align: 'center', a: ease.out(prog(t, .3, .7)) });
   overlays(g, t, p);
+}
+function recall(g, t, p) {
+  const L = p.recall.map(id => LINES.find(l => l.id === id)), y0 = E.H * .2;
+  L.forEach((l, i) => { const a = ease.out(prog(t, .2 + i * .35, .7 + i * .35)) * (p.dimOthers && i > 0 ? .35 : 1); if (a <= 0) return;
+    text(g, '“' + l.text + '”', E.W / 2, y0 + i * V(78, 96), { size: V(44, 50), font: FONTS.ui, weight: 800, italic: true, color: i === 0 && p.hiFirst ? '#fff6e6' : IVORY, alpha: a, stroke: 6, strokeColor: 'rgba(16,8,18,.7)' }); });
 }
 function overlays(g, t, p) {
   cap(g, p.globalT);
@@ -149,13 +171,10 @@ function face(g, t, info) {
   bust(g, cx, cy + bob, r, p.who, { expr: ex, talk, blink: (t % 3.3) > 3.15, look: lk, rimColor: M.rim, rimSide: side, tilt, t });
   if (talk > .05) FX.rings(g, cx + side * r * 1.05, cy, t, { count: 2, r0: 30, r1: 140, color: '#fff1e6', a: .3 });
   if (p.tear) { const q = prog(t, p.tear, p.tear + 1.2); if (q > 0) circle(g, cx + side * r * .28, cy - r * .02 + q * r * .45, 9, 'rgba(200,225,255,.85)'); }
-  const th = thoughtNow(gt);
-  if (th && !p.noThread) {
-    const mine = TAGOF(p.who) === th.tag, hero = ['YOU', 'YOU_TEE'].includes(p.who);
-    if (hero && !mine) thread(g, [cx + side * E.W * .62, cy - r * 1.3], [cx + side * r * .98, cy], th, gt, { arc: 120, tx: cx + side * r * 1.45, ty: E.H * .3, ringR: 160, wrap: 16 });
-    else if (mine) thread(g, [cx - side * r * .2, cy - r * 1.02], [cx - side * E.W * .62, cy - r * .9], th, gt, { arc: 160, tx: cx - side * r * 1.45, ty: E.H * .3, noRing: true, wrap: 16 });
-  }
-  if (p.ring) FX.rings(g, cx + side * r, cy, t, { count: 3, r0: 30, r1: 200, speed: 1.4, color: p.ring, a: .5, w: 3 });
+  const [thL, thAmt] = frozen ? [null, 0] : thoughtEnv(gt);
+  if (thL && TAGOF(p.who) === thL.tag) echo(g, cx, cy + bob, r, thL, gt, -side);
+  listenVignette(g, thAmt * .8);
+  if (p.ring) FX.rings(g, cx + side * r, cy, t, { count: 2, r0: 30, r1: 160, speed: .9, color: IVORY, a: .28, w: 2 });
   if (p.bubbles) for (let i = 0; i < 3; i++) { const q = prog(t, .3 + i * .45, .55 + i * .45), q2 = prog(t, .8 + i * .45, 1 + i * .45); if (q > 0 && q2 < 1) { const bx = cx + side * (r * 1.1 + i * 110), by = cy - r * 1.1 - i * 30; UI.bubble(g, bx, by, { w: 110 * ease.outBack(q), h: 64 * ease.outBack(q), str: String(i + 1) }); } }
   if (frozen) { FX.drops(g, t, { count: 30, color: '#d8e4ff', rMax: 6, drift: 1.2 }); freezeTint(g); }
   FX.dust(g, t, { count: 24, color: '#ffe2bd', a: .25 });

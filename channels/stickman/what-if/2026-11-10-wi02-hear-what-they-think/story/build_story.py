@@ -36,8 +36,7 @@ sh('L005', '3d', 'flash', 'scope', cap=False, id3='t3dawn', titleCard=True, sfx=
 S[-1]['a'] = 'L004+'  # title sits in the gap after L004 (see below)
 sh('L005', 'scene', 'cut', **AM, cam=[[300, 560, .74], [360, 560, .78]], who=EXTRAS_AM + [dict(id='BARISTA', x=-470, pose='holdFront', f=1, expr='neutral', prop='cup'), Y(-40, 'stand', 'happy', f=-1, walk=[-1000, -40, 0, .7])], chairs=CH_AM, clock='08:15', streak=True)
 sh('L006', 'scene', fg='shoulder', fgSide=1, fgCol='#3fb950', **AM, cam=two([-300, 560, 1.7]), who=[dict(id='BARISTA', x=-470, pose='holdFront', f=1, expr='neutral', prop='cup'), Y(-40, 'explain', 'happy', f=-1)])
-sh('L007', 'face', **AM, who='BARISTA', expr='smile', look=[[0, [.1, 0]], [.4, [.4, .1]]], side=-1, bgCam=[-300, 560, 1.6])
-sh('L008', 'scene', **AM, cam=two([-260, 560, 1.55]), who=[dict(id='BARISTA', x=-470, pose='holdFront', f=1, expr='smile', prop='cup'), Y(-40, 'talk', 'happy', f=-1)], arc=170, thoughtX=-260, thoughtY=270)
+sh('L007', 'face', **AM, who='BARISTA', expr=[[0, 'smile'], [.45, 'pressed'], [.75, 'smile']], look=[[0, [.1, 0]], [.3, [.4, .1]]], side=-1, bgCam=[-300, 560, 1.6], push=.08)
 sh('L009', 'face', **AM, who='YOU', expr=[[0, 'happy'], [.28, 'pressed']], look=[[0, [0, 0]], [.3, [-.5, .4]]], side=-1, bgCam=[-200, 560, 1.6], push=.04)
 sh('L010', 'face', **AM, who='BARISTA', expr=[[0, 'pressed'], [.3, 'sleepy'], [.6, 'smile']], side=-1, bgCam=[-300, 560, 1.6])
 sh('L011', 'face', **AM, who='YOU', expr='awe', side=-1, ring='#e8743b', push=.12)
@@ -48,8 +47,8 @@ sh('L015', 'scene', **AM, hub=True, cam=two(), who=[Y(L, 'sitHands', 'happy'), M
 sh('L016', 'scene', fg='shoulder', fgSide=1, fgCol='#f2c21a', **AM, hub=True, cam=two([880, 640, 1.6]), who=[Y(L, 'sitHands', [[0, 'happy'], [.45, 'confused']]), Mi(R, 'sitTalk', 'smirk')], thoughtX=960, thoughtY=260)
 sh('L017', 'face', **AM, who='YOU', expr='flat', look=[.4, 0], side=1, bob=.3)
 sh('L018', 'scene', **AM, hub=True, cam=two([1120, 640, 1.9]), who=[Y(L, 'sitHands', 'neutral'), Mi(R, 'sitHands', [[0, 'neutral'], [.5, 'smile']], look=[-.4, .1])], thoughtX=1000, thoughtY=290)
-sh('L020', 'scene', 'flash', 'scope', **AM, hub=True, freeze=True, hero='YOU', cam=two(W2S, (0, 0, .04)), who=[Y(L, 'sitHands', 'thinking', look=[[0, [.2, -.4]], [.5, [.5, -.4]]]), Mi(R, 'sitHands', 'smile')], readout='3 s', sfx=[(0, 'freeze', -6)])
-sh('L021', 'scene', **AM, hub=True, cam=two([800, 640, 1.9]), who=[Y(L, 'sitSmall', 'worried'), Mi(R, 'sitHands', 'smile')])
+sh('L020', 'scene', 'flash', 'scope', **AM, hub=True, freeze=True, hero='YOU', cam=two(W2S, (0, 0, .04)), who=[Y(L, 'sitHands', 'thinking', look=[[0, [.2, -.4]], [.5, [.5, -.4]]]), Mi(R, 'sitHands', 'smile')], readout='3 s', recall=['L016', 'L019'], sfx=[(0, 'freeze', -6)])
+sh('L021', 'scene', **AM, hub=True, cam=two([800, 640, 1.9]), who=[Y(L, 'sitSmall', 'worried'), Mi(R, 'sitHands', 'smile')], recall=['L016', 'L019'], dimOthers=True, hiFirst=True)
 # ---------------- ACT 2 ----------------
 sh('L022', 'scene', 'dip', set='office', cam=[[960, 560, .74], [990, 560, .78]], who=[Y(490, 'sit', 'neutral'), dict(id='BOSS', x=1290, pose='stand', f=-1, expr='neutral'), dict(id='COLL', x=1800, pose='sit', f=-1, expr='neutral', seed=4)], chairs=[[490, 1], [1800, -1]], clock='10:30')
 sh('L023', 'scene', set='office', cam=two([900, 620, 1.3]), who=[Y(490, 'sit', 'thinking'), dict(id='BOSS', x=1290, pose=[[0, 'stand'], [.3, 'point'], [.8, 'explain']], f=-1, expr='happy', walk=[1420, 1290, 0, .3])], chairs=[[490, 1]])
@@ -99,6 +98,7 @@ sh('L061', 'face', **NT, who='MIRA_EVE', expr='confused', side=-1, tilt=.08, loo
 sh('L062', 'scene', **NT, hub=True, cam=two(), who=[Y(L, 'sitSmall', 'happy', id='YOU'), Mi(R, 'sitLean', 'worried', id='MIRA_EVE')], sleeve2='#f2c21a')
 sh('L064', 'scene', fg='shoulder', fgSide=-1, fgCol='#3fb950', **NT, hub=True, cam=two([1150, 640, 1.8]), who=[Mi(R, 'sitHands', 'worried', id='MIRA_EVE')], sleeve2='#f2c21a')
 sh('L065', 'face', **NT, who='MIRA_EVE', expr='sad', side=-1, look=[-.3, .3], push=.08)
+sh('L066+', 'face', **NT, who='YOU', expr=[[0, 'flat'], [.45, 'surprised']], side=1, push=.02, bob=.3)
 sh('L067', 'scene', **NT, hub=True, cam=two([760, 620, 1.3]), who=[Y(L, [[0, 'sitSmall'], [.25, {'head': [-10, -178], 'sh': [-4, -146], 'hip': [0, -72], 'eF': [16, -110], 'hF': [38, -84], 'eB': [10, -110], 'hB': [30, -84], 'kF': [44, -74], 'fF': [46, 0], 'kB': [40, -72], 'fB': [38, 0]}], [.8, 'sitSmall']], 'confused', id='YOU', hf=[[0, 1], [.28, -1], [.75, 1]], look=[[0, [.3, 0]], [.28, [.6, 0]], [.75, [.3, .2]]])])
 sh('L069', 'face', **NT, who='YOU', expr=[[0, 'surprised'], [.4, 'sad']], side=1, tear=.6)
 sh('L070', 'topdown', bars='none')
@@ -169,7 +169,9 @@ for o in out:
 for l in LINES.values():
     if l['thought']:
         sfx_t = round(l['start'] - .25, 3); o = next(o for o in out if o['start'] <= sfx_t < o['end'])
-        o['sfx'].append({'at': round(sfx_t - o['start'], 3), 'name': 'shimmer', 'gain': -17 if l['id'] not in ('L003', 'L066') else -12})
+        ECHO = {'L003': .2, 'L008': 1, 'L016': .8, 'L019': .75, 'L024': .55, 'L028': .5, 'L039': .45, 'L041': .4, 'L049': .4, 'L052': .35, 'L055': .3, 'L057': .3, 'L066': 0, 'L081': .3, 'L083': .3, 'L088': .25, 'L096': .2}
+        k = ECHO.get(l['id'], .3)
+        if k > .1: o['sfx'].append({'at': round(sfx_t - o['start'], 3), 'name': 'shimmer', 'gain': round(-24 + 8 * k, 1)})
 def cue(lid, name, gain, off=0):
     t = LINES[lid]['start'] + off; o = next(o for o in out if o['start'] <= t < o['end']); o['sfx'].append({'at': round(t - o['start'], 3), 'name': name, 'gain': gain})
 cue('L066', 'heartbeat', -9, .9); cue('L005', 'ding', -16, .3); cue('L014', 'ding', -16, .2); cue('L047', 'ding', -18, .1); cue('L004', 'riser', -14, -.6)
