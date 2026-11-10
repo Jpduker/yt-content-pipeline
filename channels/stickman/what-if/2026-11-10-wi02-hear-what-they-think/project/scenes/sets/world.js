@@ -82,7 +82,7 @@ export function cafe(g, t, cam, o = {}) {
     for (const x of [-180, 1960]) { rr(g, x - 30, GY - 160, 60, 160, 14); g.fillStyle = '#3a2a2a'; g.fill(); for (let k = 0; k < 7; k++) circle(g, x - 40 + (k * 31) % 80, GY - 210 - (k * 47) % 110, 34, k % 2 ? '#2f4a36' : '#26402f'); }  // plants
     for (const x of [-60, 960, 1980]) pendant(g, x, GY - 560, MI, lamps);
     if (!o.noSide) { table(g, 1740, GY); table(g, 200, GY); cup(g, 1700, GY - 176, 1.1); cup(g, 230, GY - 176, 1.1); }
-    if (o.chairsUp) { const k = o.chairsUp; for (const x of [200, 1740]) { seg(g, [[x - 90, GY - 174], [x - 90 + 10 * k, GY - 174 - 120 * k]], 7, '#24181e'); seg(g, [[x + 90, GY - 174], [x + 90 - 10 * k, GY - 174 - 120 * k]], 7, '#24181e'); } }
+    if (o.chairsUp) { const k = o.chairsUp * Math.min(1, Math.max(0, (t - 1) / 2.5)); for (const x of [200, 1740]) { seg(g, [[x - 90, GY - 174], [x - 90 + 10 * k, GY - 174 - 120 * k]], 7, '#24181e'); seg(g, [[x + 90, GY - 174], [x + 90 - 10 * k, GY - 174 - 120 * k]], 7, '#24181e'); } }
   });
   return { GY, CX, M, MI, spots: { seatL: CX - 210, seatR: CX + 210, barista: -470, door: -1060, x1: 200 - 200, x2: 1740 - 200, x3: 1740 + 200 } };
 }

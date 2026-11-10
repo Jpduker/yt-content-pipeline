@@ -339,488 +339,488 @@
   "id": "L043",
   "tag": "N",
   "thought": false,
-  "text": "You've already taken it off.",
+  "text": "You're already wondering if you should take it off.",
   "start": 111.147,
-  "end": 112.78
+  "end": 113.782
  },
  {
   "id": "L044",
   "tag": "N",
   "thought": false,
   "text": "At six, Mira texts.",
-  "start": 113.98,
-  "end": 115.488
+  "start": 114.982,
+  "end": 116.49
  },
  {
   "id": "L045",
   "tag": "N",
   "thought": false,
   "text": "Coffee? Rough day.",
-  "start": 115.788,
-  "end": 117.009
+  "start": 116.79,
+  "end": 118.012
  },
  {
   "id": "L046",
   "tag": "N",
   "thought": false,
   "text": "You get there first. Buy her favourite. Choose the quiet table. Rehearse three things to say.",
-  "start": 117.309,
-  "end": 122.912
+  "start": 118.312,
+  "end": 123.914
  },
  {
   "id": "L047",
   "tag": "N",
   "thought": false,
   "text": "She arrives without her usual yellow jacket.",
-  "start": 123.212,
-  "end": 126.045
+  "start": 124.214,
+  "end": 127.048
  },
  {
   "id": "L048",
   "tag": "N",
   "thought": false,
   "text": "You almost ask why.",
-  "start": 126.345,
-  "end": 127.756
+  "start": 127.348,
+  "end": 128.758
  },
  {
   "id": "L049",
   "tag": "MIRA",
   "thought": true,
   "text": "He's going to ask about the interview.",
-  "start": 128.176,
-  "end": 130.596
+  "start": 129.178,
+  "end": 131.598
  },
  {
   "id": "L050",
   "tag": "N",
   "thought": false,
   "text": "So you don't.",
-  "start": 131.016,
-  "end": 131.971
+  "start": 132.018,
+  "end": 132.973
  },
  {
   "id": "L051",
   "tag": "N",
   "thought": false,
   "text": "You talk about a film instead.",
-  "start": 132.271,
-  "end": 133.975
+  "start": 133.273,
+  "end": 134.978
  },
  {
   "id": "L052",
   "tag": "MIRA",
   "thought": true,
   "text": "Please don't make me do small talk.",
-  "start": 134.395,
-  "end": 136.808
+  "start": 135.398,
+  "end": 137.81
  },
  {
   "id": "L053",
   "tag": "N",
   "thought": false,
   "text": "You stop.",
-  "start": 137.228,
-  "end": 138.109
+  "start": 138.23,
+  "end": 139.112
  },
  {
   "id": "L054",
   "tag": "N",
   "thought": false,
   "text": "She fiddles with the cardboard sleeve on her cup.",
-  "start": 138.409,
-  "end": 141.214
+  "start": 139.412,
+  "end": 142.216
  },
  {
   "id": "L055",
   "tag": "MIRA",
   "thought": true,
   "text": "Say something.",
-  "start": 141.634,
-  "end": 143.109
+  "start": 142.636,
+  "end": 144.112
  },
  {
   "id": "L056",
   "tag": "N",
   "thought": false,
   "text": "You start.",
-  "start": 143.529,
-  "end": 144.433
+  "start": 144.532,
+  "end": 145.436
  },
  {
   "id": "L057",
   "tag": "MIRA",
   "thought": true,
   "text": "Not a joke.",
-  "start": 144.853,
-  "end": 146.347
+  "start": 145.856,
+  "end": 147.35
  },
  {
   "id": "L058",
   "tag": "N",
   "thought": false,
   "text": "You swallow the joke.",
-  "start": 146.767,
-  "end": 148.08
+  "start": 147.77,
+  "end": 149.083
  },
  {
   "id": "L059",
   "tag": "N",
   "thought": false,
   "text": "For the next ten minutes, you choose every sentence before she can dislike it.",
-  "start": 148.38,
-  "end": 152.817
+  "start": 149.383,
+  "end": 153.819
  },
  {
   "id": "L060",
   "tag": "N",
   "thought": false,
   "text": "You agree when she criticises the film you loved. Pretend you aren't hungry when she doesn't want dinner. Start laughing, then stop halfway through.",
-  "start": 153.117,
-  "end": 162.222
+  "start": 154.119,
+  "end": 163.225
  },
  {
   "id": "L061",
   "tag": "N",
   "thought": false,
   "text": "Mira watches you.",
-  "start": 162.522,
-  "end": 163.721
+  "start": 163.525,
+  "end": 164.723
  },
  {
   "id": "L062",
   "tag": "MIRA",
   "thought": false,
   "text": "You okay?",
-  "start": 164.141,
-  "end": 164.872
+  "start": 165.143,
+  "end": 165.875
  },
  {
   "id": "L063",
   "tag": "YOU",
   "thought": false,
   "text": "Of course.",
-  "start": 165.292,
-  "end": 166.202
+  "start": 166.295,
+  "end": 167.204
  },
  {
   "id": "L064",
   "tag": "MIRA",
   "thought": false,
   "text": "You're being really\u2026 careful.",
-  "start": 166.622,
-  "end": 168.158
+  "start": 167.624,
+  "end": 169.16
  },
  {
   "id": "L065",
   "tag": "N",
   "thought": false,
   "text": "Then you hear it.",
-  "start": 168.578,
-  "end": 169.686
+  "start": 169.58,
+  "end": 170.688
  },
  {
   "id": "L066",
   "tag": "MIRA",
   "thought": true,
   "text": "I miss him.",
-  "start": 170.106,
-  "end": 171.471
+  "start": 171.108,
+  "end": 172.473
  },
  {
   "id": "L067",
   "tag": "N",
   "thought": false,
   "text": "You look behind you.",
-  "start": 172.891,
-  "end": 174.08
+  "start": 173.893,
+  "end": 175.082
  },
  {
   "id": "L068",
   "tag": "N",
   "thought": false,
   "text": "Nobody.",
-  "start": 174.88,
-  "end": 175.693
+  "start": 175.882,
+  "end": 176.696
  },
  {
   "id": "L069",
   "tag": "N",
   "thought": false,
   "text": "She means you.",
-  "start": 176.693,
-  "end": 177.692
+  "start": 177.696,
+  "end": 178.695
  },
  {
   "id": "L070",
   "tag": "N",
   "thought": false,
   "text": "You're less than a metre away.",
-  "start": 178.392,
-  "end": 180.074
+  "start": 179.395,
+  "end": 181.076
  },
  {
   "id": "L071",
   "tag": "N",
   "thought": false,
   "text": "Your napkin is covered in instructions.",
-  "start": 180.374,
-  "end": 182.696
+  "start": 181.376,
+  "end": 183.698
  },
  {
   "id": "L072",
   "tag": "N",
   "thought": false,
   "text": "For the first time today, none of them helps.",
-  "start": 182.996,
-  "end": 185.583
+  "start": 183.998,
+  "end": 186.585
  },
  {
   "id": "L073",
   "tag": "MIRA",
   "thought": false,
   "text": "Did something happen?",
-  "start": 186.003,
-  "end": 187.176
+  "start": 187.005,
+  "end": 188.178
  },
  {
   "id": "L074",
   "tag": "N",
   "thought": false,
   "text": "You could invent the answer she wants.",
-  "start": 187.596,
-  "end": 189.634
+  "start": 188.598,
+  "end": 190.636
  },
  {
   "id": "L075",
   "tag": "N",
   "thought": false,
   "text": "Instead, you put the napkin between you.",
-  "start": 189.934,
-  "end": 192.285
+  "start": 190.936,
+  "end": 193.288
  },
  {
   "id": "L076",
   "tag": "YOU",
   "thought": false,
   "text": "I've spent all day trying not to annoy anyone.",
-  "start": 192.705,
-  "end": 195.642
+  "start": 193.708,
+  "end": 196.644
  },
  {
   "id": "L077",
   "tag": "N",
   "thought": false,
   "text": "She reads it.",
-  "start": 196.062,
-  "end": 197.039
+  "start": 197.064,
+  "end": 198.042
  },
  {
   "id": "L078",
   "tag": "MIRA",
   "thought": false,
   "text": "Even me?",
-  "start": 197.459,
-  "end": 198.202
+  "start": 198.462,
+  "end": 199.205
  },
  {
   "id": "L079",
   "tag": "N",
   "thought": false,
   "text": "You nod.",
-  "start": 198.622,
-  "end": 199.404
+  "start": 199.625,
+  "end": 200.406
  },
  {
   "id": "L080",
   "tag": "N",
   "thought": false,
   "text": "Her first thought is\u2014",
-  "start": 199.704,
-  "end": 201.017
+  "start": 200.706,
+  "end": 202.019
  },
  {
   "id": "L081",
   "tag": "MIRA",
   "thought": true,
   "text": "That sounds exhausting.",
-  "start": 201.237,
-  "end": 203.147
+  "start": 202.239,
+  "end": 204.15
  },
  {
   "id": "L082",
   "tag": "N",
   "thought": false,
   "text": "The next is\u2014",
-  "start": 203.567,
-  "end": 204.598
+  "start": 204.57,
+  "end": 205.6
  },
  {
   "id": "L083",
   "tag": "MIRA",
   "thought": true,
   "text": "I wish he'd trusted me.",
-  "start": 204.818,
-  "end": 206.696
+  "start": 205.82,
+  "end": 207.698
  },
  {
   "id": "L084",
   "tag": "N",
   "thought": false,
   "text": "That one hurts.",
-  "start": 207.816,
-  "end": 208.97
+  "start": 208.818,
+  "end": 209.972
  },
  {
   "id": "L085",
   "tag": "N",
   "thought": false,
   "text": "You leave it alone.",
-  "start": 209.67,
-  "end": 210.883
+  "start": 210.672,
+  "end": 211.885
  },
  {
   "id": "L086",
   "tag": "MIRA",
   "thought": false,
   "text": "I got rejected. From the course.",
-  "start": 211.303,
-  "end": 213.311
+  "start": 212.305,
+  "end": 214.314
  },
  {
   "id": "L087",
   "tag": "N",
   "thought": false,
   "text": "You start reaching for something reassuring.",
-  "start": 213.731,
-  "end": 216.1
+  "start": 214.734,
+  "end": 217.103
  },
  {
   "id": "L088",
   "tag": "MIRA",
   "thought": true,
   "text": "Please don't say everything happens for a reason.",
-  "start": 216.52,
-  "end": 219.525
+  "start": 217.523,
+  "end": 220.527
  },
  {
   "id": "L089",
   "tag": "N",
   "thought": false,
   "text": "You put your hand back on the table.",
-  "start": 219.945,
-  "end": 222.064
+  "start": 220.947,
+  "end": 223.066
  },
  {
   "id": "L090",
   "tag": "YOU",
   "thought": false,
   "text": "I don't know what to say.",
-  "start": 222.484,
-  "end": 223.833
+  "start": 223.486,
+  "end": 224.835
  },
  {
   "id": "L091",
   "tag": "MIRA",
   "thought": false,
   "text": "Good. You can stop looking for it.",
-  "start": 224.253,
-  "end": 226.206
+  "start": 225.255,
+  "end": 227.208
  },
  {
   "id": "L092",
   "tag": "N",
   "thought": false,
   "text": "You sit together.",
-  "start": 227.626,
-  "end": 228.769
+  "start": 228.628,
+  "end": 229.771
  },
  {
   "id": "L093",
   "tag": "N",
   "thought": false,
   "text": "The coffee machine hisses. Someone drops a spoon.",
-  "start": 229.669,
-  "end": 232.971
+  "start": 230.671,
+  "end": 233.973
  },
  {
   "id": "L094",
   "tag": "N",
   "thought": false,
   "text": "For a few seconds, Mira isn't thinking about you at all.",
-  "start": 233.271,
-  "end": 236.902
+  "start": 234.273,
+  "end": 237.904
  },
  {
   "id": "L095",
   "tag": "N",
   "thought": false,
   "text": "Then\u2014",
-  "start": 238.102,
-  "end": 238.716
+  "start": 239.104,
+  "end": 239.719
  },
  {
   "id": "L096",
   "tag": "MIRA",
   "thought": true,
   "text": "I'm glad he came.",
-  "start": 238.936,
-  "end": 240.64
+  "start": 239.939,
+  "end": 241.642
  },
  {
   "id": "L097",
   "tag": "N",
   "thought": false,
   "text": "You could tell her you heard.",
-  "start": 241.06,
-  "end": 242.558
+  "start": 242.062,
+  "end": 243.56
  },
  {
   "id": "L098",
   "tag": "N",
   "thought": false,
   "text": "You don't.",
-  "start": 243.358,
-  "end": 244.103
+  "start": 244.36,
+  "end": 245.106
  },
  {
   "id": "L099",
   "tag": "N",
   "thought": false,
   "text": "After a while, she looks up.",
-  "start": 245.103,
-  "end": 246.711
+  "start": 246.106,
+  "end": 247.714
  },
  {
   "id": "L100",
   "tag": "MIRA",
   "thought": false,
   "text": "I'm glad you came.",
-  "start": 247.631,
-  "end": 248.697
+  "start": 248.634,
+  "end": 249.7
  },
  {
   "id": "L101",
   "tag": "YOU",
   "thought": false,
   "text": "Me too.",
-  "start": 249.517,
-  "end": 250.403
+  "start": 250.52,
+  "end": 251.405
  },
  {
   "id": "L102",
   "tag": "N",
   "thought": false,
   "text": "You stay until the chairs go on the tables.",
-  "start": 251.823,
-  "end": 254.615
+  "start": 252.825,
+  "end": 255.618
  },
  {
   "id": "L103",
   "tag": "N",
   "thought": false,
   "text": "Would you want to hear it?",
-  "start": 257.215,
-  "end": 258.435
+  "start": 258.218,
+  "end": 259.438
  }
 ]

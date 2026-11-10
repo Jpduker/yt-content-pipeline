@@ -8,6 +8,7 @@ Updated: 2026-11-10 ~23:00 (session 7, Vivek). **Next session: CLAUDE.md "Team +
 
 ## Built tonight (style growkaz-ifverse v2 draft)
 - Episode: channels/stickman/what-if/2026-11-10-wi02-hear-what-they-think.
+- v2 (23:25): hero matches the channel image (scenes/chars.js = own heads/faces for all cast), train line changed to "You're already wondering if you should take it off." (hoodie stays on), captions above bars, expression pass on every shot. Cast sheet + contact sheet v2 + 3 clips in out/v2-* → waiting for Vivek's approval before the final render.
   - voice/build_voice.py: multi-voice Kokoro (narrator am_michael, Mira af_heart, barista am_puck, boss bm_george, colleague af_nicole, train bf_emma);
     thoughts soft + reverb; 4:20 with emotional pauses. words.json (captions, no thoughts) + words_all.json + lines.json.
   - story/build_story.py: 95 shots timed to the voice lines + sound cues → project/story/shots.json.

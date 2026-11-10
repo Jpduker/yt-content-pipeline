@@ -21,7 +21,7 @@ const CAFE3D = { kind: '3d',
   draw(s, t, info, T) { const d = info.dur;
     if (info.night) T.dolly(s.stage.camera, t, [[0, { pos: [0, 1.6, 5.5], look: [0, 1.3, 0] }], [d, { pos: [0, 4.5, 16], look: [0, 2.2, 0] }]]);
     else T.orbit(s.stage.camera, t, { target: [0, 2, 0], radius: 15, height: [3, 4.5], from: -.5, to: .15, dur: d }); },
-  overlay(g, t, info) { cap(g, info.globalT); if (info.titleCard) UI.titleCard(g, t, { lines: ['WHAT IF YOU HEARD EVERY', 'THOUGHT ABOUT YOU?'], dur: info.dur, y: E.H * .42 }); },
+  overlay(g, t, info) { cap(g, info.globalT); if (info.titleCard) { g.fillStyle = 'rgba(16,8,18,.45)'; g.fillRect(0, 0, E.W, E.H); } if (info.titleCard) UI.titleCard(g, t, { lines: ['WHAT IF YOU HEARD EVERY', 'THOUGHT ABOUT YOU?'], dur: info.dur, y: E.H * .42 }); },
 };
 registerShot('t3dawn', CAFE3D); registerShot('t3night', { ...CAFE3D });
 registerShot('t3train', { kind: '3d',

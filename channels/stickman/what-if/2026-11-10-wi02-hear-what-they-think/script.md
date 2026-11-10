@@ -52,7 +52,7 @@ TRAIN-T: That hoodie—
 N: You straighten it.
 TRAIN-T: —my brother had one like that.
 N: She turns back to the window.
-N: You've already taken it off.
+N: You're already wondering if you should take it off. ✎ (was "You've already taken it off.": the hero keeps the green hoodie all video, strict look rule 2026-11-10)
 
 ## ACT 3: the café (evening)
 N: At six, Mira texts.

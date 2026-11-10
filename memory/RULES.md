@@ -26,3 +26,6 @@ Short, proven rules. A rule gets here from Jp's explicit instruction or a learni
 - Narrated pieces need captions synced to the voice; no static text blocks.
 - NexLev numbers: always include channel + video URLs.
 - Whispers: never add TTS over a track that already has narration; never deform Vivek's character frames (no blinks/face warps).
+- Hero ("You", What-If channel) = the channel image (channels/stickman/characters/hero-channel-image.jpg): bald round head, tall oval eyes, green hoodie hood down. Never change his look, outfit or hair in any shot.
+- A character must look identical in wide shots and close-ups: draw heads/hair/hats/faces with one shared module (WI02 scenes/chars.js), and check a cast sheet before the contact sheet.
+- Captions must clear the letterbox bars of the current and neighbouring shots.

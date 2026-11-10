@@ -1,8 +1,7 @@
 // WI02 cast (DIRECTION.md cast bible). One signature colour item each; extras plain ink.
 export const GREEN = '#3fb950', YELLOW = '#f2c21a', ORANGE = '#e8743b', BLUE = '#3a6ea5', PURPLE = '#8a5ad6', PINK = '#f29ac0';
 export const CAST = {
-  YOU:      { top: 'hoodie', color: GREEN, head: 'spiky' },             // green hoodie = identity
-  YOU_TEE:  { top: 'tshirt', color: '#4a4550', head: 'spiky' },         // hoodie off (train → café evening)
+  YOU:      { top: 'hoodie', color: GREEN, head: 'none' },              // = channel image: bald round head, green hoodie (STRICT)
   MIRA:     { top: 'trench', color: YELLOW, head: 'ponytail' },         // yellow jacket
   MIRA_EVE: { top: 'tshirt', color: '#3a3040', head: 'ponytail' },      // evening: no jacket
   BARISTA:  { top: 'none', head: 'capBack', headColor: ORANGE },

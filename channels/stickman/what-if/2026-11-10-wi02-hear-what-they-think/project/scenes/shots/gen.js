@@ -7,6 +7,7 @@ import * as UI from '/engine/ui2d.js';
 import { SETS, SC, GYf, F, lerpCam, table, longTable, chair, cup, steam, cafeCounter } from '../sets/world.js';
 import { CAST, THREAD, GREEN, YELLOW } from '../cast.js';
 import { cap } from './_cap.js';
+import { drawChar, bust } from '../chars.js';
 
 const base = new URL('../../timeline/', import.meta.url);
 const LINES = await (await fetch(new URL('lines.json', base))).json();
@@ -104,8 +105,8 @@ function scene(g, t, info) {
       else ps = poseSeq(w.pose, wt, dur, w.seed || 1);
       const y = (w.y ?? GY) + (seqVal(w.dy, t / dur) || 0), s = (w.s ?? SC), facing = seqVal(w.f, t / dur) ?? 1;
       const fig = { x, y, s, facing, outfit: CAST[w.id], pose: ps, rot: seqVal(w.rot, t / dur), expr: seqVal(w.expr, t / dur) || 'neutral', face: fixFace(seqVal(w.expr, t / dur)), look: seqVal(w.look, t / dur) || [facing * .3, 0],
-        talk: frozen ? 0 : talkFor(w.id, gt), blink: frozen && w.id !== p.hero ? false : (t + (w.seed || 1) * .7) % (2.9 + (w.seed || 1) * .27) > 2.75, rim, prop: w.prop, dim: w.dim, shadow: !/sit/.test(JSON.stringify(w.pose || '')) };
-      drawFigure(g, fig);
+        talk: frozen ? 0 : talkFor(w.id, gt), headF: seqVal(w.hf, t / dur), blink: frozen && w.id !== p.hero ? false : (t + (w.seed || 1) * .7) % (2.9 + (w.seed || 1) * .27) > 2.75, rim, prop: w.prop, dim: w.dim, shadow: !/sit/.test(JSON.stringify(w.pose || '')) };
+      drawChar(g, w.id, fig, t);
       if (fig.talk > .05) FX.rings(g, x + facing * 60 * s / SC, y - 190 * s, t, { count: 2, r0: 14, r1: 60, color: '#fff1e6', a: .3 });
       const [hx, hy, hr] = headPos(fig); figs[w.id] = { hx, hy, hr, x, y, s, facing }; figs[TAGOF(w.id)] = figs[w.id];
     }
@@ -140,12 +141,12 @@ function face(g, t, info) {
   const bc = p.bgCam || [960, 520, 1.5];
   blurLayer(g, 14, g => SETS[p.set](g, frozen ? 0 : t, F(bc[0] - 40 * k * (p.side ?? 1), bc[1], bc[2]), { ...(p.so || {}), frozen }));
   veil(g, '#120a10', .38);
-  const side = p.side ?? 1, cx = E.W / 2 + (p.dx ?? 0), cy = E.H * V(.62, .56), r = V(300, 330) * (1 + (p.push ?? .05) * k);
+  const side = p.side ?? 1, cx = E.W / 2 + (p.dx ?? 0) + side * V(-60, 0), cy = E.H * V(.43, .45), r = V(215, 250) * (1 + (p.push ?? .05) * k);   // framed like the channel image: head + hoodie collar
   const M = mood(p.set === 'office' ? 'interiorCool' : p.set === 'train' ? 'dusk' : 'interiorWarm');
-  const of = CAST[p.who]?.head === 'ponytail' ? { ...CAST[p.who], head: 'bun' } : CAST[p.who], talk = frozen ? 0 : talkFor(p.who, gt), tilt = (p.tilt || 0) + Math.sin(t * 1.3) * .012;
+  const talk = frozen ? 0 : talkFor(p.who, gt), tilt = (p.tilt || 0) + Math.sin(t * 1.3) * .012;
   const ex = seqVal(p.expr, k) || 'neutral', lk = seqVal(p.look, k) || [side * .25, 0];
-  const bob = (p.bob ?? 1) * Math.sin(t * 2.1) * 4;
-  bigFace(g, cx, cy + bob, r, { outfit: of, expr: ex, face: fixFace(ex), talk, blink: (t % 3.3) > 3.15, look: lk, rimColor: M.rim, rimSide: -side, tilt });
+  const bob = (p.bob ?? 1) * Math.sin(t * 2.1) * 4 + (p.nod ? Math.max(0, Math.sin(Math.min(1, t / .9) * Math.PI * 2)) * 22 : 0) + (p.swallow != null ? 10 * Math.sin(Math.PI * clamp((t / dur - p.swallow) / .12)) : 0);
+  bust(g, cx, cy + bob, r, p.who, { expr: ex, talk, blink: (t % 3.3) > 3.15, look: lk, rimColor: M.rim, rimSide: side, tilt, t });
   if (talk > .05) FX.rings(g, cx + side * r * 1.05, cy, t, { count: 2, r0: 30, r1: 140, color: '#fff1e6', a: .3 });
   if (p.tear) { const q = prog(t, p.tear, p.tear + 1.2); if (q > 0) circle(g, cx + side * r * .28, cy - r * .02 + q * r * .45, 9, 'rgba(200,225,255,.85)'); }
   const th = thoughtNow(gt);
@@ -171,7 +172,7 @@ function insert(g, t, info) {
   const cx = E.W / 2, cy = E.H / 2, ink = S().ink;
   const tableTop = (yy = E.H * .72) => { g.fillStyle = '#2a1c20'; g.fillRect(-100, yy, E.W + 200, E.H); g.fillStyle = 'rgba(255,215,170,.25)'; g.fillRect(-100, yy, E.W + 200, 6); };
   switch (p.ins) {
-    case 'ear': { bigFace(g, cx, cy + 60, 320, { outfit: CAST.YOU, expr: t < dur * .5 ? 'nervous' : 'worried', face: { brows: 'angry' }, look: [-.3, 0], rimColor: '#ffc68a', rimSide: 1 }); const q = ease.outBack(prog(t, .2, .6)); HAND(g, cx - 300 + 20 * q, cy + 70, -.25, 160, 60); FX.rings(g, cx - 330, cy + 60, t, { count: 3, r0: 40, r1: 300, color: '#e8743b', a: .55, w: 4 }); text(g, 'NO MUTE', cx + 520, cy - 300, { size: 40, font: FONTS.ui, weight: 900, color: S().ui.accent, alpha: ease.out(prog(t, .5, .9)) }); break; }
+    case 'ear': { bust(g, cx + 120, cy + 10, 300, 'YOU', { expr: t < dur * .45 ? 'nervous' : 'worried', look: [-.3, 0], rimColor: '#ffb45a', rimSide: 1, t }); const q = ease.outBack(prog(t, .2, .6)); HAND(g, cx - 300 + 20 * q, cy + 70, -.25, 160, 60); FX.rings(g, cx - 330, cy + 60, t, { count: 3, r0: 40, r1: 300, color: '#e8743b', a: .55, w: 4 }); text(g, 'NO MUTE', cx + 520, cy - 300, { size: 40, font: FONTS.ui, weight: 900, color: S().ui.accent, alpha: ease.out(prog(t, .5, .9)) }); break; }
     case 'napkin': {
       tableTop(E.H * .55); const n = p.n ?? 4, lines = ['talk less', 'be funnier', 'be more confident', "don't make everything a joke", 'laugh first', 'stop the story early', 'order cheap', 'agree', 'smile less', 'smile more', 'ask, then listen', "don't interrupt", 'shorter emails', 'no puns', 'nod', 'check the time', 'match the mood', 'compliment shoes', 'never sigh', 'say sorry', 'less hands', 'quieter laugh', 'be easy'];
       g.save(); g.translate(cx - 40, cy + 30); g.rotate(-.06 + (p.flip ? Math.sin(prog(t, .2, 1) * Math.PI) * .1 : 0)); g.fillStyle = '#f4efe6'; rr(g, -330, -300, 660, 600, 10); g.fill();
@@ -180,7 +181,7 @@ function insert(g, t, info) {
       lines.slice(0, Math.ceil(shown)).forEach((s, i) => { const col = i < 12 ? 0 : 1, yy = -240 + (i % 12) * step + (sz < 30 ? 0 : 0); text(g, `${i + 1}. ${s}`, -300 + col * 310, yy, { size: sz, font: FONTS.ui, weight: 800, italic: true, color: '#2a3a7a', align: 'left', alpha: clamp((shown - i) * 2) }); });
       g.restore();
       if (p.pen) { const i = Math.max(0, Math.min(Math.ceil(shown), 23) - 1), yy = cy + 30 - 240 + (i % 12) * step, px = cx - 40 - 300 + (i >= 12 ? 310 : 0) + Math.min(280, (lines[i] || '').length * sz * .55) + Math.sin(t * 14) * 6;
-        seg(g, [[px, yy + 6], [px + 46, yy - 60]], 10, '#e8c070'); circle(g, px, yy + 6, 4, '#2a3a7a'); HAND(g, px + 40, yy - 50, -1.15, 110, 30); }
+        seg(g, [[px, yy + 6], [px + 70, yy + 50]], 10, '#e8c070'); circle(g, px, yy + 6, 4, '#2a3a7a'); HAND(g, px + 70, yy + 52, -2.45, 90, 34); }
       if (p.slide) { const q = ease.inOut(prog(t, .1, .9)); g.save(); g.translate(-280 * (1 - q), 0); g.restore(); }
       if (p.blur) veil(g, '#140c12', .25 * prog(t, dur * .5, dur));
       break; }
@@ -229,9 +230,28 @@ function title(g, t, info) {
   UI.titleCard(g, t, { lines: ['WHAT IF YOU HEARD EVERY', 'THOUGHT ABOUT YOU?'], dur: info.dur, y: E.H * .42 });
 }
 function end(g, t, info) {
-  UI.endScreen(g, t, { question: 'Would YOU want to hear what they think?', cast: [CAST.YOU, CAST.MIRA, CAST.BARISTA, CAST.BOSS, CAST.COLL, CAST.TRAIN] });
+  UI.endScreen(g, t, { question: 'Would YOU want to hear what they think?', cast: [] });
+  const ids = ['BARISTA', 'COLL', 'MIRA', 'YOU', 'BOSS', 'TRAIN'], GY = E.H * .93, rim = { color: '#ffb45a', dir: [0, -1], w: 4 };
+  ids.forEach((id, i) => { const a = ease.out(prog(t, .3 + i * .12, .8 + i * .12)); if (a <= 0) return; const x = E.W / 2 + (i - 2.5) * 240, q = id === 'YOU' ? 1.2 : 1;
+    drawChar(g, id, { x, y: GY + (1 - a) * 60, s: 1.6 * q, facing: i < 3 ? 1 : -1, pose: breathe(id === 'YOU' ? POSES.wave : POSES.stand, t, 1, i + 1), expr: id === 'YOU' ? 'happy' : 'smile', rim, alpha: a, blink: (t + i) % 3.3 > 3.15 }, t); });
 }
-const B = { scene, face, insert, blueprint, topdown, title, end };
+function charsheet(g, t, info) {
+  backdrop(g, ['#2a1c30', '#3b2a4a', '#5a3a50']); const rim = { color: '#ffb45a', dir: [1, -.3], w: 4 };
+  const ids = ['YOU', 'MIRA', 'MIRA_EVE', 'BARISTA', 'BOSS', 'COLL', 'TRAIN'], names = ['YOU (hero)', 'MIRA (day)', 'MIRA (evening)', 'BARISTA', 'MANAGER', 'COLLEAGUE', 'TRAIN WOMAN'];
+  const ex = info.ex || 'neutral';
+  ids.forEach((id, i) => { const x = 150 + i * 270;
+    bust(g, x, 230, 78, id, { expr: ex, rimSide: 1, rimColor: '#ffb45a', t });
+    drawChar(g, id, { x: x - 55, y: 900, s: 1.45, facing: 1, pose: POSES.stand, expr: ex, rim }, t);
+    drawChar(g, id, { x: x + 60, y: 900, s: 1.45, facing: -1, pose: POSES.stand, expr: ex, rim: { ...rim, dir: [-1, -.3] } }, t);
+    text(g, names[i], x, 1010, { size: 30, font: FONTS.ui, weight: 900, color: '#f4ecdf' }); });
+  text(g, 'expression: ' + ex, E.W / 2, 1060, { size: 24, font: FONTS.ui, weight: 800, color: '#ffd47e' });
+}
+function faces(g, t, info) {
+  backdrop(g, ['#2a1c30', '#3b2a4a']); const L = ['neutral', 'smile', 'happy', 'flat', 'pressed', 'surprised', 'shocked', 'thinking', 'confused', 'worried', 'nervous', 'sad', 'angry', 'sleepy'];
+  L.forEach((e, i) => { const x = 140 + (i % 7) * 275, y = 260 + Math.floor(i / 7) * 470; bust(g, x, y, 92, info.who || 'YOU', { expr: e, rimSide: 1, rimColor: '#ffb45a', t });
+    text(g, e.toUpperCase(), x, y + 250, { size: 28, font: FONTS.ui, weight: 900, color: '#ffd47e' }); });
+}
+const B = { charsheet, faces, scene, face, insert, blueprint, topdown, title, end };
 for (const s of E.shots || []) {
   if (s.params?.k === '3d') continue;
   registerShot(s.id, { draw(g, t, info) { const f = B[info.k]; if (!f) { text(g, 'missing builder ' + info.k, E.W / 2, E.H / 2, { color: '#f44' }); return; } f(g, t, info); } });

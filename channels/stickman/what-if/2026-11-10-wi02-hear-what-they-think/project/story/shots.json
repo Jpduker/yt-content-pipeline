@@ -1,6 +1,6 @@
 {
  "title": "What If You Heard Every Thought About You\u2026 and Listened?",
- "duration": 260.94,
+ "duration": 261.94,
  "shots": [
   {
    "id": "s001",
@@ -175,10 +175,10 @@
     ],
     "who": [
      {
-      "id": "YOU_TEE",
+      "id": "YOU",
       "x": 750,
       "pose": "sitSmall",
-      "expr": "sad",
+      "expr": "flat",
       "f": 1
      },
      {
@@ -187,7 +187,11 @@
       "pose": "sitSad",
       "expr": "sad",
       "f": -1,
-      "seed": 2
+      "seed": 2,
+      "look": [
+       -0.2,
+       0.4
+      ]
      }
     ],
     "chairs": [
@@ -248,10 +252,19 @@
     ],
     "who": [
      {
-      "id": "YOU_TEE",
+      "id": "YOU",
       "x": 750,
       "pose": "sitSmall",
-      "expr": "worried",
+      "expr": [
+       [
+        0,
+        "flat"
+       ],
+       [
+        0.55,
+        "surprised"
+       ]
+      ],
       "f": 1
      },
      {
@@ -294,11 +307,11 @@
     "so": {
      "variant": "night"
     },
-    "who": "YOU_TEE",
+    "who": "YOU",
     "expr": [
      [
       0,
-      "shocked"
+      "surprised"
      ],
      [
       0.55,
@@ -533,7 +546,7 @@
      "variant": "am"
     },
     "who": "BARISTA",
-    "expr": "neutral",
+    "expr": "smile",
     "look": [
      [
       0,
@@ -599,7 +612,7 @@
       "x": -470,
       "pose": "holdFront",
       "f": 1,
-      "expr": "smirk",
+      "expr": "smile",
       "prop": "cup"
      },
      {
@@ -648,11 +661,27 @@
     "expr": [
      [
       0,
-      "surprised"
+      "happy"
+     ],
+     [
+      0.28,
+      "pressed"
+     ]
+    ],
+    "look": [
+     [
+      0,
+      [
+       0,
+       0
+      ]
      ],
      [
       0.3,
-      "shocked"
+      [
+       -0.5,
+       0.4
+      ]
      ]
     ],
     "side": -1,
@@ -661,7 +690,7 @@
      560,
      1.6
     ],
-    "push": 0.1
+    "push": 0.04
    },
    "amb": {
     "name": "murmur",
@@ -691,11 +720,15 @@
     "expr": [
      [
       0,
-      "neutral"
+      "pressed"
      ],
      [
-      0.35,
-      "happy"
+      0.3,
+      "sleepy"
+     ],
+     [
+      0.6,
+      "smile"
      ]
     ],
     "side": -1,
@@ -947,8 +980,8 @@
      {
       "id": "YOU",
       "x": 750,
-      "pose": "sitCheer",
-      "expr": "joy",
+      "pose": "sitHands",
+      "expr": "happy",
       "f": 1
      },
      {
@@ -1007,7 +1040,16 @@
       "id": "YOU",
       "x": 750,
       "pose": "sitHands",
-      "expr": "happy",
+      "expr": [
+       [
+        0,
+        "happy"
+       ],
+       [
+        0.45,
+        "confused"
+       ]
+      ],
       "f": 1
      },
      {
@@ -1047,12 +1089,13 @@
      "variant": "am"
     },
     "who": "YOU",
-    "expr": "neutral",
+    "expr": "flat",
     "look": [
      0.4,
      0
     ],
-    "side": 1
+    "side": 1,
+    "bob": 0.3
    },
    "amb": {
     "name": "murmur",
@@ -1394,7 +1437,7 @@
       "id": "YOU",
       "x": 490,
       "pose": "sit",
-      "expr": "neutral",
+      "expr": "thinking",
       "f": 1
      },
      {
@@ -1822,7 +1865,7 @@
      "warm": true
     },
     "who": "COLL",
-    "expr": "happy",
+    "expr": "smile",
     "side": -1,
     "bgCam": [
      1500,
@@ -2320,7 +2363,16 @@
      "warm": true
     },
     "who": "YOU",
-    "expr": "sleepy",
+    "expr": [
+     [
+      0,
+      "flat"
+     ],
+     [
+      0.5,
+      "sleepy"
+     ]
+    ],
     "side": 1,
     "rules": [
      11,
@@ -2405,7 +2457,16 @@
       "id": "YOU",
       "x": 700,
       "pose": "sit",
-      "expr": "neutral",
+      "expr": [
+       [
+        0,
+        "neutral"
+       ],
+       [
+        0.55,
+        "surprised"
+       ]
+      ],
       "f": 1,
       "dy": -25
      },
@@ -2616,7 +2677,7 @@
   {
    "id": "s047",
    "start": 110.997,
-   "end": 113.83,
+   "end": 114.832,
    "line": "",
    "scene": "scene",
    "bars": null,
@@ -2643,15 +2704,24 @@
     ],
     "who": [
      {
-      "id": "YOU_TEE",
+      "id": "YOU",
       "x": 700,
-      "pose": "sitSmall",
-      "expr": "sad",
+      "pose": [
+       [
+        0,
+        "sitHands"
+       ],
+       [
+        0.4,
+        "sitSmall"
+       ]
+      ],
+      "expr": "worried",
       "f": 1,
       "dy": -25,
       "look": [
-       0.2,
-       0.5
+       0.1,
+       0.6
       ]
      }
     ]
@@ -2663,8 +2733,8 @@
   },
   {
    "id": "s048",
-   "start": 113.83,
-   "end": 117.159,
+   "start": 114.832,
+   "end": 118.162,
    "line": "",
    "scene": "insert",
    "bars": null,
@@ -2692,8 +2762,8 @@
   },
   {
    "id": "s049",
-   "start": 117.159,
-   "end": 118.661,
+   "start": 118.162,
+   "end": 119.664,
    "line": "",
    "scene": "scene",
    "bars": null,
@@ -2744,7 +2814,7 @@
       "seed": 9
      },
      {
-      "id": "YOU_TEE",
+      "id": "YOU",
       "x": 750,
       "pose": [
        [
@@ -2786,8 +2856,8 @@
   },
   {
    "id": "s050",
-   "start": 118.661,
-   "end": 119.601,
+   "start": 119.664,
+   "end": 120.604,
    "line": "",
    "scene": "insert",
    "bars": null,
@@ -2818,8 +2888,8 @@
   },
   {
    "id": "s051",
-   "start": 119.601,
-   "end": 121.171,
+   "start": 120.604,
+   "end": 122.174,
    "line": "",
    "scene": "scene",
    "bars": null,
@@ -2850,7 +2920,7 @@
     ],
     "who": [
      {
-      "id": "YOU_TEE",
+      "id": "YOU",
       "x": 750,
       "pose": [
        [
@@ -2875,8 +2945,8 @@
   },
   {
    "id": "s052",
-   "start": 121.171,
-   "end": 123.062,
+   "start": 122.174,
+   "end": 124.064,
    "line": "",
    "scene": "face",
    "bars": null,
@@ -2892,7 +2962,7 @@
     "so": {
      "variant": "pm"
     },
-    "who": "YOU_TEE",
+    "who": "YOU",
     "expr": "nervous",
     "side": 1,
     "bubbles": true
@@ -2904,8 +2974,8 @@
   },
   {
    "id": "s053",
-   "start": 123.062,
-   "end": 126.195,
+   "start": 124.064,
+   "end": 127.198,
    "line": "",
    "scene": "scene",
    "bars": null,
@@ -2956,7 +3026,7 @@
       "seed": 9
      },
      {
-      "id": "YOU_TEE",
+      "id": "YOU",
       "x": 750,
       "pose": "sitHands",
       "expr": "nervous",
@@ -2997,8 +3067,8 @@
   },
   {
    "id": "s054",
-   "start": 126.195,
-   "end": 128.026,
+   "start": 127.198,
+   "end": 129.028,
    "line": "",
    "scene": "scene",
    "bars": null,
@@ -3008,7 +3078,7 @@
    },
    "sfx": [
     {
-     "at": 1.731,
+     "at": 1.73,
      "name": "shimmer",
      "gain": -17
     }
@@ -3035,10 +3105,10 @@
     ],
     "who": [
      {
-      "id": "YOU_TEE",
+      "id": "YOU",
       "x": 750,
       "pose": "sitLean",
-      "expr": "confused",
+      "expr": "neutral",
       "f": 1
      },
      {
@@ -3047,7 +3117,11 @@
       "pose": "sitSad",
       "expr": "sad",
       "f": -1,
-      "seed": 2
+      "seed": 2,
+      "look": [
+       -0.2,
+       0.4
+      ]
      }
     ],
     "sleeve2": "#f2c21a"
@@ -3059,8 +3133,8 @@
   },
   {
    "id": "s055",
-   "start": 128.026,
-   "end": 130.866,
+   "start": 129.028,
+   "end": 131.868,
    "line": "",
    "scene": "face",
    "bars": null,
@@ -3091,8 +3165,8 @@
   },
   {
    "id": "s056",
-   "start": 130.866,
-   "end": 134.245,
+   "start": 131.868,
+   "end": 135.248,
    "line": "",
    "scene": "scene",
    "bars": null,
@@ -3102,7 +3176,7 @@
    },
    "sfx": [
     {
-     "at": 3.279,
+     "at": 3.28,
      "name": "shimmer",
      "gain": -17
     }
@@ -3129,7 +3203,7 @@
     ],
     "who": [
      {
-      "id": "YOU_TEE",
+      "id": "YOU",
       "x": 750,
       "pose": [
        [
@@ -3171,8 +3245,8 @@
   },
   {
    "id": "s057",
-   "start": 134.245,
-   "end": 137.078,
+   "start": 135.248,
+   "end": 138.08,
    "line": "",
    "scene": "scene",
    "bars": null,
@@ -3186,7 +3260,7 @@
     "k": "scene",
     "fg": "shoulder",
     "fgSide": -1,
-    "fgCol": "#4a4550",
+    "fgCol": "#3fb950",
     "set": "cafe",
     "so": {
      "variant": "pm"
@@ -3206,7 +3280,7 @@
     ],
     "who": [
      {
-      "id": "YOU_TEE",
+      "id": "YOU",
       "x": 750,
       "pose": "sitTalk",
       "expr": "happy",
@@ -3232,8 +3306,8 @@
   },
   {
    "id": "s058",
-   "start": 137.078,
-   "end": 138.259,
+   "start": 138.08,
+   "end": 139.262,
    "line": "",
    "scene": "face",
    "bars": null,
@@ -3249,8 +3323,8 @@
     "so": {
      "variant": "pm"
     },
-    "who": "YOU_TEE",
-    "expr": "shocked",
+    "who": "YOU",
+    "expr": "pressed",
     "side": 1,
     "bob": 0,
     "push": 0
@@ -3262,8 +3336,8 @@
   },
   {
    "id": "s059",
-   "start": 138.259,
-   "end": 141.484,
+   "start": 139.262,
+   "end": 142.486,
    "line": "",
    "scene": "insert",
    "bars": null,
@@ -3278,7 +3352,7 @@
      "gain": -16
     },
     {
-     "at": 3.125,
+     "at": 3.124,
      "name": "shimmer",
      "gain": -17
     }
@@ -3299,8 +3373,8 @@
   },
   {
    "id": "s060",
-   "start": 141.484,
-   "end": 144.703,
+   "start": 142.486,
+   "end": 145.706,
    "line": "",
    "scene": "scene",
    "bars": null,
@@ -3310,7 +3384,7 @@
    },
    "sfx": [
     {
-     "at": 3.119,
+     "at": 3.12,
      "name": "shimmer",
      "gain": -17
     }
@@ -3337,7 +3411,7 @@
     ],
     "who": [
      {
-      "id": "YOU_TEE",
+      "id": "YOU",
       "x": 750,
       "pose": [
        [
@@ -3370,8 +3444,8 @@
   },
   {
    "id": "s061",
-   "start": 144.703,
-   "end": 148.23,
+   "start": 145.706,
+   "end": 149.233,
    "line": "",
    "scene": "face",
    "bars": null,
@@ -3387,21 +3461,22 @@
     "so": {
      "variant": "pm"
     },
-    "who": "YOU_TEE",
+    "who": "YOU",
     "expr": [
      [
       0,
       "happy"
      ],
      [
-      0.35,
-      "nervous"
+      0.4,
+      "pressed"
      ],
      [
-      0.6,
-      "worried"
+      0.62,
+      "nervous"
      ]
     ],
+    "swallow": 0.62,
     "side": 1
    },
    "amb": {
@@ -3411,8 +3486,8 @@
   },
   {
    "id": "s062",
-   "start": 148.23,
-   "end": 152.967,
+   "start": 149.233,
+   "end": 153.969,
    "line": "",
    "scene": "scene",
    "bars": null,
@@ -3463,7 +3538,7 @@
       "seed": 9
      },
      {
-      "id": "YOU_TEE",
+      "id": "YOU",
       "x": 750,
       "pose": "sitSmall",
       "expr": "smile",
@@ -3498,8 +3573,8 @@
   },
   {
    "id": "s063",
-   "start": 152.967,
-   "end": 156.373,
+   "start": 153.969,
+   "end": 157.375,
    "line": "",
    "scene": "scene",
    "bars": null,
@@ -3530,7 +3605,7 @@
     ],
     "who": [
      {
-      "id": "YOU_TEE",
+      "id": "YOU",
       "x": 750,
       "pose": "sitSmall",
       "expr": [
@@ -3549,7 +3624,7 @@
       "id": "MIRA_EVE",
       "x": 1170,
       "pose": "sitTalk",
-      "expr": "angry",
+      "expr": "neutral",
       "f": -1,
       "seed": 2
      }
@@ -3563,8 +3638,8 @@
   },
   {
    "id": "s064",
-   "start": 156.373,
-   "end": 160.597,
+   "start": 157.375,
+   "end": 161.599,
    "line": "",
    "scene": "insert",
    "bars": null,
@@ -3589,8 +3664,8 @@
   },
   {
    "id": "s065",
-   "start": 160.597,
-   "end": 162.372,
+   "start": 161.599,
+   "end": 163.375,
    "line": "",
    "scene": "face",
    "bars": null,
@@ -3606,7 +3681,7 @@
     "so": {
      "variant": "night"
     },
-    "who": "YOU_TEE",
+    "who": "YOU",
     "expr": [
      [
       0,
@@ -3614,7 +3689,7 @@
      ],
      [
       0.5,
-      "neutral"
+      "flat"
      ]
     ],
     "side": 1
@@ -3626,8 +3701,8 @@
   },
   {
    "id": "s066",
-   "start": 162.372,
-   "end": 163.991,
+   "start": 163.375,
+   "end": 164.993,
    "line": "",
    "scene": "face",
    "bars": null,
@@ -3659,8 +3734,8 @@
   },
   {
    "id": "s067",
-   "start": 163.991,
-   "end": 166.472,
+   "start": 164.993,
+   "end": 167.474,
    "line": "",
    "scene": "scene",
    "bars": null,
@@ -3691,7 +3766,7 @@
     ],
     "who": [
      {
-      "id": "YOU_TEE",
+      "id": "YOU",
       "x": 750,
       "pose": "sitSmall",
       "expr": "happy",
@@ -3715,8 +3790,8 @@
   },
   {
    "id": "s068",
-   "start": 166.472,
-   "end": 168.428,
+   "start": 167.474,
+   "end": 169.43,
    "line": "",
    "scene": "scene",
    "bars": null,
@@ -3730,7 +3805,7 @@
     "k": "scene",
     "fg": "shoulder",
     "fgSide": -1,
-    "fgCol": "#4a4550",
+    "fgCol": "#3fb950",
     "set": "cafe",
     "so": {
      "variant": "night"
@@ -3767,8 +3842,8 @@
   },
   {
    "id": "s069",
-   "start": 168.428,
-   "end": 172.741,
+   "start": 169.43,
+   "end": 173.743,
    "line": "",
    "scene": "face",
    "bars": null,
@@ -3811,8 +3886,8 @@
   },
   {
    "id": "s070",
-   "start": 172.741,
-   "end": 176.543,
+   "start": 173.743,
+   "end": 177.546,
    "line": "",
    "scene": "scene",
    "bars": null,
@@ -3843,7 +3918,7 @@
     ],
     "who": [
      {
-      "id": "YOU_TEE",
+      "id": "YOU",
       "x": 750,
       "pose": [
        [
@@ -3905,18 +3980,42 @@
        ]
       ],
       "expr": "confused",
-      "f": [
+      "f": 1,
+      "hf": [
        [
         0,
         1
        ],
        [
-        0.3,
+        0.28,
         -1
        ],
        [
         0.75,
         1
+       ]
+      ],
+      "look": [
+       [
+        0,
+        [
+         0.3,
+         0
+        ]
+       ],
+       [
+        0.28,
+        [
+         0.6,
+         0
+        ]
+       ],
+       [
+        0.75,
+        [
+         0.3,
+         0.2
+        ]
        ]
       ]
      }
@@ -3929,8 +4028,8 @@
   },
   {
    "id": "s071",
-   "start": 176.543,
-   "end": 178.242,
+   "start": 177.546,
+   "end": 179.245,
    "line": "",
    "scene": "face",
    "bars": null,
@@ -3946,7 +4045,7 @@
     "so": {
      "variant": "night"
     },
-    "who": "YOU_TEE",
+    "who": "YOU",
     "expr": [
      [
       0,
@@ -3967,8 +4066,8 @@
   },
   {
    "id": "s072",
-   "start": 178.242,
-   "end": 180.224,
+   "start": 179.245,
+   "end": 181.226,
    "line": "",
    "scene": "topdown",
    "bars": "none",
@@ -3990,8 +4089,8 @@
   },
   {
    "id": "s073",
-   "start": 180.224,
-   "end": 185.853,
+   "start": 181.226,
+   "end": 186.855,
    "line": "",
    "scene": "insert",
    "bars": null,
@@ -4026,8 +4125,8 @@
   },
   {
    "id": "s074",
-   "start": 185.853,
-   "end": 189.784,
+   "start": 186.855,
+   "end": 190.786,
    "line": "",
    "scene": "scene",
    "bars": null,
@@ -4058,7 +4157,7 @@
     ],
     "who": [
      {
-      "id": "YOU_TEE",
+      "id": "YOU",
       "x": 750,
       "pose": "sitSmall",
       "expr": "sad",
@@ -4083,8 +4182,8 @@
   },
   {
    "id": "s075",
-   "start": 189.784,
-   "end": 192.555,
+   "start": 190.786,
+   "end": 193.558,
    "line": "",
    "scene": "insert",
    "bars": null,
@@ -4109,8 +4208,8 @@
   },
   {
    "id": "s076",
-   "start": 192.555,
-   "end": 195.912,
+   "start": 193.558,
+   "end": 196.914,
    "line": "",
    "scene": "face",
    "bars": null,
@@ -4126,7 +4225,7 @@
     "so": {
      "variant": "night"
     },
-    "who": "YOU_TEE",
+    "who": "YOU",
     "expr": "sad",
     "side": 1,
     "push": 0.03
@@ -4138,8 +4237,8 @@
   },
   {
    "id": "s077",
-   "start": 195.912,
-   "end": 198.472,
+   "start": 196.914,
+   "end": 199.475,
    "line": "",
    "scene": "scene",
    "bars": null,
@@ -4153,7 +4252,7 @@
     "k": "scene",
     "fg": "shoulder",
     "fgSide": -1,
-    "fgCol": "#4a4550",
+    "fgCol": "#3fb950",
     "set": "cafe",
     "so": {
      "variant": "night"
@@ -4213,8 +4312,8 @@
   },
   {
    "id": "s078",
-   "start": 198.472,
-   "end": 199.554,
+   "start": 199.475,
+   "end": 200.556,
    "line": "",
    "scene": "face",
    "bars": null,
@@ -4230,13 +4329,14 @@
     "so": {
      "variant": "night"
     },
-    "who": "YOU_TEE",
+    "who": "YOU",
     "expr": "sad",
     "side": 1,
     "look": [
      0.2,
      0.3
-    ]
+    ],
+    "nod": true
    },
    "amb": {
     "name": "roomtone",
@@ -4245,8 +4345,8 @@
   },
   {
    "id": "s079",
-   "start": 199.554,
-   "end": 207.666,
+   "start": 200.556,
+   "end": 208.668,
    "line": "",
    "scene": "scene",
    "bars": null,
@@ -4288,7 +4388,7 @@
     ],
     "who": [
      {
-      "id": "YOU_TEE",
+      "id": "YOU",
       "x": 750,
       "pose": "sitSmall",
       "expr": "sad",
@@ -4315,8 +4415,8 @@
   },
   {
    "id": "s080",
-   "start": 207.666,
-   "end": 209.52,
+   "start": 208.668,
+   "end": 210.522,
    "line": "",
    "scene": "face",
    "bars": null,
@@ -4332,7 +4432,7 @@
     "so": {
      "variant": "night"
     },
-    "who": "YOU_TEE",
+    "who": "YOU",
     "expr": "sad",
     "side": 1,
     "push": 0.08
@@ -4344,8 +4444,8 @@
   },
   {
    "id": "s081",
-   "start": 209.52,
-   "end": 211.153,
+   "start": 210.522,
+   "end": 212.155,
    "line": "",
    "scene": "scene",
    "bars": null,
@@ -4376,10 +4476,10 @@
     ],
     "who": [
      {
-      "id": "YOU_TEE",
+      "id": "YOU",
       "x": 750,
       "pose": "sitHands",
-      "expr": "sad",
+      "expr": "pressed",
       "f": 1
      }
     ],
@@ -4393,8 +4493,8 @@
   },
   {
    "id": "s082",
-   "start": 211.153,
-   "end": 213.581,
+   "start": 212.155,
+   "end": 214.584,
    "line": "",
    "scene": "scene",
    "bars": null,
@@ -4425,7 +4525,7 @@
     ],
     "who": [
      {
-      "id": "YOU_TEE",
+      "id": "YOU",
       "x": 750,
       "pose": "sitHands",
       "expr": "worried",
@@ -4450,8 +4550,8 @@
   },
   {
    "id": "s083",
-   "start": 213.581,
-   "end": 219.795,
+   "start": 214.584,
+   "end": 220.797,
    "line": "",
    "scene": "insert",
    "bars": null,
@@ -4482,8 +4582,8 @@
   },
   {
    "id": "s084",
-   "start": 219.795,
-   "end": 222.334,
+   "start": 220.797,
+   "end": 223.336,
    "line": "",
    "scene": "scene",
    "bars": null,
@@ -4514,7 +4614,7 @@
     ],
     "who": [
      {
-      "id": "YOU_TEE",
+      "id": "YOU",
       "x": 750,
       "pose": [
        [
@@ -4548,8 +4648,8 @@
   },
   {
    "id": "s085",
-   "start": 222.334,
-   "end": 224.103,
+   "start": 223.336,
+   "end": 225.105,
    "line": "",
    "scene": "face",
    "bars": null,
@@ -4565,7 +4665,7 @@
     "so": {
      "variant": "night"
     },
-    "who": "YOU_TEE",
+    "who": "YOU",
     "expr": "sad",
     "side": 1
    },
@@ -4576,8 +4676,8 @@
   },
   {
    "id": "s086",
-   "start": 224.103,
-   "end": 227.476,
+   "start": 225.105,
+   "end": 228.478,
    "line": "",
    "scene": "scene",
    "bars": null,
@@ -4591,7 +4691,7 @@
     "k": "scene",
     "fg": "shoulder",
     "fgSide": -1,
-    "fgCol": "#4a4550",
+    "fgCol": "#3fb950",
     "set": "cafe",
     "so": {
      "variant": "night"
@@ -4638,8 +4738,8 @@
   },
   {
    "id": "s087",
-   "start": 227.476,
-   "end": 233.121,
+   "start": 228.478,
+   "end": 234.123,
    "line": "",
    "scene": "scene",
    "bars": null,
@@ -4684,10 +4784,10 @@
       "seed": 8
      },
      {
-      "id": "YOU_TEE",
+      "id": "YOU",
       "x": 750,
       "pose": "sitHands",
-      "expr": "neutral",
+      "expr": "smile",
       "f": 1
      },
      {
@@ -4731,8 +4831,8 @@
   },
   {
    "id": "s088",
-   "start": 233.121,
-   "end": 238.786,
+   "start": 234.123,
+   "end": 239.789,
    "line": "",
    "scene": "scene",
    "bars": null,
@@ -4742,7 +4842,7 @@
    },
    "sfx": [
     {
-     "at": 5.565,
+     "at": 5.566,
      "name": "shimmer",
      "gain": -17
     }
@@ -4769,7 +4869,7 @@
     ],
     "who": [
      {
-      "id": "YOU_TEE",
+      "id": "YOU",
       "x": 750,
       "pose": "sitHands",
       "expr": "neutral",
@@ -4798,8 +4898,8 @@
   },
   {
    "id": "s089",
-   "start": 238.786,
-   "end": 240.91,
+   "start": 239.789,
+   "end": 241.912,
    "line": "",
    "scene": "scene",
    "bars": null,
@@ -4830,7 +4930,7 @@
     ],
     "who": [
      {
-      "id": "YOU_TEE",
+      "id": "YOU",
       "x": 750,
       "pose": "sitHands",
       "expr": "smile",
@@ -4857,8 +4957,8 @@
   },
   {
    "id": "s090",
-   "start": 240.91,
-   "end": 244.953,
+   "start": 241.912,
+   "end": 245.956,
    "line": "",
    "scene": "face",
    "bars": null,
@@ -4874,7 +4974,7 @@
     "so": {
      "variant": "night"
     },
-    "who": "YOU_TEE",
+    "who": "YOU",
     "expr": [
      [
       0,
@@ -4894,8 +4994,8 @@
   },
   {
    "id": "s091",
-   "start": 244.953,
-   "end": 249.367,
+   "start": 245.956,
+   "end": 250.37,
    "line": "",
    "scene": "face",
    "bars": null,
@@ -4935,8 +5035,8 @@
   },
   {
    "id": "s092",
-   "start": 249.367,
-   "end": 251.673,
+   "start": 250.37,
+   "end": 252.675,
    "line": "",
    "scene": "face",
    "bars": null,
@@ -4952,8 +5052,8 @@
     "so": {
      "variant": "night"
     },
-    "who": "YOU_TEE",
-    "expr": "happy",
+    "who": "YOU",
+    "expr": "smile",
     "side": 1
    },
    "amb": {
@@ -4963,8 +5063,8 @@
   },
   {
    "id": "s093",
-   "start": 251.673,
-   "end": 253.388,
+   "start": 252.675,
+   "end": 254.39,
    "line": "",
    "scene": "scene",
    "bars": null,
@@ -4998,41 +5098,37 @@
      {
       "id": "YOU",
       "x": 750,
-      "pose": [
-       [
-        0,
-        "sitHands"
-       ],
-       [
-        0.45,
-        "stand"
-       ]
-      ],
-      "expr": "happy",
-      "f": 1,
-      "walk": [
-       750,
-       690,
-       0.45,
-       0.7
-      ]
+      "pose": "sitHands",
+      "expr": "smile",
+      "f": 1
      },
      {
       "id": "MIRA_EVE",
       "x": 1170,
+      "pose": "sitHands",
+      "expr": "smile",
+      "f": -1,
+      "seed": 2
+     },
+     {
+      "id": "BARISTA",
+      "x": 1740,
       "pose": [
        [
         0,
-        "sitHands"
+        "stand"
        ],
        [
-        0.45,
+        0.3,
+        "reach"
+       ],
+       [
+        0.7,
         "stand"
        ]
       ],
-      "expr": "happy",
-      "f": -1,
-      "seed": 2
+      "f": 1,
+      "expr": "neutral"
      }
     ],
     "napkin": 1,
@@ -5045,8 +5141,8 @@
   },
   {
    "id": "t3night",
-   "start": 253.388,
-   "end": 257.065,
+   "start": 254.39,
+   "end": 258.068,
    "line": "",
    "scene": "3d",
    "bars": null,
@@ -5067,8 +5163,8 @@
   },
   {
    "id": "s095",
-   "start": 257.065,
-   "end": 260.94,
+   "start": 258.068,
+   "end": 261.94,
    "line": "",
    "scene": "end",
    "bars": "none",
@@ -5098,19 +5194,19 @@
   },
   {
    "start": 95.601,
-   "end": 113.98,
+   "end": 114.982,
    "mood": "tension",
    "intensity": 0.35
   },
   {
-   "start": 113.98,
-   "end": 168.158,
+   "start": 114.982,
+   "end": 169.16,
    "mood": "sad",
    "intensity": 0.25
   },
   {
-   "start": 224.253,
-   "end": 260.94,
+   "start": 225.255,
+   "end": 261.94,
    "mood": "calm",
    "intensity": 0.3
   }
