@@ -31,3 +31,4 @@ Append-only. date · decision · why.
 - 2026-11-08 · Team: Vivek + JP share one git repo (main only, pull first, push after every change, no AI co-author).
 - 2026-11-08 · Whispers cast folder renamed vivek-cast; the Whispers idea is Vivek's.
 - 2026-11-08 · All new voices use tts_timed.py (word-exact captions).
+- 2026-11-10 · Launch channel = What-If stickman, style growkaz-ifverse v1 (Vivek + JP). First video ≈ 4 min long-form + 2–3 Shorts (research/nexlev/2026-11-10-what-if-niches.md). Styles are now frozen per version in library/styles/<style>/vN; never edit a frozen version.

@@ -1,24 +1,16 @@
 # Status: where we left off
-Updated: 2026-11-08 ~23:15 (session 4, Vivek). **Next session: CLAUDE.md "Team + git" first, then HANDOFF.md.**
+Updated: 2026-11-10 evening (session 6, Vivek). **Next session: CLAUDE.md "Team + git" first, then HANDOFF.md (first What-If video tonight).**
 
-## Done tonight
-- Shared git setup (repo Jpduker/yt-content-pipeline, rules + hooks, get-tools/sync/push/first-push scripts, Mac prereqs). First push = Vivek, WSL.
-- Renamed jp-cast → vivek-cast (the Whispers idea + characters are Vivek's).
-- Whispers C01 v2 LOCAL TEST: talking/blinking/smiling faces, head + body motion, single shots + two-shots, word-exact captions.
-- Exact timings for every future voice: pipeline/tts_timed.py (+ make_timed_kokoro.py).
-- Audit of CH01 + FM01: channels/AUDIT-2026-11-08-ch01-fm01.md.
-- Island style test (paper-popup + pull-tab captions): lab/2026-11-08-island-style-test-paper-popup/final/.
+## Decided today
+- Launch = the "What If…" stickman channel; style = growkaz-ifverse v1 (frozen, library/styles/growkaz-ifverse/v1); first video = ~4 min long-form + 2–3 Shorts.
+- All four 2026-11-09 style tests frozen as version-numbered styles: library/styles/STYLES.md (growkaz-ifverse, toon3d-afterhour, toon3d-palace, flat2d-history = v1).
 
-## Waiting on Vivek / JP
-1. Vivek: run `sh pipeline/git-first-push.sh`; decide public vs private repo (character images are ignored while public).
-2. Strict review of the island style test + C01 v2.
-3. Which audit items to fix first in FM01; CH01 gets rebuilt in the approved island look.
-4. Chatterbox repair (WSL); YouTube channels → Audio Library.
+## Done today
+- Research: research/nexlev/2026-11-10-what-if-niches.md (market, 16 outliers with links, 7 patterns, 10 ideas, format call).
+- GeoGlobeTales studied: references/videos/STUDY-2026-11-10-geoglobetales.md. Registry of every channel we explored: research/CHANNELS-EXPLORED.md.
+- HANDOFF.md rewritten for tonight (old one archived in memory/archive/).
+- Committed locally as VivekSai07 (e0b4431 + this session); push must be run from WSL: `git push origin main`.
 
-## Session 5 (2026-11-09 night, Vivek): stickman channel for the Nov 11 launch
-- Afterhour replica v2 rebuilt frame-matched to the downloaded short: lab/2026-11-09-afterhour-replica-v2 (out/ has the replica + a ref|ours side-by-side, LOCAL study only).
-- Style tests built: Ricks (lab/2026-11-09-ricks-style-test), Ifverse via GrowKaz kit (lab/2026-11-09-growkaz-plugin-test), Capital Case (lab/2026-11-09-capitalcase-style-test).
-- All four are silent lab tests (cloud can't run Kokoro): voice + music get added in WSL once a style is picked.
-- Not pushed yet: run `sh pipeline/sync.sh && sh pipeline/push.sh "stickman style tests"` in WSL (the device shell can't delete git lock files).
 ## Next up
-1. Vivek/JP pick the launch style from the four tests → build the first full video in it (voice, music, Shorts).
+1. Vivek picks an idea from research/nexlev/2026-11-10-what-if-niches.md §4 and starts a new session with HANDOFF.md.
+2. Open: Chatterbox repair (WSL); YouTube Audio Library; spotlight-clay v3 approval; HD-2D island test.

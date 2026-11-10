@@ -45,3 +45,4 @@ On-camera presenting, face/avatar content (for now).
 - 2026-11-08 · Vivek on C01 v2: 'the worst' — the reel audio already contains the narration, a TTS voice on top made it double. Rule: if a supplied track has a voice, use it as-is and cut/caption to it.
 - 2026-11-08 · Vivek: 'Do not try any eye movements… just keep those static images' (face-rig blinks/smiles distorted his storyboard frames). Whispers = his frames shown exactly as drawn.
 - 2026-11-09 · Vivek on Dave v1 (Afterhour copy): 'hugely disappointed' — a replica must match the reference frame by frame (sets, camera paths, cut timing, captions), not just its 'feel'. Wants no excuses or 'no' answers.
+- 2026-11-10 · Vivek on the 2026-11-09 style tests (Afterhour v2, Ricks, Ifverse/GrowKaz, Capital Case): 'these latest version look really good'; asked to freeze them with version numbers. Vivek + JP chose the Ifverse/GrowKaz look for the What-If stickman launch.
