@@ -62,3 +62,5 @@ Append-only, newest at the bottom. Format: date · what happened · evidence · 
 - 2026-11-11 · Moving files: device_commit_files from /mnt/user-data/outputs fails (HTTP 400) above ~15 MB; send big files with SendUserFile and commit by fileUuid.
 - 2026-11-11 · Kokoro per-sentence synthesis + fixed gaps sounded robotic and mis-paced to JP (WI02). Next: synthesise narrator paragraphs in one call, vary gaps by intent, faster dialogue.
 - 2026-11-11 · Emotion lost on wides (heads ~40 px). Emotional lines need close-ups/mediums.
+- 2026-11-11 · NexLev out of quota: live YouTube search through Claude in Chrome works as a free fallback (fetch /results?search_query=… in the page and parse ytInitialData; sp=CAMSBAgEEAE%3D = this month by views). No outlier scores, results may be personalised.
+- 2026-11-11 · What-if titles: every obvious "See <X>" idea has 3–10 copies under 500 views within two weeks; channels under 1K subs break out only when first with a new hidden fact (Ifable 598 subs → 128K, Any Minute Now 234 → 142K). Check duplicates BEFORE writing a script.
