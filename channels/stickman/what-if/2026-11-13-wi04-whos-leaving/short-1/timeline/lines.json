@@ -1,0 +1,132 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "One morning, everyone you know has a number over their head.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 3.815
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your barista. Two thousand and ninety.",
+  "sec": "hook",
+  "start": 3.954,
+  "end": 6.72
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your boss. Four hundred and twelve.",
+  "sec": "hook",
+  "start": 6.86,
+  "end": 9.364
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your best friend.",
+  "sec": "hook",
+  "start": 9.505,
+  "end": 10.517
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Three.",
+  "sec": "hook",
+  "start": 11.407,
+  "end": 12.003
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It doesn't say why. It only says how long.",
+  "sec": "hook",
+  "start": 12.843,
+  "end": 15.746
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You don't know what it's counting. Not yet.",
+  "sec": "act1",
+  "start": 15.996,
+  "end": 18.371
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your neighbour's says zero.",
+  "sec": "act1",
+  "start": 18.511,
+  "end": 19.902
+ },
+ {
+  "id": "L009",
+  "tag": "NEIGH",
+  "thought": false,
+  "note": "",
+  "text": "Morning! Well. Last morning. Van's here.",
+  "sec": "act1",
+  "start": 20.162,
+  "end": 22.421
+ },
+ {
+  "id": "L010",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You're moving?",
+  "sec": "act1",
+  "start": 22.571,
+  "end": 23.426
+ },
+ {
+  "id": "L011",
+  "tag": "NEIGH",
+  "thought": false,
+  "note": "",
+  "text": "To the coast! Did I not tell you?",
+  "sec": "act1",
+  "start": 23.576,
+  "end": 25.587
+ },
+ {
+  "id": "L012",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Zero. And he's gone.",
+  "sec": "act1",
+  "start": 25.987,
+  "end": 27.527
+ },
+ {
+  "id": "L013",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "So that's what it counts. Days. Until someone leaves your life.",
+  "sec": "act1",
+  "start": 27.667,
+  "end": 31.385
+ }
+]

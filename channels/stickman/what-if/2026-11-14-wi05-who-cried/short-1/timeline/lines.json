@@ -1,0 +1,122 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Today there's a small blue teardrop over some people's heads.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 4.45
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It takes you until lunch to work out what it means.",
+  "sec": "hook",
+  "start": 4.703,
+  "end": 7.803
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "They've cried. Because of you.",
+  "sec": "hook",
+  "start": 8.363,
+  "end": 10.613
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The bus driver has one.",
+  "sec": "hook",
+  "start": 10.772,
+  "end": 12.547
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your mum has forty-one.",
+  "sec": "hook",
+  "start": 12.707,
+  "end": 14.322
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your best friend got hers\u2026 last night.",
+  "sec": "hook",
+  "start": 15.163,
+  "end": 17.501
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The bus driver. One teardrop. And a look.",
+  "sec": "act1",
+  "start": 17.751,
+  "end": 20.908
+ },
+ {
+  "id": "L010",
+  "tag": "DRIVER",
+  "thought": false,
+  "note": "",
+  "text": "You.",
+  "sec": "act1",
+  "start": 21.168,
+  "end": 21.718
+ },
+ {
+  "id": "L011",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Me?",
+  "sec": "act1",
+  "start": 21.921,
+  "end": 22.431
+ },
+ {
+  "id": "L012",
+  "tag": "DRIVER",
+  "thought": false,
+  "note": "",
+  "text": "Route nine. Six years ago. You paid in pennies. A hundred and forty of them. In the rain.",
+  "sec": "act1",
+  "start": 22.581,
+  "end": 27.481
+ },
+ {
+  "id": "L013",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "That made you cry?",
+  "sec": "act1",
+  "start": 27.631,
+  "end": 28.767
+ },
+ {
+  "id": "L014",
+  "tag": "DRIVER",
+  "thought": false,
+  "note": "",
+  "text": "It was my first day.",
+  "sec": "act1",
+  "start": 28.917,
+  "end": 30.366
+ }
+]

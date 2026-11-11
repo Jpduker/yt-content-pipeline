@@ -1,0 +1,23 @@
+{
+ "title": "A Teardrop Over Everyone He Ever Made Cry",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "sakura",
+ "duration": 32.816,
+ "captions": false,
+ "bars": "none",
+ "fadeIn": 0.15,
+ "fadeOut": 0.3,
+ "music": {
+  "enabled": true,
+  "gainDb": -19
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": 0
+ },
+ "loudness": -14,
+ "voiceover": "input/voiceover.wav",
+ "myCaptions": true
+}

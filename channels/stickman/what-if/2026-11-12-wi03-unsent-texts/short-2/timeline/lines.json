@@ -1,0 +1,162 @@
+[
+ {
+  "id": "L026",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At work, it turns out to be useful.",
+  "sec": "act2",
+  "start": 1.15,
+  "end": 3.301
+ },
+ {
+  "id": "L027",
+  "tag": "BOSS",
+  "thought": true,
+  "note": "",
+  "text": "Where is that report?",
+  "sec": "act2",
+  "start": 3.641,
+  "end": 5.111
+ },
+ {
+  "id": "L028",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Report's on your desk.",
+  "sec": "act2",
+  "start": 5.531,
+  "end": 6.813
+ },
+ {
+  "id": "L029",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "I was\u2026 just about to ask.",
+  "sec": "act2",
+  "start": 6.963,
+  "end": 9.011
+ },
+ {
+  "id": "L030",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Lucky guess.",
+  "sec": "act2",
+  "start": 9.161,
+  "end": 10.034
+ },
+ {
+  "id": "L031",
+  "tag": "COLL",
+  "thought": true,
+  "note": "",
+  "text": "Could you cover Friday? No. Forget it.",
+  "sec": "act2",
+  "start": 11.274,
+  "end": 14.584
+ },
+ {
+  "id": "L032",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I can cover Friday.",
+  "sec": "act2",
+  "start": 15.004,
+  "end": 16.371
+ },
+ {
+  "id": "L033",
+  "tag": "COLL",
+  "thought": false,
+  "note": "",
+  "text": "How did you\u2014",
+  "sec": "act2",
+  "start": 16.521,
+  "end": 17.654
+ },
+ {
+  "id": "L034",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You look like a Friday.",
+  "sec": "act2",
+  "start": 17.694,
+  "end": 19.039
+ },
+ {
+  "id": "L035",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By lunch, you're answering questions nobody asked.",
+  "sec": "act2",
+  "start": 19.439,
+  "end": 22.789
+ },
+ {
+  "id": "L036",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It feels like kindness.",
+  "sec": "act2",
+  "start": 22.969,
+  "end": 24.52
+ },
+ {
+  "id": "L037",
+  "tag": "BOSS",
+  "thought": true,
+  "note": "",
+  "text": "Should I warn him about the budget?",
+  "sec": "act2",
+  "start": 24.86,
+  "end": 27.138
+ },
+ {
+  "id": "L038",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Is something wrong with the budget?",
+  "sec": "act2",
+  "start": 27.558,
+  "end": 29.223
+ },
+ {
+  "id": "L039",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "Who told you that?",
+  "sec": "act2",
+  "start": 29.373,
+  "end": 30.506
+ },
+ {
+  "id": "L040",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It doesn't feel like kindness to them.",
+  "sec": "act2",
+  "start": 31.306,
+  "end": 33.706
+ },
+ {
+  "id": "L041",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By three, people turn their phones face down when you walk past.",
+  "sec": "act2",
+  "start": 33.886,
+  "end": 37.975
+ }
+]

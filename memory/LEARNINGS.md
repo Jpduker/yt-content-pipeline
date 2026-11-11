@@ -64,3 +64,12 @@ Append-only, newest at the bottom. Format: date · what happened · evidence · 
 - 2026-11-11 · Emotion lost on wides (heads ~40 px). Emotional lines need close-ups/mediums.
 - 2026-11-11 · NexLev out of quota: live YouTube search through Claude in Chrome works as a free fallback (fetch /results?search_query=… in the page and parse ytInitialData; sp=CAMSBAgEEAE%3D = this month by views). No outlier scores, results may be personalised.
 - 2026-11-11 · What-if titles: every obvious "See <X>" idea has 3–10 copies under 500 views within two weeks; channels under 1K subs break out only when first with a new hidden fact (Ifable 598 subs → 128K, Any Minute Now 234 → 142K). Check duplicates BEFORE writing a script.
+
+## 2026-11-11/12 · WI03–WI05 batch (growkaz-ifverse v3, session 8)
+- Kokoro: synthesising a speaker's consecutive lines in ONE call and splitting by word timings keeps natural prosody; ~500 words gives ~3:15–3:30, not 4 min (speech is ~80% of the runtime).
+- The Kokoro model files download straight from GitHub releases in the cloud container (no 325 MB staging); Hugging Face is not reachable there (no Chatterbox test).
+- Shorts: drawing the 16:9 stage 1.78x inside a 9:16 frame and panning to the subject (gen.js wrapper) gives native-sharp vertical cuts with no per-shot re-framing; captions/bubbles must be drawn after the stage in vertical coordinates.
+- Scope letterbox bars clip anything above a close-up head (badges): use `low=True` on face shots with a badge inside scope sections.
+- Never start a render with `nohup … &` inside a background command (it is killed and leaves a confusing log); run the script itself as the background command.
+- Standing figure head is at y ≈ 550 (pose head −208 × 1.6), seated ≈ 600: standing mediums need cam y ≈ 545.
+- Three 3.5-min episodes render in ~16 min each at 1080p (5 fps, 2 workers); six 30–40 s Shorts follow.

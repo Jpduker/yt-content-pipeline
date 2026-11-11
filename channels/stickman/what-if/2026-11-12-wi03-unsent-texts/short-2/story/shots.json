@@ -1,0 +1,1132 @@
+{
+ "title": "He Answered Texts Nobody Sent. It Backfired.",
+ "duration": 41.166,
+ "shots": [
+  {
+   "id": "s021",
+   "start": 0.0,
+   "end": 3.491,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    },
+    {
+     "at": 3.441,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "cam": [
+     [
+      960,
+      560,
+      0.74
+     ],
+     [
+      990,
+      560,
+      0.8
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 490,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1
+     },
+     {
+      "id": "BOSS",
+      "x": 1290,
+      "pose": "standPhone",
+      "expr": "worried",
+      "f": -1,
+      "walk": [
+       1700,
+       1290,
+       0,
+       0.5
+      ]
+     },
+     {
+      "id": "COLL",
+      "x": 1800,
+      "pose": "sitPhone",
+      "expr": "neutral",
+      "f": -1,
+      "seed": 4
+     }
+    ],
+    "chairs": [
+     [
+      490,
+      1
+     ],
+     [
+      1800,
+      -1
+     ]
+    ],
+    "ghost": false,
+    "motif": "ghost"
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s022",
+   "start": 3.491,
+   "end": 5.381,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "tick",
+     "gain": -21
+    },
+    {
+     "at": 0.375,
+     "name": "tick",
+     "gain": -21
+    },
+    {
+     "at": 0.55,
+     "name": "tick",
+     "gain": -21
+    },
+    {
+     "at": 0.875,
+     "name": "tick",
+     "gain": -21
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "cam": [
+     [
+      1250,
+      545,
+      1.7
+     ],
+     [
+      1250,
+      545,
+      1.8
+     ]
+    ],
+    "who": [
+     {
+      "id": "BOSS",
+      "x": 1290,
+      "pose": "standPhone",
+      "expr": [
+       [
+        0,
+        "worried"
+       ],
+       [
+        0.6,
+        "pressed"
+       ]
+      ],
+      "f": -1,
+      "look": [
+       -0.2,
+       0.6
+      ]
+     }
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s023",
+   "start": 5.381,
+   "end": 6.813,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.63,
+     "name": "swish",
+     "gain": -19
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "cam": [
+     [
+      900,
+      620,
+      1.3
+     ],
+     [
+      880,
+      620,
+      1.35
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 490,
+      "pose": "sitTalk",
+      "expr": "smile",
+      "f": 1
+     },
+     {
+      "id": "BOSS",
+      "x": 1290,
+      "pose": "standPhone",
+      "expr": [
+       [
+        0,
+        "pressed"
+       ],
+       [
+        0.4,
+        "surprised"
+       ]
+      ],
+      "f": -1
+     }
+    ],
+    "chairs": [
+     [
+      490,
+      1
+     ]
+    ],
+    "ghost": false
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s024",
+   "start": 6.813,
+   "end": 9.011,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "office",
+    "who": "BOSS",
+    "expr": [
+     [
+      0,
+      "surprised"
+     ],
+     [
+      0.2843494085532357,
+      "confused"
+     ]
+    ],
+    "side": -1,
+    "bgCam": [
+     1200,
+     520,
+     1.5
+    ],
+    "look": [
+     -0.4,
+     0
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s025",
+   "start": 9.011,
+   "end": 10.224,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "office",
+    "who": "YOU",
+    "expr": "smirk",
+    "side": 1,
+    "bgCam": [
+     500,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s026",
+   "start": 10.224,
+   "end": 14.854,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.85,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.05,
+     "name": "tick",
+     "gain": -21
+    },
+    {
+     "at": 1.225,
+     "name": "tick",
+     "gain": -21
+    },
+    {
+     "at": 1.35,
+     "name": "tick",
+     "gain": -21
+    },
+    {
+     "at": 1.7,
+     "name": "tick",
+     "gain": -21
+    },
+    {
+     "at": 2.976,
+     "name": "tick",
+     "gain": -21
+    },
+    {
+     "at": 3.766,
+     "name": "tick",
+     "gain": -21
+    },
+    {
+     "at": 4.14,
+     "name": "tick",
+     "gain": -21
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "cam": [
+     [
+      1700,
+      620,
+      1.6
+     ],
+     [
+      1700,
+      620,
+      1.7200000000000002
+     ]
+    ],
+    "who": [
+     {
+      "id": "COLL",
+      "x": 1800,
+      "pose": "sitPhone",
+      "expr": [
+       [
+        0,
+        "nervous"
+       ],
+       [
+        0.3023758099352058,
+        "worried"
+       ],
+       [
+        0.7485961123110153,
+        "pressed"
+       ]
+      ],
+      "f": -1,
+      "seed": 4,
+      "look": [
+       -0.2,
+       0.6
+      ]
+     }
+    ],
+    "chairs": [
+     [
+      1800,
+      -1
+     ]
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s027",
+   "start": 14.854,
+   "end": 16.371,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.63,
+     "name": "swish",
+     "gain": -19
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "cam": [
+     [
+      1560,
+      590,
+      1.35
+     ],
+     [
+      1540,
+      590,
+      1.4000000000000001
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 1350,
+      "pose": "explain",
+      "expr": "smile",
+      "f": 1
+     },
+     {
+      "id": "COLL",
+      "x": 1800,
+      "pose": "sit",
+      "expr": [
+       [
+        0,
+        "pressed"
+       ],
+       [
+        0.3,
+        "surprised"
+       ]
+      ],
+      "f": -1,
+      "seed": 4
+     }
+    ],
+    "chairs": [
+     [
+      1800,
+      -1
+     ]
+    ],
+    "ghost": false
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s028",
+   "start": 16.371,
+   "end": 17.664,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "office",
+    "who": "COLL",
+    "expr": [
+     [
+      0,
+      "shocked"
+     ],
+     [
+      0.6,
+      "confused"
+     ]
+    ],
+    "side": -1,
+    "bgCam": [
+     1500,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s029",
+   "start": 17.664,
+   "end": 19.289,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "office",
+    "who": "YOU",
+    "expr": "happy",
+    "side": 1,
+    "bgCam": [
+     1300,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s030",
+   "start": 19.289,
+   "end": 22.819,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "canteen",
+    "long": true,
+    "cam": [
+     [
+      960,
+      600,
+      0.84
+     ],
+     [
+      960,
+      600,
+      0.9
+     ]
+    ],
+    "who": [
+     {
+      "id": "X1",
+      "x": 560,
+      "pose": "sitTalk",
+      "expr": "happy",
+      "f": 1,
+      "seed": 3
+     },
+     {
+      "id": "YOU",
+      "x": 820,
+      "pose": "sitTalk",
+      "expr": "joy",
+      "f": 1
+     },
+     {
+      "id": "X2",
+      "x": 1100,
+      "pose": "sitHands",
+      "expr": "surprised",
+      "f": -1,
+      "seed": 5
+     },
+     {
+      "id": "X3",
+      "x": 1380,
+      "pose": "sitHands",
+      "expr": "confused",
+      "f": -1,
+      "seed": 6
+     }
+    ],
+    "chairs": [
+     [
+      560,
+      1
+     ],
+     [
+      820,
+      1
+     ],
+     [
+      1100,
+      -1
+     ],
+     [
+      1380,
+      -1
+     ]
+    ]
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s031",
+   "start": 22.819,
+   "end": 24.21,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "canteen",
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "happy"
+     ],
+     [
+      0.4,
+      "tender"
+     ]
+    ],
+    "side": 1,
+    "push": 0.1
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s032",
+   "start": 24.21,
+   "end": 27.408,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    },
+    {
+     "at": 0.45,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 0.65,
+     "name": "tick",
+     "gain": -21
+    },
+    {
+     "at": 0.8,
+     "name": "tick",
+     "gain": -21
+    },
+    {
+     "at": 1.025,
+     "name": "tick",
+     "gain": -21
+    },
+    {
+     "at": 1.375,
+     "name": "tick",
+     "gain": -21
+    },
+    {
+     "at": 1.875,
+     "name": "tick",
+     "gain": -21
+    },
+    {
+     "at": 2.15,
+     "name": "tick",
+     "gain": -21
+    },
+    {
+     "at": 2.3,
+     "name": "tick",
+     "gain": -21
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "so": {
+     "warm": true
+    },
+    "cam": [
+     [
+      1100,
+      560,
+      1.35
+     ],
+     [
+      1100,
+      560,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 820,
+      "pose": "stand",
+      "expr": [
+       [
+        0,
+        "neutral"
+       ],
+       [
+        0.33614759224515484,
+        "worried"
+       ]
+      ],
+      "f": 1
+     },
+     {
+      "id": "BOSS",
+      "x": 1290,
+      "pose": "standPhone",
+      "expr": "worried",
+      "f": -1,
+      "look": [
+       -0.1,
+       0.6
+      ]
+     }
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s033",
+   "start": 27.408,
+   "end": 29.223,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.63,
+     "name": "swish",
+     "gain": -19
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "so": {
+     "warm": true
+    },
+    "cam": [
+     [
+      1050,
+      550,
+      1.6
+     ],
+     [
+      1030,
+      550,
+      1.6500000000000001
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 820,
+      "pose": "explain",
+      "expr": "worried",
+      "f": 1
+     },
+     {
+      "id": "BOSS",
+      "x": 1290,
+      "pose": "stand",
+      "expr": [
+       [
+        0,
+        "worried"
+       ],
+       [
+        0.3,
+        "shocked"
+       ]
+      ],
+      "f": -1
+     }
+    ],
+    "ghost": false
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s034",
+   "start": 29.223,
+   "end": 30.856,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "office",
+    "so": {
+     "warm": true
+    },
+    "who": "BOSS",
+    "expr": [
+     [
+      0,
+      "shocked"
+     ],
+     [
+      0.03061849357011469,
+      "angry"
+     ]
+    ],
+    "side": -1,
+    "bgCam": [
+     1200,
+     520,
+     1.5
+    ],
+    "push": 0.12
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s035",
+   "start": 30.856,
+   "end": 33.736,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "office",
+    "so": {
+     "warm": true
+    },
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "surprised"
+     ],
+     [
+      0.20833333333333662,
+      "guilty"
+     ]
+    ],
+    "side": 1,
+    "bgCam": [
+     700,
+     520,
+     1.5
+    ],
+    "push": 0.06
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s036",
+   "start": 33.736,
+   "end": 38.966,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "so": {
+     "warm": true
+    },
+    "cam": [
+     [
+      900,
+      560,
+      0.78
+     ],
+     [
+      1040,
+      560,
+      0.82
+     ]
+    ],
+    "who": [
+     {
+      "id": "X1",
+      "x": 300,
+      "pose": "sitPhone",
+      "expr": "pressed",
+      "f": [
+       [
+        0,
+        1
+       ],
+       [
+        0.35,
+        -1
+       ]
+      ],
+      "seed": 3
+     },
+     {
+      "id": "YOU",
+      "x": 0,
+      "pose": "stand",
+      "expr": "guilty",
+      "f": 1,
+      "walk": [
+       250,
+       1500,
+       0,
+       1
+      ],
+      "slow": true
+     },
+     {
+      "id": "BOSS",
+      "x": 1290,
+      "pose": "crossArms",
+      "expr": "angry",
+      "f": [
+       [
+        0,
+        -1
+       ],
+       [
+        0.6,
+        1
+       ]
+      ]
+     },
+     {
+      "id": "COLL",
+      "x": 1800,
+      "pose": "sitArms",
+      "expr": "pressed",
+      "f": [
+       [
+        0,
+        -1
+       ],
+       [
+        0.8,
+        1
+       ]
+      ],
+      "seed": 4
+     }
+    ],
+    "chairs": [
+     [
+      300,
+      1
+     ],
+     [
+      1800,
+      -1
+     ]
+    ],
+    "ghost": false
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "sEnd",
+   "start": 38.966,
+   "end": 41.166,
+   "line": "",
+   "scene": "shortEnd",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "shortEnd",
+    "lines": [
+     "He Answered Texts",
+     "Nobody Sent. It Backfired."
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 1.16,
+   "mood": "playful",
+   "intensity": 0.42
+  },
+  {
+   "start": 1.16,
+   "end": 31.3,
+   "mood": "playful",
+   "intensity": 0.38
+  },
+  {
+   "start": 31.3,
+   "end": 41.166,
+   "mood": "tension",
+   "intensity": 0.3
+  }
+ ],
+ "sfx": []
+}

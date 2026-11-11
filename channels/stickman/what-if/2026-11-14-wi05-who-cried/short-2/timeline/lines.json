@@ -1,0 +1,132 @@
+[
+ {
+  "id": "L023",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then, your mum. Forty-one.",
+  "sec": "act2",
+  "start": 1.05,
+  "end": 2.925
+ },
+ {
+  "id": "L024",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Mum. I need to say sorry.",
+  "sec": "act2",
+  "start": 3.185,
+  "end": 5.001
+ },
+ {
+  "id": "L025",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "What did you break?",
+  "sec": "act2",
+  "start": 5.151,
+  "end": 6.216
+ },
+ {
+  "id": "L026",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Nothing! For all of it. I made you cry forty-one times.",
+  "sec": "act2",
+  "start": 6.366,
+  "end": 9.956
+ },
+ {
+  "id": "L027",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "Forty-one? Is that all?",
+  "sec": "act2",
+  "start": 10.106,
+  "end": 11.496
+ },
+ {
+  "id": "L028",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "Sweetheart. Half of those were your school plays. You were a very moving tree.",
+  "sec": "act2",
+  "start": 11.749,
+  "end": 15.447
+ },
+ {
+  "id": "L029",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "A tree.",
+  "sec": "act2",
+  "start": 15.597,
+  "end": 16.324
+ },
+ {
+  "id": "L030",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "And the day you left for the city.",
+  "sec": "act2",
+  "start": 16.474,
+  "end": 18.048
+ },
+ {
+  "id": "L031",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "That one was sad crying.",
+  "sec": "act2",
+  "start": 18.198,
+  "end": 19.693
+ },
+ {
+  "id": "L032",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "That one was proud crying. You'd know the difference if you called more.",
+  "sec": "act2",
+  "start": 19.843,
+  "end": 23.093
+ },
+ {
+  "id": "L033",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "Like last week. When you called for no reason.",
+  "sec": "act2",
+  "start": 23.36,
+  "end": 25.793
+ },
+ {
+  "id": "L034",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You look at the number again. It doesn't say which kind.",
+  "sec": "act2",
+  "start": 26.793,
+  "end": 29.843
+ },
+ {
+  "id": "L035",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It never did.",
+  "sec": "act2",
+  "start": 30.003,
+  "end": 30.844
+ }
+]

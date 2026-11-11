@@ -1,0 +1,732 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "One morning, everyone you know has a number over their head.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 3.815
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your barista. Two thousand and ninety.",
+  "sec": "hook",
+  "start": 3.954,
+  "end": 6.72
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your boss. Four hundred and twelve.",
+  "sec": "hook",
+  "start": 6.86,
+  "end": 9.364
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your best friend.",
+  "sec": "hook",
+  "start": 9.505,
+  "end": 10.517
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Three.",
+  "sec": "hook",
+  "start": 11.407,
+  "end": 12.003
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It doesn't say why. It only says how long.",
+  "sec": "hook",
+  "start": 12.843,
+  "end": 15.746
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You don't know what it's counting. Not yet.",
+  "sec": "act1",
+  "start": 19.046,
+  "end": 21.421
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your neighbour's says zero.",
+  "sec": "act1",
+  "start": 21.561,
+  "end": 22.952
+ },
+ {
+  "id": "L009",
+  "tag": "NEIGH",
+  "thought": false,
+  "note": "",
+  "text": "Morning! Well. Last morning. Van's here.",
+  "sec": "act1",
+  "start": 23.212,
+  "end": 25.471
+ },
+ {
+  "id": "L010",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You're moving?",
+  "sec": "act1",
+  "start": 25.621,
+  "end": 26.476
+ },
+ {
+  "id": "L011",
+  "tag": "NEIGH",
+  "thought": false,
+  "note": "",
+  "text": "To the coast! Did I not tell you?",
+  "sec": "act1",
+  "start": 26.626,
+  "end": 28.637
+ },
+ {
+  "id": "L012",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Zero. And he's gone.",
+  "sec": "act1",
+  "start": 29.037,
+  "end": 30.577
+ },
+ {
+  "id": "L013",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "So that's what it counts. Days. Until someone leaves your life.",
+  "sec": "act1",
+  "start": 30.717,
+  "end": 34.435
+ },
+ {
+  "id": "L014",
+  "tag": "BARISTA",
+  "thought": false,
+  "note": "",
+  "text": "Usual?",
+  "sec": "act1",
+  "start": 36.495,
+  "end": 37.162
+ },
+ {
+  "id": "L015",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You're going to be here a while.",
+  "sec": "act1",
+  "start": 37.312,
+  "end": 38.743
+ },
+ {
+  "id": "L016",
+  "tag": "BARISTA",
+  "thought": false,
+  "note": "",
+  "text": "Thanks?",
+  "sec": "act1",
+  "start": 38.893,
+  "end": 39.432
+ },
+ {
+  "id": "L017",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At work, you check everyone.",
+  "sec": "act1",
+  "start": 40.732,
+  "end": 42.482
+ },
+ {
+  "id": "L018",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your boss, four hundred and twelve. You do the maths. A promotion, probably. His.",
+  "sec": "act1",
+  "start": 42.622,
+  "end": 47.967
+ },
+ {
+  "id": "L019",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your colleague. Twelve.",
+  "sec": "act1",
+  "start": 48.107,
+  "end": 49.625
+ },
+ {
+  "id": "L020",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You're quitting.",
+  "sec": "act1",
+  "start": 49.885,
+  "end": 50.74
+ },
+ {
+  "id": "L021",
+  "tag": "COLL",
+  "thought": false,
+  "note": "",
+  "text": "What? Who told\u2014 I haven't even told my mum.",
+  "sec": "act1",
+  "start": 50.89,
+  "end": 54.439
+ },
+ {
+  "id": "L022",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The office plant. Four. Nobody's watering it.",
+  "sec": "act1",
+  "start": 54.839,
+  "end": 57.864
+ },
+ {
+  "id": "L023",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your gym says zero. Fair.",
+  "sec": "act1",
+  "start": 58.004,
+  "end": 60.029
+ },
+ {
+  "id": "L024",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "But you keep coming back to three.",
+  "sec": "act1",
+  "start": 60.633,
+  "end": 62.333
+ },
+ {
+  "id": "L025",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "You're staring.",
+  "sec": "act2",
+  "start": 64.233,
+  "end": 65.07
+ },
+ {
+  "id": "L026",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Am I? Your hair looks nice.",
+  "sec": "act2",
+  "start": 65.219,
+  "end": 66.861
+ },
+ {
+  "id": "L027",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "It's the same hair.",
+  "sec": "act2",
+  "start": 67.01,
+  "end": 68.043
+ },
+ {
+  "id": "L028",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Three days. So you do what anyone would. You make yourself impossible to leave.",
+  "sec": "act2",
+  "start": 68.443,
+  "end": 73.488
+ },
+ {
+  "id": "L029",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Her favourite coffee. Every morning.",
+  "sec": "act2",
+  "start": 73.701,
+  "end": 76.151
+ },
+ {
+  "id": "L030",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The shelf she asked about in March.",
+  "sec": "act2",
+  "start": 76.321,
+  "end": 78.496
+ },
+ {
+  "id": "L031",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The story about her cousin. You laugh at all of it. Again.",
+  "sec": "act2",
+  "start": 78.636,
+  "end": 82.559
+ },
+ {
+  "id": "L032",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Okay. Who are you, and what do you want?",
+  "sec": "act2",
+  "start": 82.819,
+  "end": 84.808
+ },
+ {
+  "id": "L033",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Nothing! Can't a friend fix a shelf?",
+  "sec": "act2",
+  "start": 84.958,
+  "end": 87.075
+ },
+ {
+  "id": "L034",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "That night, you check.",
+  "sec": "act2",
+  "start": 87.875,
+  "end": 88.8
+ },
+ {
+  "id": "L035",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Two.",
+  "sec": "act2",
+  "start": 89.417,
+  "end": 89.997
+ },
+ {
+  "id": "L036",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Hey. Can I tell you something?",
+  "sec": "act2",
+  "start": 91.157,
+  "end": 92.847
+ },
+ {
+  "id": "L037",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "First, dessert! I got the one you like.",
+  "sec": "act2",
+  "start": 92.997,
+  "end": 95.277
+ },
+ {
+  "id": "L038",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Sure.",
+  "sec": "act2",
+  "start": 95.927,
+  "end": 96.437
+ },
+ {
+  "id": "L039",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She was about to say something. You gave her cake instead.",
+  "sec": "act2",
+  "start": 96.837,
+  "end": 100.507
+ },
+ {
+  "id": "L040",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It isn't counting how she feels. It's just counting.",
+  "sec": "act2",
+  "start": 100.647,
+  "end": 103.846
+ },
+ {
+  "id": "L041",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "So you start guessing. A fight you haven't had yet. Something a doctor said. Something you said.",
+  "sec": "act2",
+  "start": 105.086,
+  "end": 110.986
+ },
+ {
+  "id": "L042",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You read every message you've sent her since spring.",
+  "sec": "act2",
+  "start": 111.126,
+  "end": 113.66
+ },
+ {
+  "id": "L043",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "One.",
+  "sec": "act2",
+  "start": 114.501,
+  "end": 115.029
+ },
+ {
+  "id": "L044",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You find out by accident.",
+  "sec": "act3",
+  "start": 117.229,
+  "end": 118.916
+ },
+ {
+  "id": "L045",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Mira. What's all this?",
+  "sec": "act3",
+  "start": 119.176,
+  "end": 120.715
+ },
+ {
+  "id": "L046",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Okay. Don't be mad.",
+  "sec": "act3",
+  "start": 120.864,
+  "end": 122.259
+ },
+ {
+  "id": "L047",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "I got in. The course. The one that said no last year.",
+  "sec": "act3",
+  "start": 122.421,
+  "end": 125.365
+ },
+ {
+  "id": "L048",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Mira, that's huge!",
+  "sec": "act3",
+  "start": 125.515,
+  "end": 126.887
+ },
+ {
+  "id": "L049",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "It's four hours away. It starts Monday.",
+  "sec": "act3",
+  "start": 127.037,
+  "end": 129.237
+ },
+ {
+  "id": "L050",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "And you didn't tell me.",
+  "sec": "act3",
+  "start": 129.887,
+  "end": 131.084
+ },
+ {
+  "id": "L051",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "I tried! Like, nine times. But you were being so nice. And I thought, if I tell him, he'll be nice about that too. And I'll never know what he really thinks.",
+  "sec": "act3",
+  "start": 131.234,
+  "end": 139.886
+ },
+ {
+  "id": "L052",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I think\u2026",
+  "sec": "act3",
+  "start": 140.636,
+  "end": 141.341
+ },
+ {
+  "id": "L053",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Her number flickers. One. Nine hundred. One.",
+  "sec": "act3",
+  "start": 141.741,
+  "end": 144.666
+ },
+ {
+  "id": "L054",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "If you ask her now, she stays.",
+  "sec": "act3",
+  "start": 144.806,
+  "end": 146.44
+ },
+ {
+  "id": "L055",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I think you're going to need more tape.",
+  "sec": "act3",
+  "start": 147.6,
+  "end": 149.458
+ },
+ {
+  "id": "L056",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "That's what you think?",
+  "sec": "act3",
+  "start": 149.608,
+  "end": 150.56
+ },
+ {
+  "id": "L057",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "And I think I'm going to hate Mondays.",
+  "sec": "act3",
+  "start": 150.71,
+  "end": 152.785
+ },
+ {
+  "id": "L058",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Why are you wrapping one mug in three jumpers?",
+  "sec": "act3",
+  "start": 154.335,
+  "end": 156.592
+ },
+ {
+  "id": "L059",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "It's your favourite mug.",
+  "sec": "act3",
+  "start": 156.742,
+  "end": 158.151
+ },
+ {
+  "id": "L060",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "It's your mug. I stole it in March.",
+  "sec": "act3",
+  "start": 158.301,
+  "end": 160.115
+ },
+ {
+  "id": "L061",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Then it's coming with you.",
+  "sec": "act3",
+  "start": 160.265,
+  "end": 161.61
+ },
+ {
+  "id": "L062",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You carry the heavy box. She pretends not to notice you picked the heavy one.",
+  "sec": "act3",
+  "start": 162.51,
+  "end": 167.159
+ },
+ {
+  "id": "L063",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Zero is a train platform.",
+  "sec": "act3",
+  "start": 168.399,
+  "end": 170.267
+ },
+ {
+  "id": "L064",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Don't make it weird.",
+  "sec": "act3",
+  "start": 170.527,
+  "end": 171.503
+ },
+ {
+  "id": "L065",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I'm not making it weird.",
+  "sec": "act3",
+  "start": 171.652,
+  "end": 173.104
+ },
+ {
+  "id": "L066",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "You're doing the face.",
+  "sec": "act3",
+  "start": 173.254,
+  "end": 174.226
+ },
+ {
+  "id": "L067",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Text me when you get there.",
+  "sec": "act3",
+  "start": 174.376,
+  "end": 175.768
+ },
+ {
+  "id": "L068",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "It's four hours. Not the moon.",
+  "sec": "act3",
+  "start": 175.918,
+  "end": 177.71
+ },
+ {
+  "id": "L069",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Then text me from the moon.",
+  "sec": "act3",
+  "start": 177.86,
+  "end": 179.273
+ },
+ {
+  "id": "L070",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The doors close. The number goes out like a light.",
+  "sec": "act3",
+  "start": 180.473,
+  "end": 183.529
+ },
+ {
+  "id": "L071",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "text",
+  "text": "Seat fourteen. Already bored. Call you tonight?",
+  "sec": "act3",
+  "start": 185.689,
+  "end": 188.358
+ },
+ {
+  "id": "L072",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "There's no number over her name. It was never counting the friendship. Only the distance.",
+  "sec": "act3",
+  "start": 189.258,
+  "end": 194.486
+ },
+ {
+  "id": "L073",
+  "tag": "N",
+  "thought": false,
+  "note": "soft",
+  "text": "Would you have asked her to stay?",
+  "sec": "end",
+  "start": 197.126,
+  "end": 198.728
+ }
+]

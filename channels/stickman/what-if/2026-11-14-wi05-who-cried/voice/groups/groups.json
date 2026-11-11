@@ -1,0 +1,558 @@
+[
+ {
+  "id": "G001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Today there's a small blue teardrop over some people's heads. It takes you until lunch to work out what it means. They've cried. Because of you. The bus driver has one. Your mum has forty-one.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "ids": [
+   "L001",
+   "L002",
+   "L003",
+   "L004",
+   "L005"
+  ]
+ },
+ {
+  "id": "G002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your best friend got hers\u2026 last night.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "ids": [
+   "L006"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At first you think it's a trick of the light. The man at the bakery, nothing. The woman with the dog, nothing. The bus driver. One teardrop. And a look.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "ids": [
+   "L007",
+   "L008",
+   "L009"
+  ]
+ },
+ {
+  "id": "G004",
+  "tag": "DRIVER",
+  "thought": false,
+  "note": "",
+  "text": "You.",
+  "voice": "bm_daniel",
+  "speed": 1.04,
+  "ids": [
+   "L010"
+  ]
+ },
+ {
+  "id": "G005",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Me?",
+  "voice": "am_michael",
+  "speed": 1.08,
+  "ids": [
+   "L011"
+  ]
+ },
+ {
+  "id": "G006",
+  "tag": "DRIVER",
+  "thought": false,
+  "note": "",
+  "text": "Route nine. Six years ago. You paid in pennies. A hundred and forty of them. In the rain.",
+  "voice": "bm_daniel",
+  "speed": 1.04,
+  "ids": [
+   "L012"
+  ]
+ },
+ {
+  "id": "G007",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "That made you cry?",
+  "voice": "am_michael",
+  "speed": 1.08,
+  "ids": [
+   "L013"
+  ]
+ },
+ {
+  "id": "G008",
+  "tag": "DRIVER",
+  "thought": false,
+  "note": "",
+  "text": "It was my first day.",
+  "voice": "bm_daniel",
+  "speed": 1.04,
+  "ids": [
+   "L014"
+  ]
+ },
+ {
+  "id": "G009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "So that's the rule. A teardrop for everyone who's ever cried because of you. And a number, if it happened more than once. Your old landlord. Three. You know why.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "ids": [
+   "L015",
+   "L016"
+  ]
+ },
+ {
+  "id": "G010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "A stranger in the park. One. You have never seen her before in your life.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "ids": [
+   "L017",
+   "L018"
+  ]
+ },
+ {
+  "id": "G011",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You decide to fix it. One apology per teardrop.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "ids": [
+   "L019"
+  ]
+ },
+ {
+  "id": "G012",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I'm sorry about the pennies.",
+  "voice": "am_michael",
+  "speed": 1.08,
+  "ids": [
+   "L020"
+  ]
+ },
+ {
+  "id": "G013",
+  "tag": "DRIVER",
+  "thought": false,
+  "note": "",
+  "text": "Took you six years.",
+  "voice": "bm_daniel",
+  "speed": 1.04,
+  "ids": [
+   "L021"
+  ]
+ },
+ {
+  "id": "G014",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The teardrop stays. Apologies don't delete them. They just sit next to them.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "ids": [
+   "L022"
+  ]
+ },
+ {
+  "id": "G015",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then, your mum. Forty-one.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "ids": [
+   "L023"
+  ]
+ },
+ {
+  "id": "G016",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Mum. I need to say sorry.",
+  "voice": "am_michael",
+  "speed": 1.08,
+  "ids": [
+   "L024"
+  ]
+ },
+ {
+  "id": "G017",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "What did you break?",
+  "voice": "bf_emma",
+  "speed": 1.04,
+  "ids": [
+   "L025"
+  ]
+ },
+ {
+  "id": "G018",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Nothing! For all of it. I made you cry forty-one times.",
+  "voice": "am_michael",
+  "speed": 1.08,
+  "ids": [
+   "L026"
+  ]
+ },
+ {
+  "id": "G019",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "Forty-one? Is that all? Sweetheart. Half of those were your school plays. You were a very moving tree.",
+  "voice": "bf_emma",
+  "speed": 1.04,
+  "ids": [
+   "L027",
+   "L028"
+  ]
+ },
+ {
+  "id": "G020",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "A tree.",
+  "voice": "am_michael",
+  "speed": 1.08,
+  "ids": [
+   "L029"
+  ]
+ },
+ {
+  "id": "G021",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "And the day you left for the city.",
+  "voice": "bf_emma",
+  "speed": 1.04,
+  "ids": [
+   "L030"
+  ]
+ },
+ {
+  "id": "G022",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "That one was sad crying.",
+  "voice": "am_michael",
+  "speed": 1.08,
+  "ids": [
+   "L031"
+  ]
+ },
+ {
+  "id": "G023",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "That one was proud crying. You'd know the difference if you called more. Like last week. When you called for no reason.",
+  "voice": "bf_emma",
+  "speed": 1.04,
+  "ids": [
+   "L032",
+   "L033"
+  ]
+ },
+ {
+  "id": "G024",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You look at the number again. It doesn't say which kind. It never did.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "ids": [
+   "L034",
+   "L035"
+  ]
+ },
+ {
+  "id": "G025",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The stranger in the park. Two winters ago, you handed in a lost wallet, and never thought about it again.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "ids": [
+   "L036"
+  ]
+ },
+ {
+  "id": "G026",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Which leaves one teardrop. Mira's. Last night's. She's back for the weekend. You thought dinner went fine. You said her new place sounded small. You said the course sounded hard. You joked that she'd forget you by Christmas. It has to be one of those.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "ids": [
+   "L037",
+   "L038",
+   "L039",
+   "L040"
+  ]
+ },
+ {
+  "id": "G027",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You buy flowers. Then you decide flowers look guilty. You leave them on a bench.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "ids": [
+   "L041"
+  ]
+ },
+ {
+  "id": "G028",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "You're doing the face again.",
+  "voice": "af_heart",
+  "speed": 1.08,
+  "ids": [
+   "L042"
+  ]
+ },
+ {
+  "id": "G029",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Okay. Did I say something last night? Something wrong?",
+  "voice": "am_michael",
+  "speed": 1.08,
+  "ids": [
+   "L043"
+  ]
+ },
+ {
+  "id": "G030",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "What? No.",
+  "voice": "af_heart",
+  "speed": 1.08,
+  "ids": [
+   "L044"
+  ]
+ },
+ {
+  "id": "G031",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You're sure? Because if I did\u2014",
+  "voice": "am_michael",
+  "speed": 1.08,
+  "ids": [
+   "L045"
+  ]
+ },
+ {
+  "id": "G032",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Why would you think that?",
+  "voice": "af_heart",
+  "speed": 1.08,
+  "ids": [
+   "L046"
+  ]
+ },
+ {
+  "id": "G033",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You can't say, because there's a teardrop over your head. So you say the other true thing.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "ids": [
+   "L047"
+  ]
+ },
+ {
+  "id": "G034",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Because I'd want to know. If I ever made you cry.",
+  "voice": "am_michael",
+  "speed": 1.08,
+  "ids": [
+   "L048"
+  ]
+ },
+ {
+  "id": "G035",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Okay, that's unfair. How did you know? I found the card. In the box you packed. For when it's Monday and you hate it. I read it on my new kitchen floor, and cried like an idiot.",
+  "voice": "af_heart",
+  "speed": 1.08,
+  "ids": [
+   "L049",
+   "L050",
+   "L051"
+  ]
+ },
+ {
+  "id": "G036",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I forgot I wrote that.",
+  "voice": "am_michael",
+  "speed": 1.08,
+  "ids": [
+   "L052"
+  ]
+ },
+ {
+  "id": "G037",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "I didn't.",
+  "voice": "af_heart",
+  "speed": 1.08,
+  "ids": [
+   "L053"
+  ]
+ },
+ {
+  "id": "G038",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "What did it even say?",
+  "voice": "am_michael",
+  "speed": 1.08,
+  "ids": [
+   "L054"
+  ]
+ },
+ {
+  "id": "G039",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "It said, you're allowed to hate it, and stay anyway.",
+  "voice": "af_heart",
+  "speed": 1.08,
+  "ids": [
+   "L055"
+  ]
+ },
+ {
+  "id": "G040",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "That's pretty good.",
+  "voice": "am_michael",
+  "speed": 1.08,
+  "ids": [
+   "L056"
+  ]
+ },
+ {
+  "id": "G041",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Don't.",
+  "voice": "af_heart",
+  "speed": 1.08,
+  "ids": [
+   "L057"
+  ]
+ },
+ {
+  "id": "G042",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The teardrop's still there. You hope it stays.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "ids": [
+   "L058"
+  ]
+ },
+ {
+  "id": "G043",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In the caf\u00e9 window, your own reflection. And over your head, small and blue,",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "ids": [
+   "L059"
+  ]
+ },
+ {
+  "id": "G044",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "you know exactly whose that is.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "ids": [
+   "L060"
+  ]
+ },
+ {
+  "id": "G045",
+  "tag": "N",
+  "thought": false,
+  "note": "soft",
+  "text": "Would you want to know?",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "ids": [
+   "L061"
+  ]
+ }
+]

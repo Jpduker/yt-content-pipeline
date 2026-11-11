@@ -1,0 +1,60 @@
+{
+ "voices": {
+  "N": [
+   "am_michael",
+   1.03,
+   -1.0
+  ],
+  "YOU": [
+   "am_michael",
+   1.09,
+   0.5
+  ],
+  "MIRA": [
+   "af_heart",
+   1.1,
+   0.5
+  ],
+  "NEIGH": [
+   "bm_lewis",
+   1.08,
+   0
+  ],
+  "COLL": [
+   "af_nicole",
+   1.12,
+   1.5
+  ],
+  "JO": [
+   "am_puck",
+   1.08,
+   0
+  ],
+  "SAM": [
+   "af_bella",
+   1.08,
+   0
+  ],
+  "LIFT": [
+   "af_bella",
+   1.0,
+   0
+  ],
+  "BARISTA": [
+   "am_puck",
+   1.06,
+   0
+  ]
+ },
+ "thought_speed": 1.0,
+ "beats": {
+  "act1": 2.4,
+  "act2": 1.0,
+  "act3": 1.3
+ },
+ "nat": [
+  0.14,
+  0.5,
+  0.85
+ ]
+}

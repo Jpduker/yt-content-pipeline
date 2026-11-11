@@ -1,0 +1,503 @@
+1
+00:00:00,500 --> 00:00:02,255
+You wake up, and your phone is full
+
+2
+00:00:02,275 --> 00:00:04,510
+of messages nobody sent.
+
+3
+00:00:04,530 --> 00:00:05,912
+Your boss typed,
+
+4
+00:00:06,003 --> 00:00:07,211
+<i>“You're fired.”</i>
+
+5
+00:00:07,381 --> 00:00:08,591
+Then deleted it.
+
+6
+00:00:08,611 --> 00:00:09,992
+Your mum typed,
+
+7
+00:00:10,082 --> 00:00:11,649
+<i>“Are you eating properly?”</i>
+
+8
+00:00:11,819 --> 00:00:13,369
+Eleven times.
+
+9
+00:00:13,649 --> 00:00:16,179
+And at three a.m., your best friend
+
+10
+00:00:16,199 --> 00:00:17,379
+typed three words…
+
+11
+00:00:17,399 --> 00:00:18,816
+and held backspace.
+
+12
+00:00:19,456 --> 00:00:20,629
+<i>“I'm not okay.”</i>
+
+13
+00:00:21,299 --> 00:00:22,559
+She never sent it.
+
+14
+00:00:22,579 --> 00:00:24,383
+You could answer anyway.
+
+15
+00:00:27,433 --> 00:00:29,713
+They look like normal messages.
+
+16
+00:00:29,733 --> 00:00:31,183
+Just grey.
+
+17
+00:00:31,203 --> 00:00:32,718
+And they flicker, like they're still
+
+18
+00:00:32,738 --> 00:00:34,072
+deciding.
+
+19
+00:00:34,092 --> 00:00:36,272
+Everything anyone almost said to you
+
+20
+00:00:36,292 --> 00:00:37,567
+since midnight.
+
+21
+00:00:37,592 --> 00:00:39,167
+Two hundred and twelve.
+
+22
+00:00:39,187 --> 00:00:40,698
+Before breakfast.
+
+23
+00:00:40,718 --> 00:00:42,280
+The pizza place wrote,
+
+24
+00:00:42,369 --> 00:00:43,927
+<i>“Sorry about the pineapple.”</i>
+
+25
+00:00:44,097 --> 00:00:46,272
+Then sent a coupon instead.
+
+26
+00:00:46,502 --> 00:00:48,188
+The group chat is worse.
+
+27
+00:00:48,278 --> 00:00:50,092
+<i>“Is he bringing the guitar again?”</i>
+
+28
+00:00:50,182 --> 00:00:51,312
+<i>“Somebody tell him.”</i>
+
+29
+00:00:51,332 --> 00:00:52,069
+<i>“Not me.”</i>
+
+30
+00:00:52,639 --> 00:00:54,019
+Nobody tells you.
+
+31
+00:00:54,039 --> 00:00:56,174
+Tonight, the guitar stays home.
+
+32
+00:00:57,164 --> 00:00:59,418
+In the lift, a stranger types,
+
+33
+00:00:59,508 --> 00:01:00,713
+<i>“I like your hoodie.”</i>
+
+34
+00:01:00,883 --> 00:01:02,151
+And deletes it.
+
+35
+00:01:02,741 --> 00:01:04,905
+You stand a little taller anyway.
+
+36
+00:01:06,555 --> 00:01:08,956
+At work, it turns out to be useful.
+
+37
+00:01:09,046 --> 00:01:10,766
+<i>“Where is that report?”</i>
+
+38
+00:01:10,936 --> 00:01:12,348
+Report's on your desk.
+
+39
+00:01:12,368 --> 00:01:13,123
+I was…
+
+40
+00:01:13,143 --> 00:01:14,546
+just about to ask.
+
+41
+00:01:14,566 --> 00:01:15,689
+Lucky guess.
+
+42
+00:01:16,679 --> 00:01:18,585
+<i>“Could you cover Friday?”</i>
+
+43
+00:01:18,605 --> 00:01:19,375
+<i>“No.”</i>
+
+44
+00:01:19,395 --> 00:01:20,239
+<i>“Forget it.”</i>
+
+45
+00:01:20,409 --> 00:01:21,906
+I can cover Friday.
+
+46
+00:01:21,926 --> 00:01:23,079
+How did you
+
+47
+00:01:23,099 --> 00:01:24,694
+You look like a Friday.
+
+48
+00:01:24,844 --> 00:01:26,749
+By lunch, you're answering questions
+
+49
+00:01:26,769 --> 00:01:28,354
+nobody asked.
+
+50
+00:01:28,374 --> 00:01:30,175
+It feels like kindness.
+
+51
+00:01:30,265 --> 00:01:32,793
+<i>“Should I warn him about the budget?”</i>
+
+52
+00:01:32,963 --> 00:01:34,758
+Is something wrong with the budget?
+
+53
+00:01:34,778 --> 00:01:36,161
+Who told you that?
+
+54
+00:01:36,711 --> 00:01:39,271
+It doesn't feel like kindness to them.
+
+55
+00:01:39,291 --> 00:01:41,921
+By three, people turn their phones face
+
+56
+00:01:41,941 --> 00:01:43,630
+down when you walk past.
+
+57
+00:01:45,221 --> 00:01:46,788
+<i>“Are you eating properly?”</i>
+
+58
+00:01:46,958 --> 00:01:47,568
+Twelve.
+
+59
+00:01:47,588 --> 00:01:48,866
+So you call her.
+
+60
+00:01:48,886 --> 00:01:49,366
+Hello?
+
+61
+00:01:49,386 --> 00:01:50,483
+Is something wrong?
+
+62
+00:01:50,503 --> 00:01:51,353
+No, no.
+
+63
+00:01:51,393 --> 00:01:52,693
+I just had lunch.
+
+64
+00:01:52,713 --> 00:01:53,713
+A real one.
+
+65
+00:01:53,733 --> 00:01:55,257
+Vegetables and everything.
+
+66
+00:01:55,277 --> 00:01:56,704
+Why are you telling me this?
+
+67
+00:01:56,724 --> 00:01:58,277
+Thought you'd want to know.
+
+68
+00:01:58,677 --> 00:01:59,402
+I did.
+
+69
+00:01:59,442 --> 00:02:00,698
+I did want to know.
+
+70
+00:02:00,848 --> 00:02:02,328
+That one, you got right.
+
+71
+00:02:02,348 --> 00:02:03,353
+You answered.
+
+72
+00:02:03,373 --> 00:02:05,082
+And she never knew you'd read it.
+
+73
+00:02:06,132 --> 00:02:08,312
+All afternoon, one message sits at the
+
+74
+00:02:08,332 --> 00:02:09,842
+top of the pile.
+
+75
+00:02:09,862 --> 00:02:11,092
+You don't open it.
+
+76
+00:02:11,112 --> 00:02:12,319
+You don't need to.
+
+77
+00:02:13,229 --> 00:02:14,086
+Hey, you.
+
+78
+00:02:14,106 --> 00:02:14,361
+Hey.
+
+79
+00:02:14,381 --> 00:02:15,326
+How are you?
+
+80
+00:02:15,346 --> 00:02:15,751
+Fine!
+
+81
+00:02:15,771 --> 00:02:16,126
+Tired.
+
+82
+00:02:16,146 --> 00:02:16,706
+You know.
+
+83
+00:02:16,726 --> 00:02:17,186
+Fine.
+
+84
+00:02:17,206 --> 00:02:17,924
+How was work?
+
+85
+00:02:17,944 --> 00:02:18,554
+Weird.
+
+86
+00:02:18,574 --> 00:02:20,595
+People kept hiding their phones.
+
+87
+00:02:20,615 --> 00:02:22,798
+Maybe stop reading over their shoulders.
+
+88
+00:02:23,198 --> 00:02:23,503
+Yeah.
+
+89
+00:02:23,523 --> 00:02:24,363
+Maybe.
+
+90
+00:02:24,913 --> 00:02:26,093
+Above her phone.
+
+91
+00:02:26,113 --> 00:02:26,763
+Grey.
+
+92
+00:02:26,783 --> 00:02:27,937
+Still flickering.
+
+93
+00:02:28,027 --> 00:02:29,200
+<i>“I'm not okay.”</i>
+
+94
+00:02:29,370 --> 00:02:31,600
+You've had the perfect reply ready all
+
+95
+00:02:31,620 --> 00:02:32,506
+day.
+
+96
+00:02:32,526 --> 00:02:34,265
+You type it under the table.
+
+97
+00:02:34,354 --> 00:02:35,988
+<i>“I know you're not okay.”</i>
+
+98
+00:02:36,158 --> 00:02:37,831
+Your thumb is on send.
+
+99
+00:02:38,521 --> 00:02:39,526
+She didn't send it.
+
+100
+00:02:39,546 --> 00:02:40,576
+That was a decision.
+
+101
+00:02:40,596 --> 00:02:41,525
+Hers.
+
+102
+00:02:42,115 --> 00:02:43,900
+You hold backspace.
+
+103
+00:02:43,920 --> 00:02:46,125
+Now there are two unsent messages at
+
+104
+00:02:46,145 --> 00:02:47,073
+this table.
+
+105
+00:02:47,682 --> 00:02:49,435
+Want to split a cinnamon roll?
+
+106
+00:02:49,455 --> 00:02:50,020
+Yeah.
+
+107
+00:02:50,040 --> 00:02:50,830
+Okay.
+
+108
+00:02:50,980 --> 00:02:52,435
+You talk about nothing.
+
+109
+00:02:52,455 --> 00:02:54,019
+Twenty minutes of nothing.
+
+110
+00:02:54,729 --> 00:02:56,091
+Can I tell you something?
+
+111
+00:02:56,111 --> 00:02:57,149
+Always.
+
+112
+00:02:57,849 --> 00:02:59,025
+I'm not okay.
+
+113
+00:02:59,875 --> 00:03:00,905
+Three words.
+
+114
+00:03:00,925 --> 00:03:02,055
+Out loud.
+
+115
+00:03:02,075 --> 00:03:05,026
+Sixteen hours late, and exactly on time.
+
+116
+00:03:05,046 --> 00:03:06,066
+I'm here.
+
+117
+00:03:06,466 --> 00:03:07,331
+I didn't get it.
+
+118
+00:03:07,351 --> 00:03:08,506
+The second interview.
+
+119
+00:03:08,526 --> 00:03:10,235
+I've been saying fine for a week.
+
+120
+00:03:10,255 --> 00:03:12,204
+That's a long time to say fine.
+
+121
+00:03:12,224 --> 00:03:13,962
+It's a very flexible word.
+
+122
+00:03:14,712 --> 00:03:16,155
+You don't say you knew.
+
+123
+00:03:18,045 --> 00:03:20,275
+On the way home, your phone buzzes.
+
+124
+00:03:20,295 --> 00:03:21,903
+A real one, this time.
+
+125
+00:03:21,923 --> 00:03:23,427
+Thank you for not asking.
+
+126
+00:03:25,877 --> 00:03:27,277
+Would you read them?

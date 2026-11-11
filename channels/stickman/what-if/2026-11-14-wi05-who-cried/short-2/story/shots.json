@@ -1,0 +1,603 @@
+{
+ "title": "His Mum Cried 41 Times Because of Him",
+ "duration": 34.634,
+ "shots": [
+  {
+   "id": "s029",
+   "start": 0.0,
+   "end": 1.41,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "cam": [
+     [
+      730,
+      610,
+      1.6
+     ],
+     [
+      730,
+      610,
+      1.7000000000000002
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 720,
+      "pose": "sitPhone",
+      "expr": "nervous",
+      "f": 1,
+      "dy": 19,
+      "look": [
+       0.4,
+       0.5
+      ]
+     }
+    ],
+    "motif": "tear"
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s030",
+   "start": 1.41,
+   "end": 3.035,
+   "line": "",
+   "scene": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "ins": "call",
+    "expr": "happy",
+    "badge": {
+     "k": "tear",
+     "v": 41
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s031",
+   "start": 3.035,
+   "end": 5.001,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "cam": [
+     [
+      730,
+      610,
+      1.9
+     ],
+     [
+      710,
+      610,
+      1.95
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 720,
+      "pose": "sitPhone",
+      "expr": "guilty",
+      "f": 1,
+      "dy": 19
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s032",
+   "start": 5.001,
+   "end": 6.216,
+   "line": "",
+   "scene": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "ins": "call",
+    "expr": [
+     [
+      0,
+      "confused"
+     ],
+     [
+      0.12345679012346113,
+      "smirk"
+     ]
+    ],
+    "badge": {
+     "k": "tear",
+     "v": 41
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s033",
+   "start": 6.216,
+   "end": 9.956,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "guilty"
+     ],
+     [
+      0.4144385026738004,
+      "hurt"
+     ]
+    ],
+    "side": 1,
+    "push": 0.08
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s034",
+   "start": 9.956,
+   "end": 12.659,
+   "line": "",
+   "scene": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "ins": "call",
+    "expr": [
+     [
+      0,
+      "surprised"
+     ],
+     [
+      0.23677395486496883,
+      "laugh"
+     ],
+     [
+      0.5523492415834257,
+      "tender"
+     ]
+    ],
+    "badge": {
+     "k": "tear",
+     "v": 41
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s035",
+   "start": 12.659,
+   "end": 14.184,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "who": "YOU",
+    "expr": "confused",
+    "side": 1
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s036",
+   "start": 14.184,
+   "end": 15.447,
+   "line": "",
+   "scene": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "ins": "tree"
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s037",
+   "start": 15.447,
+   "end": 16.324,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "who": "YOU",
+    "expr": "flat",
+    "side": 1
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s038",
+   "start": 16.324,
+   "end": 18.048,
+   "line": "",
+   "scene": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "ins": "call",
+    "expr": "tender",
+    "badge": {
+     "k": "tear",
+     "v": 41
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s039",
+   "start": 18.048,
+   "end": 19.693,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "who": "YOU",
+    "expr": "sad",
+    "side": 1
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s040",
+   "start": 19.693,
+   "end": 23.21,
+   "line": "",
+   "scene": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "ins": "call",
+    "expr": [
+     [
+      0,
+      "tender"
+     ],
+     [
+      0.43360818879727253,
+      "smirk"
+     ]
+    ],
+    "badge": {
+     "k": "tear",
+     "v": 41
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s041",
+   "start": 23.21,
+   "end": 26.143,
+   "line": "",
+   "scene": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "ins": "call",
+    "expr": [
+     [
+      0,
+      "smirk"
+     ],
+     [
+      0.1449028298670346,
+      "tearsmile"
+     ]
+    ],
+    "badge": {
+     "k": "tear",
+     "v": 41
+    },
+    "t0": 40
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s042",
+   "start": 26.143,
+   "end": 29.853,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "surprised"
+     ],
+     [
+      0.29649595687331703,
+      "thinking"
+     ]
+    ],
+    "side": 1,
+    "push": 0.1,
+    "look": [
+     [
+      0,
+      [
+       0,
+       0.3
+      ]
+     ],
+     [
+      0.35040431266846594,
+      [
+       0.3,
+       -0.3
+      ]
+     ]
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s043",
+   "start": 29.853,
+   "end": 32.434,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "ding",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "cam": [
+     [
+      730,
+      610,
+      1.8
+     ],
+     [
+      730,
+      610,
+      1.92
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 720,
+      "pose": "sitSmall",
+      "expr": [
+       [
+        0,
+        "thinking"
+       ],
+       [
+        0.4,
+        "relief"
+       ]
+      ],
+      "f": 1,
+      "dy": 19,
+      "look": [
+       0.2,
+       0.5
+      ]
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "sEnd",
+   "start": 32.434,
+   "end": 34.634,
+   "line": "",
+   "scene": "shortEnd",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "shortEnd",
+    "lines": [
+     "His Mum Cried 41",
+     "Times Because of Him"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.15,
+   "end": 26.79,
+   "mood": "calm",
+   "intensity": 0.3
+  },
+  {
+   "start": 26.79,
+   "end": 34.634,
+   "mood": "wonder",
+   "intensity": 0.3
+  }
+ ],
+ "sfx": []
+}

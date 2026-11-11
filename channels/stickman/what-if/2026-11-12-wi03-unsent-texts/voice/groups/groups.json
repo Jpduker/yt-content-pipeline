@@ -1,0 +1,832 @@
+[
+ {
+  "id": "G001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You wake up, and your phone is full of messages nobody sent. Your boss typed,",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L001",
+   "L002"
+  ]
+ },
+ {
+  "id": "G002",
+  "tag": "BOSS",
+  "thought": true,
+  "note": "",
+  "text": "You're fired.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "ids": [
+   "L003"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then deleted it. Your mum typed,",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L004",
+   "L005"
+  ]
+ },
+ {
+  "id": "G004",
+  "tag": "MUM",
+  "thought": true,
+  "note": "",
+  "text": "Are you eating properly?",
+  "voice": "bf_emma",
+  "speed": 1.0,
+  "ids": [
+   "L006"
+  ]
+ },
+ {
+  "id": "G005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Eleven times. And at three a.m., your best friend typed three words\u2026 and held backspace.",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L007",
+   "L008"
+  ]
+ },
+ {
+  "id": "G006",
+  "tag": "MIRA",
+  "thought": true,
+  "note": "",
+  "text": "I'm not okay.",
+  "voice": "af_heart",
+  "speed": 1.0,
+  "ids": [
+   "L009"
+  ]
+ },
+ {
+  "id": "G007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She never sent it. You could answer anyway.",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L010",
+   "L011"
+  ]
+ },
+ {
+  "id": "G008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "They look like normal messages. Just grey. And they flicker, like they're still deciding. Everything anyone almost said to you since midnight. Two hundred and twelve. Before breakfast. The pizza place wrote,",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L012",
+   "L013",
+   "L014",
+   "L015"
+  ]
+ },
+ {
+  "id": "G009",
+  "tag": "PIZZA",
+  "thought": true,
+  "note": "",
+  "text": "Sorry about the pineapple.",
+  "voice": "am_puck",
+  "speed": 1.0,
+  "ids": [
+   "L016"
+  ]
+ },
+ {
+  "id": "G010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then sent a coupon instead. The group chat is worse.",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L017",
+   "L018"
+  ]
+ },
+ {
+  "id": "G011",
+  "tag": "JO",
+  "thought": true,
+  "note": "",
+  "text": "Is he bringing the guitar again?",
+  "voice": "am_puck",
+  "speed": 1.0,
+  "ids": [
+   "L019"
+  ]
+ },
+ {
+  "id": "G012",
+  "tag": "SAM",
+  "thought": true,
+  "note": "",
+  "text": "Somebody tell him. Not me.",
+  "voice": "af_bella",
+  "speed": 1.0,
+  "ids": [
+   "L020"
+  ]
+ },
+ {
+  "id": "G013",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Nobody tells you. Tonight, the guitar stays home.",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L021"
+  ]
+ },
+ {
+  "id": "G014",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In the lift, a stranger types,",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L022"
+  ]
+ },
+ {
+  "id": "G015",
+  "tag": "LIFT",
+  "thought": true,
+  "note": "",
+  "text": "I like your hoodie.",
+  "voice": "af_bella",
+  "speed": 1.0,
+  "ids": [
+   "L023"
+  ]
+ },
+ {
+  "id": "G016",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And deletes it.",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L024"
+  ]
+ },
+ {
+  "id": "G017",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You stand a little taller anyway.",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L025"
+  ]
+ },
+ {
+  "id": "G018",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At work, it turns out to be useful.",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L026"
+  ]
+ },
+ {
+  "id": "G019",
+  "tag": "BOSS",
+  "thought": true,
+  "note": "",
+  "text": "Where is that report?",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "ids": [
+   "L027"
+  ]
+ },
+ {
+  "id": "G020",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Report's on your desk.",
+  "voice": "am_michael",
+  "speed": 1.07,
+  "ids": [
+   "L028"
+  ]
+ },
+ {
+  "id": "G021",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "I was\u2026 just about to ask.",
+  "voice": "bm_george",
+  "speed": 1.08,
+  "ids": [
+   "L029"
+  ]
+ },
+ {
+  "id": "G022",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Lucky guess.",
+  "voice": "am_michael",
+  "speed": 1.07,
+  "ids": [
+   "L030"
+  ]
+ },
+ {
+  "id": "G023",
+  "tag": "COLL",
+  "thought": true,
+  "note": "",
+  "text": "Could you cover Friday? No. Forget it.",
+  "voice": "af_nicole",
+  "speed": 1.0,
+  "ids": [
+   "L031"
+  ]
+ },
+ {
+  "id": "G024",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I can cover Friday.",
+  "voice": "am_michael",
+  "speed": 1.07,
+  "ids": [
+   "L032"
+  ]
+ },
+ {
+  "id": "G025",
+  "tag": "COLL",
+  "thought": false,
+  "note": "",
+  "text": "How did you\u2014",
+  "voice": "af_nicole",
+  "speed": 1.1,
+  "ids": [
+   "L033"
+  ]
+ },
+ {
+  "id": "G026",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You look like a Friday.",
+  "voice": "am_michael",
+  "speed": 1.07,
+  "ids": [
+   "L034"
+  ]
+ },
+ {
+  "id": "G027",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By lunch, you're answering questions nobody asked. It feels like kindness.",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L035",
+   "L036"
+  ]
+ },
+ {
+  "id": "G028",
+  "tag": "BOSS",
+  "thought": true,
+  "note": "",
+  "text": "Should I warn him about the budget?",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "ids": [
+   "L037"
+  ]
+ },
+ {
+  "id": "G029",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Is something wrong with the budget?",
+  "voice": "am_michael",
+  "speed": 1.07,
+  "ids": [
+   "L038"
+  ]
+ },
+ {
+  "id": "G030",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "Who told you that?",
+  "voice": "bm_george",
+  "speed": 1.08,
+  "ids": [
+   "L039"
+  ]
+ },
+ {
+  "id": "G031",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It doesn't feel like kindness to them. By three, people turn their phones face down when you walk past.",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L040",
+   "L041"
+  ]
+ },
+ {
+  "id": "G032",
+  "tag": "MUM",
+  "thought": true,
+  "note": "",
+  "text": "Are you eating properly?",
+  "voice": "bf_emma",
+  "speed": 1.0,
+  "ids": [
+   "L042"
+  ]
+ },
+ {
+  "id": "G033",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Twelve. So you call her.",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L043",
+   "L044"
+  ]
+ },
+ {
+  "id": "G034",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "Hello? Is something wrong?",
+  "voice": "bf_emma",
+  "speed": 1.02,
+  "ids": [
+   "L045"
+  ]
+ },
+ {
+  "id": "G035",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "No, no. I just had lunch. A real one. Vegetables and everything.",
+  "voice": "am_michael",
+  "speed": 1.07,
+  "ids": [
+   "L046"
+  ]
+ },
+ {
+  "id": "G036",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "Why are you telling me this?",
+  "voice": "bf_emma",
+  "speed": 1.02,
+  "ids": [
+   "L047"
+  ]
+ },
+ {
+  "id": "G037",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Thought you'd want to know.",
+  "voice": "am_michael",
+  "speed": 1.07,
+  "ids": [
+   "L048"
+  ]
+ },
+ {
+  "id": "G038",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "I did. I did want to know.",
+  "voice": "bf_emma",
+  "speed": 1.02,
+  "ids": [
+   "L049"
+  ]
+ },
+ {
+  "id": "G039",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "That one, you got right. You answered. And she never knew you'd read it.",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L050"
+  ]
+ },
+ {
+  "id": "G040",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "All afternoon, one message sits at the top of the pile. You don't open it. You don't need to.",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L051"
+  ]
+ },
+ {
+  "id": "G041",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Hey, you.",
+  "voice": "af_heart",
+  "speed": 1.08,
+  "ids": [
+   "L052"
+  ]
+ },
+ {
+  "id": "G042",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Hey. How are you?",
+  "voice": "am_michael",
+  "speed": 1.07,
+  "ids": [
+   "L053"
+  ]
+ },
+ {
+  "id": "G043",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Fine! Tired. You know. Fine. How was work?",
+  "voice": "af_heart",
+  "speed": 1.08,
+  "ids": [
+   "L054",
+   "L055"
+  ]
+ },
+ {
+  "id": "G044",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Weird. People kept hiding their phones.",
+  "voice": "am_michael",
+  "speed": 1.07,
+  "ids": [
+   "L056"
+  ]
+ },
+ {
+  "id": "G045",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Maybe stop reading over their shoulders.",
+  "voice": "af_heart",
+  "speed": 1.08,
+  "ids": [
+   "L057"
+  ]
+ },
+ {
+  "id": "G046",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Yeah. Maybe.",
+  "voice": "am_michael",
+  "speed": 1.07,
+  "ids": [
+   "L058"
+  ]
+ },
+ {
+  "id": "G047",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Above her phone. Grey. Still flickering.",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L059"
+  ]
+ },
+ {
+  "id": "G048",
+  "tag": "MIRA",
+  "thought": true,
+  "note": "",
+  "text": "I'm not okay.",
+  "voice": "af_heart",
+  "speed": 1.0,
+  "ids": [
+   "L060"
+  ]
+ },
+ {
+  "id": "G049",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You've had the perfect reply ready all day. You type it under the table.",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L061",
+   "L062"
+  ]
+ },
+ {
+  "id": "G050",
+  "tag": "YOU",
+  "thought": true,
+  "note": "",
+  "text": "I know you're not okay.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "ids": [
+   "L063"
+  ]
+ },
+ {
+  "id": "G051",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your thumb is on send.",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L064"
+  ]
+ },
+ {
+  "id": "G052",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She didn't send it. That was a decision. Hers.",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L065"
+  ]
+ },
+ {
+  "id": "G053",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You hold backspace. Now there are two unsent messages at this table.",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L066",
+   "L067"
+  ]
+ },
+ {
+  "id": "G054",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Want to split a cinnamon roll?",
+  "voice": "am_michael",
+  "speed": 1.07,
+  "ids": [
+   "L068"
+  ]
+ },
+ {
+  "id": "G055",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Yeah. Okay.",
+  "voice": "af_heart",
+  "speed": 1.08,
+  "ids": [
+   "L069"
+  ]
+ },
+ {
+  "id": "G056",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You talk about nothing. Twenty minutes of nothing.",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L070"
+  ]
+ },
+ {
+  "id": "G057",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Can I tell you something?",
+  "voice": "af_heart",
+  "speed": 1.08,
+  "ids": [
+   "L071"
+  ]
+ },
+ {
+  "id": "G058",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Always.",
+  "voice": "am_michael",
+  "speed": 1.07,
+  "ids": [
+   "L072"
+  ]
+ },
+ {
+  "id": "G059",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "I'm not okay.",
+  "voice": "af_heart",
+  "speed": 1.08,
+  "ids": [
+   "L073"
+  ]
+ },
+ {
+  "id": "G060",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Three words. Out loud. Sixteen hours late, and exactly on time.",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L074"
+  ]
+ },
+ {
+  "id": "G061",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I'm here.",
+  "voice": "am_michael",
+  "speed": 1.07,
+  "ids": [
+   "L075"
+  ]
+ },
+ {
+  "id": "G062",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "I didn't get it. The second interview. I've been saying fine for a week.",
+  "voice": "af_heart",
+  "speed": 1.08,
+  "ids": [
+   "L076"
+  ]
+ },
+ {
+  "id": "G063",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "That's a long time to say fine.",
+  "voice": "am_michael",
+  "speed": 1.07,
+  "ids": [
+   "L077"
+  ]
+ },
+ {
+  "id": "G064",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "It's a very flexible word.",
+  "voice": "af_heart",
+  "speed": 1.08,
+  "ids": [
+   "L078"
+  ]
+ },
+ {
+  "id": "G065",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You don't say you knew.",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L079"
+  ]
+ },
+ {
+  "id": "G066",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "On the way home, your phone buzzes. A real one, this time.",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L080"
+  ]
+ },
+ {
+  "id": "G067",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "text",
+  "text": "Thank you for not asking.",
+  "voice": "af_heart",
+  "speed": 1.08,
+  "ids": [
+   "L081"
+  ]
+ },
+ {
+  "id": "G068",
+  "tag": "N",
+  "thought": false,
+  "note": "soft",
+  "text": "Would you read them?",
+  "voice": "am_michael",
+  "speed": 0.97,
+  "ids": [
+   "L082"
+  ]
+ }
+]

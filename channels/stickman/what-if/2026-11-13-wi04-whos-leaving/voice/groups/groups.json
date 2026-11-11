@@ -1,0 +1,691 @@
+[
+ {
+  "id": "G001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "One morning, everyone you know has a number over their head. Your barista. Two thousand and ninety. Your boss. Four hundred and twelve. Your best friend.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L001",
+   "L002",
+   "L003",
+   "L004"
+  ]
+ },
+ {
+  "id": "G002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Three.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L005"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It doesn't say why. It only says how long.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L006"
+  ]
+ },
+ {
+  "id": "G004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You don't know what it's counting. Not yet. Your neighbour's says zero.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L007",
+   "L008"
+  ]
+ },
+ {
+  "id": "G005",
+  "tag": "NEIGH",
+  "thought": false,
+  "note": "",
+  "text": "Morning! Well. Last morning. Van's here.",
+  "voice": "bm_lewis",
+  "speed": 1.08,
+  "ids": [
+   "L009"
+  ]
+ },
+ {
+  "id": "G006",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You're moving?",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L010"
+  ]
+ },
+ {
+  "id": "G007",
+  "tag": "NEIGH",
+  "thought": false,
+  "note": "",
+  "text": "To the coast! Did I not tell you?",
+  "voice": "bm_lewis",
+  "speed": 1.08,
+  "ids": [
+   "L011"
+  ]
+ },
+ {
+  "id": "G008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Zero. And he's gone. So that's what it counts. Days. Until someone leaves your life.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L012",
+   "L013"
+  ]
+ },
+ {
+  "id": "G009",
+  "tag": "BARISTA",
+  "thought": false,
+  "note": "",
+  "text": "Usual?",
+  "voice": "am_puck",
+  "speed": 1.06,
+  "ids": [
+   "L014"
+  ]
+ },
+ {
+  "id": "G010",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You're going to be here a while.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L015"
+  ]
+ },
+ {
+  "id": "G011",
+  "tag": "BARISTA",
+  "thought": false,
+  "note": "",
+  "text": "Thanks?",
+  "voice": "am_puck",
+  "speed": 1.06,
+  "ids": [
+   "L016"
+  ]
+ },
+ {
+  "id": "G012",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At work, you check everyone. Your boss, four hundred and twelve. You do the maths. A promotion, probably. His. Your colleague. Twelve.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L017",
+   "L018",
+   "L019"
+  ]
+ },
+ {
+  "id": "G013",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You're quitting.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L020"
+  ]
+ },
+ {
+  "id": "G014",
+  "tag": "COLL",
+  "thought": false,
+  "note": "",
+  "text": "What? Who told\u2014 I haven't even told my mum.",
+  "voice": "af_nicole",
+  "speed": 1.12,
+  "ids": [
+   "L021"
+  ]
+ },
+ {
+  "id": "G015",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The office plant. Four. Nobody's watering it. Your gym says zero. Fair. But you keep coming back to three.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L022",
+   "L023",
+   "L024"
+  ]
+ },
+ {
+  "id": "G016",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "You're staring.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L025"
+  ]
+ },
+ {
+  "id": "G017",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Am I? Your hair looks nice.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L026"
+  ]
+ },
+ {
+  "id": "G018",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "It's the same hair.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L027"
+  ]
+ },
+ {
+  "id": "G019",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Three days. So you do what anyone would. You make yourself impossible to leave. Her favourite coffee. Every morning. The shelf she asked about in March. The story about her cousin. You laugh at all of it. Again.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L028",
+   "L029",
+   "L030",
+   "L031"
+  ]
+ },
+ {
+  "id": "G020",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Okay. Who are you, and what do you want?",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L032"
+  ]
+ },
+ {
+  "id": "G021",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Nothing! Can't a friend fix a shelf?",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L033"
+  ]
+ },
+ {
+  "id": "G022",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "That night, you check. Two.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L034",
+   "L035"
+  ]
+ },
+ {
+  "id": "G023",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Hey. Can I tell you something?",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L036"
+  ]
+ },
+ {
+  "id": "G024",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "First, dessert! I got the one you like.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L037"
+  ]
+ },
+ {
+  "id": "G025",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Sure.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L038"
+  ]
+ },
+ {
+  "id": "G026",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She was about to say something. You gave her cake instead. It isn't counting how she feels. It's just counting.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L039",
+   "L040"
+  ]
+ },
+ {
+  "id": "G027",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "So you start guessing. A fight you haven't had yet. Something a doctor said. Something you said. You read every message you've sent her since spring.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L041",
+   "L042"
+  ]
+ },
+ {
+  "id": "G028",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "One.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L043"
+  ]
+ },
+ {
+  "id": "G029",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You find out by accident.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L044"
+  ]
+ },
+ {
+  "id": "G030",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Mira. What's all this?",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L045"
+  ]
+ },
+ {
+  "id": "G031",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Okay. Don't be mad. I got in. The course. The one that said no last year.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L046",
+   "L047"
+  ]
+ },
+ {
+  "id": "G032",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Mira, that's huge!",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L048"
+  ]
+ },
+ {
+  "id": "G033",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "It's four hours away. It starts Monday.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L049"
+  ]
+ },
+ {
+  "id": "G034",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "And you didn't tell me.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L050"
+  ]
+ },
+ {
+  "id": "G035",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "I tried! Like, nine times. But you were being so nice. And I thought, if I tell him, he'll be nice about that too. And I'll never know what he really thinks.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L051"
+  ]
+ },
+ {
+  "id": "G036",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I think\u2026",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L052"
+  ]
+ },
+ {
+  "id": "G037",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Her number flickers. One. Nine hundred. One. If you ask her now, she stays.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L053",
+   "L054"
+  ]
+ },
+ {
+  "id": "G038",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I think you're going to need more tape.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L055"
+  ]
+ },
+ {
+  "id": "G039",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "That's what you think?",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L056"
+  ]
+ },
+ {
+  "id": "G040",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "And I think I'm going to hate Mondays.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L057"
+  ]
+ },
+ {
+  "id": "G041",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Why are you wrapping one mug in three jumpers?",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L058"
+  ]
+ },
+ {
+  "id": "G042",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "It's your favourite mug.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L059"
+  ]
+ },
+ {
+  "id": "G043",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "It's your mug. I stole it in March.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L060"
+  ]
+ },
+ {
+  "id": "G044",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Then it's coming with you.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L061"
+  ]
+ },
+ {
+  "id": "G045",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You carry the heavy box. She pretends not to notice you picked the heavy one.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L062"
+  ]
+ },
+ {
+  "id": "G046",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Zero is a train platform.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L063"
+  ]
+ },
+ {
+  "id": "G047",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Don't make it weird.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L064"
+  ]
+ },
+ {
+  "id": "G048",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I'm not making it weird.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L065"
+  ]
+ },
+ {
+  "id": "G049",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "You're doing the face.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L066"
+  ]
+ },
+ {
+  "id": "G050",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Text me when you get there.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L067"
+  ]
+ },
+ {
+  "id": "G051",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "It's four hours. Not the moon.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L068"
+  ]
+ },
+ {
+  "id": "G052",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Then text me from the moon.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L069"
+  ]
+ },
+ {
+  "id": "G053",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The doors close. The number goes out like a light.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L070"
+  ]
+ },
+ {
+  "id": "G054",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "text",
+  "text": "Seat fourteen. Already bored. Call you tonight?",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L071"
+  ]
+ },
+ {
+  "id": "G055",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "There's no number over her name. It was never counting the friendship. Only the distance.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L072"
+  ]
+ },
+ {
+  "id": "G056",
+  "tag": "N",
+  "thought": false,
+  "note": "soft",
+  "text": "Would you have asked her to stay?",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L073"
+  ]
+ }
+]

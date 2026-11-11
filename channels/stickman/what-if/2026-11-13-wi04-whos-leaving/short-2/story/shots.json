@@ -1,0 +1,761 @@
+{
+ "title": "He Had 3 Days to Make Her Stay",
+ "duration": 29.124,
+ "shots": [
+  {
+   "id": "s027",
+   "start": 0.0,
+   "end": 1.886,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "cafe",
+    "so": {
+     "variant": "am"
+    },
+    "hub": true,
+    "cam": [
+     [
+      960,
+      640,
+      1.35
+     ],
+     [
+      940,
+      640,
+      1.4000000000000001
+     ]
+    ],
+    "who": [
+     {
+      "id": "X1",
+      "x": 0,
+      "pose": "sitPhone",
+      "expr": "neutral",
+      "f": 1,
+      "seed": 5
+     },
+     {
+      "id": "X2",
+      "x": 1540,
+      "pose": "sitHands",
+      "expr": "smile",
+      "f": 1,
+      "seed": 6
+     },
+     {
+      "id": "YOU",
+      "x": 750,
+      "pose": "sitHands",
+      "expr": "worried",
+      "f": 1,
+      "look": [
+       0.5,
+       -0.7
+      ]
+     },
+     {
+      "id": "MIRA",
+      "x": 1170,
+      "pose": "sitTalk",
+      "expr": "smirk",
+      "f": -1,
+      "seed": 2,
+      "badge": {
+       "k": "num",
+       "v": 3,
+       "hot": 3
+      }
+     }
+    ],
+    "chairs": [
+     [
+      0,
+      1
+     ],
+     [
+      1540,
+      1
+     ]
+    ],
+    "motif": "num"
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s028",
+   "start": 1.886,
+   "end": 3.677,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "cafe",
+    "so": {
+     "variant": "am"
+    },
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "nervous"
+     ],
+     [
+      0.19542155220547536,
+      "smile"
+     ]
+    ],
+    "side": 1
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s029",
+   "start": 3.677,
+   "end": 5.11,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "cafe",
+    "so": {
+     "variant": "am"
+    },
+    "who": "MIRA",
+    "expr": [
+     [
+      0,
+      "flat"
+     ],
+     [
+      0.5,
+      "smirk"
+     ]
+    ],
+    "side": -1,
+    "badge": {
+     "k": "num",
+     "v": 3,
+     "hot": 3
+    }
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s030",
+   "start": 5.11,
+   "end": 6.255,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "cafe",
+    "so": {
+     "variant": "am"
+    },
+    "hub": true,
+    "cam": [
+     [
+      960,
+      620,
+      1.1
+     ],
+     [
+      960,
+      620,
+      1.2000000000000002
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 750,
+      "pose": "sitThink",
+      "expr": "worried",
+      "f": 1
+     },
+     {
+      "id": "MIRA",
+      "x": 1170,
+      "pose": "sitHands",
+      "expr": "smile",
+      "f": -1,
+      "seed": 2,
+      "look": [
+       0.5,
+       0.3
+      ],
+      "badge": {
+       "k": "num",
+       "v": 3,
+       "hot": 3
+      }
+     }
+    ]
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s031",
+   "start": 6.255,
+   "end": 10.368,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "cafe",
+    "so": {
+     "variant": "am"
+    },
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "worried"
+     ],
+     [
+      0.352540724531976,
+      "determined"
+     ]
+    ],
+    "side": 1,
+    "push": 0.12
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s032",
+   "start": 10.368,
+   "end": 11.828,
+   "line": "",
+   "scene": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "tick",
+     "gain": -15
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "cafe",
+    "so": {
+     "variant": "am"
+    },
+    "ins": "coffee",
+    "count": "DAY 1"
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s033",
+   "start": 11.828,
+   "end": 12.988,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "cafe",
+    "so": {
+     "variant": "am"
+    },
+    "cam": [
+     [
+      200,
+      545,
+      1.35
+     ],
+     [
+      180,
+      545,
+      1.4000000000000001
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 60,
+      "pose": "reach",
+      "expr": "happy",
+      "f": 1
+     },
+     {
+      "id": "MIRA",
+      "x": 380,
+      "pose": "stand",
+      "expr": [
+       [
+        0,
+        "surprised"
+       ],
+       [
+        0.4,
+        "happy"
+       ]
+      ],
+      "f": -1,
+      "seed": 2,
+      "badge": {
+       "k": "num",
+       "v": 3,
+       "hot": 3
+      }
+     }
+    ]
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s034",
+   "start": 12.988,
+   "end": 15.303,
+   "line": "",
+   "scene": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.1149999999999978,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "hall",
+    "so": {
+     "shelf": "broken"
+    },
+    "ins": "shelf"
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s035",
+   "start": 15.303,
+   "end": 19.486,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "hall",
+    "so": {
+     "shelf": "fixed"
+    },
+    "cam": [
+     [
+      640,
+      590,
+      1.05
+     ],
+     [
+      680,
+      590,
+      1.12
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 350,
+      "pose": "sitLaugh",
+      "expr": "laugh",
+      "f": 1,
+      "dy": -4
+     },
+     {
+      "id": "MIRA_HOME",
+      "x": 900,
+      "pose": "explain",
+      "expr": "happy",
+      "f": -1,
+      "seed": 2,
+      "badge": {
+       "k": "num",
+       "v": 3,
+       "hot": 3
+      }
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s036",
+   "start": 19.486,
+   "end": 21.625,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "hall",
+    "so": {
+     "shelf": "fixed"
+    },
+    "who": "MIRA_HOME",
+    "expr": [
+     [
+      0,
+      "confused"
+     ],
+     [
+      0.3249181860682603,
+      "smirk"
+     ]
+    ],
+    "side": -1,
+    "badge": {
+     "k": "num",
+     "v": 3,
+     "hot": 3
+    },
+    "tilt": 0.06
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s037",
+   "start": 21.625,
+   "end": 24.542,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "hall",
+    "so": {
+     "shelf": "fixed"
+    },
+    "cam": [
+     [
+      420,
+      590,
+      1.6
+     ],
+     [
+      400,
+      590,
+      1.6500000000000001
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 350,
+      "pose": [
+       [
+        0,
+        "sitLaugh"
+       ],
+       [
+        0.2,
+        "sitCheer"
+       ],
+       [
+        0.7,
+        "sitHands"
+       ]
+      ],
+      "expr": [
+       [
+        0,
+        "nervous"
+       ],
+       [
+        0.1868357901954116,
+        "happy"
+       ]
+      ],
+      "f": 1,
+      "dy": -4
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s038",
+   "start": 24.542,
+   "end": 26.084,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "night"
+    },
+    "cam": [
+     [
+      900,
+      560,
+      0.9
+     ],
+     [
+      960,
+      560,
+      0.95
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 520,
+      "pose": "wave",
+      "expr": "smile",
+      "f": 1
+     },
+     {
+      "id": "MIRA",
+      "x": 0,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1,
+      "seed": 2,
+      "walk": [
+       900,
+       1900,
+       0.1,
+       1
+      ],
+      "slow": true,
+      "badge": {
+       "k": "num",
+       "v": [
+        [
+         0,
+         3
+        ],
+        [
+         0.999,
+         2
+        ]
+       ],
+       "hot": 3
+      }
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s039",
+   "start": 26.084,
+   "end": 26.924,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "hit",
+     "gain": -13
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "night"
+    },
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "surprised"
+     ],
+     [
+      0.4,
+      "worried"
+     ]
+    ],
+    "side": 1,
+    "push": 0.1,
+    "bgCam": [
+     600,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "sEnd",
+   "start": 26.924,
+   "end": 29.124,
+   "line": "",
+   "scene": "shortEnd",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "shortEnd",
+    "lines": [
+     "He Had 3 Days",
+     "to Make Her Stay"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 24.7,
+   "mood": "hopeful",
+   "intensity": 0.4
+  },
+  {
+   "start": 24.7,
+   "end": 29.124,
+   "mood": "tension",
+   "intensity": 0.32
+  }
+ ],
+ "sfx": []
+}

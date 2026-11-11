@@ -1,0 +1,612 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Today there's a small blue teardrop over some people's heads.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 4.45
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It takes you until lunch to work out what it means.",
+  "sec": "hook",
+  "start": 4.703,
+  "end": 7.803
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "They've cried. Because of you.",
+  "sec": "hook",
+  "start": 8.363,
+  "end": 10.613
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The bus driver has one.",
+  "sec": "hook",
+  "start": 10.772,
+  "end": 12.547
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your mum has forty-one.",
+  "sec": "hook",
+  "start": 12.707,
+  "end": 14.322
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your best friend got hers\u2026 last night.",
+  "sec": "hook",
+  "start": 15.163,
+  "end": 17.501
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At first you think it's a trick of the light.",
+  "sec": "act1",
+  "start": 20.801,
+  "end": 23.101
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The man at the bakery, nothing. The woman with the dog, nothing.",
+  "sec": "act1",
+  "start": 23.285,
+  "end": 27.335
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The bus driver. One teardrop. And a look.",
+  "sec": "act1",
+  "start": 27.495,
+  "end": 30.652
+ },
+ {
+  "id": "L010",
+  "tag": "DRIVER",
+  "thought": false,
+  "note": "",
+  "text": "You.",
+  "sec": "act1",
+  "start": 30.912,
+  "end": 31.462
+ },
+ {
+  "id": "L011",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Me?",
+  "sec": "act1",
+  "start": 31.665,
+  "end": 32.175
+ },
+ {
+  "id": "L012",
+  "tag": "DRIVER",
+  "thought": false,
+  "note": "",
+  "text": "Route nine. Six years ago. You paid in pennies. A hundred and forty of them. In the rain.",
+  "sec": "act1",
+  "start": 32.325,
+  "end": 37.225
+ },
+ {
+  "id": "L013",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "That made you cry?",
+  "sec": "act1",
+  "start": 37.375,
+  "end": 38.511
+ },
+ {
+  "id": "L014",
+  "tag": "DRIVER",
+  "thought": false,
+  "note": "",
+  "text": "It was my first day.",
+  "sec": "act1",
+  "start": 38.661,
+  "end": 40.11
+ },
+ {
+  "id": "L015",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "So that's the rule. A teardrop for everyone who's ever cried because of you. And a number, if it happened more than once.",
+  "sec": "act1",
+  "start": 40.51,
+  "end": 48.325
+ },
+ {
+  "id": "L016",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your old landlord. Three. You know why.",
+  "sec": "act1",
+  "start": 48.486,
+  "end": 51.337
+ },
+ {
+  "id": "L017",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "A stranger in the park. One.",
+  "sec": "act1",
+  "start": 53.077,
+  "end": 55.477
+ },
+ {
+  "id": "L018",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You have never seen her before in your life.",
+  "sec": "act1",
+  "start": 55.637,
+  "end": 57.708
+ },
+ {
+  "id": "L019",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You decide to fix it. One apology per teardrop.",
+  "sec": "act2",
+  "start": 58.708,
+  "end": 61.991
+ },
+ {
+  "id": "L020",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I'm sorry about the pennies.",
+  "sec": "act2",
+  "start": 62.251,
+  "end": 63.832
+ },
+ {
+  "id": "L021",
+  "tag": "DRIVER",
+  "thought": false,
+  "note": "",
+  "text": "Took you six years.",
+  "sec": "act2",
+  "start": 63.982,
+  "end": 65.368
+ },
+ {
+  "id": "L022",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The teardrop stays. Apologies don't delete them. They just sit next to them.",
+  "sec": "act2",
+  "start": 65.768,
+  "end": 70.888
+ },
+ {
+  "id": "L023",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then, your mum. Forty-one.",
+  "sec": "act2",
+  "start": 72.128,
+  "end": 74.003
+ },
+ {
+  "id": "L024",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Mum. I need to say sorry.",
+  "sec": "act2",
+  "start": 74.263,
+  "end": 76.079
+ },
+ {
+  "id": "L025",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "What did you break?",
+  "sec": "act2",
+  "start": 76.229,
+  "end": 77.294
+ },
+ {
+  "id": "L026",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Nothing! For all of it. I made you cry forty-one times.",
+  "sec": "act2",
+  "start": 77.444,
+  "end": 81.034
+ },
+ {
+  "id": "L027",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "Forty-one? Is that all?",
+  "sec": "act2",
+  "start": 81.184,
+  "end": 82.574
+ },
+ {
+  "id": "L028",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "Sweetheart. Half of those were your school plays. You were a very moving tree.",
+  "sec": "act2",
+  "start": 82.827,
+  "end": 86.525
+ },
+ {
+  "id": "L029",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "A tree.",
+  "sec": "act2",
+  "start": 86.675,
+  "end": 87.402
+ },
+ {
+  "id": "L030",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "And the day you left for the city.",
+  "sec": "act2",
+  "start": 87.552,
+  "end": 89.126
+ },
+ {
+  "id": "L031",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "That one was sad crying.",
+  "sec": "act2",
+  "start": 89.276,
+  "end": 90.771
+ },
+ {
+  "id": "L032",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "That one was proud crying. You'd know the difference if you called more.",
+  "sec": "act2",
+  "start": 90.921,
+  "end": 94.171
+ },
+ {
+  "id": "L033",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "Like last week. When you called for no reason.",
+  "sec": "act2",
+  "start": 94.438,
+  "end": 96.871
+ },
+ {
+  "id": "L034",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You look at the number again. It doesn't say which kind.",
+  "sec": "act2",
+  "start": 97.871,
+  "end": 100.921
+ },
+ {
+  "id": "L035",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It never did.",
+  "sec": "act2",
+  "start": 101.081,
+  "end": 101.922
+ },
+ {
+  "id": "L036",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The stranger in the park. Two winters ago, you handed in a lost wallet, and never thought about it again.",
+  "sec": "act2",
+  "start": 103.662,
+  "end": 110.337
+ },
+ {
+  "id": "L037",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Which leaves one teardrop. Mira's. Last night's.",
+  "sec": "act3",
+  "start": 111.637,
+  "end": 115.497
+ },
+ {
+  "id": "L038",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She's back for the weekend. You thought dinner went fine.",
+  "sec": "act3",
+  "start": 115.657,
+  "end": 119.057
+ },
+ {
+  "id": "L039",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You said her new place sounded small. You said the course sounded hard. You joked that she'd forget you by Christmas.",
+  "sec": "act3",
+  "start": 119.216,
+  "end": 126.341
+ },
+ {
+  "id": "L040",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It has to be one of those.",
+  "sec": "act3",
+  "start": 126.501,
+  "end": 127.972
+ },
+ {
+  "id": "L041",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You buy flowers. Then you decide flowers look guilty. You leave them on a bench.",
+  "sec": "act3",
+  "start": 128.311,
+  "end": 133.32
+ },
+ {
+  "id": "L042",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "You're doing the face again.",
+  "sec": "act3",
+  "start": 134.479,
+  "end": 135.754
+ },
+ {
+  "id": "L043",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Okay. Did I say something last night? Something wrong?",
+  "sec": "act3",
+  "start": 135.904,
+  "end": 138.935
+ },
+ {
+  "id": "L044",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "What? No.",
+  "sec": "act3",
+  "start": 139.085,
+  "end": 139.833
+ },
+ {
+  "id": "L045",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You're sure? Because if I did\u2014",
+  "sec": "act3",
+  "start": 139.983,
+  "end": 141.954
+ },
+ {
+  "id": "L046",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Why would you think that?",
+  "sec": "act3",
+  "start": 141.994,
+  "end": 143.077
+ },
+ {
+  "id": "L047",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You can't say, because there's a teardrop over your head. So you say the other true thing.",
+  "sec": "act3",
+  "start": 143.977,
+  "end": 149.121
+ },
+ {
+  "id": "L048",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Because I'd want to know. If I ever made you cry.",
+  "sec": "act3",
+  "start": 149.381,
+  "end": 152.398
+ },
+ {
+  "id": "L049",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Okay, that's unfair. How did you know?",
+  "sec": "act3",
+  "start": 153.348,
+  "end": 155.613
+ },
+ {
+  "id": "L050",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "I found the card. In the box you packed. For when it's Monday and you hate it.",
+  "sec": "act3",
+  "start": 155.834,
+  "end": 160.349
+ },
+ {
+  "id": "L051",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "I read it on my new kitchen floor, and cried like an idiot.",
+  "sec": "act3",
+  "start": 160.509,
+  "end": 163.426
+ },
+ {
+  "id": "L052",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I forgot I wrote that.",
+  "sec": "act3",
+  "start": 163.576,
+  "end": 165.028
+ },
+ {
+  "id": "L053",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "I didn't.",
+  "sec": "act3",
+  "start": 165.178,
+  "end": 165.884
+ },
+ {
+  "id": "L054",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "What did it even say?",
+  "sec": "act3",
+  "start": 166.034,
+  "end": 167.402
+ },
+ {
+  "id": "L055",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "It said, you're allowed to hate it, and stay anyway.",
+  "sec": "act3",
+  "start": 167.552,
+  "end": 169.957
+ },
+ {
+  "id": "L056",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "That's pretty good.",
+  "sec": "act3",
+  "start": 170.707,
+  "end": 171.779
+ },
+ {
+  "id": "L057",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Don't.",
+  "sec": "act3",
+  "start": 171.929,
+  "end": 172.463
+ },
+ {
+  "id": "L058",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The teardrop's still there. You hope it stays.",
+  "sec": "act3",
+  "start": 173.663,
+  "end": 176.225
+ },
+ {
+  "id": "L059",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In the caf\u00e9 window, your own reflection. And over your head, small and blue,",
+  "sec": "act3",
+  "start": 177.165,
+  "end": 181.911
+ },
+ {
+  "id": "L060",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "you know exactly whose that is.",
+  "sec": "act3",
+  "start": 182.751,
+  "end": 184.498
+ },
+ {
+  "id": "L061",
+  "tag": "N",
+  "thought": false,
+  "note": "soft",
+  "text": "Would you want to know?",
+  "sec": "end",
+  "start": 187.138,
+  "end": 188.377
+ }
+]

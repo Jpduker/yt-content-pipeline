@@ -1,0 +1,822 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You wake up, and your phone is full of messages nobody sent.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 4.35
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your boss typed,",
+  "sec": "hook",
+  "start": 4.53,
+  "end": 5.662
+ },
+ {
+  "id": "L003",
+  "tag": "BOSS",
+  "thought": true,
+  "note": "",
+  "text": "You're fired.",
+  "sec": "hook",
+  "start": 6.003,
+  "end": 6.961
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then deleted it.",
+  "sec": "hook",
+  "start": 7.381,
+  "end": 8.431
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your mum typed,",
+  "sec": "hook",
+  "start": 8.611,
+  "end": 9.742
+ },
+ {
+  "id": "L006",
+  "tag": "MUM",
+  "thought": true,
+  "note": "",
+  "text": "Are you eating properly?",
+  "sec": "hook",
+  "start": 10.082,
+  "end": 11.399
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Eleven times.",
+  "sec": "hook",
+  "start": 11.819,
+  "end": 13.119
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And at three a.m., your best friend typed three words\u2026 and held backspace.",
+  "sec": "hook",
+  "start": 13.649,
+  "end": 18.566
+ },
+ {
+  "id": "L009",
+  "tag": "MIRA",
+  "thought": true,
+  "note": "",
+  "text": "I'm not okay.",
+  "sec": "hook",
+  "start": 19.456,
+  "end": 20.379
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She never sent it.",
+  "sec": "hook",
+  "start": 21.299,
+  "end": 22.399
+ },
+ {
+  "id": "L011",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You could answer anyway.",
+  "sec": "hook",
+  "start": 22.579,
+  "end": 24.133
+ },
+ {
+  "id": "L012",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "They look like normal messages. Just grey. And they flicker, like they're still deciding.",
+  "sec": "act1",
+  "start": 27.433,
+  "end": 33.888
+ },
+ {
+  "id": "L013",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Everything anyone almost said to you since midnight.",
+  "sec": "act1",
+  "start": 34.092,
+  "end": 37.317
+ },
+ {
+  "id": "L014",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Two hundred and twelve. Before breakfast.",
+  "sec": "act1",
+  "start": 37.592,
+  "end": 40.537
+ },
+ {
+  "id": "L015",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The pizza place wrote,",
+  "sec": "act1",
+  "start": 40.718,
+  "end": 42.03
+ },
+ {
+  "id": "L016",
+  "tag": "PIZZA",
+  "thought": true,
+  "note": "",
+  "text": "Sorry about the pineapple.",
+  "sec": "act1",
+  "start": 42.369,
+  "end": 43.677
+ },
+ {
+  "id": "L017",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then sent a coupon instead.",
+  "sec": "act1",
+  "start": 44.097,
+  "end": 46.022
+ },
+ {
+  "id": "L018",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The group chat is worse.",
+  "sec": "act1",
+  "start": 46.502,
+  "end": 47.938
+ },
+ {
+  "id": "L019",
+  "tag": "JO",
+  "thought": true,
+  "note": "",
+  "text": "Is he bringing the guitar again?",
+  "sec": "act1",
+  "start": 48.278,
+  "end": 49.842
+ },
+ {
+  "id": "L020",
+  "tag": "SAM",
+  "thought": true,
+  "note": "",
+  "text": "Somebody tell him. Not me.",
+  "sec": "act1",
+  "start": 50.182,
+  "end": 51.819
+ },
+ {
+  "id": "L021",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Nobody tells you. Tonight, the guitar stays home.",
+  "sec": "act1",
+  "start": 52.639,
+  "end": 55.924
+ },
+ {
+  "id": "L022",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In the lift, a stranger types,",
+  "sec": "act1",
+  "start": 57.164,
+  "end": 59.168
+ },
+ {
+  "id": "L023",
+  "tag": "LIFT",
+  "thought": true,
+  "note": "",
+  "text": "I like your hoodie.",
+  "sec": "act1",
+  "start": 59.508,
+  "end": 60.463
+ },
+ {
+  "id": "L024",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And deletes it.",
+  "sec": "act1",
+  "start": 60.883,
+  "end": 61.901
+ },
+ {
+  "id": "L025",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You stand a little taller anyway.",
+  "sec": "act1",
+  "start": 62.741,
+  "end": 64.655
+ },
+ {
+  "id": "L026",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At work, it turns out to be useful.",
+  "sec": "act2",
+  "start": 66.555,
+  "end": 68.706
+ },
+ {
+  "id": "L027",
+  "tag": "BOSS",
+  "thought": true,
+  "note": "",
+  "text": "Where is that report?",
+  "sec": "act2",
+  "start": 69.046,
+  "end": 70.516
+ },
+ {
+  "id": "L028",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Report's on your desk.",
+  "sec": "act2",
+  "start": 70.936,
+  "end": 72.218
+ },
+ {
+  "id": "L029",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "I was\u2026 just about to ask.",
+  "sec": "act2",
+  "start": 72.368,
+  "end": 74.416
+ },
+ {
+  "id": "L030",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Lucky guess.",
+  "sec": "act2",
+  "start": 74.566,
+  "end": 75.439
+ },
+ {
+  "id": "L031",
+  "tag": "COLL",
+  "thought": true,
+  "note": "",
+  "text": "Could you cover Friday? No. Forget it.",
+  "sec": "act2",
+  "start": 76.679,
+  "end": 79.989
+ },
+ {
+  "id": "L032",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I can cover Friday.",
+  "sec": "act2",
+  "start": 80.409,
+  "end": 81.776
+ },
+ {
+  "id": "L033",
+  "tag": "COLL",
+  "thought": false,
+  "note": "",
+  "text": "How did you\u2014",
+  "sec": "act2",
+  "start": 81.926,
+  "end": 83.059
+ },
+ {
+  "id": "L034",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You look like a Friday.",
+  "sec": "act2",
+  "start": 83.099,
+  "end": 84.444
+ },
+ {
+  "id": "L035",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By lunch, you're answering questions nobody asked.",
+  "sec": "act2",
+  "start": 84.844,
+  "end": 88.194
+ },
+ {
+  "id": "L036",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It feels like kindness.",
+  "sec": "act2",
+  "start": 88.374,
+  "end": 89.925
+ },
+ {
+  "id": "L037",
+  "tag": "BOSS",
+  "thought": true,
+  "note": "",
+  "text": "Should I warn him about the budget?",
+  "sec": "act2",
+  "start": 90.265,
+  "end": 92.543
+ },
+ {
+  "id": "L038",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Is something wrong with the budget?",
+  "sec": "act2",
+  "start": 92.963,
+  "end": 94.628
+ },
+ {
+  "id": "L039",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "Who told you that?",
+  "sec": "act2",
+  "start": 94.778,
+  "end": 95.911
+ },
+ {
+  "id": "L040",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It doesn't feel like kindness to them.",
+  "sec": "act2",
+  "start": 96.711,
+  "end": 99.111
+ },
+ {
+  "id": "L041",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By three, people turn their phones face down when you walk past.",
+  "sec": "act2",
+  "start": 99.291,
+  "end": 103.38
+ },
+ {
+  "id": "L042",
+  "tag": "MUM",
+  "thought": true,
+  "note": "",
+  "text": "Are you eating properly?",
+  "sec": "act2",
+  "start": 105.221,
+  "end": 106.538
+ },
+ {
+  "id": "L043",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Twelve.",
+  "sec": "act2",
+  "start": 106.958,
+  "end": 107.408
+ },
+ {
+  "id": "L044",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "So you call her.",
+  "sec": "act2",
+  "start": 107.588,
+  "end": 108.626
+ },
+ {
+  "id": "L045",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "Hello? Is something wrong?",
+  "sec": "act2",
+  "start": 108.886,
+  "end": 110.353
+ },
+ {
+  "id": "L046",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "No, no. I just had lunch. A real one. Vegetables and everything.",
+  "sec": "act2",
+  "start": 110.503,
+  "end": 115.127
+ },
+ {
+  "id": "L047",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "Why are you telling me this?",
+  "sec": "act2",
+  "start": 115.277,
+  "end": 116.574
+ },
+ {
+  "id": "L048",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Thought you'd want to know.",
+  "sec": "act2",
+  "start": 116.724,
+  "end": 118.027
+ },
+ {
+  "id": "L049",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "I did. I did want to know.",
+  "sec": "act2",
+  "start": 118.677,
+  "end": 120.448
+ },
+ {
+  "id": "L050",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "That one, you got right. You answered. And she never knew you'd read it.",
+  "sec": "act2",
+  "start": 120.848,
+  "end": 124.832
+ },
+ {
+  "id": "L051",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "All afternoon, one message sits at the top of the pile. You don't open it. You don't need to.",
+  "sec": "act3",
+  "start": 126.132,
+  "end": 132.069
+ },
+ {
+  "id": "L052",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Hey, you.",
+  "sec": "act3",
+  "start": 133.229,
+  "end": 133.956
+ },
+ {
+  "id": "L053",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Hey. How are you?",
+  "sec": "act3",
+  "start": 134.106,
+  "end": 135.196
+ },
+ {
+  "id": "L054",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Fine! Tired. You know. Fine.",
+  "sec": "act3",
+  "start": 135.346,
+  "end": 137.026
+ },
+ {
+  "id": "L055",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "How was work?",
+  "sec": "act3",
+  "start": 137.206,
+  "end": 137.795
+ },
+ {
+  "id": "L056",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Weird. People kept hiding their phones.",
+  "sec": "act3",
+  "start": 137.944,
+  "end": 140.465
+ },
+ {
+  "id": "L057",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Maybe stop reading over their shoulders.",
+  "sec": "act3",
+  "start": 140.615,
+  "end": 142.548
+ },
+ {
+  "id": "L058",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Yeah. Maybe.",
+  "sec": "act3",
+  "start": 143.198,
+  "end": 144.113
+ },
+ {
+  "id": "L059",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Above her phone. Grey. Still flickering.",
+  "sec": "act3",
+  "start": 144.913,
+  "end": 147.687
+ },
+ {
+  "id": "L060",
+  "tag": "MIRA",
+  "thought": true,
+  "note": "",
+  "text": "I'm not okay.",
+  "sec": "act3",
+  "start": 148.027,
+  "end": 148.95
+ },
+ {
+  "id": "L061",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You've had the perfect reply ready all day.",
+  "sec": "act3",
+  "start": 149.37,
+  "end": 152.345
+ },
+ {
+  "id": "L062",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You type it under the table.",
+  "sec": "act3",
+  "start": 152.526,
+  "end": 154.015
+ },
+ {
+  "id": "L063",
+  "tag": "YOU",
+  "thought": true,
+  "note": "",
+  "text": "I know you're not okay.",
+  "sec": "act3",
+  "start": 154.354,
+  "end": 155.738
+ },
+ {
+  "id": "L064",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your thumb is on send.",
+  "sec": "act3",
+  "start": 156.158,
+  "end": 157.581
+ },
+ {
+  "id": "L065",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She didn't send it. That was a decision. Hers.",
+  "sec": "act3",
+  "start": 158.521,
+  "end": 161.275
+ },
+ {
+  "id": "L066",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You hold backspace.",
+  "sec": "act3",
+  "start": 162.115,
+  "end": 163.74
+ },
+ {
+  "id": "L067",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Now there are two unsent messages at this table.",
+  "sec": "act3",
+  "start": 163.92,
+  "end": 166.823
+ },
+ {
+  "id": "L068",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Want to split a cinnamon roll?",
+  "sec": "act3",
+  "start": 167.682,
+  "end": 169.305
+ },
+ {
+  "id": "L069",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Yeah. Okay.",
+  "sec": "act3",
+  "start": 169.455,
+  "end": 170.58
+ },
+ {
+  "id": "L070",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You talk about nothing. Twenty minutes of nothing.",
+  "sec": "act3",
+  "start": 170.98,
+  "end": 173.769
+ },
+ {
+  "id": "L071",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Can I tell you something?",
+  "sec": "act3",
+  "start": 174.729,
+  "end": 175.961
+ },
+ {
+  "id": "L072",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Always.",
+  "sec": "act3",
+  "start": 176.111,
+  "end": 176.899
+ },
+ {
+  "id": "L073",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "I'm not okay.",
+  "sec": "act3",
+  "start": 177.849,
+  "end": 178.775
+ },
+ {
+  "id": "L074",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Three words. Out loud. Sixteen hours late, and exactly on time.",
+  "sec": "act3",
+  "start": 179.875,
+  "end": 184.786
+ },
+ {
+  "id": "L075",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I'm here.",
+  "sec": "act3",
+  "start": 185.046,
+  "end": 185.816
+ },
+ {
+  "id": "L076",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "I didn't get it. The second interview. I've been saying fine for a week.",
+  "sec": "act3",
+  "start": 186.466,
+  "end": 190.105
+ },
+ {
+  "id": "L077",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "That's a long time to say fine.",
+  "sec": "act3",
+  "start": 190.255,
+  "end": 192.074
+ },
+ {
+  "id": "L078",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "It's a very flexible word.",
+  "sec": "act3",
+  "start": 192.224,
+  "end": 193.712
+ },
+ {
+  "id": "L079",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You don't say you knew.",
+  "sec": "act3",
+  "start": 194.712,
+  "end": 195.905
+ },
+ {
+  "id": "L080",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "On the way home, your phone buzzes. A real one, this time.",
+  "sec": "act3",
+  "start": 198.045,
+  "end": 201.663
+ },
+ {
+  "id": "L081",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "text",
+  "text": "Thank you for not asking.",
+  "sec": "act3",
+  "start": 201.923,
+  "end": 203.177
+ },
+ {
+  "id": "L082",
+  "tag": "N",
+  "thought": false,
+  "note": "soft",
+  "text": "Would you read them?",
+  "sec": "end",
+  "start": 205.877,
+  "end": 207.027
+ }
+]

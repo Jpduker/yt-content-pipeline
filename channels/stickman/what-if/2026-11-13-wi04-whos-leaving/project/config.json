@@ -1,0 +1,23 @@
+{
+ "title": "What If You Could See Who's About to Leave Your Life?",
+ "aspect": "16:9",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "sakura",
+ "duration": 201.33,
+ "captions": false,
+ "bars": "wide",
+ "fadeIn": 0.6,
+ "fadeOut": 1.2,
+ "music": {
+  "enabled": true,
+  "gainDb": -19
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": 0
+ },
+ "loudness": -14,
+ "voiceover": "input/voiceover.wav",
+ "myCaptions": true
+}

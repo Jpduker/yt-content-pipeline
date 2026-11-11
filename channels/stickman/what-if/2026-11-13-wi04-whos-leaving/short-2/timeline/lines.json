@@ -1,0 +1,112 @@
+[
+ {
+  "id": "L025",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "You're staring.",
+  "sec": "act2",
+  "start": 1.05,
+  "end": 1.887
+ },
+ {
+  "id": "L026",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Am I? Your hair looks nice.",
+  "sec": "act2",
+  "start": 2.036,
+  "end": 3.678
+ },
+ {
+  "id": "L027",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "It's the same hair.",
+  "sec": "act2",
+  "start": 3.827,
+  "end": 4.86
+ },
+ {
+  "id": "L028",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Three days. So you do what anyone would. You make yourself impossible to leave.",
+  "sec": "act2",
+  "start": 5.26,
+  "end": 10.305
+ },
+ {
+  "id": "L029",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Her favourite coffee. Every morning.",
+  "sec": "act2",
+  "start": 10.518,
+  "end": 12.968
+ },
+ {
+  "id": "L030",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The shelf she asked about in March.",
+  "sec": "act2",
+  "start": 13.138,
+  "end": 15.313
+ },
+ {
+  "id": "L031",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The story about her cousin. You laugh at all of it. Again.",
+  "sec": "act2",
+  "start": 15.453,
+  "end": 19.376
+ },
+ {
+  "id": "L032",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Okay. Who are you, and what do you want?",
+  "sec": "act2",
+  "start": 19.636,
+  "end": 21.625
+ },
+ {
+  "id": "L033",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Nothing! Can't a friend fix a shelf?",
+  "sec": "act2",
+  "start": 21.775,
+  "end": 23.892
+ },
+ {
+  "id": "L034",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "That night, you check.",
+  "sec": "act2",
+  "start": 24.692,
+  "end": 25.617
+ },
+ {
+  "id": "L035",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Two.",
+  "sec": "act2",
+  "start": 26.234,
+  "end": 26.814
+ }
+]

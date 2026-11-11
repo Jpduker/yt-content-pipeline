@@ -1,0 +1,142 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You wake up, and your phone is full of messages nobody sent.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 4.35
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your boss typed,",
+  "sec": "hook",
+  "start": 4.53,
+  "end": 5.662
+ },
+ {
+  "id": "L003",
+  "tag": "BOSS",
+  "thought": true,
+  "note": "",
+  "text": "You're fired.",
+  "sec": "hook",
+  "start": 6.003,
+  "end": 6.961
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then deleted it.",
+  "sec": "hook",
+  "start": 7.381,
+  "end": 8.431
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your mum typed,",
+  "sec": "hook",
+  "start": 8.611,
+  "end": 9.742
+ },
+ {
+  "id": "L006",
+  "tag": "MUM",
+  "thought": true,
+  "note": "",
+  "text": "Are you eating properly?",
+  "sec": "hook",
+  "start": 10.082,
+  "end": 11.399
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Eleven times.",
+  "sec": "hook",
+  "start": 11.819,
+  "end": 13.119
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And at three a.m., your best friend typed three words\u2026 and held backspace.",
+  "sec": "hook",
+  "start": 13.649,
+  "end": 18.566
+ },
+ {
+  "id": "L009",
+  "tag": "MIRA",
+  "thought": true,
+  "note": "",
+  "text": "I'm not okay.",
+  "sec": "hook",
+  "start": 19.456,
+  "end": 20.379
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She never sent it.",
+  "sec": "hook",
+  "start": 21.299,
+  "end": 22.399
+ },
+ {
+  "id": "L011",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You could answer anyway.",
+  "sec": "hook",
+  "start": 22.579,
+  "end": 24.133
+ },
+ {
+  "id": "L012",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "They look like normal messages. Just grey. And they flicker, like they're still deciding.",
+  "sec": "act1",
+  "start": 24.383,
+  "end": 30.838
+ },
+ {
+  "id": "L013",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Everything anyone almost said to you since midnight.",
+  "sec": "act1",
+  "start": 31.042,
+  "end": 34.267
+ },
+ {
+  "id": "L014",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Two hundred and twelve. Before breakfast.",
+  "sec": "act1",
+  "start": 34.542,
+  "end": 37.487
+ }
+]

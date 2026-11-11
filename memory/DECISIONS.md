@@ -32,3 +32,4 @@ Append-only. date · decision · why.
 - 2026-11-08 · Whispers cast folder renamed vivek-cast; the Whispers idea is Vivek's.
 - 2026-11-08 · All new voices use tts_timed.py (word-exact captions).
 - 2026-11-10 · Launch channel = What-If stickman, style growkaz-ifverse v1 (Vivek + JP). First video ≈ 4 min long-form + 2–3 Shorts (research/nexlev/2026-11-10-what-if-niches.md). Styles are now frozen per version in library/styles/<style>/vN; never edit a frozen version.
+- 2026-11-11 · Between the Ifs: style growkaz-ifverse v3 from WI03 (one-call paragraph voice, blended parametric faces, grade + depth of field, head badges, ghost bubbles, auto 9:16 Shorts). Episodes share one world and continuity: Mira's course (rejected in WI02, accepted in WI04, back for the weekend in WI05), the mum call (WI03 → WI05). Track B (kids, Ricks look) is a separate channel, not started.
