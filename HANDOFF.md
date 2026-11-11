@@ -1,58 +1,141 @@
-# HANDOFF — 2026-11-10 night: make the FIRST What-If video (launch)
+# HANDOFF · 2026-11-11 evening → next session: produce the next 3 days of uploads at once
 Paste into the new session:
-**"Read HANDOFF.md and make tonight's video. The idea is: <PASTE THE CHOSEN IDEA # AND TITLE>. Ask me only what HANDOFF.md says to ask."**
+**"Read HANDOFF.md and produce the next three days of uploads (one long-form + two Shorts per day). Ask me only what HANDOFF.md §11 says to ask."**
 
 ## 0. Rules first (every prompt)
-- CLAUDE.md "Team + git": `sh pipeline/sync.sh` first; `sh pipeline/push.sh "msg"` after every change; main only; commits as the human
-  (VivekSai07 / JP), no AI co-author lines. If the shell has no GitHub login, commit and tell Vivek to `git push` from WSL. Never claim a push you didn't see.
-- Vivek's standing rule: no "no"/excuses; warn in one line about policy/licence risks, then build it as LOCAL-TEST.
-- RULES.md: free + local tools only, our own characters/brands only (no real people's likeness, no real logos), music under voice, -14 LUFS / -1 dBTP,
-  captions synced to the voice, never reuse reference footage/audio.
+- CLAUDE.md "Team + git": `sh pipeline/sync.sh` first; commit after every change (main only, commits as the human: VivekSai07 on Vivek's
+  machine, JP's own on his Mac, no AI co-author lines). **The device shell has no GitHub login: commit locally and tell Vivek to
+  `git push origin main` from WSL.** Never claim a push you didn't see.
+- Vivek's standing rules: no "no"/excuses (warn in one line about policy/licence risk, then build it); **ask approval before any final render**;
+  "cross-check every single detail". RULES.md + TASTE.md are loaded by CLAUDE.md; read memory/LEARNINGS.md (2026-11-10 section) once.
+- The GrowKaz kit is now in git (tools/growkaz-stickman/ + lab/2026-11-09-growkaz-plugin-test/plugin/). It has **no licence file: the repo must stay private.**
 
-## 1. What was decided (Vivek + JP, 2026-11-10)
-- First milestone = the **"What If…" stickman channel**, first video tonight.
-- Style = **growkaz-ifverse v1** (frozen): library/styles/growkaz-ifverse/v1/STYLE.md. Do not invent a new look; improvements go into a v2 copy.
-  The other frozen styles (toon3d-afterhour v1, toon3d-palace v1, flat2d-history v1) are reserves — see library/styles/STYLES.md.
-- Format = **long-form ≈ 4 min, 16:9 1080p 24 fps**, plus **2–3 vertical Shorts (≤ 59 s)** cut from it pointing to the long video.
-  Evidence + the 10 candidate ideas: research/nexlev/2026-11-10-what-if-niches.md (read §3 patterns + §4 ideas before writing).
-- Idea: the one Vivek pastes in the prompt above. If he didn't, ask him to pick from §4 (my top 3: #1 hear what people think, #2 pause time 10 s a day, #3 1% smarter every day).
+## 1. Where we are
+- **Channel:** What-If stickman channel (name "Between the Ifs" was the working name; check the live name with Vivek), created 2026-11-10/11
+  with logo (channels/stickman/characters/hero-channel-image.jpg), banner, description.
+- **WI02 is live:** https://youtu.be/tddFIFm8zGY · "What If You Heard Every Thought About You… and Listened?" · 4:22 · folder
+  channels/stickman/what-if/2026-11-10-wi02-hear-what-they-think (final/, PUBLISH.md, DIRECTION.md, script.md, all code).
+- **Style:** growkaz-ifverse **v2 (frozen 2026-11-11 from WI02)**: library/styles/growkaz-ifverse/v2 (STYLE.md, project/, tools/).
+- **Feedback on WI02 (JP, 2026-11-11), MUST be fixed in every new video (§6):**
+  1. "The pacing of the narration was a bit off."
+  2. "The dialogues felt a bit not natural, kinda slow and robotic."
+  3. "Emotions were not conveyed in facial expressions properly."
+  Vivek liked: separate character voices, voice levels, background music, cast consistency, acting/camera (2026-11-10).
 
-## 2. Setup (once per machine, ~10 min)
-1. Kit: lab/2026-11-09-growkaz-plugin-test/plugin/skills/make-2d-video/kit (unzipped GrowKaz_Stickman.plugin v1.1.0, NOT in git; if missing,
-   unzip tools/growkaz-stickman/GrowKaz_Stickman.plugin there — sha256 in the STYLE.md). `cd <kit> && npm install`.
-   Self-test: `node render.mjs --project examples/reaction-time --sheet --scale 0.3`.
-2. Read <kit>/../references/engine-api.md and style-bible.md, and our proof project library/styles/growkaz-ifverse/v1/project (scenes/shots/01_all.js
-   shows registerShot, table(), bigFace, freeze tint, three-kit orbit, title card — reuse its patterns).
-3. Voice: Kokoro in WSL (`. pipeline/env.sh`; tools/lemo-opuscar/core/tts). Voice am_michael (Jp's favourite narrator, EP01) unless Vivek picks another;
-   exact word timings via pipeline/make_timed_kokoro.py / pipeline/tts_timed.py → timeline/words.json (no Whisper guessing). Chatterbox is still broken in WSL.
+## 2. Two tracks. Ask Vivek ONE question before starting (§11)
+- **Track A: What-If channel, daily.** One long-form (~4–6 min, 16:9) + two Shorts (9:16) per day, from 2026-11-12. Style growkaz-ifverse v2 → v3 (with §6 fixes).
+- **Track B: JP's idea: a more vibrant, colourful channel to attract kids, replicating the Ricks Clips look exactly.**
+  Reference frames: references/videos/ricks-clips/frames (65 frames, f0001.jpg…; video VS1Z_Q-Klt8.mp4 + info.json; sheets in the same folder).
+  We already have a frozen replica start: **library/styles/toon3d-palace v1** (toon.js chibi family, warm painted 3D worlds, costume = identity,
+  one slow push per shot, one-word Poppins captions) built in lab/2026-11-09-ricks-style-test. Reverse-engineer from there (/study-reference on the
+  frames → STYLE v2 → a 20–30 s proof → Vivek approves) instead of starting from zero. A replica must match frame by frame (TASTE 2026-11-09:
+  "hugely disappointed" when Dave v1 only matched the feel).
+  ⚠ If the target audience is kids, YouTube requires "Made for kids" = no comments, no personalised ads (lower RPM), no end-screen/cards to non-kid
+  content. Warn Vivek in one line; never mix kids videos into the What-If channel.
+- **Unclear: do the daily What-If videos switch to the Ricks style, or does the Ricks style go to a NEW channel?** Ask (§11). Until answered,
+  Track A continues in growkaz-ifverse with the §6 fixes.
 
-## 3. Make the video (in this order; tick each in the task list)
-1. **Episode folder:** `sh pipeline/new-episode.sh stickman what-if wi02-<slug>`; add a row to channels/stickman/CHANNEL.md (style: growkaz-ifverse v1).
-   Make the kit project inside it: `node <kit>/tools/new_project.py` or copy library/styles/growkaz-ifverse/v1/project → <episode>/project, config: 16:9, 1080p, 24 fps, style **sakura**.
-2. **Script (~550–600 words for 4 min):** /yt-script + the ScriptForge master prompt (tools/growkaz-stickman/2D Niche Prompt for Claude.pdf).
-   Structure from the research: cold open on the most extreme moment (0–15 s) → Day 1 normal life → 3–5 escalating scenes, each with an on-screen number →
-   the cost / dark turn → emotional or ironic ending → "What would YOU do?" CTA. Second person ("you"). Show Vivek the hook (first 3 lines) before going on.
-3. **Director pass (BEFORE any code) → <episode>/DIRECTION.md:** one row per shot (2–3.5 s each, ~70–90 shots): line, shot size (wide/medium/close/giant face/insert/3D orbit),
-   angle, what the hero DOES (pose + expression + anticipation/follow-through), set + mood palette, on-screen number/prop, transition, music/SFX cue.
-   Plus a cast bible: hero "YOU" = one colour item kept all video (e.g. green tee), 2–4 side characters each with one colour item; expression list per beat.
-   Rule: a new idea = a new shot; at least one giant-face reaction per minute; one 3D orbit per act; one "hub" set the story keeps returning to.
-4. **Voice:** generate the narration (Kokoro, speed ~1.0), exact words.json, put voiceover.wav/mp3 in <episode>/project/input/.
-5. **Shots:** write scenes/sets + scenes/shots per DIRECTION.md using the kit engine only. Stills QA first:
-   `node render.mjs --project <p> --sheet --scale 0.4` → look at every sheet; fix overlaps, empty frames, caption collisions, wrong expressions.
-   Send Vivek the contact sheet before the full render.
-6. **Render:** `node render.mjs --project <p> --workers 2` (19 s ≈ 5 min in the cloud; 4 min ≈ 60 min — split across machines/cloud if needed).
-7. **Sound:** kit audio (tools/beats.py, audio/music.py, audio/sfx.py, audio/mix.py) or /pick-music from library; music −18…−22 dB under voice,
-   SFX on every cut/impact/freeze; master −14 LUFS, −1 dBTP; verify with /earshot.
-8. **Captions:** kit karaoke captions (uppercase, keyword yellow) from words.json; also export an .srt.
-9. **Shorts:** 2–3 vertical cuts (9:16, ≤ 59 s): the cold open, the best escalation beat, the ending tease; each ends "Full video on the channel".
-10. **Package:** /yt-package (title ≤ 60 chars "What If You…?", thumbnail = giant face + one bold number/prop), /yt-seo description + tags, /yt-chapters.
-    Write PUBLISH.md + CREDITS (kit v1.1.0, Kokoro, music source, fonts). Finals only in <episode>/final/.
-11. **Retro (mandatory):** /retro — update TASTE/LEARNINGS/STATUS, add the episode to CHANNEL.md, push.
+## 3. The 3-day schedule (produce everything up front, approvals in batches)
+| Day (CET) | Long-form | Shorts (2) |
+|---|---|---|
+| Thu 2026-11-12 | WI03 | WI02 Short 1 + WI02 Short 2 (point to https://youtu.be/tddFIFm8zGY) |
+| Fri 2026-11-13 | WI04 | WI03 Short 1 + 2 (point to WI03 once live) |
+| Sat 2026-11-14 | WI05 | WI04 Short 1 + 2 |
+Shorts always cut from a video that is already live (so "full story on the channel" is true). Keep one spare Short in final/ per episode.
+Batch plan: (1) scripts + titles for WI03–05 → Vivek approves hooks/titles in one message; (2) voices for all three → A/B 20 s sample per episode
+(§6) → approval; (3) direction + code + contact sheets for all three → one approval; (4) final renders (≈ 25 min each in the cloud container)
++ Shorts + PUBLISH.md each.
 
-## 4. Quality bar (Vivek's question 4, agreed direction)
-More *frames per second* does not make it better (24 fps is the animation standard); more *direction* does. Priority:
-story/hook → voice + music → character acting (pose, expression, anticipation) → shot grammar (wide→close→reaction, cut on action, no static holds >3.5 s)
-→ world detail (props, signs, background life) → consistency (same hero colour item, same palette per set). Every frame must read in 1 s on a phone.
+## 4. Story candidates (channel promise: "One impossible rule. An ordinary life. A difficult choice." Relationship lane, second person)
+Pick three, then **check each exact title for duplicates** (NexLev `youtube_search` type=video; the NexLev free quota is 50 calls/week and reset
+2026-11-11 23:44 CET; spend it carefully) and record the result in research/. WI02 lesson: the exact obvious title already had 10+ uploads, so
+the title must promise OUR twist.
+1. What If Every Apology Erased Their Memory of What You Did? (Codex; twist: you can never be forgiven, only forgotten)
+2. What If You Could Replay One Conversation, but Only You Remembered Both Versions? (Codex)
+3. What If Every Lie You Told Became True? (research #4; comedy → cost → honesty ending)
+4. What If You Felt Everything Your Best Friend Felt? (new; empathy as a burden)
+5. What If Your Phone Battery Was Your Life Battery? (research #6; ends on "put the phone down" with Mira)
+Recurring cast: hero "YOU" (STRICT look, below) + Mira (best friend, ponytail + yellow scrunchie); add 1–2 new side characters per episode, one
+colour item each. Structure (research §3): cold open on the most extreme moment → normal day → 3–5 escalating beats with an on-screen number →
+the cost → emotional ending → "Would YOU…?" question. ~600–800 spoken words for 4–5 min; aim 6–8 min from WI05 on if the pipeline holds.
 
-## 5. Ask Vivek only
-- Which idea (if not in the prompt) · approve the hook lines · approve the contact sheet before the full render · approve the thumbnail/title.
+## 5. How a video is made (the proven WI02 pipeline; copy WI02's folder layout)
+**Hardware:** the linked PC's VM is tiny (2 cores, 2 GB). Do voice + render in the **cloud container** (2 cores, ~7 GB; 1080p ≈ 4.7 fps,
+4:22 ≈ 23 min; 540p previews ≈ 20 fps).
+**Moving files:** device → cloud: `tar czf _xfer/<x>.tgz …` on the device, then `device_stage_files`. Cloud → device: small files with
+`device_commit_files` (stagedPath under /mnt/user-data/outputs/); files over ~15 MB fail with HTTP 400 → send them with SendUserFile and commit by
+fileUuid. `_xfer/` is gitignored.
+**Cloud setup (once per session):** stage tools/lemo-opuscar/core/tts/kokoro-v1.0.onnx + voices-v1.0.bin; `pip install --break-system-packages
+kokoro-onnx onnx soundfile scipy`; `python3 pipeline/make_timed_kokoro.py <lib>` (adds the duration output for exact word timings);
+kit: `cd <kit> && npm install`, then **delete kit/node_modules/playwright{,-core} and symlink the global ones** (`$(npm root -g)/playwright`),
+because the kit pins 1.56 and the container's Chromium belongs to the global Playwright. Self-test: `node render.mjs --project examples/reaction-time --sheet --scale 0.3`.
+**JP's Mac:** `sh pipeline/mac-prereqs.sh`, `cd lab/2026-11-09-growkaz-plugin-test/plugin/skills/make-2d-video/kit && npm install`, same self-test.
+**Steps (episode folder `sh pipeline/new-episode.sh stickman what-if wi0N-<slug>`):**
+1. script.md with speaker tags (`N:`, `MIRA:`, `MIRA-T:` = thought, `YOU:`…; `✎` notes are stripped). Hook → Vivek.
+2. DIRECTION.md (cast bible, sets, motifs, music plan, shot list, Shorts plan) before any code.
+3. Voice: copy library/styles/growkaz-ifverse/v2/tools/build_voice.py → `<ep>/voice/`; edit VOICES/BEAT/PAUSE; `LIB=<lib> python3 voice/build_voice.py <ep>`
+   → project/input/voiceover.wav, timeline/lines.json, words_all.json, words.json (captions, thoughts excluded). `SKIP_TTS=1` re-assembles without re-synthesis.
+4. Project: copy library/styles/growkaz-ifverse/v2/project → `<ep>/project` (scenes/cast.js, chars.js, sets/world.js, shots/gen.js, _cap.js, t3.js).
+   New sets go in sets/world.js; new characters in cast.js + chars.js HEAD.
+5. Shot list as data: copy v2/tools/build_story.py → `<ep>/story/`, rewrite the `sh(...)` list (anchors = line ids 'L016' or words 'L032:6';
+   builders: scene / face / insert / blueprint / topdown / title / end / 3d). It times shots to the voice, snaps cuts out of words, adds sound cues
+   and ambience. `python3 story/build_story.py <ep>`.
+6. QA: `node render.mjs --project <p> --sheet --scale 0.4` → read every sheet; a cast sheet (both facings, close-up + full body) whenever a character is
+   new; 3–4 motion clips at 0.5 scale (`--from --to --scale 0.5 --out …`, then mux the slice of build/mix.wav) → **Vivek approves**.
+7. Sound: `python3 audio/mix.py --project <p>` (kit music by mood sections, SFX cues, ambience, −14 LUFS) → out/<title>.mp4. Re-run the mix
+   AFTER any shot-timing change (SFX are relative to shot starts).
+8. Final: `node render.mjs --project <p> --workers 2` → mix.py → check: ffprobe durations equal, ebur128 (≈ −14 LUFS, ≤ −1 dBTP), A/V offset 0 ms
+   (envelope cross-correlation vs voiceover.wav), spot frames with captions. Copy to `<ep>/final/`, `python3 story/make_srt.py <ep>` → .srt.
+9. PUBLISH.md (title ≤ 60 chars, description with chapters starting 0:00, tags, pinned comment), CREDITS.md, thumbnail prompt for Gemini
+   (attach hero-channel-image.jpg as reference; giant hero face + ≤ 4 words), then /retro.
+
+## 6. Mandatory fixes from JP's feedback (make these the v3 changes; show Vivek an A/B before the batch)
+**Pacing + robotic dialogue (voice):**
+- Root cause (likely): every sentence was synthesised as a separate Kokoro call with fixed gaps (0.30 s same speaker, 0.42 s speaker change,
+  +BEAT/PAUSE), so prosody resets each line and the rhythm is metronomic. Fix in build_voice.py: synthesise **consecutive narrator lines of one
+  beat as ONE call** (natural intonation across sentences), split back into lines by word timings; vary gaps by intent (comedy/montage 0.12–0.22 s,
+  normal 0.25–0.35 s, emotional 0.6–1.2 s), and let dialogue answer fast (0.15–0.25 s) like a real exchange.
+- Speeds: narrator 1.0–1.05 in comedy/escalation, 0.92–0.95 only in the emotional act; dialogue 1.05–1.12 (it was 1.0 → "slow").
+- Write for the ear: contractions, short replies, interjections ("Oh." "Wait—" "Hm."), question marks and commas where the breath goes; avoid
+  three-word declaratives in a row (WI02 had many).
+- Try 2–3 alternative Kokoro voices per role (e.g. am_fenrir/am_adam narrator, af_bella/af_sarah for Mira) and render a 20 s A/B for Vivek.
+  A more expressive free local TTS for dialogue is worth one test (Chatterbox is broken in WSL but untested in the cloud container); keep it
+  free and local (RULES), and keep Kokoro as the fallback.
+**Faces that carry emotion:**
+- In WI02 most emotional lines played on wides where heads are ~40 px: unreadable on a phone. Every emotional or reactive line gets a close-up
+  (bust) or a medium (cam z ≥ 1.8); wides only to establish or for comedy staging.
+- Expressions change **0.2–0.4 s before** the line that motivates them and hold; use a 2–3 step arc per shot (e.g. smile → freeze → hurt).
+- Strengthen chars.js faces: bigger brow angles, eye squash (squint/happy) and stretch (shock), more mouth shapes (grimace, bite lip, wobble,
+  tight smile), head tilt and a small body drop (shoulders) on sad beats, tears that well before falling. Add expressions you need to `face()`
+  and show a new expression sheet (lab-charsheet pattern: a temp project with `charsheet` / `faces` builders) before using them.
+- Reaction shots: after any hurtful or tender line, cut to the listener for ≥ 1 s.
+
+## 7. Shorts recipe (9:16, ≤ 59 s)
+- Pick self-contained beats from DIRECTION.md "Shorts" (WI02: ① hook + barista, shots 1–15; ② the shortcut, napkin to 23 rules + train; ③ "I miss him").
+- Best quality: copy the project to `<ep>/short-N/`, set config aspect "9:16", keep only that time range (shots.json start/end re-based), re-frame
+  cameras for vertical (the engine has `V(landscape, vertical)` and GY 0.7 H; characters in the middle third; captions at ~79 % H). Re-run the mix on
+  the trimmed voice. Last 2 s: "Full story on the channel" card + loop-friendly last frame (RULES).
+- Cheap fallback only if time runs out: 16:9 final cropped to 9:16 with a blurred fill. Tell Vivek if you use it.
+- Title = the long video's title, shortened ("He Could Hear What She Really Thought…"); link the long video as the Short's "related video".
+
+## 8. Publishing (Vivek uploads; give him the same checklist as WI02)
+Phone-verified channel (custom thumbnails); title; description + chapters from PUBLISH.md; thumbnail; Not made for kids (Track A); altered/synthetic
+content: stylised animation, check YouTube's help text; tags; English; Film & Animation; upload the .srt; end screen (Subscribe + the previous
+video now that there is one); wait for the copyright check and HD processing; pin the comment. Record each live URL in CHANNEL.md + PUBLISH.md.
+
+## 9. Hero and cast rules (STRICT)
+- Hero "YOU" = channel image: bald round matte-black head, tall white oval eyes, short thin brows, small curved smile, green hoodie #3fb950 with the hood
+  down, drawstrings, warm amber rim. No hair, no outfit change, ever (the cap is allowed only if Vivek asks). Drawn by chars.js (`drawChar`, `bust`).
+- Every character looks identical in wides and close-ups (one shared head module). Check a cast sheet before the contact sheet.
+- Thought language (v3, approved): no ribbons; a faint ivory echo slips off the THINKER's head, the background softens, edges darken; the words show in
+  the caption line as italic ivory quotes, phrase by phrase; strong the first time, fading later; none on the most emotional thought.
+- Captions: karaoke chunks per sentence (_cap.js), always above the letterbox bars of the current and neighbouring shots.
+
+## 10. Known pitfalls (see LEARNINGS 2026-11-10)
+GrowKaz kit brow bug ('worried' draws angry); kit `top:'tshirt'` defaults to red; `bigFace` ponytail blob (we use chars.js instead); kit captions
+cross sentences (we use _cap.js); never cut inside a word (build_story snaps); a cloud container restore can show "file changed on disk" notices,
+so verify files instead of reverting; NexLev quota 50/week.
+
+## 11. Ask Vivek only
+1. Track B: do the daily What-If videos switch to the Ricks Clips look, or is it a separate (kids) channel? (one question, at the start)
+2. The three stories + titles + hooks (one message). 3. The voice A/B (20 s per episode). 4. Contact sheets + motion clips (one batch). 5. Thumbnails/titles.

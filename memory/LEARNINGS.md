@@ -59,3 +59,6 @@ Append-only, newest at the bottom. Format: date · what happened · evidence · 
 - Kit captions group words by index (cross sentences). WI02 _cap.js groups per line + punctuation and skips thought words.
 - Cloud container renders the kit at ~20 fps at 0.5 scale (2 workers); kit's pinned playwright 1.56 needs the pre-installed global playwright symlinked into kit/node_modules.
 - Data-driven shots (one builder file + shots.json params) made 95 shots in one evening; the shot list lives in story/build_story.py, timed to the real voice lines.
+- 2026-11-11 · Moving files: device_commit_files from /mnt/user-data/outputs fails (HTTP 400) above ~15 MB; send big files with SendUserFile and commit by fileUuid.
+- 2026-11-11 · Kokoro per-sentence synthesis + fixed gaps sounded robotic and mis-paced to JP (WI02). Next: synthesise narrator paragraphs in one call, vary gaps by intent, faster dialogue.
+- 2026-11-11 · Emotion lost on wides (heads ~40 px). Emotional lines need close-ups/mediums.

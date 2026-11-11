@@ -1,4 +1,4 @@
-# growkaz-ifverse v2 (draft 2026-11-10; frozen after WI02 ships)
+# growkaz-ifverse v2 (FROZEN 2026-11-11 from WI02 · never edit; improvements go into v3)
 Copy of v1 (library/styles/growkaz-ifverse/v1) with stronger direction. Same engine, the same pinned GrowKaz kit v1.1.0
 (sha256 in v1/STYLE.md), the same look rules unless changed below. First used by WI02 "hear what they think".
 
@@ -49,3 +49,11 @@ Copy of v1 (library/styles/growkaz-ifverse/v1) with stronger direction. Same eng
 ## Files
 - project/: copy of v1/project (config, cast, sets, 01_all.js patterns) as the starting point.
 - First episode: channels/stickman/what-if/2026-11-10-wi02-hear-what-they-think.
+
+## As shipped in WI02 (frozen 2026-11-11)
+- project/scenes: cast.js, chars.js (our own heads/hair/hats/faces for every character; hero = channel image), sets/world.js (café hub am/pm/night,
+  bedroom, office, canteen, train), shots/gen.js (data-driven builders + thought echo), shots/_cap.js (sentence captions + ivory thought captions),
+  shots/t3.js (3D). gen.js and _cap.js fetch timeline/lines.json + words_all.json at load: build the voice first.
+- tools/: build_voice.py (multi-voice Kokoro + timings), build_story.py (shot list as data, timed to the voice, sound cues), make_srt.py.
+- Thought language changed during WI02: ribbon (v2 draft) → thought echo + ivory thought captions (approved).
+- Known weaknesses (JP feedback 2026-11-11) → v3: narration pacing, slow/robotic dialogue, faces not carrying emotion. See HANDOFF.md §6.

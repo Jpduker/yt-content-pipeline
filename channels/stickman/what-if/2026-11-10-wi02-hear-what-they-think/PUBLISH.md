@@ -1,4 +1,5 @@
 # WI02 · publish sheet (long-form)
+**Live: https://youtu.be/tddFIFm8zGY (posted 2026-11-11 by Vivek)**
 File: final/what-if-you-heard-every-thought-1080p.mp4 · subtitles: final/what-if-you-heard-every-thought.en.srt (upload as English captions)
 Length 4:22 · 16:9 1080p 24 fps · −14 LUFS
 
