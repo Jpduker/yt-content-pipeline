@@ -5,7 +5,7 @@ To customise something, copy it into `library/` and change the copy.
 
 | Tool | Commit | Licence | Role here | Active skills |
 |---|---|---|---|---|
-| lemo-opuscar | bebbbe1 | MIT (samples CC0; piano CC BY 3.0, drums CC BY 4.0: credit them) | **Main engine**: 66 code-made film styles, Kokoro offline voice, Whisper, CC0 music, mux | lemo-opuscar |
+| lemo-opuscar | 3a7132b (2.0.0, 2026-11-12) | code MIT; docs CC BY-NC 4.0 + permission to use them for our own (commercial) films, never republish them; demo films CC BY 4.0 (samples CC0; piano CC BY 3.0, drums CC BY 4.0: credit them) | **Main engine**: 99 code-made film styles (2.5D Pixel Art = Island style from 2026-11), Kokoro offline voice, Whisper, CC0 music, mux | lemo-opuscar |
 | hyperframes | d4e4b07 | Apache 2.0 | HTML → MP4 renderer, captions, character rigs (sparse checkout: skills/examples/themes only) | hyperframes, hyperframes-cli, hyperframes-registry |
 | threejs-skills | 0e18186 | MIT | Current three.js r186 knowledge for 3D styles | 13 threejs-* |
 | youtube-agent-skill | a2feb21 | MIT | Scripts, hooks, titles, Shorts, SEO, retention | 11 yt-* |

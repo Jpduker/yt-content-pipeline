@@ -36,9 +36,9 @@ export function cap(g, gt) {
   const BAR = { none: 0, wide: V(60, 0), scope: V(138, 170), thin: V(30, 60) }, bv = b => typeof b === 'number' ? b : BAR[b ?? E.cfg.bars ?? 'wide'] ?? 0;
   const si = E.shots.indexOf(shot), bar = Math.max(bv(shot?.bars), si > 0 ? bv(E.shots[si - 1].bars) : 0, si >= 0 && si < E.shots.length - 1 ? bv(E.shots[si + 1].bars) : 0);
   const y = Math.min(V(E.H - 150, E.H * .79), E.H - bar - V(62, 80)), size = V(60, 76), strs = c.map(w => w.word.toUpperCase());
-  let sz = size; const tot = () => strs.reduce((a, s) => a + measure(g, s, sz), 0) + sz * .3 * (strs.length - 1); if (tot() > E.W * .86) sz *= E.W * .86 / tot();
+  let sz = size; const tot = () => strs.reduce((a, s) => a + measure(g, s, sz), 0) + sz * .44 * (strs.length - 1); if (tot() > E.W * .86) sz *= E.W * .86 / tot();
   let x = E.W / 2 - tot() / 2;
   strs.forEach((s, k) => { const w = c[k], on = gt >= w.start - .03, cur = on && (k === c.length - 1 || gt < c[k + 1].start - .03), ww = measure(g, s, sz);
-    const pop = cur ? 1 + .08 * ease.out(prog(gt, w.start, w.start + .12)) : 1; g.save(); g.translate(x + ww / 2, y); g.scale(pop, pop);
-    text(g, s, 0, 0, { size: sz, color: cur ? S().ui.gold : '#ffffff', stroke: sz * .16, strokeColor: 'rgba(0,0,0,.85)', alpha: on ? 1 : .55 }); g.restore(); x += ww + sz * .3; });
+    const pop = cur ? 1 + .05 * ease.out(prog(gt, w.start, w.start + .12)) : 1; g.save(); g.translate(x + ww / 2, y); g.scale(pop, pop);
+    text(g, s, 0, 0, { size: sz, color: cur ? S().ui.gold : '#ffffff', stroke: sz * .16, strokeColor: 'rgba(0,0,0,.85)', alpha: on ? 1 : .55 }); g.restore(); x += ww + sz * .44; });
 }

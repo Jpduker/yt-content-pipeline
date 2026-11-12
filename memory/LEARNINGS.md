@@ -73,3 +73,9 @@ Append-only, newest at the bottom. Format: date · what happened · evidence · 
 - Never start a render with `nohup … &` inside a background command (it is killed and leaves a confusing log); run the script itself as the background command.
 - Standing figure head is at y ≈ 550 (pose head −208 × 1.6), seated ≈ 600: standing mediums need cam y ≈ 545.
 - Three 3.5-min episodes render in ~16 min each at 1080p (5 fps, 2 workers); six 30–40 s Shorts follow.
+
+## 2026-11-12 · session 9
+- Shorts: a Short that opens mid-story without its premise loses ~80% at the swipe even when the rest holds (64% AVD). Open on the rule + conflict, title = first line.
+- ~2.45 spoken words per second of finished film in our scripts (pauses included): 4:00 ≈ 560–590 words.
+- The device shell CAN reach GitHub (git ls-remote/fetch work) but cannot push (no credentials). With delete permission granted, git leaves no lock files.
+- lemo-opuscar 2.0.0 (2026-11-12): 99 styles, image-generation styles marked ✦ (need the user's own image tool), one LICENSE file (docs CC BY-NC + permission for own films).
