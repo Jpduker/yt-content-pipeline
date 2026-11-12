@@ -15,3 +15,6 @@ Second-person comedy scenarios. Separate audience from the island, so a separate
 | WI03 | what-if/2026-11-12-wi03-unsent-texts | 3:29 + 2 Shorts | final/what-if-you-could-see-every-text-people-almost-sent-you-1080p.mp4 | built 2026-11-12 · style v3 · upload Thu 12 Nov |
 | WI04 | what-if/2026-11-13-wi04-whos-leaving | 3:21 + 2 Shorts | final/what-if-you-could-see-whos-about-to-leave-your-life-1080p.mp4 | built 2026-11-12 · style v3 · upload Fri 13 Nov |
 | WI05 | what-if/2026-11-14-wi05-who-cried | 3:10 + 2 Shorts | final/what-if-you-could-see-who-cried-because-of-you-1080p.mp4 | built 2026-11-12 · style v3 · upload Sat 14 Nov |
+
+## New series: Alternate Avengers (Vivek, 2026-11-12)
+See `alternate-avengers/README.md`. This is another series inside Between the Ifs, alongside original ability stories. Its approved visual direction is the illustrated mustard-jacket protagonist with B/C cinematic treatment, separate from the original green-hoodie cast. Broader promise: "One impossible possibility. A whole story of consequences." Fan stories are unofficial speculation. The latest V3 rig test is not yet approved as production-quality motion. No About update or new upload was applied by Codex. This series-specific direction overrides older no-known-character rules only for authorized fan-story exploration; it does not authorize unlicensed movie footage or music.

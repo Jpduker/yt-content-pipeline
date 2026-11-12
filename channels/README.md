@@ -4,7 +4,7 @@ One folder per channel or channel path we are testing. The full strategy is memo
 | Folder | Channel (working name) | Status | Series inside |
 |---|---|---|---|
 | island/ | The Keeper's Island: riddles + dark island legends in one never-ending story | channel 1, pre-launch | riddles/, old-tales/ (later: chapters/ for long-form) |
-| stickman/ | Stickman "What if you…" comedy | channel 2 test | what-if/ |
+| stickman/ | Between the Ifs | WI02 live; original ability stories + Alternate Avengers in development | what-if/, floor-minus/, alternate-avengers/ |
 | whispers/ | Poetic confessions: illustrated, music-led, text on screen | channel path under study (2026-11-08) | confessions/ |
 
 Style tests that belong to no channel yet live in lab/ (e.g. the spotlight-clay proof). If a lab style wins, it moves into a channel.

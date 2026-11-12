@@ -1,0 +1,1 @@
+{"name":"between-ifs-bc-proof","private":true,"type":"module","dependencies":{"@napi-rs/canvas":"1.1.1"},"scripts":{"stills":"node render-native.mjs --stills","faces":"node render-native.mjs --faces","render":"node render-native.mjs"}}

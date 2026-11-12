@@ -1,0 +1,190 @@
+[
+  {
+    "id": "01",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.98,
+        "text": " What if you could stop time, but only while you held your breath?",
+        "words": [
+          {
+            "word": " What",
+            "start": 0.0,
+            "end": 0.22
+          },
+          {
+            "word": " if",
+            "start": 0.22,
+            "end": 0.4
+          },
+          {
+            "word": " you",
+            "start": 0.4,
+            "end": 0.5
+          },
+          {
+            "word": " could",
+            "start": 0.5,
+            "end": 0.7
+          },
+          {
+            "word": " stop",
+            "start": 0.7,
+            "end": 1.0
+          },
+          {
+            "word": " time,",
+            "start": 1.0,
+            "end": 1.42
+          },
+          {
+            "word": " but",
+            "start": 1.72,
+            "end": 1.72
+          },
+          {
+            "word": " only",
+            "start": 1.72,
+            "end": 2.02
+          },
+          {
+            "word": " while",
+            "start": 2.02,
+            "end": 2.26
+          },
+          {
+            "word": " you",
+            "start": 2.26,
+            "end": 2.42
+          },
+          {
+            "word": " held",
+            "start": 2.42,
+            "end": 2.58
+          },
+          {
+            "word": " your",
+            "start": 2.58,
+            "end": 2.82
+          },
+          {
+            "word": " breath?",
+            "start": 2.82,
+            "end": 2.98
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "02",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 1.4,
+        "text": " At first it feels like a gift.",
+        "words": [
+          {
+            "word": " At",
+            "start": 0.0,
+            "end": 0.24
+          },
+          {
+            "word": " first",
+            "start": 0.24,
+            "end": 0.48
+          },
+          {
+            "word": " it",
+            "start": 0.48,
+            "end": 0.74
+          },
+          {
+            "word": " feels",
+            "start": 0.74,
+            "end": 0.88
+          },
+          {
+            "word": " like",
+            "start": 0.88,
+            "end": 1.14
+          },
+          {
+            "word": " a",
+            "start": 1.14,
+            "end": 1.2
+          },
+          {
+            "word": " gift.",
+            "start": 1.2,
+            "end": 1.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "03",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 0.84,
+        "text": " Until you notice.",
+        "words": [
+          {
+            "word": " Until",
+            "start": 0.0,
+            "end": 0.4
+          },
+          {
+            "word": " you",
+            "start": 0.4,
+            "end": 0.66
+          },
+          {
+            "word": " notice.",
+            "start": 0.66,
+            "end": 0.84
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "04",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 1.28,
+        "text": " Someone else is still moving.",
+        "words": [
+          {
+            "word": " Someone",
+            "start": 0.0,
+            "end": 0.28
+          },
+          {
+            "word": " else",
+            "start": 0.28,
+            "end": 0.56
+          },
+          {
+            "word": " is",
+            "start": 0.56,
+            "end": 0.76
+          },
+          {
+            "word": " still",
+            "start": 0.76,
+            "end": 1.0
+          },
+          {
+            "word": " moving.",
+            "start": 1.0,
+            "end": 1.28
+          }
+        ]
+      }
+    ]
+  }
+]
