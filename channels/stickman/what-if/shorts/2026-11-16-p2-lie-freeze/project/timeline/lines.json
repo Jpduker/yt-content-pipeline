@@ -4,10 +4,10 @@
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "Theo just lied. So the whole world stopped.",
+  "text": "Sami just lied. So the whole world stopped.",
   "sec": "hook",
   "start": 0.5,
-  "end": 3.75
+  "end": 3.7
  },
  {
   "id": "L002",
@@ -16,28 +16,28 @@
   "note": "",
   "text": "In this world, every lie freezes everyone but the liar. Five seconds.",
   "sec": "hook",
-  "start": 3.87,
-  "end": 8.453
+  "start": 3.82,
+  "end": 8.407
  },
  {
   "id": "L003",
-  "tag": "MUM",
+  "tag": "MA",
   "thought": false,
   "note": "",
   "text": "Did you brush your teeth?",
   "sec": "act1",
-  "start": 9.253,
-  "end": 10.553
+  "start": 9.208,
+  "end": 10.375
  },
  {
   "id": "L004",
-  "tag": "THEO",
+  "tag": "SAMI",
   "thought": false,
   "note": "",
   "text": "Yes.",
   "sec": "act1",
-  "start": 10.703,
-  "end": 11.278
+  "start": 10.525,
+  "end": 11.1
  },
  {
   "id": "L005",
@@ -46,18 +46,18 @@
   "note": "",
   "text": "Did you eat my cake?",
   "sec": "act1",
-  "start": 12.878,
-  "end": 14.252
+  "start": 12.7,
+  "end": 13.734
  },
  {
   "id": "L006",
-  "tag": "THEO",
+  "tag": "SAMI",
   "thought": false,
   "note": "",
   "text": "No.",
   "sec": "act1",
-  "start": 14.402,
-  "end": 14.902
+  "start": 13.884,
+  "end": 14.359
  },
  {
   "id": "L007",
@@ -66,67 +66,67 @@
   "note": "",
   "text": "\u2026Did I eat my cake?",
   "sec": "act1",
-  "start": 16.302,
-  "end": 17.687
+  "start": 15.759,
+  "end": 16.832
  },
  {
   "id": "L008",
-  "tag": "THEO",
+  "tag": "SAMI",
   "thought": false,
   "note": "",
   "text": "I'm not even trying.",
   "sec": "act1",
-  "start": 18.287,
-  "end": 19.548
+  "start": 17.432,
+  "end": 18.693
  },
  {
   "id": "L009",
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "Theo is nine. He's the best liar in the house.",
+  "text": "Sami is nine. He's the best liar in the house.",
   "sec": "act1",
-  "start": 21.398,
-  "end": 24.4
+  "start": 20.543,
+  "end": 23.482
  },
  {
   "id": "L010",
-  "tag": "THEO",
+  "tag": "SAMI",
   "thought": false,
   "note": "",
   "text": "Mum. Do you like my drawing?",
   "sec": "act3",
-  "start": 25.3,
-  "end": 26.835
+  "start": 24.382,
+  "end": 25.895
  },
  {
   "id": "L011",
-  "tag": "MUM",
+  "tag": "MA",
   "thought": false,
   "note": "",
   "text": "I love it.",
   "sec": "act3",
-  "start": 26.985,
-  "end": 27.791
+  "start": 26.045,
+  "end": 26.761
  },
  {
   "id": "L012",
-  "tag": "THEO",
+  "tag": "SAMI",
   "thought": false,
   "note": "",
   "text": "\u2026Did you move it?",
   "sec": "act3",
-  "start": 29.991,
-  "end": 31.077
+  "start": 28.961,
+  "end": 30.006
  },
  {
   "id": "L013",
-  "tag": "MUM",
+  "tag": "MA",
   "thought": false,
   "note": "",
   "text": "No.",
   "sec": "act3",
-  "start": 31.227,
-  "end": 31.827
+  "start": 30.156,
+  "end": 30.637
  }
 ]

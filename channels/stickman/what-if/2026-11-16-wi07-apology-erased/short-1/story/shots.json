@@ -1,0 +1,541 @@
+{
+ "title": "Every Time He Said Sorry, They Forgot What He Did",
+ "duration": 32.332,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 6.135,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "broken": true,
+     "bags": true
+    },
+    "cam": [
+     [
+      900,
+      560,
+      1.0
+     ],
+     [
+      920,
+      560,
+      1.08
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 700,
+      "pose": "handsOnHead",
+      "expr": "shocked",
+      "f": 1
+     },
+     {
+      "id": "THEO",
+      "x": 1080,
+      "pose": "point",
+      "expr": "angry",
+      "f": -1,
+      "s": 1.45,
+      "badge": {
+       "k": "mem",
+       "v": 1,
+       "icon": "controller",
+       "smudgeOnly": false
+      }
+     }
+    ],
+    "motif": "num",
+    "hookText": "SORRY = THEY FORGET"
+   }
+  },
+  {
+   "id": "s002",
+   "start": 6.135,
+   "end": 8.35,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "broken": true,
+     "bags": true
+    },
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "nervous"
+     ],
+     [
+      0.4740406320541764,
+      "surprised"
+     ]
+    ],
+    "side": 1,
+    "bgCam": [
+     800,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s003",
+   "start": 8.35,
+   "end": 10.375,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "broken": true,
+     "bags": true
+    },
+    "cam": [
+     [
+      1000,
+      600,
+      1.4
+     ],
+     [
+      1000,
+      600,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 820,
+      "pose": "stand",
+      "expr": "guilty",
+      "f": 1
+     },
+     {
+      "id": "THEO",
+      "x": 1100,
+      "pose": "crossArms",
+      "expr": "angry",
+      "f": -1,
+      "s": 1.45,
+      "badge": {
+       "k": "mem",
+       "v": 1,
+       "icon": "controller",
+       "smudgeOnly": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "s004",
+   "start": 10.375,
+   "end": 12.426,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "broken": true,
+     "bags": true
+    },
+    "cam": [
+     [
+      1000,
+      600,
+      1.5
+     ],
+     [
+      1000,
+      600,
+      1.58
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 820,
+      "pose": "explain",
+      "expr": "guilty",
+      "f": 1
+     },
+     {
+      "id": "THEO",
+      "x": 1100,
+      "pose": "crossArms",
+      "expr": "angry",
+      "f": -1,
+      "s": 1.45,
+      "badge": {
+       "k": "mem",
+       "v": 1,
+       "icon": "controller",
+       "smudgeOnly": false,
+       "wipeAt": 1.251
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "s005",
+   "start": 12.426,
+   "end": 14.513,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "broken": true,
+     "bags": true
+    },
+    "who": "THEO",
+    "expr": [
+     [
+      0,
+      "angry"
+     ],
+     [
+      0.15,
+      "confused"
+     ]
+    ],
+    "side": -1,
+    "badge": {
+     "k": "mem",
+     "v": 1,
+     "icon": "controller",
+     "smudgeOnly": true
+    },
+    "bgCam": [
+     1100,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s006",
+   "start": 14.513,
+   "end": 18.847,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "broken": true,
+     "bags": true
+    },
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "surprised"
+     ],
+     [
+      0.1269035532994921,
+      "joy"
+     ]
+    ],
+    "side": 1,
+    "bgCam": [
+     800,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s013",
+   "start": 18.847,
+   "end": 23.186,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "cafe",
+    "so": {
+     "variant": "am"
+    },
+    "cam": [
+     [
+      -260,
+      545,
+      1.3
+     ],
+     [
+      -280,
+      545,
+      1.35
+     ]
+    ],
+    "who": [
+     {
+      "id": "BARISTA",
+      "x": -470,
+      "pose": "holdFront",
+      "expr": "flat",
+      "f": 1,
+      "prop": "cup"
+     },
+     {
+      "id": "YOU",
+      "x": -60,
+      "pose": "reach",
+      "expr": "nervous",
+      "f": -1
+     }
+    ]
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s014",
+   "start": 23.186,
+   "end": 25.324,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "cafe",
+    "so": {
+     "variant": "am"
+    },
+    "cam": [
+     [
+      -260,
+      560,
+      1.45
+     ],
+     [
+      -260,
+      560,
+      1.53
+     ]
+    ],
+    "who": [
+     {
+      "id": "BARISTA",
+      "x": -470,
+      "pose": "crossArms",
+      "expr": "flat",
+      "f": 1,
+      "badge": {
+       "k": "mem",
+       "v": 1,
+       "icon": "wallet",
+       "smudgeOnly": false,
+       "wipeAt": 2.238
+      }
+     },
+     {
+      "id": "YOU",
+      "x": -60,
+      "pose": "explain",
+      "expr": "guilty",
+      "f": -1
+     }
+    ]
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s015",
+   "start": 25.324,
+   "end": 26.63,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "cafe",
+    "so": {
+     "variant": "am"
+    },
+    "who": "BARISTA",
+    "expr": "confused",
+    "side": -1,
+    "badge": {
+     "k": "mem",
+     "v": 1,
+     "icon": "controller",
+     "smudgeOnly": true
+    },
+    "bgCam": [
+     -300,
+     560,
+     1.6
+    ]
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s016",
+   "start": 26.63,
+   "end": 32.332,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "cafe",
+    "so": {
+     "variant": "am"
+    },
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "surprised"
+     ],
+     [
+      0.24433585073300812,
+      "smirk"
+     ]
+    ],
+    "side": 1,
+    "bgCam": [
+     -100,
+     560,
+     1.6
+    ],
+    "ask": {
+     "text": "Would you ever say sorry again?",
+     "at": 3.502
+    }
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 18.85,
+   "mood": "mystery",
+   "intensity": 0.36
+  },
+  {
+   "start": 18.85,
+   "end": 32.332,
+   "mood": "playful",
+   "intensity": 0.42
+  }
+ ],
+ "sfx": []
+}

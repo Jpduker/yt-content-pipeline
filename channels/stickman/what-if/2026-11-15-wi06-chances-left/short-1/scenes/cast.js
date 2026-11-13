@@ -1,0 +1,32 @@
+// WI02 cast (DIRECTION.md cast bible). One signature colour item each; extras plain ink.
+export const GREEN = '#3fb950', YELLOW = '#f2c21a', ORANGE = '#e8743b', BLUE = '#3a6ea5', PURPLE = '#8a5ad6', PINK = '#f29ac0';
+export const CAST = {
+  YOU:      { top: 'hoodie', color: GREEN, head: 'none' },              // = channel image: bald round head, green hoodie (STRICT)
+  MIRA:     { top: 'trench', color: YELLOW, head: 'ponytail' },         // yellow jacket
+  MIRA_EVE: { top: 'tshirt', color: '#3a3040', head: 'ponytail' },      // evening: no jacket
+  BARISTA:  { top: 'none', head: 'capBack', headColor: ORANGE },
+  BOSS:     { top: 'suit', color: '#2a2a36', color2: BLUE, head: 'none' },
+  COLL:     { top: 'none', head: 'headband', headColor: PURPLE },
+  TRAIN:    { top: 'none', head: 'beanie', headColor: PINK },
+  MIRA_HOME: { top: 'tshirt', color: '#c9a227', head: 'ponytail' },     // at home: mustard tee (yellow stays her colour)
+  MUM:      { top: 'tshirt', color: '#d8504a', head: 'none' },          // red cardigan, bun, glasses
+  NEIGH:    { top: 'none', head: 'none' },                              // teal flat cap
+  DRIVER:   { top: 'suit', color: '#22303c', color2: '#1f8a8a', head: 'none' },   // teal peaked cap + tie
+  LIFT:     { top: 'tshirt', color: '#9a8ad0', head: 'none' },          // lilac top, curls
+  THEO:     { top: 'tshirt', color: '#2a3a5a', head: 'none' },          // younger brother: navy tee, blue headphones round his neck (v3.1)
+  DEV:      { top: 'tshirt', color: '#5a5a66', head: 'none' },          // P1: grey tee, orange scarf
+  PIA:      { top: 'tshirt', color: '#e8d8c0', head: 'none' },          // P1: Dev's little sister, red hair clip
+  DAD:      { top: 'tshirt', color: '#7a5a3a', head: 'none' },          // P3: Mira's dad, brown cardigan, grey moustache
+  INTERN:   { top: 'tshirt', color: '#f0a040', head: 'none' },          // orange tee, teal lanyard
+  SAMI:     { top: 'tshirt', color: '#d8504a', head: 'none' },          // P2: 9, red tee + blue cap
+  MA:       { top: 'tshirt', color: '#2a8a8a', head: 'none' },          // P2: Sami's mum, teal cardigan, curls
+  BRO:      { top: 'tshirt', color: '#3a3040', head: 'none' },          // P2: Sami's big brother, orange beanie
+  OMAR:     { top: 'suit', color: '#24304a', color2: '#d8403a', head: 'none' },   // O4: dad, navy suit, red tie
+  LILA:     { top: 'tshirt', color: '#8a5ad6', head: 'none' },          // O4: 7, purple top, bun
+  NEW:      { top: 'tshirt', color: '#f29ac0', head: 'none' },          // O6: the next new intern, pink, pink lanyard
+  KID:      { top: 'tshirt', color: '#f29ac0', head: 'none' },          // toddler / child extra
+  X1: { top: 'none', head: 'none' }, X2: { top: 'none', head: 'cap', headColor: '#2a2430' }, X3: { top: 'none', head: 'curly' },
+  X4: { top: 'none', head: 'bun' }, X5: { top: 'none', head: 'beanie', headColor: '#2a2430' },
+};
+// thought-thread colour per thinker
+export const THREAD = { THEO: '#4a8fe8', DEV: '#e8743b', PIA: '#d8504a', DAD: '#c8a070', MIRA: YELLOW, MIRA_EVE: YELLOW, BARISTA: ORANGE, BOSS: '#6ea0e0', COLL: '#b48cf0', TRAIN: PINK };

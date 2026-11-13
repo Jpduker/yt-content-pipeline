@@ -1,0 +1,112 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Today, every time you say sorry, the other person forgets what you did.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 5.845
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Not forgives. Forgets.",
+  "sec": "hook",
+  "start": 6.285,
+  "end": 8.36
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You break your brother's controller.",
+  "sec": "hook",
+  "start": 8.5,
+  "end": 10.265
+ },
+ {
+  "id": "L004",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Sorry, Theo.",
+  "sec": "hook",
+  "start": 10.525,
+  "end": 11.526
+ },
+ {
+  "id": "L005",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Sorry for what?",
+  "sec": "hook",
+  "start": 12.576,
+  "end": 13.663
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It's the best day of your life.",
+  "sec": "hook",
+  "start": 14.663,
+  "end": 16.304
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "For about a week.",
+  "sec": "hook",
+  "start": 17.244,
+  "end": 18.397
+ },
+ {
+  "id": "L013",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You forget your wallet at the caf\u00e9. Third time this month.",
+  "sec": "act1",
+  "start": 19.597,
+  "end": 23.076
+ },
+ {
+  "id": "L014",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Sorry. I'll pay you tomorrow.",
+  "sec": "act1",
+  "start": 23.336,
+  "end": 25.324
+ },
+ {
+  "id": "L015",
+  "tag": "BARISTA",
+  "thought": false,
+  "note": "",
+  "text": "Pay me for what?",
+  "sec": "act1",
+  "start": 25.474,
+  "end": 26.38
+ },
+ {
+  "id": "L016",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Free coffee. You decide not to think about it too hard.",
+  "sec": "act1",
+  "start": 26.78,
+  "end": 30.042
+ }
+]

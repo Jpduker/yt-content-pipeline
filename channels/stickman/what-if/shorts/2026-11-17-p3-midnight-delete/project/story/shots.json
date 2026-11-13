@@ -1,0 +1,824 @@
+{
+ "title": "Midnight Deletes the Person You Ignored Longest",
+ "duration": 38.8,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 4.925,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.3,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "ins": "contacts",
+    "rows": [
+     [
+      "COACH RAY",
+      "62 days"
+     ],
+     [
+      "DAD",
+      "40 days"
+     ],
+     [
+      "ANA",
+      "12 days"
+     ],
+     [
+      "JAMIE",
+      "9 days"
+     ],
+     [
+      "GRAN",
+      "3 days"
+     ]
+    ],
+    "delAt": 1.3,
+    "clk": [
+     [
+      0,
+      "23:59:58"
+     ],
+     [
+      1.3,
+      "00:00:00"
+     ]
+    ],
+    "noHand": true,
+    "low": true,
+    "hookText": "MIDNIGHT DELETES ONE PERSON",
+    "hookT": [
+     0,
+     3.365
+    ],
+    "motif": "num"
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s002",
+   "start": 4.925,
+   "end": 7.375,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "cam": [
+     [
+      760,
+      600,
+      1.55
+     ],
+     [
+      760,
+      600,
+      1.6500000000000001
+     ]
+    ],
+    "who": [
+     {
+      "id": "MIRA_HOME",
+      "x": 720,
+      "pose": "sitPhone",
+      "expr": "worried",
+      "f": 1,
+      "seed": 2,
+      "box": true
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s003",
+   "start": 7.375,
+   "end": 11.749,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "ins": "reply",
+    "to": "Dad",
+    "drafts": [
+     "Hi Dad",
+     ""
+    ],
+    "noSend": true
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s004",
+   "start": 11.749,
+   "end": 14.567,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "night"
+    },
+    "cam": [
+     [
+      960,
+      560,
+      1.2
+     ],
+     [
+      980,
+      560,
+      1.28
+     ]
+    ],
+    "who": [
+     {
+      "id": "X1",
+      "x": 820,
+      "pose": "phone",
+      "expr": "worried",
+      "f": 1,
+      "seed": 3
+     },
+     {
+      "id": "X4",
+      "x": 1000,
+      "pose": "phone",
+      "expr": "nervous",
+      "f": -1,
+      "seed": 4
+     },
+     {
+      "id": "X2",
+      "x": 1160,
+      "pose": "phone",
+      "expr": "flat",
+      "f": -1,
+      "seed": 6
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s005",
+   "start": 14.567,
+   "end": 17.027,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "ins": "contacts",
+    "rows": [
+     [
+      "DAD",
+      "41 days"
+     ],
+     [
+      "ANA",
+      "13 days"
+     ],
+     [
+      "JAMIE",
+      "10 days"
+     ],
+     [
+      "GRAN",
+      "4 days"
+     ],
+     [
+      "THEO",
+      "2 days"
+     ]
+    ],
+    "clk": [
+     [
+      0,
+      "21:14"
+     ]
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s006",
+   "start": 17.027,
+   "end": 19.025,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "MIRA_HOME",
+    "expr": [
+     [
+      0,
+      "sad"
+     ],
+     [
+      0.3703703703703694,
+      "hurt"
+     ]
+    ],
+    "side": -1,
+    "look": [
+     0,
+     0.5
+    ],
+    "bgCam": [
+     720,
+     520,
+     1.6
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s007",
+   "start": 19.025,
+   "end": 20.675,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "ins": "reply",
+    "to": "Dad",
+    "drafts": [
+     "hi"
+    ],
+    "noSend": true,
+    "stamp": "23:40"
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s008",
+   "start": 20.675,
+   "end": 23.746,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "cam": [
+     [
+      760,
+      590,
+      1.35
+     ],
+     [
+      760,
+      590,
+      1.42
+     ]
+    ],
+    "stamp": "23:55",
+    "who": [
+     {
+      "id": "MIRA_HOME",
+      "x": 0,
+      "pose": "phone",
+      "expr": "nervous",
+      "f": 1,
+      "seed": 2,
+      "walk": [
+       600,
+       920,
+       0,
+       1
+      ],
+      "slow": true
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s009",
+   "start": 23.746,
+   "end": 24.933,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "phonebuzz",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "ins": "callscreen",
+    "name": "Dad",
+    "clk": [
+     [
+      0,
+      "23:59:52"
+     ],
+     [
+      0.6,
+      "23:59:53"
+     ],
+     [
+      1.6,
+      "23:59:54"
+     ]
+    ],
+    "noHand": false
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s010",
+   "start": 24.933,
+   "end": 25.623,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "MIRA_HOME",
+    "expr": "nervous",
+    "side": -1,
+    "look": [
+     0.1,
+     0.4
+    ],
+    "bgCam": [
+     720,
+     520,
+     1.6
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s011",
+   "start": 25.623,
+   "end": 27.772,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 0.15,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "ins": "callscreen",
+    "name": "Dad",
+    "delAt": 0.3,
+    "clk": [
+     [
+      0,
+      "23:59:59"
+     ],
+     [
+      0.3,
+      "00:00:00"
+     ]
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s012",
+   "start": 27.772,
+   "end": 28.402,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "ins": "callscreen",
+    "name": "Dad",
+    "delAt": -2,
+    "answerAt": 0,
+    "clk": [
+     [
+      0,
+      "00:00:03"
+     ]
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s013",
+   "start": 28.402,
+   "end": 31.876,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "kitchen",
+    "so": {
+     "night": true,
+     "drawing": false
+    },
+    "cam": [
+     [
+      700,
+      590,
+      1.5
+     ],
+     [
+      700,
+      590,
+      1.6
+     ]
+    ],
+    "stamp": "00:00",
+    "who": [
+     {
+      "id": "DAD",
+      "x": 700,
+      "pose": "phoneEar",
+      "expr": [
+       [
+        0,
+        "confused"
+       ],
+       [
+        0.21588946459412758,
+        "worried"
+       ]
+      ],
+      "f": 1,
+      "seed": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s014",
+   "start": 31.876,
+   "end": 32.761,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "kitchen",
+    "so": {
+     "night": true,
+     "drawing": false
+    },
+    "ins": "contacts",
+    "rows": [
+     [
+      "MIRA",
+      "41 days"
+     ],
+     [
+      "BOB",
+      "30 days"
+     ],
+     [
+      "DENTIST",
+      "20 days"
+     ],
+     [
+      "SUE",
+      "6 days"
+     ],
+     [
+      "GOLF CLUB",
+      "2 days"
+     ]
+    ],
+    "delAt": 0.3,
+    "clk": [
+     [
+      0,
+      "23:59:59"
+     ],
+     [
+      0.3,
+      "00:00:00"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "s015",
+   "start": 32.761,
+   "end": 34.539,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "MIRA_HOME",
+    "expr": [
+     [
+      0,
+      "surprised"
+     ],
+     [
+      0.5,
+      "teary"
+     ]
+    ],
+    "side": -1,
+    "bgCam": [
+     720,
+     520,
+     1.6
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s016",
+   "start": 34.539,
+   "end": 35.824,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "MIRA_HOME",
+    "expr": [
+     [
+      0,
+      "teary"
+     ],
+     [
+      0.27237354085603294,
+      "tearsmile"
+     ]
+    ],
+    "side": -1,
+    "bgCam": [
+     720,
+     520,
+     1.6
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s017",
+   "start": 35.824,
+   "end": 38.8,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "ins": "hand",
+    "digits": "07700 900 412",
+    "ask": {
+     "text": "Would you have called him first?",
+     "at": 1.179
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 14.17,
+   "mood": "mystery",
+   "intensity": 0.36
+  },
+  {
+   "start": 14.72,
+   "end": 26.07,
+   "mood": "tension",
+   "intensity": 0.3
+  },
+  {
+   "start": 27.92,
+   "end": 38.8,
+   "mood": "calm",
+   "intensity": 0.34
+  }
+ ],
+ "sfx": []
+}

@@ -1,0 +1,432 @@
+{
+ "title": "He Feels Everything His Best Friend Feels",
+ "duration": 32.936,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 5.84,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "cam": [
+     [
+      760,
+      600,
+      1.35
+     ],
+     [
+      760,
+      600,
+      1.4700000000000002
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 720,
+      "pose": [
+       [
+        0,
+        "lie"
+       ],
+       [
+        0.5,
+        "sit"
+       ]
+      ],
+      "expr": [
+       [
+        0,
+        "sleepy"
+       ],
+       [
+        0.25,
+        "nervous"
+       ]
+      ],
+      "f": 1,
+      "rot": [
+       [
+        0,
+        -1.5
+       ],
+       [
+        0.5,
+        0
+       ]
+      ],
+      "dy": [
+       [
+        0,
+        30
+       ],
+       [
+        0.5,
+        19
+       ]
+      ],
+      "chest": {
+       "v": "NERVOUS"
+      }
+     }
+    ],
+    "motif": "num",
+    "hookText": "HE FEELS WHAT SHE FEELS"
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s002",
+   "start": 5.84,
+   "end": 10.134,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "nervous"
+     ],
+     [
+      0.2876106194690266,
+      "confused"
+     ]
+    ],
+    "side": 1,
+    "chest": {
+     "v": "NERVOUS"
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s003",
+   "start": 10.134,
+   "end": 14.648,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "hall",
+    "so": {},
+    "who": "MIRA_HOME",
+    "expr": "nervous",
+    "side": -1,
+    "bgCam": [
+     600,
+     520,
+     1.5
+    ],
+    "label": "4 HOURS AWAY"
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s004",
+   "start": 14.648,
+   "end": 17.924,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "surprised"
+     ],
+     [
+      0.3357753357753348,
+      "awe"
+     ]
+    ],
+    "side": 1,
+    "push": 0.12,
+    "chest": {
+     "v": "NERVOUS"
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s006",
+   "start": 19.524,
+   "end": 23.764,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "cam": [
+     [
+      700,
+      560,
+      1.0
+     ],
+     [
+      740,
+      560,
+      1.06
+     ]
+    ],
+    "who": [
+     {
+      "id": "THEO",
+      "x": 560,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1,
+      "s": 1.45
+     },
+     {
+      "id": "YOU",
+      "x": 960,
+      "pose": "stand",
+      "expr": "nervous",
+      "f": -1,
+      "chest": {
+       "v": "JITTERY"
+      }
+     }
+    ],
+    "chairs": [
+     [
+      560,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "s014",
+   "start": 23.764,
+   "end": 27.427,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "cam": [
+     [
+      1060,
+      590,
+      1.35
+     ],
+     [
+      1040,
+      590,
+      1.4000000000000001
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 900,
+      "pose": "sit",
+      "expr": "nervous",
+      "f": 1,
+      "chest": {
+       "v": "JITTERY"
+      }
+     },
+     {
+      "id": "BOSS",
+      "x": 1220,
+      "pose": "explain",
+      "expr": "flat",
+      "f": -1
+     }
+    ],
+    "chairs": [
+     [
+      900,
+      1
+     ]
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s015",
+   "start": 27.427,
+   "end": 28.962,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "office",
+    "who": "BOSS",
+    "expr": "confused",
+    "side": -1,
+    "bgCam": [
+     1200,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s016",
+   "start": 28.962,
+   "end": 32.936,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "office",
+    "who": "YOU",
+    "expr": "happy",
+    "side": 1,
+    "chest": {
+     "v": "JITTERY"
+    },
+    "bgCam": [
+     900,
+     520,
+     1.5
+    ],
+    "ask": {
+     "text": "Whose feelings would you want to feel?",
+     "at": 1.774
+    }
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 18.07,
+   "mood": "mystery",
+   "intensity": 0.36
+  },
+  {
+   "start": 19.67,
+   "end": 23.76,
+   "mood": "playful",
+   "intensity": 0.42
+  },
+  {
+   "start": 23.76,
+   "end": 32.936,
+   "mood": "playful",
+   "intensity": 0.42
+  }
+ ],
+ "sfx": []
+}

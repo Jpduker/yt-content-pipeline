@@ -1,0 +1,123 @@
+[
+ {
+  "id": "G001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, every promise is a string. Wrist to wrist. Break it, and it snaps. And you can never tie it back.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L001",
+   "L002"
+  ]
+ },
+ {
+  "id": "G002",
+  "tag": "LILA",
+  "thought": false,
+  "note": "",
+  "text": "You'll come to my recital? Promise?",
+  "voice": "af_sky",
+  "speed": 1.1,
+  "ids": [
+   "L003"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "OMAR",
+  "thought": false,
+  "note": "",
+  "text": "Promise.",
+  "voice": "am_adam",
+  "speed": 1.04,
+  "ids": [
+   "L004"
+  ]
+ },
+ {
+  "id": "G004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At six, his meeting runs late. The string gets thinner by the minute.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L005"
+  ]
+ },
+ {
+  "id": "G005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He's forty minutes late.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L006"
+  ]
+ },
+ {
+  "id": "G006",
+  "tag": "LILA",
+  "thought": false,
+  "note": "",
+  "text": "It doesn't tie. I already tried.",
+  "voice": "af_sky",
+  "speed": 1.1,
+  "ids": [
+   "L007"
+  ]
+ },
+ {
+  "id": "G007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The next week, he doesn't promise anything. He just comes. An hour early.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L008"
+  ]
+ },
+ {
+  "id": "G008",
+  "tag": "LILA",
+  "thought": false,
+  "note": "",
+  "text": "You didn't promise.",
+  "voice": "af_sky",
+  "speed": 1.1,
+  "ids": [
+   "L009"
+  ]
+ },
+ {
+  "id": "G009",
+  "tag": "OMAR",
+  "thought": false,
+  "note": "",
+  "text": "I didn't want to break another one.",
+  "voice": "am_adam",
+  "speed": 1.04,
+  "ids": [
+   "L010"
+  ]
+ },
+ {
+  "id": "G010",
+  "tag": "LILA",
+  "thought": false,
+  "note": "",
+  "text": "Then I'll promise. I'll look for you.",
+  "voice": "af_sky",
+  "speed": 1.1,
+  "ids": [
+   "L011"
+  ]
+ }
+]

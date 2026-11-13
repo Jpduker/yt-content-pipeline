@@ -1,0 +1,72 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Today, every time you say sorry, the other person forgets what you did.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 5.845
+ },
+ {
+  "id": "L026",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And you say the thing you've been thinking since Monday.",
+  "sec": "act2",
+  "start": 8.5,
+  "end": 11.143
+ },
+ {
+  "id": "L027",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You know why nobody lets you stay anywhere? Because you're exhausting.",
+  "sec": "act2",
+  "start": 11.403,
+  "end": 15.138
+ },
+ {
+  "id": "L028",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Sorry.",
+  "sec": "act2",
+  "start": 17.718,
+  "end": 18.356
+ },
+ {
+  "id": "L029",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Sorry for what?",
+  "sec": "act2",
+  "start": 19.406,
+  "end": 20.493
+ },
+ {
+  "id": "L030",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He doesn't remember. But he doesn't pick the controller back up either.",
+  "sec": "act2",
+  "start": 21.393,
+  "end": 25.153
+ },
+ {
+  "id": "L031",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The next morning, he's quiet. He washes your mug. He asks if he's in the way.",
+  "sec": "act2",
+  "start": 26.393,
+  "end": 31.306
+ }
+]

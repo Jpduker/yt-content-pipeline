@@ -1,0 +1,685 @@
+[
+ {
+  "id": "G001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Everyone you know has a number now. It's how many more times they'll forgive you. Your little brother. Three hundred and twelve. Your mum. Doesn't even have a number.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L001",
+   "L002",
+   "L003",
+   "L004",
+   "L005"
+  ]
+ },
+ {
+  "id": "G002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your best friend has one.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L006"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Just one.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L007"
+  ]
+ },
+ {
+  "id": "G004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It takes you one coffee to work out the rule.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L008"
+  ]
+ },
+ {
+  "id": "G005",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Oh no. Sorry, sorry\u2014",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L009"
+  ]
+ },
+ {
+  "id": "G006",
+  "tag": "BARISTA",
+  "thought": false,
+  "note": "",
+  "text": "Ah, don't worry about it.",
+  "voice": "am_puck",
+  "speed": 1.06,
+  "ids": [
+   "L010"
+  ]
+ },
+ {
+  "id": "G007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Forty. Thirty-nine. Every time someone forgives you, it goes down by one.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L011",
+   "L012"
+  ]
+ },
+ {
+  "id": "G008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "A toddler in the park has nine thousand. Toddlers forgive everyone. A man you have never met has four. You decide not to find out why.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L013",
+   "L014"
+  ]
+ },
+ {
+  "id": "G009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your boss has two. You have never been this early in your life.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L015"
+  ]
+ },
+ {
+  "id": "G010",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "Morning. Is that a tie?",
+  "voice": "bm_george",
+  "speed": 1.04,
+  "ids": [
+   "L016"
+  ]
+ },
+ {
+  "id": "G011",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "It felt like a tie day.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L017"
+  ]
+ },
+ {
+  "id": "G012",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "It's Sunday.",
+  "voice": "bm_george",
+  "speed": 1.04,
+  "ids": [
+   "L018"
+  ]
+ },
+ {
+  "id": "G013",
+  "tag": "THEO",
+  "thought": false,
+  "note": "phone",
+  "text": "Can I borrow your charger? And your jacket. And forty quid.",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L019"
+  ]
+ },
+ {
+  "id": "G014",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You already have my charger.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L020"
+  ]
+ },
+ {
+  "id": "G015",
+  "tag": "THEO",
+  "thought": false,
+  "note": "phone",
+  "text": "Then just the forty. Also, can I stay at yours for a bit?",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L021"
+  ]
+ },
+ {
+  "id": "G016",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Three hundred and twelve. Little brothers are built for this.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L022"
+  ]
+ },
+ {
+  "id": "G017",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "You never call.",
+  "voice": "bf_emma",
+  "speed": 1.05,
+  "ids": [
+   "L023"
+  ]
+ },
+ {
+  "id": "G018",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I'm calling now.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L024"
+  ]
+ },
+ {
+  "id": "G019",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "Then you're forgiven. Did you eat?",
+  "voice": "bf_emma",
+  "speed": 1.05,
+  "ids": [
+   "L025"
+  ]
+ },
+ {
+  "id": "G020",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The symbol over her head doesn't even flicker.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L026"
+  ]
+ },
+ {
+  "id": "G021",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And then there's Mira.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L027"
+  ]
+ },
+ {
+  "id": "G022",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Four hours away, at her new course. With a one over her head. One more mistake, and that's it. Whatever \"it\" is. So you get careful. You do the maths. If every mistake costs one chance, the only safe amount of Mira is none.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L028",
+   "L029",
+   "L030",
+   "L031"
+  ]
+ },
+ {
+  "id": "G023",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Her call comes at nine. You let it ring. A call is twenty minutes of things you could say wrong.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L032"
+  ]
+ },
+ {
+  "id": "G024",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "text",
+  "text": "You alive?",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L033"
+  ]
+ },
+ {
+  "id": "G025",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You write a reply. Then a shorter one. Then a thumbs up.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L034"
+  ]
+ },
+ {
+  "id": "G026",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She sends a photo of her new flat. You don't say it's small. You don't say anything.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L035"
+  ]
+ },
+ {
+  "id": "G027",
+  "tag": "THEO",
+  "thought": false,
+  "note": "phone",
+  "text": "Why are you being weird with Mira?",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L036"
+  ]
+ },
+ {
+  "id": "G028",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I'm not being weird.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L037"
+  ]
+ },
+ {
+  "id": "G029",
+  "tag": "THEO",
+  "thought": false,
+  "note": "phone",
+  "text": "She texted me. Me. To ask if you're okay.",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L038"
+  ]
+ },
+ {
+  "id": "G030",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Mira never texts Theo. Theo can't even spell okay.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L039"
+  ]
+ },
+ {
+  "id": "G031",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "text",
+  "text": "Showcase on Friday. My first one. Will you come?",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L040"
+  ]
+ },
+ {
+  "id": "G032",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Four hours on a train. A whole evening of chances to get it wrong.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L041"
+  ]
+ },
+ {
+  "id": "G033",
+  "tag": "YOU",
+  "thought": false,
+  "note": "text",
+  "text": "Can't. Work. I'll watch the stream?",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L042"
+  ]
+ },
+ {
+  "id": "G034",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You send it.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L043"
+  ]
+ },
+ {
+  "id": "G035",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Somewhere four hours away, she forgives you.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L044"
+  ]
+ },
+ {
+  "id": "G036",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Zero.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L045"
+  ]
+ },
+ {
+  "id": "G037",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You spent her last chance by doing nothing at all.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L046"
+  ]
+ },
+ {
+  "id": "G038",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "That night, you work out what you were protecting. Not her. The number.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L047"
+  ]
+ },
+ {
+  "id": "G039",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And a zero has nothing left to protect.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L048"
+  ]
+ },
+ {
+  "id": "G040",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "So on Friday, you get on the train. Four hours. For once, you don't rehearse a single sentence.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L049",
+   "L050"
+  ]
+ },
+ {
+  "id": "G041",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You're late. You stand at the back. You clap too loud, at the wrong moment.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L051"
+  ]
+ },
+ {
+  "id": "G042",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "That's my friend. He's weird.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L052"
+  ]
+ },
+ {
+  "id": "G043",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The audience laughs. She keeps going. She's good at this. You knew she would be.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L053"
+  ]
+ },
+ {
+  "id": "G044",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "You said you couldn't come.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L054"
+  ]
+ },
+ {
+  "id": "G045",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I lied. I was scared of getting it wrong.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L055"
+  ]
+ },
+ {
+  "id": "G046",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "So you just disappeared? That's the only thing that actually hurts.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L056"
+  ]
+ },
+ {
+  "id": "G047",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I know. I'm sorry.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L057"
+  ]
+ },
+ {
+  "id": "G048",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You wait for the number to go below zero.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L058"
+  ]
+ },
+ {
+  "id": "G049",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "You're here now. Buy me chips, and we're even.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L059"
+  ]
+ },
+ {
+  "id": "G050",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Zero. Then, one. It turns out the number doesn't only go down.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L060",
+   "L061"
+  ]
+ },
+ {
+  "id": "G051",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You buy the chips. You tell her the flat isn't small. You tell her it's very small, and very her.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L062"
+  ]
+ },
+ {
+  "id": "G052",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Okay, now you're being weird again.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L063"
+  ]
+ },
+ {
+  "id": "G053",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You said I was weird. On a stage. In front of everyone.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L064"
+  ]
+ },
+ {
+  "id": "G054",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "I said you were my friend first.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L065"
+  ]
+ },
+ {
+  "id": "G055",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Over her head, the one glows, small and gold. You stop looking at it.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L066"
+  ]
+ },
+ {
+  "id": "G056",
+  "tag": "N",
+  "thought": false,
+  "note": "soft",
+  "text": "Would you want to know how many chances you have left?",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L067"
+  ]
+ }
+]

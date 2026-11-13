@@ -1,0 +1,31 @@
+{
+ "voices": {
+  "N": [
+   "am_michael",
+   1.03,
+   -1.0
+  ],
+  "JAY": [
+   "am_liam",
+   1.14,
+   0.5
+  ],
+  "GRANDPA": [
+   "bm_george",
+   0.95,
+   0.5
+  ]
+ },
+ "thought_speed": 1.0,
+ "beats": {
+  "act1": 0.35,
+  "act2": 0.45,
+  "act3": 0.45
+ },
+ "scene_beat": 0.45,
+ "nat": [
+  0.12,
+  0.42,
+  0.8
+ ]
+}

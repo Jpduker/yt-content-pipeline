@@ -1,0 +1,82 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You wake up nervous. Your heart's racing. Your hands are wet.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 5.85
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Which is strange, because you've got nothing to be nervous about.",
+  "sec": "hook",
+  "start": 5.99,
+  "end": 9.625
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Four hours away, your best friend has an exam at nine.",
+  "sec": "hook",
+  "start": 10.284,
+  "end": 13.858
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "From today, you feel everything she feels.",
+  "sec": "hook",
+  "start": 14.798,
+  "end": 17.274
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Everything. The good, the bad, and the fourth coffee.",
+  "sec": "act1",
+  "start": 19.674,
+  "end": 22.754
+ },
+ {
+  "id": "L013",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At ten, she has her fourth coffee. You have a meeting.",
+  "sec": "act1",
+  "start": 24.314,
+  "end": 27.317
+ },
+ {
+  "id": "L014",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "Are you vibrating?",
+  "sec": "act1",
+  "start": 27.577,
+  "end": 28.962
+ },
+ {
+  "id": "L015",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Big fan of this quarter.",
+  "sec": "act1",
+  "start": 29.112,
+  "end": 30.586
+ }
+]

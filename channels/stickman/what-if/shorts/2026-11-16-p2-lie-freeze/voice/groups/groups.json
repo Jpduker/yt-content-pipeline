@@ -4,7 +4,7 @@
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "Theo just lied. So the whole world stopped. In this world, every lie freezes everyone but the liar. Five seconds.",
+  "text": "Sami just lied. So the whole world stopped. In this world, every lie freezes everyone but the liar. Five seconds.",
   "voice": "am_michael",
   "speed": 1.03,
   "ids": [
@@ -14,11 +14,11 @@
  },
  {
   "id": "G002",
-  "tag": "MUM",
+  "tag": "MA",
   "thought": false,
   "note": "",
   "text": "Did you brush your teeth?",
-  "voice": "bf_emma",
+  "voice": "af_sarah",
   "speed": 1.05,
   "ids": [
    "L003"
@@ -26,12 +26,12 @@
  },
  {
   "id": "G003",
-  "tag": "THEO",
+  "tag": "SAMI",
   "thought": false,
   "note": "",
   "text": "Yes.",
   "voice": "am_liam",
-  "speed": 1.1,
+  "speed": 1.12,
   "ids": [
    "L004"
   ]
@@ -42,20 +42,20 @@
   "thought": false,
   "note": "",
   "text": "Did you eat my cake?",
-  "voice": "am_michael",
-  "speed": 1.09,
+  "voice": "am_puck",
+  "speed": 1.08,
   "ids": [
    "L005"
   ]
  },
  {
   "id": "G005",
-  "tag": "THEO",
+  "tag": "SAMI",
   "thought": false,
   "note": "",
   "text": "No.",
   "voice": "am_liam",
-  "speed": 1.1,
+  "speed": 1.12,
   "ids": [
    "L006"
   ]
@@ -66,20 +66,20 @@
   "thought": false,
   "note": "",
   "text": "\u2026Did I eat my cake?",
-  "voice": "am_michael",
-  "speed": 1.09,
+  "voice": "am_puck",
+  "speed": 1.08,
   "ids": [
    "L007"
   ]
  },
  {
   "id": "G007",
-  "tag": "THEO",
+  "tag": "SAMI",
   "thought": false,
   "note": "",
   "text": "I'm not even trying.",
   "voice": "am_liam",
-  "speed": 1.1,
+  "speed": 1.12,
   "ids": [
    "L008"
   ]
@@ -89,7 +89,7 @@
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "Theo is nine. He's the best liar in the house.",
+  "text": "Sami is nine. He's the best liar in the house.",
   "voice": "am_michael",
   "speed": 1.03,
   "ids": [
@@ -98,23 +98,23 @@
  },
  {
   "id": "G009",
-  "tag": "THEO",
+  "tag": "SAMI",
   "thought": false,
   "note": "",
   "text": "Mum. Do you like my drawing?",
   "voice": "am_liam",
-  "speed": 1.1,
+  "speed": 1.12,
   "ids": [
    "L010"
   ]
  },
  {
   "id": "G010",
-  "tag": "MUM",
+  "tag": "MA",
   "thought": false,
   "note": "",
   "text": "I love it.",
-  "voice": "bf_emma",
+  "voice": "af_sarah",
   "speed": 1.05,
   "ids": [
    "L011"
@@ -122,23 +122,23 @@
  },
  {
   "id": "G011",
-  "tag": "THEO",
+  "tag": "SAMI",
   "thought": false,
   "note": "",
   "text": "\u2026Did you move it?",
   "voice": "am_liam",
-  "speed": 1.1,
+  "speed": 1.12,
   "ids": [
    "L012"
   ]
  },
  {
   "id": "G012",
-  "tag": "MUM",
+  "tag": "MA",
   "thought": false,
   "note": "",
   "text": "No.",
-  "voice": "bf_emma",
+  "voice": "af_sarah",
   "speed": 1.05,
   "ids": [
    "L013"

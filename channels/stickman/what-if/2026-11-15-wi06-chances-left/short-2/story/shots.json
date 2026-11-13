@@ -1,0 +1,641 @@
+{
+ "title": "Her Number Hit Zero. Then He Showed Up Anyway.",
+ "duration": 33.694,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 3.542,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "cam": [
+     [
+      900,
+      560,
+      0.85
+     ],
+     [
+      940,
+      560,
+      0.92
+     ]
+    ],
+    "who": [
+     {
+      "id": "X1",
+      "x": 300,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       -200,
+       700,
+       0,
+       1
+      ],
+      "slow": true,
+      "badge": {
+       "k": "num",
+       "v": 57,
+       "hot": 3,
+       "at": 0.8
+      },
+      "seed": 3
+     },
+     {
+      "id": "X3",
+      "x": 1600,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "walk": [
+       2200,
+       1450,
+       0,
+       1
+      ],
+      "slow": true,
+      "badge": {
+       "k": "num",
+       "v": 203,
+       "hot": 3,
+       "at": 1.3
+      },
+      "seed": 5
+     },
+     {
+      "id": "YOU",
+      "x": 960,
+      "pose": "stand",
+      "expr": [
+       [
+        0,
+        "neutral"
+       ],
+       [
+        0.5575945793337097,
+        "surprised"
+       ]
+      ],
+      "f": 1,
+      "look": [
+       [
+        0,
+        [
+         0.3,
+         0
+        ]
+       ],
+       [
+        0.6140598531902879,
+        [
+         -0.5,
+         -0.5
+        ]
+       ]
+      ]
+     }
+    ],
+    "motif": "num",
+    "hookText": "HER NUMBER HIT ZERO"
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s002",
+   "start": 3.542,
+   "end": 6.582,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "surprised"
+     ],
+     [
+      0.22203947368421065,
+      "thinking"
+     ]
+    ],
+    "side": 1,
+    "look": [
+     0.3,
+     -0.6
+    ],
+    "bgCam": [
+     900,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s051",
+   "start": 6.582,
+   "end": 9.937,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "tick",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "hall",
+    "so": {},
+    "who": "MIRA_HOME",
+    "expr": [
+     [
+      0,
+      "sad"
+     ],
+     [
+      0.5,
+      "tender"
+     ]
+    ],
+    "side": -1,
+    "badge": {
+     "k": "num",
+     "v": [
+      [
+       0,
+       1
+      ],
+      [
+       0.999,
+       0
+      ]
+     ],
+     "hot": 1
+    },
+    "push": 0.1
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s052",
+   "start": 9.937,
+   "end": 11.914,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 0.15,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "hall",
+    "so": {},
+    "who": "MIRA_HOME",
+    "expr": "flat",
+    "side": -1,
+    "low": true,
+    "badge": {
+     "k": "num",
+     "v": 0,
+     "hot": 1
+    },
+    "push": 0.12
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s062",
+   "start": 11.914,
+   "end": 14.068,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "night"
+    },
+    "cam": [
+     [
+      960,
+      560,
+      1.3
+     ],
+     [
+      940,
+      560,
+      1.35
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 750,
+      "pose": "stand",
+      "expr": "nervous",
+      "f": 1
+     },
+     {
+      "id": "MIRA",
+      "x": 1170,
+      "pose": "crossArms",
+      "expr": "flat",
+      "f": -1,
+      "seed": 2,
+      "badge": {
+       "k": "num",
+       "v": 0,
+       "hot": 1
+      }
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s063",
+   "start": 14.068,
+   "end": 16.67,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "night"
+    },
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "guilty"
+     ],
+     [
+      0.4073789392774682,
+      "hurt"
+     ]
+    ],
+    "side": 1,
+    "bgCam": [
+     800,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s064",
+   "start": 16.67,
+   "end": 20.786,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "night"
+    },
+    "who": "MIRA",
+    "expr": [
+     [
+      0,
+      "hurt"
+     ],
+     [
+      0.3158406219630679,
+      "teary"
+     ]
+    ],
+    "side": -1,
+    "badge": {
+     "k": "num",
+     "v": 0,
+     "hot": 1
+    },
+    "bgCam": [
+     1100,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s065",
+   "start": 20.786,
+   "end": 23.289,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "night"
+    },
+    "who": "YOU",
+    "expr": "holdback",
+    "side": 1,
+    "push": 0.12,
+    "bgCam": [
+     800,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s066",
+   "start": 23.289,
+   "end": 26.451,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "night"
+    },
+    "cam": [
+     [
+      1150,
+      560,
+      1.5
+     ],
+     [
+      1150,
+      560,
+      1.7
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 750,
+      "pose": "stand",
+      "expr": "scared",
+      "f": 1
+     },
+     {
+      "id": "MIRA",
+      "x": 1170,
+      "pose": "crossArms",
+      "expr": "teary",
+      "f": -1,
+      "seed": 2,
+      "badge": {
+       "k": "num",
+       "v": 0,
+       "hot": 1
+      }
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s067",
+   "start": 26.451,
+   "end": 29.891,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "night"
+    },
+    "who": "MIRA",
+    "expr": [
+     [
+      0,
+      "teary"
+     ],
+     [
+      0.05813953488372545,
+      "tearsmile"
+     ]
+    ],
+    "side": -1,
+    "badge": {
+     "k": "num",
+     "v": 0,
+     "hot": 1
+    },
+    "bgCam": [
+     1100,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s068",
+   "start": 29.891,
+   "end": 33.694,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "stinger",
+     "gain": -14
+    },
+    {
+     "at": 1.92,
+     "name": "stinger",
+     "gain": -13
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "night"
+    },
+    "who": "MIRA",
+    "expr": "tearsmile",
+    "side": -1,
+    "low": true,
+    "badge": {
+     "k": "num",
+     "v": [
+      [
+       0,
+       0
+      ],
+      [
+       0.7376104494813684,
+       1
+      ]
+     ],
+     "hot": 0
+    },
+    "push": 0.1,
+    "ask": {
+     "text": "Would you have forgiven him?",
+     "at": 1.603
+    }
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 6.58,
+   "mood": "mystery",
+   "intensity": 0.38
+  },
+  {
+   "start": 6.58,
+   "end": 11.91,
+   "mood": "sad",
+   "intensity": 0.24
+  },
+  {
+   "start": 11.91,
+   "end": 23.43,
+   "mood": "hopeful",
+   "intensity": 0.3
+  },
+  {
+   "start": 26.6,
+   "end": 33.694,
+   "mood": "calm",
+   "intensity": 0.34
+  }
+ ],
+ "sfx": []
+}

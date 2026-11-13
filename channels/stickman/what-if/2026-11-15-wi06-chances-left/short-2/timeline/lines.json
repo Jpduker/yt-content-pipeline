@@ -1,0 +1,112 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Everyone you know has a number now.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 3.45
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It's how many more times they'll forgive you.",
+  "sec": "hook",
+  "start": 3.692,
+  "end": 6.192
+ },
+ {
+  "id": "L044",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Somewhere four hours away, she forgives you.",
+  "sec": "act2",
+  "start": 6.732,
+  "end": 9.247
+ },
+ {
+  "id": "L045",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Zero.",
+  "sec": "act2",
+  "start": 10.087,
+  "end": 10.764
+ },
+ {
+  "id": "L054",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "You said you couldn't come.",
+  "sec": "act3",
+  "start": 12.964,
+  "end": 14.068
+ },
+ {
+  "id": "L055",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I lied. I was scared of getting it wrong.",
+  "sec": "act3",
+  "start": 14.218,
+  "end": 16.67
+ },
+ {
+  "id": "L056",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "So you just disappeared? That's the only thing that actually hurts.",
+  "sec": "act3",
+  "start": 16.82,
+  "end": 20.186
+ },
+ {
+  "id": "L057",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I know. I'm sorry.",
+  "sec": "act3",
+  "start": 20.936,
+  "end": 22.239
+ },
+ {
+  "id": "L058",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You wait for the number to go below zero.",
+  "sec": "act3",
+  "start": 23.439,
+  "end": 25.741
+ },
+ {
+  "id": "L059",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "You're here now. Buy me chips, and we're even.",
+  "sec": "act3",
+  "start": 26.601,
+  "end": 28.841
+ },
+ {
+  "id": "L060",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Zero. Then, one.",
+  "sec": "act3",
+  "start": 30.641,
+  "end": 32.436
+ }
+]

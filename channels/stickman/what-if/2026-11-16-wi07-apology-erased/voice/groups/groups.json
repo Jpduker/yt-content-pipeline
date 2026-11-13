@@ -1,0 +1,741 @@
+[
+ {
+  "id": "G001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Today, every time you say sorry, the other person forgets what you did. Not forgives. Forgets. You break your brother's controller.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L001",
+   "L002",
+   "L003"
+  ]
+ },
+ {
+  "id": "G002",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Sorry, Theo.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L004"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Sorry for what?",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L005"
+  ]
+ },
+ {
+  "id": "G004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It's the best day of your life.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L006"
+  ]
+ },
+ {
+  "id": "G005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "For about a week.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L007"
+  ]
+ },
+ {
+  "id": "G006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Theo moved in on Monday. Temporarily. With four bags, a games console, and no plan.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L008"
+  ]
+ },
+ {
+  "id": "G007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "On Tuesday, you're twenty minutes late.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L009"
+  ]
+ },
+ {
+  "id": "G008",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "Twenty minutes. Again. Do you know what time\u2014",
+  "voice": "bm_george",
+  "speed": 1.04,
+  "ids": [
+   "L010"
+  ]
+ },
+ {
+  "id": "G009",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Sorry.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L011"
+  ]
+ },
+ {
+  "id": "G010",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "Ah, good morning! Early, as always.",
+  "voice": "bm_george",
+  "speed": 1.04,
+  "ids": [
+   "L012"
+  ]
+ },
+ {
+  "id": "G011",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You forget your wallet at the caf\u00e9. Third time this month.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L013"
+  ]
+ },
+ {
+  "id": "G012",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Sorry. I'll pay you tomorrow.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L014"
+  ]
+ },
+ {
+  "id": "G013",
+  "tag": "BARISTA",
+  "thought": false,
+  "note": "",
+  "text": "Pay me for what?",
+  "voice": "am_puck",
+  "speed": 1.06,
+  "ids": [
+   "L015"
+  ]
+ },
+ {
+  "id": "G014",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Free coffee. You decide not to think about it too hard.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L016"
+  ]
+ },
+ {
+  "id": "G015",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You knock over a stranger's scooter.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L017"
+  ]
+ },
+ {
+  "id": "G016",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Oh no. Sorry!",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L018"
+  ]
+ },
+ {
+  "id": "G017",
+  "tag": "STRANGER",
+  "thought": false,
+  "note": "",
+  "text": "What scooter?",
+  "voice": "am_eric",
+  "speed": 1.05,
+  "ids": [
+   "L019"
+  ]
+ },
+ {
+  "id": "G018",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By Tuesday night, you've said sorry eleven times, and you've been in trouble zero. You don't notice the little grey smudge it leaves over everyone's head. Not yet.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L020",
+   "L021",
+   "L022"
+  ]
+ },
+ {
+  "id": "G019",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "On Wednesday, Theo plays until two in the morning.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L023"
+  ]
+ },
+ {
+  "id": "G020",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Theo. It's two a.m.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L024"
+  ]
+ },
+ {
+  "id": "G021",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Five more minutes.",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L025"
+  ]
+ },
+ {
+  "id": "G022",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And you say the thing you've been thinking since Monday.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L026"
+  ]
+ },
+ {
+  "id": "G023",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You know why nobody lets you stay anywhere? Because you're exhausting.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L027"
+  ]
+ },
+ {
+  "id": "G024",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Sorry.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L028"
+  ]
+ },
+ {
+  "id": "G025",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Sorry for what?",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L029"
+  ]
+ },
+ {
+  "id": "G026",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He doesn't remember. But he doesn't pick the controller back up either.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L030"
+  ]
+ },
+ {
+  "id": "G027",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The next morning, he's quiet. He washes your mug. He asks if he's in the way.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L031"
+  ]
+ },
+ {
+  "id": "G028",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Did I do something? You can tell me.",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L032"
+  ]
+ },
+ {
+  "id": "G029",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "No. You didn't do anything.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L033"
+  ]
+ },
+ {
+  "id": "G030",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "That's the problem. He didn't. You did. And he's the one carrying it.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L034"
+  ]
+ },
+ {
+  "id": "G031",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Now you see the smudges everywhere. Over your boss. Over the barista. Small grey clouds where a memory used to be.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L035"
+  ]
+ },
+ {
+  "id": "G032",
+  "tag": "BARISTA",
+  "thought": false,
+  "note": "",
+  "text": "Weird week. I keep feeling annoyed at someone, and I can't remember who.",
+  "voice": "am_puck",
+  "speed": 1.06,
+  "ids": [
+   "L036"
+  ]
+ },
+ {
+  "id": "G033",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "That's weird.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L037"
+  ]
+ },
+ {
+  "id": "G034",
+  "tag": "BARISTA",
+  "thought": false,
+  "note": "",
+  "text": "You want your usual? It's on\u2014 Actually. Have you paid me lately?",
+  "voice": "am_puck",
+  "speed": 1.06,
+  "ids": [
+   "L038"
+  ]
+ },
+ {
+  "id": "G035",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The memory goes. The feeling stays. And nobody knows where it came from.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L039"
+  ]
+ },
+ {
+  "id": "G036",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then, on Friday, you forget Mira's birthday.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L040"
+  ]
+ },
+ {
+  "id": "G037",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Hey. So. It's ten p.m.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L041"
+  ]
+ },
+ {
+  "id": "G038",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The word is right there. Sorry. One word, and she'll never know.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L042"
+  ]
+ },
+ {
+  "id": "G039",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And she'll still go to bed sad, and not know why.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L043"
+  ]
+ },
+ {
+  "id": "G040",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Mira. I forgot your birthday. Completely. And I'm not going to say the word, because I want you to stay mad at me.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L044"
+  ]
+ },
+ {
+  "id": "G041",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "That is the weirdest apology I have ever heard.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L045"
+  ]
+ },
+ {
+  "id": "G042",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "It's not an apology. It's a confession.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L046"
+  ]
+ },
+ {
+  "id": "G043",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Fine. I'm mad. You owe me a cake. A big one.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L047"
+  ]
+ },
+ {
+  "id": "G044",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Okay. I'm a bit less mad.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L048"
+  ]
+ },
+ {
+  "id": "G045",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Saturday. Cake. In person.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L049"
+  ]
+ },
+ {
+  "id": "G046",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "It's four hours on a train.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L050"
+  ]
+ },
+ {
+  "id": "G047",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "It's going to be a very big cake.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L051"
+  ]
+ },
+ {
+  "id": "G048",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "No shimmer. No smudge. Just Mira, remembering, and forgiving you anyway. It's the first time all week anyone has.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L052",
+   "L053"
+  ]
+ },
+ {
+  "id": "G049",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then you go and sit next to Theo.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L054"
+  ]
+ },
+ {
+  "id": "G050",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "On Wednesday, I said something horrible to you. You don't remember it. I do.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L055"
+  ]
+ },
+ {
+  "id": "G051",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "What did you say?",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L056"
+  ]
+ },
+ {
+  "id": "G052",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You tell him. Word for word.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L057"
+  ]
+ },
+ {
+  "id": "G053",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Wow. That's rude.",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L058"
+  ]
+ },
+ {
+  "id": "G054",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Yeah.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L059"
+  ]
+ },
+ {
+  "id": "G055",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "I am a bit exhausting, though.",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L060"
+  ]
+ },
+ {
+  "id": "G056",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You're a lot exhausting. Stay anyway.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L061"
+  ]
+ },
+ {
+  "id": "G057",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The grey smudge over his head fades, like breath on a window.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L062"
+  ]
+ },
+ {
+  "id": "G058",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Can I have your controller, then?",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L063"
+  ]
+ },
+ {
+  "id": "G059",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "No.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L064"
+  ]
+ },
+ {
+  "id": "G060",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "On Saturday, you carry a very large cake for four hours. Mira eats a third of it on a bench, and tells you she's still a little bit mad. You let her be.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L065",
+   "L066",
+   "L067"
+  ]
+ },
+ {
+  "id": "G061",
+  "tag": "N",
+  "thought": false,
+  "note": "soft",
+  "text": "Would you rather be forgiven, or forgotten?",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L068"
+  ]
+ }
+]

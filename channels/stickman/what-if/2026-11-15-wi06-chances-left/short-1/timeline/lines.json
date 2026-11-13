@@ -1,0 +1,92 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Everyone you know has a number now.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 3.45
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It's how many more times they'll forgive you.",
+  "sec": "hook",
+  "start": 3.692,
+  "end": 6.192
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your best friend has one.",
+  "sec": "hook",
+  "start": 6.732,
+  "end": 8.163
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Just one.",
+  "sec": "hook",
+  "start": 9.103,
+  "end": 9.911
+ },
+ {
+  "id": "L041",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Four hours on a train. A whole evening of chances to get it wrong.",
+  "sec": "act2",
+  "start": 10.511,
+  "end": 14.913
+ },
+ {
+  "id": "L042",
+  "tag": "YOU",
+  "thought": false,
+  "note": "text",
+  "text": "Can't. Work. I'll watch the stream?",
+  "sec": "act2",
+  "start": 15.173,
+  "end": 17.25
+ },
+ {
+  "id": "L043",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You send it.",
+  "sec": "act2",
+  "start": 18.15,
+  "end": 19.044
+ },
+ {
+  "id": "L044",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Somewhere four hours away, she forgives you.",
+  "sec": "act2",
+  "start": 20.884,
+  "end": 23.399
+ },
+ {
+  "id": "L045",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Zero.",
+  "sec": "act2",
+  "start": 24.239,
+  "end": 24.916
+ }
+]

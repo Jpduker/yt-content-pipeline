@@ -1,0 +1,483 @@
+{
+ "title": "Everyone Has a Number. His Best Friend's Was 1.",
+ "duration": 27.266,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 3.542,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "cam": [
+     [
+      900,
+      560,
+      0.85
+     ],
+     [
+      940,
+      560,
+      0.92
+     ]
+    ],
+    "who": [
+     {
+      "id": "X1",
+      "x": 300,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       -200,
+       700,
+       0,
+       1
+      ],
+      "slow": true,
+      "badge": {
+       "k": "num",
+       "v": 57,
+       "hot": 3,
+       "at": 0.8
+      },
+      "seed": 3
+     },
+     {
+      "id": "X3",
+      "x": 1600,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "walk": [
+       2200,
+       1450,
+       0,
+       1
+      ],
+      "slow": true,
+      "badge": {
+       "k": "num",
+       "v": 203,
+       "hot": 3,
+       "at": 1.3
+      },
+      "seed": 5
+     },
+     {
+      "id": "YOU",
+      "x": 960,
+      "pose": "stand",
+      "expr": [
+       [
+        0,
+        "neutral"
+       ],
+       [
+        0.5575945793337097,
+        "surprised"
+       ]
+      ],
+      "f": 1,
+      "look": [
+       [
+        0,
+        [
+         0.3,
+         0
+        ]
+       ],
+       [
+        0.6140598531902879,
+        [
+         -0.5,
+         -0.5
+        ]
+       ]
+      ]
+     }
+    ],
+    "motif": "num",
+    "hookText": "EVERYONE HAS A NUMBER"
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s002",
+   "start": 3.542,
+   "end": 6.582,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "surprised"
+     ],
+     [
+      0.22203947368421065,
+      "thinking"
+     ]
+    ],
+    "side": 1,
+    "look": [
+     0.3,
+     -0.6
+    ],
+    "bgCam": [
+     900,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s005",
+   "start": 6.582,
+   "end": 8.653,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "cafe",
+    "so": {
+     "variant": "am"
+    },
+    "hub": true,
+    "cam": [
+     [
+      1130,
+      640,
+      1.6
+     ],
+     [
+      1130,
+      640,
+      1.6800000000000002
+     ]
+    ],
+    "who": [
+     {
+      "id": "MIRA",
+      "x": 1170,
+      "pose": "sitTalk",
+      "expr": "happy",
+      "f": -1,
+      "seed": 2
+     }
+    ]
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s006",
+   "start": 8.653,
+   "end": 10.361,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "cafe",
+    "so": {
+     "variant": "am"
+    },
+    "who": "MIRA",
+    "expr": "smile",
+    "side": -1,
+    "low": true,
+    "badge": {
+     "k": "num",
+     "v": 1,
+     "hot": 1,
+     "at": 0.25
+    },
+    "push": 0.1
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s048",
+   "start": 10.361,
+   "end": 15.023,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "worried"
+     ],
+     [
+      0.17696267696267787,
+      "scared"
+     ]
+    ],
+    "side": 1,
+    "push": 0.12
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s049",
+   "start": 15.023,
+   "end": 18.0,
+   "line": "",
+   "scene": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "ins": "reply",
+    "to": "Mira",
+    "inMsg": "Will you come?",
+    "drafts": [
+     "Can't. Work. I'll watch the stream?"
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s050",
+   "start": 18.0,
+   "end": 20.734,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "YOU",
+    "expr": "guilty",
+    "side": 1,
+    "look": [
+     0,
+     0.6
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s051",
+   "start": 20.734,
+   "end": 24.089,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "tick",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "hall",
+    "so": {},
+    "who": "MIRA_HOME",
+    "expr": [
+     [
+      0,
+      "sad"
+     ],
+     [
+      0.5,
+      "tender"
+     ]
+    ],
+    "side": -1,
+    "badge": {
+     "k": "num",
+     "v": [
+      [
+       0,
+       1
+      ],
+      [
+       0.999,
+       0
+      ]
+     ],
+     "hot": 1
+    },
+    "push": 0.1
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s052",
+   "start": 24.089,
+   "end": 27.266,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 0.15,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "hall",
+    "so": {},
+    "who": "MIRA_HOME",
+    "expr": "flat",
+    "side": -1,
+    "low": true,
+    "badge": {
+     "k": "num",
+     "v": 0,
+     "hot": 1
+    },
+    "push": 0.12,
+    "ask": {
+     "text": "Would you have gone?",
+     "at": 0.977
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 6.58,
+   "mood": "mystery",
+   "intensity": 0.38
+  },
+  {
+   "start": 6.58,
+   "end": 10.36,
+   "mood": "mystery",
+   "intensity": 0.38
+  },
+  {
+   "start": 15.17,
+   "end": 27.266,
+   "mood": "sad",
+   "intensity": 0.24
+  }
+ ],
+ "sfx": []
+}

@@ -1,0 +1,112 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, every promise is a string. Wrist to wrist.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 4.245
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Break it, and it snaps. And you can never tie it back.",
+  "sec": "hook",
+  "start": 4.365,
+  "end": 7.503
+ },
+ {
+  "id": "L003",
+  "tag": "LILA",
+  "thought": false,
+  "note": "",
+  "text": "You'll come to my recital? Promise?",
+  "sec": "act1",
+  "start": 7.854,
+  "end": 9.95
+ },
+ {
+  "id": "L004",
+  "tag": "OMAR",
+  "thought": false,
+  "note": "",
+  "text": "Promise.",
+  "sec": "act1",
+  "start": 10.1,
+  "end": 10.714
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At six, his meeting runs late. The string gets thinner by the minute.",
+  "sec": "act1",
+  "start": 11.564,
+  "end": 15.714
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He's forty minutes late.",
+  "sec": "act2",
+  "start": 16.614,
+  "end": 18.024
+ },
+ {
+  "id": "L007",
+  "tag": "LILA",
+  "thought": false,
+  "note": "",
+  "text": "It doesn't tie. I already tried.",
+  "sec": "act2",
+  "start": 19.434,
+  "end": 21.409
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The next week, he doesn't promise anything. He just comes. An hour early.",
+  "sec": "act3",
+  "start": 22.309,
+  "end": 27.278
+ },
+ {
+  "id": "L009",
+  "tag": "LILA",
+  "thought": false,
+  "note": "",
+  "text": "You didn't promise.",
+  "sec": "act3",
+  "start": 27.538,
+  "end": 28.649
+ },
+ {
+  "id": "L010",
+  "tag": "OMAR",
+  "thought": false,
+  "note": "",
+  "text": "I didn't want to break another one.",
+  "sec": "act3",
+  "start": 28.799,
+  "end": 30.33
+ },
+ {
+  "id": "L011",
+  "tag": "LILA",
+  "thought": false,
+  "note": "",
+  "text": "Then I'll promise. I'll look for you.",
+  "sec": "act3",
+  "start": 30.93,
+  "end": 32.945
+ }
+]

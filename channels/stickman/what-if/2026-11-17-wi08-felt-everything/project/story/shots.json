@@ -1,0 +1,2898 @@
+{
+ "title": "What If You Felt Everything Your Best Friend Felt?",
+ "duration": 217.02,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 5.84,
+   "line": "",
+   "scene": "scene",
+   "bars": "scope",
+   "in": {
+    "type": "fade",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "cam": [
+     [
+      760,
+      600,
+      1.35
+     ],
+     [
+      760,
+      600,
+      1.4700000000000002
+     ]
+    ],
+    "clock": "06:00",
+    "who": [
+     {
+      "id": "YOU",
+      "x": 720,
+      "pose": [
+       [
+        0,
+        "lie"
+       ],
+       [
+        0.5,
+        "sit"
+       ]
+      ],
+      "expr": [
+       [
+        0,
+        "sleepy"
+       ],
+       [
+        0.25,
+        "nervous"
+       ]
+      ],
+      "f": 1,
+      "rot": [
+       [
+        0,
+        -1.5
+       ],
+       [
+        0.5,
+        0
+       ]
+      ],
+      "dy": [
+       [
+        0,
+        30
+       ],
+       [
+        0.5,
+        19
+       ]
+      ],
+      "chest": {
+       "v": "NERVOUS"
+      }
+     }
+    ],
+    "motif": "num"
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s002",
+   "start": 5.84,
+   "end": 10.134,
+   "line": "",
+   "scene": "face",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "nervous"
+     ],
+     [
+      0.2876106194690266,
+      "confused"
+     ]
+    ],
+    "side": 1,
+    "chest": {
+     "v": "NERVOUS"
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s003",
+   "start": 10.134,
+   "end": 14.648,
+   "line": "",
+   "scene": "face",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "hall",
+    "so": {},
+    "who": "MIRA_HOME",
+    "expr": "nervous",
+    "side": -1,
+    "bgCam": [
+     600,
+     520,
+     1.5
+    ],
+    "label": "4 HOURS AWAY"
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s004",
+   "start": 14.648,
+   "end": 17.924,
+   "line": "",
+   "scene": "face",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "surprised"
+     ],
+     [
+      0.3357753357753348,
+      "awe"
+     ]
+    ],
+    "side": 1,
+    "push": 0.12,
+    "chest": {
+     "v": "NERVOUS"
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s005",
+   "start": 17.924,
+   "end": 19.524,
+   "line": "",
+   "scene": "title",
+   "bars": "scope",
+   "in": {
+    "type": "flash",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "flash",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "title",
+    "lines": [
+     "WHAT IF YOU FELT EVERYTHING",
+     "YOUR BEST FRIEND FELT?"
+    ],
+    "set": "bedroom",
+    "so": {},
+    "bgCam": [
+     900,
+     520,
+     0.7
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s006",
+   "start": 19.524,
+   "end": 23.764,
+   "line": "",
+   "scene": "scene",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "cam": [
+     [
+      700,
+      560,
+      1.0
+     ],
+     [
+      740,
+      560,
+      1.06
+     ]
+    ],
+    "clock": "08:55",
+    "who": [
+     {
+      "id": "THEO",
+      "x": 560,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1,
+      "s": 1.45
+     },
+     {
+      "id": "YOU",
+      "x": 960,
+      "pose": "stand",
+      "expr": "nervous",
+      "f": -1,
+      "chest": {
+       "v": "JITTERY"
+      }
+     }
+    ],
+    "chairs": [
+     [
+      560,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "s007",
+   "start": 23.764,
+   "end": 25.389,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "who": "THEO",
+    "expr": "confused",
+    "side": 1,
+    "bgCam": [
+     560,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s008",
+   "start": 25.389,
+   "end": 26.223,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "who": "YOU",
+    "expr": "nervous",
+    "side": -1,
+    "chest": {
+     "v": "NERVOUS"
+    },
+    "bgCam": [
+     960,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s009",
+   "start": 26.223,
+   "end": 27.634,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "who": "THEO",
+    "expr": "flat",
+    "side": 1,
+    "bgCam": [
+     560,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s010",
+   "start": 27.634,
+   "end": 29.64,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "who": "YOU",
+    "expr": "scared",
+    "side": -1,
+    "chest": {
+     "v": "NERVOUS"
+    },
+    "bgCam": [
+     960,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s011",
+   "start": 29.64,
+   "end": 33.905,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "cam": [
+     [
+      1050,
+      560,
+      1.0
+     ],
+     [
+      1080,
+      560,
+      1.06
+     ]
+    ],
+    "clock": "09:00",
+    "who": [
+     {
+      "id": "YOU",
+      "x": 830,
+      "pose": "explain",
+      "expr": [
+       [
+        0,
+        "neutral"
+       ],
+       [
+        0.49237983587338746,
+        "flat"
+       ]
+      ],
+      "f": 1,
+      "chest": {
+       "v": [
+        [
+         0,
+         "NERVOUS"
+        ],
+        [
+         0.5627198124267287,
+         "BLANK"
+        ]
+       ]
+      }
+     },
+     {
+      "id": "BOSS",
+      "x": 1290,
+      "pose": "crossArms",
+      "expr": "flat",
+      "f": -1
+     },
+     {
+      "id": "COLL",
+      "x": 1500,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": -1
+     }
+    ],
+    "chairs": [
+     [
+      1500,
+      -1
+     ]
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s012",
+   "start": 33.905,
+   "end": 35.77,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "office",
+    "who": "BOSS",
+    "expr": "flat",
+    "side": -1,
+    "bgCam": [
+     1200,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s013",
+   "start": 35.77,
+   "end": 37.946,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "office",
+    "who": "YOU",
+    "expr": "flat",
+    "side": 1,
+    "chest": {
+     "v": "BLANK"
+    },
+    "look": [
+     0,
+     0
+    ],
+    "bgCam": [
+     800,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s014",
+   "start": 37.946,
+   "end": 41.609,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "cam": [
+     [
+      1060,
+      590,
+      1.35
+     ],
+     [
+      1040,
+      590,
+      1.4000000000000001
+     ]
+    ],
+    "clock": "10:00",
+    "who": [
+     {
+      "id": "YOU",
+      "x": 900,
+      "pose": "sit",
+      "expr": "nervous",
+      "f": 1,
+      "chest": {
+       "v": "JITTERY"
+      }
+     },
+     {
+      "id": "BOSS",
+      "x": 1220,
+      "pose": "explain",
+      "expr": "flat",
+      "f": -1
+     }
+    ],
+    "chairs": [
+     [
+      900,
+      1
+     ]
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s015",
+   "start": 41.609,
+   "end": 43.144,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "office",
+    "who": "BOSS",
+    "expr": "confused",
+    "side": -1,
+    "bgCam": [
+     1200,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s016",
+   "start": 43.144,
+   "end": 45.918,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "office",
+    "who": "YOU",
+    "expr": "happy",
+    "side": 1,
+    "chest": {
+     "v": "JITTERY"
+    },
+    "bgCam": [
+     900,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s017",
+   "start": 45.918,
+   "end": 52.359,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "canteen",
+    "cam": [
+     [
+      900,
+      560,
+      1.0
+     ],
+     [
+      960,
+      560,
+      1.06
+     ]
+    ],
+    "clock": "12:00",
+    "who": [
+     {
+      "id": "YOU",
+      "x": 0,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "walk": [
+       700,
+       900,
+       0,
+       0.4
+      ],
+      "chest": {
+       "v": "HAPPY"
+      }
+     },
+     {
+      "id": "COLL",
+      "x": 1150,
+      "pose": "stand",
+      "expr": [
+       [
+        0,
+        "neutral"
+       ],
+       [
+        0.7,
+        "shocked"
+       ]
+      ],
+      "f": -1
+     }
+    ]
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s018",
+   "start": 52.359,
+   "end": 53.977,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "canteen",
+    "who": "COLL",
+    "expr": "shocked",
+    "side": -1,
+    "bgCam": [
+     1150,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s019",
+   "start": 53.977,
+   "end": 60.798,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "canteen",
+    "cam": [
+     [
+      900,
+      600,
+      1.45
+     ],
+     [
+      900,
+      600,
+      1.55
+     ]
+    ],
+    "clock": "13:00",
+    "who": [
+     {
+      "id": "YOU",
+      "x": 900,
+      "pose": "holdFront",
+      "expr": "joy",
+      "f": 1,
+      "prop": "paper",
+      "chest": {
+       "v": "HAPPY"
+      }
+     }
+    ]
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s020",
+   "start": 60.798,
+   "end": 64.663,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "cam": [
+     [
+      830,
+      600,
+      1.3
+     ],
+     [
+      830,
+      600,
+      1.4000000000000001
+     ]
+    ],
+    "clock": "15:00",
+    "who": [
+     {
+      "id": "YOU",
+      "x": 830,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1,
+      "chest": {
+       "v": "CONTENT"
+      }
+     }
+    ],
+    "chairs": [
+     [
+      830,
+      1
+     ]
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s021",
+   "start": 64.663,
+   "end": 65.864,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "office",
+    "who": "YOU",
+    "expr": "scared",
+    "side": 1,
+    "chest": {
+     "v": "TERRIFIED"
+    },
+    "push": 0.1,
+    "bgCam": [
+     830,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s022",
+   "start": 65.864,
+   "end": 70.24,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "cam": [
+     [
+      1050,
+      560,
+      1.0
+     ],
+     [
+      1050,
+      560,
+      1.06
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 830,
+      "pose": "handsOnHead",
+      "expr": "scared",
+      "f": 1,
+      "chest": {
+       "v": "TERRIFIED"
+      }
+     },
+     {
+      "id": "BOSS",
+      "x": 1290,
+      "pose": "stand",
+      "expr": "shocked",
+      "f": -1
+     },
+     {
+      "id": "COLL",
+      "x": 1500,
+      "pose": "sit",
+      "expr": "shocked",
+      "f": -1
+     },
+     {
+      "id": "X1",
+      "x": 500,
+      "pose": "stand",
+      "expr": "shocked",
+      "f": 1,
+      "seed": 3
+     }
+    ],
+    "chairs": [
+     [
+      1500,
+      -1
+     ]
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s023",
+   "start": 70.24,
+   "end": 75.725,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "cam": [
+     [
+      900,
+      590,
+      1.35
+     ],
+     [
+      880,
+      590,
+      1.4000000000000001
+     ]
+    ],
+    "clock": "17:30",
+    "floaters": [
+     {
+      "k": "pigeon",
+      "x": 1020,
+      "y": 0,
+      "f": -1
+     }
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 820,
+      "pose": "stand",
+      "expr": "angry",
+      "f": 1,
+      "chest": {
+       "v": "ANNOYED"
+      }
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s024",
+   "start": 75.725,
+   "end": 76.763,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "who": "YOU",
+    "expr": "guilty",
+    "side": 1,
+    "chest": {
+     "v": "ANNOYED"
+    },
+    "look": [
+     0.4,
+     0.5
+    ],
+    "bgCam": [
+     900,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s025",
+   "start": 76.763,
+   "end": 83.106,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "cam": [
+     [
+      900,
+      560,
+      1.4
+     ],
+     [
+      900,
+      560,
+      1.0
+     ]
+    ],
+    "floaters": [
+     {
+      "k": "pigeon",
+      "x": 1020,
+      "y": 0,
+      "f": -1
+     }
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 820,
+      "pose": "stand",
+      "expr": "sleepy",
+      "f": 1,
+      "chest": {
+       "v": "ANNOYED"
+      }
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s026",
+   "start": 83.106,
+   "end": 90.057,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "bags": true,
+     "tv": false
+    },
+    "cam": [
+     [
+      800,
+      560,
+      1.0
+     ],
+     [
+      820,
+      560,
+      1.06
+     ]
+    ],
+    "clock": "20:30",
+    "who": [
+     {
+      "id": "THEO",
+      "x": 600,
+      "pose": "sitBack",
+      "expr": "neutral",
+      "f": 1,
+      "s": 1.45
+     },
+     {
+      "id": "YOU",
+      "x": 0,
+      "pose": "stand",
+      "expr": "worried",
+      "f": 1,
+      "walk": [
+       900,
+       1200,
+       0,
+       1
+      ],
+      "slow": true,
+      "chest": {
+       "v": "WORRIED"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "s027",
+   "start": 90.057,
+   "end": 91.362,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "bags": true,
+     "tv": false
+    },
+    "who": "THEO",
+    "expr": "confused",
+    "side": 1,
+    "bgCam": [
+     600,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s028",
+   "start": 91.362,
+   "end": 93.881,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "bags": true,
+     "tv": false
+    },
+    "who": "YOU",
+    "expr": "determined",
+    "side": -1,
+    "chest": {
+     "v": "WORRIED"
+    },
+    "bgCam": [
+     1000,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s029",
+   "start": 93.881,
+   "end": 95.42,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "bags": true,
+     "tv": false
+    },
+    "who": "THEO",
+    "expr": "nervous",
+    "side": 1,
+    "bgCam": [
+     600,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s030",
+   "start": 95.42,
+   "end": 96.101,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "bags": true,
+     "tv": false
+    },
+    "who": "YOU",
+    "expr": "flat",
+    "side": -1,
+    "chest": {
+     "v": "WORRIED"
+    },
+    "bgCam": [
+     1000,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s031",
+   "start": 96.101,
+   "end": 97.651,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "bags": true,
+     "tv": false
+    },
+    "who": "THEO",
+    "expr": "relief",
+    "side": 1,
+    "bgCam": [
+     600,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s032",
+   "start": 97.651,
+   "end": 101.386,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "flat",
+    "so": {
+     "bags": true,
+     "tv": false
+    },
+    "ins": "reply",
+    "to": "Mira",
+    "drafts": [
+     "Did you sleep? Did you eat? Did you check question six?"
+    ]
+   }
+  },
+  {
+   "id": "s033",
+   "start": 101.386,
+   "end": 103.018,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "phonebuzz",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "flat",
+    "so": {
+     "bags": true,
+     "tv": false
+    },
+    "ins": "real",
+    "sfrom": "Mira",
+    "msg": "Why are you being my mum?",
+    "at": 0.15,
+    "inc": true
+   }
+  },
+  {
+   "id": "s034",
+   "start": 103.018,
+   "end": 106.799,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "bags": true,
+     "tv": false
+    },
+    "who": "YOU",
+    "expr": "worried",
+    "side": 1,
+    "chest": {
+     "v": "WORRIED"
+    },
+    "push": 0.1
+   }
+  },
+  {
+   "id": "s035",
+   "start": 106.799,
+   "end": 111.396,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "bags": true,
+     "tv": false
+    },
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "worried"
+     ],
+     [
+      0.17946486839243322,
+      "guilty"
+     ]
+    ],
+    "side": 1,
+    "chest": {
+     "v": "WORRIED"
+    }
+   }
+  },
+  {
+   "id": "s036",
+   "start": 111.396,
+   "end": 114.276,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "flat",
+    "so": {
+     "bags": true,
+     "tv": false
+    },
+    "ins": "reply",
+    "to": "Mira",
+    "drafts": [
+     "Just relax. It'll be fine."
+    ]
+   }
+  },
+  {
+   "id": "s037",
+   "start": 114.276,
+   "end": 117.781,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "bags": true,
+     "tv": false
+    },
+    "who": "YOU",
+    "expr": "scared",
+    "side": 1,
+    "chest": {
+     "v": "TERRIFIED"
+    },
+    "push": 0.1
+   }
+  },
+  {
+   "id": "s038",
+   "start": 117.781,
+   "end": 120.765,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "phonebuzz",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "flat",
+    "so": {
+     "bags": true,
+     "tv": false
+    },
+    "ins": "real",
+    "sfrom": "Mira",
+    "msg": "Wow. Thanks. Going to bed.",
+    "at": 0.15,
+    "inc": true
+   }
+  },
+  {
+   "id": "s039",
+   "start": 120.765,
+   "end": 124.285,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "bags": true,
+     "tv": false
+    },
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "guilty"
+     ],
+     [
+      0.39062500000000044,
+      "sad"
+     ]
+    ],
+    "side": 1,
+    "chest": {
+     "v": [
+      [
+       0,
+       "ANNOYED"
+      ],
+      [
+       0.4758522727272725,
+       "SAD"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "s040",
+   "start": 124.285,
+   "end": 128.54,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "bags": true,
+     "tv": false
+    },
+    "cam": [
+     [
+      1000,
+      600,
+      1.4
+     ],
+     [
+      1000,
+      600,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 1000,
+      "pose": "sad",
+      "expr": "sad",
+      "f": 1,
+      "chest": {
+       "v": "SAD"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "s041",
+   "start": 128.54,
+   "end": 134.159,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "cam": [
+     [
+      760,
+      600,
+      1.2
+     ],
+     [
+      760,
+      600,
+      1.3
+     ]
+    ],
+    "clock": "00:00",
+    "who": [
+     {
+      "id": "YOU",
+      "x": 720,
+      "pose": "lie",
+      "expr": "sad",
+      "f": 1,
+      "rot": -1.5,
+      "dy": 30,
+      "chest": {
+       "v": "SAD",
+       "label": false
+      }
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s042",
+   "start": 134.159,
+   "end": 135.258,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "cam": [
+     [
+      760,
+      600,
+      1.4
+     ],
+     [
+      760,
+      600,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 720,
+      "pose": "sitPhone",
+      "expr": "worried",
+      "f": 1,
+      "chest": {
+       "v": "SAD"
+      }
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s043",
+   "start": 135.258,
+   "end": 136.885,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "ins": "call",
+    "who": "MIRA_HOME",
+    "name": "Mira",
+    "expr": "pressed",
+    "t0": 1
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s044",
+   "start": 136.885,
+   "end": 139.45,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "YOU",
+    "expr": "sad",
+    "side": 1,
+    "chest": {
+     "v": "SAD"
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s045",
+   "start": 139.45,
+   "end": 147.063,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "worried"
+     ],
+     [
+      0.14777354525154343,
+      "determined"
+     ]
+    ],
+    "side": 1,
+    "chest": {
+     "v": "SAD"
+    },
+    "look": [
+     0.4,
+     -0.4
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s046",
+   "start": 147.063,
+   "end": 152.04,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "thinking"
+     ],
+     [
+      0.6,
+      "tender"
+     ]
+    ],
+    "side": 1,
+    "chest": {
+     "v": "SAD"
+    },
+    "push": 0.1
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s047",
+   "start": 152.04,
+   "end": 154.567,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "cam": [
+     [
+      760,
+      600,
+      1.5
+     ],
+     [
+      760,
+      600,
+      1.58
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 720,
+      "pose": "sitPhone",
+      "expr": "tender",
+      "f": 1,
+      "chest": {
+       "v": "SAD"
+      }
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s048",
+   "start": 154.567,
+   "end": 157.13,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "ins": "call",
+    "who": "MIRA_HOME",
+    "name": "Mira",
+    "expr": [
+     [
+      0,
+      "sad"
+     ],
+     [
+      0.43113538821693126,
+      "teary"
+     ]
+    ],
+    "t0": 12
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s049",
+   "start": 157.13,
+   "end": 158.747,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "YOU",
+    "expr": "tender",
+    "side": 1,
+    "chest": {
+     "v": "SAD"
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s050",
+   "start": 158.747,
+   "end": 163.508,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "cam": [
+     [
+      760,
+      600,
+      1.4
+     ],
+     [
+      760,
+      600,
+      1.1
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 720,
+      "pose": "sitPhone",
+      "expr": "tender",
+      "f": 1,
+      "chest": {
+       "v": "SAD"
+      }
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s051",
+   "start": 163.508,
+   "end": 166.693,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "hall",
+    "so": {},
+    "who": "MIRA_HOME",
+    "expr": "sad",
+    "side": -1,
+    "bgCam": [
+     600,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s052",
+   "start": 166.693,
+   "end": 170.488,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "YOU",
+    "expr": "tender",
+    "side": 1,
+    "chest": {
+     "v": [
+      [
+       0,
+       "SAD"
+      ],
+      [
+       0.8181818181818196,
+       "SHARED"
+      ]
+     ]
+    },
+    "push": 0.08
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s053",
+   "start": 170.488,
+   "end": 178.562,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "cam": [
+     [
+      760,
+      600,
+      1.2
+     ],
+     [
+      760,
+      600,
+      1.3399999999999999
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 720,
+      "pose": "lie",
+      "expr": "tender",
+      "f": 1,
+      "rot": -1.5,
+      "dy": 30,
+      "chest": {
+       "v": "SHARED",
+       "label": false
+      }
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s054",
+   "start": 178.562,
+   "end": 179.642,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "ins": "call",
+    "who": "MIRA_HOME",
+    "name": "Mira",
+    "expr": "tender",
+    "t0": 600
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s055",
+   "start": 179.642,
+   "end": 180.54,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "YOU",
+    "expr": "smile",
+    "side": 1,
+    "chest": {
+     "v": "SHARED"
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s056",
+   "start": 180.54,
+   "end": 182.63,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "ins": "call",
+    "who": "MIRA_HOME",
+    "name": "Mira",
+    "expr": "smile",
+    "t0": 603
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s057",
+   "start": 182.63,
+   "end": 184.487,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "ins": "call",
+    "who": "MIRA_HOME",
+    "name": "Mira",
+    "expr": "sleepy",
+    "t0": 605
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s058",
+   "start": 184.487,
+   "end": 185.997,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "YOU",
+    "expr": "tender",
+    "side": 1,
+    "chest": {
+     "v": "SHARED"
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s059",
+   "start": 185.997,
+   "end": 193.119,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "cam": [
+     [
+      760,
+      600,
+      1.3
+     ],
+     [
+      760,
+      600,
+      0.95
+     ]
+    ],
+    "clock": "00:40",
+    "who": [
+     {
+      "id": "YOU",
+      "x": 720,
+      "pose": "lie",
+      "expr": "sleepy",
+      "f": 1,
+      "rot": -1.5,
+      "dy": 30,
+      "chest": {
+       "v": "CONTENT",
+       "label": false
+      }
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s060",
+   "start": 193.119,
+   "end": 199.7,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    },
+    {
+     "at": 4.615,
+     "name": "stinger",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "cam": [
+     [
+      700,
+      560,
+      1.0
+     ],
+     [
+      740,
+      560,
+      1.06
+     ]
+    ],
+    "clock": "09:00",
+    "who": [
+     {
+      "id": "THEO",
+      "x": 560,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1,
+      "s": 1.45
+     },
+     {
+      "id": "YOU",
+      "x": 960,
+      "pose": [
+       [
+        0,
+        "holdFront"
+       ],
+       [
+        0.686065947424407,
+        "cheer"
+       ]
+      ],
+      "expr": [
+       [
+        0,
+        "neutral"
+       ],
+       [
+        0.6556754292660697,
+        "shocked"
+       ]
+      ],
+      "f": -1,
+      "chest": {
+       "v": [
+        [
+         0,
+         "NERVOUS"
+        ],
+        [
+         0.7012612065035735,
+         "PROUD"
+        ]
+       ]
+      }
+     }
+    ],
+    "chairs": [
+     [
+      560,
+      1
+     ]
+    ],
+    "floaters": [
+     {
+      "k": "paper",
+      "x": 900,
+      "y": -20,
+      "rest": -20
+     }
+    ]
+   }
+  },
+  {
+   "id": "s061",
+   "start": 199.7,
+   "end": 200.663,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "who": "YOU",
+    "expr": "joy",
+    "side": -1,
+    "chest": {
+     "v": "PROUD"
+    },
+    "bgCam": [
+     960,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s062",
+   "start": 200.663,
+   "end": 201.882,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "who": "THEO",
+    "expr": "confused",
+    "side": 1,
+    "bgCam": [
+     560,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s063",
+   "start": 201.882,
+   "end": 202.844,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "who": "YOU",
+    "expr": "laugh",
+    "side": -1,
+    "chest": {
+     "v": "PROUD"
+    },
+    "bgCam": [
+     960,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s064",
+   "start": 202.844,
+   "end": 204.405,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "who": "THEO",
+    "expr": "flat",
+    "side": 1,
+    "look": [
+     0.2,
+     0.7
+    ],
+    "bgCam": [
+     560,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s065",
+   "start": 204.405,
+   "end": 206.136,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "who": "YOU",
+    "expr": "joy",
+    "side": -1,
+    "chest": {
+     "v": "PROUD"
+    },
+    "bgCam": [
+     960,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s066",
+   "start": 206.136,
+   "end": 207.771,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "phonebuzz",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "ins": "real",
+    "sfrom": "Mira",
+    "msg": "Passed! Did you feel that?",
+    "at": 0.15,
+    "inc": true
+   }
+  },
+  {
+   "id": "s067",
+   "start": 207.771,
+   "end": 210.488,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "ins": "reply",
+    "to": "Mira",
+    "inMsg": "Passed! Did you feel that?",
+    "drafts": [
+     "Felt it. Dropped my toast."
+    ]
+   }
+  },
+  {
+   "id": "s068",
+   "start": 210.488,
+   "end": 217.02,
+   "line": "",
+   "scene": "end",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "k": "end",
+    "question": "Would YOU want to feel it all?",
+    "cast": [
+     "MIRA",
+     "YOU",
+     "THEO"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 18.07,
+   "mood": "mystery",
+   "intensity": 0.36
+  },
+  {
+   "start": 19.67,
+   "end": 76.91,
+   "mood": "playful",
+   "intensity": 0.42
+  },
+  {
+   "start": 83.26,
+   "end": 124.44,
+   "mood": "tension",
+   "intensity": 0.28
+  },
+  {
+   "start": 128.69,
+   "end": 186.15,
+   "mood": "sad",
+   "intensity": 0.24
+  },
+  {
+   "start": 193.27,
+   "end": 217.02,
+   "mood": "hopeful",
+   "intensity": 0.4
+  }
+ ],
+ "sfx": []
+}

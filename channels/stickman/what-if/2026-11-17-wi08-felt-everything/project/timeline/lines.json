@@ -1,0 +1,672 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You wake up nervous. Your heart's racing. Your hands are wet.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 5.85
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Which is strange, because you've got nothing to be nervous about.",
+  "sec": "hook",
+  "start": 5.99,
+  "end": 9.625
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Four hours away, your best friend has an exam at nine.",
+  "sec": "hook",
+  "start": 10.284,
+  "end": 13.858
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "From today, you feel everything she feels.",
+  "sec": "hook",
+  "start": 14.798,
+  "end": 17.274
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Everything. The good, the bad, and the fourth coffee.",
+  "sec": "act1",
+  "start": 19.674,
+  "end": 22.754
+ },
+ {
+  "id": "L006",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Why are you breathing like that?",
+  "sec": "act1",
+  "start": 23.914,
+  "end": 25.389
+ },
+ {
+  "id": "L007",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Exam.",
+  "sec": "act1",
+  "start": 25.539,
+  "end": 26.223
+ },
+ {
+  "id": "L008",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "You don't have an exam.",
+  "sec": "act1",
+  "start": 26.373,
+  "end": 27.634
+ },
+ {
+  "id": "L009",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I know!",
+  "sec": "act1",
+  "start": 27.784,
+  "end": 28.49
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At nine, her exam starts, and your mind goes completely blank.",
+  "sec": "act1",
+  "start": 29.79,
+  "end": 33.795
+ },
+ {
+  "id": "L011",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "So the numbers for March are\u2014",
+  "sec": "act1",
+  "start": 34.055,
+  "end": 35.76
+ },
+ {
+  "id": "L012",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I'm sorry. Who are you?",
+  "sec": "act1",
+  "start": 35.829,
+  "end": 37.196
+ },
+ {
+  "id": "L013",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At ten, she has her fourth coffee. You have a meeting.",
+  "sec": "act1",
+  "start": 38.496,
+  "end": 41.499
+ },
+ {
+  "id": "L014",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "Are you vibrating?",
+  "sec": "act1",
+  "start": 41.759,
+  "end": 43.144
+ },
+ {
+  "id": "L015",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Big fan of this quarter.",
+  "sec": "act1",
+  "start": 43.294,
+  "end": 44.768
+ },
+ {
+  "id": "L016",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At twelve, her exam is over and she's happy. So you're happy. You're so happy, you nearly hug Dana.",
+  "sec": "act1",
+  "start": 46.068,
+  "end": 52.249
+ },
+ {
+  "id": "L017",
+  "tag": "COLL",
+  "thought": false,
+  "note": "",
+  "text": "Please don't.",
+  "sec": "act1",
+  "start": 52.509,
+  "end": 53.727
+ },
+ {
+  "id": "L018",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At one, she eats a pastry. You can't taste it. But you have never loved a sandwich this much.",
+  "sec": "act1",
+  "start": 54.127,
+  "end": 59.708
+ },
+ {
+  "id": "L019",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At three, she watches a horror film with her new flatmates.",
+  "sec": "act1",
+  "start": 60.948,
+  "end": 64.273
+ },
+ {
+  "id": "L020",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You don't.",
+  "sec": "act1",
+  "start": 64.813,
+  "end": 65.355
+ },
+ {
+  "id": "L021",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Sorry! Spreadsheet. Very scary numbers.",
+  "sec": "act1",
+  "start": 66.514,
+  "end": 69.09
+ },
+ {
+  "id": "L022",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At half five, her bus is late. You glare at a pigeon. The pigeon didn't do anything.",
+  "sec": "act1",
+  "start": 70.39,
+  "end": 75.615
+ },
+ {
+  "id": "L023",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Sorry.",
+  "sec": "act1",
+  "start": 75.875,
+  "end": 76.513
+ },
+ {
+  "id": "L024",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You just apologised to a pigeon. It's been a long day, and none of it was yours.",
+  "sec": "act1",
+  "start": 76.913,
+  "end": 81.956
+ },
+ {
+  "id": "L025",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By the evening, results are out tomorrow, and she's worried. So you're worried. And you can't turn it off.",
+  "sec": "act2",
+  "start": 83.856,
+  "end": 89.947
+ },
+ {
+  "id": "L026",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Why are you pacing?",
+  "sec": "act2",
+  "start": 90.207,
+  "end": 91.362
+ },
+ {
+  "id": "L027",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I'm not pacing. I'm walking with purpose.",
+  "sec": "act2",
+  "start": 91.512,
+  "end": 93.881
+ },
+ {
+  "id": "L028",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Can you feel me as well?",
+  "sec": "act2",
+  "start": 94.031,
+  "end": 95.42
+ },
+ {
+  "id": "L029",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "No.",
+  "sec": "act2",
+  "start": 95.57,
+  "end": 96.101
+ },
+ {
+  "id": "L030",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Good.",
+  "sec": "act2",
+  "start": 96.251,
+  "end": 96.751
+ },
+ {
+  "id": "L031",
+  "tag": "YOU",
+  "thought": false,
+  "note": "text",
+  "text": "Did you sleep? Did you eat? Did you check question six?",
+  "sec": "act2",
+  "start": 97.801,
+  "end": 101.386
+ },
+ {
+  "id": "L032",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "text",
+  "text": "Why are you being my mum?",
+  "sec": "act2",
+  "start": 101.536,
+  "end": 102.768
+ },
+ {
+  "id": "L033",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Because her worry is sitting in your chest, and you want it out.",
+  "sec": "act2",
+  "start": 103.168,
+  "end": 106.758
+ },
+ {
+  "id": "L034",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You tell yourself you're helping. You're not. You just want the feeling to stop.",
+  "sec": "act2",
+  "start": 106.949,
+  "end": 111.286
+ },
+ {
+  "id": "L035",
+  "tag": "YOU",
+  "thought": false,
+  "note": "text",
+  "text": "Just relax. It'll be fine.",
+  "sec": "act2",
+  "start": 111.546,
+  "end": 113.626
+ },
+ {
+  "id": "L036",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Her worry goes up. You can feel exactly how much.",
+  "sec": "act2",
+  "start": 114.426,
+  "end": 117.671
+ },
+ {
+  "id": "L037",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "text",
+  "text": "Wow. Thanks. Going to bed.",
+  "sec": "act2",
+  "start": 117.931,
+  "end": 119.615
+ },
+ {
+  "id": "L038",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Now she's annoyed. And then, quietly, something else.",
+  "sec": "act2",
+  "start": 120.915,
+  "end": 124.295
+ },
+ {
+  "id": "L039",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Something heavy. Like a wet coat you can't take off.",
+  "sec": "act2",
+  "start": 124.435,
+  "end": 127.39
+ },
+ {
+  "id": "L040",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At midnight, you're lying in the dark, sad for a reason that isn't yours.",
+  "sec": "act3",
+  "start": 129.59,
+  "end": 134.17
+ },
+ {
+  "id": "L041",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "So you call her.",
+  "sec": "act3",
+  "start": 134.309,
+  "end": 135.147
+ },
+ {
+  "id": "L042",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "I'm fine.",
+  "sec": "act3",
+  "start": 135.408,
+  "end": 136.135
+ },
+ {
+  "id": "L043",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She's not. You can feel she's not.",
+  "sec": "act3",
+  "start": 137.035,
+  "end": 139.46
+ },
+ {
+  "id": "L044",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You want to fix it. Tell her the exam went well. Tell her the course is worth it. Tell her she'll make friends.",
+  "sec": "act3",
+  "start": 139.6,
+  "end": 146.373
+ },
+ {
+  "id": "L045",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "But once, at a caf\u00e9, you learned not to answer things she hadn't said.",
+  "sec": "act3",
+  "start": 147.213,
+  "end": 151.33
+ },
+ {
+  "id": "L046",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You don't have to be fine.",
+  "sec": "act3",
+  "start": 152.19,
+  "end": 153.667
+ },
+ {
+  "id": "L047",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "I just miss home. That's all. It's stupid.",
+  "sec": "act3",
+  "start": 154.717,
+  "end": 157.13
+ },
+ {
+  "id": "L048",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "It's not stupid.",
+  "sec": "act3",
+  "start": 157.28,
+  "end": 158.497
+ },
+ {
+  "id": "L049",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And then you don't say anything else. You just stay on the line.",
+  "sec": "act3",
+  "start": 158.897,
+  "end": 162.418
+ },
+ {
+  "id": "L050",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Five minutes. Ten. Neither of you talks.",
+  "sec": "act3",
+  "start": 163.658,
+  "end": 166.703
+ },
+ {
+  "id": "L051",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And the heavy coat gets lighter. Not gone. Shared.",
+  "sec": "act3",
+  "start": 166.843,
+  "end": 170.498
+ },
+ {
+  "id": "L052",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You've felt her nervous, happy, terrified and annoyed today. This is the first feeling you didn't try to make go away.",
+  "sec": "act3",
+  "start": 170.638,
+  "end": 177.752
+ },
+ {
+  "id": "L053",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Are you still there?",
+  "sec": "act3",
+  "start": 178.712,
+  "end": 179.642
+ },
+ {
+  "id": "L054",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I'm here.",
+  "sec": "act3",
+  "start": 179.792,
+  "end": 180.54
+ },
+ {
+  "id": "L055",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "You're smiling. I can hear it.",
+  "sec": "act3",
+  "start": 180.69,
+  "end": 182.64
+ },
+ {
+  "id": "L056",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Will you stay on until I fall asleep?",
+  "sec": "act3",
+  "start": 182.78,
+  "end": 184.487
+ },
+ {
+  "id": "L057",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Yeah.",
+  "sec": "act3",
+  "start": 184.637,
+  "end": 185.147
+ },
+ {
+  "id": "L058",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She falls asleep at twenty to one. You can feel it, like a lamp being turned down slowly in another city.",
+  "sec": "act3",
+  "start": 186.147,
+  "end": 192.63
+ },
+ {
+  "id": "L059",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The next morning, at nine, a feeling hits you so hard you drop your toast.",
+  "sec": "act3",
+  "start": 193.869,
+  "end": 198.69
+ },
+ {
+  "id": "L060",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "She passed!",
+  "sec": "act3",
+  "start": 199.85,
+  "end": 200.663
+ },
+ {
+  "id": "L061",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Who passed what?",
+  "sec": "act3",
+  "start": 200.813,
+  "end": 201.882
+ },
+ {
+  "id": "L062",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Everything!",
+  "sec": "act3",
+  "start": 202.032,
+  "end": 202.844
+ },
+ {
+  "id": "L063",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Did you drop your toast?",
+  "sec": "act3",
+  "start": 202.994,
+  "end": 204.405
+ },
+ {
+  "id": "L064",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Worth it.",
+  "sec": "act3",
+  "start": 204.555,
+  "end": 205.236
+ },
+ {
+  "id": "L065",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "text",
+  "text": "Passed! Did you feel that?",
+  "sec": "act3",
+  "start": 206.286,
+  "end": 207.771
+ },
+ {
+  "id": "L066",
+  "tag": "YOU",
+  "thought": false,
+  "note": "text",
+  "text": "Felt it. Dropped my toast.",
+  "sec": "act3",
+  "start": 207.921,
+  "end": 209.438
+ },
+ {
+  "id": "L067",
+  "tag": "N",
+  "thought": false,
+  "note": "soft",
+  "text": "Would you want to feel everything they feel?",
+  "sec": "end",
+  "start": 212.138,
+  "end": 214.422
+ }
+]

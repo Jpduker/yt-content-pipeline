@@ -1,0 +1,810 @@
+{
+ "title": "In This World, Every Promise Is a String",
+ "duration": 34.74,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 4.255,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "stage",
+    "so": {
+     "variant": "back"
+    },
+    "cam": [
+     [
+      930,
+      560,
+      1.15
+     ],
+     [
+      930,
+      560,
+      1.28
+     ]
+    ],
+    "vx": 960,
+    "hookText": "EVERY PROMISE IS A STRING",
+    "hookT": [
+     0,
+     5.165
+    ],
+    "who": [
+     {
+      "id": "X4",
+      "x": 740,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "seed": 4
+     },
+     {
+      "id": "OMAR",
+      "x": 900,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1
+     },
+     {
+      "id": "LILA",
+      "x": 1050,
+      "pose": "stand",
+      "expr": "happy",
+      "f": -1,
+      "s": 1.1,
+      "seed": 2
+     },
+     {
+      "id": "X3",
+      "x": 1190,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "seed": 5
+     }
+    ],
+    "strings": [
+     {
+      "a": "X4",
+      "b": [
+       560,
+       640
+      ],
+      "col": "#9fe0ff",
+      "w": 0.6
+     },
+     {
+      "a": "OMAR",
+      "b": "LILA"
+     },
+     {
+      "a": "X3",
+      "b": [
+       1400,
+       600
+      ],
+      "col": "#f29ac0",
+      "w": 0.5
+     }
+    ],
+    "motif": "num"
+   }
+  },
+  {
+   "id": "s002",
+   "start": 4.255,
+   "end": 7.704,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "stage",
+    "so": {
+     "variant": "back"
+    },
+    "cam": [
+     [
+      980,
+      600,
+      1.55
+     ],
+     [
+      980,
+      600,
+      1.6500000000000001
+     ]
+    ],
+    "who": [
+     {
+      "id": "OMAR",
+      "x": 880,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1
+     },
+     {
+      "id": "LILA",
+      "x": 1060,
+      "pose": "stand",
+      "expr": "happy",
+      "f": -1,
+      "s": 1.1,
+      "seed": 2
+     }
+    ],
+    "strings": [
+     {
+      "a": "OMAR",
+      "b": "LILA",
+      "w": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s003",
+   "start": 7.704,
+   "end": 9.95,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "stage",
+    "so": {
+     "variant": "back"
+    },
+    "who": "LILA",
+    "expr": [
+     [
+      0,
+      "happy"
+     ],
+     [
+      0.6055209260908284,
+      "smile"
+     ]
+    ],
+    "side": -1,
+    "bgCam": [
+     1060,
+     520,
+     1.6
+    ]
+   }
+  },
+  {
+   "id": "s004",
+   "start": 9.95,
+   "end": 11.414,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -13
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "stage",
+    "so": {
+     "variant": "back"
+    },
+    "cam": [
+     [
+      970,
+      600,
+      1.6
+     ],
+     [
+      970,
+      600,
+      1.7000000000000002
+     ]
+    ],
+    "who": [
+     {
+      "id": "OMAR",
+      "x": 880,
+      "pose": "stand",
+      "expr": "happy",
+      "f": 1
+     },
+     {
+      "id": "LILA",
+      "x": 1060,
+      "pose": "stand",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.1,
+      "seed": 2
+     }
+    ],
+    "strings": [
+     {
+      "a": "OMAR",
+      "b": "LILA",
+      "tieAt": 0,
+      "w": 1.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s005",
+   "start": 11.414,
+   "end": 13.849,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "so": {
+     "warm": true
+    },
+    "cam": [
+     [
+      900,
+      560,
+      1.15
+     ],
+     [
+      900,
+      540,
+      1.25
+     ]
+    ],
+    "stamp": "18:00",
+    "who": [
+     {
+      "id": "OMAR",
+      "x": 860,
+      "pose": "explain",
+      "expr": "nervous",
+      "f": 1
+     },
+     {
+      "id": "BOSS",
+      "x": 1100,
+      "pose": "talk",
+      "expr": "flat",
+      "f": -1
+     }
+    ],
+    "strings": [
+     {
+      "a": "OMAR",
+      "b": [
+       700,
+       300
+      ],
+      "w": [
+       [
+        0,
+        0.9
+       ],
+       [
+        0.4,
+        0.55
+       ],
+       [
+        0.8,
+        0.3
+       ]
+      ],
+      "sag": 20
+     }
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s006",
+   "start": 13.849,
+   "end": 16.064,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "office",
+    "so": {
+     "warm": true
+    },
+    "who": "OMAR",
+    "expr": [
+     [
+      0,
+      "nervous"
+     ],
+     [
+      0.5,
+      "worried"
+     ]
+    ],
+    "side": 1,
+    "look": [
+     -0.5,
+     -0.3
+    ],
+    "bgCam": [
+     900,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s007",
+   "start": 16.064,
+   "end": 18.274,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "banner": "SPRING RECITAL",
+     "spot": 0
+    },
+    "cam": [
+     [
+      960,
+      560,
+      1.15
+     ],
+     [
+      960,
+      560,
+      1.25
+     ]
+    ],
+    "stamp": "18:40",
+    "who": [
+     {
+      "id": "LILA",
+      "x": 1000,
+      "pose": "sit",
+      "expr": "sad",
+      "f": -1,
+      "s": 1.1,
+      "seed": 2,
+      "dy": -40
+     },
+     {
+      "id": "OMAR",
+      "x": 0,
+      "pose": "stand",
+      "expr": "scared",
+      "f": 1,
+      "walk": [
+       600,
+       820,
+       0,
+       0.6
+      ]
+     }
+    ],
+    "strings": [
+     {
+      "a": "OMAR",
+      "b": "LILA",
+      "w": 0.2,
+      "snapAt": 2.06
+     }
+    ]
+   }
+  },
+  {
+   "id": "s008",
+   "start": 18.274,
+   "end": 19.284,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "banner": "SPRING RECITAL",
+     "spot": 0
+    },
+    "cam": [
+     [
+      900,
+      560,
+      1.7
+     ],
+     [
+      900,
+      560,
+      1.8
+     ]
+    ],
+    "who": [
+     {
+      "id": "OMAR",
+      "x": 820,
+      "pose": "reach",
+      "expr": "hurt",
+      "f": 1
+     }
+    ],
+    "strings": [
+     {
+      "a": "OMAR",
+      "b": [
+       1000,
+       700
+      ],
+      "snapAt": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s009",
+   "start": 19.284,
+   "end": 22.159,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "banner": "SPRING RECITAL",
+     "spot": 0
+    },
+    "who": "LILA",
+    "expr": [
+     [
+      0,
+      "sad"
+     ],
+     [
+      0.29913043478260726,
+      "hurt"
+     ]
+    ],
+    "side": -1,
+    "look": [
+     0,
+     0.5
+    ],
+    "bgCam": [
+     1000,
+     520,
+     1.6
+    ]
+   }
+  },
+  {
+   "id": "s010",
+   "start": 22.159,
+   "end": 27.388,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "banner": "SPRING RECITAL",
+     "spot": 0
+    },
+    "cam": [
+     [
+      960,
+      560,
+      1.15
+     ],
+     [
+      960,
+      560,
+      1.22
+     ]
+    ],
+    "fg": "audience",
+    "stamp": "NEXT WEEK",
+    "who": [
+     {
+      "id": "OMAR",
+      "x": 860,
+      "pose": "sit",
+      "expr": "tender",
+      "f": 1,
+      "dy": -40
+     }
+    ]
+   }
+  },
+  {
+   "id": "s011",
+   "start": 27.388,
+   "end": 28.649,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "banner": "SPRING RECITAL",
+     "spot": 0
+    },
+    "cam": [
+     [
+      950,
+      590,
+      1.45
+     ],
+     [
+      930,
+      590,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "OMAR",
+      "x": 860,
+      "pose": "sit",
+      "expr": "surprised",
+      "f": 1,
+      "dy": -40
+     },
+     {
+      "id": "LILA",
+      "x": 1040,
+      "pose": "stand",
+      "expr": "flat",
+      "f": -1,
+      "s": 1.1,
+      "seed": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s012",
+   "start": 28.649,
+   "end": 30.78,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "banner": "SPRING RECITAL",
+     "spot": 0
+    },
+    "who": "OMAR",
+    "expr": [
+     [
+      0,
+      "guilty"
+     ],
+     [
+      0.1759737212576255,
+      "tender"
+     ]
+    ],
+    "side": 1,
+    "bgCam": [
+     860,
+     520,
+     1.6
+    ]
+   }
+  },
+  {
+   "id": "s013",
+   "start": 30.78,
+   "end": 34.74,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -13
+    },
+    {
+     "at": 0.6,
+     "name": "stinger",
+     "gain": -15
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "banner": "SPRING RECITAL",
+     "spot": 0
+    },
+    "cam": [
+     [
+      950,
+      590,
+      1.5
+     ],
+     [
+      950,
+      590,
+      1.62
+     ]
+    ],
+    "ask": {
+     "text": "Would you give him another string?",
+     "at": 2.265
+    },
+    "who": [
+     {
+      "id": "OMAR",
+      "x": 860,
+      "pose": "sit",
+      "expr": [
+       [
+        0,
+        "surprised"
+       ],
+       [
+        0.5,
+        "tearsmile"
+       ]
+      ],
+      "f": 1,
+      "dy": -40
+     },
+     {
+      "id": "LILA",
+      "x": 1040,
+      "pose": "reach",
+      "expr": "smile",
+      "f": -1,
+      "s": 1.1,
+      "seed": 2
+     }
+    ],
+    "strings": [
+     {
+      "a": "LILA",
+      "b": "OMAR",
+      "tieAt": 0.6,
+      "w": 1.2
+     }
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 10.96,
+   "mood": "hopeful",
+   "intensity": 0.36
+  },
+  {
+   "start": 11.56,
+   "end": 21.66,
+   "mood": "sad",
+   "intensity": 0.26
+  },
+  {
+   "start": 22.31,
+   "end": 34.74,
+   "mood": "calm",
+   "intensity": 0.36
+  }
+ ],
+ "sfx": []
+}

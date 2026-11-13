@@ -1,0 +1,122 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, every compliment you mean drops a gold coin in the other person's pocket.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 5.79
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Fake ones turn to ash. In your hand.",
+  "sec": "hook",
+  "start": 5.91,
+  "end": 8.536
+ },
+ {
+  "id": "L003",
+  "tag": "GRANT",
+  "thought": false,
+  "note": "",
+  "text": "Love the tie, boss. Genius. Visionary.",
+  "sec": "act1",
+  "start": 9.336,
+  "end": 11.821
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Grant has burnt fingers most days.",
+  "sec": "act1",
+  "start": 12.671,
+  "end": 14.678
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The richest man in town is Walt. He sweeps the high street.",
+  "sec": "act2",
+  "start": 15.578,
+  "end": 19.603
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Every coin he owns came from one person.",
+  "sec": "act2",
+  "start": 19.722,
+  "end": 22.238
+ },
+ {
+  "id": "L007",
+  "tag": "ZOE",
+  "thought": false,
+  "note": "",
+  "text": "Morning, Walt! The street looks shiny!",
+  "sec": "act2",
+  "start": 22.948,
+  "end": 24.894
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Every morning, for three years. She means it every time.",
+  "sec": "act2",
+  "start": 25.744,
+  "end": 29.159
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then Zoe's school trip costs a hundred and twenty coins. Her family can't afford it.",
+  "sec": "act3",
+  "start": 30.059,
+  "end": 35.634
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The next morning, it's paid. Nobody knows who by.",
+  "sec": "act3",
+  "start": 36.204,
+  "end": 39.699
+ },
+ {
+  "id": "L011",
+  "tag": "ZOE",
+  "thought": false,
+  "note": "",
+  "text": "Morning, Walt! You look really happy today!",
+  "sec": "act3",
+  "start": 39.959,
+  "end": 42.296
+ },
+ {
+  "id": "L012",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Walt's pocket fills up again.",
+  "sec": "act3",
+  "start": 43.146,
+  "end": 44.915
+ }
+]

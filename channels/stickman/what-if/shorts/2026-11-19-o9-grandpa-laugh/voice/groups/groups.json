@@ -1,0 +1,135 @@
+[
+ {
+  "id": "G001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Grandpa moves to Australia on Sunday. Jay has seven days. He's never once heard him laugh.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L001",
+   "L002"
+  ]
+ },
+ {
+  "id": "G002",
+  "tag": "JAY",
+  "thought": false,
+  "note": "",
+  "text": "Why did the scarecrow win an award?",
+  "voice": "am_liam",
+  "speed": 1.14,
+  "ids": [
+   "L003"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "GRANDPA",
+  "thought": false,
+  "note": "",
+  "text": "Because he was outstanding in his field. Nineteen fifty-two.",
+  "voice": "bm_george",
+  "speed": 0.95,
+  "ids": [
+   "L004"
+  ]
+ },
+ {
+  "id": "G004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Tuesday, the whoopee cushion. Grandpa sits on it, and simply waits for it to finish.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L005"
+  ]
+ },
+ {
+  "id": "G005",
+  "tag": "GRANDPA",
+  "thought": false,
+  "note": "",
+  "text": "Your sleeve.",
+  "voice": "bm_george",
+  "speed": 0.95,
+  "ids": [
+   "L006"
+  ]
+ },
+ {
+  "id": "G006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By Saturday, Jay gives up. He just sits with him, and opens the old photo album.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L007"
+  ]
+ },
+ {
+  "id": "G007",
+  "tag": "JAY",
+  "thought": false,
+  "note": "",
+  "text": "Is that you?",
+  "voice": "am_liam",
+  "speed": 1.14,
+  "ids": [
+   "L008"
+  ]
+ },
+ {
+  "id": "G008",
+  "tag": "GRANDPA",
+  "thought": false,
+  "note": "",
+  "text": "That was nineteen seventy-four. I thought I looked like a rock star.",
+  "voice": "bm_george",
+  "speed": 0.95,
+  "ids": [
+   "L009"
+  ]
+ },
+ {
+  "id": "G009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And then Grandpa laughs. A huge, wheezing, slapping-his-knee laugh.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L010"
+  ]
+ },
+ {
+  "id": "G010",
+  "tag": "GRANDPA",
+  "thought": false,
+  "note": "",
+  "text": "Send me photos. Especially of your haircuts.",
+  "voice": "bm_george",
+  "speed": 0.95,
+  "ids": [
+   "L011"
+  ]
+ },
+ {
+  "id": "G011",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It was never the jokes. It was the sitting next to him.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L012"
+  ]
+ }
+]

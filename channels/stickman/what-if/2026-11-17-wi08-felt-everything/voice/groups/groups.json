@@ -1,0 +1,696 @@
+[
+ {
+  "id": "G001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You wake up nervous. Your heart's racing. Your hands are wet. Which is strange, because you've got nothing to be nervous about. Four hours away, your best friend has an exam at nine.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L001",
+   "L002",
+   "L003"
+  ]
+ },
+ {
+  "id": "G002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "From today, you feel everything she feels.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L004"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Everything. The good, the bad, and the fourth coffee.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L005"
+  ]
+ },
+ {
+  "id": "G004",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Why are you breathing like that?",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L006"
+  ]
+ },
+ {
+  "id": "G005",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Exam.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L007"
+  ]
+ },
+ {
+  "id": "G006",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "You don't have an exam.",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L008"
+  ]
+ },
+ {
+  "id": "G007",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I know!",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L009"
+  ]
+ },
+ {
+  "id": "G008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At nine, her exam starts, and your mind goes completely blank.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L010"
+  ]
+ },
+ {
+  "id": "G009",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "So the numbers for March are\u2014",
+  "voice": "bm_george",
+  "speed": 1.04,
+  "ids": [
+   "L011"
+  ]
+ },
+ {
+  "id": "G010",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I'm sorry. Who are you?",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L012"
+  ]
+ },
+ {
+  "id": "G011",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At ten, she has her fourth coffee. You have a meeting.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L013"
+  ]
+ },
+ {
+  "id": "G012",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "Are you vibrating?",
+  "voice": "bm_george",
+  "speed": 1.04,
+  "ids": [
+   "L014"
+  ]
+ },
+ {
+  "id": "G013",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Big fan of this quarter.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L015"
+  ]
+ },
+ {
+  "id": "G014",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At twelve, her exam is over and she's happy. So you're happy. You're so happy, you nearly hug Dana.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L016"
+  ]
+ },
+ {
+  "id": "G015",
+  "tag": "COLL",
+  "thought": false,
+  "note": "",
+  "text": "Please don't.",
+  "voice": "af_nicole",
+  "speed": 1.12,
+  "ids": [
+   "L017"
+  ]
+ },
+ {
+  "id": "G016",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At one, she eats a pastry. You can't taste it. But you have never loved a sandwich this much.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L018"
+  ]
+ },
+ {
+  "id": "G017",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At three, she watches a horror film with her new flatmates. You don't.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L019",
+   "L020"
+  ]
+ },
+ {
+  "id": "G018",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Sorry! Spreadsheet. Very scary numbers.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L021"
+  ]
+ },
+ {
+  "id": "G019",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At half five, her bus is late. You glare at a pigeon. The pigeon didn't do anything.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L022"
+  ]
+ },
+ {
+  "id": "G020",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Sorry.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L023"
+  ]
+ },
+ {
+  "id": "G021",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You just apologised to a pigeon. It's been a long day, and none of it was yours.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L024"
+  ]
+ },
+ {
+  "id": "G022",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By the evening, results are out tomorrow, and she's worried. So you're worried. And you can't turn it off.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L025"
+  ]
+ },
+ {
+  "id": "G023",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Why are you pacing?",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L026"
+  ]
+ },
+ {
+  "id": "G024",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I'm not pacing. I'm walking with purpose.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L027"
+  ]
+ },
+ {
+  "id": "G025",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Can you feel me as well?",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L028"
+  ]
+ },
+ {
+  "id": "G026",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "No.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L029"
+  ]
+ },
+ {
+  "id": "G027",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Good.",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L030"
+  ]
+ },
+ {
+  "id": "G028",
+  "tag": "YOU",
+  "thought": false,
+  "note": "text",
+  "text": "Did you sleep? Did you eat? Did you check question six?",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L031"
+  ]
+ },
+ {
+  "id": "G029",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "text",
+  "text": "Why are you being my mum?",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L032"
+  ]
+ },
+ {
+  "id": "G030",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Because her worry is sitting in your chest, and you want it out. You tell yourself you're helping. You're not. You just want the feeling to stop.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L033",
+   "L034"
+  ]
+ },
+ {
+  "id": "G031",
+  "tag": "YOU",
+  "thought": false,
+  "note": "text",
+  "text": "Just relax. It'll be fine.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L035"
+  ]
+ },
+ {
+  "id": "G032",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Her worry goes up. You can feel exactly how much.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L036"
+  ]
+ },
+ {
+  "id": "G033",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "text",
+  "text": "Wow. Thanks. Going to bed.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L037"
+  ]
+ },
+ {
+  "id": "G034",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Now she's annoyed. And then, quietly, something else. Something heavy. Like a wet coat you can't take off.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L038",
+   "L039"
+  ]
+ },
+ {
+  "id": "G035",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At midnight, you're lying in the dark, sad for a reason that isn't yours. So you call her.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L040",
+   "L041"
+  ]
+ },
+ {
+  "id": "G036",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "I'm fine.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L042"
+  ]
+ },
+ {
+  "id": "G037",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She's not. You can feel she's not. You want to fix it. Tell her the exam went well. Tell her the course is worth it. Tell her she'll make friends.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L043",
+   "L044"
+  ]
+ },
+ {
+  "id": "G038",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "But once, at a caf\u00e9, you learned not to answer things she hadn't said.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L045"
+  ]
+ },
+ {
+  "id": "G039",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You don't have to be fine.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L046"
+  ]
+ },
+ {
+  "id": "G040",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "I just miss home. That's all. It's stupid.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L047"
+  ]
+ },
+ {
+  "id": "G041",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "It's not stupid.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L048"
+  ]
+ },
+ {
+  "id": "G042",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And then you don't say anything else. You just stay on the line.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L049"
+  ]
+ },
+ {
+  "id": "G043",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Five minutes. Ten. Neither of you talks. And the heavy coat gets lighter. Not gone. Shared. You've felt her nervous, happy, terrified and annoyed today. This is the first feeling you didn't try to make go away.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L050",
+   "L051",
+   "L052"
+  ]
+ },
+ {
+  "id": "G044",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Are you still there?",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L053"
+  ]
+ },
+ {
+  "id": "G045",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I'm here.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L054"
+  ]
+ },
+ {
+  "id": "G046",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "You're smiling. I can hear it. Will you stay on until I fall asleep?",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L055",
+   "L056"
+  ]
+ },
+ {
+  "id": "G047",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Yeah.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L057"
+  ]
+ },
+ {
+  "id": "G048",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She falls asleep at twenty to one. You can feel it, like a lamp being turned down slowly in another city.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L058"
+  ]
+ },
+ {
+  "id": "G049",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The next morning, at nine, a feeling hits you so hard you drop your toast.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L059"
+  ]
+ },
+ {
+  "id": "G050",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "She passed!",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L060"
+  ]
+ },
+ {
+  "id": "G051",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Who passed what?",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L061"
+  ]
+ },
+ {
+  "id": "G052",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Everything!",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L062"
+  ]
+ },
+ {
+  "id": "G053",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Did you drop your toast?",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L063"
+  ]
+ },
+ {
+  "id": "G054",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Worth it.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L064"
+  ]
+ },
+ {
+  "id": "G055",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "text",
+  "text": "Passed! Did you feel that?",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L065"
+  ]
+ },
+ {
+  "id": "G056",
+  "tag": "YOU",
+  "thought": false,
+  "note": "text",
+  "text": "Felt it. Dropped my toast.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L066"
+  ]
+ },
+ {
+  "id": "G057",
+  "tag": "N",
+  "thought": false,
+  "note": "soft",
+  "text": "Would you want to feel everything they feel?",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L067"
+  ]
+ }
+]

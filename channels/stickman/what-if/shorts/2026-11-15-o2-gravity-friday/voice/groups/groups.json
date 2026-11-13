@@ -1,0 +1,147 @@
+[
+ {
+  "id": "G001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Every Friday at three, the office loses gravity. For five seconds. Everyone knows. Everyone holds on.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L001",
+   "L002"
+  ]
+ },
+ {
+  "id": "G002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Dana holds her laptop. Her big report isn't saved.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L003"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "INTERN",
+  "thought": false,
+  "note": "",
+  "text": "Morning! Coffee run!",
+  "voice": "am_echo",
+  "speed": 1.1,
+  "ids": [
+   "L004"
+  ]
+ },
+ {
+  "id": "G004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The new intern doesn't know.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L005"
+  ]
+ },
+ {
+  "id": "G005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Three o'clock.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L006"
+  ]
+ },
+ {
+  "id": "G006",
+  "tag": "INTERN",
+  "thought": false,
+  "note": "",
+  "text": "Is this normal?!",
+  "voice": "am_echo",
+  "speed": 1.1,
+  "ids": [
+   "L007"
+  ]
+ },
+ {
+  "id": "G007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Dana has two hands. And one laptop.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L008"
+  ]
+ },
+ {
+  "id": "G008",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "Who brought coffee?",
+  "voice": "bm_george",
+  "speed": 1.04,
+  "ids": [
+   "L009"
+  ]
+ },
+ {
+  "id": "G009",
+  "tag": "INTERN",
+  "thought": false,
+  "note": "",
+  "text": "Me. Sorry. Hi.",
+  "voice": "am_echo",
+  "speed": 1.1,
+  "ids": [
+   "L010"
+  ]
+ },
+ {
+  "id": "G010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The report is gone.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L011"
+  ]
+ },
+ {
+  "id": "G011",
+  "tag": "COLL",
+  "thought": false,
+  "note": "",
+  "text": "Worth it. Probably.",
+  "voice": "af_nicole",
+  "speed": 1.12,
+  "ids": [
+   "L012"
+  ]
+ },
+ {
+  "id": "G012",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Now he brings her coffee every Friday. At two fifty-nine.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L013"
+  ]
+ }
+]

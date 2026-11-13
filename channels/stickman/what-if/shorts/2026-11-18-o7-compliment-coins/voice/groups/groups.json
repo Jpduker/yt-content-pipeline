@@ -1,0 +1,113 @@
+[
+ {
+  "id": "G001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, every compliment you mean drops a gold coin in the other person's pocket. Fake ones turn to ash. In your hand.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L001",
+   "L002"
+  ]
+ },
+ {
+  "id": "G002",
+  "tag": "GRANT",
+  "thought": false,
+  "note": "",
+  "text": "Love the tie, boss. Genius. Visionary.",
+  "voice": "am_adam",
+  "speed": 1.06,
+  "ids": [
+   "L003"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Grant has burnt fingers most days.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L004"
+  ]
+ },
+ {
+  "id": "G004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The richest man in town is Walt. He sweeps the high street. Every coin he owns came from one person.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L005",
+   "L006"
+  ]
+ },
+ {
+  "id": "G005",
+  "tag": "ZOE",
+  "thought": false,
+  "note": "",
+  "text": "Morning, Walt! The street looks shiny!",
+  "voice": "af_sky",
+  "speed": 1.12,
+  "ids": [
+   "L007"
+  ]
+ },
+ {
+  "id": "G006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Every morning, for three years. She means it every time.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L008"
+  ]
+ },
+ {
+  "id": "G007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then Zoe's school trip costs a hundred and twenty coins. Her family can't afford it. The next morning, it's paid. Nobody knows who by.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L009",
+   "L010"
+  ]
+ },
+ {
+  "id": "G008",
+  "tag": "ZOE",
+  "thought": false,
+  "note": "",
+  "text": "Morning, Walt! You look really happy today!",
+  "voice": "af_sky",
+  "speed": 1.12,
+  "ids": [
+   "L011"
+  ]
+ },
+ {
+  "id": "G009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Walt's pocket fills up again.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L012"
+  ]
+ }
+]

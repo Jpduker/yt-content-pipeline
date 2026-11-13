@@ -1,0 +1,1081 @@
+{
+ "title": "Gravity Stops for 5 Seconds Every Friday at Work",
+ "duration": 38.15,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 5.175,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "cam": [
+     [
+      900,
+      430,
+      1.0
+     ],
+     [
+      900,
+      420,
+      1.08
+     ]
+    ],
+    "vx": 960,
+    "hookText": "NO GRAVITY. 5 SECONDS.",
+    "hookT": [
+     0,
+     5.365
+    ],
+    "fring": [
+     0,
+     5.465
+    ],
+    "dropAt": "L001+0.3",
+    "floaters": [
+     {
+      "k": "paper",
+      "x": 520,
+      "y": -520,
+      "spin": 0.6
+     },
+     {
+      "k": "paper",
+      "x": 760,
+      "y": -380,
+      "spin": -0.5
+     },
+     {
+      "k": "mug",
+      "x": 700,
+      "y": -620,
+      "c": "#d8504a"
+     },
+     {
+      "k": "plant",
+      "x": 1010,
+      "y": -470,
+      "spin": 0.2
+     },
+     {
+      "k": "paper",
+      "x": 1180,
+      "y": -640,
+      "spin": 0.7
+     },
+     {
+      "k": "mug",
+      "x": 880,
+      "y": -300,
+      "c": "#5a7ac0",
+      "spin": -0.8
+     },
+     {
+      "k": "cup",
+      "x": 1060,
+      "y": -760,
+      "spin": 0.9
+     },
+     {
+      "k": "cabinet",
+      "x": 1000,
+      "y": -300,
+      "r": 3.1,
+      "spin": 0,
+      "back": true
+     }
+    ],
+    "who": [
+     {
+      "id": "BOSS",
+      "x": 1010,
+      "pose": "hug",
+      "expr": "shocked",
+      "f": -1,
+      "rot": 3.0,
+      "dy": -330
+     },
+     {
+      "id": "X1",
+      "x": 700,
+      "pose": "jump",
+      "expr": "surprised",
+      "f": 1,
+      "dy": -260,
+      "rot": 0.4,
+      "seed": 3
+     },
+     {
+      "id": "COLL",
+      "x": 800,
+      "pose": "reach",
+      "expr": "flat",
+      "f": 1,
+      "dy": -120,
+      "rot": -0.3,
+      "prop": "tablet"
+     }
+    ],
+    "motif": "num"
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s002",
+   "start": 5.175,
+   "end": 8.53,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "cam": [
+     [
+      880,
+      560,
+      1.0
+     ],
+     [
+      880,
+      560,
+      1.08
+     ]
+    ],
+    "stamp": "FRI 14:59",
+    "chairs": [
+     [
+      630,
+      1
+     ]
+    ],
+    "who": [
+     {
+      "id": "BOSS",
+      "x": 1000,
+      "pose": "sit",
+      "expr": "determined",
+      "f": -1
+     },
+     {
+      "id": "X1",
+      "x": 760,
+      "pose": "reach",
+      "expr": "nervous",
+      "f": 1,
+      "seed": 3
+     },
+     {
+      "id": "COLL",
+      "x": 630,
+      "pose": "sit",
+      "expr": "nervous",
+      "f": 1,
+      "prop": "tablet"
+     }
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s003",
+   "start": 8.53,
+   "end": 12.648,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "cam": [
+     [
+      660,
+      600,
+      1.6
+     ],
+     [
+      660,
+      600,
+      1.7400000000000002
+     ]
+    ],
+    "chairs": [
+     [
+      630,
+      1
+     ]
+    ],
+    "who": [
+     {
+      "id": "COLL",
+      "x": 630,
+      "pose": "sit",
+      "expr": [
+       [
+        0,
+        "nervous"
+       ],
+       [
+        0.42496357455075273,
+        "worried"
+       ]
+      ],
+      "f": 1,
+      "prop": "tablet",
+      "look": [
+       0.3,
+       0.4
+      ]
+     }
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s004",
+   "start": 12.648,
+   "end": 14.805,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "lift",
+    "so": {},
+    "cam": [
+     [
+      960,
+      560,
+      1.15
+     ],
+     [
+      960,
+      560,
+      1.25
+     ]
+    ],
+    "who": [
+     {
+      "id": "INTERN",
+      "x": 0,
+      "pose": "holdFront",
+      "expr": "joy",
+      "f": 1,
+      "walk": [
+       760,
+       960,
+       0,
+       0.6
+      ]
+     }
+    ],
+    "floaters": [
+     {
+      "k": "tray",
+      "x": 1010,
+      "y": -170,
+      "rest": -170,
+      "spin": 0
+     }
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s005",
+   "start": 14.805,
+   "end": 17.435,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "office",
+    "who": "INTERN",
+    "expr": "happy",
+    "side": -1,
+    "bgCam": [
+     1100,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s006",
+   "start": 17.435,
+   "end": 19.167,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.45,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "cam": [
+     [
+      860,
+      540,
+      0.95
+     ],
+     [
+      860,
+      500,
+      1.02
+     ]
+    ],
+    "vx": 960,
+    "stamp": "FRI 15:00",
+    "liftAt": 0.4,
+    "fring": [
+     0.45,
+     7.906
+    ],
+    "floaters": [
+     {
+      "k": "paper",
+      "x": 520,
+      "y": -520,
+      "spin": 0.6
+     },
+     {
+      "k": "paper",
+      "x": 760,
+      "y": -380,
+      "spin": -0.5
+     },
+     {
+      "k": "mug",
+      "x": 700,
+      "y": -620,
+      "c": "#d8504a"
+     },
+     {
+      "k": "plant",
+      "x": 1010,
+      "y": -470,
+      "spin": 0.2
+     },
+     {
+      "k": "paper",
+      "x": 1180,
+      "y": -640,
+      "spin": 0.7
+     },
+     {
+      "k": "mug",
+      "x": 880,
+      "y": -300,
+      "c": "#5a7ac0",
+      "spin": -0.8
+     },
+     {
+      "k": "cup",
+      "x": 1060,
+      "y": -760,
+      "spin": 0.9
+     },
+     {
+      "k": "tray",
+      "x": 1060,
+      "y": -480,
+      "spin": 0.8
+     }
+    ],
+    "chairs": [
+     [
+      630,
+      1
+     ]
+    ],
+    "who": [
+     {
+      "id": "COLL",
+      "x": 630,
+      "pose": "sit",
+      "expr": "scared",
+      "f": 1,
+      "prop": "tablet",
+      "dy": [
+       [
+        0,
+        0
+       ],
+       [
+        0.4,
+        -60
+       ]
+      ]
+     },
+     {
+      "id": "INTERN",
+      "x": 1060,
+      "pose": [
+       [
+        0,
+        "holdFront"
+       ],
+       [
+        0.4,
+        "jump"
+       ]
+      ],
+      "expr": [
+       [
+        0,
+        "happy"
+       ],
+       [
+        0.45,
+        "shocked"
+       ]
+      ],
+      "f": 1,
+      "dy": [
+       [
+        0,
+        0
+       ],
+       [
+        0.4,
+        -200
+       ]
+      ],
+      "rot": [
+       [
+        0,
+        0
+       ],
+       [
+        0.4,
+        0.3
+       ]
+      ]
+     }
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s007",
+   "start": 19.167,
+   "end": 20.888,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "cam": [
+     [
+      1150,
+      480,
+      1.25
+     ],
+     [
+      1350,
+      420,
+      1.3
+     ]
+    ],
+    "fring": [
+     -1.282,
+     6.174
+    ],
+    "floaters": [
+     {
+      "k": "cup",
+      "x": 1180,
+      "y": -560,
+      "spin": 1.4
+     },
+     {
+      "k": "cup",
+      "x": 1320,
+      "y": -700,
+      "spin": -1.2
+     },
+     {
+      "k": "cup",
+      "x": 1450,
+      "y": -480,
+      "spin": 1.1
+     },
+     {
+      "k": "tray",
+      "x": 1280,
+      "y": -620,
+      "spin": 0.9
+     }
+    ],
+    "who": [
+     {
+      "id": "INTERN",
+      "x": 0,
+      "pose": "dive",
+      "expr": "scared",
+      "f": 1,
+      "walk": [
+       1150,
+       1400,
+       0,
+       1
+      ],
+      "dy": -380,
+      "rot": 0.6
+     }
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s008",
+   "start": 20.888,
+   "end": 23.641,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "office",
+    "who": "COLL",
+    "expr": [
+     [
+      0,
+      "scared"
+     ],
+     [
+      0.2270250635670165,
+      "worried"
+     ],
+     [
+      0.6338539774791128,
+      "determined"
+     ]
+    ],
+    "side": 1,
+    "look": [
+     [
+      0,
+      [
+       0.2,
+       0.5
+      ]
+     ],
+     [
+      0.2996730839084619,
+      [
+       0.5,
+       -0.6
+      ]
+     ]
+    ],
+    "fring": [
+     -3.003,
+     4.453
+    ],
+    "bgCam": [
+     700,
+     480,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s009",
+   "start": 23.641,
+   "end": 25.191,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0.75,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "cam": [
+     [
+      1150,
+      440,
+      1.2
+     ],
+     [
+      1180,
+      440,
+      1.25
+     ]
+    ],
+    "fring": [
+     -5.756,
+     1.7
+    ],
+    "floaters": [
+     {
+      "k": "laptop",
+      "x": 980,
+      "y": -360,
+      "spin": 1.6
+     }
+    ],
+    "who": [
+     {
+      "id": "INTERN",
+      "x": 1300,
+      "pose": "dive",
+      "expr": "scared",
+      "f": 1,
+      "dy": -430,
+      "rot": 0.5
+     },
+     {
+      "id": "COLL",
+      "x": 1180,
+      "pose": "reach",
+      "expr": "determined",
+      "f": 1,
+      "dy": -250,
+      "rot": -0.5
+     }
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s010",
+   "start": 25.191,
+   "end": 26.702,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "hit",
+     "gain": -9
+    },
+    {
+     "at": 0.12,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "cam": [
+     [
+      1000,
+      560,
+      1.0
+     ],
+     [
+      1000,
+      560,
+      1.04
+     ]
+    ],
+    "dropAt": 0,
+    "chairs": [
+     [
+      1250,
+      -1
+     ]
+    ],
+    "floaters": [
+     {
+      "k": "splash",
+      "x": 820,
+      "y": -330,
+      "rest": -330
+     },
+     {
+      "k": "bin",
+      "x": 1500,
+      "y": 0
+     },
+     {
+      "k": "cup",
+      "x": 760,
+      "y": -10
+     },
+     {
+      "k": "cup",
+      "x": 860,
+      "y": -10
+     },
+     {
+      "k": "paper",
+      "x": 1100,
+      "y": -6
+     }
+    ],
+    "who": [
+     {
+      "id": "BOSS",
+      "x": 820,
+      "pose": "stand",
+      "expr": [
+       [
+        0,
+        "shocked"
+       ],
+       [
+        0.4,
+        "angry"
+       ]
+      ],
+      "f": 1
+     },
+     {
+      "id": "INTERN",
+      "x": 1250,
+      "pose": "sit",
+      "expr": "scared",
+      "f": -1
+     },
+     {
+      "id": "COLL",
+      "x": 1060,
+      "pose": "stand",
+      "expr": "nervous",
+      "f": -1
+     }
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s011",
+   "start": 26.702,
+   "end": 28.951,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "office",
+    "who": "INTERN",
+    "expr": [
+     [
+      0,
+      "nervous"
+     ],
+     [
+      0.2774566473988435,
+      "smile"
+     ]
+    ],
+    "side": -1,
+    "bgCam": [
+     1250,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s012",
+   "start": 28.951,
+   "end": 30.493,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "cam": [
+     [
+      1500,
+      700,
+      1.9
+     ],
+     [
+      1500,
+      700,
+      2.02
+     ]
+    ],
+    "vx": 960,
+    "floaters": [
+     {
+      "k": "bin",
+      "x": 1500,
+      "y": 0,
+      "laptop": true
+     }
+    ],
+    "who": []
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s013",
+   "start": 30.493,
+   "end": 32.581,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "office",
+    "who": "COLL",
+    "expr": [
+     [
+      0,
+      "flat"
+     ],
+     [
+      0.28496168582375414,
+      "smirk"
+     ]
+    ],
+    "side": 1,
+    "bgCam": [
+     900,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s014",
+   "start": 32.581,
+   "end": 38.15,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "cam": [
+     [
+      780,
+      560,
+      1.25
+     ],
+     [
+      780,
+      560,
+      1.35
+     ]
+    ],
+    "stamp": "FRI 14:59",
+    "chairs": [
+     [
+      630,
+      1
+     ]
+    ],
+    "floaters": [
+     {
+      "k": "cup",
+      "x": 770,
+      "y": -230,
+      "rest": -230
+     }
+    ],
+    "who": [
+     {
+      "id": "COLL",
+      "x": 630,
+      "pose": "sit",
+      "expr": "smile",
+      "f": 1,
+      "prop": "tablet"
+     },
+     {
+      "id": "INTERN",
+      "x": 860,
+      "pose": "reach",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "ask": {
+     "text": "Would you have let go of the laptop?",
+     "at": 4.067
+    }
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 12.34,
+   "mood": "mystery",
+   "intensity": 0.36
+  },
+  {
+   "start": 12.8,
+   "end": 16.93,
+   "mood": "playful",
+   "intensity": 0.4
+  },
+  {
+   "start": 17.59,
+   "end": 25.34,
+   "mood": "tension",
+   "intensity": 0.34
+  },
+  {
+   "start": 25.44,
+   "end": 38.15,
+   "mood": "playful",
+   "intensity": 0.4
+  }
+ ],
+ "sfx": []
+}

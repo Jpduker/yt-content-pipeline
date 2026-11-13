@@ -1,0 +1,672 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Everyone you know has a number now.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 3.45
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It's how many more times they'll forgive you.",
+  "sec": "hook",
+  "start": 3.692,
+  "end": 6.192
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your little brother. Three hundred and twelve.",
+  "sec": "hook",
+  "start": 6.732,
+  "end": 9.407
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your mum.",
+  "sec": "hook",
+  "start": 9.547,
+  "end": 10.422
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Doesn't even have a number.",
+  "sec": "hook",
+  "start": 10.862,
+  "end": 12.146
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your best friend has one.",
+  "sec": "hook",
+  "start": 12.986,
+  "end": 14.417
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Just one.",
+  "sec": "hook",
+  "start": 15.357,
+  "end": 16.165
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It takes you one coffee to work out the rule.",
+  "sec": "act1",
+  "start": 19.465,
+  "end": 22.002
+ },
+ {
+  "id": "L009",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Oh no. Sorry, sorry\u2014",
+  "sec": "act1",
+  "start": 23.162,
+  "end": 24.764
+ },
+ {
+  "id": "L010",
+  "tag": "BARISTA",
+  "thought": false,
+  "note": "",
+  "text": "Ah, don't worry about it.",
+  "sec": "act1",
+  "start": 24.804,
+  "end": 25.962
+ },
+ {
+  "id": "L011",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Forty. Thirty-nine.",
+  "sec": "act1",
+  "start": 26.362,
+  "end": 28.212
+ },
+ {
+  "id": "L012",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Every time someone forgives you, it goes down by one.",
+  "sec": "act1",
+  "start": 28.351,
+  "end": 31.376
+ },
+ {
+  "id": "L013",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "A toddler in the park has nine thousand. Toddlers forgive everyone.",
+  "sec": "act1",
+  "start": 32.617,
+  "end": 37.532
+ },
+ {
+  "id": "L014",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "A man you have never met has four. You decide not to find out why.",
+  "sec": "act1",
+  "start": 37.749,
+  "end": 42.205
+ },
+ {
+  "id": "L015",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your boss has two. You have never been this early in your life.",
+  "sec": "act1",
+  "start": 43.445,
+  "end": 46.941
+ },
+ {
+  "id": "L016",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "Morning. Is that a tie?",
+  "sec": "act1",
+  "start": 47.201,
+  "end": 48.971
+ },
+ {
+  "id": "L017",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "It felt like a tie day.",
+  "sec": "act1",
+  "start": 49.121,
+  "end": 50.445
+ },
+ {
+  "id": "L018",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "It's Sunday.",
+  "sec": "act1",
+  "start": 50.594,
+  "end": 51.575
+ },
+ {
+  "id": "L019",
+  "tag": "THEO",
+  "thought": false,
+  "note": "phone",
+  "text": "Can I borrow your charger? And your jacket. And forty quid.",
+  "sec": "act1",
+  "start": 52.624,
+  "end": 55.971
+ },
+ {
+  "id": "L020",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You already have my charger.",
+  "sec": "act1",
+  "start": 56.121,
+  "end": 57.744
+ },
+ {
+  "id": "L021",
+  "tag": "THEO",
+  "thought": false,
+  "note": "phone",
+  "text": "Then just the forty. Also, can I stay at yours for a bit?",
+  "sec": "act1",
+  "start": 57.894,
+  "end": 61.026
+ },
+ {
+  "id": "L022",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Three hundred and twelve. Little brothers are built for this.",
+  "sec": "act1",
+  "start": 61.426,
+  "end": 64.944
+ },
+ {
+  "id": "L023",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "You never call.",
+  "sec": "act1",
+  "start": 66.104,
+  "end": 67.08
+ },
+ {
+  "id": "L024",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I'm calling now.",
+  "sec": "act1",
+  "start": 67.23,
+  "end": 68.277
+ },
+ {
+  "id": "L025",
+  "tag": "MUM",
+  "thought": false,
+  "note": "phone",
+  "text": "Then you're forgiven. Did you eat?",
+  "sec": "act1",
+  "start": 68.427,
+  "end": 70.246
+ },
+ {
+  "id": "L026",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The symbol over her head doesn't even flicker.",
+  "sec": "act1",
+  "start": 70.646,
+  "end": 73.463
+ },
+ {
+  "id": "L027",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And then there's Mira.",
+  "sec": "act1",
+  "start": 74.403,
+  "end": 75.617
+ },
+ {
+  "id": "L028",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Four hours away, at her new course. With a one over her head.",
+  "sec": "act2",
+  "start": 77.517,
+  "end": 81.442
+ },
+ {
+  "id": "L029",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "One more mistake, and that's it. Whatever \"it\" is.",
+  "sec": "act2",
+  "start": 81.583,
+  "end": 85.283
+ },
+ {
+  "id": "L030",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "So you get careful.",
+  "sec": "act2",
+  "start": 85.422,
+  "end": 86.473
+ },
+ {
+  "id": "L031",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You do the maths. If every mistake costs one chance, the only safe amount of Mira is none.",
+  "sec": "act2",
+  "start": 86.625,
+  "end": 92.51
+ },
+ {
+  "id": "L032",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Her call comes at nine. You let it ring. A call is twenty minutes of things you could say wrong.",
+  "sec": "act2",
+  "start": 93.25,
+  "end": 99.318
+ },
+ {
+  "id": "L033",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "text",
+  "text": "You alive?",
+  "sec": "act2",
+  "start": 99.578,
+  "end": 100.326
+ },
+ {
+  "id": "L034",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You write a reply. Then a shorter one. Then a thumbs up.",
+  "sec": "act2",
+  "start": 100.726,
+  "end": 104.106
+ },
+ {
+  "id": "L035",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She sends a photo of her new flat. You don't say it's small. You don't say anything.",
+  "sec": "act2",
+  "start": 105.346,
+  "end": 110.357
+ },
+ {
+  "id": "L036",
+  "tag": "THEO",
+  "thought": false,
+  "note": "phone",
+  "text": "Why are you being weird with Mira?",
+  "sec": "act2",
+  "start": 111.517,
+  "end": 113.269
+ },
+ {
+  "id": "L037",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I'm not being weird.",
+  "sec": "act2",
+  "start": 113.419,
+  "end": 114.615
+ },
+ {
+  "id": "L038",
+  "tag": "THEO",
+  "thought": false,
+  "note": "phone",
+  "text": "She texted me. Me. To ask if you're okay.",
+  "sec": "act2",
+  "start": 114.765,
+  "end": 116.876
+ },
+ {
+  "id": "L039",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Mira never texts Theo. Theo can't even spell okay.",
+  "sec": "act2",
+  "start": 117.276,
+  "end": 120.922
+ },
+ {
+  "id": "L040",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "text",
+  "text": "Showcase on Friday. My first one. Will you come?",
+  "sec": "act2",
+  "start": 121.182,
+  "end": 124.073
+ },
+ {
+  "id": "L041",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Four hours on a train. A whole evening of chances to get it wrong.",
+  "sec": "act2",
+  "start": 124.473,
+  "end": 128.875
+ },
+ {
+  "id": "L042",
+  "tag": "YOU",
+  "thought": false,
+  "note": "text",
+  "text": "Can't. Work. I'll watch the stream?",
+  "sec": "act2",
+  "start": 129.135,
+  "end": 131.212
+ },
+ {
+  "id": "L043",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You send it.",
+  "sec": "act2",
+  "start": 132.112,
+  "end": 133.006
+ },
+ {
+  "id": "L044",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Somewhere four hours away, she forgives you.",
+  "sec": "act2",
+  "start": 134.846,
+  "end": 137.361
+ },
+ {
+  "id": "L045",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Zero.",
+  "sec": "act2",
+  "start": 138.201,
+  "end": 138.878
+ },
+ {
+  "id": "L046",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You spent her last chance by doing nothing at all.",
+  "sec": "act3",
+  "start": 140.178,
+  "end": 142.91
+ },
+ {
+  "id": "L047",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "That night, you work out what you were protecting. Not her. The number.",
+  "sec": "act3",
+  "start": 144.15,
+  "end": 148.281
+ },
+ {
+  "id": "L048",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And a zero has nothing left to protect.",
+  "sec": "act3",
+  "start": 149.121,
+  "end": 151.594
+ },
+ {
+  "id": "L049",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "So on Friday, you get on the train.",
+  "sec": "act3",
+  "start": 152.834,
+  "end": 154.984
+ },
+ {
+  "id": "L050",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Four hours. For once, you don't rehearse a single sentence.",
+  "sec": "act3",
+  "start": 155.124,
+  "end": 158.748
+ },
+ {
+  "id": "L051",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You're late. You stand at the back. You clap too loud, at the wrong moment.",
+  "sec": "act3",
+  "start": 159.988,
+  "end": 164.311
+ },
+ {
+  "id": "L052",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "That's my friend. He's weird.",
+  "sec": "act3",
+  "start": 164.571,
+  "end": 166.263
+ },
+ {
+  "id": "L053",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The audience laughs. She keeps going. She's good at this. You knew she would be.",
+  "sec": "act3",
+  "start": 167.563,
+  "end": 172.279
+ },
+ {
+  "id": "L054",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "You said you couldn't come.",
+  "sec": "act3",
+  "start": 174.039,
+  "end": 175.143
+ },
+ {
+  "id": "L055",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I lied. I was scared of getting it wrong.",
+  "sec": "act3",
+  "start": 175.293,
+  "end": 177.745
+ },
+ {
+  "id": "L056",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "So you just disappeared? That's the only thing that actually hurts.",
+  "sec": "act3",
+  "start": 177.895,
+  "end": 181.261
+ },
+ {
+  "id": "L057",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I know. I'm sorry.",
+  "sec": "act3",
+  "start": 182.011,
+  "end": 183.314
+ },
+ {
+  "id": "L058",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You wait for the number to go below zero.",
+  "sec": "act3",
+  "start": 184.514,
+  "end": 186.816
+ },
+ {
+  "id": "L059",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "You're here now. Buy me chips, and we're even.",
+  "sec": "act3",
+  "start": 187.676,
+  "end": 189.916
+ },
+ {
+  "id": "L060",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Zero. Then, one.",
+  "sec": "act3",
+  "start": 191.716,
+  "end": 193.511
+ },
+ {
+  "id": "L061",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It turns out the number doesn't only go down.",
+  "sec": "act3",
+  "start": 193.719,
+  "end": 196.062
+ },
+ {
+  "id": "L062",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You buy the chips. You tell her the flat isn't small. You tell her it's very small, and very her.",
+  "sec": "act3",
+  "start": 197.302,
+  "end": 203.103
+ },
+ {
+  "id": "L063",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Okay, now you're being weird again.",
+  "sec": "act3",
+  "start": 203.363,
+  "end": 205.061
+ },
+ {
+  "id": "L064",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You said I was weird. On a stage. In front of everyone.",
+  "sec": "act3",
+  "start": 205.211,
+  "end": 208.672
+ },
+ {
+  "id": "L065",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "I said you were my friend first.",
+  "sec": "act3",
+  "start": 208.822,
+  "end": 210.395
+ },
+ {
+  "id": "L066",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Over her head, the one glows, small and gold. You stop looking at it.",
+  "sec": "act3",
+  "start": 211.295,
+  "end": 215.782
+ },
+ {
+  "id": "L067",
+  "tag": "N",
+  "thought": false,
+  "note": "soft",
+  "text": "Would you want to know how many chances you have left?",
+  "sec": "end",
+  "start": 218.422,
+  "end": 221.261
+ }
+]

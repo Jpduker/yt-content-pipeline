@@ -1,0 +1,960 @@
+{
+ "title": "In This World, You Get 1,000 Words a Day",
+ "duration": 37.83,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 4.427,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 3.595,
+     "name": "tick",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "cam": [
+     [
+      950,
+      560,
+      1.25
+     ],
+     [
+      950,
+      560,
+      1.4
+     ]
+    ],
+    "vx": 960,
+    "hookText": "1,000 WORDS A DAY",
+    "hookT": [
+     0,
+     3.595
+    ],
+    "who": [
+     {
+      "id": "DEV",
+      "x": 860,
+      "pose": "stand",
+      "expr": [
+       [
+        0,
+        "neutral"
+       ],
+       [
+        0.7442963632256608,
+        "happy"
+       ]
+      ],
+      "f": 1,
+      "badge": {
+       "k": "words",
+       "v": [
+        [
+         0,
+         1000
+        ],
+        [
+         0.8120623447029592,
+         999
+        ]
+       ],
+       "at": 0
+      }
+     },
+     {
+      "id": "X4",
+      "x": 1050,
+      "pose": [
+       [
+        0,
+        "point"
+       ],
+       [
+        0.55,
+        "handsOnHead"
+       ]
+      ],
+      "expr": [
+       [
+        0,
+        "angry"
+       ],
+       [
+        0.55,
+        "sad"
+       ]
+      ],
+      "f": -1,
+      "seed": 4,
+      "badge": {
+       "k": "words",
+       "v": 0,
+       "at": 0
+      }
+     }
+    ],
+    "motif": "num"
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s002",
+   "start": 4.427,
+   "end": 6.587,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "who": "X4",
+    "expr": [
+     [
+      0,
+      "angry"
+     ],
+     [
+      0.7060185185185186,
+      "sad"
+     ]
+    ],
+    "side": -1,
+    "badge": {
+     "k": "words",
+     "v": 0,
+     "at": 0
+    },
+    "bgCam": [
+     1000,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s003",
+   "start": 6.587,
+   "end": 9.097,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "who": "DEV",
+    "expr": [
+     [
+      0,
+      "surprised"
+     ],
+     [
+      0.3346613545816736,
+      "worried"
+     ]
+    ],
+    "side": 1,
+    "badge": {
+     "k": "words",
+     "v": 999,
+     "at": 0
+    },
+    "bgCam": [
+     800,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s004",
+   "start": 9.097,
+   "end": 15.912,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "ins": "comments",
+    "count": [
+     999,
+     10
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s005",
+   "start": 15.912,
+   "end": 17.307,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "who": "DEV",
+    "expr": "joy",
+    "side": 1,
+    "nod": true,
+    "badge": {
+     "k": "words",
+     "v": 10,
+     "at": 0
+    },
+    "bgCam": [
+     800,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s006",
+   "start": 17.307,
+   "end": 19.164,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "hit",
+     "gain": -13
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "who": "DEV",
+    "expr": [
+     [
+      0,
+      "happy"
+     ],
+     [
+      0.10770059235325569,
+      "worried"
+     ]
+    ],
+    "side": 1,
+    "look": [
+     [
+      0,
+      [
+       0.2,
+       0
+      ]
+     ],
+     [
+      0.2154011847065133,
+      [
+       0.1,
+       -0.8
+      ]
+     ]
+    ],
+    "badge": {
+     "k": "words",
+     "v": 10,
+     "at": 0
+    },
+    "push": 0.14,
+    "bgCam": [
+     800,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s007",
+   "start": 19.164,
+   "end": 24.158,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "stage",
+    "so": {
+     "variant": "back"
+    },
+    "cam": [
+     [
+      980,
+      560,
+      1.15
+     ],
+     [
+      960,
+      560,
+      1.3
+     ]
+    ],
+    "stamp": "7 P.M.",
+    "who": [
+     {
+      "id": "PIA",
+      "x": 1080,
+      "pose": "holdFront",
+      "expr": "nervous",
+      "f": -1,
+      "s": 1.25,
+      "badge": {
+       "k": "words",
+       "v": 1000,
+       "at": 0
+      }
+     },
+     {
+      "id": "DEV",
+      "x": 0,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1,
+      "walk": [
+       500,
+       800,
+       0,
+       0.5
+      ],
+      "badge": {
+       "k": "words",
+       "v": 10,
+       "at": 0.2
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "s008",
+   "start": 24.158,
+   "end": 26.172,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "stage",
+    "so": {
+     "variant": "back"
+    },
+    "who": "PIA",
+    "expr": [
+     [
+      0,
+      "scared"
+     ],
+     [
+      0.41459781529294815,
+      "worried"
+     ]
+    ],
+    "side": -1,
+    "badge": {
+     "k": "words",
+     "v": [
+      [
+       0,
+       1000
+      ],
+      [
+       0.07447864945382256,
+       999
+      ],
+      [
+       0.1489572989076451,
+       998
+      ],
+      [
+       0.2855014895729888,
+       997
+      ],
+      [
+       0.3723932472691163,
+       996
+      ],
+      [
+       0.563555114200595,
+       995
+      ],
+      [
+       0.6752730883813306,
+       994
+      ]
+     ],
+     "at": 0
+    },
+    "bgCam": [
+     1080,
+     520,
+     1.6
+    ]
+   }
+  },
+  {
+   "id": "s009",
+   "start": 26.172,
+   "end": 27.362,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "stage",
+    "so": {
+     "variant": "back"
+    },
+    "who": "DEV",
+    "expr": [
+     [
+      0,
+      "worried"
+     ],
+     [
+      0.55,
+      "tender"
+     ]
+    ],
+    "side": 1,
+    "look": [
+     [
+      0,
+      [
+       0.1,
+       -0.8
+      ]
+     ],
+     [
+      0.5,
+      [
+       -0.4,
+       0
+      ]
+     ]
+    ],
+    "badge": {
+     "k": "words",
+     "v": 10,
+     "at": 0
+    },
+    "push": 0.1,
+    "bgCam": [
+     800,
+     520,
+     1.6
+    ]
+   }
+  },
+  {
+   "id": "s010",
+   "start": 27.362,
+   "end": 29.963,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "stage",
+    "so": {
+     "variant": "back"
+    },
+    "cam": [
+     [
+      940,
+      600,
+      1.5
+     ],
+     [
+      940,
+      600,
+      1.62
+     ]
+    ],
+    "who": [
+     {
+      "id": "DEV",
+      "x": 820,
+      "pose": "kneel",
+      "expr": "tender",
+      "f": 1,
+      "badge": {
+       "k": "words",
+       "v": [
+        [
+         0,
+         10
+        ],
+        [
+         0.057670126874278596,
+         9
+        ],
+        [
+         0.09611687812379721,
+         8
+        ],
+        [
+         0.1633986928104565,
+         7
+        ],
+        [
+         0.23068050749711574,
+         6
+        ],
+        [
+         0.3748558246828136,
+         5
+        ],
+        [
+         0.4229142637447129,
+         4
+        ],
+        [
+         0.4998077662437515,
+         3
+        ]
+       ],
+       "at": 0
+      }
+     },
+     {
+      "id": "PIA",
+      "x": 1060,
+      "pose": "holdFront",
+      "expr": [
+       [
+        0,
+        "worried"
+       ],
+       [
+        0.30757400999615436,
+        "surprised"
+       ]
+      ],
+      "f": -1,
+      "s": 1.25,
+      "badge": {
+       "k": "words",
+       "v": 994,
+       "at": 0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "s011",
+   "start": 29.963,
+   "end": 32.073,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "lectern": 0,
+     "banner": "END OF TERM SPEECHES"
+    },
+    "cam": [
+     [
+      960,
+      520,
+      1.5
+     ],
+     [
+      960,
+      500,
+      1.7
+     ]
+    ],
+    "fg": "audience",
+    "who": [
+     {
+      "id": "PIA",
+      "x": 960,
+      "pose": [
+       [
+        0,
+        "talk"
+       ],
+       [
+        0.4,
+        "explain"
+       ],
+       [
+        0.8,
+        "talk"
+       ]
+      ],
+      "expr": [
+       [
+        0,
+        "nervous"
+       ],
+       [
+        0.3,
+        "happy"
+       ]
+      ],
+      "f": 1,
+      "s": 1.25,
+      "badge": {
+       "k": "words",
+       "v": [
+        [
+         0,
+         994
+        ],
+        [
+         0.1,
+         898
+        ],
+        [
+         0.2,
+         802
+        ],
+        [
+         0.3,
+         706
+        ],
+        [
+         0.4,
+         610
+        ],
+        [
+         0.5,
+         514
+        ],
+        [
+         0.6,
+         418
+        ],
+        [
+         0.7,
+         322
+        ],
+        [
+         0.8,
+         226
+        ],
+        [
+         0.9,
+         130
+        ]
+       ],
+       "at": 0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "s012",
+   "start": 32.073,
+   "end": 33.486,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "lectern": 0,
+     "banner": "END OF TERM SPEECHES"
+    },
+    "who": "PIA",
+    "expr": "joy",
+    "side": -1,
+    "badge": {
+     "k": "words",
+     "v": 31,
+     "at": 0
+    },
+    "bgCam": [
+     960,
+     480,
+     1.4
+    ]
+   }
+  },
+  {
+   "id": "s013",
+   "start": 33.486,
+   "end": 35.499,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.35,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "lectern": 0,
+     "banner": "END OF TERM SPEECHES"
+    },
+    "who": "DEV",
+    "expr": [
+     [
+      0,
+      "joy"
+     ]
+    ],
+    "side": 1,
+    "look": [
+     0,
+     -0.4
+    ],
+    "badge": {
+     "k": "words",
+     "v": [
+      [
+       0,
+       3
+      ],
+      [
+       0.17386984600099378,
+       2
+      ],
+      [
+       0.28564331843020435,
+       1
+      ],
+      [
+       0.38499751614505895,
+       0
+      ]
+     ],
+     "at": 0
+    },
+    "push": 0.1,
+    "bgCam": [
+     960,
+     380,
+     1.4
+    ]
+   }
+  },
+  {
+   "id": "s014",
+   "start": 35.499,
+   "end": 37.83,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "lectern": 0,
+     "banner": "END OF TERM SPEECHES"
+    },
+    "cam": [
+     [
+      960,
+      560,
+      1.3
+     ],
+     [
+      960,
+      560,
+      1.42
+     ]
+    ],
+    "fg": "audience",
+    "ask": {
+     "text": "What would YOU say with 10 words?",
+     "at": 0.927
+    },
+    "who": [
+     {
+      "id": "PIA",
+      "x": 1130,
+      "pose": "wave",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.25,
+      "badge": {
+       "k": "words",
+       "v": 31,
+       "at": 0
+      }
+     },
+     {
+      "id": "DEV",
+      "x": 800,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "badge": {
+       "k": "words",
+       "v": 0,
+       "at": 0
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 18.76,
+   "mood": "playful",
+   "intensity": 0.4
+  },
+  {
+   "start": 19.31,
+   "end": 29.56,
+   "mood": "tension",
+   "intensity": 0.3
+  },
+  {
+   "start": 30.11,
+   "end": 37.83,
+   "mood": "hopeful",
+   "intensity": 0.42
+  }
+ ],
+ "sfx": []
+}

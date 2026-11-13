@@ -1,0 +1,102 @@
+[
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "From today, you feel everything she feels.",
+  "sec": "hook",
+  "start": 0.15,
+  "end": 2.626
+ },
+ {
+  "id": "L040",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At midnight, you're lying in the dark, sad for a reason that isn't yours.",
+  "sec": "act3",
+  "start": 4.326,
+  "end": 8.906
+ },
+ {
+  "id": "L041",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "So you call her.",
+  "sec": "act3",
+  "start": 9.045,
+  "end": 9.883
+ },
+ {
+  "id": "L042",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "I'm fine.",
+  "sec": "act3",
+  "start": 10.144,
+  "end": 10.871
+ },
+ {
+  "id": "L043",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She's not. You can feel she's not.",
+  "sec": "act3",
+  "start": 11.771,
+  "end": 14.196
+ },
+ {
+  "id": "L044",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You want to fix it. Tell her the exam went well. Tell her the course is worth it. Tell her she'll make friends.",
+  "sec": "act3",
+  "start": 14.336,
+  "end": 21.109
+ },
+ {
+  "id": "L045",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "But once, at a caf\u00e9, you learned not to answer things she hadn't said.",
+  "sec": "act3",
+  "start": 21.949,
+  "end": 26.066
+ },
+ {
+  "id": "L046",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You don't have to be fine.",
+  "sec": "act3",
+  "start": 26.926,
+  "end": 28.403
+ },
+ {
+  "id": "L047",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "I just miss home. That's all. It's stupid.",
+  "sec": "act3",
+  "start": 29.453,
+  "end": 31.866
+ },
+ {
+  "id": "L048",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "It's not stupid.",
+  "sec": "act3",
+  "start": 32.016,
+  "end": 33.233
+ }
+]

@@ -1,0 +1,122 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Everyone in this office is grey. Except the new guy.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 4.665
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, every \"I'm fine\" that isn't true drains a little of your colour.",
+  "sec": "hook",
+  "start": 4.784,
+  "end": 8.925
+ },
+ {
+  "id": "L003",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "How are you settling in?",
+  "sec": "act1",
+  "start": 9.725,
+  "end": 11.153
+ },
+ {
+  "id": "L004",
+  "tag": "INTERN",
+  "thought": false,
+  "note": "",
+  "text": "Honestly? Terrified.",
+  "sec": "act1",
+  "start": 11.303,
+  "end": 13.125
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Nobody says that here.",
+  "sec": "act1",
+  "start": 13.975,
+  "end": 15.232
+ },
+ {
+  "id": "L006",
+  "tag": "COLL",
+  "thought": false,
+  "note": "",
+  "text": "Just say you're fine. It's easier.",
+  "sec": "act1",
+  "start": 15.492,
+  "end": 18.054
+ },
+ {
+  "id": "L007",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "All good?",
+  "sec": "act2",
+  "start": 18.954,
+  "end": 19.806
+ },
+ {
+  "id": "L008",
+  "tag": "INTERN",
+  "thought": false,
+  "note": "",
+  "text": "I'm fine.",
+  "sec": "act2",
+  "start": 19.956,
+  "end": 20.978
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It is easier.",
+  "sec": "act2",
+  "start": 21.828,
+  "end": 22.871
+ },
+ {
+  "id": "L010",
+  "tag": "INTERN",
+  "thought": false,
+  "note": "",
+  "text": "Fine. Fine. Totally fine.",
+  "sec": "act2",
+  "start": 23.131,
+  "end": 25.306
+ },
+ {
+  "id": "L011",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By the next Monday, he fits right in.",
+  "sec": "act3",
+  "start": 26.206,
+  "end": 28.6
+ },
+ {
+  "id": "L012",
+  "tag": "NEW",
+  "thought": false,
+  "note": "",
+  "text": "Hi! Honestly? I'm terrified.",
+  "sec": "act3",
+  "start": 29.31,
+  "end": 31.886
+ }
+]

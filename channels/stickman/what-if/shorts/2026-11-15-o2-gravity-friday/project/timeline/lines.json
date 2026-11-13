@@ -1,0 +1,132 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Every Friday at three, the office loses gravity. For five seconds.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 5.165
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Everyone knows. Everyone holds on.",
+  "sec": "hook",
+  "start": 5.285,
+  "end": 7.88
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Dana holds her laptop. Her big report isn't saved.",
+  "sec": "act1",
+  "start": 8.68,
+  "end": 12.088
+ },
+ {
+  "id": "L004",
+  "tag": "INTERN",
+  "thought": false,
+  "note": "",
+  "text": "Morning! Coffee run!",
+  "sec": "act1",
+  "start": 12.798,
+  "end": 14.555
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The new intern doesn't know.",
+  "sec": "act1",
+  "start": 14.955,
+  "end": 16.685
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Three o'clock.",
+  "sec": "act2",
+  "start": 17.585,
+  "end": 18.607
+ },
+ {
+  "id": "L007",
+  "tag": "INTERN",
+  "thought": false,
+  "note": "",
+  "text": "Is this normal?!",
+  "sec": "act2",
+  "start": 19.317,
+  "end": 20.638
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Dana has two hands. And one laptop.",
+  "sec": "act2",
+  "start": 21.038,
+  "end": 23.591
+ },
+ {
+  "id": "L009",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "Who brought coffee?",
+  "sec": "act3",
+  "start": 25.441,
+  "end": 26.702
+ },
+ {
+  "id": "L010",
+  "tag": "INTERN",
+  "thought": false,
+  "note": "",
+  "text": "Me. Sorry. Hi.",
+  "sec": "act3",
+  "start": 26.852,
+  "end": 28.301
+ },
+ {
+  "id": "L011",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The report is gone.",
+  "sec": "act3",
+  "start": 29.101,
+  "end": 30.383
+ },
+ {
+  "id": "L012",
+  "tag": "COLL",
+  "thought": false,
+  "note": "",
+  "text": "Worth it. Probably.",
+  "sec": "act3",
+  "start": 30.643,
+  "end": 32.031
+ },
+ {
+  "id": "L013",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Now he brings her coffee every Friday. At two fifty-nine.",
+  "sec": "act3",
+  "start": 32.731,
+  "end": 36.548
+ }
+]

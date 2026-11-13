@@ -1,0 +1,682 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Today, every time you say sorry, the other person forgets what you did.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 5.845
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Not forgives. Forgets.",
+  "sec": "hook",
+  "start": 6.285,
+  "end": 8.36
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You break your brother's controller.",
+  "sec": "hook",
+  "start": 8.5,
+  "end": 10.265
+ },
+ {
+  "id": "L004",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Sorry, Theo.",
+  "sec": "hook",
+  "start": 10.525,
+  "end": 11.526
+ },
+ {
+  "id": "L005",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Sorry for what?",
+  "sec": "hook",
+  "start": 12.576,
+  "end": 13.663
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It's the best day of your life.",
+  "sec": "hook",
+  "start": 14.663,
+  "end": 16.304
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "For about a week.",
+  "sec": "hook",
+  "start": 17.244,
+  "end": 18.397
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Theo moved in on Monday. Temporarily. With four bags, a games console, and no plan.",
+  "sec": "act1",
+  "start": 21.697,
+  "end": 27.711
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "On Tuesday, you're twenty minutes late.",
+  "sec": "act1",
+  "start": 28.951,
+  "end": 31.065
+ },
+ {
+  "id": "L010",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "Twenty minutes. Again. Do you know what time\u2014",
+  "sec": "act1",
+  "start": 31.325,
+  "end": 34.347
+ },
+ {
+  "id": "L011",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Sorry.",
+  "sec": "act1",
+  "start": 34.503,
+  "end": 35.141
+ },
+ {
+  "id": "L012",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "Ah, good morning! Early, as always.",
+  "sec": "act1",
+  "start": 36.191,
+  "end": 38.796
+ },
+ {
+  "id": "L013",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You forget your wallet at the caf\u00e9. Third time this month.",
+  "sec": "act1",
+  "start": 40.096,
+  "end": 43.575
+ },
+ {
+  "id": "L014",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Sorry. I'll pay you tomorrow.",
+  "sec": "act1",
+  "start": 43.835,
+  "end": 45.823
+ },
+ {
+  "id": "L015",
+  "tag": "BARISTA",
+  "thought": false,
+  "note": "",
+  "text": "Pay me for what?",
+  "sec": "act1",
+  "start": 45.973,
+  "end": 46.879
+ },
+ {
+  "id": "L016",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Free coffee. You decide not to think about it too hard.",
+  "sec": "act1",
+  "start": 47.279,
+  "end": 50.541
+ },
+ {
+  "id": "L017",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You knock over a stranger's scooter.",
+  "sec": "act1",
+  "start": 51.781,
+  "end": 53.635
+ },
+ {
+  "id": "L018",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Oh no. Sorry!",
+  "sec": "act1",
+  "start": 53.895,
+  "end": 55.07
+ },
+ {
+  "id": "L019",
+  "tag": "STRANGER",
+  "thought": false,
+  "note": "",
+  "text": "What scooter?",
+  "sec": "act1",
+  "start": 56.12,
+  "end": 56.993
+ },
+ {
+  "id": "L020",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By Tuesday night, you've said sorry eleven times, and you've been in trouble zero.",
+  "sec": "act1",
+  "start": 57.393,
+  "end": 62.853
+ },
+ {
+  "id": "L021",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You don't notice the little grey smudge it leaves over everyone's head.",
+  "sec": "act1",
+  "start": 63.393,
+  "end": 67.544
+ },
+ {
+  "id": "L022",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Not yet.",
+  "sec": "act1",
+  "start": 67.683,
+  "end": 68.247
+ },
+ {
+  "id": "L023",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "On Wednesday, Theo plays until two in the morning.",
+  "sec": "act2",
+  "start": 70.146,
+  "end": 73.027
+ },
+ {
+  "id": "L024",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Theo. It's two a.m.",
+  "sec": "act2",
+  "start": 73.287,
+  "end": 75.345
+ },
+ {
+  "id": "L025",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Five more minutes.",
+  "sec": "act2",
+  "start": 75.495,
+  "end": 76.628
+ },
+ {
+  "id": "L026",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And you say the thing you've been thinking since Monday.",
+  "sec": "act2",
+  "start": 77.028,
+  "end": 79.671
+ },
+ {
+  "id": "L027",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You know why nobody lets you stay anywhere? Because you're exhausting.",
+  "sec": "act2",
+  "start": 79.931,
+  "end": 83.666
+ },
+ {
+  "id": "L028",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Sorry.",
+  "sec": "act2",
+  "start": 86.246,
+  "end": 86.884
+ },
+ {
+  "id": "L029",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Sorry for what?",
+  "sec": "act2",
+  "start": 87.934,
+  "end": 89.021
+ },
+ {
+  "id": "L030",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He doesn't remember. But he doesn't pick the controller back up either.",
+  "sec": "act2",
+  "start": 89.921,
+  "end": 93.681
+ },
+ {
+  "id": "L031",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The next morning, he's quiet. He washes your mug. He asks if he's in the way.",
+  "sec": "act2",
+  "start": 94.921,
+  "end": 99.834
+ },
+ {
+  "id": "L032",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Did I do something? You can tell me.",
+  "sec": "act2",
+  "start": 100.094,
+  "end": 102.038
+ },
+ {
+  "id": "L033",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "No. You didn't do anything.",
+  "sec": "act2",
+  "start": 102.188,
+  "end": 103.53
+ },
+ {
+  "id": "L034",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "That's the problem. He didn't. You did. And he's the one carrying it.",
+  "sec": "act2",
+  "start": 103.93,
+  "end": 108.158
+ },
+ {
+  "id": "L035",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Now you see the smudges everywhere. Over your boss. Over the barista. Small grey clouds where a memory used to be.",
+  "sec": "act2",
+  "start": 109.398,
+  "end": 117.456
+ },
+ {
+  "id": "L036",
+  "tag": "BARISTA",
+  "thought": false,
+  "note": "",
+  "text": "Weird week. I keep feeling annoyed at someone, and I can't remember who.",
+  "sec": "act2",
+  "start": 118.616,
+  "end": 122.361
+ },
+ {
+  "id": "L037",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "That's weird.",
+  "sec": "act2",
+  "start": 122.511,
+  "end": 123.348
+ },
+ {
+  "id": "L038",
+  "tag": "BARISTA",
+  "thought": false,
+  "note": "",
+  "text": "You want your usual? It's on\u2014 Actually. Have you paid me lately?",
+  "sec": "act2",
+  "start": 123.498,
+  "end": 127.002
+ },
+ {
+  "id": "L039",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The memory goes. The feeling stays. And nobody knows where it came from.",
+  "sec": "act2",
+  "start": 127.402,
+  "end": 132.149
+ },
+ {
+  "id": "L040",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then, on Friday, you forget Mira's birthday.",
+  "sec": "act3",
+  "start": 134.349,
+  "end": 137.185
+ },
+ {
+  "id": "L041",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Hey. So. It's ten p.m.",
+  "sec": "act3",
+  "start": 137.445,
+  "end": 139.266
+ },
+ {
+  "id": "L042",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The word is right there. Sorry. One word, and she'll never know.",
+  "sec": "act3",
+  "start": 140.266,
+  "end": 143.914
+ },
+ {
+  "id": "L043",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And she'll still go to bed sad, and not know why.",
+  "sec": "act3",
+  "start": 144.754,
+  "end": 147.653
+ },
+ {
+  "id": "L044",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Mira. I forgot your birthday. Completely. And I'm not going to say the word, because I want you to stay mad at me.",
+  "sec": "act3",
+  "start": 148.813,
+  "end": 155.802
+ },
+ {
+  "id": "L045",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "That is the weirdest apology I have ever heard.",
+  "sec": "act3",
+  "start": 155.952,
+  "end": 158.507
+ },
+ {
+  "id": "L046",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "It's not an apology. It's a confession.",
+  "sec": "act3",
+  "start": 158.657,
+  "end": 161.197
+ },
+ {
+  "id": "L047",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Fine. I'm mad. You owe me a cake. A big one.",
+  "sec": "act3",
+  "start": 161.347,
+  "end": 164.255
+ },
+ {
+  "id": "L048",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Okay. I'm a bit less mad.",
+  "sec": "act3",
+  "start": 165.134,
+  "end": 166.756
+ },
+ {
+  "id": "L049",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Saturday. Cake. In person.",
+  "sec": "act3",
+  "start": 166.906,
+  "end": 169.063
+ },
+ {
+  "id": "L050",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "It's four hours on a train.",
+  "sec": "act3",
+  "start": 169.213,
+  "end": 170.637
+ },
+ {
+  "id": "L051",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "It's going to be a very big cake.",
+  "sec": "act3",
+  "start": 170.787,
+  "end": 172.752
+ },
+ {
+  "id": "L052",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "No shimmer. No smudge. Just Mira, remembering, and forgiving you anyway.",
+  "sec": "act3",
+  "start": 173.152,
+  "end": 178.617
+ },
+ {
+  "id": "L053",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It's the first time all week anyone has.",
+  "sec": "act3",
+  "start": 178.843,
+  "end": 181.294
+ },
+ {
+  "id": "L054",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then you go and sit next to Theo.",
+  "sec": "act3",
+  "start": 182.534,
+  "end": 184.498
+ },
+ {
+  "id": "L055",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "On Wednesday, I said something horrible to you. You don't remember it. I do.",
+  "sec": "act3",
+  "start": 184.758,
+  "end": 189.052
+ },
+ {
+  "id": "L056",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "What did you say?",
+  "sec": "act3",
+  "start": 189.202,
+  "end": 190.186
+ },
+ {
+  "id": "L057",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You tell him. Word for word.",
+  "sec": "act3",
+  "start": 190.585,
+  "end": 192.454
+ },
+ {
+  "id": "L058",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Wow. That's rude.",
+  "sec": "act3",
+  "start": 193.414,
+  "end": 194.565
+ },
+ {
+  "id": "L059",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Yeah.",
+  "sec": "act3",
+  "start": 194.715,
+  "end": 195.225
+ },
+ {
+  "id": "L060",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "I am a bit exhausting, though.",
+  "sec": "act3",
+  "start": 195.375,
+  "end": 196.952
+ },
+ {
+  "id": "L061",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You're a lot exhausting. Stay anyway.",
+  "sec": "act3",
+  "start": 197.102,
+  "end": 199.507
+ },
+ {
+  "id": "L062",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The grey smudge over his head fades, like breath on a window.",
+  "sec": "act3",
+  "start": 201.407,
+  "end": 205.099
+ },
+ {
+  "id": "L063",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Can I have your controller, then?",
+  "sec": "act3",
+  "start": 205.359,
+  "end": 207.068
+ },
+ {
+  "id": "L064",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "No.",
+  "sec": "act3",
+  "start": 207.218,
+  "end": 207.749
+ },
+ {
+  "id": "L065",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "On Saturday, you carry a very large cake for four hours.",
+  "sec": "act3",
+  "start": 209.049,
+  "end": 213.239
+ },
+ {
+  "id": "L066",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Mira eats a third of it on a bench, and tells you she's still a little bit mad.",
+  "sec": "act3",
+  "start": 213.503,
+  "end": 218.143
+ },
+ {
+  "id": "L067",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You let her be.",
+  "sec": "act3",
+  "start": 218.282,
+  "end": 219.176
+ },
+ {
+  "id": "L068",
+  "tag": "N",
+  "thought": false,
+  "note": "soft",
+  "text": "Would you rather be forgiven, or forgotten?",
+  "sec": "end",
+  "start": 221.817,
+  "end": 224.229
+ }
+]
