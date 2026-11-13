@@ -7,3 +7,4 @@ Updated: 2026-11-12 ~21:00 CET (session 9, Vivek). **Next up: render batch 2 (WI
 - Shorts data: WI03 Short 2 = 20% viewed vs swiped (bad hook), 64% AVD. Re-check all six at 48 h.
 - lemo-opuscar updated to 2.0.0 (tools/lemo-opuscar 3a7132b, skills re-synced). Island channel → 2.5D Pixel Art style later (channels/island/STYLE-2.5D-PIXEL.md).
 - Track B (kids, Ricks Clips look) = separate channel, not started. WI02 live: https://youtu.be/tddFIFm8zGY.
+- 2026-11-13 (session 10): week plan Sun 15 – Sat 21 = 1 long-form + 4 Shorts/day (channels/stickman/what-if/PLAN-2026-11-15-to-21.md; research/2026-11-13-shorts-niches-week-47.md). New long-forms WI09–WI12 + 14 original Shorts await Vivek's approval. Shorts so far: 465/168/72/23 views; long-forms 29/11/4.

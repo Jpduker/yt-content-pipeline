@@ -79,3 +79,8 @@ Append-only, newest at the bottom. Format: date · what happened · evidence · 
 - ~2.45 spoken words per second of finished film in our scripts (pauses included): 4:00 ≈ 560–590 words.
 - The device shell CAN reach GitHub (git ls-remote/fetch work) but cannot push (no credentials). With delete permission granted, git leaves no lock files.
 - lemo-opuscar 2.0.0 (2026-11-12): 99 styles, image-generation styles marked ✦ (need the user's own image tool), one LICENSE file (docs CC BY-NC + permission for own films).
+
+## 2026-11-13 · session 10
+- Our Shorts out-pull our long-forms ~16:1 in the first days (≈ 730 vs 44 views). Best Short = number + deadline in the title, 30 s.
+- Shorts-native formats near our niche: "In this world, <rule>" (SceneLook 2–6M), number + deadline + "… but" (LAST SCENARIO 1–4M), "What if X for 5 seconds" (14.3M from a 42K channel, 2.7M from a 1.6K channel).
+- "Time stopped for everyone except you" had 15+ uploads in a month, almost all < 300 views: only a twist in the title can lift it.

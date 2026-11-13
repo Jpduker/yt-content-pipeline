@@ -54,3 +54,4 @@ On-camera presenting, face/avatar content (for now).
 - 2026-11-12 · Vivek on WI03–WI05 + their Shorts: "I really liked these versions"; scheduled all three long-forms and all six Shorts (Thu/Fri/Sat). Keep growkaz-ifverse v3 as the base.
 - 2026-11-12 · First Shorts data (WI03 Short 2, ~5 h): 20% viewed vs 80% swiped, 64% average view duration. The hook lost people, not the story → Shorts must show the premise in the first 1.5 s (PLAN-2026-11-15-to-17.md §3.1).
 - 2026-11-12 · Vivek watched lemo-opuscar's 2.5D Pixel Art ("HD-2D") demo and was "amazed": it is the Island channel's style, starting in a later week (channels/island/STYLE-2.5D-PIXEL.md).
+- 2026-11-13 · Vivek: next week = 1 long-form + 4 Shorts a day. Studio on "He Had 3 Days to Make Her Stay" (30 s): 482 views in ~9 h, 29.6% viewed vs swiped, 73.6% average viewed, 10 likes, 0 comments → open with the dilemma from frame 1 (on-screen text like "Day 1 of 3"), end with a question that invites comments.
