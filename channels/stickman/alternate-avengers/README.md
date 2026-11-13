@@ -16,7 +16,8 @@ This is a NEW SERIES inside **Between the Ifs**, whose existing repository folde
 - `assets/environments/`: reusable workshop art.
 - `development/latest-proof-v3/`: working browser/native-Canvas source, joint rig, tests, narration/score source and captions. Assets are referenced from the canonical directories above.
 - `development/previews/`: three rendered tests and motion strips, saved locally but ignored by git.
-- `episodes/`: new videos; first Avengers fan Short is a brief/script only, not a finished film.
+- `development/rig-v4/`: CURRENT acting rig, cast drawing, exercise, renderer and QA tools (README inside).
+- `episodes/`: new videos. AA01 is built (final/ is local, gitignored MP4). Make the next one with `/aa-short` (`workflows/alternate-avengers-short.md`).
 
 All earlier source experiments remain in `lab/2026-11-12-between-ifs-bc-proof*` for history. V1's procedural face is rejected. V2's look was liked, but its arm mechanism was criticized. V3 is the latest technical baseline; **Vivek has not approved its movement**. Do not call it production-ready.
 

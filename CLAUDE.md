@@ -31,6 +31,7 @@ Jp's faceless YouTube studio. Videos are code-rendered animation (lemo-opuscar, 
 |---|---|---|
 | Make a video | workflows/make-video.md | /new-video |
 | Study a reference clip | workflows/study-reference.md | /study-reference |
+| Alternate Avengers Short from a script | workflows/alternate-avengers-short.md | /aa-short |
 | After EVERY video or Jp feedback (mandatory) | workflows/retro.md | /retro |
 
 The studio improves itself only through /retro. Never finish a video, or a session with feedback, without it.

@@ -8,6 +8,7 @@
 |---|---|---|
 | V1 | Original 26-second time-freeze story; painted workshop; procedural geometric character; code effects; local Kokoro narration; original synthesized music/SFX | Vivek rejected the character as unappealing compared with the original sample. Do not reuse that head design. |
 | V2 | Reference-derived illustrated character parts, four expressions, shoulder-rotated whole-arm sprite | Vivek liked the character visuals and preservation. He flagged left-hand/body overlap and wrong-handed motion. Whole bent-arm rotation is not a finished rig. |
+| V4 (rig-v4, 2026-11-13) | Keyframed acting channels (lean, drop, head, per-arm targets, hand poses), fixed elbow signs, mirrored left open palm, prop grip frames, world-pinned handovers, sway; 10 s exercise + AA01 Short | Inspected frame-by-frame by Fable/Opus; **awaiting Vivek's verdict**. See development/rig-v4/README.md |
 | V3 | Arm-free torso, separate upper/lower sleeves/hands; independent two-bone arm chains; fixed bone lengths; constrained left wrist; watch grip attachment; planted feet | Five kinematic checks pass and motion strips inspected. Latest delivered test, **not user-approved motion**. Continue refining before production. |
 
 The face PNGs (`curious`, `happy`, `awe`, `fear`) in V3 are byte-identical to V2. Body repair required new costume pieces; preserve their texture and proportions when improving the rig.
@@ -21,7 +22,10 @@ All tests are 26.000 seconds, 1920×1080, 24 fps, 624 frames, H.264 video/AAC so
 - No full-speed human audiovisual review; automated tests and inspected frames are useful but limited.
 - No uploaded/published new YouTube video, no applied About update and no verified growth outcome.
 
-## Next work
+## AA01 (2026-11-13)
+First series Short built: `episodes/2026-11-12-aa01-doom-saves-the-multiverse-short-test/final/what-if-doom-was-saving-the-multiverse.mp4` (42.9 s, 1080×1920, −14.7 LUFS). Candid QA in its QA.md: Doom/city are code-drawn and flatter than the painted hero; no machine listening (Hugging Face unreachable on the build VM). Repeatable process: `workflows/alternate-avengers-short.md` + skill `/aa-short`.
+
+## Next work (superseded in part by AA01, kept for history)
 Fable should first compare the original B/C reference, V2 and V3. Keep the approved face/texture; improve motion through a short rig exercise with independent arm gestures, plausible wrist orientation, fixed prop contact, torso support and grounded feet. Fable may replace the implementation if a better rig preserves the look. Then build the first vertical Alternate Avengers test from its brief, using original dialogue and score.
 
 ## Source / delivery continuity

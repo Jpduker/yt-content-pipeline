@@ -16,4 +16,7 @@ All image assets here were generated for this project; no Ifverse artwork or mov
 
 Paths in the table are relative to this series' `assets/` directory. The organized `development/latest-proof-v3/film.js` loads these canonical paths. The three old `lab/` prototypes retain their own local copies for reproducibility/history.
 
+**Rig v4** (`development/rig-v4/`): code + tools only, reuses the hero PNGs above unchanged.
+**AA01 Doom ("dark sovereign"), great hand, city, watch:** drawn in code inside `development/rig-v4/cast.mjs` and the episode's `film.js`; an original interpretation, not franchise costume art. No raster Doom asset exists yet; a painted model sheet is the top art upgrade (see workflow, "New characters").
+
 New Doom/Avengers assets must go under `assets/characters/<character>/<version>/` with reference/model sheets and provenance. Do not add them to `channels/stickman/characters/stick-you/` or replace the original series cast. No such Marvel character assets have been produced yet.

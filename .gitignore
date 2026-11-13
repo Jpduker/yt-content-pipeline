@@ -52,3 +52,9 @@ lab/*/plugin/
 lab/2026-11-09-growkaz-plugin-test/plugin/**/node_modules/
 # downloaded reference clips + extracted frames: study only, other creators footage, heavy -> never commit (re-fetch: sh pipeline/fetch-refs.sh)
 references/videos/*/
+
+# Alternate Avengers: node_modules symlinks in episodes, extracted keyframes, import staging
+**/node_modules
+channels/stickman/alternate-avengers/episodes/*/final/keyframes/
+_import-staging/
+Between-the-Ifs-Progress-*.zip

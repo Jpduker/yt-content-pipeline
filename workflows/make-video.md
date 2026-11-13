@@ -1,5 +1,5 @@
 # Make a video (v0)
-First draft, written from the demo render. Refine it through /retro after every episode.
+First draft, written from the demo render. **Alternate Avengers Shorts use `workflows/alternate-avengers-short.md` instead (/aa-short).** Refine it through /retro after every episode.
 
 1. **Brief.** `sh pipeline/new-episode.sh <channel> <series> <code>-<slug>` (style tests: `lab - <slug>`); read channels/<channel>/CHANNEL.md; fill brief.md: idea, channel/format, style, characters, voice, length, aspect (Shorts 1080x1920, ≤60 s). Check TASTE and RULES first.
 2. **Script.** /yt-script into script.md. Hook in the first 2 s, a visual change every ≤4 s, a mini story arc, an in-world CTA, and for Shorts a last frame that loops to the first.
