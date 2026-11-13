@@ -1,0 +1,412 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By Friday, you can see through the barista.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 4.255
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Not a little. You can read the menu through his chest.",
+  "sec": "hook",
+  "start": 4.395,
+  "end": 7.871
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He's been making your coffee for two years. You've never asked his name.",
+  "sec": "hook",
+  "start": 8.448,
+  "end": 12.506
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And he's not the only one.",
+  "sec": "hook",
+  "start": 13.346,
+  "end": 14.901
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It starts on Monday. The man in the lift is a bit pale. You assume it's the lighting.",
+  "sec": "act1",
+  "start": 18.201,
+  "end": 23.361
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "On Tuesday, Dana is talking to you while you answer an email. Halfway through her sentence, you notice you can see the printer behind her.",
+  "sec": "act1",
+  "start": 24.601,
+  "end": 32.876
+ },
+ {
+  "id": "L007",
+  "tag": "COLL",
+  "thought": false,
+  "note": "",
+  "text": "\u2026so that's my news. What do you think?",
+  "sec": "act1",
+  "start": 33.136,
+  "end": 36.164
+ },
+ {
+  "id": "L008",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Great! Yeah. Great.",
+  "sec": "act1",
+  "start": 36.314,
+  "end": 37.729
+ },
+ {
+  "id": "L009",
+  "tag": "COLL",
+  "thought": false,
+  "note": "",
+  "text": "I said my cat died.",
+  "sec": "act1",
+  "start": 37.879,
+  "end": 39.268
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She fades a little more. You watch it happen.",
+  "sec": "act1",
+  "start": 40.268,
+  "end": 42.907
+ },
+ {
+  "id": "L011",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Dana. Sorry. I wasn't listening. Tell me about your cat.",
+  "sec": "act1",
+  "start": 43.167,
+  "end": 46.555
+ },
+ {
+  "id": "L012",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She tells you. The cat was called Biscuit, and he hated everyone except her. With every sentence, she gets a little more solid.",
+  "sec": "act1",
+  "start": 47.855,
+  "end": 55.825
+ },
+ {
+  "id": "L013",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "So that's the rule. Ignore someone, and they fade. Pay attention, and they come back.",
+  "sec": "act1",
+  "start": 55.965,
+  "end": 61.28
+ },
+ {
+  "id": "L014",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You get good at it. You learn the barista's name: Kofi. You ask the lift man about his dog. You stop typing when your boss talks, which surprises him more than anyone.",
+  "sec": "act2",
+  "start": 63.18,
+  "end": 74.123
+ },
+ {
+  "id": "L015",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "Are you\u2026 listening?",
+  "sec": "act2",
+  "start": 74.383,
+  "end": 75.924
+ },
+ {
+  "id": "L016",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Yes.",
+  "sec": "act2",
+  "start": 76.074,
+  "end": 76.606
+ },
+ {
+  "id": "L017",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "Nobody listens. This is very unsettling.",
+  "sec": "act2",
+  "start": 76.756,
+  "end": 79.759
+ },
+ {
+  "id": "L018",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By Thursday, the city looks solid again. You're exhausted. Paying attention, it turns out, is a full-time job.",
+  "sec": "act2",
+  "start": 80.159,
+  "end": 87.709
+ },
+ {
+  "id": "L019",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "On Friday night, you get home, drop onto the sofa, and open your phone.",
+  "sec": "act2",
+  "start": 88.949,
+  "end": 93.438
+ },
+ {
+  "id": "L020",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Did you see the score?",
+  "sec": "act2",
+  "start": 93.698,
+  "end": 94.98
+ },
+ {
+  "id": "L021",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Mm.",
+  "sec": "act2",
+  "start": 95.13,
+  "end": 95.836
+ },
+ {
+  "id": "L022",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "I said, did you see the\u2014",
+  "sec": "act2",
+  "start": 95.986,
+  "end": 97.354
+ },
+ {
+  "id": "L023",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You look up.",
+  "sec": "act2",
+  "start": 99.094,
+  "end": 99.881
+ },
+ {
+  "id": "L024",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You can see the cushions through your brother.",
+  "sec": "act2",
+  "start": 100.821,
+  "end": 103.071
+ },
+ {
+  "id": "L025",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Not a little. Almost all the way.",
+  "sec": "act2",
+  "start": 103.212,
+  "end": 105.476
+ },
+ {
+  "id": "L026",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You checked everyone. The barista, the lift, the boss. You never checked the person on your sofa.",
+  "sec": "act2",
+  "start": 106.415,
+  "end": 112.358
+ },
+ {
+  "id": "L027",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Theo. What score?",
+  "sec": "act3",
+  "start": 113.658,
+  "end": 115.025
+ },
+ {
+  "id": "L028",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Doesn't matter.",
+  "sec": "act3",
+  "start": 115.175,
+  "end": 116.073
+ },
+ {
+  "id": "L029",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "It does. Who played?",
+  "sec": "act3",
+  "start": 116.223,
+  "end": 117.617
+ },
+ {
+  "id": "L030",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "You hate football.",
+  "sec": "act3",
+  "start": 117.767,
+  "end": 118.879
+ },
+ {
+  "id": "L031",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I know. Tell me anyway.",
+  "sec": "act3",
+  "start": 119.029,
+  "end": 120.637
+ },
+ {
+  "id": "L032",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He tells you. All of it. The match, the referee, a goal he's still angry about. Then, somehow, his job interview on Monday, which you didn't know about.",
+  "sec": "act3",
+  "start": 121.937,
+  "end": 131.419
+ },
+ {
+  "id": "L033",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You've got an interview?",
+  "sec": "act3",
+  "start": 131.679,
+  "end": 132.961
+ },
+ {
+  "id": "L034",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "I told you. Twice.",
+  "sec": "act3",
+  "start": 133.111,
+  "end": 134.394
+ },
+ {
+  "id": "L035",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Tell me a third time. I'm listening now.",
+  "sec": "act3",
+  "start": 134.544,
+  "end": 137.002
+ },
+ {
+  "id": "L036",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By midnight, he's solid again. Fully, annoyingly solid. He's eaten all your crisps.",
+  "sec": "act3",
+  "start": 138.302,
+  "end": 143.748
+ },
+ {
+  "id": "L037",
+  "tag": "BARISTA",
+  "thought": false,
+  "note": "",
+  "text": "Morning! The usual?",
+  "sec": "act3",
+  "start": 144.908,
+  "end": 145.984
+ },
+ {
+  "id": "L038",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Morning, Kofi. How's your weekend?",
+  "sec": "act3",
+  "start": 146.134,
+  "end": 148.286
+ },
+ {
+  "id": "L039",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Kofi looks so surprised you think he might drop the cup.",
+  "sec": "act3",
+  "start": 148.686,
+  "end": 151.761
+ },
+ {
+  "id": "L040",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He doesn't fade. Neither does anyone else. Not this week.",
+  "sec": "act3",
+  "start": 151.939,
+  "end": 155.813
+ },
+ {
+  "id": "L041",
+  "tag": "N",
+  "thought": false,
+  "note": "soft",
+  "text": "Who would be fading around you right now?",
+  "sec": "end",
+  "start": 158.453,
+  "end": 160.592
+ }
+]

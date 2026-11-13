@@ -21,112 +21,82 @@
  },
  {
   "id": "L003",
-  "tag": "WOMAN",
+  "tag": "N",
   "thought": false,
   "note": "",
-  "text": "Oh. Sorry, love.",
+  "text": "He shakes it. He bangs it. It stays shut.",
   "sec": "act1",
   "start": 10.402,
-  "end": 11.545
+  "end": 13.507
  },
  {
   "id": "L004",
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "He shakes it. He bangs it. It stays shut.",
+  "text": "He checks his phone. No messages. He's lived alone since the spring.",
   "sec": "act1",
-  "start": 11.945,
-  "end": 15.05
+  "start": 14.077,
+  "end": 18.151
  },
  {
   "id": "L005",
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "He checks his phone. No messages. He's lived alone since the spring.",
-  "sec": "act1",
-  "start": 15.62,
-  "end": 19.694
+  "text": "So he walks home. Forty minutes. Soaked to the bone.",
+  "sec": "act2",
+  "start": 19.051,
+  "end": 22.386
  },
  {
   "id": "L006",
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "So he walks home. Forty minutes. Soaked to the bone.",
+  "text": "Halfway home, it bursts open on its own.",
   "sec": "act2",
-  "start": 20.594,
-  "end": 24.044
+  "start": 22.956,
+  "end": 25.449
  },
  {
   "id": "L007",
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "He tells himself it doesn't matter. Umbrellas are for tourists.",
-  "sec": "act2",
-  "start": 24.184,
-  "end": 27.872
+  "text": "In his front window, Pepper is waiting.",
+  "sec": "act3",
+  "start": 26.349,
+  "end": 28.624
  },
  {
   "id": "L008",
-  "tag": "ELI",
-  "thought": false,
-  "note": "",
-  "text": "What? Who\u2026?",
-  "sec": "act2",
-  "start": 28.582,
-  "end": 30.092
- },
- {
-  "id": "L009",
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "Halfway home, it bursts open on its own.",
-  "sec": "act2",
-  "start": 30.492,
-  "end": 33.251
+  "text": "Fourteen years old. He's been at the glass since six.",
+  "sec": "act3",
+  "start": 28.744,
+  "end": 31.9
+ },
+ {
+  "id": "L009",
+  "tag": "ELI",
+  "thought": false,
+  "note": "",
+  "text": "Hey, old man. You waited for me?",
+  "sec": "act3",
+  "start": 32.16,
+  "end": 34.626
  },
  {
   "id": "L010",
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "In his front window, Pepper is waiting.",
-  "sec": "act3",
-  "start": 34.151,
-  "end": 36.411
- },
- {
-  "id": "L011",
-  "tag": "N",
-  "thought": false,
-  "note": "",
-  "text": "Fourteen years old. Deaf in one ear. He's been sitting at the glass since six.",
-  "sec": "act3",
-  "start": 36.611,
-  "end": 41.456
- },
- {
-  "id": "L012",
-  "tag": "ELI",
-  "thought": false,
-  "note": "",
-  "text": "Hey, old man. You waited for me?",
-  "sec": "act3",
-  "start": 41.716,
-  "end": 44.182
- },
- {
-  "id": "L013",
-  "tag": "N",
-  "thought": false,
-  "note": "",
   "text": "Eli doesn't buy a new umbrella. He doesn't need one.",
   "sec": "act3",
-  "start": 45.032,
-  "end": 48.059
+  "start": 35.476,
+  "end": 38.503
  }
 ]

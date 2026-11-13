@@ -5,7 +5,7 @@ import { E, V, S, registerShot, mood, layer, blurLayer, veil, backdrop, ease, pr
 import { drawFigure, POSES, posesAt, breathe, walkPose, bigFace, headPos } from '/engine/rig2d.js';
 import * as FX from '/engine/fx2d.js';
 import * as UI from '/engine/ui2d.js';
-import { SETS, SC, GYf, F, lerpCam, table, longTable, chair, cup, steam, cafeCounter, cardboard, drawHorse as drawHorseI } from '../sets/world.js';
+import { SETS, SC, GYf, F, lerpCam, table, longTable, chair, cup, steam, cafeCounter, cardboard, drawHorse as drawHorseI, dog as drawDog } from '../sets/world.js';
 import { CAST, THREAD, GREEN, YELLOW } from '../cast.js';
 import { cap } from './_cap.js';
 import { drawChar, bust, mixEx, exP } from '../chars.js';
@@ -189,6 +189,9 @@ function floater(g, f, t, GY, p) {
   else if (k === 'tray') { rr(g, -90, -8, 180, 14, 4); g.fillStyle = '#8a6a4a'; g.fill(); for (let i = 0; i < 4; i++) { g.save(); g.translate(-66 + i * 44, -8); poly(g, [[-14, -50], [14, -50], [10, 0], [-10, 0]], '#f2ece4'); g.fillStyle = '#3a6ea5'; g.fillRect(-13, -34, 26, 12); g.restore(); } }
   else if (k === 'bin') { poly(g, [[-70, 0], [70, 0], [86, -170], [-86, -170]], '#5a6070'); for (let i = -2; i <= 2; i++) seg(g, [[i * 28, -10], [i * 34, -160]], 4, '#4a5060'); if (f.laptop) { g.save(); g.translate(10, -170); g.rotate(-.5); rr(g, -70, -90, 140, 90, 6); g.fillStyle = '#2a2a36'; g.fill(); rr(g, -60, -82, 120, 74, 4); g.fillStyle = '#111'; g.fill(); g.restore(); } }
   else if (k === 'cabinet') { rr(g, -70, -260, 140, 260, 6); g.fillStyle = '#7a8090'; g.fill(); for (let i = 0; i < 3; i++) { rr(g, -58, -248 + i * 84, 116, 72, 4); g.strokeStyle = '#5a6070'; g.lineWidth = 4; g.stroke(); seg(g, [[-16, -214 + i * 84], [16, -214 + i * 84]], 6, '#3a3f4a'); } }
+  else if (k === 'coin') { const fall = f.at != null ? clamp((t - f.at) / .5) : 1, yy = lerp(-260, 0, ease.in(fall)); if (t >= (f.at ?? -1)) { glow(g, 0, yy - 20, 50, '#ffd47e', .5); g.fillStyle = '#ffc83a'; g.beginPath(); g.ellipse(0, yy - 20, 20, 20 * Math.abs(Math.cos(t * 6)) + 3, 0, 0, 7); g.fill(); } }
+  else if (k === 'ash') { const q = f.at != null ? clamp((t - f.at) / 1.2) : .5; if (q > 0 && q < 1) for (let i = 0; i < 9; i++) circle(g, Math.sin(i * 2.3) * 30 * q, -q * 120 - i * 10, 10 * (1 - q) + 4, `rgba(90,86,96,${(1 - q) * .8})`); if (q > 0 && q < .3) glow(g, 0, 0, 60, '#ff6a2a', .7); }
+  else if (k === 'dog') { drawDog(g, 0, 0, t, { f: f.f ?? 1, jump: false }); }
   else if (k === 'pigeon') { g.scale(f.f ?? 1, 1); g.fillStyle = '#7a7a88'; g.beginPath(); g.ellipse(0, -30, 40, 26, -.2, 0, 7); g.fill(); circle(g, 34, -58, 16, '#6a6a78'); poly(g, [[48, -60], [62, -54], [48, -52]], '#e8a030'); circle(g, 38, -62, 3, '#111'); seg(g, [[-6, -6], [-10, 0]], 4, '#e8a030'); seg(g, [[8, -6], [6, 0]], 4, '#e8a030'); g.fillStyle = '#5a5a68'; g.beginPath(); g.ellipse(-30, -26, 26, 12, .3, 0, 7); g.fill(); }
   else if (k === 'splash') { for (let i = 0; i < 9; i++) { g.fillStyle = '#7a4a2a'; g.beginPath(); g.ellipse(-60 + (i * 37) % 120, -20 + (i * 23) % 60, 16, 26, i, 0, 7); g.fill(); } }
   g.restore();
@@ -251,6 +254,11 @@ function scene(g, t, info) {
     if (thL && figs[thL.tag]) { const a = figs[thL.tag]; echo(g, a.hx, a.hy, a.hr, thL, gt, -a.facing); }
     for (const st of p.strings || []) { const A = Array.isArray(st.a) ? st.a : figs[st.a], B = Array.isArray(st.b) ? st.b : figs[st.b]; if (A && B) pstring(g, A, B, st, t, dur); }
     for (const w of p.who || []) if (w.badge) { const a = figs[w.id]; badge(g, a.hx, a.hy, a.hr, w.badge, t, t / dur); }
+    for (const w of p.who || []) if (w.umb) { const a = figs[w.id], st = seqVal(w.umb, t / dur), ux = a.x + a.facing * 30 * a.s / 1.6, uy = a.hy - a.hr * 2.2;
+      g.save(); seg(g, [[ux, a.y - (a.y - a.hy) * .45], [ux, uy]], 6, '#2a2228');
+      if (st === 'open') { const q = w.umbAt != null ? ease.outBack(clamp((t - w.umbAt) / .4)) : 1; g.translate(ux, uy); g.scale(q, q); g.fillStyle = w.umbCol || '#3a6ea5'; g.beginPath(); g.moveTo(-a.hr * 2.6, 0); g.quadraticCurveTo(0, -a.hr * 2.4, a.hr * 2.6, 0); for (let i = 3; i >= -3; i--) g.quadraticCurveTo(i * a.hr * .87 + a.hr * .43, a.hr * .3, i * a.hr * .87 - a.hr * .43 + (i === -3 ? 0 : 0), 0); g.fill(); }
+      else { g.translate(ux, uy); poly(g, [[-10, 0], [10, 0], [4, a.hr * 1.6], [-4, a.hr * 1.6]], w.umbCol || '#3a3f52'); }
+      g.restore(); }
     for (const w of p.who || []) if (w.chest) { const a = figs[w.id]; chestRing(g, a.x + a.facing * 4, a.hy + a.hr * 2.6, a.hr * .95, w.chest, t, t / dur); }
     for (const b of p.tags || []) badge(g, b.x, b.y, b.r || 38, b, t, t / dur);
     const gl = p.ghost === false ? null : ghostLine(gt); if (gl) { const a = figs[gl.tag]; p._ghost = a ? [...toScreen(g, a.hx + a.facing * a.hr * 1.2, a.hy - a.hr * 1.3), gl] : [E.W / 2, E.H * .36, gl, true]; } else p._ghost = null;
@@ -258,6 +266,7 @@ function scene(g, t, info) {
   if (p.twoGhost) for (const id of ['YOU', 'MIRA']) { const a = figs[id]; if (!a) continue; const fl = .6 + .25 * Math.sin(gt * 21 + a.x), q = ease.out(prog(t, id === 'YOU' ? 1.0 : .3, id === 'YOU' ? 1.5 : .8)); if (q <= 0) continue;
     g.save(); g.globalAlpha *= fl * q; const bw = 150 * cam.z, bh = 62 * cam.z, bx = (a.sx ?? 0), [sx, sy] = [a.scr[0], a.scr[1]]; rr(g, sx - bw / 2, sy - bh, bw, bh, bh * .4); g.fillStyle = 'rgba(126,132,150,.5)'; g.fill(); g.setLineDash([9, 7]); g.strokeStyle = 'rgba(225,230,245,.8)'; g.lineWidth = 3; g.stroke(); g.setLineDash([]); text(g, '· · ·', sx, sy - bh / 2, { size: 30 * cam.z, color: '#eef1f8', weight: 900 }); g.restore(); }
   if (p._ghost) ghostBubble(g, p._ghost[0], p._ghost[1], p._ghost[2], gt, { noTail: p._ghost[3], up: p._ghost[3] ? 0 : 40, scr: !p._ghost[3] });
+  if (p.rain) { FX.rain(g, t, { count: 160, color: 'rgba(190,215,255,.55)' }); veil(g, '#1a2236', .18); }
   if (frozen) { FX.drops(g, t, { count: 34, color: '#d8e4ff', rMax: 6, drift: 1.5 }); freezeTint(g); }
   FX.dust(g, frozen ? 0 : t, { count: 36, color: '#ffe2bd', a: .3 });
   if (p.streak) FX.lensStreak(g, E.W / 2, E.H * .32, E.W * 1.2, '#ffe0b0', .16);
@@ -290,7 +299,7 @@ function vOverlay(g, t, p) {
   if (p.hookText) { const [a0, a1] = p.hookT || [0, 2.8], a = Math.min(ease.out(prog(t, a0, a0 + .15)), 1 - prog(t, a1 - .3, a1)), q = ease.outBack(prog(t, a0, a0 + .3));
     if (a > 0) { g.save(); g.translate(W / 2, vert ? 300 : 120); g.scale(q, q); plate(g, p.hookText, 0, 0, vert ? 74 : 56, '#ffd47e', a, vert ? W * .84 : W * .7); g.restore(); } }
   if (p.ask) { const at = p.ask.at ?? Math.max(0, dur - 2.2), a = ease.out(prog(t, at, at + .35));
-    if (a > 0) plate(g, p.ask.text, W / 2, vert ? 300 : 130, vert ? 62 : 50, '#f4ecdf', a, vert ? W * .86 : W * .7); }
+    if (a > 0) plate(g, p.ask.text, W / 2, vert ? (p.askY ?? 1180) : 130, vert ? 62 : 50, '#f4ecdf', a, vert ? W * .86 : W * .7); }
   if (p.fring) { const [f0, f1] = p.fring, q = prog(t, f0, f1); if (t >= f0 - .05 && t <= f1 + .25) { const cx = vert ? W - 130 : W - 150, cy = vert ? 580 : 150, r = vert ? 70 : 62, n = Math.max(0, Math.ceil(5 * (1 - q) - 1e-6));
       g.save(); circle(g, cx, cy, r + 8, 'rgba(14,8,16,.7)'); g.strokeStyle = 'rgba(160,190,255,.3)'; g.lineWidth = 12; g.beginPath(); g.arc(cx, cy, r, 0, 7); g.stroke(); g.strokeStyle = '#a8c8ff'; g.beginPath(); g.arc(cx, cy, r, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * (1 - q)); g.stroke();
       text(g, String(n), cx, cy + 2, { size: r * 1.05, font: FONTS.ui, weight: 900, color: '#e8f0ff' }); g.restore(); } }
@@ -404,6 +413,17 @@ function insert(g, t, info) {
     case 'tie': { const q = ease.outBack(prog(t, .1, .5)); g.fillStyle = GREEN; g.fillRect(cx - 520, -50, 1040, E.H + 100); seg(g, [[cx - 80, -20], [cx - 100, 420]], 14, shade(GREEN, -.5)); seg(g, [[cx + 80, -20], [cx + 100, 380]], 14, shade(GREEN, -.5));
       g.save(); g.translate(cx + 40, cy - 120 + (1 - q) * 200); g.rotate(-.08); poly(g, [[-40, 0], [40, 0], [26, 60], [-26, 60]], '#c8302a'); poly(g, [[-26, 60], [26, 60], [70, 460], [0, 540], [-70, 460]], '#d8403a'); for (let k = 0; k < 6; k++) seg(g, [[-60, 140 + k * 60], [60, 100 + k * 60]], 10, 'rgba(255,220,160,.35)'); g.restore();
       HAND(g, cx + 70, cy - 130 + (1 - q) * 200, -1.65, 200, 56); break; }
+    case 'fridgelist': {   // WI09: five names on the fridge; lit names glow gold (p.lit = [[anchor/frac, index], ...] already converted to fractions), p.days counter
+      g.fillStyle = '#e8e6e2'; g.fillRect(cx - 520, -50, 1040, E.H + 100); seg(g, [[cx + 400, cy - 300], [cx + 400, cy + 100]], 22, '#a8a6a2');
+      const names = p.names || ['JO', 'SAM', 'MR. HALE', 'DANNY', 'THEO'], lit = new Set((p.lit || []).filter(([f]) => t / dur >= f).map(([, i]) => i)), mag = p.magnet;
+      g.save(); g.translate(cx - 60, cy + 10); g.rotate(-.02); rr(g, -240, -330, 480, 660, 8); g.fillStyle = '#fbf6ec'; g.fill(); circle(g, 0, -312, 16, '#d8504a');
+      text(g, p.days == null ? "" : p.days === 0 ? "MIDNIGHT" : `${p.days} ${p.days === 1 ? "DAY" : "DAYS"}`, 0, -250, { size: 44, font: FONTS.ui, weight: 900, color: '#d8504a' });
+      names.forEach((n, i) => { const on = lit.has(i), y = -150 + i * 100; if (on) glow(g, 0, y, 230, '#ffd47e', .45); text(g, n, 0, y, { size: 58, font: 'Nunito', weight: 900, italic: true, color: on ? '#d89a10' : '#2a3a7a', glow: on ? 18 : 0, glowColor: '#ffd47e' }); if (mag === i) { circle(g, 0, y, 44, '#3fb950'); circle(g, -10, y - 10, 12, '#9fe0b0'); } });
+      g.restore(); break; }
+    case 'window': {   // a house window at night in the rain; a dog waiting, tail going
+      g.fillStyle = '#2a2430'; g.fillRect(-100, -100, E.W + 200, E.H + 200); rr(g, cx - 380, cy - 300, 760, 560, 12); g.fillStyle = '#ffcf8a'; g.fill(); glow(g, cx, cy, 700, '#ffcf8a', .3);
+      g.save(); g.translate(cx - 30, cy + 250); drawDog(g, 0, 0, t, { f: 1, jump: false }); g.restore(); seg(g, [[cx, cy - 300], [cx, cy + 260]], 18, '#3a3040'); seg(g, [[cx - 380, cy - 20], [cx + 380, cy - 20]], 18, '#3a3040');
+      rr(g, cx - 440, cy + 250, 880, 60, 8); g.fillStyle = '#4a4050'; g.fill(); FX.rain(g, t, { count: 160, color: 'rgba(190,215,255,.5)' }); break; }
     case 'pile': {   // the hero's phone: unsent texts pile up; the one being "spoken" types itself at the bottom
       const gl = ghostLine(gt), msgs = p.msgs || [], cnt = p.count ? Math.round(lerp(p.count[0], p.count[1], ease.inOut(prog(t, .2, dur * .85)))) : null;
       phone(cx - (p.side ?? 0) * 260, cy - 150 * (p.sc ?? 1.9), p.sc ?? 1.9, g => { hdr(g, 'Messages', 'not sent');

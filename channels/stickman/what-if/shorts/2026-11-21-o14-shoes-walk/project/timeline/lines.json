@@ -1,0 +1,112 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Raj's shoes are walking him away from the most important meeting of his life.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 5.35
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, your shoes take you where you need to be. Not where you want to be.",
+  "sec": "hook",
+  "start": 5.47,
+  "end": 10.288
+ },
+ {
+  "id": "L003",
+  "tag": "RAJ",
+  "thought": false,
+  "note": "",
+  "text": "The office is that way!",
+  "sec": "act1",
+  "start": 11.088,
+  "end": 12.207
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He could take them off. But then he'd never know where they were going.",
+  "sec": "act1",
+  "start": 12.607,
+  "end": 16.26
+ },
+ {
+  "id": "L005",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "phone",
+  "text": "The board's waiting. Where are you?",
+  "sec": "act2",
+  "start": 17.16,
+  "end": 19.325
+ },
+ {
+  "id": "L006",
+  "tag": "RAJ",
+  "thought": false,
+  "note": "",
+  "text": "I don't know. My shoes have a plan.",
+  "sec": "act2",
+  "start": 19.475,
+  "end": 21.084
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The shoes stop at the park. His daughter's match. He'd said he couldn't come.",
+  "sec": "act2",
+  "start": 21.934,
+  "end": 26.288
+ },
+ {
+  "id": "L008",
+  "tag": "TIA",
+  "thought": false,
+  "note": "",
+  "text": "Did you see? Did you see?",
+  "sec": "act3",
+  "start": 27.188,
+  "end": 28.931
+ },
+ {
+  "id": "L009",
+  "tag": "RAJ",
+  "thought": false,
+  "note": "",
+  "text": "I saw.",
+  "sec": "act3",
+  "start": 29.081,
+  "end": 29.685
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He doesn't get the promotion.",
+  "sec": "act3",
+  "start": 30.085,
+  "end": 31.685
+ },
+ {
+  "id": "L011",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He did see the goal.",
+  "sec": "act3",
+  "start": 31.805,
+  "end": 33.019
+ }
+]

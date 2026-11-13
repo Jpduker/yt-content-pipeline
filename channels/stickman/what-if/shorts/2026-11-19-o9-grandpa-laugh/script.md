@@ -13,11 +13,9 @@ JAY: Why did the scarecrow win an award?
 GRANDPA: Because he was outstanding in his field. Nineteen fifty-two.
 > Tuesday: whoopee cushion. Grandpa sits. Nothing.
 N: Tuesday, the whoopee cushion. Grandpa sits on it, and simply waits for it to finish.
-> Thursday: a magic trick. The coin falls out of Jay's sleeve.
-GRANDPA: Your sleeve.
 ## ACT 2
 > Saturday. Jay sits next to Grandpa with an old photo album, defeated.
-N: By Saturday, Jay gives up. He just sits with him, and opens the old photo album.
+N: On Saturday, Jay gives up and opens the old photo album.
 > a photo: young Grandpa, enormous seventies hair.
 JAY: Is that you?
 GRANDPA: That was nineteen seventy-four. I thought I looked like a rock star.
@@ -27,4 +25,3 @@ N: And then Grandpa laughs. A huge, wheezing, slapping-his-knee laugh.
 ## ACT 3
 > Sunday, the airport.
 GRANDPA: Send me photos. Especially of your haircuts.
-N: It was never the jokes. It was the sitting next to him.

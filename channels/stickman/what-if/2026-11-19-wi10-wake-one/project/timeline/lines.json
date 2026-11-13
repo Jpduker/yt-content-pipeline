@@ -1,0 +1,392 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At two minutes past six on a Thursday, the whole world stops.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 5.15
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Except you.",
+  "sec": "hook",
+  "start": 5.375,
+  "end": 6.55
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You can wake one person. Just one. Touch their shoulder, and they're back.",
+  "sec": "hook",
+  "start": 7.09,
+  "end": 11.86
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You get one hour. Then the world carries on, and only that person will remember any of it.",
+  "sec": "hook",
+  "start": 12.0,
+  "end": 17.3
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Who do you wake?",
+  "sec": "hook",
+  "start": 18.139,
+  "end": 19.168
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The first thing you learn is that you can't move anything. A pigeon in the air is as solid as a wall.",
+  "sec": "act1",
+  "start": 22.468,
+  "end": 29.263
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The second thing you learn is that a frozen city is very, very quiet.",
+  "sec": "act1",
+  "start": 29.403,
+  "end": 33.712
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You eat a free sample. Then all of them. Nobody can stop you, and that turns out to be less fun than you'd think.",
+  "sec": "act1",
+  "start": 34.952,
+  "end": 41.691
+ },
+ {
+  "id": "L009",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Hello?",
+  "sec": "act1",
+  "start": 41.951,
+  "end": 42.635
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Fifty-two minutes.",
+  "sec": "act1",
+  "start": 43.835,
+  "end": 44.985
+ },
+ {
+  "id": "L011",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The obvious choice is Mira. But Mira is four hours away by train, and nothing is running. On foot, she's three days.",
+  "sec": "act1",
+  "start": 46.225,
+  "end": 54.88
+ },
+ {
+  "id": "L012",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Mum is an hour's walk. You'd get there just as the world starts again.",
+  "sec": "act1",
+  "start": 55.02,
+  "end": 59.82
+ },
+ {
+  "id": "L013",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Theo is twenty minutes away, frozen on the sofa with a controller, mid-scream.",
+  "sec": "act1",
+  "start": 59.96,
+  "end": 64.838
+ },
+ {
+  "id": "L014",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Theo it is.",
+  "sec": "act1",
+  "start": 65.098,
+  "end": 66.188
+ },
+ {
+  "id": "L015",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You'd have a whole half hour of someone to talk to. You start walking home.",
+  "sec": "act1",
+  "start": 66.588,
+  "end": 70.771
+ },
+ {
+  "id": "L016",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then you see her.",
+  "sec": "act2",
+  "start": 72.671,
+  "end": 73.846
+ },
+ {
+  "id": "L017",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "A woman in a red coat, stepping off the kerb, looking at her phone. And a cyclist, frozen a hand's width away, looking at his.",
+  "sec": "act2",
+  "start": 73.986,
+  "end": 82.11
+ },
+ {
+  "id": "L018",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You can't move her. You can't move the bike. When the world starts again, they meet.",
+  "sec": "act2",
+  "start": 83.051,
+  "end": 87.874
+ },
+ {
+  "id": "L019",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You stand there for a long time.",
+  "sec": "act2",
+  "start": 89.114,
+  "end": 91.114
+ },
+ {
+  "id": "L020",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "If you wake her, you walk home alone. Nobody will ever know there was an hour.",
+  "sec": "act2",
+  "start": 91.253,
+  "end": 96.067
+ },
+ {
+  "id": "L021",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "If you don't, you'll know. For the rest of your life, you'll know.",
+  "sec": "act2",
+  "start": 96.908,
+  "end": 100.112
+ },
+ {
+  "id": "L022",
+  "tag": "LADY",
+  "thought": false,
+  "note": "",
+  "text": "Oh my goodness. Why is it so quiet?",
+  "sec": "act2",
+  "start": 101.272,
+  "end": 103.741
+ },
+ {
+  "id": "L023",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Long story. Can you take one step back for me?",
+  "sec": "act2",
+  "start": 103.891,
+  "end": 106.748
+ },
+ {
+  "id": "L024",
+  "tag": "LADY",
+  "thought": false,
+  "note": "",
+  "text": "Why would I\u2014 Oh. Oh.",
+  "sec": "act2",
+  "start": 106.898,
+  "end": 108.666
+ },
+ {
+  "id": "L025",
+  "tag": "LADY",
+  "thought": false,
+  "note": "",
+  "text": "That was going to hurt.",
+  "sec": "act2",
+  "start": 109.846,
+  "end": 111.299
+ },
+ {
+  "id": "L026",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Yeah.",
+  "sec": "act2",
+  "start": 111.449,
+  "end": 111.959
+ },
+ {
+  "id": "L027",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You have eight minutes left. You spend them on a bench with a stranger.",
+  "sec": "act3",
+  "start": 114.159,
+  "end": 118.083
+ },
+ {
+  "id": "L028",
+  "tag": "LADY",
+  "thought": false,
+  "note": "",
+  "text": "Of everyone in the world, you woke me?",
+  "sec": "act3",
+  "start": 118.343,
+  "end": 120.283
+ },
+ {
+  "id": "L029",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You were the one who needed it.",
+  "sec": "act3",
+  "start": 120.433,
+  "end": 121.757
+ },
+ {
+  "id": "L030",
+  "tag": "LADY",
+  "thought": false,
+  "note": "",
+  "text": "Who were you going to wake?",
+  "sec": "act3",
+  "start": 121.907,
+  "end": 123.509
+ },
+ {
+  "id": "L031",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "My brother. He'd have been annoying about it.",
+  "sec": "act3",
+  "start": 123.659,
+  "end": 125.823
+ },
+ {
+  "id": "L032",
+  "tag": "LADY",
+  "thought": false,
+  "note": "",
+  "text": "Then I'll be annoying about it for him. Thank you. Thank you. Thank you.",
+  "sec": "act3",
+  "start": 125.972,
+  "end": 129.586
+ },
+ {
+  "id": "L033",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Three seconds. She squeezes your hand.",
+  "sec": "act3",
+  "start": 130.886,
+  "end": 133.154
+ },
+ {
+  "id": "L034",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The world starts again. The cyclist rides past nobody.",
+  "sec": "act3",
+  "start": 134.394,
+  "end": 138.107
+ },
+ {
+  "id": "L035",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Where've you been? You look weird.",
+  "sec": "act3",
+  "start": 139.267,
+  "end": 140.912
+ },
+ {
+  "id": "L036",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I had a quiet hour.",
+  "sec": "act3",
+  "start": 141.062,
+  "end": 142.472
+ },
+ {
+  "id": "L037",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Lucky.",
+  "sec": "act3",
+  "start": 142.622,
+  "end": 143.175
+ },
+ {
+  "id": "L038",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Nobody else will ever know. One woman in a red coat will remember it forever.",
+  "sec": "act3",
+  "start": 143.575,
+  "end": 148.455
+ },
+ {
+  "id": "L039",
+  "tag": "N",
+  "thought": false,
+  "note": "soft",
+  "text": "Who would you wake?",
+  "sec": "end",
+  "start": 151.095,
+  "end": 152.227
+ }
+]

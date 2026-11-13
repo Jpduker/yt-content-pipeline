@@ -27,13 +27,13 @@
  },
  {
   "id": "L003",
-  "tag": "WOMAN",
+  "tag": "N",
   "thought": false,
   "note": "",
-  "text": "Oh. Sorry, love.",
-  "voice": "af_sarah",
-  "speed": 1.05,
-  "gain": 0.5,
+  "text": "He shakes it. He bangs it. It stays shut.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "gain": -1.0,
   "sec": "act1",
   "pause": 0.45,
   "group": "G002"
@@ -43,29 +43,16 @@
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "He shakes it. He bangs it. It stays shut.",
-  "voice": "am_michael",
-  "speed": 1.03,
-  "gain": -1.0,
-  "sec": "act1",
-  "pause": 0.0,
-  "group": "G003"
- },
- {
-  "id": "L005",
-  "tag": "N",
-  "thought": false,
-  "note": "",
   "text": "He checks his phone. No messages. He's lived alone since the spring.",
   "voice": "am_michael",
   "speed": 1.03,
   "gain": -1.0,
   "sec": "act1",
   "pause": 0.45,
-  "group": "G003"
+  "group": "G002"
  },
  {
-  "id": "L006",
+  "id": "L005",
   "tag": "N",
   "thought": false,
   "note": "",
@@ -75,36 +62,10 @@
   "gain": -1.0,
   "sec": "act2",
   "pause": 0.45,
-  "group": "G004"
+  "group": "G003"
  },
  {
-  "id": "L007",
-  "tag": "N",
-  "thought": false,
-  "note": "",
-  "text": "He tells himself it doesn't matter. Umbrellas are for tourists.",
-  "voice": "am_michael",
-  "speed": 1.03,
-  "gain": -1.0,
-  "sec": "act2",
-  "pause": 0.0,
-  "group": "G004"
- },
- {
-  "id": "L008",
-  "tag": "ELI",
-  "thought": false,
-  "note": "",
-  "text": "What? Who\u2026?",
-  "voice": "am_echo",
-  "speed": 1.05,
-  "gain": 0.5,
-  "sec": "act2",
-  "pause": 0.45,
-  "group": "G005"
- },
- {
-  "id": "L009",
+  "id": "L006",
   "tag": "N",
   "thought": false,
   "note": "",
@@ -113,11 +74,11 @@
   "speed": 1.03,
   "gain": -1.0,
   "sec": "act2",
-  "pause": 0.0,
-  "group": "G006"
+  "pause": 0.45,
+  "group": "G003"
  },
  {
-  "id": "L010",
+  "id": "L007",
   "tag": "N",
   "thought": false,
   "note": "",
@@ -127,23 +88,23 @@
   "gain": -1.0,
   "sec": "act3",
   "pause": 0.45,
-  "group": "G007"
+  "group": "G004"
  },
  {
-  "id": "L011",
+  "id": "L008",
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "Fourteen years old. Deaf in one ear. He's been sitting at the glass since six.",
+  "text": "Fourteen years old. He's been at the glass since six.",
   "voice": "am_michael",
   "speed": 1.03,
   "gain": -1.0,
   "sec": "act3",
   "pause": 0.0,
-  "group": "G007"
+  "group": "G004"
  },
  {
-  "id": "L012",
+  "id": "L009",
   "tag": "ELI",
   "thought": false,
   "note": "",
@@ -153,10 +114,10 @@
   "gain": 0.5,
   "sec": "act3",
   "pause": 0.0,
-  "group": "G008"
+  "group": "G005"
  },
  {
-  "id": "L013",
+  "id": "L010",
   "tag": "N",
   "thought": false,
   "note": "",
@@ -166,6 +127,6 @@
   "gain": -1.0,
   "sec": "act3",
   "pause": 0.45,
-  "group": "G009"
+  "group": "G006"
  }
 ]

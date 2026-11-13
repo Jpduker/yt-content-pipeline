@@ -1,5 +1,5 @@
 # O7 · "In This World, Every Compliment Is a Coin" (original Short, opening A = rule first) · v1 2026-11-13
-Third person. Tags: N · GRANT (smooth talker, new) · WALT (old street sweeper, new) · ZOE (girl, 8, new).
+Third person. Tags: N · WALT (old street sweeper, new) · ZOE (girl, 8, new).
 Rule (stated by 0:09, never changed): a compliment you mean drops a real gold coin into the other person's pocket. A fake one turns to hot ash in your hand. You can't pay yourself.
 Outcome: irony + warmth: the richest man in town is the sweeper, and all his coins come from one girl.
 
@@ -7,11 +7,6 @@ Outcome: irony + warmth: the richest man in town is the sweeper, and all his coi
 First frame (not a beat): a high street; gold coins clinking into people's pockets as they talk; one man shaking ash off his burnt fingers.
 N: In this world, every compliment you mean drops a gold coin in the other person's pocket.
 N: Fake ones turn to ash. In your hand.
-## ACT 1
-> an office lobby. Grant beams at his boss.
-GRANT: Love the tie, boss. Genius. Visionary.
-> ash, three puffs. Grant hops, shaking his hand.
-N: Grant has burnt fingers most days.
 ## ACT 2
 > morning, a street. Walt, the old sweeper, with a broom.
 N: The richest man in town is Walt. He sweeps the high street.

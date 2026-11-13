@@ -50,30 +50,18 @@
  },
  {
   "id": "G005",
-  "tag": "GRANDPA",
+  "tag": "N",
   "thought": false,
   "note": "",
-  "text": "Your sleeve.",
-  "voice": "bm_george",
-  "speed": 0.95,
+  "text": "On Saturday, Jay gives up and opens the old photo album.",
+  "voice": "am_michael",
+  "speed": 1.03,
   "ids": [
    "L006"
   ]
  },
  {
   "id": "G006",
-  "tag": "N",
-  "thought": false,
-  "note": "",
-  "text": "By Saturday, Jay gives up. He just sits with him, and opens the old photo album.",
-  "voice": "am_michael",
-  "speed": 1.03,
-  "ids": [
-   "L007"
-  ]
- },
- {
-  "id": "G007",
   "tag": "JAY",
   "thought": false,
   "note": "",
@@ -81,11 +69,11 @@
   "voice": "am_liam",
   "speed": 1.14,
   "ids": [
-   "L008"
+   "L007"
   ]
  },
  {
-  "id": "G008",
+  "id": "G007",
   "tag": "GRANDPA",
   "thought": false,
   "note": "",
@@ -93,11 +81,11 @@
   "voice": "bm_george",
   "speed": 0.95,
   "ids": [
-   "L009"
+   "L008"
   ]
  },
  {
-  "id": "G009",
+  "id": "G008",
   "tag": "N",
   "thought": false,
   "note": "",
@@ -105,11 +93,11 @@
   "voice": "am_michael",
   "speed": 1.03,
   "ids": [
-   "L010"
+   "L009"
   ]
  },
  {
-  "id": "G010",
+  "id": "G009",
   "tag": "GRANDPA",
   "thought": false,
   "note": "",
@@ -117,19 +105,7 @@
   "voice": "bm_george",
   "speed": 0.95,
   "ids": [
-   "L011"
-  ]
- },
- {
-  "id": "G011",
-  "tag": "N",
-  "thought": false,
-  "note": "",
-  "text": "It was never the jokes. It was the sitting next to him.",
-  "voice": "am_michael",
-  "speed": 1.03,
-  "ids": [
-   "L012"
+   "L010"
   ]
  }
 ]

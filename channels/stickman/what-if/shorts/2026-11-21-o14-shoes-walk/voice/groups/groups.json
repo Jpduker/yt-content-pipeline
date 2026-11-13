@@ -1,0 +1,112 @@
+[
+ {
+  "id": "G001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Raj's shoes are walking him away from the most important meeting of his life. In this world, your shoes take you where you need to be. Not where you want to be.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L001",
+   "L002"
+  ]
+ },
+ {
+  "id": "G002",
+  "tag": "RAJ",
+  "thought": false,
+  "note": "",
+  "text": "The office is that way!",
+  "voice": "am_fenrir",
+  "speed": 1.05,
+  "ids": [
+   "L003"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He could take them off. But then he'd never know where they were going.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L004"
+  ]
+ },
+ {
+  "id": "G004",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "phone",
+  "text": "The board's waiting. Where are you?",
+  "voice": "bm_george",
+  "speed": 1.04,
+  "ids": [
+   "L005"
+  ]
+ },
+ {
+  "id": "G005",
+  "tag": "RAJ",
+  "thought": false,
+  "note": "",
+  "text": "I don't know. My shoes have a plan.",
+  "voice": "am_fenrir",
+  "speed": 1.05,
+  "ids": [
+   "L006"
+  ]
+ },
+ {
+  "id": "G006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The shoes stop at the park. His daughter's match. He'd said he couldn't come.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L007"
+  ]
+ },
+ {
+  "id": "G007",
+  "tag": "TIA",
+  "thought": false,
+  "note": "",
+  "text": "Did you see? Did you see?",
+  "voice": "af_sky",
+  "speed": 1.12,
+  "ids": [
+   "L008"
+  ]
+ },
+ {
+  "id": "G008",
+  "tag": "RAJ",
+  "thought": false,
+  "note": "",
+  "text": "I saw.",
+  "voice": "am_fenrir",
+  "speed": 1.05,
+  "ids": [
+   "L009"
+  ]
+ },
+ {
+  "id": "G009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He doesn't get the promotion. He did see the goal.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L010",
+   "L011"
+  ]
+ }
+]

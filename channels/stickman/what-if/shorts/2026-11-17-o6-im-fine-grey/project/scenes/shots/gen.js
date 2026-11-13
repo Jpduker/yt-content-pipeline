@@ -189,6 +189,7 @@ function floater(g, f, t, GY, p) {
   else if (k === 'tray') { rr(g, -90, -8, 180, 14, 4); g.fillStyle = '#8a6a4a'; g.fill(); for (let i = 0; i < 4; i++) { g.save(); g.translate(-66 + i * 44, -8); poly(g, [[-14, -50], [14, -50], [10, 0], [-10, 0]], '#f2ece4'); g.fillStyle = '#3a6ea5'; g.fillRect(-13, -34, 26, 12); g.restore(); } }
   else if (k === 'bin') { poly(g, [[-70, 0], [70, 0], [86, -170], [-86, -170]], '#5a6070'); for (let i = -2; i <= 2; i++) seg(g, [[i * 28, -10], [i * 34, -160]], 4, '#4a5060'); if (f.laptop) { g.save(); g.translate(10, -170); g.rotate(-.5); rr(g, -70, -90, 140, 90, 6); g.fillStyle = '#2a2a36'; g.fill(); rr(g, -60, -82, 120, 74, 4); g.fillStyle = '#111'; g.fill(); g.restore(); } }
   else if (k === 'cabinet') { rr(g, -70, -260, 140, 260, 6); g.fillStyle = '#7a8090'; g.fill(); for (let i = 0; i < 3; i++) { rr(g, -58, -248 + i * 84, 116, 72, 4); g.strokeStyle = '#5a6070'; g.lineWidth = 4; g.stroke(); seg(g, [[-16, -214 + i * 84], [16, -214 + i * 84]], 6, '#3a3f4a'); } }
+  else if (k === 'pigeon') { g.scale(f.f ?? 1, 1); g.fillStyle = '#7a7a88'; g.beginPath(); g.ellipse(0, -30, 40, 26, -.2, 0, 7); g.fill(); circle(g, 34, -58, 16, '#6a6a78'); poly(g, [[48, -60], [62, -54], [48, -52]], '#e8a030'); circle(g, 38, -62, 3, '#111'); seg(g, [[-6, -6], [-10, 0]], 4, '#e8a030'); seg(g, [[8, -6], [6, 0]], 4, '#e8a030'); g.fillStyle = '#5a5a68'; g.beginPath(); g.ellipse(-30, -26, 26, 12, .3, 0, 7); g.fill(); }
   else if (k === 'splash') { for (let i = 0; i < 9; i++) { g.fillStyle = '#7a4a2a'; g.beginPath(); g.ellipse(-60 + (i * 37) % 120, -20 + (i * 23) % 60, 16, 26, i, 0, 7); g.fill(); } }
   g.restore();
 }
@@ -205,6 +206,15 @@ function pstring(g, A, B, st, t, dur) {
   else { const d = snap * 160; for (const [p0, sgn] of [[a, 1], [b, -1]]) { const mx2 = p0[0] + sgn * (b[0] - a[0]) * .25, my2 = p0[1] + 40 + d; g.strokeStyle = alpha(col, .9 * (1 - snap * .6)); g.lineWidth = Math.max(1, wl * .7); g.beginPath(); g.moveTo(p0[0], p0[1]); g.quadraticCurveTo(mx2, my2, mx2 + sgn * 30, my2 + 60); g.stroke(); }
     if (snap < .5) glow(g, (a[0] + b[0]) / 2, (a[1] + b[1]) / 2 + sag, 90, '#fff3c8', .8 * (1 - snap * 2)); }
   g.restore(); }
+
+// ---------- v3.1 chest ring (WI08): Mira's feeling glows round YOUR chest, with a small label ----------
+const FEEL = { NERVOUS: ['#ffd47e', 5], BLANK: ['#f4f0e8', 1], HAPPY: ['#ffd47e', 2], JITTERY: ['#ffb04a', 7], TERRIFIED: ['#ff6a4a', 8], ANNOYED: ['#ff8a5a', 4], WORRIED: ['#c8a8ff', 3], SAD: ['#6ea0e0', 1], SHARED: ['#9fe0ff', 1.2], PROUD: ['#ffd47e', 3], CONTENT: ['#ffe2a8', 1] };
+function chestRing(g, x, y, r, c, t, k, lab = true) {
+  const L = seqNum(c.v, k); if (!L) return; const [col, sp] = FEEL[L] || ['#ffd47e', 2], pulse = .5 + .5 * Math.sin(t * sp * 2), big = L === 'PROUD' ? 1.4 : 1;
+  g.save(); g.globalCompositeOperation = 'lighter'; glow(g, x, y, r * (1.6 + .25 * pulse) * big, col, (L === 'SAD' ? .18 : .28) + .12 * pulse);
+  g.strokeStyle = alpha(col, .85); g.lineWidth = Math.max(2, r * .09); g.beginPath(); g.ellipse(x, y, r * (1 + .08 * pulse) * big, r * .7 * (1 + .08 * pulse) * big, 0, 0, 7); g.stroke(); g.restore();
+  if (lab && c.label !== false) { const fs = Math.max(16, r * .42); g.save(); rr(g, x + r * 1.15, y - fs * .7, measureT(g, L, fs) + fs, fs * 1.4, fs * .5); g.fillStyle = 'rgba(14,8,16,.75)'; g.fill(); g.strokeStyle = alpha(col, .9); g.lineWidth = 2; g.stroke();
+    text(g, L, x + r * 1.15 + fs * .5, y, { size: fs, font: FONTS.ui, weight: 900, color: col, align: 'left' }); g.restore(); } }
 // ---------- builder: SCENE (wide / two-shot / OTS / medium) ----------
 function scene(g, t, info) {
   const p = info, dur = info.dur, k = ease.inOut(clamp(t / dur)), gt = info.globalT, frozen = !!p.freeze;
@@ -241,6 +251,7 @@ function scene(g, t, info) {
     if (thL && figs[thL.tag]) { const a = figs[thL.tag]; echo(g, a.hx, a.hy, a.hr, thL, gt, -a.facing); }
     for (const st of p.strings || []) { const A = Array.isArray(st.a) ? st.a : figs[st.a], B = Array.isArray(st.b) ? st.b : figs[st.b]; if (A && B) pstring(g, A, B, st, t, dur); }
     for (const w of p.who || []) if (w.badge) { const a = figs[w.id]; badge(g, a.hx, a.hy, a.hr, w.badge, t, t / dur); }
+    for (const w of p.who || []) if (w.chest) { const a = figs[w.id]; chestRing(g, a.x + a.facing * 4, a.hy + a.hr * 2.6, a.hr * .95, w.chest, t, t / dur); }
     for (const b of p.tags || []) badge(g, b.x, b.y, b.r || 38, b, t, t / dur);
     const gl = p.ghost === false ? null : ghostLine(gt); if (gl) { const a = figs[gl.tag]; p._ghost = a ? [...toScreen(g, a.hx + a.facing * a.hr * 1.2, a.hy - a.hr * 1.3), gl] : [E.W / 2, E.H * .36, gl, true]; } else p._ghost = null;
   });
@@ -279,7 +290,7 @@ function vOverlay(g, t, p) {
   if (p.hookText) { const [a0, a1] = p.hookT || [0, 2.8], a = Math.min(ease.out(prog(t, a0, a0 + .15)), 1 - prog(t, a1 - .3, a1)), q = ease.outBack(prog(t, a0, a0 + .3));
     if (a > 0) { g.save(); g.translate(W / 2, vert ? 300 : 120); g.scale(q, q); plate(g, p.hookText, 0, 0, vert ? 74 : 56, '#ffd47e', a, vert ? W * .84 : W * .7); g.restore(); } }
   if (p.ask) { const at = p.ask.at ?? Math.max(0, dur - 2.2), a = ease.out(prog(t, at, at + .35));
-    if (a > 0) plate(g, p.ask.text, W / 2, vert ? 300 : 130, vert ? 62 : 50, '#f4ecdf', a, vert ? W * .86 : W * .7); }
+    if (a > 0) plate(g, p.ask.text, W / 2, vert ? (p.askY ?? 1180) : 130, vert ? 62 : 50, '#f4ecdf', a, vert ? W * .86 : W * .7); }
   if (p.fring) { const [f0, f1] = p.fring, q = prog(t, f0, f1); if (t >= f0 - .05 && t <= f1 + .25) { const cx = vert ? W - 130 : W - 150, cy = vert ? 580 : 150, r = vert ? 70 : 62, n = Math.max(0, Math.ceil(5 * (1 - q) - 1e-6));
       g.save(); circle(g, cx, cy, r + 8, 'rgba(14,8,16,.7)'); g.strokeStyle = 'rgba(160,190,255,.3)'; g.lineWidth = 12; g.beginPath(); g.arc(cx, cy, r, 0, 7); g.stroke(); g.strokeStyle = '#a8c8ff'; g.beginPath(); g.arc(cx, cy, r, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * (1 - q)); g.stroke();
       text(g, String(n), cx, cy + 2, { size: r * 1.05, font: FONTS.ui, weight: 900, color: '#e8f0ff' }); g.restore(); } }
@@ -304,6 +315,7 @@ function face(g, t, info) {
   if (gvF > 0) g.restore();
   if (p.reflect) { g.restore(); veil(g, '#2a4a6a', .28); g.save(); g.globalAlpha = .5; for (const x of [E.W * .18, E.W * .82]) seg(g, [[x, 0], [x, E.H]], 26, '#1a1418'); text(g, 'KETTLE & CRUMB', E.W / 2, E.H * .2, { size: 70, weight: 700, color: 'rgba(242,230,208,.5)', spacing: 8 }); g.restore(); }
   if (p.badge) badge(g, cx, cy + bob - r * .5, r * .5, p.badge, t, k);
+  if (p.chest) chestRing(g, cx, cy + bob + r * 1.3, r * .55, p.chest, t, k);
   { const gl = p.ghost === false ? null : ghostLine(gt); if (gl) ghostBubble(g, cx - side * r * (TAGOF(p.who) === gl.tag ? 2.1 : 2.4), cy - r * .15, gl, gt, { noTail: TAGOF(p.who) !== gl.tag, up: 0, size: V(52, 58) }); }
   if (talk > .05) FX.rings(g, cx + side * r * 1.05, cy, t, { count: 2, r0: 30, r1: 140, color: '#fff1e6', a: .3 });
   const [thL, thAmt] = frozen ? [null, 0] : thoughtEnv(gt);

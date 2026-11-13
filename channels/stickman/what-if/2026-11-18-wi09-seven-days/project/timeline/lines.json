@@ -1,0 +1,582 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "On Monday, there's a list on your fridge. Five names.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 4.875
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Every friendship you ever let break.",
+  "sec": "hook",
+  "start": 5.015,
+  "end": 7.24
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Fix one, and the name turns gold. Don't, and on Sunday at midnight, they're gone.",
+  "sec": "hook",
+  "start": 7.38,
+  "end": 12.595
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Not dead. Just gone. You'll pass them in the street, and neither of you will know why you looked.",
+  "sec": "hook",
+  "start": 13.135,
+  "end": 18.762
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You have seven days.",
+  "sec": "hook",
+  "start": 19.602,
+  "end": 20.901
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The first four are easy to guess. The fifth one makes you laugh.",
+  "sec": "act1",
+  "start": 24.201,
+  "end": 27.872
+ },
+ {
+  "id": "L007",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Theo? He lives here. He eats my cereal.",
+  "sec": "act1",
+  "start": 28.132,
+  "end": 30.647
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You decide the list is broken. Lists can be broken. You put a magnet over his name and go to work.",
+  "sec": "act1",
+  "start": 31.047,
+  "end": 37.168
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Jo. In 2019 he sent you a very long message. You meant to answer it properly. You never did.",
+  "sec": "act1",
+  "start": 38.408,
+  "end": 45.421
+ },
+ {
+  "id": "L010",
+  "tag": "JO",
+  "thought": false,
+  "note": "",
+  "text": "You never answered. Not even a thumbs up.",
+  "sec": "act1",
+  "start": 45.681,
+  "end": 47.717
+ },
+ {
+  "id": "L011",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I know. It was a long message.",
+  "sec": "act1",
+  "start": 47.867,
+  "end": 49.835
+ },
+ {
+  "id": "L012",
+  "tag": "JO",
+  "thought": false,
+  "note": "",
+  "text": "It was about my dad.",
+  "sec": "act1",
+  "start": 49.985,
+  "end": 51.083
+ },
+ {
+  "id": "L013",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I'm sorry. I didn't know.",
+  "sec": "act1",
+  "start": 51.833,
+  "end": 53.328
+ },
+ {
+  "id": "L014",
+  "tag": "JO",
+  "thought": false,
+  "note": "",
+  "text": "You didn't ask.",
+  "sec": "act1",
+  "start": 53.478,
+  "end": 54.298
+ },
+ {
+  "id": "L015",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He's right. You didn't. You were busy, and then you were embarrassed about being busy, and then it was four years.",
+  "sec": "act1",
+  "start": 55.298,
+  "end": 61.861
+ },
+ {
+  "id": "L016",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "How is he? Your dad.",
+  "sec": "act1",
+  "start": 62.121,
+  "end": 63.798
+ },
+ {
+  "id": "L017",
+  "tag": "JO",
+  "thought": false,
+  "note": "",
+  "text": "Better. Do you actually want to know?",
+  "sec": "act1",
+  "start": 63.948,
+  "end": 65.579
+ },
+ {
+  "id": "L018",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I actually want to know.",
+  "sec": "act1",
+  "start": 65.729,
+  "end": 67.267
+ },
+ {
+  "id": "L019",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You ask. He talks for an hour. You don't check your phone once.",
+  "sec": "act1",
+  "start": 68.567,
+  "end": 72.274
+ },
+ {
+  "id": "L020",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Sam. You still have her jacket from a party in 2017.",
+  "sec": "act1",
+  "start": 73.514,
+  "end": 77.792
+ },
+ {
+  "id": "L021",
+  "tag": "SAM",
+  "thought": false,
+  "note": "phone",
+  "text": "You've had it seven years.",
+  "sec": "act1",
+  "start": 78.052,
+  "end": 79.291
+ },
+ {
+  "id": "L022",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "It's a really good jacket.",
+  "sec": "act1",
+  "start": 79.441,
+  "end": 80.915
+ },
+ {
+  "id": "L023",
+  "tag": "SAM",
+  "thought": false,
+  "note": "phone",
+  "text": "Bring it to football on Thursday. You're in goal.",
+  "sec": "act1",
+  "start": 81.065,
+  "end": 83.371
+ },
+ {
+  "id": "L024",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You let in nine goals. Sam laughs so hard she has to sit down. Gold.",
+  "sec": "act1",
+  "start": 83.771,
+  "end": 88.611
+ },
+ {
+  "id": "L025",
+  "tag": "SAM",
+  "thought": false,
+  "note": "",
+  "text": "Same time next week? You can be worse in a different position.",
+  "sec": "act1",
+  "start": 88.87,
+  "end": 92.046
+ },
+ {
+  "id": "L026",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Two names down. Three to go. You start to think this is going to be easy.",
+  "sec": "act1",
+  "start": 92.446,
+  "end": 97.098
+ },
+ {
+  "id": "L027",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Mr. Hale. Your old neighbour. You waved at the van, and you never visited.",
+  "sec": "act2",
+  "start": 98.998,
+  "end": 103.461
+ },
+ {
+  "id": "L028",
+  "tag": "NEIGH",
+  "thought": false,
+  "note": "",
+  "text": "Well, look who it is! Come in, I've got eight kinds of biscuits and nobody to eat them.",
+  "sec": "act2",
+  "start": 103.721,
+  "end": 108.667
+ },
+ {
+  "id": "L029",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You eat all eight kinds. He shows you his tomatoes, one by one. He has named them.",
+  "sec": "act2",
+  "start": 109.067,
+  "end": 114.419
+ },
+ {
+  "id": "L030",
+  "tag": "NEIGH",
+  "thought": false,
+  "note": "",
+  "text": "That one's called Gerald. He's my best one. Don't tell the others.",
+  "sec": "act2",
+  "start": 114.679,
+  "end": 118.545
+ },
+ {
+  "id": "L031",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You stay for dinner. You miss the last train and sleep on his sofa under a blanket that smells of biscuits. Gold.",
+  "sec": "act2",
+  "start": 118.945,
+  "end": 125.88
+ },
+ {
+  "id": "L032",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Danny. Your best friend when you were fourteen. You moved schools, and you promised to write, and you didn't. Not once.",
+  "sec": "act2",
+  "start": 127.12,
+  "end": 133.925
+ },
+ {
+  "id": "L033",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Danny doesn't pick up. Thursday. Friday. Saturday.",
+  "sec": "act2",
+  "start": 134.066,
+  "end": 138.121
+ },
+ {
+  "id": "L034",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "On Saturday night, he texts back.",
+  "sec": "act2",
+  "start": 138.341,
+  "end": 140.384
+ },
+ {
+  "id": "L035",
+  "tag": "DANNY",
+  "thought": false,
+  "note": "text",
+  "text": "I'm not ready. Maybe one day.",
+  "sec": "act2",
+  "start": 140.644,
+  "end": 143.144
+ },
+ {
+  "id": "L036",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The D stays white. You can't fix someone who doesn't want to be fixed. You can only leave the door open.",
+  "sec": "act2",
+  "start": 144.344,
+  "end": 150.682
+ },
+ {
+  "id": "L037",
+  "tag": "YOU",
+  "thought": false,
+  "note": "text",
+  "text": "Whenever you're ready. I'll answer.",
+  "sec": "act2",
+  "start": 150.942,
+  "end": 152.89
+ },
+ {
+  "id": "L038",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Sunday. Six hours left. One name. Theo.",
+  "sec": "act3",
+  "start": 155.09,
+  "end": 159.345
+ },
+ {
+  "id": "L039",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You've fed him, housed him, said sorry to him. But you realise you've never once asked him a question you didn't already know the answer to.",
+  "sec": "act3",
+  "start": 159.485,
+  "end": 166.993
+ },
+ {
+  "id": "L040",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Theo. What's that game you play every night?",
+  "sec": "act3",
+  "start": 167.253,
+  "end": 169.657
+ },
+ {
+  "id": "L041",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "You want to know?",
+  "sec": "act3",
+  "start": 169.807,
+  "end": 170.833
+ },
+ {
+  "id": "L042",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I want to play.",
+  "sec": "act3",
+  "start": 170.983,
+  "end": 172.03
+ },
+ {
+  "id": "L043",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "You'll be terrible.",
+  "sec": "act3",
+  "start": 172.18,
+  "end": 173.249
+ },
+ {
+  "id": "L044",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I know.",
+  "sec": "act3",
+  "start": 173.399,
+  "end": 174.105
+ },
+ {
+  "id": "L045",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "You have to be the green one. The green one always dies first.",
+  "sec": "act3",
+  "start": 174.255,
+  "end": 177.449
+ },
+ {
+  "id": "L046",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "That feels personal.",
+  "sec": "act3",
+  "start": 177.599,
+  "end": 178.927
+ },
+ {
+  "id": "L047",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You're terrible. He teaches you anyway. He's patient. You didn't know he was patient.",
+  "sec": "act3",
+  "start": 180.227,
+  "end": 185.344
+ },
+ {
+  "id": "L048",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "You keep looking at the fridge.",
+  "sec": "act3",
+  "start": 185.604,
+  "end": 187.121
+ },
+ {
+  "id": "L049",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "No, I don't.",
+  "sec": "act3",
+  "start": 187.271,
+  "end": 188.208
+ },
+ {
+  "id": "L050",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Is my name on that thing?",
+  "sec": "act3",
+  "start": 188.358,
+  "end": 189.853
+ },
+ {
+  "id": "L051",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "It was. Under a magnet.",
+  "sec": "act3",
+  "start": 190.603,
+  "end": 191.949
+ },
+ {
+  "id": "L052",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Why?",
+  "sec": "act3",
+  "start": 192.099,
+  "end": 192.624
+ },
+ {
+  "id": "L053",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Because I've been your brother your whole life. I don't think I've ever been your friend.",
+  "sec": "act3",
+  "start": 192.774,
+  "end": 197.42
+ },
+ {
+  "id": "L054",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Okay. Well. Friends don't let friends be the green one. Swap.",
+  "sec": "act3",
+  "start": 198.27,
+  "end": 201.309
+ },
+ {
+  "id": "L055",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At two minutes to midnight, the last T turns gold.",
+  "sec": "act3",
+  "start": 202.609,
+  "end": 205.743
+ },
+ {
+  "id": "L056",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Four gold names. One white one.",
+  "sec": "act3",
+  "start": 206.683,
+  "end": 209.133
+ },
+ {
+  "id": "L057",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You leave the list on the fridge. Just in case Danny calls.",
+  "sec": "act3",
+  "start": 209.273,
+  "end": 212.872
+ },
+ {
+  "id": "L058",
+  "tag": "N",
+  "thought": false,
+  "note": "soft",
+  "text": "Whose name would be on your list?",
+  "sec": "end",
+  "start": 215.512,
+  "end": 217.348
+ }
+]

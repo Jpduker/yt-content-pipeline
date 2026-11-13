@@ -1,0 +1,101 @@
+[
+ {
+  "id": "G001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, every door you hold open gives you one second back. At midnight. Ines wants as many as possible.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L001",
+   "L002"
+  ]
+ },
+ {
+  "id": "G002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She holds forty doors before nine.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L003"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "MAN",
+  "thought": false,
+  "note": "",
+  "text": "After you.",
+  "voice": "am_onyx",
+  "speed": 1.04,
+  "ids": [
+   "L004"
+  ]
+ },
+ {
+  "id": "G004",
+  "tag": "INES",
+  "thought": false,
+  "note": "",
+  "text": "No, after you.",
+  "voice": "af_jessica",
+  "speed": 1.08,
+  "ids": [
+   "L005"
+  ]
+ },
+ {
+  "id": "G005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She spends six minutes in a door standoff to earn two seconds.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L006"
+  ]
+ },
+ {
+  "id": "G006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By evening, she has fifteen minutes saved. Nine hundred doors. She makes a list. Learn the guitar. Call her sister. Write the first page of a novel.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L007",
+   "L008"
+  ]
+ },
+ {
+  "id": "G007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At midnight, the world waits. Fifteen extra minutes, just for her. She sleeps through all fifteen.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L009",
+   "L010"
+  ]
+ },
+ {
+  "id": "G008",
+  "tag": "INES",
+  "thought": false,
+  "note": "",
+  "text": "Best fifteen minutes of my life.",
+  "voice": "af_jessica",
+  "speed": 1.08,
+  "ids": [
+   "L011"
+  ]
+ }
+]

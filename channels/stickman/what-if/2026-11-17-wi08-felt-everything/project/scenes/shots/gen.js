@@ -315,7 +315,7 @@ function face(g, t, info) {
   if (gvF > 0) g.restore();
   if (p.reflect) { g.restore(); veil(g, '#2a4a6a', .28); g.save(); g.globalAlpha = .5; for (const x of [E.W * .18, E.W * .82]) seg(g, [[x, 0], [x, E.H]], 26, '#1a1418'); text(g, 'KETTLE & CRUMB', E.W / 2, E.H * .2, { size: 70, weight: 700, color: 'rgba(242,230,208,.5)', spacing: 8 }); g.restore(); }
   if (p.badge) badge(g, cx, cy + bob - r * .5, r * .5, p.badge, t, k);
-  if (p.chest) chestRing(g, cx, cy + bob + r * 1.75, r * .7, p.chest, t, k);
+  if (p.chest) chestRing(g, cx, cy + bob + r * 1.3, r * .55, p.chest, t, k);
   { const gl = p.ghost === false ? null : ghostLine(gt); if (gl) ghostBubble(g, cx - side * r * (TAGOF(p.who) === gl.tag ? 2.1 : 2.4), cy - r * .15, gl, gt, { noTail: TAGOF(p.who) !== gl.tag, up: 0, size: V(52, 58) }); }
   if (talk > .05) FX.rings(g, cx + side * r * 1.05, cy, t, { count: 2, r0: 30, r1: 140, color: '#fff1e6', a: .3 });
   const [thL, thAmt] = frozen ? [null, 0] : thoughtEnv(gt);

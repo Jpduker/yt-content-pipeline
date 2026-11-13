@@ -290,7 +290,7 @@ function vOverlay(g, t, p) {
   if (p.hookText) { const [a0, a1] = p.hookT || [0, 2.8], a = Math.min(ease.out(prog(t, a0, a0 + .15)), 1 - prog(t, a1 - .3, a1)), q = ease.outBack(prog(t, a0, a0 + .3));
     if (a > 0) { g.save(); g.translate(W / 2, vert ? 300 : 120); g.scale(q, q); plate(g, p.hookText, 0, 0, vert ? 74 : 56, '#ffd47e', a, vert ? W * .84 : W * .7); g.restore(); } }
   if (p.ask) { const at = p.ask.at ?? Math.max(0, dur - 2.2), a = ease.out(prog(t, at, at + .35));
-    if (a > 0) plate(g, p.ask.text, W / 2, vert ? 300 : 130, vert ? 62 : 50, '#f4ecdf', a, vert ? W * .86 : W * .7); }
+    if (a > 0) plate(g, p.ask.text, W / 2, vert ? (p.askY ?? 1180) : 130, vert ? 62 : 50, '#f4ecdf', a, vert ? W * .86 : W * .7); }
   if (p.fring) { const [f0, f1] = p.fring, q = prog(t, f0, f1); if (t >= f0 - .05 && t <= f1 + .25) { const cx = vert ? W - 130 : W - 150, cy = vert ? 580 : 150, r = vert ? 70 : 62, n = Math.max(0, Math.ceil(5 * (1 - q) - 1e-6));
       g.save(); circle(g, cx, cy, r + 8, 'rgba(14,8,16,.7)'); g.strokeStyle = 'rgba(160,190,255,.3)'; g.lineWidth = 12; g.beginPath(); g.arc(cx, cy, r, 0, 7); g.stroke(); g.strokeStyle = '#a8c8ff'; g.beginPath(); g.arc(cx, cy, r, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * (1 - q)); g.stroke();
       text(g, String(n), cx, cy + 2, { size: r * 1.05, font: FONTS.ui, weight: 900, color: '#e8f0ff' }); g.restore(); } }

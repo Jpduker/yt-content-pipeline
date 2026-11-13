@@ -36,3 +36,4 @@ Append-only. date · decision · why.
 - 2026-11-12 · Island channel (parked) will use lemo-opuscar's 2.5D Pixel Art style (formerly "HD-2D"); our own story and cast, never their demo's, never the "HD-2D" name on screen. Repo stays private (lemo docs licence + GrowKaz kit).
 - 2026-11-12 · Batch 2 = WI06 chances left (Sun 15), WI07 apology erased (Mon 16), WI08 felt everything (Tue 17), style v3.1; Theo (younger brother) joins the recurring cast.
 - 2026-11-13 · Vivek: WI06–WI12 approved; Alternate Avengers parked until its production setup is ready. Shorts: no question card or "Full story" card; a question over the final action + pinned comment; Related video links the long-form.
+- 2026-11-13 · Vivek: cadence = 1 long-form + 4 Shorts a day from Sun 15 (Option 1); P1–P3 approved. Style growkaz-ifverse v3.1 from WI06. P2's kid is Sami (new family) so Theo stays an adult.

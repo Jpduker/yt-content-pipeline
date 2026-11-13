@@ -1,0 +1,112 @@
+[
+ {
+  "id": "G001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, when people look straight through you, you shrink. By Thursday, Pip is the size of a coffee cup.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L001",
+   "L002"
+  ]
+ },
+ {
+  "id": "G002",
+  "tag": "PIP",
+  "thought": false,
+  "note": "",
+  "text": "Hello? I'm on the photocopier.",
+  "voice": "af_bella",
+  "speed": 1.08,
+  "ids": [
+   "L003"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Nobody notices. Somebody photocopies her shoe.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L004"
+  ]
+ },
+ {
+  "id": "G004",
+  "tag": "CLEANER",
+  "thought": false,
+  "note": "",
+  "text": "Well, hello. You're very small.",
+  "voice": "bm_lewis",
+  "speed": 1.02,
+  "ids": [
+   "L005"
+  ]
+ },
+ {
+  "id": "G005",
+  "tag": "PIP",
+  "thought": false,
+  "note": "",
+  "text": "You can see me?",
+  "voice": "af_bella",
+  "speed": 1.08,
+  "ids": [
+   "L006"
+  ]
+ },
+ {
+  "id": "G006",
+  "tag": "CLEANER",
+  "thought": false,
+  "note": "",
+  "text": "Course I can. Nobody sees me either. Want a lift?",
+  "voice": "bm_lewis",
+  "speed": 1.02,
+  "ids": [
+   "L007"
+  ]
+ },
+ {
+  "id": "G007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Pip grows a little. The size of a cat.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L008"
+  ]
+ },
+ {
+  "id": "G008",
+  "tag": "CLEANER",
+  "thought": false,
+  "note": "",
+  "text": "You're not the only one.",
+  "voice": "bm_lewis",
+  "speed": 1.02,
+  "ids": [
+   "L009"
+  ]
+ },
+ {
+  "id": "G009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Under the desks, there's a whole town of people nobody looks at. Pip says hello to every single one. They all grow.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L010",
+   "L011"
+  ]
+ }
+]

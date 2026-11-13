@@ -24,6 +24,10 @@ YOU: What's on your calendar today?
 MIRA (phone): Oh. Ten o'clock. Group presentation. Urban drainage. Slide four is yours.
 YOU: What's on slide four?
 MIRA (phone): Drainage.
+YOU: I don't know anything about drainage.
+MIRA (phone): Nobody does. That's why it's a course. Also, I'm going to your work. What do you do all day?
+YOU: Emails. Mostly emails about other emails.
+MIRA (phone): Oh no.
 > the course building. Ama waves.
 N: Her course mates are lovely. They call you Mira, hand you a coffee and ask you about drains.
 AMA: You ready, Mira?
@@ -33,11 +37,21 @@ N: Slide four is a pipe. You talk about the pipe for three minutes. You say "flo
 PROF: Unusual. Passionate. Mostly wrong. B minus.
 AMA: That's her best mark yet.
 N: You decide not to tell her.
+> afternoon: Mira on the phone from your office, a stack of reports.
+MIRA (phone): Your boss asked me how my weekend was, and then he listened to the answer. Is he okay?
+YOU: That's new. He's been listening lately.
+MIRA (phone): Also, I did all your emails. It took forty minutes.
+YOU: That's three weeks of emails.
+MIRA (phone): You're welcome.
 
 ## ACT 2
 > afternoon, Mira's flat. Her phone lights up: her mum, her flatmates, a group called "Course Panic".
 N: Her phone never stops. Her mum. Her flatmates. A group called "Course Panic". People ask her things all day, and she answers every one of them.
 N: You get a strange feeling. You know her better than anyone. And you have never seen how tired she is.
+> her flatmates knock: pizza night. They're kind. They are not her people yet.
+N: Her flatmates knock for pizza night. They're kind, and they're funny, and they don't know that she hates olives. You pick the olives off without thinking.
+AMA: How did you know she hates olives?
+YOU: Lucky guess.
 > evening. A call from Mira, quiet.
 MIRA (phone): Hey. Can I ask you something?
 YOU: Sure.
@@ -58,6 +72,9 @@ YOU: All of them?
 MIRA (phone): All forty. Before we swap back. I want to get them on my own phone.
 > you hit send, again and again. Her phone buzzes, buzzes, buzzes in your hand.
 N: You hit send forty times. Her phone buzzes forty times in your hand, which is a very strange way to receive a hug.
+MIRA (phone): Number twelve is just the word "sandwich".
+YOU: That was a whole day. You'd know if you'd been there.
+MIRA (phone): I'm sending you one back for every single one.
 > 00:00. Swap back: you in your own bed, Theo snoring in the next room.
 N: At midnight, you wake up in your own bed. Theo's snoring. There's a pan in the sink.
 > your phone: a reply.

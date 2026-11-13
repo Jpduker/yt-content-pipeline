@@ -19,6 +19,7 @@ N: You have seven days.
 > kitchen. The list: JO · SAM · MR. HALE · DANNY · THEO. A counter: 7 DAYS.
 N: The first four are easy to guess. The fifth one makes you laugh.
 YOU: Theo? He lives here. He eats my cereal.
+N: You decide the list is broken. Lists can be broken. You put a magnet over his name and go to work.
 > café. Jo, arms folded (orange cap).
 N: Jo. In 2019 he sent you a very long message. You meant to answer it properly. You never did.
 JO: You never answered. Not even a thumbs up.
@@ -27,6 +28,11 @@ JO: It was about my dad.
 ~ 0.6
 YOU: I'm sorry. I didn't know.
 JO: You didn't ask.
+~ 0.6
+N: He's right. You didn't. You were busy, and then you were embarrassed about being busy, and then it was four years.
+YOU: How is he? Your dad.
+JO: Better. Do you actually want to know?
+YOU: I actually want to know.
 > you ask. He talks for an hour. The J lights up gold.
 N: You ask. He talks for an hour. You don't check your phone once.
 > Tuesday. Sam on the phone.
@@ -35,13 +41,18 @@ SAM (phone): You've had it seven years.
 YOU: It's a really good jacket.
 SAM (phone): Bring it to football on Thursday. You're in goal.
 N: You let in nine goals. Sam laughs so hard she has to sit down. Gold.
+SAM: Same time next week? You can be worse in a different position.
+N: Two names down. Three to go. You start to think this is going to be easy.
 
 ## ACT 2
 > Wednesday. A train to the coast.
 N: Mr. Hale. Your old neighbour. You waved at the van, and you never visited.
 NEIGH: Well, look who it is! Come in, I've got eight kinds of biscuits and nobody to eat them.
-N: You eat all eight kinds. He shows you his tomatoes, one by one. Gold.
+N: You eat all eight kinds. He shows you his tomatoes, one by one. He has named them.
+NEIGH: That one's called Gerald. He's my best one. Don't tell the others.
+N: You stay for dinner. You miss the last train and sleep on his sofa under a blanket that smells of biscuits. Gold.
 > Thursday, Friday: the fourth name. Danny. A wall of unanswered calls.
+N: Danny. Your best friend when you were fourteen. You moved schools, and you promised to write, and you didn't. Not once.
 N: Danny doesn't pick up. Thursday. Friday. Saturday.
 N: On Saturday night, he texts back.
 DANNY (text): I'm not ready. Maybe one day.
@@ -58,10 +69,19 @@ THEO: You want to know?
 YOU: I want to play.
 THEO: You'll be terrible.
 YOU: I know.
+THEO: You have to be the green one. The green one always dies first.
+YOU: That feels personal.
 > the two of you on the sofa, controllers, 11 p.m.
 N: You're terrible. He teaches you anyway. He's patient. You didn't know he was patient.
 THEO: You keep looking at the fridge.
 YOU: No, I don't.
+THEO: Is my name on that thing?
+~ 0.6
+YOU: It was. Under a magnet.
+THEO: Why?
+YOU: Because I've been your brother your whole life. I don't think I've ever been your friend.
+~ 0.7
+THEO: Okay. Well. Friends don't let friends be the green one. Swap.
 > 23:58. The T flickers… and turns gold.
 N: At two minutes to midnight, the last T turns gold.
 ~ 0.6

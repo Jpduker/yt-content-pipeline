@@ -1,0 +1,77 @@
+[
+ {
+  "id": "G001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Leo is halfway through his best-man speech when his truth minute starts. Once a year, for sixty seconds, you can only say exactly what you think.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L001",
+   "L002"
+  ]
+ },
+ {
+  "id": "G002",
+  "tag": "LEO",
+  "thought": false,
+  "note": "",
+  "text": "Dave. When I first met you, I thought you were boring. You ironed your jeans. You brought a spreadsheet to a barbecue.",
+  "voice": "am_puck",
+  "speed": 1.06,
+  "ids": [
+   "L003",
+   "L004"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "LEO",
+  "thought": false,
+  "note": "",
+  "text": "And then my sister got ill last winter. And you drove four hours, every weekend, with soup. Labelled soup. I've never seen anyone love her that carefully.",
+  "voice": "am_puck",
+  "speed": 1.06,
+  "ids": [
+   "L005",
+   "L006"
+  ]
+ },
+ {
+  "id": "G004",
+  "tag": "LEO",
+  "thought": false,
+  "note": "",
+  "text": "I still think the jeans thing is weird.",
+  "voice": "am_puck",
+  "speed": 1.06,
+  "ids": [
+   "L007"
+  ]
+ },
+ {
+  "id": "G005",
+  "tag": "DAVE",
+  "thought": false,
+  "note": "",
+  "text": "That's the best speech I've ever heard.",
+  "voice": "am_adam",
+  "speed": 1.04,
+  "ids": [
+   "L008"
+  ]
+ },
+ {
+  "id": "G006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Dave keeps a copy of it. Ironed.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L009"
+  ]
+ }
+]

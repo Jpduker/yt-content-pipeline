@@ -14,30 +14,6 @@
  },
  {
   "id": "G002",
-  "tag": "GRANT",
-  "thought": false,
-  "note": "",
-  "text": "Love the tie, boss. Genius. Visionary.",
-  "voice": "am_adam",
-  "speed": 1.06,
-  "ids": [
-   "L003"
-  ]
- },
- {
-  "id": "G003",
-  "tag": "N",
-  "thought": false,
-  "note": "",
-  "text": "Grant has burnt fingers most days.",
-  "voice": "am_michael",
-  "speed": 1.03,
-  "ids": [
-   "L004"
-  ]
- },
- {
-  "id": "G004",
   "tag": "N",
   "thought": false,
   "note": "",
@@ -45,12 +21,12 @@
   "voice": "am_michael",
   "speed": 1.03,
   "ids": [
-   "L005",
-   "L006"
+   "L003",
+   "L004"
   ]
  },
  {
-  "id": "G005",
+  "id": "G003",
   "tag": "ZOE",
   "thought": false,
   "note": "",
@@ -58,11 +34,11 @@
   "voice": "af_sky",
   "speed": 1.12,
   "ids": [
-   "L007"
+   "L005"
   ]
  },
  {
-  "id": "G006",
+  "id": "G004",
   "tag": "N",
   "thought": false,
   "note": "",
@@ -70,11 +46,11 @@
   "voice": "am_michael",
   "speed": 1.03,
   "ids": [
-   "L008"
+   "L006"
   ]
  },
  {
-  "id": "G007",
+  "id": "G005",
   "tag": "N",
   "thought": false,
   "note": "",
@@ -82,12 +58,12 @@
   "voice": "am_michael",
   "speed": 1.03,
   "ids": [
-   "L009",
-   "L010"
+   "L007",
+   "L008"
   ]
  },
  {
-  "id": "G008",
+  "id": "G006",
   "tag": "ZOE",
   "thought": false,
   "note": "",
@@ -95,11 +71,11 @@
   "voice": "af_sky",
   "speed": 1.12,
   "ids": [
-   "L011"
+   "L009"
   ]
  },
  {
-  "id": "G009",
+  "id": "G007",
   "tag": "N",
   "thought": false,
   "note": "",
@@ -107,7 +83,7 @@
   "voice": "am_michael",
   "speed": 1.03,
   "ids": [
-   "L012"
+   "L010"
   ]
  }
 ]

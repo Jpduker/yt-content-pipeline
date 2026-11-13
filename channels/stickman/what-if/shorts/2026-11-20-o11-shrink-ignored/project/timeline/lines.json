@@ -1,0 +1,112 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, when people look straight through you, you shrink.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 3.99
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By Thursday, Pip is the size of a coffee cup.",
+  "sec": "hook",
+  "start": 4.11,
+  "end": 7.096
+ },
+ {
+  "id": "L003",
+  "tag": "PIP",
+  "thought": false,
+  "note": "",
+  "text": "Hello? I'm on the photocopier.",
+  "sec": "act1",
+  "start": 7.897,
+  "end": 9.541
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Nobody notices. Somebody photocopies her shoe.",
+  "sec": "act1",
+  "start": 9.941,
+  "end": 13.05
+ },
+ {
+  "id": "L005",
+  "tag": "CLEANER",
+  "thought": false,
+  "note": "",
+  "text": "Well, hello. You're very small.",
+  "sec": "act2",
+  "start": 13.95,
+  "end": 15.771
+ },
+ {
+  "id": "L006",
+  "tag": "PIP",
+  "thought": false,
+  "note": "",
+  "text": "You can see me?",
+  "sec": "act2",
+  "start": 15.921,
+  "end": 16.69
+ },
+ {
+  "id": "L007",
+  "tag": "CLEANER",
+  "thought": false,
+  "note": "",
+  "text": "Course I can. Nobody sees me either. Want a lift?",
+  "sec": "act2",
+  "start": 16.84,
+  "end": 20.213
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Pip grows a little. The size of a cat.",
+  "sec": "act2",
+  "start": 21.063,
+  "end": 23.458
+ },
+ {
+  "id": "L009",
+  "tag": "CLEANER",
+  "thought": false,
+  "note": "",
+  "text": "You're not the only one.",
+  "sec": "act3",
+  "start": 24.358,
+  "end": 25.615
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Under the desks, there's a whole town of people nobody looks at.",
+  "sec": "act3",
+  "start": 26.015,
+  "end": 29.96
+ },
+ {
+  "id": "L011",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Pip says hello to every single one. They all grow.",
+  "sec": "act3",
+  "start": 30.079,
+  "end": 33.427
+ }
+]

@@ -27,32 +27,6 @@
  },
  {
   "id": "L003",
-  "tag": "GRANT",
-  "thought": false,
-  "note": "",
-  "text": "Love the tie, boss. Genius. Visionary.",
-  "voice": "am_adam",
-  "speed": 1.06,
-  "gain": 0.5,
-  "sec": "act1",
-  "pause": 0.45,
-  "group": "G002"
- },
- {
-  "id": "L004",
-  "tag": "N",
-  "thought": false,
-  "note": "",
-  "text": "Grant has burnt fingers most days.",
-  "voice": "am_michael",
-  "speed": 1.03,
-  "gain": -1.0,
-  "sec": "act1",
-  "pause": 0.45,
-  "group": "G003"
- },
- {
-  "id": "L005",
   "tag": "N",
   "thought": false,
   "note": "",
@@ -62,10 +36,10 @@
   "gain": -1.0,
   "sec": "act2",
   "pause": 0.45,
-  "group": "G004"
+  "group": "G002"
  },
  {
-  "id": "L006",
+  "id": "L004",
   "tag": "N",
   "thought": false,
   "note": "",
@@ -75,10 +49,10 @@
   "gain": -1.0,
   "sec": "act2",
   "pause": 0.0,
-  "group": "G004"
+  "group": "G002"
  },
  {
-  "id": "L007",
+  "id": "L005",
   "tag": "ZOE",
   "thought": false,
   "note": "",
@@ -88,10 +62,10 @@
   "gain": 0.5,
   "sec": "act2",
   "pause": 0.45,
-  "group": "G005"
+  "group": "G003"
  },
  {
-  "id": "L008",
+  "id": "L006",
   "tag": "N",
   "thought": false,
   "note": "",
@@ -101,10 +75,10 @@
   "gain": -1.0,
   "sec": "act2",
   "pause": 0.45,
-  "group": "G006"
+  "group": "G004"
  },
  {
-  "id": "L009",
+  "id": "L007",
   "tag": "N",
   "thought": false,
   "note": "",
@@ -114,10 +88,10 @@
   "gain": -1.0,
   "sec": "act3",
   "pause": 0.45,
-  "group": "G007"
+  "group": "G005"
  },
  {
-  "id": "L010",
+  "id": "L008",
   "tag": "N",
   "thought": false,
   "note": "",
@@ -127,10 +101,10 @@
   "gain": -1.0,
   "sec": "act3",
   "pause": 0.45,
-  "group": "G007"
+  "group": "G005"
  },
  {
-  "id": "L011",
+  "id": "L009",
   "tag": "ZOE",
   "thought": false,
   "note": "",
@@ -140,10 +114,10 @@
   "gain": 0.5,
   "sec": "act3",
   "pause": 0.0,
-  "group": "G008"
+  "group": "G006"
  },
  {
-  "id": "L012",
+  "id": "L010",
   "tag": "N",
   "thought": false,
   "note": "",
@@ -153,6 +127,6 @@
   "gain": -1.0,
   "sec": "act3",
   "pause": 0.45,
-  "group": "G009"
+  "group": "G007"
  }
 ]

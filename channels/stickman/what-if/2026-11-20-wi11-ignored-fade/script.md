@@ -1,6 +1,6 @@
 # WI11 script: "What If Everyone You Ignored Slowly Faded Away?" (v1, 2026-11-13, approved idea)
 Narration: second person, present tense; observational and dry, then sudden and close.
-Tags: N narrator · YOU hero · BARISTA · BOSS · COLL (Dana) · THEO · X (the man from the lift).
+Tags: N narrator · YOU hero · BARISTA (Kofi) · BOSS · COLL (Dana) · THEO · MUM (phone) · X (the man from the lift).
 Rule (all stated by 0:30, never changed): the people you don't pay attention to fade, a little more each day you ignore them, until you can see through them. Real attention (looking up, listening, asking) brings them back. Nobody else sees it; the fading is only in your eyes. If someone fades all the way, they drift out of your life: you just stop noticing they've gone.
 Motif: translucent figures (alpha by "days ignored"); your phone glow as the thing you look at instead.
 
@@ -27,6 +27,12 @@ YOU: Dana. Sorry. I wasn't listening. Tell me about your cat.
 > she tells you. Her colour comes back while she talks.
 N: She tells you. The cat was called Biscuit, and he hated everyone except her. With every sentence, she gets a little more solid.
 N: So that's the rule. Ignore someone, and they fade. Pay attention, and they come back.
+> Wednesday, phone call: Mum on video, slightly see-through.
+N: On Wednesday, your mum calls. You can see her kitchen tiles through her cheek.
+MUM (phone): I won't keep you, I know you're busy.
+YOU: I'm not busy. Tell me everything.
+MUM (phone): Everything? Well. The neighbour's cat got stuck in the bins again.
+N: She talks for forty minutes. You hear about the cat, the bins and a cousin you have never met. By the end, she's as solid as her teapot.
 
 ## ACT 2
 > a montage: you looking up from your phone at people.
@@ -34,6 +40,8 @@ N: You get good at it. You learn the barista's name: Kofi. You ask the lift man 
 BOSS: Are you… listening?
 YOU: Yes.
 BOSS: Nobody listens. This is very unsettling.
+YOU: What were you saying about the budget?
+BOSS: I… don't remember. Nobody's ever asked a follow-up question.
 N: By Thursday, the city looks solid again. You're exhausted. Paying attention, it turns out, is a full-time job.
 > Friday night. The flat. You on your phone.
 N: On Friday night, you get home, drop onto the sofa, and open your phone.
@@ -60,6 +68,12 @@ N: He tells you. All of it. The match, the referee, a goal he's still angry abou
 YOU: You've got an interview?
 THEO: I told you. Twice.
 YOU: Tell me a third time. I'm listening now.
+THEO: It's at a bike shop. I like bikes. You didn't know I like bikes.
+YOU: I didn't know you like bikes.
+THEO: I've liked bikes since I was six.
+~ 0.6
+YOU: Then we'll practise. What do they ask at bike shop interviews?
+THEO: Probably about bikes.
 > his outline sharpens; his colour floods back. He's solid.
 N: By midnight, he's solid again. Fully, annoyingly solid. He's eaten all your crisps.
 > Saturday morning, café. The barista: fully there.

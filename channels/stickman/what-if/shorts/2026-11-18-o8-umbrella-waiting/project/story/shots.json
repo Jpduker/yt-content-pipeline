@@ -1,0 +1,585 @@
+{
+ "title": "Umbrellas Only Open If Someone's Waiting for You",
+ "duration": 40.4,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 4.84,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 0.55,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "night"
+    },
+    "rain": true,
+    "cam": [
+     [
+      950,
+      560,
+      1.15
+     ],
+     [
+      950,
+      560,
+      1.22
+     ]
+    ],
+    "vx": 960,
+    "hookText": "HIS UMBRELLA WON'T OPEN",
+    "hookT": [
+     0,
+     3.505
+    ],
+    "who": [
+     {
+      "id": "X4",
+      "x": 780,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "seed": 4,
+      "umb": "open",
+      "umbAt": 0.2,
+      "umbCol": "#d8504a"
+     },
+     {
+      "id": "ELI",
+      "x": 950,
+      "pose": "stand",
+      "expr": [
+       [
+        0,
+        "neutral"
+       ],
+       [
+        0.6,
+        "confused"
+       ]
+      ],
+      "f": 1,
+      "seed": 3,
+      "umb": "closed"
+     },
+     {
+      "id": "X2",
+      "x": 1120,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "seed": 6,
+      "umb": "open",
+      "umbAt": 0.5,
+      "umbCol": "#3fb950"
+     }
+    ],
+    "motif": "num"
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s002",
+   "start": 4.84,
+   "end": 10.252,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "night"
+    },
+    "who": "ELI",
+    "expr": [
+     [
+      0,
+      "confused"
+     ],
+     [
+      0.4850332594235034,
+      "sad"
+     ]
+    ],
+    "side": 1,
+    "rain": true,
+    "bgCam": [
+     950,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s003",
+   "start": 10.252,
+   "end": 13.927,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "night"
+    },
+    "rain": true,
+    "cam": [
+     [
+      950,
+      600,
+      1.5
+     ],
+     [
+      950,
+      600,
+      1.6
+     ]
+    ],
+    "who": [
+     {
+      "id": "ELI",
+      "x": 950,
+      "pose": [
+       [
+        0,
+        "holdFront"
+       ],
+       [
+        0.35,
+        "point"
+       ],
+       [
+        0.7,
+        "holdFront"
+       ]
+      ],
+      "expr": "angry",
+      "f": 1,
+      "seed": 3,
+      "umb": "closed"
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s004",
+   "start": 13.927,
+   "end": 16.337,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "street",
+    "so": {
+     "variant": "night"
+    },
+    "ins": "reply",
+    "to": "Messages",
+    "drafts": [
+     ""
+    ],
+    "noSend": true
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s005",
+   "start": 16.337,
+   "end": 18.901,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "night"
+    },
+    "who": "ELI",
+    "expr": "sad",
+    "side": 1,
+    "look": [
+     0,
+     0.5
+    ],
+    "rain": true,
+    "bgCam": [
+     950,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s006",
+   "start": 18.901,
+   "end": 22.806,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "night"
+    },
+    "rain": true,
+    "cam": [
+     [
+      900,
+      560,
+      1.05
+     ],
+     [
+      1000,
+      560,
+      1.1
+     ]
+    ],
+    "who": [
+     {
+      "id": "ELI",
+      "x": 0,
+      "pose": "sad",
+      "expr": "sad",
+      "f": 1,
+      "seed": 3,
+      "walk": [
+       700,
+       1200,
+       0,
+       1
+      ],
+      "slow": true,
+      "umb": "closed"
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s007",
+   "start": 22.806,
+   "end": 26.199,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "night"
+    },
+    "rain": true,
+    "cam": [
+     [
+      960,
+      580,
+      1.4
+     ],
+     [
+      960,
+      580,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "ELI",
+      "x": 960,
+      "pose": "stand",
+      "expr": [
+       [
+        0,
+        "sad"
+       ],
+       [
+        0.4,
+        "shocked"
+       ]
+      ],
+      "f": 1,
+      "seed": 3,
+      "umb": [
+       [
+        0,
+        "closed"
+       ],
+       [
+        0.4,
+        "open"
+       ]
+      ],
+      "umbAt": 1.175
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s008",
+   "start": 26.199,
+   "end": 28.634,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "street",
+    "so": {
+     "variant": "night"
+    },
+    "ins": "window"
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s009",
+   "start": 28.634,
+   "end": 32.01,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "street",
+    "so": {
+     "variant": "night"
+    },
+    "ins": "window"
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s010",
+   "start": 32.01,
+   "end": 35.326,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "night"
+    },
+    "who": "ELI",
+    "expr": [
+     [
+      0,
+      "surprised"
+     ],
+     [
+      0.3,
+      "tearsmile"
+     ]
+    ],
+    "side": 1,
+    "rain": true,
+    "bgCam": [
+     950,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s011",
+   "start": 35.326,
+   "end": 40.4,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "night"
+    },
+    "rain": true,
+    "cam": [
+     [
+      960,
+      580,
+      1.3
+     ],
+     [
+      960,
+      580,
+      1.4000000000000001
+     ]
+    ],
+    "ask": {
+     "text": "Would YOUR umbrella open tonight?",
+     "at": 3.277
+    },
+    "who": [
+     {
+      "id": "ELI",
+      "x": 900,
+      "pose": "stand",
+      "expr": "tender",
+      "f": 1,
+      "seed": 3,
+      "umb": "open"
+     }
+    ],
+    "floaters": [
+     {
+      "k": "dog",
+      "x": 1090,
+      "y": 0,
+      "f": -1
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 18.4,
+   "mood": "sad",
+   "intensity": 0.26
+  },
+  {
+   "start": 19.05,
+   "end": 25.7,
+   "mood": "mystery",
+   "intensity": 0.3
+  },
+  {
+   "start": 26.35,
+   "end": 40.4,
+   "mood": "hopeful",
+   "intensity": 0.4
+  }
+ ],
+ "sfx": []
+}

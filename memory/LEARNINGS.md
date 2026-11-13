@@ -86,3 +86,6 @@ Append-only, newest at the bottom. Format: date · what happened · evidence · 
 - "Time stopped for everyone except you" had 15+ uploads in a month, almost all < 300 views: only a twist in the title can lift it.
 - 2026-11-13 s11 · Before scripting a rule-world story, write the rule in one sentence and check every beat against it (P1 word maths, P3 "everyone's phone" set up by 0:14). No rule may appear first at the ending.
 - 2026-11-13 s11 · Time Shorts from the real Kokoro voiceover (build_voice.py) before planning shots: the first drafts ran 41–46 s against a 25–35 s target.
+- 2026-11-13 s11 · Background commands in the cloud die at their timeout (default 30 min): run render queues with timeout 7200000 and a lock/queue script.
+- 2026-11-13 s11 · The kit's blurLayer ignores the 9:16 wrapper's transform (blurred sets squashed into the top half of vertical frames, also in the v3 Shorts); v3.1 vblur fixes it.
+- 2026-11-13 s11 · Long-form scripts: count only spoken words; ~560 spoken words ≈ 3:40 at our voice speeds. Shorts: ~80–95 words ≈ 34–40 s.

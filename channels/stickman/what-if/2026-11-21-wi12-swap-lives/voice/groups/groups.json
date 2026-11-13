@@ -1,0 +1,404 @@
+[
+ {
+  "id": "G001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You wake up in Mira's bed. Four hours from your own. Her phone. Her flat. Her alarm, which is a song you hate. For one day, you're living her life. And she's living yours. Everyone else thinks this is completely normal. The swap ends at midnight.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L001",
+   "L002",
+   "L003",
+   "L004",
+   "L005"
+  ]
+ },
+ {
+  "id": "G002",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Your brother is eating cereal out of a pan.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L006"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "We don't have clean bowls.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L007"
+  ]
+ },
+ {
+  "id": "G004",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Why do you live like this?",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L008"
+  ]
+ },
+ {
+  "id": "G005",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "What's on your calendar today?",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L009"
+  ]
+ },
+ {
+  "id": "G006",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Oh. Ten o'clock. Group presentation. Urban drainage. Slide four is yours.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L010"
+  ]
+ },
+ {
+  "id": "G007",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "What's on slide four?",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L011"
+  ]
+ },
+ {
+  "id": "G008",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Drainage.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L012"
+  ]
+ },
+ {
+  "id": "G009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Her course mates are lovely. They call you Mira, hand you a coffee and ask you about drains.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L013"
+  ]
+ },
+ {
+  "id": "G010",
+  "tag": "AMA",
+  "thought": false,
+  "note": "",
+  "text": "You ready, Mira?",
+  "voice": "af_nova",
+  "speed": 1.1,
+  "ids": [
+   "L014"
+  ]
+ },
+ {
+  "id": "G011",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "So ready. Born ready. Drains.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L015"
+  ]
+ },
+ {
+  "id": "G012",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Slide four is a pipe. You talk about the pipe for three minutes. You say \"flow\" eleven times.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L016"
+  ]
+ },
+ {
+  "id": "G013",
+  "tag": "PROF",
+  "thought": false,
+  "note": "",
+  "text": "Unusual. Passionate. Mostly wrong. B minus.",
+  "voice": "bm_daniel",
+  "speed": 1.02,
+  "ids": [
+   "L017"
+  ]
+ },
+ {
+  "id": "G014",
+  "tag": "AMA",
+  "thought": false,
+  "note": "",
+  "text": "That's her best mark yet.",
+  "voice": "af_nova",
+  "speed": 1.1,
+  "ids": [
+   "L018"
+  ]
+ },
+ {
+  "id": "G015",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You decide not to tell her.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L019"
+  ]
+ },
+ {
+  "id": "G016",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Her phone never stops. Her mum. Her flatmates. A group called \"Course Panic\". People ask her things all day, and she answers every one of them. You get a strange feeling. You know her better than anyone. And you have never seen how tired she is.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L020",
+   "L021"
+  ]
+ },
+ {
+  "id": "G017",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Hey. Can I ask you something?",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L022"
+  ]
+ },
+ {
+  "id": "G018",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Sure.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L023"
+  ]
+ },
+ {
+  "id": "G019",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "I needed your phone to check the train times. And I found your drafts.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L024"
+  ]
+ },
+ {
+  "id": "G020",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your drafts. Forty messages you started, to her, over two years, and never sent.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L025"
+  ]
+ },
+ {
+  "id": "G021",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "\"I'm proud of you.\" \"I miss you being two minutes away.\" \"Your new flat is small and I love it.\" Why didn't you send any of these?",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L026",
+   "L027"
+  ]
+ },
+ {
+  "id": "G022",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I didn't want to bother you. You've got a whole new life.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L028"
+  ]
+ },
+ {
+  "id": "G023",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "You're in my whole new life. You're the person I tell things to.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L029"
+  ]
+ },
+ {
+  "id": "G024",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Ten minutes to midnight.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L030"
+  ]
+ },
+ {
+  "id": "G025",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Send them.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L031"
+  ]
+ },
+ {
+  "id": "G026",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "All of them?",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L032"
+  ]
+ },
+ {
+  "id": "G027",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "All forty. Before we swap back. I want to get them on my own phone.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L033"
+  ]
+ },
+ {
+  "id": "G028",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You hit send forty times. Her phone buzzes forty times in your hand, which is a very strange way to receive a hug.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L034"
+  ]
+ },
+ {
+  "id": "G029",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At midnight, you wake up in your own bed. Theo's snoring. There's a pan in the sink.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L035"
+  ]
+ },
+ {
+  "id": "G030",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "text",
+  "text": "Read them all. Sending you forty back. Pace yourself.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L036"
+  ]
+ },
+ {
+  "id": "G031",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your phone buzzes forty times.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L037"
+  ]
+ },
+ {
+  "id": "G032",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You read every one.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L038"
+  ]
+ },
+ {
+  "id": "G033",
+  "tag": "N",
+  "thought": false,
+  "note": "soft",
+  "text": "What would your best friend find in your drafts?",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L039"
+  ]
+ }
+]

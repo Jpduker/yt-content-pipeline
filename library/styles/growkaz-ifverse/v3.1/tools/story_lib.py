@@ -63,6 +63,11 @@ def finish(title, music, cues=(), motif='echo', tail=2.6):
         for stg in p.get('strings', []) or []:
             for kk in ('snapAt', 'tieAt'):
                 if isinstance(stg.get(kk), str): stg[kk] = round(at(stg[kk]) - st, 3)
+        if isinstance(p.get('lit'), list): p['lit'] = [[max(0, min(.999, (at(a) - st) / (en - st))) if isinstance(a, str) else a, i] for a, i in p['lit']]
+        for w in p.get('who', []) if isinstance(p.get('who'), list) else []:
+            if isinstance(w.get('umbAt'), str): w['umbAt'] = round(at(w['umbAt']) - st, 3)
+        for f in p.get('floaters', []) or []:
+            if isinstance(f.get('at'), str): f['at'] = round(at(f['at']) - st, 3)
         if isinstance(p.get('clk'), list): p['clk'] = [[round(at(a) - st, 3) if isinstance(a, str) else a, v] for a, v in p['clk']]
         if isinstance(p.get('ask'), dict) and isinstance(p['ask'].get('at'), str): p['ask'] = dict(p['ask'], at=round(at(p['ask']['at']) - st, 3))
         for b in [p.get('badge')] + [w.get('badge') for w in (p.get('who') if isinstance(p.get('who'), list) else [])]:

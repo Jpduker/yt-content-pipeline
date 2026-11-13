@@ -66,32 +66,19 @@
  },
  {
   "id": "L006",
-  "tag": "GRANDPA",
-  "thought": false,
-  "note": "",
-  "text": "Your sleeve.",
-  "voice": "bm_george",
-  "speed": 0.95,
-  "gain": 0.5,
-  "sec": "act1",
-  "pause": 0.45,
-  "group": "G005"
- },
- {
-  "id": "L007",
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "By Saturday, Jay gives up. He just sits with him, and opens the old photo album.",
+  "text": "On Saturday, Jay gives up and opens the old photo album.",
   "voice": "am_michael",
   "speed": 1.03,
   "gain": -1.0,
   "sec": "act2",
   "pause": 0.45,
-  "group": "G006"
+  "group": "G005"
  },
  {
-  "id": "L008",
+  "id": "L007",
   "tag": "JAY",
   "thought": false,
   "note": "",
@@ -101,10 +88,10 @@
   "gain": 0.5,
   "sec": "act2",
   "pause": 0.45,
-  "group": "G007"
+  "group": "G006"
  },
  {
-  "id": "L009",
+  "id": "L008",
   "tag": "GRANDPA",
   "thought": false,
   "note": "",
@@ -114,10 +101,10 @@
   "gain": 0.5,
   "sec": "act2",
   "pause": 0.0,
-  "group": "G008"
+  "group": "G007"
  },
  {
-  "id": "L010",
+  "id": "L009",
   "tag": "N",
   "thought": false,
   "note": "",
@@ -127,10 +114,10 @@
   "gain": -1.0,
   "sec": "act2",
   "pause": 1.05,
-  "group": "G009"
+  "group": "G008"
  },
  {
-  "id": "L011",
+  "id": "L010",
   "tag": "GRANDPA",
   "thought": false,
   "note": "",
@@ -140,19 +127,6 @@
   "gain": 0.5,
   "sec": "act3",
   "pause": 0.45,
-  "group": "G010"
- },
- {
-  "id": "L012",
-  "tag": "N",
-  "thought": false,
-  "note": "",
-  "text": "It was never the jokes. It was the sitting next to him.",
-  "voice": "am_michael",
-  "speed": 1.03,
-  "gain": -1.0,
-  "sec": "act3",
-  "pause": 0.0,
-  "group": "G011"
+  "group": "G009"
  }
 ]

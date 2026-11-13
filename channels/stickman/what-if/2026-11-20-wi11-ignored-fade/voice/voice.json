@@ -34,6 +34,11 @@
    "am_puck",
    1.06,
    0
+  ],
+  "MUM": [
+   "bf_emma",
+   1.05,
+   0.5
   ]
  },
  "thought_speed": 1.0,

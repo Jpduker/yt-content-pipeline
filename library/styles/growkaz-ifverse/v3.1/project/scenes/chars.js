@@ -126,7 +126,7 @@ export const HEAD = {
   MIRA_HOME: { hair: 'ponytail', tie: '#f2c21a', lashes: true }, MUM: { hair: 'bunTop', lashes: true, glasses: true }, NEIGH: { hair: 'flatcap', color: '#2aa6a0' },
   DRIVER: { hair: 'peaked', color: '#1f8a8a' }, LIFT: { hair: 'curly', lashes: true }, YOU_REF: {},
   THEO: { hair: 'headphonesNeck', color: '#4a8fe8' }, DEV: { hair: 'scarf', color: '#e8743b' }, PIA: { hair: 'clipBun', color: '#d8504a', lashes: true },
-  DAD: { hair: 'stache', color: '#b8b4b0', glasses: true }, INTERN: { hair: 'lanyard', color: '#1f8a8a' }, KID: { hair: 'bun', lashes: true }, SAMI: { hair: 'cap', color: '#3a6ea5' }, OMAR: {}, NEW: { hair: 'lanyard', color: '#e05a9a', lashes: true }, LILA: { hair: 'bunTop', lashes: true }, MA: { hair: 'curly', lashes: true }, BRO: { hair: 'beanie', color: '#e8743b' },
+  DAD: { hair: 'stache', color: '#b8b4b0', glasses: true }, INTERN: { hair: 'lanyard', color: '#1f8a8a' }, KID: { hair: 'bun', lashes: true }, SAMI: { hair: 'cap', color: '#3a6ea5' }, OMAR: {}, JO: { hair: 'cap', color: '#3a6ea5' }, SAM: { hair: 'curly', lashes: true }, WALT: { hair: 'flatcap', color: '#6a6a74' }, ZOE: { hair: 'bunTop', lashes: true }, ELI: {}, JAY: { hair: 'curly' }, GRANDPA: { hair: 'flatcap', color: '#5a4a3a', glasses: true }, NEW: { hair: 'lanyard', color: '#e05a9a', lashes: true }, LILA: { hair: 'bunTop', lashes: true }, MA: { hair: 'curly', lashes: true }, BRO: { hair: 'beanie', color: '#e8743b' },
   X1: {}, X2: { hair: 'cap', color: '#2a2430' }, X3: { hair: 'curly' }, X4: { hair: 'bun', lashes: true }, X5: { hair: 'beanie', color: '#3a3040' },
 };
 

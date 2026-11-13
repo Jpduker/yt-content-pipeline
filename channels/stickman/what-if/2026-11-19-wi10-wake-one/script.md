@@ -1,6 +1,6 @@
 # WI10 script: "What If Time Froze and You Could Wake Only One Person?" (v1, 2026-11-13, approved idea)
 Narration: second person, present tense; playful and wide-eyed at first, then quiet and urgent.
-Tags: N narrator · YOU hero · LADY (a stranger, red coat) · THEO (mentioned) · MIRA (mentioned).
+Tags: N narrator · YOU hero · LADY (Rosa, a stranger, red coat) · THEO (mentioned) · MIRA (mentioned).
 Rule (all stated by 0:35, never changed): at 18:02 on Thursday, the world stops. You can move; nothing else can, and frozen things can't be moved: they're like stone. You can wake exactly one person, once, by touching their shoulder. The freeze lasts one hour of your time. Then the world carries on exactly where it stopped, and only the person you woke will remember it.
 Why not Mira: she lives four hours away by train (WI04) and nothing runs; on foot she is days away.
 Motif: everything desaturated and blue-tinted; the one woken person turns back to full colour; a 60:00 timer counts down in the corner.
@@ -24,10 +24,15 @@ N: You eat a free sample. Then all of them. Nobody can stop you, and that turns 
 YOU: Hello?
 ~ 0.8
 N: Fifty-two minutes.
+> the office across the road: your boss, frozen mid-sneeze.
+N: You find your boss frozen mid-sneeze through the office window. You look at it for a full minute. It's the best minute of your week.
+N: A little boy outside the shop is frozen with an ice cream tipping off its cone. You can't fix it. You can't move anything. You just stand there and feel sorry about the ice cream.
 > you walk, thinking.
 N: The obvious choice is Mira. But Mira is four hours away by train, and nothing is running. On foot, she's three days.
 N: Mum is an hour's walk. You'd get there just as the world starts again.
 N: Theo is twenty minutes away, frozen on the sofa with a controller, mid-scream.
+N: He would be annoying about it. He'd want to steal things. He would definitely want to draw on the boss.
+N: But he'd be someone. In a silent city, someone feels like a lot.
 YOU: Theo it is.
 N: You'd have a whole half hour of someone to talk to. You start walking home.
 
@@ -49,6 +54,9 @@ LADY: Why would I— Oh. Oh.
 > she looks at the bike. She steps back onto the pavement.
 LADY: That was going to hurt.
 YOU: Yeah.
+LADY: Is it just us?
+YOU: Just us. For about half an hour.
+LADY: Right. Well. I'm Rosa. I'm going to need to sit down.
 
 ## ACT 3
 > a bench by the crossing. Two people in a frozen city. 08:00.
@@ -58,6 +66,10 @@ YOU: You were the one who needed it.
 LADY: Who were you going to wake?
 YOU: My brother. He'd have been annoying about it.
 LADY: Then I'll be annoying about it for him. Thank you. Thank you. Thank you.
+YOU: You can stop.
+LADY: I'm going to tell everyone about this. Nobody is going to believe me.
+YOU: Probably not.
+LADY: I don't care. I'll know.
 > 00:03. She takes your hand like an old friend.
 N: Three seconds. She squeezes your hand.
 > 18:02 and one second. Noise floods back. The cyclist rides past an empty kerb.

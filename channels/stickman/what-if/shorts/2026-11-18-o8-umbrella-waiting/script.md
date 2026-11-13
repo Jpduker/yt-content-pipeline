@@ -9,21 +9,18 @@ N: Every umbrella at the stop pops open. Except Eli's.
 N: In this world, an umbrella only opens if someone is waiting for you to get home.
 ## ACT 1
 > the others glance at Eli, then away.
-WOMAN: Oh. Sorry, love.
 N: He shakes it. He bangs it. It stays shut.
 > his phone: no messages. Living alone since the spring.
 N: He checks his phone. No messages. He's lived alone since the spring.
 ## ACT 2
 > he walks home in the rain, umbrella closed.
 N: So he walks home. Forty minutes. Soaked to the bone.
-N: He tells himself it doesn't matter. Umbrellas are for tourists.
 > halfway: the umbrella springs open by itself. Eli jumps.
-ELI: What? Who…?
 N: Halfway home, it bursts open on its own.
 ## ACT 3
 > his front window: an old dog, nose against the glass, tail going.
 N: In his front window, Pepper is waiting.
-N: Fourteen years old. Deaf in one ear. He's been sitting at the glass since six.
+N: Fourteen years old. He's been at the glass since six.
 ELI: Hey, old man. You waited for me?
 > the dog's tail thumps; the umbrella glows.
 N: Eli doesn't buy a new umbrella. He doesn't need one.

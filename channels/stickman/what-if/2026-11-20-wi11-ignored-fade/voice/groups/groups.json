@@ -1,0 +1,439 @@
+[
+ {
+  "id": "G001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By Friday, you can see through the barista. Not a little. You can read the menu through his chest. He's been making your coffee for two years. You've never asked his name.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L001",
+   "L002",
+   "L003"
+  ]
+ },
+ {
+  "id": "G002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And he's not the only one.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L004"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It starts on Monday. The man in the lift is a bit pale. You assume it's the lighting.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L005"
+  ]
+ },
+ {
+  "id": "G004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "On Tuesday, Dana is talking to you while you answer an email. Halfway through her sentence, you notice you can see the printer behind her.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L006"
+  ]
+ },
+ {
+  "id": "G005",
+  "tag": "COLL",
+  "thought": false,
+  "note": "",
+  "text": "\u2026so that's my news. What do you think?",
+  "voice": "af_nicole",
+  "speed": 1.12,
+  "ids": [
+   "L007"
+  ]
+ },
+ {
+  "id": "G006",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Great! Yeah. Great.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L008"
+  ]
+ },
+ {
+  "id": "G007",
+  "tag": "COLL",
+  "thought": false,
+  "note": "",
+  "text": "I said my cat died.",
+  "voice": "af_nicole",
+  "speed": 1.12,
+  "ids": [
+   "L009"
+  ]
+ },
+ {
+  "id": "G008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She fades a little more. You watch it happen.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L010"
+  ]
+ },
+ {
+  "id": "G009",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Dana. Sorry. I wasn't listening. Tell me about your cat.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L011"
+  ]
+ },
+ {
+  "id": "G010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She tells you. The cat was called Biscuit, and he hated everyone except her. With every sentence, she gets a little more solid. So that's the rule. Ignore someone, and they fade. Pay attention, and they come back.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L012",
+   "L013"
+  ]
+ },
+ {
+  "id": "G011",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You get good at it. You learn the barista's name: Kofi. You ask the lift man about his dog. You stop typing when your boss talks, which surprises him more than anyone.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L014"
+  ]
+ },
+ {
+  "id": "G012",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "Are you\u2026 listening?",
+  "voice": "bm_george",
+  "speed": 1.04,
+  "ids": [
+   "L015"
+  ]
+ },
+ {
+  "id": "G013",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Yes.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L016"
+  ]
+ },
+ {
+  "id": "G014",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "Nobody listens. This is very unsettling.",
+  "voice": "bm_george",
+  "speed": 1.04,
+  "ids": [
+   "L017"
+  ]
+ },
+ {
+  "id": "G015",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By Thursday, the city looks solid again. You're exhausted. Paying attention, it turns out, is a full-time job.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L018"
+  ]
+ },
+ {
+  "id": "G016",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "On Friday night, you get home, drop onto the sofa, and open your phone.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L019"
+  ]
+ },
+ {
+  "id": "G017",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Did you see the score?",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L020"
+  ]
+ },
+ {
+  "id": "G018",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Mm.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L021"
+  ]
+ },
+ {
+  "id": "G019",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "I said, did you see the\u2014",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L022"
+  ]
+ },
+ {
+  "id": "G020",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You look up.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L023"
+  ]
+ },
+ {
+  "id": "G021",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You can see the cushions through your brother. Not a little. Almost all the way.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L024",
+   "L025"
+  ]
+ },
+ {
+  "id": "G022",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You checked everyone. The barista, the lift, the boss. You never checked the person on your sofa.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L026"
+  ]
+ },
+ {
+  "id": "G023",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Theo. What score?",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L027"
+  ]
+ },
+ {
+  "id": "G024",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Doesn't matter.",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L028"
+  ]
+ },
+ {
+  "id": "G025",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "It does. Who played?",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L029"
+  ]
+ },
+ {
+  "id": "G026",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "You hate football.",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L030"
+  ]
+ },
+ {
+  "id": "G027",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I know. Tell me anyway.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L031"
+  ]
+ },
+ {
+  "id": "G028",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He tells you. All of it. The match, the referee, a goal he's still angry about. Then, somehow, his job interview on Monday, which you didn't know about.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L032"
+  ]
+ },
+ {
+  "id": "G029",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You've got an interview?",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L033"
+  ]
+ },
+ {
+  "id": "G030",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "I told you. Twice.",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L034"
+  ]
+ },
+ {
+  "id": "G031",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Tell me a third time. I'm listening now.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L035"
+  ]
+ },
+ {
+  "id": "G032",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By midnight, he's solid again. Fully, annoyingly solid. He's eaten all your crisps.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L036"
+  ]
+ },
+ {
+  "id": "G033",
+  "tag": "BARISTA",
+  "thought": false,
+  "note": "",
+  "text": "Morning! The usual?",
+  "voice": "am_puck",
+  "speed": 1.06,
+  "ids": [
+   "L037"
+  ]
+ },
+ {
+  "id": "G034",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Morning, Kofi. How's your weekend?",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L038"
+  ]
+ },
+ {
+  "id": "G035",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Kofi looks so surprised you think he might drop the cup. He doesn't fade. Neither does anyone else. Not this week.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L039",
+   "L040"
+  ]
+ },
+ {
+  "id": "G036",
+  "tag": "N",
+  "thought": false,
+  "note": "soft",
+  "text": "Who would be fading around you right now?",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L041"
+  ]
+ }
+]

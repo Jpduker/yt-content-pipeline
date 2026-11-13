@@ -1,0 +1,112 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, every door you hold open gives you one second back. At midnight.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 5.7
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Ines wants as many as possible.",
+  "sec": "hook",
+  "start": 5.864,
+  "end": 8.011
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She holds forty doors before nine.",
+  "sec": "act1",
+  "start": 8.811,
+  "end": 10.964
+ },
+ {
+  "id": "L004",
+  "tag": "MAN",
+  "thought": false,
+  "note": "",
+  "text": "After you.",
+  "sec": "act1",
+  "start": 11.674,
+  "end": 12.549
+ },
+ {
+  "id": "L005",
+  "tag": "INES",
+  "thought": false,
+  "note": "",
+  "text": "No, after you.",
+  "sec": "act1",
+  "start": 12.699,
+  "end": 13.697
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She spends six minutes in a door standoff to earn two seconds.",
+  "sec": "act1",
+  "start": 14.097,
+  "end": 17.679
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By evening, she has fifteen minutes saved. Nine hundred doors.",
+  "sec": "act2",
+  "start": 18.579,
+  "end": 22.739
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She makes a list. Learn the guitar. Call her sister. Write the first page of a novel.",
+  "sec": "act2",
+  "start": 22.927,
+  "end": 28.391
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At midnight, the world waits. Fifteen extra minutes, just for her.",
+  "sec": "act3",
+  "start": 29.291,
+  "end": 33.586
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She sleeps through all fifteen.",
+  "sec": "act3",
+  "start": 34.156,
+  "end": 35.838
+ },
+ {
+  "id": "L011",
+  "tag": "INES",
+  "thought": false,
+  "note": "",
+  "text": "Best fifteen minutes of my life.",
+  "sec": "act3",
+  "start": 36.098,
+  "end": 37.867
+ }
+]

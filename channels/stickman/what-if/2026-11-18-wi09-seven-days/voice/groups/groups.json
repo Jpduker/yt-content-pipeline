@@ -1,0 +1,621 @@
+[
+ {
+  "id": "G001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "On Monday, there's a list on your fridge. Five names. Every friendship you ever let break. Fix one, and the name turns gold. Don't, and on Sunday at midnight, they're gone. Not dead. Just gone. You'll pass them in the street, and neither of you will know why you looked.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L001",
+   "L002",
+   "L003",
+   "L004"
+  ]
+ },
+ {
+  "id": "G002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You have seven days.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L005"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The first four are easy to guess. The fifth one makes you laugh.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L006"
+  ]
+ },
+ {
+  "id": "G004",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Theo? He lives here. He eats my cereal.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L007"
+  ]
+ },
+ {
+  "id": "G005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You decide the list is broken. Lists can be broken. You put a magnet over his name and go to work.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L008"
+  ]
+ },
+ {
+  "id": "G006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Jo. In 2019 he sent you a very long message. You meant to answer it properly. You never did.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L009"
+  ]
+ },
+ {
+  "id": "G007",
+  "tag": "JO",
+  "thought": false,
+  "note": "",
+  "text": "You never answered. Not even a thumbs up.",
+  "voice": "am_puck",
+  "speed": 1.08,
+  "ids": [
+   "L010"
+  ]
+ },
+ {
+  "id": "G008",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I know. It was a long message.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L011"
+  ]
+ },
+ {
+  "id": "G009",
+  "tag": "JO",
+  "thought": false,
+  "note": "",
+  "text": "It was about my dad.",
+  "voice": "am_puck",
+  "speed": 1.08,
+  "ids": [
+   "L012"
+  ]
+ },
+ {
+  "id": "G010",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I'm sorry. I didn't know.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L013"
+  ]
+ },
+ {
+  "id": "G011",
+  "tag": "JO",
+  "thought": false,
+  "note": "",
+  "text": "You didn't ask.",
+  "voice": "am_puck",
+  "speed": 1.08,
+  "ids": [
+   "L014"
+  ]
+ },
+ {
+  "id": "G012",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He's right. You didn't. You were busy, and then you were embarrassed about being busy, and then it was four years.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L015"
+  ]
+ },
+ {
+  "id": "G013",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "How is he? Your dad.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L016"
+  ]
+ },
+ {
+  "id": "G014",
+  "tag": "JO",
+  "thought": false,
+  "note": "",
+  "text": "Better. Do you actually want to know?",
+  "voice": "am_puck",
+  "speed": 1.08,
+  "ids": [
+   "L017"
+  ]
+ },
+ {
+  "id": "G015",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I actually want to know.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L018"
+  ]
+ },
+ {
+  "id": "G016",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You ask. He talks for an hour. You don't check your phone once.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L019"
+  ]
+ },
+ {
+  "id": "G017",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Sam. You still have her jacket from a party in 2017.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L020"
+  ]
+ },
+ {
+  "id": "G018",
+  "tag": "SAM",
+  "thought": false,
+  "note": "phone",
+  "text": "You've had it seven years.",
+  "voice": "af_bella",
+  "speed": 1.08,
+  "ids": [
+   "L021"
+  ]
+ },
+ {
+  "id": "G019",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "It's a really good jacket.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L022"
+  ]
+ },
+ {
+  "id": "G020",
+  "tag": "SAM",
+  "thought": false,
+  "note": "phone",
+  "text": "Bring it to football on Thursday. You're in goal.",
+  "voice": "af_bella",
+  "speed": 1.08,
+  "ids": [
+   "L023"
+  ]
+ },
+ {
+  "id": "G021",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You let in nine goals. Sam laughs so hard she has to sit down. Gold.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L024"
+  ]
+ },
+ {
+  "id": "G022",
+  "tag": "SAM",
+  "thought": false,
+  "note": "",
+  "text": "Same time next week? You can be worse in a different position.",
+  "voice": "af_bella",
+  "speed": 1.08,
+  "ids": [
+   "L025"
+  ]
+ },
+ {
+  "id": "G023",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Two names down. Three to go. You start to think this is going to be easy.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L026"
+  ]
+ },
+ {
+  "id": "G024",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Mr. Hale. Your old neighbour. You waved at the van, and you never visited.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L027"
+  ]
+ },
+ {
+  "id": "G025",
+  "tag": "NEIGH",
+  "thought": false,
+  "note": "",
+  "text": "Well, look who it is! Come in, I've got eight kinds of biscuits and nobody to eat them.",
+  "voice": "bm_lewis",
+  "speed": 1.08,
+  "ids": [
+   "L028"
+  ]
+ },
+ {
+  "id": "G026",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You eat all eight kinds. He shows you his tomatoes, one by one. He has named them.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L029"
+  ]
+ },
+ {
+  "id": "G027",
+  "tag": "NEIGH",
+  "thought": false,
+  "note": "",
+  "text": "That one's called Gerald. He's my best one. Don't tell the others.",
+  "voice": "bm_lewis",
+  "speed": 1.08,
+  "ids": [
+   "L030"
+  ]
+ },
+ {
+  "id": "G028",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You stay for dinner. You miss the last train and sleep on his sofa under a blanket that smells of biscuits. Gold.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L031"
+  ]
+ },
+ {
+  "id": "G029",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Danny. Your best friend when you were fourteen. You moved schools, and you promised to write, and you didn't. Not once. Danny doesn't pick up. Thursday. Friday. Saturday. On Saturday night, he texts back.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L032",
+   "L033",
+   "L034"
+  ]
+ },
+ {
+  "id": "G030",
+  "tag": "DANNY",
+  "thought": false,
+  "note": "text",
+  "text": "I'm not ready. Maybe one day.",
+  "voice": "am_onyx",
+  "speed": 1.04,
+  "ids": [
+   "L035"
+  ]
+ },
+ {
+  "id": "G031",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The D stays white. You can't fix someone who doesn't want to be fixed. You can only leave the door open.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L036"
+  ]
+ },
+ {
+  "id": "G032",
+  "tag": "YOU",
+  "thought": false,
+  "note": "text",
+  "text": "Whenever you're ready. I'll answer.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L037"
+  ]
+ },
+ {
+  "id": "G033",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Sunday. Six hours left. One name. Theo. You've fed him, housed him, said sorry to him. But you realise you've never once asked him a question you didn't already know the answer to.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L038",
+   "L039"
+  ]
+ },
+ {
+  "id": "G034",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Theo. What's that game you play every night?",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L040"
+  ]
+ },
+ {
+  "id": "G035",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "You want to know?",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L041"
+  ]
+ },
+ {
+  "id": "G036",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I want to play.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L042"
+  ]
+ },
+ {
+  "id": "G037",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "You'll be terrible.",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L043"
+  ]
+ },
+ {
+  "id": "G038",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I know.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L044"
+  ]
+ },
+ {
+  "id": "G039",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "You have to be the green one. The green one always dies first.",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L045"
+  ]
+ },
+ {
+  "id": "G040",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "That feels personal.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L046"
+  ]
+ },
+ {
+  "id": "G041",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You're terrible. He teaches you anyway. He's patient. You didn't know he was patient.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L047"
+  ]
+ },
+ {
+  "id": "G042",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "You keep looking at the fridge.",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L048"
+  ]
+ },
+ {
+  "id": "G043",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "No, I don't.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L049"
+  ]
+ },
+ {
+  "id": "G044",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Is my name on that thing?",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L050"
+  ]
+ },
+ {
+  "id": "G045",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "It was. Under a magnet.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L051"
+  ]
+ },
+ {
+  "id": "G046",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Why?",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L052"
+  ]
+ },
+ {
+  "id": "G047",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Because I've been your brother your whole life. I don't think I've ever been your friend.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L053"
+  ]
+ },
+ {
+  "id": "G048",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Okay. Well. Friends don't let friends be the green one. Swap.",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L054"
+  ]
+ },
+ {
+  "id": "G049",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At two minutes to midnight, the last T turns gold.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L055"
+  ]
+ },
+ {
+  "id": "G050",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Four gold names. One white one. You leave the list on the fridge. Just in case Danny calls.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L056",
+   "L057"
+  ]
+ },
+ {
+  "id": "G051",
+  "tag": "N",
+  "thought": false,
+  "note": "soft",
+  "text": "Whose name would be on your list?",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L058"
+  ]
+ }
+]

@@ -1,0 +1,503 @@
+[
+ {
+  "id": "G001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At two minutes past six on a Thursday, the whole world stops. Except you. You can wake one person. Just one. Touch their shoulder, and they're back. You get one hour. Then the world carries on, and only that person will remember any of it.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L001",
+   "L002",
+   "L003",
+   "L004"
+  ]
+ },
+ {
+  "id": "G002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Who do you wake?",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L005"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The first thing you learn is that you can't move anything. A pigeon in the air is as solid as a wall. The second thing you learn is that a frozen city is very, very quiet.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L006",
+   "L007"
+  ]
+ },
+ {
+  "id": "G004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You eat a free sample. Then all of them. Nobody can stop you, and that turns out to be less fun than you'd think.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L008"
+  ]
+ },
+ {
+  "id": "G005",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Hello?",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L009"
+  ]
+ },
+ {
+  "id": "G006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Fifty-two minutes.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L010"
+  ]
+ },
+ {
+  "id": "G007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You find your boss frozen mid-sneeze through the office window. You look at it for a full minute. It's the best minute of your week.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L011"
+  ]
+ },
+ {
+  "id": "G008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "A little boy outside the shop is frozen with an ice cream tipping off its cone. You can't fix it. You can't move anything. You just stand there and feel sorry about the ice cream.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L012"
+  ]
+ },
+ {
+  "id": "G009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The obvious choice is Mira. But Mira is four hours away by train, and nothing is running. On foot, she's three days. Mum is an hour's walk. You'd get there just as the world starts again. Theo is twenty minutes away, frozen on the sofa with a controller, mid-scream.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L013",
+   "L014",
+   "L015"
+  ]
+ },
+ {
+  "id": "G010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He would be annoying about it. He'd want to steal things. He would definitely want to draw on the boss. But he'd be someone. In a silent city, someone feels like a lot.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L016",
+   "L017"
+  ]
+ },
+ {
+  "id": "G011",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Theo it is.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L018"
+  ]
+ },
+ {
+  "id": "G012",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You'd have a whole half hour of someone to talk to. You start walking home.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L019"
+  ]
+ },
+ {
+  "id": "G013",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then you see her. A woman in a red coat, stepping off the kerb, looking at her phone. And a cyclist, frozen a hand's width away, looking at his.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L020",
+   "L021"
+  ]
+ },
+ {
+  "id": "G014",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You can't move her. You can't move the bike. When the world starts again, they meet.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L022"
+  ]
+ },
+ {
+  "id": "G015",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You stand there for a long time. If you wake her, you walk home alone. Nobody will ever know there was an hour.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L023",
+   "L024"
+  ]
+ },
+ {
+  "id": "G016",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "If you don't, you'll know. For the rest of your life, you'll know.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L025"
+  ]
+ },
+ {
+  "id": "G017",
+  "tag": "LADY",
+  "thought": false,
+  "note": "",
+  "text": "Oh my goodness. Why is it so quiet?",
+  "voice": "bf_isabella",
+  "speed": 1.05,
+  "ids": [
+   "L026"
+  ]
+ },
+ {
+  "id": "G018",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Long story. Can you take one step back for me?",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L027"
+  ]
+ },
+ {
+  "id": "G019",
+  "tag": "LADY",
+  "thought": false,
+  "note": "",
+  "text": "Why would I\u2014 Oh. Oh.",
+  "voice": "bf_isabella",
+  "speed": 1.05,
+  "ids": [
+   "L028"
+  ]
+ },
+ {
+  "id": "G020",
+  "tag": "LADY",
+  "thought": false,
+  "note": "",
+  "text": "That was going to hurt.",
+  "voice": "bf_isabella",
+  "speed": 1.05,
+  "ids": [
+   "L029"
+  ]
+ },
+ {
+  "id": "G021",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Yeah.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L030"
+  ]
+ },
+ {
+  "id": "G022",
+  "tag": "LADY",
+  "thought": false,
+  "note": "",
+  "text": "Is it just us?",
+  "voice": "bf_isabella",
+  "speed": 1.05,
+  "ids": [
+   "L031"
+  ]
+ },
+ {
+  "id": "G023",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Just us. For about half an hour.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L032"
+  ]
+ },
+ {
+  "id": "G024",
+  "tag": "LADY",
+  "thought": false,
+  "note": "",
+  "text": "Right. Well. I'm Rosa. I'm going to need to sit down.",
+  "voice": "bf_isabella",
+  "speed": 1.05,
+  "ids": [
+   "L033"
+  ]
+ },
+ {
+  "id": "G025",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You have eight minutes left. You spend them on a bench with a stranger.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L034"
+  ]
+ },
+ {
+  "id": "G026",
+  "tag": "LADY",
+  "thought": false,
+  "note": "",
+  "text": "Of everyone in the world, you woke me?",
+  "voice": "bf_isabella",
+  "speed": 1.05,
+  "ids": [
+   "L035"
+  ]
+ },
+ {
+  "id": "G027",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You were the one who needed it.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L036"
+  ]
+ },
+ {
+  "id": "G028",
+  "tag": "LADY",
+  "thought": false,
+  "note": "",
+  "text": "Who were you going to wake?",
+  "voice": "bf_isabella",
+  "speed": 1.05,
+  "ids": [
+   "L037"
+  ]
+ },
+ {
+  "id": "G029",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "My brother. He'd have been annoying about it.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L038"
+  ]
+ },
+ {
+  "id": "G030",
+  "tag": "LADY",
+  "thought": false,
+  "note": "",
+  "text": "Then I'll be annoying about it for him. Thank you. Thank you. Thank you.",
+  "voice": "bf_isabella",
+  "speed": 1.05,
+  "ids": [
+   "L039"
+  ]
+ },
+ {
+  "id": "G031",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You can stop.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L040"
+  ]
+ },
+ {
+  "id": "G032",
+  "tag": "LADY",
+  "thought": false,
+  "note": "",
+  "text": "I'm going to tell everyone about this. Nobody is going to believe me.",
+  "voice": "bf_isabella",
+  "speed": 1.05,
+  "ids": [
+   "L041"
+  ]
+ },
+ {
+  "id": "G033",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Probably not.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L042"
+  ]
+ },
+ {
+  "id": "G034",
+  "tag": "LADY",
+  "thought": false,
+  "note": "",
+  "text": "I don't care. I'll know.",
+  "voice": "bf_isabella",
+  "speed": 1.05,
+  "ids": [
+   "L043"
+  ]
+ },
+ {
+  "id": "G035",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Three seconds. She squeezes your hand.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L044"
+  ]
+ },
+ {
+  "id": "G036",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The world starts again. The cyclist rides past nobody.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L045"
+  ]
+ },
+ {
+  "id": "G037",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Where've you been? You look weird.",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L046"
+  ]
+ },
+ {
+  "id": "G038",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I had a quiet hour.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L047"
+  ]
+ },
+ {
+  "id": "G039",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Lucky.",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L048"
+  ]
+ },
+ {
+  "id": "G040",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Nobody else will ever know. One woman in a red coat will remember it forever.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L049"
+  ]
+ },
+ {
+  "id": "G041",
+  "tag": "N",
+  "thought": false,
+  "note": "soft",
+  "text": "Who would you wake?",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L050"
+  ]
+ }
+]

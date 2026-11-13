@@ -271,7 +271,7 @@ export function lift(g, t, cam, o = {}) {
 }
 
 // ================= v3.1 sets (15 Nov+): kitchen, stage, garden =================
-function dog(g, x, GY, t, o = {}) { const fr = o.frozen, j = fr ? 1 : Math.abs(Math.sin(t * 5)), y = GY - 40 - (o.jump ? 120 * j : 0), f = o.f ?? 1;
+export function dog(g, x, GY, t, o = {}) { const fr = o.frozen, j = fr ? 1 : Math.abs(Math.sin(t * 5)), y = GY - 40 - (o.jump ? 120 * j : 0), f = o.f ?? 1;
   g.save(); g.translate(x, y); g.scale(f * 1.5, 1.5); g.fillStyle = '#c8945a'; g.beginPath(); g.ellipse(0, -40, 70, 34, o.jump ? -.25 : 0, 0, 7); g.fill();
   circle(g, 66, -80, 30, '#c8945a'); g.fillStyle = '#8a5a30'; g.beginPath(); g.ellipse(58, -104, 12, 24, -.4, 0, 7); g.fill(); circle(g, 78, -84, 5, '#1a1218'); circle(g, 94, -74, 6, '#1a1218');
   for (const [dx, a] of [[-44, .5], [-24, .3], [30, -.4], [50, -.6]]) seg(g, [[dx, -20], [dx + (o.jump ? Math.sin(a) * 40 : 0), 20]], 12, '#c8945a');

@@ -14,18 +14,6 @@
  },
  {
   "id": "G002",
-  "tag": "WOMAN",
-  "thought": false,
-  "note": "",
-  "text": "Oh. Sorry, love.",
-  "voice": "af_sarah",
-  "speed": 1.05,
-  "ids": [
-   "L003"
-  ]
- },
- {
-  "id": "G003",
   "tag": "N",
   "thought": false,
   "note": "",
@@ -33,8 +21,21 @@
   "voice": "am_michael",
   "speed": 1.03,
   "ids": [
-   "L004",
-   "L005"
+   "L003",
+   "L004"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "So he walks home. Forty minutes. Soaked to the bone. Halfway home, it bursts open on its own.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L005",
+   "L006"
   ]
  },
  {
@@ -42,12 +43,12 @@
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "So he walks home. Forty minutes. Soaked to the bone. He tells himself it doesn't matter. Umbrellas are for tourists.",
+  "text": "In his front window, Pepper is waiting. Fourteen years old. He's been at the glass since six.",
   "voice": "am_michael",
   "speed": 1.03,
   "ids": [
-   "L006",
-   "L007"
+   "L007",
+   "L008"
   ]
  },
  {
@@ -55,11 +56,11 @@
   "tag": "ELI",
   "thought": false,
   "note": "",
-  "text": "What? Who\u2026?",
+  "text": "Hey, old man. You waited for me?",
   "voice": "am_echo",
   "speed": 1.05,
   "ids": [
-   "L008"
+   "L009"
   ]
  },
  {
@@ -67,48 +68,11 @@
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "Halfway home, it bursts open on its own.",
-  "voice": "am_michael",
-  "speed": 1.03,
-  "ids": [
-   "L009"
-  ]
- },
- {
-  "id": "G007",
-  "tag": "N",
-  "thought": false,
-  "note": "",
-  "text": "In his front window, Pepper is waiting. Fourteen years old. Deaf in one ear. He's been sitting at the glass since six.",
-  "voice": "am_michael",
-  "speed": 1.03,
-  "ids": [
-   "L010",
-   "L011"
-  ]
- },
- {
-  "id": "G008",
-  "tag": "ELI",
-  "thought": false,
-  "note": "",
-  "text": "Hey, old man. You waited for me?",
-  "voice": "am_echo",
-  "speed": 1.05,
-  "ids": [
-   "L012"
-  ]
- },
- {
-  "id": "G009",
-  "tag": "N",
-  "thought": false,
-  "note": "",
   "text": "Eli doesn't buy a new umbrella. He doesn't need one.",
   "voice": "am_michael",
   "speed": 1.03,
   "ids": [
-   "L013"
+   "L010"
   ]
  }
 ]

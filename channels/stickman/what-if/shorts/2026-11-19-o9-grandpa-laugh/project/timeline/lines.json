@@ -1,0 +1,102 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Grandpa moves to Australia on Sunday. Jay has seven days.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 5.05
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He's never once heard him laugh.",
+  "sec": "hook",
+  "start": 5.17,
+  "end": 6.758
+ },
+ {
+  "id": "L003",
+  "tag": "JAY",
+  "thought": false,
+  "note": "",
+  "text": "Why did the scarecrow win an award?",
+  "sec": "act1",
+  "start": 7.558,
+  "end": 9.31
+ },
+ {
+  "id": "L004",
+  "tag": "GRANDPA",
+  "thought": false,
+  "note": "",
+  "text": "Because he was outstanding in his field. Nineteen fifty-two.",
+  "sec": "act1",
+  "start": 9.46,
+  "end": 13.469
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Tuesday, the whoopee cushion. Grandpa sits on it, and simply waits for it to finish.",
+  "sec": "act1",
+  "start": 14.319,
+  "end": 19.426
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "On Saturday, Jay gives up and opens the old photo album.",
+  "sec": "act2",
+  "start": 20.326,
+  "end": 24.338
+ },
+ {
+  "id": "L007",
+  "tag": "JAY",
+  "thought": false,
+  "note": "",
+  "text": "Is that you?",
+  "sec": "act2",
+  "start": 25.048,
+  "end": 25.925
+ },
+ {
+  "id": "L008",
+  "tag": "GRANDPA",
+  "thought": false,
+  "note": "",
+  "text": "That was nineteen seventy-four. I thought I looked like a rock star.",
+  "sec": "act2",
+  "start": 26.075,
+  "end": 30.273
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And then Grandpa laughs. A huge, wheezing, slapping-his-knee laugh.",
+  "sec": "act2",
+  "start": 31.723,
+  "end": 36.004
+ },
+ {
+  "id": "L010",
+  "tag": "GRANDPA",
+  "thought": false,
+  "note": "",
+  "text": "Send me photos. Especially of your haircuts.",
+  "sec": "act3",
+  "start": 36.904,
+  "end": 40.095
+ }
+]
