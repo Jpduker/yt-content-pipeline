@@ -1,0 +1,132 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Theo just lied. So the whole world stopped.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 3.75
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, every lie freezes everyone but the liar. Five seconds.",
+  "sec": "hook",
+  "start": 3.87,
+  "end": 8.453
+ },
+ {
+  "id": "L003",
+  "tag": "MUM",
+  "thought": false,
+  "note": "",
+  "text": "Did you brush your teeth?",
+  "sec": "act1",
+  "start": 9.253,
+  "end": 10.553
+ },
+ {
+  "id": "L004",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Yes.",
+  "sec": "act1",
+  "start": 10.703,
+  "end": 11.278
+ },
+ {
+  "id": "L005",
+  "tag": "BRO",
+  "thought": false,
+  "note": "",
+  "text": "Did you eat my cake?",
+  "sec": "act1",
+  "start": 12.878,
+  "end": 14.252
+ },
+ {
+  "id": "L006",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "No.",
+  "sec": "act1",
+  "start": 14.402,
+  "end": 14.902
+ },
+ {
+  "id": "L007",
+  "tag": "BRO",
+  "thought": false,
+  "note": "",
+  "text": "\u2026Did I eat my cake?",
+  "sec": "act1",
+  "start": 16.302,
+  "end": 17.687
+ },
+ {
+  "id": "L008",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "I'm not even trying.",
+  "sec": "act1",
+  "start": 18.287,
+  "end": 19.548
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Theo is nine. He's the best liar in the house.",
+  "sec": "act1",
+  "start": 21.398,
+  "end": 24.4
+ },
+ {
+  "id": "L010",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Mum. Do you like my drawing?",
+  "sec": "act3",
+  "start": 25.3,
+  "end": 26.835
+ },
+ {
+  "id": "L011",
+  "tag": "MUM",
+  "thought": false,
+  "note": "",
+  "text": "I love it.",
+  "sec": "act3",
+  "start": 26.985,
+  "end": 27.791
+ },
+ {
+  "id": "L012",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "\u2026Did you move it?",
+  "sec": "act3",
+  "start": 29.991,
+  "end": 31.077
+ },
+ {
+  "id": "L013",
+  "tag": "MUM",
+  "thought": false,
+  "note": "",
+  "text": "No.",
+  "sec": "act3",
+  "start": 31.227,
+  "end": 31.827
+ }
+]

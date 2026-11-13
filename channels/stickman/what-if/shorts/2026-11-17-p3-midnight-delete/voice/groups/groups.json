@@ -1,0 +1,101 @@
+[
+ {
+  "id": "G001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Every midnight, your phone deletes the person you haven't called the longest. For good. It can't be saved again. Texts don't count. Only a call, answered before midnight. And everyone's phone works this way.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L001",
+   "L002",
+   "L003"
+  ]
+ },
+ {
+  "id": "G002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Mira's top contact is her dad. Forty-one days since their fight.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L004"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Hey, Dad. Hi. Dad. \u2026Hey.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L005"
+  ]
+ },
+ {
+  "id": "G004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It rings.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L006"
+  ]
+ },
+ {
+  "id": "G005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Midnight.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L007"
+  ]
+ },
+ {
+  "id": "G006",
+  "tag": "DAD",
+  "thought": false,
+  "note": "phone",
+  "text": "Mira? Your name just disappeared from my phone.",
+  "voice": "bm_george",
+  "speed": 1.02,
+  "ids": [
+   "L008",
+   "L009"
+  ]
+ },
+ {
+  "id": "G007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She was at the top of his list, too.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L010"
+  ]
+ },
+ {
+  "id": "G008",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Then tell me your number. I'll learn it by heart.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L011"
+  ]
+ }
+]

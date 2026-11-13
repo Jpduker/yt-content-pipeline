@@ -81,6 +81,8 @@ Append-only, newest at the bottom. Format: date · what happened · evidence · 
 - lemo-opuscar 2.0.0 (2026-11-12): 99 styles, image-generation styles marked ✦ (need the user's own image tool), one LICENSE file (docs CC BY-NC + permission for own films).
 
 ## 2026-11-13 · session 10
-- Our Shorts out-pull our long-forms ~16:1 in the first days (≈ 730 vs 44 views). Best Short = number + deadline in the title, 30 s.
-- Shorts-native formats near our niche: "In this world, <rule>" (SceneLook 2–6M), number + deadline + "… but" (LAST SCENARIO 1–4M), "What if X for 5 seconds" (14.3M from a 42K channel, 2.7M from a 1.6K channel).
+- [fact, 2026-11-13 snapshot] Our Shorts had ≈ 730 views vs 44 on long-forms after 1–3 days (7 uploads). Views alone don't say which format works; measure per PLAN-2026-11-15-to-21 §6. Best Short so far: "He Had 3 Days…" (29.63% stayed to watch; 73.6% is average % viewed, not completion). Title/length effects are unproven.
+- Shorts-native formats near our niche: "In this world, <rule>" (SceneLook outliers 2–6M, median of last 48 ≈ 33K; re-posted animation), number + deadline + "… but" (LAST SCENARIO outliers 1–4M, median ≈ 120–130K; movie recaps), "What if X for 5 seconds" (14.3M from a 42K channel, 2.7M from a 1.6K channel).
 - "Time stopped for everyone except you" had 15+ uploads in a month, almost all < 300 views: only a twist in the title can lift it.
+- 2026-11-13 s11 · Before scripting a rule-world story, write the rule in one sentence and check every beat against it (P1 word maths, P3 "everyone's phone" set up by 0:14). No rule may appear first at the ending.
+- 2026-11-13 s11 · Time Shorts from the real Kokoro voiceover (build_voice.py) before planning shots: the first drafts ran 41–46 s against a 25–35 s target.

@@ -1,0 +1,124 @@
+[
+ {
+  "id": "G001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, you get a thousand words a day.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L001"
+  ]
+ },
+ {
+  "id": "G002",
+  "tag": "DEV",
+  "thought": false,
+  "note": "",
+  "text": "Morning!",
+  "voice": "am_puck",
+  "speed": 1.08,
+  "ids": [
+   "L002"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Spoken or typed. When they run out, you're silent until midnight.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L003"
+  ]
+ },
+ {
+  "id": "G004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Dev spends his online. Nine hundred and eighty-nine words, on whether a hot dog is a sandwich. He wins. He has ten left.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L004",
+   "L005",
+   "L006"
+  ]
+ },
+ {
+  "id": "G005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then, his little sister's school speech. Pia has saved every word all day.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L007"
+  ]
+ },
+ {
+  "id": "G006",
+  "tag": "PIA",
+  "thought": false,
+  "note": "",
+  "text": "I can't do it. Say something.",
+  "voice": "af_sky",
+  "speed": 1.1,
+  "ids": [
+   "L008"
+  ]
+ },
+ {
+  "id": "G007",
+  "tag": "DEV",
+  "thought": false,
+  "note": "",
+  "text": "You don't need mine. You've got plenty.",
+  "voice": "am_puck",
+  "speed": 1.08,
+  "ids": [
+   "L009"
+  ]
+ },
+ {
+  "id": "G008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She spends almost all of hers. Every one lands.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L010"
+  ]
+ },
+ {
+  "id": "G009",
+  "tag": "DEV",
+  "thought": false,
+  "note": "",
+  "text": "That's my sister!",
+  "voice": "am_puck",
+  "speed": 1.08,
+  "ids": [
+   "L011"
+  ]
+ },
+ {
+  "id": "G010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Zero.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L012"
+  ]
+ }
+]

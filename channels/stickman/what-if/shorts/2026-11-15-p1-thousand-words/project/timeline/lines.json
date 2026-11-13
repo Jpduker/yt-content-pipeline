@@ -1,0 +1,122 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, you get a thousand words a day.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 3.335
+ },
+ {
+  "id": "L002",
+  "tag": "DEV",
+  "thought": false,
+  "note": "",
+  "text": "Morning!",
+  "sec": "hook",
+  "start": 3.595,
+  "end": 4.177
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Spoken or typed. When they run out, you're silent until midnight.",
+  "sec": "hook",
+  "start": 4.577,
+  "end": 8.547
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Dev spends his online. Nine hundred and eighty-nine words, on whether a hot dog is a sandwich.",
+  "sec": "act1",
+  "start": 9.247,
+  "end": 15.742
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He wins.",
+  "sec": "act1",
+  "start": 16.062,
+  "end": 17.037
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He has ten left.",
+  "sec": "act1",
+  "start": 17.457,
+  "end": 18.514
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then, his little sister's school speech. Pia has saved every word all day.",
+  "sec": "act2",
+  "start": 19.314,
+  "end": 24.048
+ },
+ {
+  "id": "L008",
+  "tag": "PIA",
+  "thought": false,
+  "note": "",
+  "text": "I can't do it. Say something.",
+  "sec": "act2",
+  "start": 24.308,
+  "end": 26.162
+ },
+ {
+  "id": "L009",
+  "tag": "DEV",
+  "thought": false,
+  "note": "",
+  "text": "You don't need mine. You've got plenty.",
+  "sec": "act2",
+  "start": 27.512,
+  "end": 29.313
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She spends almost all of hers. Every one lands.",
+  "sec": "act3",
+  "start": 30.113,
+  "end": 33.226
+ },
+ {
+  "id": "L011",
+  "tag": "DEV",
+  "thought": false,
+  "note": "",
+  "text": "That's my sister!",
+  "sec": "act3",
+  "start": 33.836,
+  "end": 34.849
+ },
+ {
+  "id": "L012",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Zero.",
+  "sec": "act3",
+  "start": 35.649,
+  "end": 36.326
+ }
+]

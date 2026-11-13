@@ -32,3 +32,16 @@ Reading (tiny sample, days old): **Shorts carry the channel** (≈ 730 views vs 
 | What If You and Your Best Friend Swapped Lives for a Day? | Swaps are hot ([crush body swap](https://www.youtube.com/watch?v=PzOBADR-Hyo) 242K; [turned into a girl](https://www.youtube.com/watch?v=RsnpKukfvlw) 381K) but no best-friend life swap found |
 | (dropped) What If You Could Borrow a Day From Your Future? | 6+ small copies in two weeks (3–335 views) |
 | Short: Your Phone Deletes a Contact Every Day You Don't Call | No what-if video found |
+
+## 4. Corrections and typical performance (added 2026-11-13 evening, session 11)
+- All competitor numbers in this file are **dated snapshots (2026-11-13)**, not stable figures.
+- "No what-if video found" in §3 means NexLev's YouTube search returned no exact match in its top ~20 results. It is **not** proof of demand or of an unclaimed niche.
+- The headline examples in §2 are **outliers**. Typical recent performance, from the last 48 Shorts on each channel (NexLev, 2026-11-13):
+
+| Channel | What it posts | Median of last 48 Shorts | Range |
+|---|---|---|---|
+| [SceneLook](https://www.youtube.com/channel/UCchS5GtV4_Gp3bFs-SeQWRA) (39.8K subs) | **Re-posted clips and recaps of existing animation** (The Simpsons, SpongeBob, other studios' films) | ≈ 33K views | 2K – 1M |
+| [LAST SCENARIO](https://www.youtube.com/channel/UCc_EtlYObv20pDSmlGhmAwQ) (18.3K subs) | **Movie and TV recaps** (Gattaca, In Time, Black Mirror…) | ≈ 120–130K views | 4.9K – 3.9M |
+
+- Neither channel makes original stories. We borrow only title and opening patterns, and they don't predict what an original stickman Short will get. Their reach also partly comes from known IP, which we don't use.
+- Still to do (next NexLev quota, after 2026-11-18 23:44 CET): find 2–3 channels making **original** animated what-if or rule-world Shorts and record their medians.

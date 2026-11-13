@@ -1,0 +1,112 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Every midnight, your phone deletes the person you haven't called the longest. For good. It can't be saved again.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 7.365
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Texts don't count. Only a call, answered before midnight.",
+  "sec": "hook",
+  "start": 7.484,
+  "end": 11.671
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And everyone's phone works this way.",
+  "sec": "hook",
+  "start": 11.899,
+  "end": 13.917
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Mira's top contact is her dad. Forty-one days since their fight.",
+  "sec": "act1",
+  "start": 14.717,
+  "end": 18.875
+ },
+ {
+  "id": "L005",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Hey, Dad. Hi. Dad. \u2026Hey.",
+  "sec": "act2",
+  "start": 21.225,
+  "end": 23.046
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It rings.",
+  "sec": "act2",
+  "start": 23.896,
+  "end": 24.683
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Midnight.",
+  "sec": "act2",
+  "start": 26.073,
+  "end": 26.772
+ },
+ {
+  "id": "L008",
+  "tag": "DAD",
+  "thought": false,
+  "note": "phone",
+  "text": "Mira?",
+  "sec": "act3",
+  "start": 27.922,
+  "end": 28.422
+ },
+ {
+  "id": "L009",
+  "tag": "DAD",
+  "thought": false,
+  "note": "phone",
+  "text": "Your name just disappeared from my phone.",
+  "sec": "act3",
+  "start": 28.552,
+  "end": 31.026
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She was at the top of his list, too.",
+  "sec": "act3",
+  "start": 32.026,
+  "end": 34.029
+ },
+ {
+  "id": "L011",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "",
+  "text": "Then tell me your number. I'll learn it by heart.",
+  "sec": "act3",
+  "start": 34.689,
+  "end": 36.903
+ }
+]
