@@ -126,7 +126,7 @@ export const HEAD = {
   MIRA_HOME: { hair: 'ponytail', tie: '#f2c21a', lashes: true }, MUM: { hair: 'bunTop', lashes: true, glasses: true }, NEIGH: { hair: 'flatcap', color: '#2aa6a0' },
   DRIVER: { hair: 'peaked', color: '#1f8a8a' }, LIFT: { hair: 'curly', lashes: true }, YOU_REF: {},
   THEO: { hair: 'headphonesNeck', color: '#4a8fe8' }, DEV: { hair: 'scarf', color: '#e8743b' }, PIA: { hair: 'clipBun', color: '#d8504a', lashes: true },
-  DAD: { hair: 'stache', color: '#b8b4b0', glasses: true }, INTERN: { hair: 'lanyard', color: '#1f8a8a' }, KID: { hair: 'bun', lashes: true }, SAMI: { hair: 'cap', color: '#3a6ea5' }, OMAR: {}, NEW: { hair: 'lanyard', color: '#e05a9a', lashes: true }, LILA: { hair: 'bunTop', lashes: true }, MA: { hair: 'curly', lashes: true }, BRO: { hair: 'beanie', color: '#e8743b' },
+  DAD: { hair: 'stache', color: '#b8b4b0', glasses: true }, INTERN: { hair: 'lanyard', color: '#1f8a8a' }, KID: { hair: 'bun', lashes: true }, SAMI: { hair: 'cap', color: '#3a6ea5' }, OMAR: {}, PIP: { hair: 'bun', lashes: true }, CLEANER: { hair: 'beanie', color: '#3a6ea5' }, GUS: { hair: 'stache' }, INES: { hair: 'curly', lashes: true }, RAJ: {}, TIA: { hair: 'clipBun', color: '#3fb950', lashes: true }, LEO: {}, DAVE: { glasses: true }, NADIA: { hair: 'bunTop', lashes: true }, ROSA: { hair: 'bun', lashes: true }, JO: { hair: 'cap', color: '#3a6ea5' }, SAM: { hair: 'curly', lashes: true }, WALT: { hair: 'flatcap', color: '#6a6a74' }, ZOE: { hair: 'bunTop', lashes: true }, ELI: {}, JAY: { hair: 'curly' }, GRANDPA: { hair: 'flatcap', color: '#5a4a3a', glasses: true }, NEW: { hair: 'lanyard', color: '#e05a9a', lashes: true }, LILA: { hair: 'bunTop', lashes: true }, MA: { hair: 'curly', lashes: true }, BRO: { hair: 'beanie', color: '#e8743b' },
   X1: {}, X2: { hair: 'cap', color: '#2a2430' }, X3: { hair: 'curly' }, X4: { hair: 'bun', lashes: true }, X5: { hair: 'beanie', color: '#3a3040' },
 };
 
@@ -141,8 +141,9 @@ export function drawChar(g, id, fig, t = 0) {
   if (hair?.behind) hair.behind(g, hx, hy, hr, -f, { t, rim: rimOff, rimCol: rim?.color, ...H });
   drawFigure(g, o);
   circle(g, hx, hy, hr * .995, S().ink);                                   // wipe the kit face
-  const droop = exP(fig.ex || fig.expr).dr, hrot = (fig.rot || 0) + droop * .16 * f;
-  g.save(); if (hrot) { g.translate(hx, hy + hr); g.rotate(hrot); g.translate(-hx, -hy - hr); }
+  const droop = exP(fig.ex || fig.expr).dr, hrot = droop * .16 * f;
+  g.save(); if (fig.rot) { g.translate(hx, hy); g.rotate(fig.rot); g.translate(-hx, -hy); }   // v3.1: body rotation turns the face about the head centre (it used to swing off the head)
+  if (hrot) { g.translate(hx, hy + hr); g.rotate(hrot); g.translate(-hx, -hy - hr); }
   face(g, hx, hy, hr, { facing: fig.headF ?? f, expr: fig.expr, ex: fig.ex, talk: fig.talk, blink: fig.blink, look: fig.look, lashes: H.lashes, glasses: H.glasses, tear: fig.tear, t });
   if (hair?.front) hair.front(g, hx, hy, hr, -f, { ...H, t });
   g.restore(); g.restore();

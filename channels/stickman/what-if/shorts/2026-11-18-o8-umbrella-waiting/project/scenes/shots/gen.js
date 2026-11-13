@@ -16,7 +16,7 @@ const WALL = await (await fetch(new URL('words_all.json', base))).json();
 // GrowKaz kit v1.1.0 bug: brows 'worried' render as angry and 'angry' as worried. Swap them here (kit stays untouched).
 const BROW = { sad: 'angry', worried: 'angry', nervous: 'angry', scared: 'angry', cry: 'angry', angry: 'worried', determined: 'worried' };
 const fixFace = ex => BROW[ex] ? { brows: BROW[ex] } : undefined;
-const TAGOF = id => ({ YOU_TEE: 'YOU', MIRA_EVE: 'MIRA', MIRA_HOME: 'MIRA' }[id] || id);
+const TAGOF = id => ({ YOU_TEE: 'YOU', MIRA_EVE: 'MIRA', MIRA_HOME: 'MIRA', ROSA: 'LADY' }[id] || id);
 let VERT = null; const GQ = [];
 // v3.1: the kit's blurLayer draws at identity (ignores the 9:16 wrapper's transform), so vertical frames got the blurred set squashed into the top half.
 let _vb = null;
@@ -37,6 +37,8 @@ function badge(g, x, y, r, b, t, k) {   // b = { k: 'num' | 'tear', v: value | [
   const bob = Math.sin(t * 2.2 + x * .01) * r * .05, by = y - r * 1.75 + bob, str = String(v);
   g.save(); g.translate(x, by); g.scale(a, a);
   if (str === '∞') g.rotate(Math.sin(t * 3.1) * .12);
+  if (b.k === 'stars') { const n = Math.round(Number(v)), sz = r * .5; rr(g, -sz * 3.2, -sz * .8, sz * 6.4, sz * 1.6, sz * .5); g.fillStyle = 'rgba(18,12,22,.82)'; g.fill();
+    for (let i = 0; i < 5; i++) text(g, '★', -sz * 2.4 + i * sz * 1.2, sz * .05, { size: sz * 1.2, font: 'Nunito', weight: 900, color: i < n ? '#ffd47e' : 'rgba(200,200,210,.35)' }); g.restore(); return; }
   if (b.k === 'mem') {   // WI07: a memory picture over the listener's head; "sorry" wipes it (eraser shimmer) and leaves a grey smudge
     const wa = b.wipeAt ?? 1e9, fa = b.fadeAt ?? 1e9, w = prog(t, wa, wa + .6), fd = prog(t, fa, fa + 1.6), W2 = r * 1.9, H2 = r * 1.3;
     if (w < 1 && !b.smudgeOnly) { g.save(); g.globalAlpha *= 1 - (w > .55 ? (w - .55) / .45 : 0); rr(g, -W2 / 2, -H2 / 2, W2, H2, r * .2); g.fillStyle = 'rgba(244,236,223,.95)'; g.fill(); g.strokeStyle = '#ffd47e'; g.lineWidth = r * .08; g.stroke(); memIcon(g, b.icon, r); g.restore();
@@ -192,6 +194,12 @@ function floater(g, f, t, GY, p) {
   else if (k === 'coin') { const fall = f.at != null ? clamp((t - f.at) / .5) : 1, yy = lerp(-260, 0, ease.in(fall)); if (t >= (f.at ?? -1)) { glow(g, 0, yy - 20, 50, '#ffd47e', .5); g.fillStyle = '#ffc83a'; g.beginPath(); g.ellipse(0, yy - 20, 20, 20 * Math.abs(Math.cos(t * 6)) + 3, 0, 0, 7); g.fill(); } }
   else if (k === 'ash') { const q = f.at != null ? clamp((t - f.at) / 1.2) : .5; if (q > 0 && q < 1) for (let i = 0; i < 9; i++) circle(g, Math.sin(i * 2.3) * 30 * q, -q * 120 - i * 10, 10 * (1 - q) + 4, `rgba(90,86,96,${(1 - q) * .8})`); if (q > 0 && q < .3) glow(g, 0, 0, 60, '#ff6a2a', .7); }
   else if (k === 'dog') { drawDog(g, 0, 0, t, { f: f.f ?? 1, jump: false }); }
+  else if (k === 'bike') { g.scale(f.f ?? 1, 1); for (const dx of [-90, 90]) { g.strokeStyle = '#2a2228'; g.lineWidth = 9; g.beginPath(); g.arc(dx, -55, 55, 0, 7); g.stroke(); } seg(g, [[-90, -55], [-10, -140], [70, -140], [90, -55]], 10, '#3a6ea5'); seg(g, [[-10, -140], [0, -55]], 10, '#3a6ea5'); seg(g, [[70, -140], [80, -175]], 8, '#2a2228'); seg(g, [[60, -175], [100, -175]], 8, '#2a2228'); rr(g, -40, -160, 50, 14, 6); g.fillStyle = '#2a2228'; g.fill(); }
+  else if (k === 'cat') { g.scale(f.f ?? 1, 1); g.fillStyle = f.c || '#8a6a5a'; g.beginPath(); g.ellipse(0, -50, 46, 52, 0, 0, 7); g.fill(); circle(g, 0, -118, 34, f.c || '#8a6a5a'); poly(g, [[-30, -140], [-20, -170], [-6, -146]], f.c || '#8a6a5a'); poly(g, [[30, -140], [20, -170], [6, -146]], f.c || '#8a6a5a'); circle(g, -12, -120, 5, '#ffd47e'); circle(g, 12, -120, 5, '#ffd47e'); seg(g, [[40, -20], [80, -60 + Math.sin(t * 3) * 10]], 10, f.c || '#8a6a5a'); }
+  else if (k === 'box') { cardboard(g, 0, -60, f.sc ?? 2.2, { label: f.label || '' }); }
+  else if (k === 'copier') { rr(g, -130, -230, 260, 230, 10); g.fillStyle = '#c8c8d0'; g.fill(); rr(g, -120, -250, 240, 26, 6); g.fillStyle = '#9a9aa8'; g.fill(); rr(g, -90, -150, 180, 30, 4); g.fillStyle = '#5a5a68'; g.fill(); circle(g, 90, -200, 8, '#3fb950'); }
+  else if (k === 'door') { rr(g, -95, -380, 190, 380, 6); g.fillStyle = '#3a2a2a'; g.fill(); const op = f.open != null ? (typeof f.open === 'number' ? f.open : .8) : 0; g.save(); g.transform(1 - op * .7, -op * .12, 0, 1, -85 * (1 - (1 - op * .7)), 0); rr(g, -85, -370, 170, 370, 4); g.fillStyle = '#8a5a3a'; g.fill(); circle(g, 60, -180, 9, '#e8c070'); g.restore(); }
+  else if (k === 'plus') { const q = f.at != null ? clamp((t - f.at) / 1.2) : 0; if (t >= (f.at ?? 0) && q < 1) text(g, f.txt || '+1s', 0, -q * 160, { size: 54, font: FONTS.ui, weight: 900, color: '#ffd47e', alpha: 1 - q, glow: 14, glowColor: '#ffd47e' }); }
   else if (k === 'pigeon') { g.scale(f.f ?? 1, 1); g.fillStyle = '#7a7a88'; g.beginPath(); g.ellipse(0, -30, 40, 26, -.2, 0, 7); g.fill(); circle(g, 34, -58, 16, '#6a6a78'); poly(g, [[48, -60], [62, -54], [48, -52]], '#e8a030'); circle(g, 38, -62, 3, '#111'); seg(g, [[-6, -6], [-10, 0]], 4, '#e8a030'); seg(g, [[8, -6], [6, 0]], 4, '#e8a030'); g.fillStyle = '#5a5a68'; g.beginPath(); g.ellipse(-30, -26, 26, 12, .3, 0, 7); g.fill(); }
   else if (k === 'splash') { for (let i = 0; i < 9; i++) { g.fillStyle = '#7a4a2a'; g.beginPath(); g.ellipse(-60 + (i * 37) % 120, -20 + (i * 23) % 60, 16, 26, i, 0, 7); g.fill(); } }
   g.restore();
@@ -234,13 +242,13 @@ function scene(g, t, info) {
     if (p.floaters) for (const f of p.floaters.filter(f => f.back)) floater(g, f, t, GY, p);
     if (p.chairs) for (const [x, f] of p.chairs) chair(g, x, GY, f);
     for (const w of p.who || []) {
-      const wt = frozen && w.id !== p.hero ? (p.ft ?? 0) : t;
+      const awake = w.id === p.hero || (p.awake || []).includes(w.id), wt = frozen && !awake ? (p.ft ?? 0) : t;
       let x = w.x ?? 0, ps;
       if (w.walk) { const [x0, x1, f0, f1] = w.walk, q = clamp((t / dur - f0) / (f1 - f0)); x = lerp(x0, x1, ease.inOut(q)); ps = q > 0 && q < 1 ? walkPose(t * Math.PI * 2 * (w.slow ? .65 : .9)) : poseSeq(w.pose, wt, dur, w.seed || 1); }
       else ps = poseSeq(w.pose, wt, dur, w.seed || 1);
       const y = (w.y ?? GY) + (seqVal(w.dy, t / dur) || 0), s = (w.s ?? SC), facing = seqVal(w.f, t / dur) ?? 1;
       const fig = { x, y, s, facing, outfit: CAST[w.id], pose: ps, rot: seqVal(w.rot, t / dur), expr: seqVal(w.expr, t / dur) || 'neutral', ex: exAt(w.expr, t, dur), tear: w.tear != null ? prog(t, w.tear * dur, w.tear * dur + 1.4) : undefined, look: seqVal(w.look, t / dur) || [facing * .3, 0],
-        talk: frozen ? 0 : talkFor(w.id, gt), headF: seqVal(w.hf, t / dur), blink: frozen && w.id !== p.hero ? false : (t + (w.seed || 1) * .7) % (2.9 + (w.seed || 1) * .27) > 2.75, rim, prop: w.prop, dim: w.dim, shadow: !/sit/.test(JSON.stringify(w.pose || '')) };
+        talk: frozen && !awake ? 0 : talkFor(w.id, gt), headF: seqVal(w.hf, t / dur), blink: frozen && !awake ? false : (t + (w.seed || 1) * .7) % (2.9 + (w.seed || 1) * .27) > 2.75, rim, prop: w.prop, dim: w.dim, alpha: w.fade != null ? 1 - (seqVal(w.fade, t / dur) || 0) : undefined, shadow: !/sit/.test(JSON.stringify(w.pose || '')) };
       { const gv = seqVal(w.grey, t / dur) || 0; if (gv > 0) { g.save(); g.filter = `grayscale(${gv}) brightness(${1 - .3 * gv}) contrast(${1 - .2 * gv})`; drawChar(g, w.id, fig, t); g.restore(); } else drawChar(g, w.id, fig, t); }
       if (fig.talk > .05) FX.rings(g, x + facing * 60 * s / SC, y - 190 * s, t, { count: 2, r0: 14, r1: 60, color: '#fff1e6', a: .3 });
       if (w.box) cardboard(g, x + facing * 62 * s, y - 104 * s, 1.25 * s / 1.6, { label: w.box === true ? '' : w.box });
@@ -319,9 +327,11 @@ function face(g, t, info) {
   const ex = seqVal(p.expr, k) || 'neutral', exB = exAt(p.expr, t, dur), lk = seqVal(p.look, k) || [side * .25, 0];
   const bob = (p.bob ?? 1) * Math.sin(t * 2.1) * 4 + (p.nod ? Math.max(0, Math.sin(Math.min(1, t / .9) * Math.PI * 2)) * 22 : 0) + (p.swallow != null ? 10 * Math.sin(Math.PI * clamp((t / dur - p.swallow) / .12)) : 0);
   if (p.reflect) { g.save(); g.globalAlpha = .62; g.translate(E.W, 0); g.scale(-1, 1); }
+  const fdF = seqVal(p.fade, k) || 0; if (fdF > 0) { g.save(); g.globalAlpha *= 1 - fdF; }
   const gvF = seqVal(p.grey, k) || 0; if (gvF > 0) { g.save(); g.filter = `grayscale(${gvF}) brightness(${1 - .18 * gvF})`; }
   bust(g, p.reflect ? E.W - cx : cx, cy + bob, r, p.who, { expr: ex, ex: exB, talk, blink: (t % 3.3) > 3.15, look: lk, rimColor: M.rim, rimSide: side, tilt, t, tear: p.tear != null ? prog(t, p.tear * dur, p.tear * dur + 1.6) : undefined });
   if (gvF > 0) g.restore();
+  if (fdF > 0) g.restore();
   if (p.reflect) { g.restore(); veil(g, '#2a4a6a', .28); g.save(); g.globalAlpha = .5; for (const x of [E.W * .18, E.W * .82]) seg(g, [[x, 0], [x, E.H]], 26, '#1a1418'); text(g, 'KETTLE & CRUMB', E.W / 2, E.H * .2, { size: 70, weight: 700, color: 'rgba(242,230,208,.5)', spacing: 8 }); g.restore(); }
   if (p.badge) badge(g, cx, cy + bob - r * .5, r * .5, p.badge, t, k);
   if (p.chest) chestRing(g, cx, cy + bob + r * 1.3, r * .55, p.chest, t, k);
@@ -424,6 +434,11 @@ function insert(g, t, info) {
       g.fillStyle = '#2a2430'; g.fillRect(-100, -100, E.W + 200, E.H + 200); rr(g, cx - 380, cy - 300, 760, 560, 12); g.fillStyle = '#ffcf8a'; g.fill(); glow(g, cx, cy, 700, '#ffcf8a', .3);
       g.save(); g.translate(cx - 30, cy + 250); drawDog(g, 0, 0, t, { f: 1, jump: false }); g.restore(); seg(g, [[cx, cy - 300], [cx, cy + 260]], 18, '#3a3040'); seg(g, [[cx - 380, cy - 20], [cx + 380, cy - 20]], 18, '#3a3040');
       rr(g, cx - 440, cy + 250, 880, 60, 8); g.fillStyle = '#4a4050'; g.fill(); FX.rain(g, t, { count: 160, color: 'rgba(190,215,255,.5)' }); break; }
+    case 'album': {   // O9: an open photo album; a young Grandpa with enormous 1974 hair
+      tableTop(E.H * .86); g.save(); g.translate(cx + (p.dx ?? 0), cy + 40); g.rotate(-.03); rr(g, -460, -300, 920, 600, 12); g.fillStyle = '#5a3a2a'; g.fill(); rr(g, -440, -282, 430, 564, 6); g.fillStyle = '#f4ecdc'; g.fill(); rr(g, 10, -282, 430, 564, 6); g.fill(); seg(g, [[0, -290], [0, 290]], 6, '#3a2418');
+      rr(g, -400, -240, 350, 300, 4); g.fillStyle = '#e8d4a8'; g.fill(); for (let i = 0; i < 14; i++) circle(g, -225 + Math.cos(i * .45) * 95, -110 + Math.sin(i * .45) * 70 - 20, 62, '#1a1218'); circle(g, -225, -80, 52, '#1a1218'); rr(g, -268, -96, 86, 22, 8); g.fillStyle = '#ff9a2a'; g.fill();
+      text(g, '1974', -225, 105, { size: 40, font: 'Nunito', weight: 900, italic: true, color: '#5a3a2a' }); rr(g, 50, -240, 350, 240, 4); g.fillStyle = '#c8d8e8'; g.fill(); text(g, '1981', 225, 40, { size: 34, font: 'Nunito', weight: 900, italic: true, color: '#5a3a2a' }); g.restore();
+      HAND(g, cx + 420, cy + 330, -2.3, 200, 48, '#3a8a5a'); break; }
     case 'pile': {   // the hero's phone: unsent texts pile up; the one being "spoken" types itself at the bottom
       const gl = ghostLine(gt), msgs = p.msgs || [], cnt = p.count ? Math.round(lerp(p.count[0], p.count[1], ease.inOut(prog(t, .2, dur * .85)))) : null;
       phone(cx - (p.side ?? 0) * 260, cy - 150 * (p.sc ?? 1.9), p.sc ?? 1.9, g => { hdr(g, 'Messages', 'not sent');

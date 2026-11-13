@@ -1,0 +1,574 @@
+{
+ "title": "He Was Going to Wake His Brother. He Woke Her.",
+ "duration": 35.779,
+ "shots": [
+  {
+   "id": "s003",
+   "start": 0.0,
+   "end": 4.91,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "freeze": true,
+    "hero": "YOU",
+    "cam": [
+     [
+      900,
+      600,
+      1.4
+     ],
+     [
+      900,
+      600,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 820,
+      "pose": "reach",
+      "expr": "awe",
+      "f": 1
+     },
+     {
+      "id": "X4",
+      "x": 1000,
+      "pose": "phone",
+      "expr": "flat",
+      "f": -1,
+      "grey": 0.55,
+      "seed": 4
+     }
+    ],
+    "motif": "num",
+    "hookText": "ONE PERSON. ONE HOUR."
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s025",
+   "start": 4.91,
+   "end": 8.14,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "freeze": true,
+    "hero": "YOU",
+    "floaters": [
+     {
+      "k": "bike",
+      "x": 1240,
+      "y": 0,
+      "f": -1
+     }
+    ],
+    "cam": [
+     [
+      1180,
+      590,
+      1.6
+     ],
+     [
+      1180,
+      590,
+      1.7000000000000002
+     ]
+    ],
+    "who": [
+     {
+      "id": "ROSA",
+      "x": 1130,
+      "pose": "phone",
+      "expr": "neutral",
+      "f": -1,
+      "seed": 2,
+      "grey": 0.55
+     },
+     {
+      "id": "X3",
+      "x": 1250,
+      "pose": "sitBack",
+      "expr": "flat",
+      "f": -1,
+      "grey": 0.55,
+      "seed": 5,
+      "dy": -90
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s026",
+   "start": 8.14,
+   "end": 13.975,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "freeze": true,
+    "hero": "YOU",
+    "who": "ROSA",
+    "expr": "neutral",
+    "side": -1,
+    "look": [
+     0,
+     0.5
+    ],
+    "grey": 0.55,
+    "bgCam": [
+     1130,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s027",
+   "start": 13.975,
+   "end": 20.038,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "freeze": true,
+    "hero": "YOU",
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "worried"
+     ],
+     [
+      0.31749958766287334,
+      "scared"
+     ]
+    ],
+    "side": 1,
+    "bgCam": [
+     900,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s030",
+   "start": 20.038,
+   "end": 23.442,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "freeze": true,
+    "hero": "YOU",
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "sad"
+     ],
+     [
+      0.16010575793184972,
+      "determined"
+     ]
+    ],
+    "side": 1,
+    "push": 0.12,
+    "bgCam": [
+     900,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s031",
+   "start": 23.442,
+   "end": 24.402,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "freeze": true,
+    "hero": "YOU",
+    "floaters": [
+     {
+      "k": "bike",
+      "x": 1240,
+      "y": 0,
+      "f": -1
+     }
+    ],
+    "cam": [
+     [
+      1060,
+      580,
+      1.6
+     ],
+     [
+      1060,
+      580,
+      1.6800000000000002
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 990,
+      "pose": "reach",
+      "expr": "determined",
+      "f": 1
+     },
+     {
+      "id": "ROSA",
+      "x": 1130,
+      "pose": "phone",
+      "expr": [
+       [
+        0,
+        "neutral"
+       ],
+       [
+        0.6,
+        "surprised"
+       ]
+      ],
+      "f": -1,
+      "seed": 2,
+      "grey": [
+       [
+        0,
+        0.55
+       ],
+       [
+        0.55,
+        0
+       ]
+      ]
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s032",
+   "start": 24.402,
+   "end": 27.021,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "freeze": true,
+    "hero": "YOU",
+    "who": "ROSA",
+    "expr": "shocked",
+    "side": -1,
+    "bgCam": [
+     1130,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s033",
+   "start": 27.021,
+   "end": 30.028,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "freeze": true,
+    "hero": "YOU",
+    "who": "YOU",
+    "expr": "nervous",
+    "side": 1,
+    "bgCam": [
+     900,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s034",
+   "start": 30.028,
+   "end": 32.976,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "freeze": true,
+    "hero": "YOU",
+    "awake": [
+     "ROSA"
+    ],
+    "floaters": [
+     {
+      "k": "bike",
+      "x": 1240,
+      "y": 0,
+      "f": -1
+     }
+    ],
+    "cam": [
+     [
+      1120,
+      590,
+      1.4
+     ],
+     [
+      1100,
+      590,
+      1.45
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 990,
+      "pose": "point",
+      "expr": "nervous",
+      "f": 1
+     },
+     {
+      "id": "ROSA",
+      "x": 0,
+      "pose": "stand",
+      "expr": [
+       [
+        0,
+        "confused"
+       ],
+       [
+        0.1780868385346012,
+        "shocked"
+       ]
+      ],
+      "f": -1,
+      "seed": 2,
+      "grey": 0,
+      "walk": [
+       1130,
+       1060,
+       0.5,
+       0.9
+      ]
+     },
+     {
+      "id": "X3",
+      "x": 1250,
+      "pose": "sitBack",
+      "expr": "flat",
+      "f": -1,
+      "grey": 0.55,
+      "seed": 5,
+      "dy": -90
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s035",
+   "start": 32.976,
+   "end": 35.779,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "freeze": true,
+    "hero": "YOU",
+    "who": "ROSA",
+    "expr": "scared",
+    "side": -1,
+    "bgCam": [
+     1060,
+     520,
+     1.5
+    ],
+    "ask": {
+     "text": "Would you have woken her?",
+     "at": 0.603
+    }
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 4.91,
+   "mood": "mystery",
+   "intensity": 0.36
+  },
+  {
+   "start": 4.91,
+   "end": 20.04,
+   "mood": "tension",
+   "intensity": 0.3
+  },
+  {
+   "start": 20.04,
+   "end": 35.779,
+   "mood": "tension",
+   "intensity": 0.3
+  }
+ ],
+ "sfx": []
+}

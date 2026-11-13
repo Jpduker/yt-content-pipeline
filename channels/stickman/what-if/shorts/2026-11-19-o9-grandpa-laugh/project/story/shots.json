@@ -1,0 +1,584 @@
+{
+ "title": "He Had 7 Days to Make His Grandpa Laugh",
+ "duration": 41.99,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 5.06,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "tv": false
+    },
+    "cam": [
+     [
+      880,
+      560,
+      1.2
+     ],
+     [
+      880,
+      560,
+      1.3
+     ]
+    ],
+    "vx": 960,
+    "hookText": "7 DAYS TO MAKE GRANDPA LAUGH",
+    "hookT": [
+     0,
+     5.17
+    ],
+    "chairs": [
+     [
+      1040,
+      -1
+     ]
+    ],
+    "stamp": "MONDAY",
+    "who": [
+     {
+      "id": "JAY",
+      "x": 780,
+      "pose": "holdFront",
+      "expr": "determined",
+      "f": 1,
+      "s": 1.15,
+      "seed": 2
+     },
+     {
+      "id": "GRANDPA",
+      "x": 1040,
+      "pose": "sit",
+      "expr": "flat",
+      "f": -1,
+      "seed": 3
+     }
+    ],
+    "motif": "num"
+   }
+  },
+  {
+   "id": "s002",
+   "start": 5.06,
+   "end": 7.408,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "tv": false
+    },
+    "who": "GRANDPA",
+    "expr": "flat",
+    "side": -1,
+    "bgCam": [
+     1040,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s003",
+   "start": 7.408,
+   "end": 9.31,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "tv": false
+    },
+    "cam": [
+     [
+      900,
+      590,
+      1.4
+     ],
+     [
+      880,
+      590,
+      1.45
+     ]
+    ],
+    "chairs": [
+     [
+      1040,
+      -1
+     ]
+    ],
+    "who": [
+     {
+      "id": "JAY",
+      "x": 780,
+      "pose": "explain",
+      "expr": "joy",
+      "f": 1,
+      "s": 1.15,
+      "seed": 2,
+      "prop": "paper"
+     },
+     {
+      "id": "GRANDPA",
+      "x": 1040,
+      "pose": "sit",
+      "expr": "flat",
+      "f": -1,
+      "seed": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s004",
+   "start": 9.31,
+   "end": 14.169,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "tv": false
+    },
+    "who": "GRANDPA",
+    "expr": [
+     [
+      0,
+      "flat"
+     ],
+     [
+      0.6174109899156202,
+      "smirk"
+     ],
+     [
+      0.8147767030253135,
+      "flat"
+     ]
+    ],
+    "side": -1,
+    "bgCam": [
+     1040,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s005",
+   "start": 14.169,
+   "end": 17.454,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "tv": false
+    },
+    "cam": [
+     [
+      900,
+      590,
+      1.4
+     ],
+     [
+      880,
+      590,
+      1.45
+     ]
+    ],
+    "chairs": [
+     [
+      1040,
+      -1
+     ]
+    ],
+    "stamp": "TUESDAY",
+    "who": [
+     {
+      "id": "JAY",
+      "x": 760,
+      "pose": "cheer",
+      "expr": [
+       [
+        0,
+        "joy"
+       ],
+       [
+        0.6,
+        "sad"
+       ]
+      ],
+      "f": 1,
+      "s": 1.15,
+      "seed": 2
+     },
+     {
+      "id": "GRANDPA",
+      "x": 1040,
+      "pose": "sit",
+      "expr": "flat",
+      "f": -1,
+      "seed": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s006",
+   "start": 17.454,
+   "end": 20.176,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "tv": false
+    },
+    "who": "GRANDPA",
+    "expr": "flat",
+    "side": -1,
+    "bgCam": [
+     1040,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s007",
+   "start": 20.176,
+   "end": 24.898,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "tv": false
+    },
+    "cam": [
+     [
+      920,
+      600,
+      1.45
+     ],
+     [
+      900,
+      600,
+      1.5
+     ]
+    ],
+    "chairs": [
+     [
+      880,
+      1
+     ],
+     [
+      1040,
+      -1
+     ]
+    ],
+    "stamp": "SATURDAY",
+    "who": [
+     {
+      "id": "JAY",
+      "x": 880,
+      "pose": "sitHands",
+      "expr": "sad",
+      "f": 1,
+      "s": 1.15,
+      "seed": 2
+     },
+     {
+      "id": "GRANDPA",
+      "x": 1040,
+      "pose": "sit",
+      "expr": "flat",
+      "f": -1,
+      "seed": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s008",
+   "start": 24.898,
+   "end": 25.925,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "flat",
+    "so": {
+     "tv": false
+    },
+    "ins": "album",
+    "dx": 225
+   }
+  },
+  {
+   "id": "s009",
+   "start": 25.925,
+   "end": 31.573,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "tv": false
+    },
+    "who": "GRANDPA",
+    "expr": [
+     [
+      0,
+      "flat"
+     ],
+     [
+      0.398371104815864,
+      "smirk"
+     ],
+     [
+      0.5400141643059485,
+      "smile"
+     ]
+    ],
+    "side": -1,
+    "bgCam": [
+     1040,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s010",
+   "start": 31.573,
+   "end": 36.754,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "tv": false
+    },
+    "cam": [
+     [
+      960,
+      600,
+      1.5
+     ],
+     [
+      960,
+      600,
+      1.62
+     ]
+    ],
+    "chairs": [
+     [
+      880,
+      1
+     ],
+     [
+      1040,
+      -1
+     ]
+    ],
+    "who": [
+     {
+      "id": "JAY",
+      "x": 880,
+      "pose": "sitCheer",
+      "expr": "joy",
+      "f": 1,
+      "s": 1.15,
+      "seed": 2
+     },
+     {
+      "id": "GRANDPA",
+      "x": 1040,
+      "pose": "sitLaugh",
+      "expr": "laugh",
+      "f": -1,
+      "seed": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s011",
+   "start": 36.754,
+   "end": 41.99,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "platform",
+    "so": {
+     "doors": 0
+    },
+    "cam": [
+     [
+      960,
+      590,
+      1.4
+     ],
+     [
+      940,
+      590,
+      1.45
+     ]
+    ],
+    "stamp": "SUNDAY \u00b7 AIRPORT",
+    "ask": {
+     "text": "What would make YOUR grandparents laugh?",
+     "at": 3.441
+    },
+    "who": [
+     {
+      "id": "JAY",
+      "x": 860,
+      "pose": "hug",
+      "expr": "tearsmile",
+      "f": 1,
+      "s": 1.15,
+      "seed": 2
+     },
+     {
+      "id": "GRANDPA",
+      "x": 1060,
+      "pose": "hug",
+      "expr": "tearsmile",
+      "f": -1,
+      "seed": 3,
+      "box": "SYDNEY"
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -23
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 19.68,
+   "mood": "playful",
+   "intensity": 0.4
+  },
+  {
+   "start": 20.33,
+   "end": 30.52,
+   "mood": "calm",
+   "intensity": 0.3
+  },
+  {
+   "start": 31.72,
+   "end": 41.99,
+   "mood": "hopeful",
+   "intensity": 0.4
+  }
+ ],
+ "sfx": []
+}

@@ -1,0 +1,393 @@
+{
+ "title": "She Found His 40 Unsent Messages",
+ "duration": 39.578,
+ "shots": [
+  {
+   "id": "s003",
+   "start": 0.0,
+   "end": 4.041,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "cam": [
+     [
+      760,
+      600,
+      1.2
+     ],
+     [
+      760,
+      600,
+      1.0
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 720,
+      "pose": "sit",
+      "expr": "awe",
+      "f": 1,
+      "badge": {
+       "k": "num",
+       "v": "AS MIRA",
+       "hot": null
+      }
+     }
+    ],
+    "motif": "num",
+    "hookText": "ONE DAY IN HIS LIFE"
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s036",
+   "start": 4.041,
+   "end": 8.756,
+   "line": "",
+   "scene": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "ins": "call",
+    "who": "MIRA_HOME",
+    "name": "Mira",
+    "expr": "tender",
+    "t0": 40
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s037",
+   "start": 8.756,
+   "end": 13.985,
+   "line": "",
+   "scene": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "counter",
+     "gain": -17
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "ins": "pile",
+    "msgs": [
+     [
+      "You",
+      "I'm proud of you"
+     ],
+     [
+      "You",
+      "miss you being 2 min away"
+     ],
+     [
+      "You",
+      "your flat is small and I love it"
+     ],
+     [
+      "You",
+      "sandwich"
+     ],
+     [
+      "You",
+      "call me if the course is hard"
+     ]
+    ],
+    "count": [
+     0,
+     40
+    ],
+    "countLabel": "DRAFTS",
+    "noHand": true
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s038",
+   "start": 13.985,
+   "end": 21.398,
+   "line": "",
+   "scene": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "ins": "call",
+    "who": "MIRA_HOME",
+    "name": "Mira",
+    "expr": "teary",
+    "t0": 55
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s039",
+   "start": 21.398,
+   "end": 24.557,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "guilty"
+     ],
+     [
+      0.4431782209560017,
+      "sad"
+     ]
+    ],
+    "side": 1,
+    "badge": {
+     "k": "num",
+     "v": "AS MIRA",
+     "hot": null
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s040",
+   "start": 24.557,
+   "end": 29.799,
+   "line": "",
+   "scene": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "ins": "call",
+    "who": "MIRA_HOME",
+    "name": "Mira",
+    "expr": "tearsmile",
+    "t0": 68
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s041",
+   "start": 29.799,
+   "end": 31.512,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "cam": [
+     [
+      760,
+      600,
+      1.4
+     ],
+     [
+      760,
+      600,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 720,
+      "pose": "sitPhone",
+      "expr": "tender",
+      "f": 1,
+      "badge": {
+       "k": "num",
+       "v": "AS MIRA",
+       "hot": null
+      }
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s042",
+   "start": 31.512,
+   "end": 32.283,
+   "line": "",
+   "scene": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "ins": "call",
+    "who": "MIRA_HOME",
+    "name": "Mira",
+    "expr": "smile",
+    "t0": 80
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s043",
+   "start": 32.283,
+   "end": 39.578,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "YOU",
+    "expr": "surprised",
+    "side": 1,
+    "badge": {
+     "k": "num",
+     "v": "AS MIRA",
+     "hot": null
+    },
+    "ask": {
+     "text": "What would your best friend find in YOUR drafts?",
+     "at": 5.095
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 4.04,
+   "mood": "mystery",
+   "intensity": 0.34
+  },
+  {
+   "start": 4.04,
+   "end": 24.7,
+   "mood": "sad",
+   "intensity": 0.26
+  },
+  {
+   "start": 29.95,
+   "end": 39.578,
+   "mood": "hopeful",
+   "intensity": 0.4
+  }
+ ],
+ "sfx": []
+}

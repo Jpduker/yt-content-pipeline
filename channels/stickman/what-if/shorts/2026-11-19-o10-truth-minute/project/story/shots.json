@@ -1,0 +1,777 @@
+{
+ "title": "He Couldn't Lie for 60 Seconds. At a Wedding.",
+ "duration": 38.26,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 5.11,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "banner": "NADIA & DAVE",
+     "lectern": -120,
+     "spot": -120
+    },
+    "fg": "audience",
+    "cam": [
+     [
+      900,
+      520,
+      1.25
+     ],
+     [
+      900,
+      520,
+      1.35
+     ]
+    ],
+    "vx": 960,
+    "hookText": "60 SECONDS. NO LIES.",
+    "hookT": [
+     0,
+     6.72
+    ],
+    "who": [
+     {
+      "id": "LEO",
+      "x": 840,
+      "pose": "talk",
+      "expr": [
+       [
+        0,
+        "happy"
+       ],
+       [
+        0.4,
+        "shocked"
+       ]
+      ],
+      "f": 1,
+      "seed": 3,
+      "badge": {
+       "k": "num",
+       "v": [
+        [
+         0,
+         60
+        ],
+        [
+         0.999,
+         52
+        ],
+        [
+         0.999,
+         41
+        ],
+        [
+         0.999,
+         31
+        ],
+        [
+         0.999,
+         12
+        ],
+        [
+         0.999,
+         4
+        ],
+        [
+         0.999,
+         null
+        ]
+       ],
+       "hot": 99,
+       "at": 1.0
+      }
+     },
+     {
+      "id": "NADIA",
+      "x": 1060,
+      "pose": "stand",
+      "expr": "shocked",
+      "f": -1,
+      "seed": 2
+     },
+     {
+      "id": "DAVE",
+      "x": 1180,
+      "pose": "stand",
+      "expr": "shocked",
+      "f": -1,
+      "seed": 4
+     }
+    ],
+    "motif": "num"
+   }
+  },
+  {
+   "id": "s002",
+   "start": 5.11,
+   "end": 10.512,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "banner": "NADIA & DAVE",
+     "lectern": -120,
+     "spot": -120
+    },
+    "who": "LEO",
+    "expr": [
+     [
+      0,
+      "shocked"
+     ],
+     [
+      0.40447982228804147,
+      "scared"
+     ]
+    ],
+    "side": 1,
+    "badge": {
+     "k": "num",
+     "v": [
+      [
+       0,
+       60
+      ],
+      [
+       0.999,
+       52
+      ],
+      [
+       0.999,
+       41
+      ],
+      [
+       0.999,
+       31
+      ],
+      [
+       0.999,
+       12
+      ],
+      [
+       0.999,
+       4
+      ],
+      [
+       0.999,
+       null
+      ]
+     ],
+     "hot": 99
+    },
+    "bgCam": [
+     840,
+     480,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s003",
+   "start": 10.512,
+   "end": 13.844,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "banner": "NADIA & DAVE",
+     "lectern": -120,
+     "spot": -120
+    },
+    "cam": [
+     [
+      980,
+      560,
+      1.4
+     ],
+     [
+      960,
+      560,
+      1.45
+     ]
+    ],
+    "who": [
+     {
+      "id": "LEO",
+      "x": 860,
+      "pose": "point",
+      "expr": "nervous",
+      "f": 1,
+      "seed": 3,
+      "badge": {
+       "k": "num",
+       "v": [
+        [
+         0,
+         60
+        ],
+        [
+         0.04501800720288127,
+         52
+        ],
+        [
+         0.999,
+         41
+        ],
+        [
+         0.999,
+         31
+        ],
+        [
+         0.999,
+         12
+        ],
+        [
+         0.999,
+         4
+        ],
+        [
+         0.999,
+         null
+        ]
+       ],
+       "hot": 99
+      }
+     },
+     {
+      "id": "DAVE",
+      "x": 1100,
+      "pose": "stand",
+      "expr": [
+       [
+        0,
+        "smile"
+       ],
+       [
+        0.3976590636254501,
+        "shocked"
+       ]
+      ],
+      "f": -1,
+      "seed": 4
+     }
+    ]
+   }
+  },
+  {
+   "id": "s004",
+   "start": 13.844,
+   "end": 15.454,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "banner": "NADIA & DAVE",
+     "lectern": -120,
+     "spot": -120
+    },
+    "who": "NADIA",
+    "expr": [
+     [
+      0,
+      "shocked"
+     ],
+     [
+      0.5,
+      "wince"
+     ]
+    ],
+    "side": -1,
+    "bgCam": [
+     1060,
+     480,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s005",
+   "start": 15.454,
+   "end": 18.212,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "banner": "NADIA & DAVE",
+     "lectern": -120,
+     "spot": -120
+    },
+    "who": "DAVE",
+    "expr": "hurt",
+    "side": -1,
+    "bgCam": [
+     1180,
+     480,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s006",
+   "start": 18.212,
+   "end": 21.637,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "banner": "NADIA & DAVE",
+     "lectern": -120,
+     "spot": -120
+    },
+    "who": "LEO",
+    "expr": [
+     [
+      0,
+      "nervous"
+     ],
+     [
+      0.0875912408759126,
+      "tender"
+     ]
+    ],
+    "side": 1,
+    "badge": {
+     "k": "num",
+     "v": [
+      [
+       0,
+       60
+      ],
+      [
+       0,
+       52
+      ],
+      [
+       0,
+       41
+      ],
+      [
+       0.04379562043795578,
+       31
+      ],
+      [
+       0.999,
+       12
+      ],
+      [
+       0.999,
+       4
+      ],
+      [
+       0.999,
+       null
+      ]
+     ],
+     "hot": 99
+    },
+    "push": 0.1,
+    "bgCam": [
+     840,
+     480,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s007",
+   "start": 21.637,
+   "end": 25.569,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "banner": "NADIA & DAVE",
+     "lectern": -120,
+     "spot": -120
+    },
+    "who": "NADIA",
+    "expr": "teary",
+    "side": -1,
+    "bgCam": [
+     1060,
+     480,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s008",
+   "start": 25.569,
+   "end": 29.402,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "banner": "NADIA & DAVE",
+     "lectern": -120,
+     "spot": -120
+    },
+    "fg": "audience",
+    "cam": [
+     [
+      960,
+      540,
+      1.35
+     ],
+     [
+      960,
+      540,
+      1.4500000000000002
+     ]
+    ],
+    "who": [
+     {
+      "id": "LEO",
+      "x": 840,
+      "pose": "talk",
+      "expr": "tearsmile",
+      "f": 1,
+      "seed": 3,
+      "badge": {
+       "k": "num",
+       "v": [
+        [
+         0,
+         60
+        ],
+        [
+         0,
+         52
+        ],
+        [
+         0,
+         41
+        ],
+        [
+         0,
+         31
+        ],
+        [
+         0.03913383772501921,
+         12
+        ],
+        [
+         0.999,
+         4
+        ],
+        [
+         0.999,
+         null
+        ]
+       ],
+       "hot": 99
+      }
+     },
+     {
+      "id": "NADIA",
+      "x": 1060,
+      "pose": "stand",
+      "expr": "tearsmile",
+      "f": -1,
+      "seed": 2
+     },
+     {
+      "id": "DAVE",
+      "x": 1180,
+      "pose": "stand",
+      "expr": "teary",
+      "f": -1,
+      "seed": 4
+     }
+    ]
+   }
+  },
+  {
+   "id": "s009",
+   "start": 29.402,
+   "end": 31.889,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "banner": "NADIA & DAVE",
+     "lectern": -120,
+     "spot": -120
+    },
+    "who": "LEO",
+    "expr": [
+     [
+      0,
+      "tender"
+     ],
+     [
+      0.20104543626859656,
+      "smirk"
+     ]
+    ],
+    "side": 1,
+    "badge": {
+     "k": "num",
+     "v": [
+      [
+       0,
+       60
+      ],
+      [
+       0,
+       52
+      ],
+      [
+       0,
+       41
+      ],
+      [
+       0,
+       31
+      ],
+      [
+       0,
+       12
+      ],
+      [
+       0.060313630880578395,
+       4
+      ],
+      [
+       0.999,
+       null
+      ]
+     ],
+     "hot": 99
+    },
+    "bgCam": [
+     840,
+     480,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s010",
+   "start": 31.889,
+   "end": 34.101,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "banner": "NADIA & DAVE",
+     "lectern": -120,
+     "spot": -120
+    },
+    "who": "DAVE",
+    "expr": "tearsmile",
+    "side": -1,
+    "bgCam": [
+     1180,
+     480,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s011",
+   "start": 34.101,
+   "end": 38.26,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "banner": "NADIA & DAVE",
+     "lectern": -120,
+     "spot": -120
+    },
+    "fg": "audience",
+    "cam": [
+     [
+      960,
+      540,
+      1.4
+     ],
+     [
+      960,
+      540,
+      1.2
+     ]
+    ],
+    "ask": {
+     "text": "Would YOU want a truth minute?",
+     "at": 2.36
+    },
+    "who": [
+     {
+      "id": "LEO",
+      "x": 840,
+      "pose": "hug",
+      "expr": "laugh",
+      "f": 1,
+      "seed": 3
+     },
+     {
+      "id": "DAVE",
+      "x": 1000,
+      "pose": "hug",
+      "expr": "laugh",
+      "f": -1,
+      "seed": 4
+     },
+     {
+      "id": "NADIA",
+      "x": 1180,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1,
+      "seed": 2
+     }
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 10.11,
+   "mood": "tension",
+   "intensity": 0.3
+  },
+  {
+   "start": 10.66,
+   "end": 17.71,
+   "mood": "playful",
+   "intensity": 0.38
+  },
+  {
+   "start": 18.36,
+   "end": 38.26,
+   "mood": "hopeful",
+   "intensity": 0.38
+  }
+ ],
+ "sfx": []
+}

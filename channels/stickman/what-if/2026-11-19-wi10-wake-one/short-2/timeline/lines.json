@@ -1,0 +1,72 @@
+[
+ {
+  "id": "L021",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "A woman in a red coat, stepping off the kerb, looking at her phone. And a cyclist, frozen a hand's width away, looking at his.",
+  "sec": "act2",
+  "start": 5.06,
+  "end": 13.184
+ },
+ {
+  "id": "L022",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You can't move her. You can't move the bike. When the world starts again, they meet.",
+  "sec": "act2",
+  "start": 14.125,
+  "end": 18.948
+ },
+ {
+  "id": "L025",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "If you don't, you'll know. For the rest of your life, you'll know.",
+  "sec": "act2",
+  "start": 20.188,
+  "end": 23.392
+ },
+ {
+  "id": "L026",
+  "tag": "LADY",
+  "thought": false,
+  "note": "",
+  "text": "Oh my goodness. Why is it so quiet?",
+  "sec": "act2",
+  "start": 24.552,
+  "end": 27.021
+ },
+ {
+  "id": "L027",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Long story. Can you take one step back for me?",
+  "sec": "act2",
+  "start": 27.171,
+  "end": 30.028
+ },
+ {
+  "id": "L028",
+  "tag": "LADY",
+  "thought": false,
+  "note": "",
+  "text": "Why would I\u2014 Oh. Oh.",
+  "sec": "act2",
+  "start": 30.178,
+  "end": 31.946
+ },
+ {
+  "id": "L029",
+  "tag": "LADY",
+  "thought": false,
+  "note": "",
+  "text": "That was going to hurt.",
+  "sec": "act2",
+  "start": 33.126,
+  "end": 34.579
+ }
+]

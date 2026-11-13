@@ -1,0 +1,392 @@
+{
+ "title": "He Woke Up in His Best Friend's Life",
+ "duration": 30.117,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 4.94,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "cam": [
+     [
+      760,
+      600,
+      1.35
+     ],
+     [
+      760,
+      600,
+      1.4700000000000002
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 720,
+      "pose": [
+       [
+        0,
+        "lie"
+       ],
+       [
+        0.6,
+        "sit"
+       ]
+      ],
+      "expr": [
+       [
+        0,
+        "sleepy"
+       ],
+       [
+        0.5,
+        "shocked"
+       ]
+      ],
+      "f": 1,
+      "badge": {
+       "k": "num",
+       "v": "AS MIRA",
+       "hot": null
+      },
+      "rot": [
+       [
+        0,
+        -1.5
+       ],
+       [
+        0.6,
+        0
+       ]
+      ],
+      "dy": [
+       [
+        0,
+        30
+       ],
+       [
+        0.6,
+        19
+       ]
+      ]
+     }
+    ],
+    "motif": "num",
+    "hookText": "ONE DAY IN HER LIFE"
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s002",
+   "start": 4.94,
+   "end": 9.814,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "shocked"
+     ],
+     [
+      0.3970045137464096,
+      "wince"
+     ]
+    ],
+    "side": 1,
+    "badge": {
+     "k": "num",
+     "v": "AS MIRA",
+     "hot": null
+    },
+    "bgCam": [
+     700,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s003",
+   "start": 9.814,
+   "end": 13.855,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "cam": [
+     [
+      760,
+      600,
+      1.2
+     ],
+     [
+      760,
+      600,
+      1.0
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 720,
+      "pose": "sit",
+      "expr": "awe",
+      "f": 1,
+      "badge": {
+       "k": "num",
+       "v": "AS MIRA",
+       "hot": null
+      }
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s004",
+   "start": 13.855,
+   "end": 17.269,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "who": "YOU",
+    "expr": "confused",
+    "side": 1,
+    "badge": {
+     "k": "num",
+     "v": "AS MIRA",
+     "hot": null
+    },
+    "bgCam": [
+     700,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s021",
+   "start": 17.269,
+   "end": 23.436,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "banner": "URBAN DRAINAGE 101",
+     "easel": 300,
+     "spot": 300
+    },
+    "fg": "audience",
+    "cam": [
+     [
+      960,
+      540,
+      1.1
+     ],
+     [
+      1060,
+      540,
+      1.2
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 1060,
+      "pose": [
+       [
+        0,
+        "point"
+       ],
+       [
+        0.4,
+        "explain"
+       ],
+       [
+        0.8,
+        "point"
+       ]
+      ],
+      "expr": [
+       [
+        0,
+        "nervous"
+       ],
+       [
+        0.5,
+        "happy"
+       ]
+      ],
+      "f": 1,
+      "badge": {
+       "k": "num",
+       "v": "AS MIRA",
+       "hot": null
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "s022",
+   "start": 23.436,
+   "end": 26.722,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "banner": "URBAN DRAINAGE 101",
+     "easel": 300,
+     "spot": 300
+    },
+    "who": "X3",
+    "expr": [
+     [
+      0,
+      "confused"
+     ],
+     [
+      0.6801582471089509,
+      "flat"
+     ]
+    ],
+    "side": -1,
+    "bgCam": [
+     1200,
+     480,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s023",
+   "start": 26.722,
+   "end": 30.117,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "stage",
+    "so": {
+     "variant": "front",
+     "banner": "URBAN DRAINAGE 101",
+     "easel": 300,
+     "spot": 300
+    },
+    "who": "X4",
+    "expr": "joy",
+    "side": -1,
+    "bgCam": [
+     820,
+     480,
+     1.5
+    ],
+    "ask": {
+     "text": "Whose life would YOU swap with?",
+     "at": 1.195
+    }
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 17.27,
+   "mood": "mystery",
+   "intensity": 0.34
+  },
+  {
+   "start": 17.27,
+   "end": 30.117,
+   "mood": "playful",
+   "intensity": 0.42
+  }
+ ],
+ "sfx": []
+}

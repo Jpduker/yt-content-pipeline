@@ -1,0 +1,102 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "On Monday, there's a list on your fridge. Five names.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 4.875
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Every friendship you ever let break.",
+  "sec": "hook",
+  "start": 5.015,
+  "end": 7.24
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Fix one, and the name turns gold. Don't, and on Sunday at midnight, they're gone.",
+  "sec": "hook",
+  "start": 7.38,
+  "end": 12.595
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Jo. In 2019 he sent you a very long message. You meant to answer it properly. You never did.",
+  "sec": "act1",
+  "start": 13.135,
+  "end": 20.148
+ },
+ {
+  "id": "L010",
+  "tag": "JO",
+  "thought": false,
+  "note": "",
+  "text": "You never answered. Not even a thumbs up.",
+  "sec": "act1",
+  "start": 20.408,
+  "end": 22.444
+ },
+ {
+  "id": "L011",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I know. It was a long message.",
+  "sec": "act1",
+  "start": 22.594,
+  "end": 24.562
+ },
+ {
+  "id": "L012",
+  "tag": "JO",
+  "thought": false,
+  "note": "",
+  "text": "It was about my dad.",
+  "sec": "act1",
+  "start": 24.712,
+  "end": 25.81
+ },
+ {
+  "id": "L013",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I'm sorry. I didn't know.",
+  "sec": "act1",
+  "start": 26.56,
+  "end": 28.055
+ },
+ {
+  "id": "L014",
+  "tag": "JO",
+  "thought": false,
+  "note": "",
+  "text": "You didn't ask.",
+  "sec": "act1",
+  "start": 28.205,
+  "end": 29.025
+ },
+ {
+  "id": "L019",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You ask. He talks for an hour. You don't check your phone once.",
+  "sec": "act1",
+  "start": 30.025,
+  "end": 33.732
+ }
+]

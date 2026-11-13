@@ -1,0 +1,646 @@
+{
+ "title": "Every Door You Hold Gives You 1 Second Back",
+ "duration": 39.77,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 5.714,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "cam": [
+     [
+      960,
+      560,
+      1.3
+     ],
+     [
+      960,
+      560,
+      1.4
+     ]
+    ],
+    "vx": 960,
+    "hookText": "HOLD A DOOR = +1 SECOND",
+    "hookT": [
+     0,
+     2.9
+    ],
+    "floaters": [
+     {
+      "k": "door",
+      "x": 1060,
+      "y": 0,
+      "open": 0.8,
+      "back": true
+     },
+     {
+      "k": "plus",
+      "x": 1060,
+      "y": -420,
+      "at": 0.8,
+      "rest": -420,
+      "txt": "+1s"
+     },
+     {
+      "k": "plus",
+      "x": 1060,
+      "y": -420,
+      "at": 2.4,
+      "rest": -420,
+      "txt": "+1s"
+     }
+    ],
+    "who": [
+     {
+      "id": "INES",
+      "x": 900,
+      "pose": "reach",
+      "expr": "happy",
+      "f": 1,
+      "seed": 2
+     },
+     {
+      "id": "X2",
+      "x": 0,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1,
+      "seed": 6,
+      "walk": [
+       700,
+       1250,
+       0.1,
+       0.9
+      ]
+     }
+    ],
+    "stamp": "+00:00:01",
+    "motif": "num"
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s002",
+   "start": 5.714,
+   "end": 8.661,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "who": "INES",
+    "expr": "determined",
+    "side": 1,
+    "bgCam": [
+     900,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s003",
+   "start": 8.661,
+   "end": 11.524,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "cam": [
+     [
+      960,
+      560,
+      1.15
+     ],
+     [
+      960,
+      560,
+      1.2
+     ]
+    ],
+    "floaters": [
+     {
+      "k": "door",
+      "x": 820,
+      "y": 0,
+      "open": 0.8,
+      "back": true
+     },
+     {
+      "k": "door",
+      "x": 1100,
+      "y": 0,
+      "open": 0.8,
+      "back": true
+     },
+     {
+      "k": "plus",
+      "x": 820,
+      "y": -420,
+      "at": 0.4,
+      "rest": -420,
+      "txt": "+1s"
+     },
+     {
+      "k": "plus",
+      "x": 1100,
+      "y": -420,
+      "at": 1.2,
+      "rest": -420,
+      "txt": "+1s"
+     },
+     {
+      "k": "plus",
+      "x": 820,
+      "y": -420,
+      "at": 2.0,
+      "rest": -420,
+      "txt": "+1s"
+     }
+    ],
+    "stamp": "+00:00:40",
+    "who": [
+     {
+      "id": "INES",
+      "x": 0,
+      "pose": "reach",
+      "expr": "joy",
+      "f": 1,
+      "seed": 2,
+      "walk": [
+       700,
+       1000,
+       0,
+       1
+      ]
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s004",
+   "start": 11.524,
+   "end": 12.549,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "cam": [
+     [
+      960,
+      590,
+      1.5
+     ],
+     [
+      940,
+      590,
+      1.55
+     ]
+    ],
+    "floaters": [
+     {
+      "k": "door",
+      "x": 960,
+      "y": 0,
+      "open": 0.8,
+      "back": true
+     }
+    ],
+    "who": [
+     {
+      "id": "INES",
+      "x": 860,
+      "pose": "reach",
+      "expr": "smile",
+      "f": 1,
+      "seed": 2
+     },
+     {
+      "id": "X5",
+      "x": 1060,
+      "pose": "reach",
+      "expr": "smile",
+      "f": -1,
+      "seed": 5
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s005",
+   "start": 12.549,
+   "end": 13.947,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "cam": [
+     [
+      960,
+      590,
+      1.55
+     ],
+     [
+      940,
+      590,
+      1.6
+     ]
+    ],
+    "floaters": [
+     {
+      "k": "door",
+      "x": 960,
+      "y": 0,
+      "open": 0.8,
+      "back": true
+     }
+    ],
+    "who": [
+     {
+      "id": "INES",
+      "x": 860,
+      "pose": "reach",
+      "expr": "determined",
+      "f": 1,
+      "seed": 2
+     },
+     {
+      "id": "X5",
+      "x": 1060,
+      "pose": "reach",
+      "expr": "determined",
+      "f": -1,
+      "seed": 5
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s006",
+   "start": 13.947,
+   "end": 18.429,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "cam": [
+     [
+      960,
+      590,
+      1.5
+     ],
+     [
+      960,
+      590,
+      1.3
+     ]
+    ],
+    "stamp": "+6 MIN",
+    "floaters": [
+     {
+      "k": "door",
+      "x": 960,
+      "y": 0,
+      "open": 0.8,
+      "back": true
+     },
+     {
+      "k": "plus",
+      "x": 860,
+      "y": -420,
+      "at": 2.6,
+      "rest": -420,
+      "txt": "+2s"
+     }
+    ],
+    "who": [
+     {
+      "id": "INES",
+      "x": 860,
+      "pose": "reach",
+      "expr": "sleepy",
+      "f": 1,
+      "seed": 2
+     },
+     {
+      "id": "X5",
+      "x": 1060,
+      "pose": "reach",
+      "expr": "sleepy",
+      "f": -1,
+      "seed": 5
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s007",
+   "start": 18.429,
+   "end": 22.777,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "tv": false
+    },
+    "cam": [
+     [
+      900,
+      600,
+      1.4
+     ],
+     [
+      900,
+      600,
+      1.5
+     ]
+    ],
+    "stamp": "+00:15:00",
+    "who": [
+     {
+      "id": "INES",
+      "x": 900,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "seed": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s008",
+   "start": 22.777,
+   "end": 29.141,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "tv": false
+    },
+    "ins": "card",
+    "lines": [
+     "1. learn guitar",
+     "2. call my sister",
+     "3. novel, page 1"
+    ],
+    "gap": 1.2
+   }
+  },
+  {
+   "id": "s009",
+   "start": 29.141,
+   "end": 34.006,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "tv": false
+    },
+    "freeze": true,
+    "hero": "INES",
+    "cam": [
+     [
+      900,
+      600,
+      1.4
+     ],
+     [
+      900,
+      600,
+      1.5
+     ]
+    ],
+    "stamp": "23:59:59",
+    "who": [
+     {
+      "id": "INES",
+      "x": 900,
+      "pose": "stand",
+      "expr": "awe",
+      "f": 1,
+      "seed": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s010",
+   "start": 34.006,
+   "end": 35.948,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "tv": false
+    },
+    "freeze": true,
+    "hero": "INES",
+    "cam": [
+     [
+      760,
+      620,
+      1.5
+     ],
+     [
+      760,
+      620,
+      1.6
+     ]
+    ],
+    "who": [
+     {
+      "id": "INES",
+      "x": 760,
+      "pose": "lie",
+      "expr": "sleepy",
+      "f": 1,
+      "seed": 2,
+      "rot": -1.5,
+      "dy": -40
+     }
+    ]
+   }
+  },
+  {
+   "id": "s011",
+   "start": 35.948,
+   "end": 39.77,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "tv": false
+    },
+    "who": "INES",
+    "expr": "sleepy",
+    "side": 1,
+    "ask": {
+     "text": "What would YOU do with 15 extra minutes?",
+     "at": 2.019
+    },
+    "bgCam": [
+     760,
+     520,
+     1.5
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 17.93,
+   "mood": "playful",
+   "intensity": 0.4
+  },
+  {
+   "start": 18.58,
+   "end": 39.77,
+   "mood": "calm",
+   "intensity": 0.34
+  }
+ ],
+ "sfx": []
+}

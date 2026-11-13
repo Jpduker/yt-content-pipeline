@@ -1,0 +1,102 @@
+[
+ {
+  "id": "L036",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "I needed your phone to check the train times. And I found your drafts.",
+  "sec": "act2",
+  "start": 4.191,
+  "end": 7.706
+ },
+ {
+  "id": "L037",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your drafts. Forty messages you started, to her, over two years, and never sent.",
+  "sec": "act2",
+  "start": 8.906,
+  "end": 13.875
+ },
+ {
+  "id": "L038",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "\"I'm proud of you.\" \"I miss you being two minutes away.\" \"Your new flat is small and I love it.\"",
+  "sec": "act2",
+  "start": 14.135,
+  "end": 19.36
+ },
+ {
+  "id": "L039",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Why didn't you send any of these?",
+  "sec": "act2",
+  "start": 19.5,
+  "end": 20.798
+ },
+ {
+  "id": "L040",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I didn't want to bother you. You've got a whole new life.",
+  "sec": "act2",
+  "start": 21.548,
+  "end": 24.557
+ },
+ {
+  "id": "L041",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "You're in my whole new life. You're the person I tell things to.",
+  "sec": "act2",
+  "start": 24.707,
+  "end": 27.749
+ },
+ {
+  "id": "L042",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Ten minutes to midnight.",
+  "sec": "act3",
+  "start": 29.949,
+  "end": 31.402
+ },
+ {
+  "id": "L043",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Send them.",
+  "sec": "act3",
+  "start": 31.662,
+  "end": 32.283
+ },
+ {
+  "id": "L044",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "All of them?",
+  "sec": "act3",
+  "start": 32.433,
+  "end": 33.267
+ },
+ {
+  "id": "L045",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "All forty. Before we swap back. I want to get them on my own phone.",
+  "sec": "act3",
+  "start": 33.417,
+  "end": 37.228
+ }
+]

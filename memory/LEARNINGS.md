@@ -89,3 +89,5 @@ Append-only, newest at the bottom. Format: date · what happened · evidence · 
 - 2026-11-13 s11 · Background commands in the cloud die at their timeout (default 30 min): run render queues with timeout 7200000 and a lock/queue script.
 - 2026-11-13 s11 · The kit's blurLayer ignores the 9:16 wrapper's transform (blurred sets squashed into the top half of vertical frames, also in the v3 Shorts); v3.1 vblur fixes it.
 - 2026-11-13 s11 · Long-form scripts: count only spoken words; ~560 spoken words ≈ 3:40 at our voice speeds. Shorts: ~80–95 words ≈ 34–40 s.
+- 2026-11-13 s11 · Rotated figures (rot, e.g. upside down or lying) drew the face off the head: chars.js rotated the face about the neck point. v3.1 rotates it about the head centre (Vivek spotted it in O2). Check every rotated figure on a still before rendering.
+- 2026-11-13 s11 · Vivek's workflow: write a day's long-form + 4 Shorts, launch the whole chain detached, review when notified; keep chat/context lean (few sheet reads).

@@ -1,0 +1,82 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At two minutes past six on a Thursday, the whole world stops.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 5.15
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Except you.",
+  "sec": "hook",
+  "start": 5.375,
+  "end": 6.55
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You can wake one person. Just one. Touch their shoulder, and they're back.",
+  "sec": "hook",
+  "start": 7.09,
+  "end": 11.86
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You get one hour. Then the world carries on, and only that person will remember any of it.",
+  "sec": "hook",
+  "start": 12.0,
+  "end": 17.3
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Who do you wake?",
+  "sec": "hook",
+  "start": 18.139,
+  "end": 19.168
+ },
+ {
+  "id": "L020",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then you see her.",
+  "sec": "act2",
+  "start": 19.968,
+  "end": 21.143
+ },
+ {
+  "id": "L021",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "A woman in a red coat, stepping off the kerb, looking at her phone. And a cyclist, frozen a hand's width away, looking at his.",
+  "sec": "act2",
+  "start": 21.283,
+  "end": 29.407
+ },
+ {
+  "id": "L022",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You can't move her. You can't move the bike. When the world starts again, they meet.",
+  "sec": "act2",
+  "start": 30.348,
+  "end": 35.171
+ }
+]

@@ -1,0 +1,92 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "On Monday, there's a list on your fridge. Five names.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 4.875
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Every friendship you ever let break.",
+  "sec": "hook",
+  "start": 5.015,
+  "end": 7.24
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Fix one, and the name turns gold. Don't, and on Sunday at midnight, they're gone.",
+  "sec": "hook",
+  "start": 7.38,
+  "end": 12.595
+ },
+ {
+  "id": "L050",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Is my name on that thing?",
+  "sec": "act3",
+  "start": 13.135,
+  "end": 14.63
+ },
+ {
+  "id": "L051",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "It was. Under a magnet.",
+  "sec": "act3",
+  "start": 15.38,
+  "end": 16.726
+ },
+ {
+  "id": "L052",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Why?",
+  "sec": "act3",
+  "start": 16.876,
+  "end": 17.401
+ },
+ {
+  "id": "L053",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Because I've been your brother your whole life. I don't think I've ever been your friend.",
+  "sec": "act3",
+  "start": 17.551,
+  "end": 22.197
+ },
+ {
+  "id": "L054",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Okay. Well. Friends don't let friends be the green one. Swap.",
+  "sec": "act3",
+  "start": 23.047,
+  "end": 26.086
+ },
+ {
+  "id": "L055",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At two minutes to midnight, the last T turns gold.",
+  "sec": "act3",
+  "start": 27.386,
+  "end": 30.52
+ }
+]

@@ -1,0 +1,671 @@
+{
+ "title": "In This World, You Shrink When You're Ignored",
+ "duration": 35.33,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 4.0,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "cam": [
+     [
+      960,
+      600,
+      1.3
+     ],
+     [
+      960,
+      620,
+      1.45
+     ]
+    ],
+    "vx": 960,
+    "hookText": "IGNORED? YOU SHRINK.",
+    "hookT": [
+     0,
+     2.94
+    ],
+    "floaters": [
+     {
+      "k": "copier",
+      "x": 960,
+      "y": 0
+     }
+    ],
+    "who": [
+     {
+      "id": "PIP",
+      "x": 960,
+      "pose": "wave",
+      "expr": "happy",
+      "f": 1,
+      "s": 0.42,
+      "seed": 2,
+      "dy": -252
+     },
+     {
+      "id": "X1",
+      "x": 700,
+      "pose": "stand",
+      "expr": "flat",
+      "f": 1,
+      "seed": 3
+     },
+     {
+      "id": "X4",
+      "x": 1250,
+      "pose": "phone",
+      "expr": "flat",
+      "f": -1,
+      "seed": 4
+     }
+    ],
+    "motif": "num"
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s002",
+   "start": 4.0,
+   "end": 7.747,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "cam": [
+     [
+      960,
+      640,
+      1.9
+     ],
+     [
+      960,
+      640,
+      2.02
+     ]
+    ],
+    "floaters": [
+     {
+      "k": "copier",
+      "x": 960,
+      "y": 0
+     }
+    ],
+    "who": [
+     {
+      "id": "PIP",
+      "x": 960,
+      "pose": "stand",
+      "expr": "sad",
+      "f": 1,
+      "s": 0.42,
+      "seed": 2,
+      "dy": -252
+     }
+    ],
+    "stamp": "THURSDAY"
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s003",
+   "start": 7.747,
+   "end": 9.791,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "cam": [
+     [
+      960,
+      620,
+      1.6
+     ],
+     [
+      960,
+      620,
+      1.7
+     ]
+    ],
+    "floaters": [
+     {
+      "k": "copier",
+      "x": 960,
+      "y": 0
+     }
+    ],
+    "who": [
+     {
+      "id": "PIP",
+      "x": 960,
+      "pose": "wave",
+      "expr": "nervous",
+      "f": 1,
+      "s": 0.42,
+      "seed": 2,
+      "dy": -252
+     },
+     {
+      "id": "X2",
+      "x": 0,
+      "pose": "stand",
+      "expr": "flat",
+      "f": 1,
+      "seed": 6,
+      "walk": [
+       700,
+       1300,
+       0,
+       1
+      ]
+     }
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s004",
+   "start": 9.791,
+   "end": 13.4,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "tick",
+     "gain": -13
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "cam": [
+     [
+      960,
+      620,
+      1.45
+     ],
+     [
+      960,
+      620,
+      1.55
+     ]
+    ],
+    "floaters": [
+     {
+      "k": "copier",
+      "x": 960,
+      "y": 0
+     }
+    ],
+    "who": [
+     {
+      "id": "PIP",
+      "x": 960,
+      "pose": "handsOnHead",
+      "expr": "hurt",
+      "f": 1,
+      "s": 0.42,
+      "seed": 2,
+      "dy": -252
+     },
+     {
+      "id": "X5",
+      "x": 1100,
+      "pose": "reach",
+      "expr": "flat",
+      "f": -1,
+      "seed": 5
+     }
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s005",
+   "start": 13.4,
+   "end": 15.771,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "so": {
+     "warm": true
+    },
+    "cam": [
+     [
+      960,
+      600,
+      1.45
+     ],
+     [
+      940,
+      600,
+      1.5
+     ]
+    ],
+    "stamp": "22:40",
+    "floaters": [
+     {
+      "k": "copier",
+      "x": 960,
+      "y": 0
+     }
+    ],
+    "who": [
+     {
+      "id": "PIP",
+      "x": 960,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": 1,
+      "s": 0.42,
+      "seed": 2,
+      "dy": -252
+     },
+     {
+      "id": "CLEANER",
+      "x": 1150,
+      "pose": "holdFront",
+      "expr": "smile",
+      "f": -1
+     }
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s006",
+   "start": 15.771,
+   "end": 16.69,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "office",
+    "so": {
+     "warm": true
+    },
+    "who": "PIP",
+    "expr": "teary",
+    "side": 1,
+    "bgCam": [
+     960,
+     600,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s007",
+   "start": 16.69,
+   "end": 20.913,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "office",
+    "so": {
+     "warm": true
+    },
+    "who": "CLEANER",
+    "expr": "tender",
+    "side": -1,
+    "bgCam": [
+     1150,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s008",
+   "start": 20.913,
+   "end": 24.208,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "shimmer",
+     "gain": -13
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "so": {
+     "warm": true
+    },
+    "cam": [
+     [
+      1100,
+      560,
+      1.5
+     ],
+     [
+      1100,
+      560,
+      1.6
+     ]
+    ],
+    "who": [
+     {
+      "id": "CLEANER",
+      "x": 1100,
+      "pose": "stand",
+      "expr": "happy",
+      "f": -1
+     },
+     {
+      "id": "PIP",
+      "x": 1060,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1,
+      "s": 0.42,
+      "seed": 2,
+      "dy": -290
+     }
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s009",
+   "start": 24.208,
+   "end": 25.865,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "office",
+    "so": {
+     "warm": true
+    },
+    "who": "CLEANER",
+    "expr": "smile",
+    "side": -1,
+    "bgCam": [
+     1100,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s010",
+   "start": 25.865,
+   "end": 29.97,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "so": {
+     "warm": true
+    },
+    "cam": [
+     [
+      960,
+      760,
+      2.2
+     ],
+     [
+      960,
+      760,
+      2.0
+     ]
+    ],
+    "who": [
+     {
+      "id": "PIP",
+      "x": 820,
+      "pose": "wave",
+      "expr": "happy",
+      "f": 1,
+      "s": 0.32,
+      "seed": 2
+     },
+     {
+      "id": "X4",
+      "x": 900,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "s": 0.28,
+      "seed": 2
+     },
+     {
+      "id": "X1",
+      "x": 980,
+      "pose": "wave",
+      "expr": "smile",
+      "f": 1,
+      "s": 0.3,
+      "seed": 2
+     },
+     {
+      "id": "X3",
+      "x": 1060,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": 1,
+      "s": 0.26,
+      "seed": 2
+     },
+     {
+      "id": "PIP",
+      "x": 1140,
+      "pose": "wave",
+      "expr": "joy",
+      "f": 1,
+      "s": 0.62,
+      "seed": 2
+     }
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s011",
+   "start": 29.97,
+   "end": 35.33,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "so": {
+     "warm": true
+    },
+    "cam": [
+     [
+      960,
+      700,
+      1.8
+     ],
+     [
+      960,
+      620,
+      1.2
+     ]
+    ],
+    "ask": {
+     "text": "Would YOU notice someone this small?",
+     "at": 3.557
+    },
+    "who": [
+     {
+      "id": "PIP",
+      "x": 800,
+      "pose": "wave",
+      "expr": "joy",
+      "f": 1,
+      "s": 0.9,
+      "seed": 2
+     },
+     {
+      "id": "X4",
+      "x": 940,
+      "pose": "wave",
+      "expr": "happy",
+      "f": 1,
+      "s": 0.9,
+      "seed": 4
+     },
+     {
+      "id": "X1",
+      "x": 1080,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "s": 1.1,
+      "seed": 3
+     },
+     {
+      "id": "CLEANER",
+      "x": 1240,
+      "pose": "stand",
+      "expr": "happy",
+      "f": -1
+     }
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 13.3,
+   "mood": "mystery",
+   "intensity": 0.3
+  },
+  {
+   "start": 13.55,
+   "end": 35.33,
+   "mood": "hopeful",
+   "intensity": 0.38
+  }
+ ],
+ "sfx": []
+}

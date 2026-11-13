@@ -121,272 +121,422 @@
  },
  {
   "id": "L013",
-  "tag": "N",
+  "tag": "YOU",
   "thought": false,
   "note": "",
-  "text": "Her course mates are lovely. They call you Mira, hand you a coffee and ask you about drains.",
+  "text": "I don't know anything about drainage.",
   "sec": "act1",
-  "start": 38.034,
-  "end": 43.731
+  "start": 36.884,
+  "end": 38.958
  },
  {
   "id": "L014",
-  "tag": "AMA",
+  "tag": "MIRA",
   "thought": false,
-  "note": "",
-  "text": "You ready, Mira?",
+  "note": "phone",
+  "text": "Nobody does. That's why it's a course. Also, I'm going to your work. What do you do all day?",
   "sec": "act1",
-  "start": 43.991,
-  "end": 45.466
+  "start": 39.108,
+  "end": 44.048
  },
  {
   "id": "L015",
   "tag": "YOU",
   "thought": false,
   "note": "",
-  "text": "So ready. Born ready. Drains.",
+  "text": "Emails. Mostly emails about other emails.",
   "sec": "act1",
-  "start": 45.616,
-  "end": 47.474
+  "start": 44.198,
+  "end": 47.025
  },
  {
   "id": "L016",
-  "tag": "N",
+  "tag": "MIRA",
   "thought": false,
-  "note": "",
-  "text": "Slide four is a pipe. You talk about the pipe for three minutes. You say \"flow\" eleven times.",
+  "note": "phone",
+  "text": "Oh no.",
   "sec": "act1",
-  "start": 48.774,
-  "end": 54.681
+  "start": 47.175,
+  "end": 47.863
  },
  {
   "id": "L017",
-  "tag": "PROF",
+  "tag": "N",
   "thought": false,
   "note": "",
-  "text": "Unusual. Passionate. Mostly wrong. B minus.",
+  "text": "Her course mates are lovely. They call you Mira, hand you a coffee and ask you about drains.",
   "sec": "act1",
-  "start": 54.941,
-  "end": 58.077
+  "start": 49.163,
+  "end": 54.86
  },
  {
   "id": "L018",
   "tag": "AMA",
   "thought": false,
   "note": "",
-  "text": "That's her best mark yet.",
+  "text": "You ready, Mira?",
   "sec": "act1",
-  "start": 58.227,
-  "end": 60.022
+  "start": 55.12,
+  "end": 56.595
  },
  {
   "id": "L019",
-  "tag": "N",
+  "tag": "YOU",
   "thought": false,
   "note": "",
-  "text": "You decide not to tell her.",
+  "text": "So ready. Born ready. Drains.",
   "sec": "act1",
-  "start": 60.422,
-  "end": 62.148
+  "start": 56.745,
+  "end": 58.602
  },
  {
   "id": "L020",
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "Her phone never stops. Her mum. Her flatmates. A group called \"Course Panic\". People ask her things all day, and she answers every one of them.",
-  "sec": "act2",
-  "start": 64.048,
-  "end": 73.813
+  "text": "Slide four is a pipe. You talk about the pipe for three minutes. You say \"flow\" eleven times.",
+  "sec": "act1",
+  "start": 59.903,
+  "end": 65.809
  },
  {
   "id": "L021",
-  "tag": "N",
+  "tag": "PROF",
   "thought": false,
   "note": "",
-  "text": "You get a strange feeling. You know her better than anyone. And you have never seen how tired she is.",
-  "sec": "act2",
-  "start": 73.952,
-  "end": 80.17
+  "text": "Unusual. Passionate. Mostly wrong. B minus.",
+  "sec": "act1",
+  "start": 66.07,
+  "end": 69.206
  },
  {
   "id": "L022",
-  "tag": "MIRA",
+  "tag": "AMA",
   "thought": false,
-  "note": "phone",
-  "text": "Hey. Can I ask you something?",
-  "sec": "act2",
-  "start": 81.33,
-  "end": 83.063
+  "note": "",
+  "text": "That's her best mark yet.",
+  "sec": "act1",
+  "start": 69.356,
+  "end": 71.151
  },
  {
   "id": "L023",
-  "tag": "YOU",
+  "tag": "N",
   "thought": false,
   "note": "",
-  "text": "Sure.",
-  "sec": "act2",
-  "start": 83.213,
-  "end": 83.744
+  "text": "You decide not to tell her.",
+  "sec": "act1",
+  "start": 71.551,
+  "end": 73.277
  },
  {
   "id": "L024",
   "tag": "MIRA",
   "thought": false,
   "note": "phone",
-  "text": "I needed your phone to check the train times. And I found your drafts.",
-  "sec": "act2",
-  "start": 83.894,
-  "end": 87.409
+  "text": "Your boss asked me how my weekend was, and then he listened to the answer. Is he okay?",
+  "sec": "act1",
+  "start": 74.437,
+  "end": 79.258
  },
  {
   "id": "L025",
-  "tag": "N",
+  "tag": "YOU",
   "thought": false,
   "note": "",
-  "text": "Your drafts. Forty messages you started, to her, over two years, and never sent.",
-  "sec": "act2",
-  "start": 88.609,
-  "end": 93.578
+  "text": "That's new. He's been listening lately.",
+  "sec": "act1",
+  "start": 79.407,
+  "end": 81.616
  },
  {
   "id": "L026",
   "tag": "MIRA",
   "thought": false,
   "note": "phone",
-  "text": "\"I'm proud of you.\" \"I miss you being two minutes away.\" \"Your new flat is small and I love it.\"",
-  "sec": "act2",
-  "start": 93.838,
-  "end": 99.063
+  "text": "Also, I did all your emails. It took forty minutes.",
+  "sec": "act1",
+  "start": 81.766,
+  "end": 84.47
  },
  {
   "id": "L027",
-  "tag": "MIRA",
-  "thought": false,
-  "note": "phone",
-  "text": "Why didn't you send any of these?",
-  "sec": "act2",
-  "start": 99.203,
-  "end": 100.501
- },
- {
-  "id": "L028",
   "tag": "YOU",
   "thought": false,
   "note": "",
-  "text": "I didn't want to bother you. You've got a whole new life.",
-  "sec": "act2",
-  "start": 101.251,
-  "end": 104.26
+  "text": "That's three weeks of emails.",
+  "sec": "act1",
+  "start": 84.62,
+  "end": 86.14
  },
  {
-  "id": "L029",
+  "id": "L028",
   "tag": "MIRA",
   "thought": false,
   "note": "phone",
-  "text": "You're in my whole new life. You're the person I tell things to.",
+  "text": "You're welcome.",
+  "sec": "act1",
+  "start": 86.29,
+  "end": 87.06
+ },
+ {
+  "id": "L029",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Her phone never stops. Her mum. Her flatmates. A group called \"Course Panic\". People ask her things all day, and she answers every one of them.",
   "sec": "act2",
-  "start": 104.409,
-  "end": 107.451
+  "start": 88.96,
+  "end": 98.725
  },
  {
   "id": "L030",
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "Ten minutes to midnight.",
-  "sec": "act3",
-  "start": 109.651,
-  "end": 111.104
+  "text": "You get a strange feeling. You know her better than anyone. And you have never seen how tired she is.",
+  "sec": "act2",
+  "start": 98.865,
+  "end": 105.083
  },
  {
   "id": "L031",
-  "tag": "MIRA",
+  "tag": "N",
   "thought": false,
-  "note": "phone",
-  "text": "Send them.",
-  "sec": "act3",
-  "start": 111.364,
-  "end": 111.985
+  "note": "",
+  "text": "Her flatmates knock for pizza night. They're kind, and they're funny, and they don't know that she hates olives. You pick the olives off without thinking.",
+  "sec": "act2",
+  "start": 106.322,
+  "end": 115.172
  },
  {
   "id": "L032",
-  "tag": "YOU",
+  "tag": "AMA",
   "thought": false,
   "note": "",
-  "text": "All of them?",
-  "sec": "act3",
-  "start": 112.135,
-  "end": 112.969
+  "text": "How did you know she hates olives?",
+  "sec": "act2",
+  "start": 115.432,
+  "end": 117.631
  },
  {
   "id": "L033",
-  "tag": "MIRA",
+  "tag": "YOU",
   "thought": false,
-  "note": "phone",
-  "text": "All forty. Before we swap back. I want to get them on my own phone.",
-  "sec": "act3",
-  "start": 113.119,
-  "end": 116.93
+  "note": "",
+  "text": "Lucky guess.",
+  "sec": "act2",
+  "start": 117.781,
+  "end": 118.654
  },
  {
   "id": "L034",
-  "tag": "N",
+  "tag": "MIRA",
   "thought": false,
-  "note": "",
-  "text": "You hit send forty times. Her phone buzzes forty times in your hand, which is a very strange way to receive a hug.",
-  "sec": "act3",
-  "start": 118.23,
-  "end": 125.887
+  "note": "phone",
+  "text": "Hey. Can I ask you something?",
+  "sec": "act2",
+  "start": 119.704,
+  "end": 121.437
  },
  {
   "id": "L035",
-  "tag": "N",
+  "tag": "YOU",
   "thought": false,
   "note": "",
-  "text": "At midnight, you wake up in your own bed. Theo's snoring. There's a pan in the sink.",
-  "sec": "act3",
-  "start": 127.127,
-  "end": 132.092
+  "text": "Sure.",
+  "sec": "act2",
+  "start": 121.587,
+  "end": 122.118
  },
  {
   "id": "L036",
   "tag": "MIRA",
   "thought": false,
-  "note": "text",
-  "text": "Read them all. Sending you forty back. Pace yourself.",
-  "sec": "act3",
-  "start": 133.252,
-  "end": 136.156
+  "note": "phone",
+  "text": "I needed your phone to check the train times. And I found your drafts.",
+  "sec": "act2",
+  "start": 122.268,
+  "end": 125.783
  },
  {
   "id": "L037",
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "Your phone buzzes forty times.",
-  "sec": "act3",
-  "start": 137.456,
-  "end": 139.353
+  "text": "Your drafts. Forty messages you started, to her, over two years, and never sent.",
+  "sec": "act2",
+  "start": 126.983,
+  "end": 131.952
  },
  {
   "id": "L038",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "\"I'm proud of you.\" \"I miss you being two minutes away.\" \"Your new flat is small and I love it.\"",
+  "sec": "act2",
+  "start": 132.212,
+  "end": 137.437
+ },
+ {
+  "id": "L039",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Why didn't you send any of these?",
+  "sec": "act2",
+  "start": 137.577,
+  "end": 138.875
+ },
+ {
+  "id": "L040",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I didn't want to bother you. You've got a whole new life.",
+  "sec": "act2",
+  "start": 139.625,
+  "end": 142.634
+ },
+ {
+  "id": "L041",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "You're in my whole new life. You're the person I tell things to.",
+  "sec": "act2",
+  "start": 142.784,
+  "end": 145.826
+ },
+ {
+  "id": "L042",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Ten minutes to midnight.",
+  "sec": "act3",
+  "start": 148.026,
+  "end": 149.479
+ },
+ {
+  "id": "L043",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Send them.",
+  "sec": "act3",
+  "start": 149.739,
+  "end": 150.36
+ },
+ {
+  "id": "L044",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "All of them?",
+  "sec": "act3",
+  "start": 150.51,
+  "end": 151.344
+ },
+ {
+  "id": "L045",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "All forty. Before we swap back. I want to get them on my own phone.",
+  "sec": "act3",
+  "start": 151.494,
+  "end": 155.305
+ },
+ {
+  "id": "L046",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You hit send forty times. Her phone buzzes forty times in your hand, which is a very strange way to receive a hug.",
+  "sec": "act3",
+  "start": 156.605,
+  "end": 164.262
+ },
+ {
+  "id": "L047",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Number twelve is just the word \"sandwich\".",
+  "sec": "act3",
+  "start": 164.522,
+  "end": 166.522
+ },
+ {
+  "id": "L048",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "That was a whole day. You'd know if you'd been there.",
+  "sec": "act3",
+  "start": 166.672,
+  "end": 169.28
+ },
+ {
+  "id": "L049",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "I'm sending you one back for every single one.",
+  "sec": "act3",
+  "start": 169.43,
+  "end": 171.623
+ },
+ {
+  "id": "L050",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At midnight, you wake up in your own bed. Theo's snoring. There's a pan in the sink.",
+  "sec": "act3",
+  "start": 172.923,
+  "end": 177.888
+ },
+ {
+  "id": "L051",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "text",
+  "text": "Read them all. Sending you forty back. Pace yourself.",
+  "sec": "act3",
+  "start": 179.048,
+  "end": 181.952
+ },
+ {
+  "id": "L052",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your phone buzzes forty times.",
+  "sec": "act3",
+  "start": 183.252,
+  "end": 185.149
+ },
+ {
+  "id": "L053",
   "tag": "N",
   "thought": false,
   "note": "",
   "text": "You read every one.",
   "sec": "act3",
-  "start": 140.193,
-  "end": 141.514
+  "start": 185.989,
+  "end": 187.31
  },
  {
-  "id": "L039",
+  "id": "L054",
   "tag": "N",
   "thought": false,
   "note": "soft",
   "text": "What would your best friend find in your drafts?",
   "sec": "end",
-  "start": 144.154,
-  "end": 146.396
+  "start": 189.95,
+  "end": 192.192
  }
 ]

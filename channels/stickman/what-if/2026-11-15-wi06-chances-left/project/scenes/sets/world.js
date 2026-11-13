@@ -271,7 +271,7 @@ export function lift(g, t, cam, o = {}) {
 }
 
 // ================= v3.1 sets (15 Nov+): kitchen, stage, garden =================
-function dog(g, x, GY, t, o = {}) { const fr = o.frozen, j = fr ? 1 : Math.abs(Math.sin(t * 5)), y = GY - 40 - (o.jump ? 120 * j : 0), f = o.f ?? 1;
+export function dog(g, x, GY, t, o = {}) { const fr = o.frozen, j = fr ? 1 : Math.abs(Math.sin(t * 5)), y = GY - 40 - (o.jump ? 120 * j : 0), f = o.f ?? 1;
   g.save(); g.translate(x, y); g.scale(f * 1.5, 1.5); g.fillStyle = '#c8945a'; g.beginPath(); g.ellipse(0, -40, 70, 34, o.jump ? -.25 : 0, 0, 7); g.fill();
   circle(g, 66, -80, 30, '#c8945a'); g.fillStyle = '#8a5a30'; g.beginPath(); g.ellipse(58, -104, 12, 24, -.4, 0, 7); g.fill(); circle(g, 78, -84, 5, '#1a1218'); circle(g, 94, -74, 6, '#1a1218');
   for (const [dx, a] of [[-44, .5], [-24, .3], [30, -.4], [50, -.6]]) seg(g, [[dx, -20], [dx + (o.jump ? Math.sin(a) * 40 : 0), 20]], 12, '#c8945a');
@@ -336,9 +336,29 @@ export function garden(g, t, cam, o = {}) {
     g.fillStyle = linGrad(g, 0, GY, 0, GY + 420, ['#5a8a4a', '#2a4a24']); g.fillRect(-E.W * 1.5, GY, E.W * 4.5, E.H); for (let x = -1400; x < 3400; x += 37) seg(g, [[x, GY + 2], [x + 6, GY - 14]], 4, '#4a7a3a');
     if (o.goal != null) { const gx = CX + o.goal; g.strokeStyle = '#f4f0e8'; g.lineWidth = 12; g.beginPath(); g.moveTo(gx - 220, GY); g.lineTo(gx - 220, GY - 300); g.lineTo(gx + 220, GY - 300); g.lineTo(gx + 220, GY); g.stroke();
       g.strokeStyle = 'rgba(244,240,232,.35)'; g.lineWidth = 3; for (let k = 1; k < 9; k++) { seg(g, [[gx - 220 + k * 49, GY - 300], [gx - 200 + k * 46, GY]], 3, 'rgba(244,240,232,.35)'); } for (let k = 1; k < 6; k++) seg(g, [[gx - 220, GY - 300 + k * 50], [gx + 220, GY - 300 + k * 50]], 3, 'rgba(244,240,232,.3)'); }
-    if (o.ball) { const [x0, x1, t0, t1] = o.ball, q = o.frozen ? (o.ballQ ?? 0) : clamp01((t - t0) / Math.max(.01, t1 - t0)), bx = x0 + (x1 - x0) * q; circle(g, bx, GY - 34, 34, '#f4f0e8'); for (let k = 0; k < 5; k++) { const a = k * 1.26 + q * 9; circle(g, bx + Math.cos(a) * 18, GY - 34 + Math.sin(a) * 18, 8, '#1a1218'); } }
+    if (o.bench != null) { g.save(); g.translate(CX + o.bench, GY); g.scale(2.2, 1.6); bench(g, 0, 0); g.restore(); }
+    if (o.ball) { const [x0, x1, t0, t1] = o.ball, q = o.frozen && !o.ballLive ? (o.ballQ ?? 0) : clamp01((t - t0) / Math.max(.01, t1 - t0)), bx = x0 + (x1 - x0) * q; circle(g, bx, GY - 34, 34, '#f4f0e8'); for (let k = 0; k < 5; k++) { const a = k * 1.26 + q * 9; circle(g, bx + Math.cos(a) * 18, GY - 34 + Math.sin(a) * 18, 8, '#1a1218'); } }
   });
   return { GY, CX, M, spots: { goal: CX + (o.goal ?? 500) } };
 }
-export const SETS = { cafe, bedroom, office, canteen, train, street, hall, platform, lift, kitchen, stage, garden };
+export function flat(g, t, cam, o = {}) {   // the hero's flat: sofa, TV + console, bags (Theo stays here from WI07)
+  const night = !!o.night, M = mood(night ? 'night' : 'interiorWarm'), GY = GYf(), CX = E.W / 2, wall = night ? '#2e2838' : '#6a5a64';
+  layer(g, cam, .5, g => {
+    g.fillStyle = wall; g.fillRect(-E.W, -E.H, E.W * 3, E.H * 2 + GY);
+    FX.windowFrame(g, { x: CX - 820, y: GY - 700, w: 380, h: 340, cols: 2, rows: 2, frame: shade(wall, -.4), bar: 10 }, (g, x, y, w, h) => { g.fillStyle = linGrad(g, 0, y, 0, y + h, mood(night ? 'night' : 'day').sky); g.fillRect(x, y, w, h); if (night) FX.moon(g, x + w * .7, y + h * .3, 26); });
+    rr(g, CX + 380, GY - 620, 160, 200, 6); g.fillStyle = '#4a6a8a'; g.fill(); rr(g, CX + 580, GY - 580, 120, 150, 6); g.fillStyle = '#8a5a4a'; g.fill();
+    // TV on a low unit, glowing when the console is on
+    rr(g, CX + 260, GY - 470, 420, 250, 10); g.fillStyle = '#121018'; g.fill(); if (o.tv !== false) { rr(g, CX + 274, GY - 456, 392, 222, 6); g.fillStyle = night ? '#3a5ad0' : '#2a3a70'; g.fill(); glow(g, CX + 470, GY - 345, night ? 520 : 260, '#6a8aff', night ? .3 : .12);
+      for (let k = 0; k < 4; k++) circle(g, CX + 330 + k * 90 + Math.sin(t * 3 + k) * 20, GY - 345 + Math.cos(t * 2.4 + k) * 40, 18, ['#ffd47e', '#ff6a4a', '#9fe0b0', '#fff'][k]); }
+  });
+  layer(g, cam, .85, g => {
+    planks(g, GY, M); rr(g, CX + 230, GY - 190, 480, 190, 8); g.fillStyle = '#3a2a2a'; g.fill(); rr(g, CX + 300, GY - 150, 120, 40, 8); g.fillStyle = '#e8e6e2'; g.fill(); circle(g, CX + 400, GY - 130, 6, '#3fb950');
+    // sofa
+    const sx = CX - 260; rr(g, sx - 330, GY - 300, 660, 150, 40); g.fillStyle = '#5a4a7a'; g.fill(); rr(g, sx - 360, GY - 190, 720, 140, 30); g.fillStyle = '#6a5a8a'; g.fill(); for (const d of [-360, 300]) { rr(g, sx + d, GY - 250, 60, 200, 26); g.fillStyle = '#4a3a6a'; g.fill(); } seg(g, [[sx - 320, GY - 50], [sx - 320, GY]], 12, '#2a2030'); seg(g, [[sx + 320, GY - 50], [sx + 320, GY]], 12, '#2a2030');
+    if (o.bags) for (let k = 0; k < 4; k++) { rr(g, CX - 900 + k * 110, GY - 110 - (k % 2) * 30, 100, 110 + (k % 2) * 30, 18); g.fillStyle = ['#c9463c', '#3a6ea5', '#2a2430', '#e8a030'][k]; g.fill(); }
+    if (o.broken) { g.save(); g.translate(CX + 60, GY - 12); g.rotate(.3); rr(g, -40, -16, 46, 30, 12); g.fillStyle = '#2a2a36'; g.fill(); g.restore(); g.save(); g.translate(CX + 120, GY - 10); g.rotate(-.5); rr(g, -10, -14, 40, 28, 12); g.fillStyle = '#2a2a36'; g.fill(); g.restore(); for (let k = 0; k < 4; k++) circle(g, CX + 30 + k * 40, GY - 6, 5, '#9a9aa8'); }
+  });
+  return { GY, CX, M, spots: { sofa: CX - 260, tv: CX + 470 } };
+}
+export const SETS = { cafe, bedroom, office, canteen, train, street, hall, platform, lift, kitchen, stage, garden, flat };
 

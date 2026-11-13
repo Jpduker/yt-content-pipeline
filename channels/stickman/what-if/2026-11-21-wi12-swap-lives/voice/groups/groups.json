@@ -101,23 +101,23 @@
  },
  {
   "id": "G009",
-  "tag": "N",
+  "tag": "YOU",
   "thought": false,
   "note": "",
-  "text": "Her course mates are lovely. They call you Mira, hand you a coffee and ask you about drains.",
+  "text": "I don't know anything about drainage.",
   "voice": "am_michael",
-  "speed": 1.03,
+  "speed": 1.09,
   "ids": [
    "L013"
   ]
  },
  {
   "id": "G010",
-  "tag": "AMA",
+  "tag": "MIRA",
   "thought": false,
-  "note": "",
-  "text": "You ready, Mira?",
-  "voice": "af_nova",
+  "note": "phone",
+  "text": "Nobody does. That's why it's a course. Also, I'm going to your work. What do you do all day?",
+  "voice": "af_heart",
   "speed": 1.1,
   "ids": [
    "L014"
@@ -128,7 +128,7 @@
   "tag": "YOU",
   "thought": false,
   "note": "",
-  "text": "So ready. Born ready. Drains.",
+  "text": "Emails. Mostly emails about other emails.",
   "voice": "am_michael",
   "speed": 1.09,
   "ids": [
@@ -137,24 +137,24 @@
  },
  {
   "id": "G012",
-  "tag": "N",
+  "tag": "MIRA",
   "thought": false,
-  "note": "",
-  "text": "Slide four is a pipe. You talk about the pipe for three minutes. You say \"flow\" eleven times.",
-  "voice": "am_michael",
-  "speed": 1.03,
+  "note": "phone",
+  "text": "Oh no.",
+  "voice": "af_heart",
+  "speed": 1.1,
   "ids": [
    "L016"
   ]
  },
  {
   "id": "G013",
-  "tag": "PROF",
+  "tag": "N",
   "thought": false,
   "note": "",
-  "text": "Unusual. Passionate. Mostly wrong. B minus.",
-  "voice": "bm_daniel",
-  "speed": 1.02,
+  "text": "Her course mates are lovely. They call you Mira, hand you a coffee and ask you about drains.",
+  "voice": "am_michael",
+  "speed": 1.03,
   "ids": [
    "L017"
   ]
@@ -164,7 +164,7 @@
   "tag": "AMA",
   "thought": false,
   "note": "",
-  "text": "That's her best mark yet.",
+  "text": "You ready, Mira?",
   "voice": "af_nova",
   "speed": 1.1,
   "ids": [
@@ -173,12 +173,12 @@
  },
  {
   "id": "G015",
-  "tag": "N",
+  "tag": "YOU",
   "thought": false,
   "note": "",
-  "text": "You decide not to tell her.",
+  "text": "So ready. Born ready. Drains.",
   "voice": "am_michael",
-  "speed": 1.03,
+  "speed": 1.09,
   "ids": [
    "L019"
   ]
@@ -188,44 +188,55 @@
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "Her phone never stops. Her mum. Her flatmates. A group called \"Course Panic\". People ask her things all day, and she answers every one of them. You get a strange feeling. You know her better than anyone. And you have never seen how tired she is.",
+  "text": "Slide four is a pipe. You talk about the pipe for three minutes. You say \"flow\" eleven times.",
   "voice": "am_michael",
   "speed": 1.03,
   "ids": [
-   "L020",
-   "L021"
+   "L020"
   ]
  },
  {
   "id": "G017",
-  "tag": "MIRA",
+  "tag": "PROF",
   "thought": false,
-  "note": "phone",
-  "text": "Hey. Can I ask you something?",
-  "voice": "af_heart",
+  "note": "",
+  "text": "Unusual. Passionate. Mostly wrong. B minus.",
+  "voice": "bm_daniel",
+  "speed": 1.02,
+  "ids": [
+   "L021"
+  ]
+ },
+ {
+  "id": "G018",
+  "tag": "AMA",
+  "thought": false,
+  "note": "",
+  "text": "That's her best mark yet.",
+  "voice": "af_nova",
   "speed": 1.1,
   "ids": [
    "L022"
   ]
  },
  {
-  "id": "G018",
-  "tag": "YOU",
+  "id": "G019",
+  "tag": "N",
   "thought": false,
   "note": "",
-  "text": "Sure.",
+  "text": "You decide not to tell her.",
   "voice": "am_michael",
-  "speed": 1.09,
+  "speed": 1.03,
   "ids": [
    "L023"
   ]
  },
  {
-  "id": "G019",
+  "id": "G020",
   "tag": "MIRA",
   "thought": false,
   "note": "phone",
-  "text": "I needed your phone to check the train times. And I found your drafts.",
+  "text": "Your boss asked me how my weekend was, and then he listened to the answer. Is he okay?",
   "voice": "af_heart",
   "speed": 1.1,
   "ids": [
@@ -233,132 +244,132 @@
   ]
  },
  {
-  "id": "G020",
-  "tag": "N",
+  "id": "G021",
+  "tag": "YOU",
   "thought": false,
   "note": "",
-  "text": "Your drafts. Forty messages you started, to her, over two years, and never sent.",
+  "text": "That's new. He's been listening lately.",
   "voice": "am_michael",
-  "speed": 1.03,
+  "speed": 1.09,
   "ids": [
    "L025"
   ]
  },
  {
-  "id": "G021",
+  "id": "G022",
   "tag": "MIRA",
   "thought": false,
   "note": "phone",
-  "text": "\"I'm proud of you.\" \"I miss you being two minutes away.\" \"Your new flat is small and I love it.\" Why didn't you send any of these?",
+  "text": "Also, I did all your emails. It took forty minutes.",
   "voice": "af_heart",
   "speed": 1.1,
   "ids": [
-   "L026",
+   "L026"
+  ]
+ },
+ {
+  "id": "G023",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "That's three weeks of emails.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
    "L027"
   ]
  },
  {
-  "id": "G022",
-  "tag": "YOU",
+  "id": "G024",
+  "tag": "MIRA",
   "thought": false,
-  "note": "",
-  "text": "I didn't want to bother you. You've got a whole new life.",
-  "voice": "am_michael",
-  "speed": 1.09,
+  "note": "phone",
+  "text": "You're welcome.",
+  "voice": "af_heart",
+  "speed": 1.1,
   "ids": [
    "L028"
   ]
  },
  {
-  "id": "G023",
-  "tag": "MIRA",
-  "thought": false,
-  "note": "phone",
-  "text": "You're in my whole new life. You're the person I tell things to.",
-  "voice": "af_heart",
-  "speed": 1.1,
-  "ids": [
-   "L029"
-  ]
- },
- {
-  "id": "G024",
+  "id": "G025",
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "Ten minutes to midnight.",
+  "text": "Her phone never stops. Her mum. Her flatmates. A group called \"Course Panic\". People ask her things all day, and she answers every one of them. You get a strange feeling. You know her better than anyone. And you have never seen how tired she is.",
   "voice": "am_michael",
   "speed": 1.03,
   "ids": [
+   "L029",
    "L030"
   ]
  },
  {
-  "id": "G025",
-  "tag": "MIRA",
+  "id": "G026",
+  "tag": "N",
   "thought": false,
-  "note": "phone",
-  "text": "Send them.",
-  "voice": "af_heart",
-  "speed": 1.1,
+  "note": "",
+  "text": "Her flatmates knock for pizza night. They're kind, and they're funny, and they don't know that she hates olives. You pick the olives off without thinking.",
+  "voice": "am_michael",
+  "speed": 1.03,
   "ids": [
    "L031"
   ]
  },
  {
-  "id": "G026",
-  "tag": "YOU",
+  "id": "G027",
+  "tag": "AMA",
   "thought": false,
   "note": "",
-  "text": "All of them?",
-  "voice": "am_michael",
-  "speed": 1.09,
+  "text": "How did you know she hates olives?",
+  "voice": "af_nova",
+  "speed": 1.1,
   "ids": [
    "L032"
   ]
  },
  {
-  "id": "G027",
-  "tag": "MIRA",
+  "id": "G028",
+  "tag": "YOU",
   "thought": false,
-  "note": "phone",
-  "text": "All forty. Before we swap back. I want to get them on my own phone.",
-  "voice": "af_heart",
-  "speed": 1.1,
+  "note": "",
+  "text": "Lucky guess.",
+  "voice": "am_michael",
+  "speed": 1.09,
   "ids": [
    "L033"
   ]
  },
  {
-  "id": "G028",
-  "tag": "N",
+  "id": "G029",
+  "tag": "MIRA",
   "thought": false,
-  "note": "",
-  "text": "You hit send forty times. Her phone buzzes forty times in your hand, which is a very strange way to receive a hug.",
-  "voice": "am_michael",
-  "speed": 1.03,
+  "note": "phone",
+  "text": "Hey. Can I ask you something?",
+  "voice": "af_heart",
+  "speed": 1.1,
   "ids": [
    "L034"
   ]
  },
  {
-  "id": "G029",
-  "tag": "N",
+  "id": "G030",
+  "tag": "YOU",
   "thought": false,
   "note": "",
-  "text": "At midnight, you wake up in your own bed. Theo's snoring. There's a pan in the sink.",
+  "text": "Sure.",
   "voice": "am_michael",
-  "speed": 1.03,
+  "speed": 1.09,
   "ids": [
    "L035"
   ]
  },
  {
-  "id": "G030",
+  "id": "G031",
   "tag": "MIRA",
   "thought": false,
-  "note": "text",
-  "text": "Read them all. Sending you forty back. Pace yourself.",
+  "note": "phone",
+  "text": "I needed your phone to check the train times. And I found your drafts.",
   "voice": "af_heart",
   "speed": 1.1,
   "ids": [
@@ -366,11 +377,11 @@
   ]
  },
  {
-  "id": "G031",
+  "id": "G032",
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "Your phone buzzes forty times.",
+  "text": "Your drafts. Forty messages you started, to her, over two years, and never sent.",
   "voice": "am_michael",
   "speed": 1.03,
   "ids": [
@@ -378,7 +389,176 @@
   ]
  },
  {
-  "id": "G032",
+  "id": "G033",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "\"I'm proud of you.\" \"I miss you being two minutes away.\" \"Your new flat is small and I love it.\" Why didn't you send any of these?",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L038",
+   "L039"
+  ]
+ },
+ {
+  "id": "G034",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I didn't want to bother you. You've got a whole new life.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L040"
+  ]
+ },
+ {
+  "id": "G035",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "You're in my whole new life. You're the person I tell things to.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L041"
+  ]
+ },
+ {
+  "id": "G036",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Ten minutes to midnight.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L042"
+  ]
+ },
+ {
+  "id": "G037",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Send them.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L043"
+  ]
+ },
+ {
+  "id": "G038",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "All of them?",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L044"
+  ]
+ },
+ {
+  "id": "G039",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "All forty. Before we swap back. I want to get them on my own phone.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L045"
+  ]
+ },
+ {
+  "id": "G040",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You hit send forty times. Her phone buzzes forty times in your hand, which is a very strange way to receive a hug.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L046"
+  ]
+ },
+ {
+  "id": "G041",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Number twelve is just the word \"sandwich\".",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L047"
+  ]
+ },
+ {
+  "id": "G042",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "That was a whole day. You'd know if you'd been there.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L048"
+  ]
+ },
+ {
+  "id": "G043",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "I'm sending you one back for every single one.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L049"
+  ]
+ },
+ {
+  "id": "G044",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At midnight, you wake up in your own bed. Theo's snoring. There's a pan in the sink.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L050"
+  ]
+ },
+ {
+  "id": "G045",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "text",
+  "text": "Read them all. Sending you forty back. Pace yourself.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "ids": [
+   "L051"
+  ]
+ },
+ {
+  "id": "G046",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your phone buzzes forty times.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L052"
+  ]
+ },
+ {
+  "id": "G047",
   "tag": "N",
   "thought": false,
   "note": "",
@@ -386,11 +566,11 @@
   "voice": "am_michael",
   "speed": 1.03,
   "ids": [
-   "L038"
+   "L053"
   ]
  },
  {
-  "id": "G033",
+  "id": "G048",
   "tag": "N",
   "thought": false,
   "note": "soft",
@@ -398,7 +578,7 @@
   "voice": "am_michael",
   "speed": 1.03,
   "ids": [
-   "L039"
+   "L054"
   ]
  }
 ]

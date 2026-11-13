@@ -1,0 +1,421 @@
+{
+ "title": "His Brother Was Almost Gone. He Hadn't Noticed.",
+ "duration": 34.581,
+ "shots": [
+  {
+   "id": "s014",
+   "start": 0.0,
+   "end": 6.555,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "office",
+    "who": "COLL",
+    "expr": "tearsmile",
+    "side": -1,
+    "bgCam": [
+     1180,
+     520,
+     1.5
+    ],
+    "motif": "num",
+    "hookText": "IGNORED PEOPLE FADE"
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s028",
+   "start": 6.555,
+   "end": 11.904,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "cam": [
+     [
+      800,
+      560,
+      1.0
+     ],
+     [
+      820,
+      560,
+      1.06
+     ]
+    ],
+    "who": [
+     {
+      "id": "THEO",
+      "x": 600,
+      "pose": "sitBack",
+      "expr": "neutral",
+      "f": 1,
+      "s": 1.45,
+      "fade": 0.8
+     },
+     {
+      "id": "YOU",
+      "x": 0,
+      "pose": "stand",
+      "expr": "sleepy",
+      "f": -1,
+      "walk": [
+       1100,
+       850,
+       0,
+       0.6
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "s029",
+   "start": 11.904,
+   "end": 13.336,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "cam": [
+     [
+      760,
+      600,
+      1.4
+     ],
+     [
+      740,
+      600,
+      1.45
+     ]
+    ],
+    "who": [
+     {
+      "id": "THEO",
+      "x": 620,
+      "pose": "sitHands",
+      "expr": "happy",
+      "f": 1,
+      "s": 1.45,
+      "fade": 0.8
+     },
+     {
+      "id": "YOU",
+      "x": 900,
+      "pose": "sitPhone",
+      "expr": "neutral",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s030",
+   "start": 13.336,
+   "end": 14.192,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "who": "YOU",
+    "expr": "neutral",
+    "side": -1,
+    "look": [
+     0,
+     0.6
+    ],
+    "bgCam": [
+     900,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s031",
+   "start": 14.192,
+   "end": 17.3,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "who": "THEO",
+    "expr": "sad",
+    "side": 1,
+    "fade": 0.85,
+    "bgCam": [
+     600,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s032",
+   "start": 17.3,
+   "end": 19.027,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "neutral"
+     ],
+     [
+      0.4,
+      "shocked"
+     ]
+    ],
+    "side": -1,
+    "push": 0.12,
+    "bgCam": [
+     900,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s033",
+   "start": 19.027,
+   "end": 24.621,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "cam": [
+     [
+      650,
+      600,
+      1.4
+     ],
+     [
+      650,
+      600,
+      1.52
+     ]
+    ],
+    "who": [
+     {
+      "id": "THEO",
+      "x": 620,
+      "pose": "sitHands",
+      "expr": "sad",
+      "f": 1,
+      "s": 1.45,
+      "fade": 0.88
+     }
+    ]
+   }
+  },
+  {
+   "id": "s034",
+   "start": 24.621,
+   "end": 31.864,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "shocked"
+     ],
+     [
+      0.5122186939113602,
+      "hurt"
+     ]
+    ],
+    "side": -1,
+    "push": 0.1,
+    "bgCam": [
+     900,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s035",
+   "start": 31.864,
+   "end": 34.581,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "cam": [
+     [
+      760,
+      600,
+      1.4
+     ],
+     [
+      740,
+      600,
+      1.45
+     ]
+    ],
+    "who": [
+     {
+      "id": "THEO",
+      "x": 620,
+      "pose": "sitHands",
+      "expr": "sad",
+      "f": 1,
+      "s": 1.45,
+      "fade": 0.85
+     },
+     {
+      "id": "YOU",
+      "x": 900,
+      "pose": "sitLean",
+      "expr": "tender",
+      "f": -1
+     }
+    ],
+    "ask": {
+     "text": "Would you have noticed?",
+     "at": 0.517
+    }
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 6.7,
+   "end": 24.77,
+   "mood": "sad",
+   "intensity": 0.24
+  },
+  {
+   "start": 32.01,
+   "end": 34.581,
+   "mood": "hopeful",
+   "intensity": 0.32
+  }
+ ],
+ "sfx": []
+}

@@ -1,0 +1,102 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By Friday, you can see through the barista.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 4.255
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Not a little. You can read the menu through his chest.",
+  "sec": "hook",
+  "start": 4.395,
+  "end": 7.871
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He's been making your coffee for two years. You've never asked his name.",
+  "sec": "hook",
+  "start": 8.448,
+  "end": 12.506
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And he's not the only one.",
+  "sec": "hook",
+  "start": 13.346,
+  "end": 14.901
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "On Tuesday, Dana is talking to you while you answer an email. Halfway through her sentence, you notice you can see the printer behind her.",
+  "sec": "act1",
+  "start": 15.701,
+  "end": 23.976
+ },
+ {
+  "id": "L007",
+  "tag": "COLL",
+  "thought": false,
+  "note": "",
+  "text": "\u2026so that's my news. What do you think?",
+  "sec": "act1",
+  "start": 24.236,
+  "end": 27.264
+ },
+ {
+  "id": "L008",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Great! Yeah. Great.",
+  "sec": "act1",
+  "start": 27.414,
+  "end": 28.829
+ },
+ {
+  "id": "L009",
+  "tag": "COLL",
+  "thought": false,
+  "note": "",
+  "text": "I said my cat died.",
+  "sec": "act1",
+  "start": 28.979,
+  "end": 30.368
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She fades a little more. You watch it happen.",
+  "sec": "act1",
+  "start": 31.368,
+  "end": 34.007
+ },
+ {
+  "id": "L011",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Dana. Sorry. I wasn't listening. Tell me about your cat.",
+  "sec": "act1",
+  "start": 34.267,
+  "end": 37.655
+ }
+]

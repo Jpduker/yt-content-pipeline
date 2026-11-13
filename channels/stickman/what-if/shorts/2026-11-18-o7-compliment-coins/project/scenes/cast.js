@@ -31,6 +31,16 @@ export const CAST = {
   GRANDPA:  { top: 'tshirt', color: '#8a6a4a', head: 'none' },          // O9: brown cardigan, flat cap
   JO:       { top: 'tshirt', color: '#2a8a8a', head: 'none' },          // WI09: school friend, blue cap
   SAM:      { top: 'tshirt', color: '#e05a9a', head: 'none' },          // WI09: group chat friend, curls
+  ROSA:     { top: 'trench', color: '#d8403a', head: 'none' },          // WI10: the stranger in the red coat
+  LEO:      { top: 'suit', color: '#1e1c26', color2: '#d8403a', head: 'none' },   // O10: best man, red bow tie
+  DAVE:     { top: 'suit', color: '#5a5a66', color2: '#3a6ea5', head: 'none' },   // O10: groom, glasses
+  NADIA:    { top: 'tshirt', color: '#f4f0e8', head: 'none' },          // O10: bride, white dress
+  PIP:      { top: 'tshirt', color: '#f29ac0', head: 'none' },          // O11: pink cardigan
+  CLEANER:  { top: 'tshirt', color: '#3a6ea5', head: 'none' },          // O11: blue overalls, beanie
+  GUS:      { top: 'tshirt', color: '#8a7a5a', head: 'none' },          // O12: cardigan
+  INES:     { top: 'trench', color: '#f2c21a', head: 'none' },          // O13: yellow raincoat (not Mira: curls, no ponytail)
+  RAJ:      { top: 'suit', color: '#2a3040', color2: '#e8a030', head: 'none' },   // O14: suit, mustard tie
+  TIA:      { top: 'tshirt', color: '#3a6ea5', head: 'none' },          // O14: 9, football kit
   KID:      { top: 'tshirt', color: '#f29ac0', head: 'none' },          // toddler / child extra
   X1: { top: 'none', head: 'none' }, X2: { top: 'none', head: 'cap', headColor: '#2a2430' }, X3: { top: 'none', head: 'curly' },
   X4: { top: 'none', head: 'bun' }, X5: { top: 'none', head: 'beanie', headColor: '#2a2430' },

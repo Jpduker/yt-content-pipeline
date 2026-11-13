@@ -1,0 +1,72 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You wake up in Mira's bed. Four hours from your own.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 4.95
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Her phone. Her flat. Her alarm, which is a song you hate.",
+  "sec": "hook",
+  "start": 5.09,
+  "end": 9.425
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "For one day, you're living her life. And she's living yours.",
+  "sec": "hook",
+  "start": 9.964,
+  "end": 13.865
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Everyone else thinks this is completely normal.",
+  "sec": "hook",
+  "start": 14.005,
+  "end": 16.88
+ },
+ {
+  "id": "L020",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Slide four is a pipe. You talk about the pipe for three minutes. You say \"flow\" eleven times.",
+  "sec": "act1",
+  "start": 17.419,
+  "end": 23.325
+ },
+ {
+  "id": "L021",
+  "tag": "PROF",
+  "thought": false,
+  "note": "",
+  "text": "Unusual. Passionate. Mostly wrong. B minus.",
+  "sec": "act1",
+  "start": 23.586,
+  "end": 26.722
+ },
+ {
+  "id": "L022",
+  "tag": "AMA",
+  "thought": false,
+  "note": "",
+  "text": "That's her best mark yet.",
+  "sec": "act1",
+  "start": 26.872,
+  "end": 28.667
+ }
+]
