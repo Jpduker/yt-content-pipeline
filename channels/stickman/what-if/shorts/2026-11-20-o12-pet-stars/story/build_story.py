@@ -5,7 +5,7 @@ ST = lambda v, **k: dict(k='stars', v=v, **k)
 CAT = lambda x, **k: dict(k='cat', x=x, y=0, **k)
 def G(x, pose='stand', expr='flat', f=1, **k): return who('GUS', x, pose, expr, f, seed=3, **k)
 sh('L001', 'scene', **SA, cam=[[940, 560, 1.2], [940, 560, 1.3]], vx=960, hookText='HIS CAT GAVE HIM 1 STAR', hookT=[0, 'L001:7'],
-   who=[who('X4', 760, 'stand', 'happy', seed=4, badge=ST(5)), G(940, 'stand', 'nervous', badge=ST(1)), who('X2', 1140, 'stand', 'laugh', f=-1, seed=6, badge=ST(5))], floaters=[dict(k='dog', x=640, y=0)])
+   who=[who('X4', 830, 'stand', 'happy', seed=4, badge=ST(5)), G(940, 'stand', 'nervous', badge=ST(1)), who('X2', 1140, 'stand', 'laugh', f=-1, seed=6, badge=ST(5))], floaters=[dict(k='dog', x=750, y=0)])
 sh('L002', 'face', **SA, who='GUS', expr='guilty', side=1, badge=ST(1), bgCam=[940, 520, 1.5])
 sh('L003', 'scene', **SA, cam=two([980, 590, 1.4]), who=[G(880, 'stand', 'flat', badge=ST(1)), who('X4', 1090, 'cheer', 'joy', f=-1, seed=4, badge=ST(5))], floaters=[dict(k='dog', x=1250, y=0, f=-1)])
 sh('L004', 'scene', **SA, cam=push([1150, 600, 1.6], .1), floaters=[dict(k='dog', x=1150, y=0, f=-1)], who=[])

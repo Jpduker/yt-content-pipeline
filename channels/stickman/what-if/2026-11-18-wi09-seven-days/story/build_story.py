@@ -44,7 +44,7 @@ sh('L029', 'scene', **GD | dict(so=dict()), cam=two([900, 590, 1.35]), who=[Y(80
 sh('L030', 'face', **GD | dict(so=dict()), who='NEIGH', expr='joy', side=-1, bgCam=[1060, 520, 1.5])
 sh('L031', 'scene', **HL, cam=push([800, 620, 1.25], .1), clock='23:40', who=[Y(780, 'lie', 'tender', rot=-1.5, dy=-20)])
 sh('L031:16', 'insert', **KN, **FL(3, lit=[(0, 0), (0, 1), (.2, 2)]), sfx=[(.6, 'shimmer', -14)])
-sh('L032', 'insert', **BN, ins='scroll')
+sh('L032', 'insert', **BN, ins='scroll', sfrom='Danny', sub='you never replied', inOnly=True)
 sh('L033', 'insert', **BN, ins='callscreen', name='Danny', clk=[[0, 'THU'], [.4, 'FRI'], [.75, 'SAT']])
 sh('L034', 'face', **BN, who='YOU', expr='worried', side=1, look=[0, .5])
 sh('L035', 'insert', **BN, ins='real', sfrom='Danny', msg="I'm not ready. Maybe one day.", at=.1, inc=True)

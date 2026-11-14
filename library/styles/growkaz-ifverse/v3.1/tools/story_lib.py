@@ -58,8 +58,8 @@ def finish(title, music, cues=(), motif='echo', tail=2.6):
         if 'delA' in p: p['delT'] = round(at(p.pop('delA')), 3)
         for key in ('fring', 'hookT'):
             if key in p: p[key] = [round(at(x) - st, 3) if isinstance(x, str) else x for x in p[key]]
-        for key in ('delAt', 'answerAt', 'flipAt', 'from', 'to'):
-            if isinstance(p.get(key), str) and re.match(r'^L\d', p[key]): p[key] = round(at(p[key]) - st, 3)
+        for key in list(p):   # every '...At' time (dropAt, liftAt, umbAt, delAt, ...) plus from/to; only 'L012+0.3'-style strings
+            if (key.endswith('At') or key in ('from', 'to')) and isinstance(p[key], str) and re.match(r'^L\d', p[key]): p[key] = round(at(p[key]) - st, 3)
         for stg in p.get('strings', []) or []:
             for kk in ('snapAt', 'tieAt'):
                 if isinstance(stg.get(kk), str): stg[kk] = round(at(stg[kk]) - st, 3)

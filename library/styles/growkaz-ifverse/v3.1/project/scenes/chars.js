@@ -131,7 +131,22 @@ export const HEAD = {
 };
 
 // ---------- full figure: kit body + our head ----------
+// v3.1: group opacity. Drawing a figure part-by-part with globalAlpha < 1 lets the neck, body and
+// headphones show through the face (WI11 fading people). Draw opaque into a scratch layer, then composite once.
+const _AL = [];
+export function alphaGroup(g, a, fn) {
+  if (a >= .999) return fn(g); if (a <= .001) return;
+  const W = g.canvas.width, H = g.canvas.height, d = alphaGroup.depth = (alphaGroup.depth || 0) + 1;
+  try {
+    let L = _AL[d];
+    if (!L || L.canvas.width !== W || L.canvas.height !== H) { const c = typeof OffscreenCanvas !== 'undefined' ? new OffscreenCanvas(W, H) : Object.assign(document.createElement('canvas'), { width: W, height: H }); L = _AL[d] = c.getContext('2d'); }
+    L.setTransform(1, 0, 0, 1, 0, 0); L.globalAlpha = 1; L.filter = 'none'; L.clearRect(0, 0, W, H); L.setTransform(g.getTransform()); L.filter = g.filter || 'none';
+    fn(L);
+    g.save(); g.setTransform(1, 0, 0, 1, 0, 0); g.filter = 'none'; g.globalAlpha *= a; g.drawImage(L.canvas, 0, 0); g.restore();
+  } finally { alphaGroup.depth = d - 1; }
+}
 export function drawChar(g, id, fig, t = 0) {
+  if (fig.alpha != null && fig.alpha < .999) return alphaGroup(g, fig.alpha, L => drawChar(L, id, { ...fig, alpha: null }, t));
   const H = HEAD[id] || {}, of = { ...CAST[id], head: 'none' }, f = fig.facing ?? 1;
   const o = { ...fig, outfit: of, expr: 'neutral', face: { brows: null } };
   const [hx, hy, hr] = headPos(o), rim = fig.rim, rw = (rim?.w ?? 4);

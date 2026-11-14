@@ -18,3 +18,19 @@ R10 Overlays stay inside the frame (premise + question boxes are clamped to the 
 - A sheet of each new set, cast member, badge and insert, read by eye before any render.
 - P1 first frame shows the overlay, counters and the silent woman; P3 first 3 s show the deletion.
 - `make_short` output has no `shortEnd` shot; the last shot carries `ask`.
+
+## Session 12 (2026-11-14): render workflow + fixes from the full-week frame check
+Workflow (script + hook + week plan -> render, no rework):
+1. Write `script.md`, voice it (`build_voice.py`), write `story/build_story.py`, build the stories, `make_short.py` for the cuts.
+2. `tools/render_chain.sh [--force] <project>...` in the background (2 h timeout): for each project it runs `lint_story.py`, re-copies `scenes/` WHOLE from this style version, renders, mixes, runs `postcheck.py`. Log: `$LOG`.
+3. Review: read `chain.log` (one line per video: OK / WARN / FAIL) and the contact sheets in `<project>/check/` (one frame per shot + every hook and question frame). Re-render only what FAILs or looks wrong.
+4. `tools/finalize.py <what-if dir>` copies the outputs to `final/` names.
+Rules:
+R11 Never copy single files into a project's `scenes/`. A new gen.js with an old chars.js renders every shot as MISSING SHOT (WI06 short 2). render_chain re-copies the folder.
+R12 `lint_story.py` (before render) blocks: unknown cast, a speaker or a pet (cat/dog floater) outside the 9:16 crop, unresolved `L012+0.3` anchors, Shorts > 60 s, the old Short end card. Warns: long shots, rotated/flying figures, listeners never on screen.
+R13 `postcheck.py` (after render) fails: stale output (any `scenes/**.js` or shots.json newer than the mp4), duration ≠ story, loudness outside -14 ±1.5 LUFS, black ≥ 0.4 s, placeholder/flat frames. Warns: still picture ≥ 2.5 s, long shots, true peak > -0.5 dBTP.
+R14 Shorts: the closing question sits at y 300 (same place as the hook plate), never over a face, a hand or a phone. `askY` overrides.
+R15 The vertical camera frames cats/dogs as subjects, frames lying/tilted figures by their body centre, and with an empty cast frames the camera centre.
+R16 Group opacity: faded figures (`fade`) are composited as one layer (`alphaGroup` in chars.js), so bodies never show through faces.
+R17 Call screen: name + timer at the top of the phone (m:ss). Chest-ring labels and badges stay inside the frame. Contacts rows fade above the caption band in 9:16. `scroll` insert takes `sfrom`, `sub`, `inOnly`.
+R18 story_lib converts every `...At` key (dropAt, liftAt, ...) and from/to from line anchors.

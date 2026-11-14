@@ -36,7 +36,7 @@ sh('L025', 'face', **HL, who='YOU', expr='smile', side=1, badge=AS(), bgCam=[700
 sh('L026', 'insert', set='office', **CALL('smirk', 9))
 sh('L027', 'face', **HL, who='YOU', expr='shocked', side=1, badge=AS(), bgCam=[700, 520, 1.5])
 sh('L028', 'insert', set='office', **CALL('happy', 13))
-sh('L029', 'insert', 'dip', **HL, ins='scroll', clock='15:00')
+sh('L029', 'insert', 'dip', **HL, ins='scroll', sfrom='Course Panic', sub='new messages', inOnly=True, clock='15:00')
 sh('L030', 'face', **HL, who='YOU', expr=[[0, 'thinking'], ['L030:8', 'tender']], side=1, badge=AS(), push=.1, bgCam=[700, 520, 1.5])
 sh('L031', 'scene', 'dip', **KI, cam=[[800, 560, 1.1], [800, 560, 1.16]], clock='19:30', hub=True, who=[YM(L, 'sitHands', 'smile'), Am(R, 'sitTalk', 'laugh'), who('X1', 1300, 'stand', 'happy', f=-1, seed=3)])
 sh('L032', 'face', **KI, who='X4', expr='surprised', side=-1, bgCam=[1100, 520, 1.5])

@@ -1163,6 +1163,9 @@
     "set": "hall",
     "so": {},
     "ins": "scroll",
+    "sfrom": "Course Panic",
+    "sub": "new messages",
+    "inOnly": true,
     "clock": "15:00"
    },
    "amb": {
