@@ -1,0 +1,6 @@
+[
+ { "id": "n1", "text": "On the Keeper's Island, the lamp has turned every night for a hundred years.", "voice": "am_michael", "speed": 0.86 },
+ { "id": "n2", "text": "Gus has kept it for thirty of them. He has never once missed a turn.", "voice": "am_michael", "speed": 0.86 },
+ { "id": "n3", "text": "Tonight, at twelve minutes past three...", "voice": "am_michael", "speed": 0.84 },
+ { "id": "n4", "text": "It stopped.", "voice": "am_michael", "speed": 0.80 }
+]
