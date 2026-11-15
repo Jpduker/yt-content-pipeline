@@ -1,0 +1,25 @@
+#!/usr/bin/env python3
+"""short.json + voices/dur.json → timeline.json (shot a/b, VO start times, hook/ask windows). Usage: timeline.py <short_dir>
+Pace rules (Vivek 2026-11-15: slower narration, pauses before reveals): default gap .75 s between lines, `pause` on a line = extra
+silence before it, a shot's `lead` = silence before its first line, `tail` = hold after its last line."""
+import json, sys, os
+D = sys.argv[1]; S = json.load(open(os.path.join(D, 'short.json'))); DUR = json.load(open(os.path.join(D, 'voices', 'dur.json')))
+t = 0.0; shots = []
+hook_end = 2.8 if S.get('hook') else 0
+for i, sh in enumerate(S['shots']):
+    a = t; lead = sh.get('lead', .9)
+    if i == 0 and hook_end: lead = max(lead, hook_end + .3)
+    cur = a + lead; vo = []
+    for j, ln in enumerate(sh.get('lines', [])):
+        if j > 0: cur += ln.get('pause', .75)
+        elif ln.get('pause'): cur += ln['pause']
+        d = DUR[ln['id']]; vo.append({ 'id': ln['id'], 't': round(cur, 3), 'd': round(d, 3), 'sub': ln.get('sub', ln['text']), 'dlg': ln.get('dlg') }); cur += d
+    tail = sh.get('tail', .9)
+    if i == len(S['shots']) - 1 and S.get('ask'): tail = max(tail, S.get('askLen', 3.2) + .5)
+    b = max(a + sh.get('min', 3.0), cur + tail)
+    out = dict(sh); out.pop('lines', None); out.update({ 'a': round(a, 3), 'b': round(b, 3), 'vo': vo }); shots.append(out); t = b
+TL = { 'code': S['code'], 'title': S['title'], 'label': S.get('label', "THE KEEPER'S ISLAND"), 'DUR': round(t, 3), 'shots': shots,
+       'hook': S.get('hook'), 'hookEnd': hook_end, 'ask': S.get('ask'), 'askAt': round(t - S.get('askLen', 3.2), 3) if S.get('ask') else None, 'music': S.get('music', {}) }
+json.dump(TL, open(os.path.join(D, 'timeline.json'), 'w'), indent=1)
+print(f"{S['code']} {t:.1f}s  shots {[round(s['b']-s['a'],1) for s in shots]}  lines {sum(len(s['vo']) for s in shots)}")
+if t > 59.5: print('WARN: over 59.5 s'); sys.exit(2)

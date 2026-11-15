@@ -1,0 +1,32 @@
+[
+ {
+  "id": "n1",
+  "text": "At dawn on the fourth day, Gus walked down to the quay and put the lamp key in Dunn\u2019s hand.",
+  "voice": "am_michael",
+  "speed": 0.84
+ },
+ {
+  "id": "n2",
+  "text": "Dunn did not take it. He had read the logbook too.",
+  "voice": "am_michael",
+  "speed": 0.84
+ },
+ {
+  "id": "d1",
+  "text": "Keep it. Whatever is under this island wants the keeper, not the key.",
+  "voice": "bm_george",
+  "speed": 0.88
+ },
+ {
+  "id": "n3",
+  "text": "So Gus went home, fed the cat, trimmed his lantern, and waited for dark.",
+  "voice": "am_michael",
+  "speed": 0.84
+ },
+ {
+  "id": "n4",
+  "text": "Because tonight he was going down the tunnel. All the way.",
+  "voice": "am_michael",
+  "speed": 0.84
+ }
+]

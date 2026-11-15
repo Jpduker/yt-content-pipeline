@@ -1,0 +1,195 @@
+{
+ "code": "S05",
+ "day": "2026-11-18",
+ "slot": 1,
+ "title": "The stake-out",
+ "label": "THE KEEPER'S ISLAND · 5",
+ "hook": "They waited all night for 3:12. Rollo ate the sandwiches.",
+ "ask": "Whose lantern was on the path… while Gus held his?",
+ "music": {
+  "mood": "dusk"
+ },
+ "shots": [
+  {
+   "id": "cottage",
+   "time": "dusk",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -1,
+     4.8,
+     -14
+    ],
+    "az": [
+     25,
+     15
+    ],
+    "d": [
+     11,
+     10
+    ],
+    "h": [
+     5,
+     4.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -1.2,
+      -13.6
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      0.4,
+      -13.3
+     ],
+     "pose": "sit",
+     "face": "l"
+    },
+    "rollo": {
+     "at": [
+      -2.6,
+      -13.2
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "That evening Gus set a watch on the lamp. Mabel came because the cottage was cold."
+    },
+    {
+     "id": "n2",
+     "text": "Rollo the mouse came for the sandwiches, and said so.",
+     "pause": 0.8
+    }
+   ],
+   "lead": 1.2,
+   "tail": 0.6
+  },
+  {
+   "id": "night",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -1,
+     4.8,
+     -14
+    ],
+    "az": [
+     15,
+     8
+    ],
+    "d": [
+     10,
+     9.5
+    ],
+    "h": [
+     4.6,
+     4.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -1.2,
+      -13.6
+     ],
+     "pose": "lookUp",
+     "face": "l",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      0.4,
+      -13.3
+     ],
+     "pose": "sit",
+     "face": "l"
+    },
+    "rollo": {
+     "at": [
+      -2.6,
+      -13.2
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "n3",
+     "text": "Midnight. One. Two. Mabel slept. Rollo finished the sandwiches.",
+     "pause": 0.5
+    },
+    {
+     "id": "n4",
+     "text": "Three eleven. Gus raised his lantern so the lamp would know he was there.",
+     "pause": 1.2
+    }
+   ],
+   "lead": 0.8,
+   "tail": 0.4
+  },
+  {
+   "id": "out",
+   "time": "night",
+   "cam": {
+    "type": "track",
+    "side": "south",
+    "h": 5.2,
+    "d": 13,
+    "lead": 1.5
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -1.2,
+      -13.6
+     ],
+     "pose": "lookUp",
+     "face": "r",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      0.4,
+      -13.3
+     ],
+     "pose": "sit",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "n5",
+     "text": "Three twelve. Dark.",
+     "pause": 1.3
+    },
+    {
+     "id": "n6",
+     "text": "And far along the cliff path, something was moving. A small light. Swinging, like a lantern.",
+     "pause": 0.5
+    },
+    {
+     "id": "n7",
+     "text": "Gus looked down at his own. Still lit. Still in his hand.",
+     "pause": 0.9
+    }
+   ],
+   "lamp": {
+    "out": 1.0
+   },
+   "lead": 0.6,
+   "tail": 1.0
+  }
+ ]
+}

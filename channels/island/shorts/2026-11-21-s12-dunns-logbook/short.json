@@ -1,0 +1,202 @@
+{
+ "code": "S12",
+ "day": "2026-11-21",
+ "slot": 2,
+ "title": "Dunn’s logbook",
+ "label": "THE KEEPER'S ISLAND · 12",
+ "hook": "Dunn’s logbook goes back sixty years. The lamp has failed before. Once.",
+ "ask": "Twelve seconds, the night Gus was born. Coincidence?",
+ "music": {
+  "mood": "mystery"
+ },
+ "shots": [
+  {
+   "id": "office",
+   "time": "dusk",
+   "cam": {
+    "type": "stage",
+    "at": [
+     9,
+     1.0,
+     12
+    ],
+    "az": [
+     10,
+     0
+    ],
+    "d": [
+     10.5,
+     10
+    ],
+    "h": [
+     4.8,
+     4.5
+    ]
+   },
+   "cast": {
+    "dunn": {
+     "at": [
+      9.6,
+      12.2
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      7.4,
+      12.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "lit": 1
+    },
+    "mabel": {
+     "at": [
+      6.4,
+      13
+     ],
+     "pose": "sit",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "A lamp that fails in daylight is nobody’s carelessness. Even Dunn could see that."
+    },
+    {
+     "id": "n2",
+     "text": "So he did something he had never done. He opened the old logbook for Gus.",
+     "pause": 0.6
+    }
+   ],
+   "lead": 1.2,
+   "tail": 0.4
+  },
+  {
+   "id": "log",
+   "time": "dusk",
+   "cam": {
+    "type": "dive",
+    "at": [
+     9.6,
+     1.0,
+     12.2
+    ],
+    "az": [
+     -5,
+     0
+    ],
+    "d": [
+     5.6,
+     5.2
+    ],
+    "h": [
+     2.5,
+     2.3
+    ]
+   },
+   "cast": {
+    "dunn": {
+     "at": [
+      9.6,
+      12.2
+     ],
+     "pose": "point",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      7.4,
+      12.6
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "d1",
+     "text": "Sixty years of nights, Gus. The lamp failed once before. One night. Twelve seconds.",
+     "dlg": "DUNN"
+    },
+    {
+     "id": "d2",
+     "text": "Look at the date.",
+     "dlg": "DUNN",
+     "pause": 1.2
+    }
+   ],
+   "lead": 0.6,
+   "tail": 0.6
+  },
+  {
+   "id": "gus",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     7.4,
+     1.0,
+     12.6
+    ],
+    "az": [
+     -30,
+     -24
+    ],
+    "d": [
+     7.4,
+     7
+    ],
+    "h": [
+     3.4,
+     3.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      7.4,
+      12.6
+     ],
+     "pose": "look",
+     "face": "r",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      6.4,
+      13
+     ],
+     "pose": "sit",
+     "face": "r"
+    },
+    "dunn": {
+     "at": [
+      9.6,
+      12.2
+     ],
+     "pose": "idle",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "n3",
+     "text": "Gus knew the date before he read it. Everyone on the island knew it.",
+     "pause": 0.5
+    },
+    {
+     "id": "n4",
+     "text": "It was the night he was born.",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.6,
+   "tail": 1.0
+  }
+ ]
+}

@@ -1,0 +1,192 @@
+{
+ "code": "S04",
+ "title": "Pip saw someone on the rocks",
+ "label": "THE KEEPER'S ISLAND \u00b7 4",
+ "DUR": 41.552,
+ "shots": [
+  {
+   "id": "fly",
+   "time": "day",
+   "cam": {
+    "type": "top",
+    "h": [
+     15,
+     13
+    ],
+    "fov": 42
+   },
+   "cast": {
+    "pip": {
+     "at": [
+      -10,
+      4
+     ],
+     "to": [
+      14,
+      -30
+     ],
+     "pose": "fly",
+     "y": 15,
+     "hero": 1,
+     "fly": 1
+    }
+   },
+   "lead": 1.2,
+   "tail": 0.6,
+   "a": 0.0,
+   "b": 16.112,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 3.1,
+     "d": 5.669,
+     "sub": "Pip the gull flies over the island every morning, mostly to be seen flying.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 9.569,
+     "d": 5.943,
+     "sub": "He saw the wreck. He saw Gus on the stairs. And on the north rocks, he saw a coat.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "rocks",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     12,
+     1.1,
+     -46
+    ],
+    "az": [
+     -20,
+     -35
+    ],
+    "d": [
+     14,
+     12
+    ],
+    "h": [
+     6.5,
+     5.5
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      11.5,
+      -47.5
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    },
+    "pip": {
+     "at": [
+      8,
+      -40
+     ],
+     "to": [
+      16,
+      -44
+     ],
+     "pose": "fly",
+     "y": 5,
+     "fly": 1
+    }
+   },
+   "props": [
+    "wreck"
+   ],
+   "lead": 0.9,
+   "tail": 0.9,
+   "a": 16.112,
+   "b": 24.537,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 18.012,
+     "d": 5.625,
+     "sub": "A yellow coat, hood up, facing the lighthouse. Standing where no boat could land.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "empty",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     12,
+     1.1,
+     -46
+    ],
+    "az": [
+     -35,
+     -40
+    ],
+    "d": [
+     12,
+     11.5
+    ],
+    "h": [
+     5.5,
+     5.2
+    ]
+   },
+   "cast": {
+    "pip": {
+     "at": [
+      13,
+      -44
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    }
+   },
+   "props": [
+    "wreck"
+   ],
+   "lead": 0.7,
+   "tail": 1.0,
+   "a": 24.537,
+   "b": 41.552,
+   "vo": [
+    {
+     "id": "n4",
+     "t": 25.837,
+     "d": 4.756,
+     "sub": "Pip screamed it to the whole harbour. Gulls are not taken seriously.",
+     "dlg": null
+    },
+    {
+     "id": "n5",
+     "t": 30.993,
+     "d": 3.491,
+     "sub": "By the time Gus looked up\u2026 the rocks were empty.",
+     "dlg": null
+    },
+    {
+     "id": "n6",
+     "t": 35.384,
+     "d": 2.468,
+     "sub": "But the coat had left something behind.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "Pip sees everything from up there. This time, he wished he hadn\u2019t.",
+ "hookEnd": 2.8,
+ "ask": "Would you tell the keeper what you saw\u2026 if nobody believed you?",
+ "askAt": 38.352,
+ "music": {
+  "mood": "day"
+ }
+}

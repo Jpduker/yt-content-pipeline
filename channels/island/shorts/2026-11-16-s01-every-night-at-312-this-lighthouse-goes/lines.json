@@ -1,0 +1,39 @@
+[
+ {
+  "id": "n1",
+  "text": "On the Keeper's Island, the lamp has turned every night for a hundred years.",
+  "voice": "am_michael",
+  "speed": 0.84,
+  "asr": "On the Keeper's Island, the lamp has turned every night for a hundred years."
+ },
+ {
+  "id": "n2",
+  "text": "Gus has kept it for thirty of them. He has never once missed a turn.",
+  "voice": "am_michael",
+  "speed": 0.84
+ },
+ {
+  "id": "n3",
+  "text": "Tonight, at twelve minutes past three\u2026",
+  "voice": "am_michael",
+  "speed": 0.84
+ },
+ {
+  "id": "n4",
+  "text": "it stopped.",
+  "voice": "am_michael",
+  "speed": 0.84
+ },
+ {
+  "id": "n5",
+  "text": "Twelve seconds of dark. Then the lamp came back by itself.",
+  "voice": "am_michael",
+  "speed": 0.84
+ },
+ {
+  "id": "n6",
+  "text": "Out at sea, a horn answered. Something had been sailing toward the light.",
+  "voice": "am_michael",
+  "speed": 0.84
+ }
+]

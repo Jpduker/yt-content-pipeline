@@ -1,0 +1,189 @@
+{
+ "code": "S07",
+ "day": "2026-11-19",
+ "slot": 1,
+ "title": "The door in the rock",
+ "label": "THE KEEPER'S ISLAND · 7",
+ "hook": "Thirty years on this island. Gus had never seen this door.",
+ "ask": "Four marks. Who on the island would know them?",
+ "music": {
+  "mood": "mystery"
+ },
+ "shots": [
+  {
+   "id": "walk",
+   "time": "day",
+   "cam": {
+    "type": "track",
+    "side": "south",
+    "h": 5.6,
+    "d": 14,
+    "lead": 2.4
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      3,
+      -11
+     ],
+     "to": [
+      12.2,
+      -12.6
+     ],
+     "walk": [
+      0.4,
+      7.5
+     ],
+     "pose": "look",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    },
+    "mabel": {
+     "at": [
+      1.5,
+      -10.6
+     ],
+     "to": [
+      10.8,
+      -12.2
+     ],
+     "walk": [
+      0.6,
+      7.7
+     ],
+     "pose": "walk",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "The paint led along the cliff path, under the headland, to a door set into the rock."
+    },
+    {
+     "id": "n2",
+     "text": "Thirty years. Gus had walked past it every single day.",
+     "pause": 0.9
+    }
+   ],
+   "lead": 1.2,
+   "tail": 0.8
+  },
+  {
+   "id": "hatch",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     13.6,
+     5.2,
+     -14.4
+    ],
+    "az": [
+     -28,
+     -12
+    ],
+    "d": [
+     8,
+     7.4
+    ],
+    "h": [
+     3.6,
+     3.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      12.6,
+      -12.9
+     ],
+     "pose": "fwd",
+     "face": "l",
+     "hero": 1,
+     "lit": 0
+    },
+    "mabel": {
+     "at": [
+      11.4,
+      -12.4
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "n3",
+     "text": "No handle. No keyhole. Four brass marks, worn smooth, in a square.",
+     "pause": 0.5
+    },
+    {
+     "id": "n4",
+     "text": "Mabel sniffed the gap under it. Then she sat down very fast, which she only does for two things.",
+     "pause": 0.3
+    },
+    {
+     "id": "n5",
+     "text": "Fish. And fear.",
+     "pause": 1.0
+    }
+   ],
+   "events": [
+    {
+     "t": 1.2,
+     "kind": "lock"
+    }
+   ],
+   "lead": 0.8,
+   "tail": 0.8
+  },
+  {
+   "id": "close",
+   "time": "day",
+   "cam": {
+    "type": "dive",
+    "at": [
+     13.6,
+     5.0,
+     -14.4
+    ],
+    "az": [
+     -14,
+     -8
+    ],
+    "d": [
+     4.2,
+     4.0
+    ],
+    "h": [
+     1.9,
+     1.8
+    ],
+    "fov": 28
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      12.6,
+      -12.9
+     ],
+     "pose": "fwd",
+     "face": "l",
+     "hero": 1,
+     "lit": 0
+    }
+   },
+   "lines": [
+    {
+     "id": "n6",
+     "text": "Gus had seen those four marks once before. In a story. One his grandmother used to tell to make children behave.",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.5,
+   "tail": 1.0
+  }
+ ]
+}

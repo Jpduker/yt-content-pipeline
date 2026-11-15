@@ -1,0 +1,38 @@
+[
+ {
+  "id": "n1",
+  "text": "Pip the gull flies over the island every morning, mostly to be seen flying.",
+  "voice": "am_michael",
+  "speed": 0.84
+ },
+ {
+  "id": "n2",
+  "text": "He saw the wreck. He saw Gus on the stairs. And on the north rocks, he saw a coat.",
+  "voice": "am_michael",
+  "speed": 0.84
+ },
+ {
+  "id": "n3",
+  "text": "A yellow coat, hood up, facing the lighthouse. Standing where no boat could land.",
+  "voice": "am_michael",
+  "speed": 0.84
+ },
+ {
+  "id": "n4",
+  "text": "Pip screamed it to the whole harbour. Gulls are not taken seriously.",
+  "voice": "am_michael",
+  "speed": 0.84
+ },
+ {
+  "id": "n5",
+  "text": "By the time Gus looked up\u2026 the rocks were empty.",
+  "voice": "am_michael",
+  "speed": 0.84
+ },
+ {
+  "id": "n6",
+  "text": "But the coat had left something behind.",
+  "voice": "am_michael",
+  "speed": 0.84
+ }
+]

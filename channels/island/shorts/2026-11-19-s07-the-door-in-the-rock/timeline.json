@@ -1,0 +1,209 @@
+{
+ "code": "S07",
+ "title": "The door in the rock",
+ "label": "THE KEEPER'S ISLAND \u00b7 7",
+ "DUR": 45.868,
+ "shots": [
+  {
+   "id": "walk",
+   "time": "day",
+   "cam": {
+    "type": "track",
+    "side": "south",
+    "h": 5.6,
+    "d": 14,
+    "lead": 2.4
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      3,
+      -11
+     ],
+     "to": [
+      12.2,
+      -12.6
+     ],
+     "walk": [
+      0.4,
+      7.5
+     ],
+     "pose": "look",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    },
+    "mabel": {
+     "at": [
+      1.5,
+      -10.6
+     ],
+     "to": [
+      10.8,
+      -12.2
+     ],
+     "walk": [
+      0.6,
+      7.7
+     ],
+     "pose": "walk",
+     "face": "r"
+    }
+   },
+   "lead": 1.2,
+   "tail": 0.8,
+   "a": 0.0,
+   "b": 14.884,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 3.1,
+     "d": 5.946,
+     "sub": "The paint led along the cliff path, under the headland, to a door set into the rock.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 9.946,
+     "d": 4.138,
+     "sub": "Thirty years. Gus had walked past it every single day.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "hatch",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     13.6,
+     5.2,
+     -14.4
+    ],
+    "az": [
+     -28,
+     -12
+    ],
+    "d": [
+     8,
+     7.4
+    ],
+    "h": [
+     3.6,
+     3.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      12.6,
+      -12.9
+     ],
+     "pose": "fwd",
+     "face": "l",
+     "hero": 1,
+     "lit": 0
+    },
+    "mabel": {
+     "at": [
+      11.4,
+      -12.4
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "events": [
+    {
+     "t": 1.2,
+     "kind": "lock"
+    }
+   ],
+   "lead": 0.8,
+   "tail": 0.8,
+   "a": 14.884,
+   "b": 32.199,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 16.184,
+     "d": 5.493,
+     "sub": "No handle. No keyhole. Four brass marks, worn smooth, in a square.",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 21.977,
+     "d": 7.09,
+     "sub": "Mabel sniffed the gap under it. Then she sat down very fast, which she only does for two things.",
+     "dlg": null
+    },
+    {
+     "id": "n5",
+     "t": 30.067,
+     "d": 1.332,
+     "sub": "Fish. And fear.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "close",
+   "time": "day",
+   "cam": {
+    "type": "dive",
+    "at": [
+     13.6,
+     5.0,
+     -14.4
+    ],
+    "az": [
+     -14,
+     -8
+    ],
+    "d": [
+     4.2,
+     4.0
+    ],
+    "h": [
+     1.9,
+     1.8
+    ],
+    "fov": 28
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      12.6,
+      -12.9
+     ],
+     "pose": "fwd",
+     "face": "l",
+     "hero": 1,
+     "lit": 0
+    }
+   },
+   "lead": 0.5,
+   "tail": 1.0,
+   "a": 32.199,
+   "b": 45.868,
+   "vo": [
+    {
+     "id": "n6",
+     "t": 33.699,
+     "d": 8.469,
+     "sub": "Gus had seen those four marks once before. In a story. One his grandmother used to tell to make children behave.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "Thirty years on this island. Gus had never seen this door.",
+ "hookEnd": 2.8,
+ "ask": "Four marks. Who on the island would know them?",
+ "askAt": 42.668,
+ "music": {
+  "mood": "mystery"
+ }
+}

@@ -1,0 +1,193 @@
+{
+ "code": "S01",
+ "title": "Every night at 3:12, this lighthouse goes dark",
+ "label": "THE KEEPER'S ISLAND \u00b7 1",
+ "DUR": 41.117,
+ "shots": [
+  {
+   "id": "map",
+   "time": "night",
+   "cam": {
+    "type": "map",
+    "from": [
+     -58,
+     54,
+     82
+    ],
+    "to": [
+     -50,
+     48,
+     70
+    ],
+    "look": [
+     8,
+     4,
+     -10
+    ],
+    "look2": [
+     12,
+     6,
+     -14
+    ]
+   },
+   "cast": {},
+   "lead": 3.2,
+   "tail": 1.0,
+   "a": 0.0,
+   "b": 15.076,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 3.2,
+     "d": 5.156,
+     "sub": "On the Keeper's Island, the lamp has turned every night for a hundred years.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 9.356,
+     "d": 4.72,
+     "sub": "Gus has kept it for thirty of them. He has never once missed a turn.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "door",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "az": [
+     38,
+     30
+    ],
+    "d": [
+     11,
+     10
+    ],
+    "h": [
+     6,
+     5.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      21.4,
+      -20.4
+     ],
+     "pose": "lookUp",
+     "face": "l",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      22.5,
+      -20.0
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lamp": {
+    "flicker": 3.6,
+    "len": 0.8,
+    "back": 16.4
+   },
+   "events": [
+    {
+     "t": 8.0,
+     "kind": "horn"
+    }
+   ],
+   "lead": 1.2,
+   "tail": 4.0,
+   "a": 15.076,
+   "b": 25.399,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 16.476,
+     "d": 2.275,
+     "sub": "Tonight, at twelve minutes past three\u2026",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 20.351,
+     "d": 1.048,
+     "sub": "it stopped.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "dark",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "az": [
+     20,
+     24
+    ],
+    "d": [
+     6.5,
+     6
+    ],
+    "h": [
+     2.8,
+     2.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      21.4,
+      -20.4
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      22.5,
+      -20.0
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lamp": {
+    "on_at": 1.0
+   },
+   "lead": 0.8,
+   "tail": 1.0,
+   "a": 25.399,
+   "b": 41.117,
+   "vo": [
+    {
+     "id": "n5",
+     "t": 26.799,
+     "d": 4.379,
+     "sub": "Twelve seconds of dark. Then the lamp came back by itself.",
+     "dlg": null
+    },
+    {
+     "id": "n6",
+     "t": 32.378,
+     "d": 5.039,
+     "sub": "Out at sea, a horn answered. Something had been sailing toward the light.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "Every night at 3:12, the lamp goes dark. For exactly twelve seconds.",
+ "hookEnd": 2.8,
+ "ask": "Who is turning the lamp off\u2026 if the keeper never leaves it?",
+ "askAt": 37.917,
+ "music": {
+  "mood": "mystery"
+ }
+}

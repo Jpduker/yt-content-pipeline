@@ -1,0 +1,200 @@
+{
+ "code": "S13",
+ "day": "2026-11-22",
+ "slot": 1,
+ "title": "The horn comes from under the island",
+ "label": "THE KEEPER'S ISLAND · 13",
+ "hook": "The horn sounded again that night. There was no ship.",
+ "ask": "A ship’s horn, from under the island. What is down there?",
+ "music": {
+  "mood": "dread"
+ },
+ "shots": [
+  {
+   "id": "map",
+   "time": "storm",
+   "cam": {
+    "type": "map",
+    "from": [
+     -56,
+     52,
+     80
+    ],
+    "to": [
+     -48,
+     46,
+     66
+    ],
+    "look": [
+     8,
+     4,
+     -10
+    ],
+    "look2": [
+     10,
+     5,
+     -12
+    ]
+   },
+   "cast": {},
+   "lines": [
+    {
+     "id": "n1",
+     "text": "That night a storm came in from the north, and with it, the horn."
+    },
+    {
+     "id": "n2",
+     "text": "Long. Low. Close. The whole village went to the windows to see the ship.",
+     "pause": 0.6
+    }
+   ],
+   "events": [
+    {
+     "t": 1.0,
+     "kind": "horn"
+    },
+    {
+     "t": 4.2,
+     "kind": "flash"
+    },
+    {
+     "t": 9.0,
+     "kind": "horn"
+    }
+   ],
+   "lead": 1.2,
+   "tail": 0.6
+  },
+  {
+   "id": "jetty",
+   "time": "storm",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -3,
+     0.6,
+     38
+    ],
+    "az": [
+     200,
+     190
+    ],
+    "d": [
+     12,
+     11
+    ],
+    "h": [
+     5.6,
+     5.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -3,
+      36
+     ],
+     "to": [
+      -3,
+      40.5
+     ],
+     "walk": [
+      0.3,
+      3.6
+     ],
+     "pose": "look",
+     "face": "r",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      -3.6,
+      35
+     ],
+     "pose": "sit",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "n3",
+     "text": "There was no ship. The sea was empty to the horizon, and the horn kept coming.",
+     "pause": 0.7
+    }
+   ],
+   "events": [
+    {
+     "t": 2.0,
+     "kind": "flash"
+    },
+    {
+     "t": 5.5,
+     "kind": "horn"
+    }
+   ],
+   "weather": "rain",
+   "lead": 0.8,
+   "tail": 0.6
+  },
+  {
+   "id": "down",
+   "time": "storm",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -3,
+     0.6,
+     40.5
+    ],
+    "az": [
+     170,
+     175
+    ],
+    "d": [
+     5.4,
+     5
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -3,
+      40.5
+     ],
+     "pose": "look",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "n4",
+     "text": "Gus knelt on the jetty and put his ear to the planks.",
+     "pause": 0.9
+    },
+    {
+     "id": "n5",
+     "text": "It was not coming from the sea. It was coming from under the island.",
+     "pause": 1.0
+    }
+   ],
+   "events": [
+    {
+     "t": 2.6,
+     "kind": "horn"
+    },
+    {
+     "t": 6.0,
+     "kind": "flash"
+    }
+   ],
+   "weather": "rain",
+   "lead": 0.6,
+   "tail": 1.0
+  }
+ ]
+}

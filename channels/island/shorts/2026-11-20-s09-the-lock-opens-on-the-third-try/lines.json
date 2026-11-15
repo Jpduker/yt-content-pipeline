@@ -1,0 +1,32 @@
+[
+ {
+  "id": "n1",
+  "text": "Door, door, door, burned. Gus pressed the marks in the order of the tale.",
+  "voice": "am_michael",
+  "speed": 0.84
+ },
+ {
+  "id": "n2",
+  "text": "Nothing. He pressed them backwards. Nothing.",
+  "voice": "am_michael",
+  "speed": 0.84
+ },
+ {
+  "id": "n3",
+  "text": "Then Mabel pressed the fourth one. The burned one. Alone.",
+  "voice": "am_michael",
+  "speed": 0.84
+ },
+ {
+  "id": "n4",
+  "text": "The door swung in. Cold air came out, smelling of salt and old rope.",
+  "voice": "am_michael",
+  "speed": 0.84
+ },
+ {
+  "id": "n5",
+  "text": "Gus lifted his lantern. The flame leaned toward the dark, as if something in there were breathing it in.",
+  "voice": "am_michael",
+  "speed": 0.84
+ }
+]

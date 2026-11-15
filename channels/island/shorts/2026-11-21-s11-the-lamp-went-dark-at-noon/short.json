@@ -1,0 +1,185 @@
+{
+ "code": "S11",
+ "day": "2026-11-21",
+ "slot": 1,
+ "title": "The lamp went dark at noon",
+ "label": "THE KEEPER'S ISLAND · 11",
+ "hook": "The lamp went dark at noon. In broad daylight. With the whole village watching.",
+ "ask": "He wasn’t looking at the lighthouse. He was looking at Gus. Why?",
+ "askLen": 3.6,
+ "music": {
+  "mood": "tense"
+ },
+ "shots": [
+  {
+   "id": "village",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -2,
+     1.0,
+     10
+    ],
+    "az": [
+     -14,
+     -4
+    ],
+    "d": [
+     15,
+     13
+    ],
+    "h": [
+     6.5,
+     5.8
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -3,
+      11
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1,
+     "lit": 0
+    },
+    "dunn": {
+     "at": [
+      -0.2,
+      11.4
+     ],
+     "pose": "idle",
+     "face": "l"
+    },
+    "wren": {
+     "at": [
+      -5.2,
+      10.6
+     ],
+     "pose": "idle",
+     "face": "r"
+    },
+    "mabel": {
+     "at": [
+      -4.1,
+      11.3
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "Day three. The council met on the quay at noon, because Dunn liked an audience."
+    },
+    {
+     "id": "n2",
+     "text": "Gus had no proof. He had a story about a door, and a cat who would not go near it.",
+     "pause": 0.9
+    }
+   ],
+   "lamp": "on",
+   "lead": 1.2,
+   "tail": 0.4
+  },
+  {
+   "id": "noon",
+   "time": "day",
+   "cam": {
+    "type": "map",
+    "from": [
+     -40,
+     30,
+     40
+    ],
+    "to": [
+     -30,
+     26,
+     26
+    ],
+    "look": [
+     14,
+     10,
+     -18
+    ],
+    "look2": [
+     18,
+     12,
+     -22
+    ],
+    "fov": 34,
+    "band": 0.5
+   },
+   "cast": {},
+   "lines": [
+    {
+     "id": "n3",
+     "text": "Then, at twelve o’clock exactly, in full sun… the lamp went out.",
+     "pause": 1.6
+    }
+   ],
+   "lamp": {
+    "flicker": 3.0,
+    "len": 0.8
+   },
+   "lead": 0.8,
+   "tail": 1.2
+  },
+  {
+   "id": "rocks",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     12,
+     1.1,
+     -46
+    ],
+    "az": [
+     -30,
+     -38
+    ],
+    "d": [
+     13,
+     11.5
+    ],
+    "h": [
+     6,
+     5.4
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      11.5,
+      -47.5
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "n4",
+     "text": "Every head on the quay turned to the tower. Every head but one.",
+     "pause": 0.5
+    },
+    {
+     "id": "n5",
+     "text": "On the north rocks stood the yellow coat. Facing away from the lighthouse. Facing the quay. Facing Gus.",
+     "pause": 1.0
+    }
+   ],
+   "props": [
+    "wreck"
+   ],
+   "lamp": "off",
+   "lead": 0.6,
+   "tail": 1.0
+  }
+ ]
+}

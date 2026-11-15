@@ -1,0 +1,227 @@
+{
+ "code": "S10",
+ "title": "One of the footprints has no shadow",
+ "label": "THE KEEPER'S ISLAND \u00b7 10",
+ "DUR": 42.483,
+ "shots": [
+  {
+   "id": "tunnel",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     13.6,
+     5.2,
+     -14.4
+    ],
+    "az": [
+     -24,
+     -16
+    ],
+    "d": [
+     7.4,
+     7
+    ],
+    "h": [
+     3.3,
+     3.1
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      12.6,
+      -12.9
+     ],
+     "to": [
+      13.4,
+      -13.6
+     ],
+     "walk": [
+      0.4,
+      2.4
+     ],
+     "pose": "up",
+     "face": "l",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      11.4,
+      -12.4
+     ],
+     "to": [
+      12.4,
+      -13.0
+     ],
+     "walk": [
+      0.8,
+      2.6
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lead": 1.2,
+   "tail": 0.6,
+   "a": 0.0,
+   "b": 14.665,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 3.1,
+     "d": 5.956,
+     "sub": "Inside, the tunnel ran down toward the sound of the sea. The floor was wet sand.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 9.956,
+     "d": 4.109,
+     "sub": "And in the sand, two sets of footprints. Fins. And boots.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "shadow",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     13.4,
+     5.0,
+     -13.6
+    ],
+    "az": [
+     -10,
+     -4
+    ],
+    "d": [
+     4.6,
+     4.2
+    ],
+    "h": [
+     2.1,
+     2.0
+    ],
+    "fov": 28
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      13.4,
+      -13.6
+     ],
+     "pose": "up",
+     "face": "l",
+     "hero": 1
+    }
+   },
+   "lead": 0.6,
+   "tail": 0.8,
+   "a": 14.665,
+   "b": 26.273,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 15.765,
+     "d": 6.67,
+     "sub": "Gus held the lantern low. The fin-prints threw little shadows on the wall, the way prints do.",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 23.835,
+     "d": 1.638,
+     "sub": "The boot-prints threw none.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "out",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     13.4,
+     5.2,
+     -13.6
+    ],
+    "az": [
+     -22,
+     -16
+    ],
+    "d": [
+     7,
+     6.8
+    ],
+    "h": [
+     3.2,
+     3.1
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      13.4,
+      -13.6
+     ],
+     "pose": "up",
+     "face": "l",
+     "hero": 1,
+     "poses": [
+      [
+       3.2,
+       "look"
+      ]
+     ],
+     "lit": 1
+    },
+    "mabel": {
+     "at": [
+      12.4,
+      -13.0
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "events": [
+    {
+     "t": 3.2,
+     "kind": "whoosh"
+    }
+   ],
+   "lamp": "off",
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 26.273,
+   "b": 42.483,
+   "vo": [
+    {
+     "id": "n5",
+     "t": 27.473,
+     "d": 2.708,
+     "sub": "Mabel\u2019s fur stood up along her whole back.",
+     "dlg": null
+    },
+    {
+     "id": "n6",
+     "t": 31.181,
+     "d": 7.202,
+     "sub": "And then Gus\u2019s lantern went out. Not the lamp. His lantern. In his hand. Without a breath of wind.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "Two sets of footprints in the wet sand. Only one of them cast a shadow.",
+ "hookEnd": 2.8,
+ "ask": "Not the lamp. His lantern. What puts out a flame without wind?",
+ "askAt": 38.883,
+ "music": {
+  "mood": "dread"
+ }
+}

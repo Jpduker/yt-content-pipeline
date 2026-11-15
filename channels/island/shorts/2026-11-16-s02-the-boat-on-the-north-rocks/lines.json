@@ -1,0 +1,44 @@
+[
+ {
+  "id": "n1",
+  "text": "By morning the fog had lifted, and there was a boat on the north rocks.",
+  "voice": "am_michael",
+  "speed": 0.84
+ },
+ {
+  "id": "n2",
+  "text": "Nobody hurt. Nobody on board, either.",
+  "voice": "am_michael",
+  "speed": 0.84
+ },
+ {
+  "id": "n3",
+  "text": "The harbour master, Dunn, had already decided whose fault it was.",
+  "voice": "am_michael",
+  "speed": 0.84
+ },
+ {
+  "id": "d1",
+  "text": "Your lamp went out, Gus. I have three witnesses and a hole in a hull.",
+  "voice": "bm_george",
+  "speed": 0.88
+ },
+ {
+  "id": "d2",
+  "text": "Three days. Prove it wasn\u2019t you, or the council takes the key.",
+  "voice": "bm_george",
+  "speed": 0.88
+ },
+ {
+  "id": "n4",
+  "text": "Gus said nothing. He was not thinking about the council.",
+  "voice": "am_michael",
+  "speed": 0.84
+ },
+ {
+  "id": "n5",
+  "text": "He was thinking about the lamp. It had not failed. It had been switched off.",
+  "voice": "am_michael",
+  "speed": 0.84
+ }
+]

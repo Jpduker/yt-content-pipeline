@@ -1,0 +1,170 @@
+{
+ "code": "S06",
+ "day": "2026-11-18",
+ "slot": 2,
+ "title": "Three cables, one cut",
+ "label": "THE KEEPER'S ISLAND · 6",
+ "hook": "Three cables. One cut. The cut one was dry.",
+ "ask": "Which way did the cutter leave? Stairs, or window?",
+ "askLen": 3.6,
+ "music": {
+  "mood": "tense"
+ },
+ "shots": [
+  {
+   "id": "tower",
+   "time": "night",
+   "cam": {
+    "type": "orbit",
+    "at": [
+     21,
+     18.5,
+     -24
+    ],
+    "az": [
+     50,
+     20
+    ],
+    "d": [
+     11,
+     9.5
+    ],
+    "h": [
+     3,
+     2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      21.4,
+      -20.4
+     ],
+     "pose": "up",
+     "face": "l",
+     "hero": 0
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "At dawn Gus went up with his lantern. Behind the lamp run three cables."
+    },
+    {
+     "id": "n2",
+     "text": "Two were whole, and wet with sea-mist. The third was cut clean through. And it was dry.",
+     "pause": 0.9
+    }
+   ],
+   "lead": 1.2,
+   "tail": 0.8
+  },
+  {
+   "id": "door",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "az": [
+     45,
+     38
+    ],
+    "d": [
+     9.5,
+     9
+    ],
+    "h": [
+     4.6,
+     4.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      21.0,
+      -20.4
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      22.6,
+      -19.9
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "n3",
+     "text": "Dry means cut from inside, after the mist. And whoever did it left in a hurry.",
+     "pause": 0.4
+    },
+    {
+     "id": "n4",
+     "text": "The window was open. The stairs were… painted. Dunn had painted them that very morning.",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.8,
+   "tail": 0.6
+  },
+  {
+   "id": "prints",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     21.0,
+     9.6,
+     -20.4
+    ],
+    "az": [
+     110,
+     118
+    ],
+    "d": [
+     5.2,
+     4.8
+    ],
+    "h": [
+     2.3,
+     2.1
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      21.0,
+      -20.4
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      22.6,
+      -19.9
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "n5",
+     "text": "Yellow paint. On the stairs, going down. Across the grass. Toward a door in the rock that Gus had never seen.",
+     "pause": 1.0
+    }
+   ],
+   "props": [
+    "prints"
+   ],
+   "lead": 0.6,
+   "tail": 1.0
+  }
+ ]
+}

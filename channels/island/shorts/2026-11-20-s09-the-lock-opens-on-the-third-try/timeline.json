@@ -1,0 +1,215 @@
+{
+ "code": "S09",
+ "title": "The lock opens on the third try",
+ "label": "THE KEEPER'S ISLAND \u00b7 9",
+ "DUR": 39.009,
+ "shots": [
+  {
+   "id": "hatch",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     13.6,
+     5.2,
+     -14.4
+    ],
+    "az": [
+     -26,
+     -14
+    ],
+    "d": [
+     8.5,
+     8
+    ],
+    "h": [
+     3.8,
+     3.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      12.6,
+      -12.9
+     ],
+     "pose": "fwd",
+     "face": "l",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      11.4,
+      -12.4
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "events": [
+    {
+     "t": 3.2,
+     "kind": "lock"
+    },
+    {
+     "t": 6.2,
+     "kind": "lock"
+    }
+   ],
+   "lead": 1.2,
+   "tail": 0.4,
+   "a": 0.0,
+   "b": 12.85,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 3.1,
+     "d": 5.486,
+     "sub": "Door, door, door, burned. Gus pressed the marks in the order of the tale.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 9.486,
+     "d": 2.964,
+     "sub": "Nothing. He pressed them backwards. Nothing.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "third",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     13.6,
+     5.0,
+     -14.4
+    ],
+    "az": [
+     -12,
+     -6
+    ],
+    "d": [
+     4.4,
+     4.0
+    ],
+    "h": [
+     2.0,
+     1.9
+    ],
+    "fov": 28
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      12.6,
+      -12.9
+     ],
+     "pose": "fwd",
+     "face": "l",
+     "hero": 1
+    }
+   },
+   "events": [
+    {
+     "t": 3.4,
+     "kind": "lock"
+    },
+    {
+     "t": 3.9,
+     "kind": "thump"
+    },
+    {
+     "t": 4.4,
+     "kind": "creak"
+    }
+   ],
+   "lead": 0.6,
+   "tail": 2.2,
+   "a": 12.85,
+   "b": 20.504,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 14.45,
+     "d": 3.854,
+     "sub": "Then Mabel pressed the fourth one. The burned one. Alone.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "open",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     13.6,
+     5.2,
+     -14.4
+    ],
+    "az": [
+     -30,
+     -20
+    ],
+    "d": [
+     7.6,
+     7.2
+    ],
+    "h": [
+     3.4,
+     3.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      12.6,
+      -12.9
+     ],
+     "pose": "up",
+     "face": "l",
+     "hero": 1,
+     "lit": 0.7
+    },
+    "mabel": {
+     "at": [
+      11.4,
+      -12.4
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 20.504,
+   "b": 39.009,
+   "vo": [
+    {
+     "id": "n4",
+     "t": 21.704,
+     "d": 5.285,
+     "sub": "The door swung in. Cold air came out, smelling of salt and old rope.",
+     "dlg": null
+    },
+    {
+     "id": "n5",
+     "t": 27.989,
+     "d": 7.32,
+     "sub": "Gus lifted his lantern. The flame leaned toward the dark, as if something in there were breathing it in.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "The order of the marks was in the story. Gus had three tries.",
+ "hookEnd": 2.8,
+ "ask": "Something behind the door was breathing. Would you go in?",
+ "askAt": 35.809,
+ "music": {
+  "mood": "tense"
+ }
+}

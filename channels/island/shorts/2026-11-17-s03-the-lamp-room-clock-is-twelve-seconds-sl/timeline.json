@@ -1,0 +1,213 @@
+{
+ "code": "S03",
+ "title": "The lamp-room clock is twelve seconds slow",
+ "label": "THE KEEPER'S ISLAND \u00b7 3",
+ "DUR": 45.113,
+ "shots": [
+  {
+   "id": "tower",
+   "time": "day",
+   "cam": {
+    "type": "orbit",
+    "at": [
+     21,
+     19.5,
+     -24
+    ],
+    "az": [
+     40,
+     10
+    ],
+    "d": [
+     12,
+     10
+    ],
+    "h": [
+     2.5,
+     1.5
+    ],
+    "fov": 28
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      21.4,
+      -20.4
+     ],
+     "pose": "lookUp",
+     "face": "l",
+     "hero": 0,
+     "lit": 0
+    }
+   },
+   "lead": 1.2,
+   "tail": 0.8,
+   "a": 0.0,
+   "b": 13.339,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 3.1,
+     "d": 5.494,
+     "sub": "Gus climbed to the lamp room at noon. The first thing he checked was the clock.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 9.494,
+     "d": 3.045,
+     "sub": "Twelve seconds slow. Exactly twelve.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "door",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "az": [
+     60,
+     50
+    ],
+    "d": [
+     9,
+     8.5
+    ],
+    "h": [
+     4.5,
+     4.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      20.2,
+      -19.6
+     ],
+     "to": [
+      21.6,
+      -20.6
+     ],
+     "walk": [
+      0.5,
+      2.2
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1,
+     "lit": 0
+    },
+    "mabel": {
+     "at": [
+      23,
+      -19.4
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "props": [
+    "prints"
+   ],
+   "lead": 0.8,
+   "tail": 0.8,
+   "a": 13.339,
+   "b": 27.505,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 14.539,
+     "d": 7.299,
+     "sub": "A clock does not lose twelve seconds on its own. Somebody had stopped the pendulum, and started it again.",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 22.838,
+     "d": 3.867,
+     "sub": "On the stairs, still damp, were footprints. Webbed ones.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "prints",
+   "time": "day",
+   "cam": {
+    "type": "dive",
+    "at": [
+     21.6,
+     9.6,
+     -20.6
+    ],
+    "az": [
+     95,
+     100
+    ],
+    "d": [
+     5,
+     4.6
+    ],
+    "h": [
+     2.2,
+     2.0
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      21.6,
+      -20.6
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1,
+     "lit": 0
+    },
+    "mabel": {
+     "at": [
+      23,
+      -19.4
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 27.505,
+   "b": 45.113,
+   "vo": [
+    {
+     "id": "n5",
+     "t": 28.805,
+     "d": 4.92,
+     "sub": "Mabel, as usual, said nothing. Then she put her paw beside one.",
+     "dlg": null
+    },
+    {
+     "id": "n6",
+     "t": 34.025,
+     "d": 4.669,
+     "sub": "Too big for a gull. Far too big. Those were a diver\u2019s fins.",
+     "dlg": null
+    },
+    {
+     "id": "n7",
+     "t": 39.494,
+     "d": 1.919,
+     "sub": "Someone had come up from the sea.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "The lamp-room clock was twelve seconds slow. Nobody had touched it.",
+ "hookEnd": 2.8,
+ "ask": "Who climbs a lighthouse\u2026 from the sea?",
+ "askAt": 41.913,
+ "music": {
+  "mood": "mystery"
+ }
+}

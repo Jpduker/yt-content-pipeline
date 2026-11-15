@@ -1,0 +1,215 @@
+{
+ "code": "S02",
+ "title": "The boat on the north rocks",
+ "label": "THE KEEPER'S ISLAND \u00b7 2",
+ "DUR": 44.426,
+ "shots": [
+  {
+   "id": "rocks",
+   "time": "day",
+   "cam": {
+    "type": "orbit",
+    "at": [
+     13,
+     1.2,
+     -45
+    ],
+    "az": [
+     -150,
+     -110
+    ],
+    "d": [
+     16,
+     13
+    ],
+    "h": [
+     7,
+     6
+    ]
+   },
+   "cast": {
+    "pip": {
+     "at": [
+      14.5,
+      -47
+     ],
+     "pose": "idle",
+     "face": "l"
+    }
+   },
+   "props": [
+    "wreck"
+   ],
+   "lead": 1.4,
+   "tail": 0.8,
+   "a": 0.0,
+   "b": 12.794,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 3.1,
+     "d": 4.853,
+     "sub": "By morning the fog had lifted, and there was a boat on the north rocks.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 8.853,
+     "d": 3.141,
+     "sub": "Nobody hurt. Nobody on board, either.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "quay",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     7.5,
+     0.9,
+     12.5
+    ],
+    "az": [
+     -12,
+     2
+    ],
+    "d": [
+     12,
+     11
+    ],
+    "h": [
+     5,
+     4.8
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      6.2,
+      13
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    },
+    "dunn": {
+     "at": [
+      9.3,
+      12.8
+     ],
+     "pose": "point",
+     "face": "l"
+    },
+    "mabel": {
+     "at": [
+      5.2,
+      13.4
+     ],
+     "pose": "sit",
+     "face": "r"
+    }
+   },
+   "lead": 1.0,
+   "tail": 0.6,
+   "a": 12.794,
+   "b": 29.774,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 14.094,
+     "d": 4.552,
+     "sub": "The harbour master, Dunn, had already decided whose fault it was.",
+     "dlg": null
+    },
+    {
+     "id": "d1",
+     "t": 19.396,
+     "d": 4.678,
+     "sub": "Your lamp went out, Gus. I have three witnesses and a hole in a hull.",
+     "dlg": "DUNN"
+    },
+    {
+     "id": "d2",
+     "t": 24.874,
+     "d": 4.3,
+     "sub": "Three days. Prove it wasn\u2019t you, or the council takes the key.",
+     "dlg": "DUNN"
+    }
+   ]
+  },
+  {
+   "id": "gus",
+   "time": "day",
+   "cam": {
+    "type": "dive",
+    "at": [
+     6.2,
+     1.0,
+     13
+    ],
+    "az": [
+     -22,
+     -16
+    ],
+    "d": [
+     6,
+     5.6
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      6.2,
+      13
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    },
+    "mabel": {
+     "at": [
+      5.2,
+      13.4
+     ],
+     "pose": "sit",
+     "face": "r"
+    }
+   },
+   "lead": 0.8,
+   "tail": 1.0,
+   "a": 29.774,
+   "b": 44.426,
+   "vo": [
+    {
+     "id": "n4",
+     "t": 31.074,
+     "d": 3.743,
+     "sub": "Gus said nothing. He was not thinking about the council.",
+     "dlg": null
+    },
+    {
+     "id": "n5",
+     "t": 35.817,
+     "d": 4.909,
+     "sub": "He was thinking about the lamp. It had not failed. It had been switched off.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "By morning, there was a boat on the north rocks.",
+ "hookEnd": 2.8,
+ "ask": "Three days to prove it wasn\u2019t him. Where would you start?",
+ "askAt": 41.226,
+ "music": {
+  "mood": "day"
+ }
+}

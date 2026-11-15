@@ -1,0 +1,187 @@
+{
+ "code": "S14",
+ "day": "2026-11-22",
+ "slot": 2,
+ "title": "Three days are up",
+ "label": "THE KEEPER'S ISLAND · 14",
+ "hook": "Three days were up. Gus gave Dunn the key himself.",
+ "ask": "Chapter two begins where the light doesn’t reach. Are you coming down?",
+ "askLen": 3.8,
+ "music": {
+  "mood": "dusk"
+ },
+ "shots": [
+  {
+   "id": "quay",
+   "time": "dawn",
+   "cam": {
+    "type": "stage",
+    "at": [
+     7.5,
+     0.9,
+     12.5
+    ],
+    "az": [
+     -12,
+     2
+    ],
+    "d": [
+     12,
+     11
+    ],
+    "h": [
+     5,
+     4.8
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      6.2,
+      13
+     ],
+     "pose": "fwd",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    },
+    "dunn": {
+     "at": [
+      9.3,
+      12.8
+     ],
+     "pose": "idle",
+     "face": "l"
+    },
+    "mabel": {
+     "at": [
+      5.2,
+      13.4
+     ],
+     "pose": "sit",
+     "face": "r"
+    },
+    "pip": {
+     "at": [
+      11,
+      11.5
+     ],
+     "pose": "idle",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "At dawn on the fourth day, Gus walked down to the quay and put the lamp key in Dunn’s hand."
+    },
+    {
+     "id": "n2",
+     "text": "Dunn did not take it. He had read the logbook too.",
+     "pause": 0.8
+    }
+   ],
+   "lead": 1.2,
+   "tail": 0.4
+  },
+  {
+   "id": "talk",
+   "time": "dawn",
+   "cam": {
+    "type": "dive",
+    "at": [
+     7.6,
+     1.0,
+     12.9
+    ],
+    "az": [
+     -6,
+     0
+    ],
+    "d": [
+     6,
+     5.6
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      6.2,
+      13
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    },
+    "dunn": {
+     "at": [
+      9.3,
+      12.8
+     ],
+     "pose": "idle",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "d1",
+     "text": "Keep it. Whatever is under this island wants the keeper, not the key.",
+     "dlg": "DUNN",
+     "pause": 0.9
+    }
+   ],
+   "lead": 0.6,
+   "tail": 0.6
+  },
+  {
+   "id": "end",
+   "time": "dawn",
+   "cam": {
+    "type": "map",
+    "from": [
+     -50,
+     44,
+     70
+    ],
+    "to": [
+     -60,
+     56,
+     84
+    ],
+    "look": [
+     10,
+     5,
+     -12
+    ],
+    "look2": [
+     8,
+     4,
+     -10
+    ],
+    "fov": 38,
+    "band": 0.45
+   },
+   "cast": {},
+   "lines": [
+    {
+     "id": "n3",
+     "text": "So Gus went home, fed the cat, trimmed his lantern, and waited for dark.",
+     "pause": 0.6
+    },
+    {
+     "id": "n4",
+     "text": "Because tonight he was going down the tunnel. All the way.",
+     "pause": 1.0
+    }
+   ],
+   "lamp": "off",
+   "lead": 0.8,
+   "tail": 1.2
+  }
+ ]
+}

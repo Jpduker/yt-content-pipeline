@@ -1,0 +1,222 @@
+{
+ "code": "S08",
+ "title": "Old Wren knows the marks",
+ "label": "THE KEEPER'S ISLAND \u00b7 8",
+ "DUR": 45.116,
+ "shots": [
+  {
+   "id": "post",
+   "time": "dusk",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -6.5,
+     1.0,
+     7.6
+    ],
+    "az": [
+     30,
+     20
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     4.6,
+     4.3
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      7.4
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -4.4,
+      8.2
+     ],
+     "pose": "idle",
+     "face": "l",
+     "lit": 1
+    },
+    "mabel": {
+     "at": [
+      -3.2,
+      8.6
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lead": 1.2,
+   "tail": 0.4,
+   "a": 0.0,
+   "b": 16.029,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 3.1,
+     "d": 7.078,
+     "sub": "Old Wren keeps the post office, the island\u2019s letters, and every story nobody wants told.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 10.778,
+     "d": 4.851,
+     "sub": "Gus drew the four marks in the dust. She did not look at them for long.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "tale",
+   "time": "dusk",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -6.5,
+     1.0,
+     7.6
+    ],
+    "az": [
+     18,
+     12
+    ],
+    "d": [
+     8.6,
+     8.2
+    ],
+    "h": [
+     4.0,
+     3.8
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      7.4
+     ],
+     "pose": "open",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -4.4,
+      8.2
+     ],
+     "pose": "idle",
+     "face": "l"
+    },
+    "mabel": {
+     "at": [
+      -3.2,
+      8.6
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lead": 0.6,
+   "tail": 0.6,
+   "a": 16.029,
+   "b": 28.236,
+   "vo": [
+    {
+     "id": "d1",
+     "t": 16.629,
+     "d": 5.552,
+     "sub": "The man who sold his shadow. He paid with four marks, one for each year the sea let him live.",
+     "dlg": "WREN"
+    },
+    {
+     "id": "d2",
+     "t": 23.081,
+     "d": 4.555,
+     "sub": "Three he carved on his door. The fourth was never drawn, Gus. It was burned.",
+     "dlg": "WREN"
+    }
+   ]
+  },
+  {
+   "id": "dark",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -4.4,
+     1.0,
+     8.2
+    ],
+    "az": [
+     -20,
+     -15
+    ],
+    "d": [
+     5.6,
+     5.2
+    ],
+    "h": [
+     2.4,
+     2.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -4.4,
+      8.2
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      -3.2,
+      8.6
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lamp": "off",
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 28.236,
+   "b": 45.116,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 29.436,
+     "d": 5.137,
+     "sub": "Then she closed the shutters, which she never does before the lamp comes on.",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 35.573,
+     "d": 5.443,
+     "sub": "That night, for the first time in a hundred years, the lamp did not come on at all.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "Only one person on the island still tells the old tales.",
+ "hookEnd": 2.8,
+ "ask": "A mark that was never drawn\u2026 only burned. Burned into what?",
+ "askAt": 41.516,
+ "music": {
+  "mood": "dusk"
+ }
+}

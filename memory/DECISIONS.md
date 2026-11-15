@@ -37,3 +37,4 @@ Append-only. date · decision · why.
 - 2026-11-12 · Batch 2 = WI06 chances left (Sun 15), WI07 apology erased (Mon 16), WI08 felt everything (Tue 17), style v3.1; Theo (younger brother) joins the recurring cast.
 - 2026-11-13 · Vivek: WI06–WI12 approved; Alternate Avengers parked until its production setup is ready. Shorts: no question card or "Full story" card; a question over the final action + pinned comment; Related video links the long-form.
 - 2026-11-13 · Vivek: cadence = 1 long-form + 4 Shorts a day from Sun 15 (Option 1); P1–P3 approved. Style growkaz-ifverse v3.1 from WI06. P2's kid is Sami (new family) so Theo stays an adult.
+- 2026-11-15: The Keeper's Island launches as a Shorts-only serial (2 Shorts/day, each with hook → suspense → cliffhanger + closing question), week 1 = 14 parts of Chapter 1; long-form chapters later. Engine = our channels/island/engine on lemo-opuscar's 2.5D kit; cloud renders at 720×1280@24 for now, GPU host re-renders at 1080p.
