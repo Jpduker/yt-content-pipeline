@@ -1,5 +1,6 @@
 # Original Shorts · publish notes (9:16, 1080×1920, −14 LUFS, captions burned in)
 Description for all: "An original animated story from Between the Ifs. All characters are fictional." + 3 hashtags: #shorts #whatif #animation. Not made for kids. Category Film & Animation. Related video: the day's long-form (optional; the Short stands alone).
+Covers (Gemini prompts) + tags: ../THUMBNAILS-TAGS-2026-11-15-to-21.md
 
 | Day | ID | File | Title | Frame-1 overlay | Opening | Pinned comment (= the closing question) |
 |---|---|---|---|---|---|---|

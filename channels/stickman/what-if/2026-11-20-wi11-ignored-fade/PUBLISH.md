@@ -26,6 +26,12 @@ Chapters
 
 An original animated story. All characters are fictional.
 
+## Tags
+what if, what if everyone you ignored slowly faded away, ignored, loneliness, fading away, noticing people, brothers, siblings, what if animation, stickman animation, animated story, emotional animation, between the ifs
+
+## Shorts covers + tags
+see ../THUMBNAILS-TAGS-2026-11-15-to-21.md
+
 ## Pinned comment
 Who would be fading around you right now? 👇
 

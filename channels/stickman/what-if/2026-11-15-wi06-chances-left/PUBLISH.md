@@ -31,6 +31,9 @@ An original animated story. All characters are fictional.
 ## Tags
 what if, what if you could see how many chances you have left, forgiveness, second chances, best friend, number above head, what if animation, stickman animation, animated story, friendship story, emotional animation, between the ifs
 
+## Shorts covers + tags
+see ../THUMBNAILS-TAGS-2026-11-15-to-21.md
+
 ## Pinned comment
 If you could see how many chances you had left with someone… would you want to know? 👇
 

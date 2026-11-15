@@ -31,6 +31,9 @@ An original animated story. All characters are fictional.
 ## Tags
 what if, what if you felt everything your best friend felt, empathy, feelings, best friend, long distance friendship, what if animation, stickman animation, animated story, emotional animation, between the ifs
 
+## Shorts covers + tags
+see ../THUMBNAILS-TAGS-2026-11-15-to-21.md
+
 ## Pinned comment
 Would you want to feel everything your best friend feels? Even the bad days? 👇
 

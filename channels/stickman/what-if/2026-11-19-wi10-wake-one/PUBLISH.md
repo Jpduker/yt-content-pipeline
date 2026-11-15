@@ -25,6 +25,12 @@ Chapters
 
 An original animated story. All characters are fictional.
 
+## Tags
+what if, what if time froze and you could wake only one person, time freeze, frozen time, one person, choices, love story, what if animation, stickman animation, animated story, emotional animation, between the ifs
+
+## Shorts covers + tags
+see ../THUMBNAILS-TAGS-2026-11-15-to-21.md
+
 ## Pinned comment
 If the world froze and you could wake one person… who would it be? 👇
 
