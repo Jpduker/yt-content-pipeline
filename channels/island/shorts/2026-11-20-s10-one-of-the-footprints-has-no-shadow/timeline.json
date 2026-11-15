@@ -2,7 +2,7 @@
  "code": "S10",
  "title": "One of the footprints has no shadow",
  "label": "THE KEEPER'S ISLAND \u00b7 10",
- "DUR": 42.483,
+ "DUR": 36.837,
  "shots": [
   {
    "id": "tunnel",
@@ -65,19 +65,19 @@
    "lead": 1.2,
    "tail": 0.6,
    "a": 0.0,
-   "b": 14.665,
+   "b": 12.859,
    "vo": [
     {
      "id": "n1",
-     "t": 3.1,
-     "d": 5.956,
+     "t": 2.6,
+     "d": 5.28,
      "sub": "Inside, the tunnel ran down toward the sound of the sea. The floor was wet sand.",
      "dlg": null
     },
     {
      "id": "n2",
-     "t": 9.956,
-     "d": 4.109,
+     "t": 8.78,
+     "d": 3.599,
      "sub": "And in the sand, two sets of footprints. Fins. And boots.",
      "dlg": null
     }
@@ -120,20 +120,20 @@
    },
    "lead": 0.6,
    "tail": 0.8,
-   "a": 14.665,
-   "b": 26.273,
+   "a": 12.859,
+   "b": 22.49,
    "vo": [
     {
      "id": "n3",
-     "t": 15.765,
-     "d": 6.67,
+     "t": 13.529,
+     "d": 5.75,
      "sub": "Gus held the lantern low. The fin-prints threw little shadows on the wall, the way prints do.",
      "dlg": null
     },
     {
      "id": "n4",
-     "t": 23.835,
-     "d": 1.638,
+     "t": 20.429,
+     "d": 1.421,
      "sub": "The boot-prints threw none.",
      "dlg": null
     }
@@ -197,20 +197,20 @@
    "lamp": "off",
    "lead": 0.6,
    "tail": 1.0,
-   "a": 26.273,
-   "b": 42.483,
+   "a": 22.49,
+   "b": 36.837,
    "vo": [
     {
      "id": "n5",
-     "t": 27.473,
-     "d": 2.708,
+     "t": 23.21,
+     "d": 2.374,
      "sub": "Mabel\u2019s fur stood up along her whole back.",
      "dlg": null
     },
     {
      "id": "n6",
-     "t": 31.181,
-     "d": 7.202,
+     "t": 26.534,
+     "d": 6.203,
      "sub": "And then Gus\u2019s lantern went out. Not the lamp. His lantern. In his hand. Without a breath of wind.",
      "dlg": null
     }
@@ -218,9 +218,9 @@
   }
  ],
  "hook": "Two sets of footprints in the wet sand. Only one of them cast a shadow.",
- "hookEnd": 2.8,
+ "hookEnd": 2.3,
  "ask": "Not the lamp. His lantern. What puts out a flame without wind?",
- "askAt": 38.883,
+ "askAt": 33.237,
  "music": {
   "mood": "dread"
  }

@@ -3,36 +3,36 @@
   "id": "n1",
   "text": "A lamp that fails in daylight is nobody\u2019s carelessness. Even Dunn could see that.",
   "voice": "am_michael",
-  "speed": 0.84
+  "speed": 1.0
  },
  {
   "id": "n2",
   "text": "So he did something he had never done. He opened the old logbook for Gus.",
   "voice": "am_michael",
-  "speed": 0.84
+  "speed": 1.0
  },
  {
   "id": "d1",
   "text": "Sixty years of nights, Gus. The lamp failed once before. One night. Twelve seconds.",
   "voice": "bm_george",
-  "speed": 0.88
+  "speed": 1.0
  },
  {
   "id": "d2",
   "text": "Look at the date.",
   "voice": "bm_george",
-  "speed": 0.88
+  "speed": 1.0
  },
  {
   "id": "n3",
   "text": "Gus knew the date before he read it. Everyone on the island knew it.",
   "voice": "am_michael",
-  "speed": 0.84
+  "speed": 1.0
  },
  {
   "id": "n4",
   "text": "It was the night he was born.",
   "voice": "am_michael",
-  "speed": 0.84
+  "speed": 1.0
  }
 ]

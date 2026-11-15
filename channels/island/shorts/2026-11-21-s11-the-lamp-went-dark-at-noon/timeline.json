@@ -2,7 +2,7 @@
  "code": "S11",
  "title": "The lamp went dark at noon",
  "label": "THE KEEPER'S ISLAND \u00b7 11",
- "DUR": 42.224,
+ "DUR": 36.228,
  "shots": [
   {
    "id": "village",
@@ -67,19 +67,19 @@
    "lead": 1.2,
    "tail": 0.4,
    "a": 0.0,
-   "b": 15.824,
+   "b": 13.809,
    "vo": [
     {
      "id": "n1",
-     "t": 3.1,
-     "d": 5.727,
+     "t": 2.6,
+     "d": 4.91,
      "sub": "Day three. The council met on the quay at noon, because Dunn liked an audience.",
      "dlg": null
     },
     {
      "id": "n2",
-     "t": 9.727,
-     "d": 5.697,
+     "t": 8.41,
+     "d": 5.079,
      "sub": "Gus had no proof. He had a story about a door, and a cat who would not go near it.",
      "dlg": null
     }
@@ -120,13 +120,13 @@
    },
    "lead": 0.8,
    "tail": 1.2,
-   "a": 15.824,
-   "b": 24.067,
+   "a": 13.809,
+   "b": 20.175,
    "vo": [
     {
      "id": "n3",
-     "t": 18.224,
-     "d": 4.643,
+     "t": 15.169,
+     "d": 4.046,
      "sub": "Then, at twelve o\u2019clock exactly, in full sun\u2026 the lamp went out.",
      "dlg": null
     }
@@ -172,20 +172,20 @@
    "lamp": "off",
    "lead": 0.6,
    "tail": 1.0,
-   "a": 24.067,
-   "b": 42.224,
+   "a": 20.175,
+   "b": 36.228,
    "vo": [
     {
      "id": "n4",
-     "t": 25.167,
-     "d": 4.227,
+     "t": 20.845,
+     "d": 3.573,
      "sub": "Every head on the quay turned to the tower. Every head but one.",
      "dlg": null
     },
     {
      "id": "n5",
-     "t": 30.394,
-     "d": 7.73,
+     "t": 25.368,
+     "d": 6.76,
      "sub": "On the north rocks stood the yellow coat. Facing away from the lighthouse. Facing the quay. Facing Gus.",
      "dlg": null
     }
@@ -193,9 +193,9 @@
   }
  ],
  "hook": "The lamp went dark at noon. In broad daylight. With the whole village watching.",
- "hookEnd": 2.8,
+ "hookEnd": 2.3,
  "ask": "He wasn\u2019t looking at the lighthouse. He was looking at Gus. Why?",
- "askAt": 38.624,
+ "askAt": 32.628,
  "music": {
   "mood": "tense"
  }

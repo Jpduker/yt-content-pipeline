@@ -2,7 +2,7 @@
  "code": "S04",
  "title": "Pip saw someone on the rocks",
  "label": "THE KEEPER'S ISLAND \u00b7 4",
- "DUR": 41.552,
+ "DUR": 35.326,
  "shots": [
   {
    "id": "fly",
@@ -34,19 +34,19 @@
    "lead": 1.2,
    "tail": 0.6,
    "a": 0.0,
-   "b": 16.112,
+   "b": 13.651,
    "vo": [
     {
      "id": "n1",
-     "t": 3.1,
-     "d": 5.669,
+     "t": 2.6,
+     "d": 4.75,
      "sub": "Pip the gull flies over the island every morning, mostly to be seen flying.",
      "dlg": null
     },
     {
      "id": "n2",
-     "t": 9.569,
-     "d": 5.943,
+     "t": 8.2,
+     "d": 4.971,
      "sub": "He saw the wreck. He saw Gus on the stairs. And on the north rocks, he saw a coat.",
      "dlg": null
     }
@@ -104,13 +104,13 @@
    ],
    "lead": 0.9,
    "tail": 0.9,
-   "a": 16.112,
-   "b": 24.537,
+   "a": 13.651,
+   "b": 20.33,
    "vo": [
     {
      "id": "n3",
-     "t": 18.012,
-     "d": 5.625,
+     "t": 14.781,
+     "d": 4.829,
      "sub": "A yellow coat, hood up, facing the lighthouse. Standing where no boat could land.",
      "dlg": null
     }
@@ -155,27 +155,27 @@
    ],
    "lead": 0.7,
    "tail": 1.0,
-   "a": 24.537,
-   "b": 41.552,
+   "a": 20.33,
+   "b": 35.326,
    "vo": [
     {
      "id": "n4",
-     "t": 25.837,
-     "d": 4.756,
+     "t": 21.12,
+     "d": 4.076,
      "sub": "Pip screamed it to the whole harbour. Gulls are not taken seriously.",
      "dlg": null
     },
     {
      "id": "n5",
-     "t": 30.993,
-     "d": 3.491,
+     "t": 25.646,
+     "d": 3.044,
      "sub": "By the time Gus looked up\u2026 the rocks were empty.",
      "dlg": null
     },
     {
      "id": "n6",
-     "t": 35.384,
-     "d": 2.468,
+     "t": 29.59,
+     "d": 2.036,
      "sub": "But the coat had left something behind.",
      "dlg": null
     }
@@ -183,9 +183,9 @@
   }
  ],
  "hook": "Pip sees everything from up there. This time, he wished he hadn\u2019t.",
- "hookEnd": 2.8,
+ "hookEnd": 2.3,
  "ask": "Would you tell the keeper what you saw\u2026 if nobody believed you?",
- "askAt": 38.352,
+ "askAt": 32.126,
  "music": {
   "mood": "day"
  }

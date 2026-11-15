@@ -2,7 +2,7 @@
  "code": "S06",
  "title": "Three cables, one cut",
  "label": "THE KEEPER'S ISLAND \u00b7 6",
- "DUR": 45.067,
+ "DUR": 39.085,
  "shots": [
   {
    "id": "tower",
@@ -41,19 +41,19 @@
    "lead": 1.2,
    "tail": 0.8,
    "a": 0.0,
-   "b": 16.176,
+   "b": 14.038,
    "vo": [
     {
      "id": "n1",
-     "t": 3.1,
-     "d": 5.233,
+     "t": 2.6,
+     "d": 4.546,
      "sub": "At dawn Gus went up with his lantern. Behind the lamp run three cables.",
      "dlg": null
     },
     {
      "id": "n2",
-     "t": 9.233,
-     "d": 6.143,
+     "t": 8.046,
+     "d": 5.352,
      "sub": "Two were whole, and wet with sea-mist. The third was cut clean through. And it was dry.",
      "dlg": null
     }
@@ -98,20 +98,20 @@
    },
    "lead": 0.8,
    "tail": 0.6,
-   "a": 16.176,
-   "b": 31.058,
+   "a": 14.038,
+   "b": 26.817,
    "vo": [
     {
      "id": "n3",
-     "t": 17.376,
-     "d": 5.845,
+     "t": 14.798,
+     "d": 5.183,
      "sub": "Dry means cut from inside, after the mist. And whoever did it left in a hurry.",
      "dlg": null
     },
     {
      "id": "n4",
-     "t": 24.221,
-     "d": 6.237,
+     "t": 20.931,
+     "d": 5.406,
      "sub": "The window was open. The stairs were\u2026 painted. Dunn had painted them that very morning.",
      "dlg": null
     }
@@ -164,13 +164,13 @@
    ],
    "lead": 0.6,
    "tail": 1.0,
-   "a": 31.058,
-   "b": 45.067,
+   "a": 26.817,
+   "b": 39.085,
    "vo": [
     {
      "id": "n5",
-     "t": 32.658,
-     "d": 8.309,
+     "t": 27.737,
+     "d": 7.248,
      "sub": "Yellow paint. On the stairs, going down. Across the grass. Toward a door in the rock that Gus had never seen.",
      "dlg": null
     }
@@ -178,9 +178,9 @@
   }
  ],
  "hook": "Three cables. One cut. The cut one was dry.",
- "hookEnd": 2.8,
+ "hookEnd": 2.3,
  "ask": "Which way did the cutter leave? Stairs, or window?",
- "askAt": 41.467,
+ "askAt": 35.485,
  "music": {
   "mood": "tense"
  }

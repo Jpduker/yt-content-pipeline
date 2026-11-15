@@ -1,0 +1,603 @@
+[
+ {
+  "id": "c1",
+  "text": "Twelve minutes past three.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s01_n1",
+  "text": "On the Keeper's Island, the lamp has turned every night for a hundred years.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "asr": "On the Keeper's Island, the lamp has turned every night for a hundred years."
+ },
+ {
+  "id": "s01_n2",
+  "text": "Gus has kept it for thirty of them. He has never once missed a turn.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s01_n3",
+  "text": "Tonight, at twelve minutes past three\u2026",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s01_n4",
+  "text": "it stopped.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s01_n5",
+  "text": "Twelve seconds of dark. Then the lamp came back by itself.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s01_n6",
+  "text": "Out at sea, a horn answered. Something had been sailing toward the light.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "a1",
+  "text": "Every morning for thirty years, Gus has walked the same path to the same tower.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "a2",
+  "text": "He winds the clock. He trims the wick. He writes one line in the log: lamp kept.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "a3",
+  "text": "The island has exactly one rule, older than anyone living on it.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "a4",
+  "text": "The lamp never goes out. Not for weather. Not for war. Not for anyone.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s02_n1",
+  "text": "By morning the fog had lifted, and there was a boat on the north rocks.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s02_n2",
+  "text": "Nobody hurt. Nobody on board, either.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s02_n3",
+  "text": "The harbour master, Dunn, had already decided whose fault it was.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s02_d1",
+  "text": "Your lamp went out, Gus. I have three witnesses and a hole in a hull.",
+  "voice": "bm_george",
+  "speed": 1.0
+ },
+ {
+  "id": "s02_d2",
+  "text": "Three days. Prove it wasn\u2019t you, or the council takes the key.",
+  "voice": "bm_george",
+  "speed": 1.0
+ },
+ {
+  "id": "s02_n4",
+  "text": "Gus said nothing. He was not thinking about the council.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s02_n5",
+  "text": "He was thinking about the lamp. It had not failed. It had been switched off.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s03_n1",
+  "text": "Gus climbed to the lamp room at noon. The first thing he checked was the clock.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s03_n2",
+  "text": "Twelve seconds slow. Exactly twelve.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s03_n3",
+  "text": "A clock does not lose twelve seconds on its own. Somebody had stopped the pendulum, and started it again.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s03_n4",
+  "text": "On the stairs, still damp, were footprints. Webbed ones.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s03_n5",
+  "text": "Mabel, as usual, said nothing. Then she put her paw beside one.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s03_n6",
+  "text": "Too big for a gull. Far too big. Those were a diver\u2019s fins.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s03_n7",
+  "text": "Someone had come up from the sea.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s04_n1",
+  "text": "Pip the gull flies over the island every morning, mostly to be seen flying.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s04_n2",
+  "text": "He saw the wreck. He saw Gus on the stairs. And on the north rocks, he saw a coat.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s04_n3",
+  "text": "A yellow coat, hood up, facing the lighthouse. Standing where no boat could land.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s04_n4",
+  "text": "Pip screamed it to the whole harbour. Gulls are not taken seriously.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s04_n5",
+  "text": "By the time Gus looked up\u2026 the rocks were empty.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s04_n6",
+  "text": "But the coat had left something behind.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "q1",
+  "text": "Stop here for a second. You have seen three things.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "q2",
+  "text": "A clock stopped by hand. Fins on the stairs. A coat on rocks where no boat can land.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "q3",
+  "text": "Somebody came out of the sea, climbed the tower, and left by a way nobody watches.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s05_n1",
+  "text": "That evening Gus set a watch on the lamp. Mabel came because the cottage was cold.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s05_n2",
+  "text": "Rollo the mouse came for the sandwiches, and said so.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s05_n3",
+  "text": "Midnight. One. Two. Mabel slept. Rollo finished the sandwiches.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s05_n4",
+  "text": "Three eleven. Gus raised his lantern so the lamp would know he was there.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s05_n5",
+  "text": "Three twelve. Dark.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s05_n6",
+  "text": "And far along the cliff path, something was moving. A small light. Swinging, like a lantern.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s05_n7",
+  "text": "Gus looked down at his own. Still lit. Still in his hand.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s06_n1",
+  "text": "At dawn Gus went up with his lantern. Behind the lamp run three cables.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s06_n2",
+  "text": "Two were whole, and wet with sea-mist. The third was cut clean through. And it was dry.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s06_n3",
+  "text": "Dry means cut from inside, after the mist. And whoever did it left in a hurry.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s06_n4",
+  "text": "The window was open. The stairs were\u2026 painted. Dunn had painted them that very morning.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s06_n5",
+  "text": "Yellow paint. On the stairs, going down. Across the grass. Toward a door in the rock that Gus had never seen.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "b1",
+  "text": "Paint does not lie. Whoever cut the cable walked through it, and kept walking.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "b2",
+  "text": "Not toward the harbour. Not toward the village. Toward the rock itself.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s07_n1",
+  "text": "The paint led along the cliff path, under the headland, to a door set into the rock.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s07_n2",
+  "text": "Thirty years. Gus had walked past it every single day.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s07_n3",
+  "text": "No handle. No keyhole. Four brass marks, worn smooth, in a square.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s07_n4",
+  "text": "Mabel sniffed the gap under it. Then she sat down very fast, which she only does for two things.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s07_n5",
+  "text": "Fish. And fear.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s07_n6",
+  "text": "Gus had seen those four marks once before. In a story. One his grandmother used to tell to make children behave.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s08_n1",
+  "text": "Old Wren keeps the post office, the island\u2019s letters, and every story nobody wants told.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s08_n2",
+  "text": "Gus drew the four marks in the dust. She did not look at them for long.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s08_d1",
+  "text": "The man who sold his shadow. He paid with four marks, one for each year the sea let him live.",
+  "voice": "bf_emma",
+  "speed": 1.0
+ },
+ {
+  "id": "s08_d2",
+  "text": "Three he carved on his door. The fourth was never drawn, Gus. It was burned.",
+  "voice": "bf_emma",
+  "speed": 1.0
+ },
+ {
+  "id": "s08_n3",
+  "text": "Then she closed the shutters, which she never does before the lamp comes on.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s08_n4",
+  "text": "That night, for the first time in a hundred years, the lamp did not come on at all.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "k1",
+  "text": "That night the island had no light at all, and Gus could not sleep. So he counted.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "k2",
+  "text": "One. A clock, stopped by hand. Two. A cable, cut from inside. Three. A door, older than the tower.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "k3",
+  "text": "Four. A stranger who never casts a shadow.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "k4",
+  "text": "And five. Every clue led to the same place. Under his own feet.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s09_n1",
+  "text": "Door, door, door, burned. Gus pressed the marks in the order of the tale.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s09_n2",
+  "text": "Nothing. He pressed them backwards. Nothing.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s09_n3",
+  "text": "Then Mabel pressed the fourth one. The burned one. Alone.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s09_n4",
+  "text": "The door swung in. Cold air came out, smelling of salt and old rope.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s09_n5",
+  "text": "Gus lifted his lantern. The flame leaned toward the dark, as if something in there were breathing it in.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s10_n1",
+  "text": "Inside, the tunnel ran down toward the sound of the sea. The floor was wet sand.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s10_n2",
+  "text": "And in the sand, two sets of footprints. Fins. And boots.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s10_n3",
+  "text": "Gus held the lantern low. The fin-prints threw little shadows on the wall, the way prints do.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s10_n4",
+  "text": "The boot-prints threw none.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s10_n5",
+  "text": "Mabel\u2019s fur stood up along her whole back.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s10_n6",
+  "text": "And then Gus\u2019s lantern went out. Not the lamp. His lantern. In his hand. Without a breath of wind.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "r1",
+  "text": "Before you go on. A flame needs three things. Fuel. Heat. Air.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "r2",
+  "text": "Gus\u2019s lantern had oil, and it was hot. So in that tunnel, something took the third.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s11_n1",
+  "text": "Day three. The council met on the quay at noon, because Dunn liked an audience.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s11_n2",
+  "text": "Gus had no proof. He had a story about a door, and a cat who would not go near it.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s11_n3",
+  "text": "Then, at twelve o\u2019clock exactly, in full sun\u2026 the lamp went out.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s11_n4",
+  "text": "Every head on the quay turned to the tower. Every head but one.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s11_n5",
+  "text": "On the north rocks stood the yellow coat. Facing away from the lighthouse. Facing the quay. Facing Gus.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s12_n1",
+  "text": "A lamp that fails in daylight is nobody\u2019s carelessness. Even Dunn could see that.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s12_n2",
+  "text": "So he did something he had never done. He opened the old logbook for Gus.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s12_d1",
+  "text": "Sixty years of nights, Gus. The lamp failed once before. One night. Twelve seconds.",
+  "voice": "bm_george",
+  "speed": 1.0
+ },
+ {
+  "id": "s12_d2",
+  "text": "Look at the date.",
+  "voice": "bm_george",
+  "speed": 1.0
+ },
+ {
+  "id": "s12_n3",
+  "text": "Gus knew the date before he read it. Everyone on the island knew it.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s12_n4",
+  "text": "It was the night he was born.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s13_n1",
+  "text": "That night a storm came in from the north, and with it, the horn.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s13_n2",
+  "text": "Long. Low. Close. The whole village went to the windows to see the ship.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s13_n3",
+  "text": "There was no ship. The sea was empty to the horizon, and the horn kept coming.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s13_n4",
+  "text": "Gus knelt on the jetty and put his ear to the planks.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s13_n5",
+  "text": "It was not coming from the sea. It was coming from under the island.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s14_n1",
+  "text": "At dawn on the fourth day, Gus walked down to the quay and put the lamp key in Dunn\u2019s hand.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s14_n2",
+  "text": "Dunn did not take it. He had read the logbook too.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s14_d1",
+  "text": "Keep it. Whatever is under this island wants the keeper, not the key.",
+  "voice": "bm_george",
+  "speed": 1.0
+ },
+ {
+  "id": "s14_n3",
+  "text": "So Gus went home, fed the cat, trimmed his lantern, and waited for dark.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s14_n4",
+  "text": "Because tonight he was going down the tunnel. All the way.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "t1",
+  "text": "At twelve minutes past three, the keeper of the lamp walked into the dark on purpose.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "t2",
+  "text": "Behind him, for the first time in a hundred years, nobody kept the light.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]

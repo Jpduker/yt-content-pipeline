@@ -2,7 +2,7 @@
  "code": "S02",
  "title": "The boat on the north rocks",
  "label": "THE KEEPER'S ISLAND \u00b7 2",
- "DUR": 44.426,
+ "DUR": 38.602,
  "shots": [
   {
    "id": "rocks",
@@ -43,19 +43,19 @@
    "lead": 1.4,
    "tail": 0.8,
    "a": 0.0,
-   "b": 12.794,
+   "b": 10.862,
    "vo": [
     {
      "id": "n1",
-     "t": 3.1,
-     "d": 4.853,
+     "t": 2.6,
+     "d": 4.046,
      "sub": "By morning the fog had lifted, and there was a boat on the north rocks.",
      "dlg": null
     },
     {
      "id": "n2",
-     "t": 8.853,
-     "d": 3.141,
+     "t": 7.546,
+     "d": 2.676,
      "sub": "Nobody hurt. Nobody on board, either.",
      "dlg": null
     }
@@ -114,27 +114,27 @@
    },
    "lead": 1.0,
    "tail": 0.6,
-   "a": 12.794,
-   "b": 29.774,
+   "a": 10.862,
+   "b": 25.716,
    "vo": [
     {
      "id": "n3",
-     "t": 14.094,
-     "d": 4.552,
+     "t": 11.712,
+     "d": 3.999,
      "sub": "The harbour master, Dunn, had already decided whose fault it was.",
      "dlg": null
     },
     {
      "id": "d1",
-     "t": 19.396,
-     "d": 4.678,
+     "t": 16.161,
+     "d": 4.302,
      "sub": "Your lamp went out, Gus. I have three witnesses and a hole in a hull.",
      "dlg": "DUNN"
     },
     {
      "id": "d2",
-     "t": 24.874,
-     "d": 4.3,
+     "t": 21.313,
+     "d": 3.923,
      "sub": "Three days. Prove it wasn\u2019t you, or the council takes the key.",
      "dlg": "DUNN"
     }
@@ -185,20 +185,20 @@
    },
    "lead": 0.8,
    "tail": 1.0,
-   "a": 29.774,
-   "b": 44.426,
+   "a": 25.716,
+   "b": 38.602,
    "vo": [
     {
      "id": "n4",
-     "t": 31.074,
-     "d": 3.743,
+     "t": 26.526,
+     "d": 3.239,
      "sub": "Gus said nothing. He was not thinking about the council.",
      "dlg": null
     },
     {
      "id": "n5",
-     "t": 35.817,
-     "d": 4.909,
+     "t": 30.715,
+     "d": 4.187,
      "sub": "He was thinking about the lamp. It had not failed. It had been switched off.",
      "dlg": null
     }
@@ -206,9 +206,9 @@
   }
  ],
  "hook": "By morning, there was a boat on the north rocks.",
- "hookEnd": 2.8,
+ "hookEnd": 2.3,
  "ask": "Three days to prove it wasn\u2019t him. Where would you start?",
- "askAt": 41.226,
+ "askAt": 35.402,
  "music": {
   "mood": "day"
  }

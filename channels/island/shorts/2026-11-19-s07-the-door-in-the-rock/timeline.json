@@ -2,7 +2,7 @@
  "code": "S07",
  "title": "The door in the rock",
  "label": "THE KEEPER'S ISLAND \u00b7 7",
- "DUR": 45.868,
+ "DUR": 39.577,
  "shots": [
   {
    "id": "walk",
@@ -53,19 +53,19 @@
    "lead": 1.2,
    "tail": 0.8,
    "a": 0.0,
-   "b": 14.884,
+   "b": 12.806,
    "vo": [
     {
      "id": "n1",
-     "t": 3.1,
-     "d": 5.946,
+     "t": 2.6,
+     "d": 5.138,
      "sub": "The paint led along the cliff path, under the headland, to a door set into the rock.",
      "dlg": null
     },
     {
      "id": "n2",
-     "t": 9.946,
-     "d": 4.138,
+     "t": 8.638,
+     "d": 3.528,
      "sub": "Thirty years. Gus had walked past it every single day.",
      "dlg": null
     }
@@ -122,27 +122,27 @@
    ],
    "lead": 0.8,
    "tail": 0.8,
-   "a": 14.884,
-   "b": 32.199,
+   "a": 12.806,
+   "b": 27.754,
    "vo": [
     {
      "id": "n3",
-     "t": 16.184,
-     "d": 5.493,
+     "t": 13.616,
+     "d": 4.793,
      "sub": "No handle. No keyhole. Four brass marks, worn smooth, in a square.",
      "dlg": null
     },
     {
      "id": "n4",
-     "t": 21.977,
-     "d": 7.09,
+     "t": 18.859,
+     "d": 6.263,
      "sub": "Mabel sniffed the gap under it. Then she sat down very fast, which she only does for two things.",
      "dlg": null
     },
     {
      "id": "n5",
-     "t": 30.067,
-     "d": 1.332,
+     "t": 26.072,
+     "d": 1.042,
      "sub": "Fish. And fear.",
      "dlg": null
     }
@@ -186,13 +186,13 @@
    },
    "lead": 0.5,
    "tail": 1.0,
-   "a": 32.199,
-   "b": 45.868,
+   "a": 27.754,
+   "b": 39.577,
    "vo": [
     {
      "id": "n6",
-     "t": 33.699,
-     "d": 8.469,
+     "t": 28.604,
+     "d": 7.273,
      "sub": "Gus had seen those four marks once before. In a story. One his grandmother used to tell to make children behave.",
      "dlg": null
     }
@@ -200,9 +200,9 @@
   }
  ],
  "hook": "Thirty years on this island. Gus had never seen this door.",
- "hookEnd": 2.8,
+ "hookEnd": 2.3,
  "ask": "Four marks. Who on the island would know them?",
- "askAt": 42.668,
+ "askAt": 36.377,
  "music": {
   "mood": "mystery"
  }

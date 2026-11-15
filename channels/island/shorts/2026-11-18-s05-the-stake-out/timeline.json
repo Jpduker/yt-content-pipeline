@@ -2,7 +2,7 @@
  "code": "S05",
  "title": "The stake-out",
  "label": "THE KEEPER'S ISLAND \u00b7 5",
- "DUR": 46.787,
+ "DUR": 40.353,
  "shots": [
   {
    "id": "cottage",
@@ -57,19 +57,19 @@
    "lead": 1.2,
    "tail": 0.6,
    "a": 0.0,
-   "b": 14.286,
+   "b": 12.686,
    "vo": [
     {
      "id": "n1",
-     "t": 3.1,
-     "d": 6.07,
+     "t": 2.6,
+     "d": 5.479,
      "sub": "That evening Gus set a watch on the lamp. Mabel came because the cottage was cold.",
      "dlg": null
     },
     {
      "id": "n2",
-     "t": 9.97,
-     "d": 3.716,
+     "t": 8.929,
+     "d": 3.277,
      "sub": "Rollo the mouse came for the sandwiches, and said so.",
      "dlg": null
     }
@@ -127,20 +127,20 @@
    },
    "lead": 0.8,
    "tail": 0.4,
-   "a": 14.286,
-   "b": 27.515,
+   "a": 12.686,
+   "b": 23.803,
    "vo": [
     {
      "id": "n3",
-     "t": 15.586,
-     "d": 5.022,
+     "t": 13.496,
+     "d": 4.415,
      "sub": "Midnight. One. Two. Mabel slept. Rollo finished the sandwiches.",
      "dlg": null
     },
     {
      "id": "n4",
-     "t": 21.808,
-     "d": 5.307,
+     "t": 18.961,
+     "d": 4.522,
      "sub": "Three eleven. Gus raised his lantern so the lamp would know he was there.",
      "dlg": null
     }
@@ -180,27 +180,27 @@
    },
    "lead": 0.6,
    "tail": 1.0,
-   "a": 27.515,
-   "b": 46.787,
+   "a": 23.803,
+   "b": 40.353,
    "vo": [
     {
      "id": "n5",
-     "t": 29.415,
-     "d": 1.657,
+     "t": 24.873,
+     "d": 1.324,
      "sub": "Three twelve. Dark.",
      "dlg": null
     },
     {
      "id": "n6",
-     "t": 31.572,
-     "d": 6.522,
+     "t": 26.647,
+     "d": 5.569,
      "sub": "And far along the cliff path, something was moving. A small light. Swinging, like a lantern.",
      "dlg": null
     },
     {
      "id": "n7",
-     "t": 38.994,
-     "d": 4.093,
+     "t": 33.116,
+     "d": 3.537,
      "sub": "Gus looked down at his own. Still lit. Still in his hand.",
      "dlg": null
     }
@@ -208,9 +208,9 @@
   }
  ],
  "hook": "They waited all night for 3:12. Rollo ate the sandwiches.",
- "hookEnd": 2.8,
+ "hookEnd": 2.3,
  "ask": "Whose lantern was on the path\u2026 while Gus held his?",
- "askAt": 43.587,
+ "askAt": 37.153,
  "music": {
   "mood": "dusk"
  }

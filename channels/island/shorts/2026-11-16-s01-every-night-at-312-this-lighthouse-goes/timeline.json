@@ -2,7 +2,7 @@
  "code": "S01",
  "title": "Every night at 3:12, this lighthouse goes dark",
  "label": "THE KEEPER'S ISLAND \u00b7 1",
- "DUR": 41.117,
+ "DUR": 34.961,
  "shots": [
   {
    "id": "map",
@@ -34,19 +34,19 @@
    "lead": 3.2,
    "tail": 1.0,
    "a": 0.0,
-   "b": 15.076,
+   "b": 12.938,
    "vo": [
     {
      "id": "n1",
-     "t": 3.2,
-     "d": 5.156,
+     "t": 2.6,
+     "d": 4.511,
      "sub": "On the Keeper's Island, the lamp has turned every night for a hundred years.",
      "dlg": null
     },
     {
      "id": "n2",
-     "t": 9.356,
-     "d": 4.72,
+     "t": 8.061,
+     "d": 4.077,
      "sub": "Gus has kept it for thirty of them. He has never once missed a turn.",
      "dlg": null
     }
@@ -102,20 +102,20 @@
    ],
    "lead": 1.2,
    "tail": 4.0,
-   "a": 15.076,
-   "b": 25.399,
+   "a": 12.938,
+   "b": 21.216,
    "vo": [
     {
      "id": "n3",
-     "t": 16.476,
-     "d": 2.275,
+     "t": 13.878,
+     "d": 2.049,
      "sub": "Tonight, at twelve minutes past three\u2026",
      "dlg": null
     },
     {
      "id": "n4",
-     "t": 20.351,
-     "d": 1.048,
+     "t": 17.177,
+     "d": 0.839,
      "sub": "it stopped.",
      "dlg": null
     }
@@ -163,20 +163,20 @@
    },
    "lead": 0.8,
    "tail": 1.0,
-   "a": 25.399,
-   "b": 41.117,
+   "a": 21.216,
+   "b": 34.961,
    "vo": [
     {
      "id": "n5",
-     "t": 26.799,
-     "d": 4.379,
+     "t": 22.076,
+     "d": 3.91,
      "sub": "Twelve seconds of dark. Then the lamp came back by itself.",
      "dlg": null
     },
     {
      "id": "n6",
-     "t": 32.378,
-     "d": 5.039,
+     "t": 27.036,
+     "d": 4.225,
      "sub": "Out at sea, a horn answered. Something had been sailing toward the light.",
      "dlg": null
     }
@@ -184,9 +184,9 @@
   }
  ],
  "hook": "Every night at 3:12, the lamp goes dark. For exactly twelve seconds.",
- "hookEnd": 2.8,
+ "hookEnd": 2.3,
  "ask": "Who is turning the lamp off\u2026 if the keeper never leaves it?",
- "askAt": 37.917,
+ "askAt": 31.761,
  "music": {
   "mood": "mystery"
  }

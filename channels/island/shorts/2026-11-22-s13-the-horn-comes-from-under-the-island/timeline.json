@@ -2,7 +2,7 @@
  "code": "S13",
  "title": "The horn comes from under the island",
  "label": "THE KEEPER'S ISLAND \u00b7 13",
- "DUR": 35.615,
+ "DUR": 30.533,
  "shots": [
   {
    "id": "map",
@@ -48,19 +48,19 @@
    "lead": 1.2,
    "tail": 0.6,
    "a": 0.0,
-   "b": 13.739,
+   "b": 11.752,
    "vo": [
     {
      "id": "n1",
-     "t": 3.1,
-     "d": 4.18,
+     "t": 2.6,
+     "d": 3.673,
      "sub": "That night a storm came in from the north, and with it, the horn.",
      "dlg": null
     },
     {
      "id": "n2",
-     "t": 7.88,
-     "d": 5.259,
+     "t": 6.723,
+     "d": 4.549,
      "sub": "Long. Low. Close. The whole village went to the windows to see the ship.",
      "dlg": null
     }
@@ -129,13 +129,13 @@
    "weather": "rain",
    "lead": 0.8,
    "tail": 0.6,
-   "a": 13.739,
-   "b": 21.28,
+   "a": 11.752,
+   "b": 17.887,
    "vo": [
     {
      "id": "n3",
-     "t": 15.239,
-     "d": 5.441,
+     "t": 12.662,
+     "d": 4.745,
      "sub": "There was no ship. The sea was empty to the horizon, and the horn kept coming.",
      "dlg": null
     }
@@ -188,20 +188,20 @@
    "weather": "rain",
    "lead": 0.6,
    "tail": 1.0,
-   "a": 21.28,
-   "b": 35.615,
+   "a": 17.887,
+   "b": 30.533,
    "vo": [
     {
      "id": "n4",
-     "t": 22.78,
-     "d": 3.665,
+     "t": 18.757,
+     "d": 3.156,
      "sub": "Gus knelt on the jetty and put his ear to the planks.",
      "dlg": null
     },
     {
      "id": "n5",
-     "t": 27.445,
-     "d": 4.47,
+     "t": 22.863,
+     "d": 3.97,
      "sub": "It was not coming from the sea. It was coming from under the island.",
      "dlg": null
     }
@@ -209,9 +209,9 @@
   }
  ],
  "hook": "The horn sounded again that night. There was no ship.",
- "hookEnd": 2.8,
+ "hookEnd": 2.3,
  "ask": "A ship\u2019s horn, from under the island. What is down there?",
- "askAt": 32.415,
+ "askAt": 27.333,
  "music": {
   "mood": "dread"
  }

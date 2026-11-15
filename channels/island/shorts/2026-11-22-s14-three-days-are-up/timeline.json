@@ -2,7 +2,7 @@
  "code": "S14",
  "title": "Three days are up",
  "label": "THE KEEPER'S ISLAND \u00b7 14",
- "DUR": 36.303,
+ "DUR": 31.742,
  "shots": [
   {
    "id": "quay",
@@ -66,19 +66,19 @@
    "lead": 1.2,
    "tail": 0.4,
    "a": 0.0,
-   "b": 13.914,
+   "b": 12.171,
    "vo": [
     {
      "id": "n1",
-     "t": 3.1,
-     "d": 6.173,
+     "t": 2.6,
+     "d": 5.435,
      "sub": "At dawn on the fourth day, Gus walked down to the quay and put the lamp key in Dunn\u2019s hand.",
      "dlg": null
     },
     {
      "id": "n2",
-     "t": 10.073,
-     "d": 3.441,
+     "t": 8.885,
+     "d": 2.966,
      "sub": "Dunn did not take it. He had read the logbook too.",
      "dlg": null
     }
@@ -129,13 +129,13 @@
    },
    "lead": 0.6,
    "tail": 0.6,
-   "a": 13.914,
-   "b": 20.718,
+   "a": 12.171,
+   "b": 17.796,
    "vo": [
     {
      "id": "d1",
-     "t": 15.414,
-     "d": 4.704,
+     "t": 13.041,
+     "d": 4.275,
      "sub": "Keep it. Whatever is under this island wants the keeper, not the key.",
      "dlg": "DUNN"
     }
@@ -173,20 +173,20 @@
    "lamp": "off",
    "lead": 0.8,
    "tail": 1.2,
-   "a": 20.718,
-   "b": 36.303,
+   "a": 17.796,
+   "b": 31.742,
    "vo": [
     {
      "id": "n3",
-     "t": 22.118,
-     "d": 5.159,
+     "t": 18.656,
+     "d": 4.566,
      "sub": "So Gus went home, fed the cat, trimmed his lantern, and waited for dark.",
      "dlg": null
     },
     {
      "id": "n4",
-     "t": 28.277,
-     "d": 3.726,
+     "t": 24.172,
+     "d": 3.27,
      "sub": "Because tonight he was going down the tunnel. All the way.",
      "dlg": null
     }
@@ -194,9 +194,9 @@
   }
  ],
  "hook": "Three days were up. Gus gave Dunn the key himself.",
- "hookEnd": 2.8,
+ "hookEnd": 2.3,
  "ask": "Chapter two begins where the light doesn\u2019t reach. Are you coming down?",
- "askAt": 32.503,
+ "askAt": 27.942,
  "music": {
   "mood": "dusk"
  }

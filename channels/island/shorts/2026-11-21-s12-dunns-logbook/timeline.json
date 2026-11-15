@@ -2,7 +2,7 @@
  "code": "S12",
  "title": "Dunn\u2019s logbook",
  "label": "THE KEEPER'S ISLAND \u00b7 12",
- "DUR": 37.373,
+ "DUR": 32.735,
  "shots": [
   {
    "id": "office",
@@ -58,19 +58,19 @@
    "lead": 1.2,
    "tail": 0.4,
    "a": 0.0,
-   "b": 15.003,
+   "b": 12.959,
    "vo": [
     {
      "id": "n1",
-     "t": 3.1,
-     "d": 5.878,
+     "t": 2.6,
+     "d": 5.143,
      "sub": "A lamp that fails in daylight is nobody\u2019s carelessness. Even Dunn could see that.",
      "dlg": null
     },
     {
      "id": "n2",
-     "t": 9.578,
-     "d": 5.025,
+     "t": 8.193,
+     "d": 4.446,
      "sub": "So he did something he had never done. He opened the old logbook for Gus.",
      "dlg": null
     }
@@ -120,20 +120,20 @@
    },
    "lead": 0.6,
    "tail": 0.6,
-   "a": 15.003,
-   "b": 25.057,
+   "a": 12.959,
+   "b": 21.919,
    "vo": [
     {
      "id": "d1",
-     "t": 15.603,
-     "d": 6.283,
+     "t": 13.379,
+     "d": 5.792,
      "sub": "Sixty years of nights, Gus. The lamp failed once before. One night. Twelve seconds.",
      "dlg": "DUNN"
     },
     {
      "id": "d2",
-     "t": 23.086,
-     "d": 1.371,
+     "t": 20.221,
+     "d": 1.218,
      "sub": "Look at the date.",
      "dlg": "DUNN"
     }
@@ -191,20 +191,20 @@
    },
    "lead": 0.6,
    "tail": 1.0,
-   "a": 25.057,
-   "b": 37.373,
+   "a": 21.919,
+   "b": 32.735,
    "vo": [
     {
      "id": "n3",
-     "t": 26.157,
-     "d": 4.718,
+     "t": 22.589,
+     "d": 3.923,
      "sub": "Gus knew the date before he read it. Everyone on the island knew it.",
      "dlg": null
     },
     {
      "id": "n4",
-     "t": 31.875,
-     "d": 1.798,
+     "t": 27.462,
+     "d": 1.573,
      "sub": "It was the night he was born.",
      "dlg": null
     }
@@ -212,9 +212,9 @@
   }
  ],
  "hook": "Dunn\u2019s logbook goes back sixty years. The lamp has failed before. Once.",
- "hookEnd": 2.8,
+ "hookEnd": 2.3,
  "ask": "Twelve seconds, the night Gus was born. Coincidence?",
- "askAt": 34.173,
+ "askAt": 29.535,
  "music": {
   "mood": "mystery"
  }

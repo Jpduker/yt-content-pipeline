@@ -3,36 +3,36 @@
   "id": "n1",
   "text": "Old Wren keeps the post office, the island\u2019s letters, and every story nobody wants told.",
   "voice": "am_michael",
-  "speed": 0.84
+  "speed": 1.0
  },
  {
   "id": "n2",
   "text": "Gus drew the four marks in the dust. She did not look at them for long.",
   "voice": "am_michael",
-  "speed": 0.84
+  "speed": 1.0
  },
  {
   "id": "d1",
   "text": "The man who sold his shadow. He paid with four marks, one for each year the sea let him live.",
   "voice": "bf_emma",
-  "speed": 0.88
+  "speed": 1.0
  },
  {
   "id": "d2",
   "text": "Three he carved on his door. The fourth was never drawn, Gus. It was burned.",
   "voice": "bf_emma",
-  "speed": 0.88
+  "speed": 1.0
  },
  {
   "id": "n3",
   "text": "Then she closed the shutters, which she never does before the lamp comes on.",
   "voice": "am_michael",
-  "speed": 0.84
+  "speed": 1.0
  },
  {
   "id": "n4",
   "text": "That night, for the first time in a hundred years, the lamp did not come on at all.",
   "voice": "am_michael",
-  "speed": 0.84
+  "speed": 1.0
  }
 ]

@@ -125,11 +125,13 @@ for v in VO:
     place(vo, y, v['t']); s = int(v['t'] * SR); vmask[s:s + len(y)] = 1
 
 # —— Score: an original cue per Short on sampled instruments (ours). A minor, 60 bpm; mood from short.json.music ——
-mood = TL.get('music', {}).get('mood', 'mystery')
+MOOD0 = TL.get('music', {}).get('mood', 'mystery')
+def mood_at(t): s = next((s for s in shots if s['a'] <= t < s['b']), shots[-1]); return s.get('mood') or MOOD0
+mood = MOOD0
 CH = [['A2', 'E3', 'A3', 'C4', 'E4'], ['F2', 'C3', 'F3', 'A3', 'C4'], ['D2', 'A2', 'D3', 'F3', 'A3'], ['E2', 'B2', 'E3', 'G#3', 'B3']]
 ev = []; bar = 0; t = .2
 while t < DUR - .5:
-    ch = CH[bar % 4]; top = ch[2:]
+    mood = mood_at(t + .1); ch = CH[bar % 4]; top = ch[2:]
     ev.append((t, 'cellos', ch[0], 4.2, .42 if mood != 'day' else .3, .15))
     if mood in ('mystery', 'dread', 'dusk'):
         for k in range(8): ev.append((t + k * .5, 'harp', [ch[2], ch[3], ch[4], ch[3]][k % 4], .9, .32 + .06 * (k % 2 == 0), -.35 + .1 * (k % 3)))
@@ -144,7 +146,7 @@ while t < DUR - .5:
         for k in range(8): ev.append((t + k * .5, 'cellos_pizz', ch[0] if k % 2 == 0 else ch[1], .4, .3, -.1))
         if bar % 2 == 1: ev.append((t + 2.0, 'timpani', 'A1', 1.5, .3, 0))
     t += 4.0; bar += 1
-ev.append((.25, 'glockenspiel', 'A5', 1.6, .35, 0)); ev.append((.25, 'harp', 'A4', 1.6, .4, -.2))   # the hook ding
+if not os.environ.get('NODING'): ev.append((.25, 'glockenspiel', 'A5', 1.6, .35, 0)); ev.append((.25, 'harp', 'A4', 1.6, .4, -.2))   # the hook ding
 if TL.get('askAt'): ev.append((TL['askAt'], 'timpani', 'A1', 2.0, .45, 0)); ev.append((TL['askAt'], 'violins_trem', 'E4', DUR - TL['askAt'], .3, .2)); ev.append((TL['askAt'] + .02, 'cellos', 'A2', DUR - TL['askAt'], .4, -.1))
 mus = S.render(ev, dur=DUR + .5)[:N]
 mus = S.room(mus, size=.45, mix=.16)[:N]

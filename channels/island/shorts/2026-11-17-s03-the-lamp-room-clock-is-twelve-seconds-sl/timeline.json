@@ -2,7 +2,7 @@
  "code": "S03",
  "title": "The lamp-room clock is twelve seconds slow",
  "label": "THE KEEPER'S ISLAND \u00b7 3",
- "DUR": 45.113,
+ "DUR": 39.494,
  "shots": [
   {
    "id": "tower",
@@ -43,19 +43,19 @@
    "lead": 1.2,
    "tail": 0.8,
    "a": 0.0,
-   "b": 13.339,
+   "b": 11.581,
    "vo": [
     {
      "id": "n1",
-     "t": 3.1,
-     "d": 5.494,
+     "t": 2.6,
+     "d": 4.731,
      "sub": "Gus climbed to the lamp room at noon. The first thing he checked was the clock.",
      "dlg": null
     },
     {
      "id": "n2",
-     "t": 9.494,
-     "d": 3.045,
+     "t": 8.231,
+     "d": 2.71,
      "sub": "Twelve seconds slow. Exactly twelve.",
      "dlg": null
     }
@@ -112,20 +112,20 @@
    ],
    "lead": 0.8,
    "tail": 0.8,
-   "a": 13.339,
-   "b": 27.505,
+   "a": 11.581,
+   "b": 23.755,
    "vo": [
     {
      "id": "n3",
-     "t": 14.539,
-     "d": 7.299,
+     "t": 12.341,
+     "d": 6.516,
      "sub": "A clock does not lose twelve seconds on its own. Somebody had stopped the pendulum, and started it again.",
      "dlg": null
     },
     {
      "id": "n4",
-     "t": 22.838,
-     "d": 3.867,
+     "t": 19.807,
+     "d": 3.308,
      "sub": "On the stairs, still damp, were footprints. Webbed ones.",
      "dlg": null
     }
@@ -176,27 +176,27 @@
    },
    "lead": 0.6,
    "tail": 1.0,
-   "a": 27.505,
-   "b": 45.113,
+   "a": 23.755,
+   "b": 39.494,
    "vo": [
     {
      "id": "n5",
-     "t": 28.805,
-     "d": 4.92,
+     "t": 24.525,
+     "d": 4.161,
      "sub": "Mabel, as usual, said nothing. Then she put her paw beside one.",
      "dlg": null
     },
     {
      "id": "n6",
-     "t": 34.025,
-     "d": 4.669,
+     "t": 29.136,
+     "d": 4.124,
      "sub": "Too big for a gull. Far too big. Those were a diver\u2019s fins.",
      "dlg": null
     },
     {
      "id": "n7",
-     "t": 39.494,
-     "d": 1.919,
+     "t": 34.11,
+     "d": 1.684,
      "sub": "Someone had come up from the sea.",
      "dlg": null
     }
@@ -204,9 +204,9 @@
   }
  ],
  "hook": "The lamp-room clock was twelve seconds slow. Nobody had touched it.",
- "hookEnd": 2.8,
+ "hookEnd": 2.3,
  "ask": "Who climbs a lighthouse\u2026 from the sea?",
- "askAt": 41.913,
+ "askAt": 36.294,
  "music": {
   "mood": "mystery"
  }

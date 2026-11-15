@@ -2,7 +2,7 @@
  "code": "S08",
  "title": "Old Wren knows the marks",
  "label": "THE KEEPER'S ISLAND \u00b7 8",
- "DUR": 45.116,
+ "DUR": 39.521,
  "shots": [
   {
    "id": "post",
@@ -58,19 +58,19 @@
    "lead": 1.2,
    "tail": 0.4,
    "a": 0.0,
-   "b": 16.029,
+   "b": 13.63,
    "vo": [
     {
      "id": "n1",
-     "t": 3.1,
-     "d": 7.078,
+     "t": 2.6,
+     "d": 6.066,
      "sub": "Old Wren keeps the post office, the island\u2019s letters, and every story nobody wants told.",
      "dlg": null
     },
     {
      "id": "n2",
-     "t": 10.778,
-     "d": 4.851,
+     "t": 9.116,
+     "d": 4.194,
      "sub": "Gus drew the four marks in the dust. She did not look at them for long.",
      "dlg": null
     }
@@ -128,20 +128,20 @@
    },
    "lead": 0.6,
    "tail": 0.6,
-   "a": 16.029,
-   "b": 28.236,
+   "a": 13.63,
+   "b": 24.686,
    "vo": [
     {
      "id": "d1",
-     "t": 16.629,
-     "d": 5.552,
+     "t": 14.05,
+     "d": 5.048,
      "sub": "The man who sold his shadow. He paid with four marks, one for each year the sea let him live.",
      "dlg": "WREN"
     },
     {
      "id": "d2",
-     "t": 23.081,
-     "d": 4.555,
+     "t": 19.998,
+     "d": 4.208,
      "sub": "Three he carved on his door. The fourth was never drawn, Gus. It was burned.",
      "dlg": "WREN"
     }
@@ -192,20 +192,20 @@
    "lamp": "off",
    "lead": 0.6,
    "tail": 1.0,
-   "a": 28.236,
-   "b": 45.116,
+   "a": 24.686,
+   "b": 39.521,
    "vo": [
     {
      "id": "n3",
-     "t": 29.436,
-     "d": 5.137,
+     "t": 25.406,
+     "d": 4.297,
      "sub": "Then she closed the shutters, which she never does before the lamp comes on.",
      "dlg": null
     },
     {
      "id": "n4",
-     "t": 35.573,
-     "d": 5.443,
+     "t": 30.653,
+     "d": 4.768,
      "sub": "That night, for the first time in a hundred years, the lamp did not come on at all.",
      "dlg": null
     }
@@ -213,9 +213,9 @@
   }
  ],
  "hook": "Only one person on the island still tells the old tales.",
- "hookEnd": 2.8,
+ "hookEnd": 2.3,
  "ask": "A mark that was never drawn\u2026 only burned. Burned into what?",
- "askAt": 41.516,
+ "askAt": 35.921,
  "music": {
   "mood": "dusk"
  }

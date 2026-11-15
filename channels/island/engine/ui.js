@@ -67,6 +67,39 @@ function dialogue(t, v) {
   if (k >= 1 && Math.floor(t * 2) % 2 === 0) { g.fillStyle = '#e2c989'; g.beginPath(); g.moveTo(x + bw - 46, y + bh - 36); g.lineTo(x + bw - 30, y + bh - 36); g.lineTo(x + bw - 38, y + bh - 24); g.closePath(); g.fill(); }
   g.restore();
 }
+
+// —— Long-form extras: chapter card (shot.card), solve-it countdown (shot.solve), end title (shot.title) ——
+function cardShot(t, s) {
+  const lt = t - s.a, d = s.b - s.a, a0 = ss(seg(lt, .3, 1.1)), a1 = ss(seg(lt, .9, 1.8)), out = 1 - ss(seg(lt, d - .7, d - .1));
+  g.save(); const bg = g.createRadialGradient(W / 2, H / 2, 50, W / 2, H / 2, Math.max(W, H)); bg.addColorStop(0, '#0f1a2a'); bg.addColorStop(1, '#020308');
+  g.globalAlpha = Math.min(1, ss(seg(lt, 0, .3)) + (1 - out) * 0) * 1; g.fillStyle = bg; g.fillRect(0, 0, W, H);
+  g.textAlign = 'center'; g.textBaseline = 'middle';
+  g.globalAlpha = a0 * out; g.fillStyle = '#d8c28e'; g.font = '500 34px Cinzel'; g.fillText(s.card.label.split('').join(String.fromCharCode(8202)), W / 2, H / 2 - 88);
+  ornament(W / 2, H / 2 - 40, 240 * (.4 + .6 * a0), a0 * out);
+  g.globalAlpha = a1 * out; g.fillStyle = '#f3ead6'; g.font = 'italic 500 78px "Cormorant Garamond"'; g.shadowColor = 'rgba(255,190,110,.35)'; g.shadowBlur = 24; g.fillText(s.card.title, W / 2, H / 2 + 38);
+  const p = Math.max(0, Math.sin(seg(lt, .5, d - .4) * Math.PI)) * out, eg = g.createRadialGradient(W / 2, H / 2 - 190, 0, W / 2, H / 2 - 190, 60);
+  eg.addColorStop(0, `rgba(255,236,190,${.95 * p})`); eg.addColorStop(.2, `rgba(255,190,100,${.4 * p})`); eg.addColorStop(1, 'rgba(255,140,40,0)'); g.shadowBlur = 0; g.globalAlpha = 1; g.fillStyle = eg; g.fillRect(W / 2 - 70, H / 2 - 260, 140, 140);
+  g.restore();
+}
+function solveShot(t, s) {
+  const k = s.solve, t0 = s.b - k.secs - .9, lt = t - t0; if (lt < 0) return;
+  const a = ss(seg(lt, 0, .5)) * (1 - ss(seg(t, s.b - .5, s.b - .1)));
+  plate(k.q, portrait ? 330 : 170, a, { label: 'SOLVE IT · PAUSE NOW', size: portrait ? 54 : 50 });
+  const n = Math.max(0, Math.ceil(k.secs - lt + .4)); if (n <= 0 || n > k.secs) return;
+  g.save(); g.globalAlpha = a; g.textAlign = 'center'; g.textBaseline = 'middle'; const cx = W / 2, cy = portrait ? 560 : 360, r = 52, f = (k.secs - lt + .4) % 1;
+  g.fillStyle = 'rgba(6,8,18,.85)'; g.beginPath(); g.arc(cx, cy, r, 0, 7); g.fill(); g.strokeStyle = '#e2c989'; g.lineWidth = 4; g.beginPath(); g.arc(cx, cy, r - 6, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * f); g.stroke();
+  g.fillStyle = '#f6f0e2'; g.font = '700 52px Cinzel'; g.fillText(String(n), cx, cy + 2); g.restore();
+}
+function titleShot(t, s) {
+  const lt = t - s.a, d = s.b - s.a, a = ss(seg(lt, .4, 1.6)), out = 1 - ss(seg(lt, d - .9, d - .1)), T = s.title;
+  g.save(); g.textAlign = 'center'; g.textBaseline = 'middle'; g.globalAlpha = a * out * .5; g.fillStyle = '#000'; g.fillRect(0, 0, W, H);
+  g.globalAlpha = a * out; g.font = `700 ${portrait ? 76 : 104}px Cinzel`; const gr = g.createLinearGradient(0, H / 2 - 120, 0, H / 2 - 20); gr.addColorStop(0, '#fff3cf'); gr.addColorStop(.55, '#e2c27c'); gr.addColorStop(1, '#a8803e');
+  g.fillStyle = gr; g.shadowColor = 'rgba(255,200,120,.55)'; g.shadowBlur = 40; g.fillText(T.title, W / 2, H / 2 - 70); g.shadowBlur = 0;
+  ornament(W / 2, H / 2, 330 * (.3 + .7 * a), a * out);
+  g.globalAlpha = ss(seg(lt, 1.6, 2.4)) * out; g.font = 'italic 500 50px "Cormorant Garamond"'; g.fillStyle = '#f3ead6'; g.fillText(T.tag, W / 2, H / 2 + 70);
+  g.globalAlpha = ss(seg(lt, 2.6, 3.4)) * out * .7; g.font = '500 24px "Cormorant Garamond"'; g.fillStyle = '#cfc6b2'; g.fillText(T.credit || '', W / 2, H - 70);
+  g.restore();
+}
 function blackout(t) {
   let a = 0;
   for (const s of TL.shots.slice(1)) { const c = s.a; if (t < c && t > c - .3) a = Math.max(a, ss((t - (c - .3)) / .3)); if (t >= c && t < c + .45) a = Math.max(a, 1 - ss((t - c) / .45)); }
@@ -75,7 +108,11 @@ function blackout(t) {
 }
 export function drawOverlay(t, shot) {
   g.setTransform(1, 0, 0, 1, 0, 0); g.clearRect(0, 0, cv.width, cv.height); g.setTransform(cv.width / W, 0, 0, cv.height / H, 0, 0);
+  const cur = TL.shots.find(s => t >= s.a && t < s.b) || TL.shots[TL.shots.length - 1];
   for (const s of TL.shots) for (const v of s.vo) { if (v.dlg) dialogue(t, v); else subtitle(t, v); }
+  if (cur.solve) solveShot(t, cur);
+  if (cur.title) titleShot(t, cur);
+  if (cur.card) { cardShot(t, cur); return; }
   if (TL.hook) plate(TL.hook, portrait ? 330 : 150, ss(seg(t, .25, .75)) * (1 - ss(seg(t, TL.hookEnd - .5, TL.hookEnd))), { label: TL.label });
   if (TL.ask) plate(TL.ask, portrait ? 330 : 150, ss(seg(t, TL.askAt, TL.askAt + .6)) * (1 - ss(seg(t, TL.DUR - .6, TL.DUR - .1))), { size: portrait ? 56 : 50 });
   blackout(t);

@@ -3,42 +3,42 @@
   "id": "n1",
   "text": "Gus climbed to the lamp room at noon. The first thing he checked was the clock.",
   "voice": "am_michael",
-  "speed": 0.84
+  "speed": 1.0
  },
  {
   "id": "n2",
   "text": "Twelve seconds slow. Exactly twelve.",
   "voice": "am_michael",
-  "speed": 0.84
+  "speed": 1.0
  },
  {
   "id": "n3",
   "text": "A clock does not lose twelve seconds on its own. Somebody had stopped the pendulum, and started it again.",
   "voice": "am_michael",
-  "speed": 0.84
+  "speed": 1.0
  },
  {
   "id": "n4",
   "text": "On the stairs, still damp, were footprints. Webbed ones.",
   "voice": "am_michael",
-  "speed": 0.84
+  "speed": 1.0
  },
  {
   "id": "n5",
   "text": "Mabel, as usual, said nothing. Then she put her paw beside one.",
   "voice": "am_michael",
-  "speed": 0.84
+  "speed": 1.0
  },
  {
   "id": "n6",
   "text": "Too big for a gull. Far too big. Those were a diver\u2019s fins.",
   "voice": "am_michael",
-  "speed": 0.84
+  "speed": 1.0
  },
  {
   "id": "n7",
   "text": "Someone had come up from the sea.",
   "voice": "am_michael",
-  "speed": 0.84
+  "speed": 1.0
  }
 ]
