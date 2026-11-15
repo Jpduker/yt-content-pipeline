@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
 """short.json + voices/dur.json → timeline.json (shot a/b, VO start times, hook/ask windows). Usage: timeline.py <short_dir>
-Pace rules (Vivek 2026-11-15: slower narration, pauses before reveals): default gap .75 s between lines, `pause` on a line = extra
-silence before it, a shot's `lead` = silence before its first line, `tail` = hold after its last line."""
+Pace rules (Vivek 2026-11-15 18:42: cinematic, not sleepy): voices at speed 1.0, .45 s between lines, a `pause` > .75 adds half of itself (reveals only), a shot's `lead` = silence before its first line, `tail` = hold after its last line."""
 import json, sys, os
 D = sys.argv[1]; S = json.load(open(os.path.join(D, 'short.json'))); DUR = json.load(open(os.path.join(D, 'voices', 'dur.json')))
 t = 0.0; shots = []
-hook_end = 2.8 if S.get('hook') else 0
+hook_end = 2.3 if S.get('hook') else 0
+PACE = float(os.environ.get('PACE', '1.0'))   # cinematic: tight gaps, short holds; pauses only before reveals
 for i, sh in enumerate(S['shots']):
-    a = t; lead = sh.get('lead', .9)
+    a = t; lead = sh.get('lead', .9) * .7
     if i == 0 and hook_end: lead = max(lead, hook_end + .3)
     cur = a + lead; vo = []
     for j, ln in enumerate(sh.get('lines', [])):
-        if j > 0: cur += ln.get('pause', .75)
-        elif ln.get('pause'): cur += ln['pause']
+        if j > 0: cur += .45 + (ln.get('pause', 0) * .5 if ln.get('pause', 0) > .75 else 0)
+        elif ln.get('pause'): cur += ln['pause'] * .5
         d = DUR[ln['id']]; vo.append({ 'id': ln['id'], 't': round(cur, 3), 'd': round(d, 3), 'sub': ln.get('sub', ln['text']), 'dlg': ln.get('dlg') }); cur += d
-    tail = sh.get('tail', .9)
+    tail = sh.get('tail', .9) * .8
     if i == len(S['shots']) - 1 and S.get('ask'): tail = max(tail, S.get('askLen', 3.2) + .5)
     b = max(a + sh.get('min', 3.0), cur + tail)
     out = dict(sh); out.pop('lines', None); out.update({ 'a': round(a, 3), 'b': round(b, 3), 'vo': vo }); shots.append(out); t = b

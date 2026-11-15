@@ -19,10 +19,9 @@ THUMB_SCENE = {
  13: 'a storm at night, an old keeper kneeling on a jetty with his ear to the planks, lightning over an empty black sea',
  14: 'dawn on the quay: a keeper holding out a brass key, a harbour master not taking it, the lighthouse pale and unlit behind',
 }
+THUMB_TEXT = { 1: '3:12 A.M.', 2: 'THE WRECK', 3: '12 SECONDS SLOW', 4: 'PIP SAW HIM', 5: 'WHOSE LANTERN?', 6: 'ONE CUT. DRY.', 7: 'THE DOOR', 8: 'THE FOURTH MARK', 9: 'IT OPENED', 10: 'NO SHADOW', 11: 'DARK AT NOON', 12: 'THE LOGBOOK', 13: 'THE HORN', 14: 'GOING DOWN' }
 blurb = TL['hook']
-desc = f"""{S['title']}.
-
-{blurb}
+desc = f"""{blurb}
 
 The Keeper's Island · Chapter 1, part {n}. One island, one lighthouse, one keeper who swears it isn't him. Every episode continues the story; every clue is on screen before it matters. New parts every day.
 
@@ -49,7 +48,7 @@ md = f"""# {S['code']} · {S['title']}
 
 ## Thumbnail (Gemini prompt — Shorts mostly show frame 1, but set it anyway)
 Vertical 9:16 illustration, pixel-art characters standing like paper cut-outs inside a lit, fogged 3D miniature diorama seen from a high three-quarter angle with a tilt-shift blur band, heavy vignette, strong bloom on every lamp. Scene: {THUMB_SCENE[n]}. Palette: cold blue night (or pale daylight where stated) against warm amber practicals; the old keeper wears a sea-green oilskin coat, mustard scarf, navy wool cap, white beard. No text, no logos, no game references. Leave the top 20 % and bottom 25 % uncluttered.
-Text to add yourself (Cinzel-like serif, gold): **{S['hook'].split('.')[0].upper()[:28]}**
+Text to add yourself (Cinzel-like serif, gold, 2–4 words): **{THUMB_TEXT[n]}**
 
 ## Credits (keep in the project; not needed in the description)
 Voices: Kokoro TTS (am_michael narrator{', bm_george as Dunn' if any(l.get('dlg') == 'DUNN' for sh in S['shots'] for l in sh['lines']) else ''}{', bf_emma as Old Wren' if any(l.get('dlg') == 'WREN' for sh in S['shots'] for l in sh['lines']) else ''}). Music: original cue rendered with lemo-opuscar's sampler (VSCO2 CE / Salamander samples, CC0 / CC-BY-3.0 — see tools/lemo-opuscar/core/audio/instruments/*/LICENSE). Engine: lemo-opuscar 2.5D Pixel Art (MIT code); our own world, cast and story.

@@ -29,3 +29,4 @@ Short, proven rules. A rule gets here from Jp's explicit instruction or a learni
 - Hero ("You", What-If channel) = the channel image (channels/stickman/characters/hero-channel-image.jpg): bald round head, tall oval eyes, green hoodie hood down. Never change his look, outfit or hair in any shot.
 - A character must look identical in wide shots and close-ups: draw heads/hair/hats/faces with one shared module (WI02 scenes/chars.js), and check a cast sheet before the contact sheet.
 - Captions must clear the letterbox bars of the current and neighbouring shots.
+- Island narration: Kokoro speed 1.0, gaps .45 s, a longer pause only before a reveal; third-person limited on Gus; never explain what the picture already shows.
