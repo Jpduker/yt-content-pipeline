@@ -1,0 +1,1075 @@
+{
+ "code": "CH00",
+ "title": "Welcome to the Keeper\u2019s Island",
+ "label": null,
+ "DUR": 157.747,
+ "shots": [
+  {
+   "id": "open",
+   "time": "night",
+   "cam": {
+    "type": "map",
+    "from": [
+     -70,
+     60,
+     96
+    ],
+    "to": [
+     -50,
+     46,
+     70
+    ],
+    "look": [
+     10,
+     4,
+     -12
+    ],
+    "look2": [
+     14,
+     8,
+     -18
+    ],
+    "fov": 34
+   },
+   "cast": {},
+   "lamp": "on",
+   "lead": 1.6,
+   "tail": 0.6,
+   "mood": "mystery",
+   "a": 0.0,
+   "b": 12.701,
+   "vo": [
+    {
+     "id": "o1",
+     "t": 1.12,
+     "d": 9.232,
+     "sub": "Somewhere off the edge of the map, there is an island with one lighthouse, one keeper, and a lamp that has not missed a single night in thirty years.",
+     "dlg": null
+    },
+    {
+     "id": "o2",
+     "t": 11.302,
+     "d": 0.919,
+     "sub": "Until now.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "card",
+   "time": "night",
+   "cam": {
+    "type": "map",
+    "from": [
+     -60,
+     56,
+     84
+    ],
+    "to": [
+     -58,
+     55,
+     82
+    ],
+    "look": [
+     8,
+     4,
+     -10
+    ],
+    "look2": [
+     12,
+     6,
+     -14
+    ]
+   },
+   "cast": {},
+   "card": {
+    "label": "WELCOME  TO",
+    "title": "The Keeper\u2019s Island"
+   },
+   "lamp": "on",
+   "min": 4.6,
+   "lead": 0,
+   "tail": 0,
+   "mood": "mystery",
+   "a": 12.701,
+   "b": 17.301,
+   "vo": []
+  },
+  {
+   "id": "p-light",
+   "time": "dusk",
+   "cam": {
+    "type": "stage",
+    "at": [
+     21.4,
+     9.8,
+     -20.4
+    ],
+    "az": [
+     40,
+     30
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     5,
+     4.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      21.4,
+      -20.4
+     ],
+     "pose": "lookUp",
+     "face": "l",
+     "hero": 1,
+     "tag": false
+    }
+   },
+   "tags": [
+    {
+     "name": "THE LIGHTHOUSE",
+     "role": "the only light between the ships and the rocks",
+     "t": 0.6,
+     "big": true,
+     "d": 3.6
+    }
+   ],
+   "lamp": "on",
+   "lead": 0.8,
+   "mood": "dusk",
+   "a": 17.301,
+   "b": 24.618,
+   "vo": [
+    {
+     "id": "p1",
+     "t": 18.061,
+     "d": 5.837,
+     "sub": "This is the lighthouse. Every night its lamp turns, and every ship that passes steers by it.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "p-path",
+   "time": "day",
+   "cam": {
+    "type": "track",
+    "side": "south",
+    "h": 5.6,
+    "d": 14,
+    "lead": 2.4
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -1.5,
+      -11
+     ],
+     "to": [
+      6,
+      -11.4
+     ],
+     "walk": [
+      0.3,
+      8
+     ],
+     "pose": "walk",
+     "face": "r",
+     "hero": 1,
+     "lit": 0,
+     "tag": false
+    }
+   },
+   "tags": [
+    {
+     "name": "THE CLIFF PATH",
+     "role": "and the keeper\u2019s cottage",
+     "t": 0.6,
+     "big": true,
+     "d": 3.6
+    }
+   ],
+   "lead": 0.6,
+   "mood": "day",
+   "a": 24.618,
+   "b": 30.995,
+   "vo": [
+    {
+     "id": "p2",
+     "t": 25.188,
+     "d": 5.087,
+     "sub": "A cliff path runs from the lighthouse past the keeper\u2019s cottage, and down to the village.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "p-village",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -6.5,
+     1.0,
+     8.2
+    ],
+    "az": [
+     -25,
+     -15
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     4.6,
+     4.3
+    ]
+   },
+   "cast": {},
+   "tags": [
+    {
+     "name": "THE VILLAGE",
+     "role": "two hundred people, one post office",
+     "t": 0.6,
+     "big": true,
+     "d": 3.6
+    }
+   ],
+   "lead": 0.6,
+   "mood": "day",
+   "a": 30.995,
+   "b": 37.86,
+   "vo": [
+    {
+     "id": "p3",
+     "t": 31.615,
+     "d": 5.525,
+     "sub": "The village. Two hundred people, one post office, and no secrets. Or so they think.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "p-harbour",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     9.5,
+     0.9,
+     13.4
+    ],
+    "az": [
+     -24,
+     -12
+    ],
+    "d": [
+     11,
+     10
+    ],
+    "h": [
+     4.8,
+     4.5
+    ]
+   },
+   "cast": {},
+   "tags": [
+    {
+     "name": "THE HARBOUR",
+     "role": "the quay, the harbour office and the jetty",
+     "t": 0.6,
+     "big": true,
+     "d": 3.6
+    }
+   ],
+   "lead": 0.6,
+   "mood": "day",
+   "a": 37.86,
+   "b": 42.398,
+   "vo": [
+    {
+     "id": "p4",
+     "t": 38.43,
+     "d": 3.248,
+     "sub": "The harbour, where the boats come in and the gossip goes out.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "p-rocks",
+   "time": "dusk",
+   "cam": {
+    "type": "orbit",
+    "at": [
+     11.4,
+     1.0,
+     -46.8
+    ],
+    "az": [
+     -40,
+     -15
+    ],
+    "d": [
+     9,
+     8.2
+    ],
+    "h": [
+     5,
+     4.6
+    ]
+   },
+   "cast": {},
+   "props": [
+    "wreck"
+   ],
+   "tags": [
+    {
+     "name": "THE NORTH ROCKS",
+     "role": "where ships go when the light fails",
+     "t": 0.6,
+     "big": true,
+     "d": 3.6
+    }
+   ],
+   "lead": 0.6,
+   "mood": "dread",
+   "a": 42.398,
+   "b": 47.277,
+   "vo": [
+    {
+     "id": "p5",
+     "t": 43.268,
+     "d": 3.289,
+     "sub": "And the north rocks. Where ships go when the light fails.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "gus",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     21.4,
+     9.8,
+     -20.4
+    ],
+    "az": [
+     36,
+     28
+    ],
+    "d": [
+     8.4,
+     7.8
+    ],
+    "h": [
+     4,
+     3.8
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      21.4,
+      -20.4
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1,
+     "lit": 0,
+     "tag": false
+    },
+    "mabel": {
+     "at": [
+      22.5,
+      -20.0
+     ],
+     "pose": "sit",
+     "face": "l",
+     "tag": false
+    }
+   },
+   "tags": [
+    {
+     "name": "GUS",
+     "role": "the lighthouse keeper",
+     "t": 0.7,
+     "big": true,
+     "d": 3.6
+    }
+   ],
+   "tagsSeen": [
+    "gus"
+   ],
+   "lead": 0.8,
+   "mood": "day",
+   "a": 47.277,
+   "b": 59.689,
+   "vo": [
+    {
+     "id": "g1",
+     "t": 47.837,
+     "d": 7.415,
+     "sub": "Gus has kept this lamp for thirty years. He is sixty, stubborn and kind, and he has never once let it go dark.",
+     "dlg": null
+    },
+    {
+     "id": "g2",
+     "t": 55.702,
+     "d": 3.267,
+     "sub": "He talks to his cat. She does not talk back. Mostly.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "mabel",
+   "time": "day",
+   "cam": {
+    "type": "dive",
+    "at": [
+     22.5,
+     9.6,
+     -20.0
+    ],
+    "az": [
+     30,
+     24
+    ],
+    "d": [
+     4.6,
+     4.2
+    ],
+    "h": [
+     2.0,
+     1.8
+    ]
+   },
+   "cast": {
+    "mabel": {
+     "at": [
+      22.5,
+      -20.0
+     ],
+     "pose": "sit",
+     "face": "l",
+     "hero": 1,
+     "tag": false
+    },
+    "gus": {
+     "at": [
+      21.4,
+      -20.4
+     ],
+     "pose": "idle",
+     "face": "l",
+     "lit": 0,
+     "tag": false
+    }
+   },
+   "tags": [
+    {
+     "name": "MABEL",
+     "role": "his cat \u00b7 the real detective",
+     "t": 0.7,
+     "big": true,
+     "d": 3.6
+    }
+   ],
+   "tagsSeen": [
+    "mabel",
+    "gus"
+   ],
+   "lead": 0.6,
+   "mood": "day",
+   "a": 59.689,
+   "b": 73.792,
+   "vo": [
+    {
+     "id": "m1",
+     "t": 60.109,
+     "d": 6.226,
+     "sub": "Mabel is that cat. She sleeps nineteen hours a day, and in the other five she notices everything.",
+     "dlg": null
+    },
+    {
+     "id": "m2",
+     "t": 66.785,
+     "d": 6.287,
+     "sub": "If Mabel suddenly sits down, pay attention. She only does that for two things. Fish, and fear.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "pip",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -35,
+     -25
+    ],
+    "d": [
+     9,
+     8
+    ],
+    "h": [
+     2.4,
+     2
+    ]
+   },
+   "cast": {
+    "pip": {
+     "at": [
+      -4,
+      6
+     ],
+     "to": [
+      6,
+      -6
+     ],
+     "pose": "fly",
+     "y": 8,
+     "hero": 1,
+     "fly": 1,
+     "tag": false
+    }
+   },
+   "tags": [
+    {
+     "name": "PIP",
+     "role": "a gull who sees everything",
+     "t": 0.7,
+     "big": true,
+     "d": 3.6
+    }
+   ],
+   "tagsSeen": [
+    "pip"
+   ],
+   "lead": 0.6,
+   "mood": "day",
+   "a": 73.792,
+   "b": 82.006,
+   "vo": [
+    {
+     "id": "i1",
+     "t": 74.412,
+     "d": 6.874,
+     "sub": "Pip is a gull, and a show-off. From up there he sees every boat, every footprint, and every fib on the island.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "rollo",
+   "time": "day",
+   "cam": {
+    "type": "dive",
+    "at": [
+     20.6,
+     9.6,
+     -19.9
+    ],
+    "az": [
+     30,
+     24
+    ],
+    "d": [
+     4.2,
+     3.9
+    ],
+    "h": [
+     1.8,
+     1.6
+    ]
+   },
+   "cast": {
+    "rollo": {
+     "at": [
+      20.4,
+      -19.8
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1,
+     "tag": false
+    },
+    "gus": {
+     "at": [
+      21.4,
+      -20.4
+     ],
+     "pose": "idle",
+     "face": "l",
+     "lit": 0,
+     "tag": false
+    },
+    "mabel": {
+     "at": [
+      22.5,
+      -20.0
+     ],
+     "pose": "sit",
+     "face": "l",
+     "tag": false
+    }
+   },
+   "tags": [
+    {
+     "name": "ROLLO",
+     "role": "a very hungry mouse",
+     "t": 0.7,
+     "big": true,
+     "d": 3.6
+    }
+   ],
+   "tagsSeen": [
+    "rollo",
+    "gus"
+   ],
+   "lead": 0.6,
+   "mood": "day",
+   "a": 82.006,
+   "b": 90.449,
+   "vo": [
+    {
+     "id": "r1",
+     "t": 82.626,
+     "d": 7.103,
+     "sub": "Rollo is a mouse. Mostly hungry, sometimes brave, and small enough to get into places nobody else can.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "wren",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -6.5,
+     1.0,
+     8.2
+    ],
+    "az": [
+     -25,
+     -15
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     4.6,
+     4.3
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      8.4
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1,
+     "lit": 0,
+     "tag": false
+    }
+   },
+   "tags": [
+    {
+     "name": "OLD WREN",
+     "role": "the postmistress \u00b7 keeper of old tales",
+     "t": 0.7,
+     "big": true,
+     "d": 3.6
+    }
+   ],
+   "tagsSeen": [
+    "wren"
+   ],
+   "lead": 0.6,
+   "mood": "day",
+   "a": 90.449,
+   "b": 100.054,
+   "vo": [
+    {
+     "id": "w1",
+     "t": 91.069,
+     "d": 8.265,
+     "sub": "Old Wren runs the post office. She has run it for fifty years, and she knows every old story this island would rather forget.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "dunn",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     9,
+     1.0,
+     12
+    ],
+    "az": [
+     10,
+     0
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     4.6,
+     4.4
+    ]
+   },
+   "cast": {
+    "dunn": {
+     "at": [
+      9.6,
+      12.2
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1,
+     "tag": false
+    }
+   },
+   "tags": [
+    {
+     "name": "DUNN",
+     "role": "the harbour master",
+     "t": 0.7,
+     "big": true,
+     "d": 3.6
+    }
+   ],
+   "tagsSeen": [
+    "dunn"
+   ],
+   "lead": 0.6,
+   "mood": "day",
+   "a": 100.054,
+   "b": 108.0,
+   "vo": [
+    {
+     "id": "d1",
+     "t": 100.674,
+     "d": 6.606,
+     "sub": "Dunn is the harbour master. He runs this harbour by the book, and he does not trust Gus. Not one bit.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "marlo",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -3,
+     0.6,
+     36
+    ],
+    "az": [
+     -150,
+     -160
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     4.6,
+     4.4
+    ]
+   },
+   "cast": {
+    "marlo": {
+     "at": [
+      -2.6,
+      36.4
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1,
+     "tag": false
+    }
+   },
+   "tags": [
+    {
+     "name": "MARLO",
+     "role": "the ferry pilot",
+     "t": 0.7,
+     "big": true,
+     "d": 3.6
+    }
+   ],
+   "tagsSeen": [
+    "marlo"
+   ],
+   "lead": 0.6,
+   "mood": "day",
+   "a": 108.0,
+   "b": 116.323,
+   "vo": [
+    {
+     "id": "a1",
+     "t": 108.67,
+     "d": 6.933,
+     "sub": "And Marlo, twenty-two, pilots the ferry to the mainland. Nobody on the council listens to her. They should.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "stranger",
+   "time": "night",
+   "cam": {
+    "type": "orbit",
+    "at": [
+     11.4,
+     1.0,
+     -46.8
+    ],
+    "az": [
+     -40,
+     -15
+    ],
+    "d": [
+     9,
+     8.2
+    ],
+    "h": [
+     5,
+     4.6
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      10.0,
+      -44.4
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1,
+     "tag": false
+    }
+   },
+   "props": [
+    "wreck"
+   ],
+   "tags": [
+    {
+     "name": "THE STRANGER",
+     "role": "who is she?",
+     "t": 1.0,
+     "big": true,
+     "d": 3.6
+    }
+   ],
+   "tagsSeen": [
+    "stranger"
+   ],
+   "lead": 0.8,
+   "mood": "dread",
+   "a": 116.323,
+   "b": 128.261,
+   "vo": [
+    {
+     "id": "s1",
+     "t": 116.883,
+     "d": 7.169,
+     "sub": "And then there is someone nobody on the island has met. Someone in a yellow coat, who comes up out of the sea at night.",
+     "dlg": null
+    },
+    {
+     "id": "s2",
+     "t": 125.002,
+     "d": 2.539,
+     "sub": "Who she is, and what she wants, is the mystery.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "how",
+   "time": "dusk",
+   "cam": {
+    "type": "map",
+    "from": [
+     -40,
+     34,
+     52
+    ],
+    "to": [
+     -32,
+     28,
+     42
+    ],
+    "look": [
+     16,
+     6,
+     -30
+    ],
+    "look2": [
+     12,
+     6,
+     -14
+    ],
+    "fov": 34,
+    "band": 0.45
+   },
+   "cast": {},
+   "lead": 0.6,
+   "mood": "mystery",
+   "a": 128.261,
+   "b": 143.878,
+   "vo": [
+    {
+     "id": "h1",
+     "t": 128.681,
+     "d": 6.346,
+     "sub": "Every day, two short pieces of the story. Every Sunday, the whole chapter, with scenes you have not seen.",
+     "dlg": null
+    },
+    {
+     "id": "h2",
+     "t": 135.477,
+     "d": 7.681,
+     "sub": "Every clue is on screen before it matters. When the story says pause, pause. See if you can solve it before Gus does.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "start",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     21.4,
+     9.8,
+     -20.4
+    ],
+    "az": [
+     40,
+     30
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     5,
+     4.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      21.4,
+      -20.4
+     ],
+     "pose": "lookUp",
+     "face": "l",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      22.5,
+      -20.0
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lamp": "on",
+   "lead": 0.6,
+   "tail": 0.4,
+   "mood": "dread",
+   "a": 143.878,
+   "b": 150.247,
+   "vo": [
+    {
+     "id": "e1",
+     "t": 144.498,
+     "d": 2.942,
+     "sub": "It starts tonight. At twelve minutes past three.",
+     "dlg": null
+    },
+    {
+     "id": "e2",
+     "t": 148.49,
+     "d": 1.437,
+     "sub": "When the lamp goes dark.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "title",
+   "time": "night",
+   "cam": {
+    "type": "map",
+    "from": [
+     -50,
+     44,
+     70
+    ],
+    "to": [
+     -60,
+     56,
+     84
+    ],
+    "look": [
+     10,
+     5,
+     -12
+    ],
+    "look2": [
+     8,
+     4,
+     -10
+    ],
+    "fov": 38
+   },
+   "cast": {},
+   "title": {
+    "title": "THE KEEPER\u2019S ISLAND",
+    "tag": "Chapter I \u00b7 Twelve Seconds of Dark \u2014 starts now",
+    "credit": "Original story, characters and music \u00b7 Voices: Kokoro TTS"
+   },
+   "lamp": "on",
+   "min": 7.5,
+   "lead": 0,
+   "tail": 0,
+   "mood": "mystery",
+   "a": 150.247,
+   "b": 157.747,
+   "vo": []
+  }
+ ],
+ "hook": null,
+ "hookEnd": 0,
+ "ask": null,
+ "askAt": null,
+ "music": {
+  "mood": "mystery"
+ },
+ "tags": true
+}

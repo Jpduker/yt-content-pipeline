@@ -1,7 +1,7 @@
 ﻿# The Keeper's Island · render the whole week of Shorts on THIS Windows PC's GPU (GTX 1650), 1080x1920 @ 30 fps.
 # Double-click render-week.bat (weeks 1-3) or render-weekN.bat (one later week). Or: powershell -ExecutionPolicy Bypass -File render-week.ps1 -From yyyy-mm-dd -To yyyy-mm-dd. Leave the window open; it logs to render-week.log.
 # Already-finished Shorts (final\*.mp4 newer than timeline.json) are skipped, so you can stop and re-run any time.
-param([string]$Size = "1080x1920", [int]$Fps = 30, [int]$Workers = 2, [string]$SS = "1", [string]$Only = "", [string]$From = "", [string]$To = "")
+param([string]$Size = "1080x1920", [int]$Fps = 30, [int]$Workers = 2, [string]$SS = "1", [string]$Only = "", [string]$From = "", [string]$To = "", [switch]$Force)
 $ErrorActionPreference = "Continue"   # node/ffmpeg write progress to stderr; "Stop" would abort on it
 $Shorts = $PSScriptRoot
 $Root = (Resolve-Path "$Shorts\..\..\..").Path
@@ -39,7 +39,7 @@ if ($To) { $dirs = $dirs | Where-Object { $_.Name.Substring(0, 10) -le $To } }
 $fails = 0
 foreach ($d in $dirs) {
   $Dir = $d.FullName; $Name = $d.Name; $final = "$Dir\final\$Name.mp4"
-  if ((Test-Path $final) -and ((Get-Item $final).LastWriteTime -gt (Get-Item "$Dir\timeline.json").LastWriteTime)) { Say "$Name skip (done)"; continue }
+  if ((-not $Force) -and (Test-Path $final) -and ((Get-Item $final).LastWriteTime -gt (Get-Item "$Dir\timeline.json").LastWriteTime)) { Say "$Name skip (done)"; continue }
   New-Item -ItemType Directory -Force "$Dir\out", "$Dir\final" | Out-Null
   $t0 = Get-Date; Say "$Name picture... (progress: $Dir\out\render.log)"
   cmd /c "node core/render/video.mjs ""$Dir"" --fps $Fps --workers $Workers --size $Size --q ss=$SS --out ""$Dir\out\video.mp4"" > ""$Dir\out\render.log"" 2>&1"

@@ -1,0 +1,252 @@
+{
+ "code": "S00",
+ "title": "Welcome to the Keeper\u2019s Island",
+ "label": "THE KEEPER'S ISLAND",
+ "DUR": 38.332,
+ "shots": [
+  {
+   "id": "map",
+   "time": "night",
+   "cam": {
+    "type": "map",
+    "from": [
+     -58,
+     54,
+     82
+    ],
+    "to": [
+     -46,
+     44,
+     64
+    ],
+    "look": [
+     8,
+     4,
+     -10
+    ],
+    "look2": [
+     12,
+     6,
+     -14
+    ]
+   },
+   "cast": {},
+   "lamp": "on",
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 11.061,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.8,
+     "d": 7.541,
+     "sub": "This is the Keeper\u2019s Island. One lighthouse, two hundred people, and a lamp that has not missed a night in thirty years.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "home",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     21.4,
+     9.8,
+     -20.4
+    ],
+    "az": [
+     36,
+     28
+    ],
+    "d": [
+     9,
+     8.4
+    ],
+    "h": [
+     4.4,
+     4.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      21.4,
+      -20.4
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1,
+     "lit": 0
+    },
+    "mabel": {
+     "at": [
+      22.5,
+      -20.0
+     ],
+     "pose": "sit",
+     "face": "l"
+    },
+    "rollo": {
+     "at": [
+      20.4,
+      -19.8
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "lead": 0.6,
+   "a": 11.061,
+   "b": 20.042,
+   "vo": [
+    {
+     "id": "n2",
+     "t": 11.631,
+     "d": 3.95,
+     "sub": "Gus keeps the lamp. Mabel, his cat, keeps an eye on Gus.",
+     "dlg": null
+    },
+    {
+     "id": "n3",
+     "t": 16.031,
+     "d": 3.291,
+     "sub": "And Rollo, the mouse, keeps an eye on the sandwiches.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "quay",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     9.5,
+     0.9,
+     13.4
+    ],
+    "az": [
+     -24,
+     -12
+    ],
+    "d": [
+     11,
+     10
+    ],
+    "h": [
+     4.8,
+     4.5
+    ]
+   },
+   "cast": {
+    "dunn": {
+     "at": [
+      9.8,
+      13.1
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    },
+    "wren": {
+     "at": [
+      8.6,
+      12.9
+     ],
+     "pose": "idle",
+     "face": "r",
+     "lit": 0
+    },
+    "marlo": {
+     "at": [
+      11.0,
+      13.5
+     ],
+     "pose": "idle",
+     "face": "l"
+    },
+    "pip": {
+     "at": [
+      10.4,
+      14.6
+     ],
+     "pose": "fly",
+     "y": 2.0,
+     "fly": 1
+    }
+   },
+   "lead": 0.6,
+   "a": 20.042,
+   "b": 29.529,
+   "vo": [
+    {
+     "id": "n4",
+     "t": 20.712,
+     "d": 8.097,
+     "sub": "Dunn runs the harbour. Old Wren knows every old story. Marlo pilots the ferry. And Pip, the gull, sees everything.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "rocks",
+   "time": "night",
+   "cam": {
+    "type": "orbit",
+    "at": [
+     11.4,
+     1.0,
+     -46.8
+    ],
+    "az": [
+     -40,
+     -15
+    ],
+    "d": [
+     9,
+     8.2
+    ],
+    "h": [
+     5,
+     4.6
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      10.0,
+      -44.4
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "props": [
+    "wreck"
+   ],
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 29.529,
+   "b": 38.332,
+   "vo": [
+    {
+     "id": "n5",
+     "t": 30.449,
+     "d": 3.783,
+     "sub": "And someone in a yellow coat has started coming up out of the sea.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "One island. One lamp. And the people who live in its light.",
+ "hookEnd": 2.3,
+ "ask": "Starting tonight: who is the woman in the yellow coat?",
+ "askAt": 34.732,
+ "music": {
+  "mood": "mystery"
+ },
+ "tags": true
+}

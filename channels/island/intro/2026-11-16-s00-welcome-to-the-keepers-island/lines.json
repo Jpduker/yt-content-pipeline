@@ -1,0 +1,32 @@
+[
+ {
+  "id": "n1",
+  "text": "This is the Keeper\u2019s Island. One lighthouse, two hundred people, and a lamp that has not missed a night in thirty years.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n2",
+  "text": "Gus keeps the lamp. Mabel, his cat, keeps an eye on Gus.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n3",
+  "text": "And Rollo, the mouse, keeps an eye on the sandwiches.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n4",
+  "text": "Dunn runs the harbour. Old Wren knows every old story. Marlo pilots the ferry. And Pip, the gull, sees everything.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n5",
+  "text": "And someone in a yellow coat has started coming up out of the sea.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]

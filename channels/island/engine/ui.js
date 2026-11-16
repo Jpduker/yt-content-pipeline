@@ -6,8 +6,33 @@ const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
 const seg = (t, a, b) => clamp((t - a) / (b - a));
 const ss = x => { x = clamp(x); return x * x * (3 - 2 * x); };
 
+// Name tags: the first time a character is on screen in a video, a small "NAME · who they are" card slides in (viewers meet the cast in any order).
+// shot.tags = [{ name, role, t?, big? }] overrides for that shot; cast entry tag: false skips one; timeline.tags === false turns it off.
+const ROLES = { gus: ['GUS', 'the lighthouse keeper'], mabel: ['MABEL', 'his cat · the real detective'], pip: ['PIP', 'a gull who sees everything'], rollo: ['ROLLO', 'a very hungry mouse'],
+  wren: ['OLD WREN', 'the postmistress · keeper of old tales'], dunn: ['DUNN', 'the harbour master'], marlo: ['MARLO', 'the ferry pilot'],
+  crane: ['SILAS CRANE', 'a salvage merchant'], stranger: ['THE STRANGER', 'who is she?'] };
+let TAGS = [];
+function buildTags() {
+  TAGS = []; if (TL.tags === false) return; const seen = new Set();
+  TL.shots.forEach((s, i) => {
+    const t0 = s.a + (i === 0 && TL.hook ? Math.max(.6, (TL.hookEnd || 0) + .2) : .7);
+    if (s.tags) { s.tags.forEach((g, j) => TAGS.push({ t: s.a + (g.t ?? (.7 + j * 1.2)), d: g.d || 3.4, name: g.name, role: g.role, big: g.big, slot: j })); (s.tagsSeen || []).forEach(k => seen.add(k)); return; }
+    let j = 0; for (const k in (s.cast || {})) { if (!ROLES[k] || seen.has(k) || s.cast[k].tag === false) continue; seen.add(k); TAGS.push({ t: t0 + j * 1.1, d: 3.2 + Math.max(0, 2.2 - j * 1.1), name: ROLES[k][0], role: ROLES[k][1], slot: j }); j++; }
+  });
+}
+function nameTag(t, v) {
+  const a = ss(seg(t, v.t, v.t + .45)) * (1 - ss(seg(t, v.t + v.d, v.t + v.d + .5))); if (a <= 0) return;
+  const k = v.big ? 1.45 : 1, slot = v.slot || 0;
+  const x = (portrait ? 64 : 84) - (1 - a) * 40, y = (portrait ? 540 : 110) + slot * 118 * k;
+  g.save(); g.globalAlpha = a; g.textBaseline = 'alphabetic'; g.textAlign = 'left';
+  g.font = `600 ${Math.round(40 * k)}px Cinzel`; const nw = g.measureText(v.name).width; g.font = `italic 500 ${Math.round(34 * k)}px "Cormorant Garamond"`; const rw = g.measureText(v.role).width;
+  const bw = Math.max(nw, rw) + 60 * k, bh = 100 * k, gr = g.createLinearGradient(x, 0, x + bw, 0); gr.addColorStop(0, 'rgba(6,8,18,.86)'); gr.addColorStop(1, 'rgba(6,8,18,0)');
+  g.fillStyle = gr; g.fillRect(x, y, bw + 60, bh); g.fillStyle = '#e2c989'; g.fillRect(x, y + 8, 4, bh - 16);
+  g.shadowColor = 'rgba(0,0,0,.8)'; g.shadowBlur = 8; g.font = `600 ${Math.round(40 * k)}px Cinzel`; g.fillStyle = '#e8cf8f'; g.fillText(v.name, x + 24 * k, y + 46 * k);
+  g.font = `italic 500 ${Math.round(34 * k)}px "Cormorant Garamond"`; g.fillStyle = '#f3ead6'; g.fillText(v.role, x + 24 * k, y + 84 * k); g.restore();
+}
 export async function overlayReady(timeline, aspect) {
-  TL = timeline; portrait = aspect < 1; W = portrait ? 1080 : 1920; H = portrait ? 1920 : 1080;
+  TL = timeline; portrait = aspect < 1; W = portrait ? 1080 : 1920; H = portrait ? 1920 : 1080; buildTags();
   await Promise.all(['500 40px Cinzel', '700 40px Cinzel', 'italic 500 40px "Cormorant Garamond"', '600 40px "Cormorant Garamond"', '500 40px "Cormorant Garamond"'].map(f => document.fonts.load(f)));
 }
 function wrap(text, maxW) {
@@ -110,6 +135,7 @@ export function drawOverlay(t, shot) {
   g.setTransform(1, 0, 0, 1, 0, 0); g.clearRect(0, 0, cv.width, cv.height); g.setTransform(cv.width / W, 0, 0, cv.height / H, 0, 0);
   const cur = TL.shots.find(s => t >= s.a && t < s.b) || TL.shots[TL.shots.length - 1];
   for (const s of TL.shots) for (const v of s.vo) { if (v.dlg) dialogue(t, v); else subtitle(t, v); }
+  for (const v of TAGS) nameTag(t, v);
   if (cur.solve) solveShot(t, cur);
   if (cur.title) titleShot(t, cur);
   if (cur.card) { cardShot(t, cur); return; }
