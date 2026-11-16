@@ -1,0 +1,389 @@
+{
+  "id": "W01-D03-E02",
+  "day": 3,
+  "date": "2026-11-18",
+  "title": "The Sinking Receipt",
+  "title_options": [
+    "The Sinking Receipt",
+    "The Box Was Never Cash",
+    "The Receipt He Kept"
+  ],
+  "duration_seconds": 56,
+  "spoken_word_count": 136,
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    },
+    "direction": "Intimate, controlled storyteller; build curiosity without shouting; dry centered delivery; native pitch and tempo. Quoted character intent is performed by the same narrator; no extra voice.",
+    "licensing": "Planning only; no generated audio. Existing free-plan review assets require release licensing resolution."
+  },
+  "timeline": "linear",
+  "pov": "third-person limited: Lucia",
+  "delivery": "narrator-led",
+  "hook": "Jason paid for a box that was supposed to contain cash. Inside, Lucia found somebody's emergency instead.",
+  "alternative_hooks": [
+    "Jason bought stolen money and found medicine instead.",
+    "Their missing fortune belonged to a clinic."
+  ],
+  "alternative_hook_use": "Replace scene 1 and re-time/recount the master before production; do not append.",
+  "script": "Jason paid for a box that was supposed to contain cash. Inside, Lucia found somebody's emergency instead. Sealed medicine packets filled the tackle box. A folded receipt named a clinic beyond the flooded road. Their seller was already gone. So was the money Jason had borrowed to make this deal happen. Lucia turned the receipt over. The delivery fee was unpaid. The medicine had never belonged to him. Jason stared toward the highway. He could still sell the box and recover something before morning came. Then the shack radio mentioned stranded patients. Lucia closed the lid, gently, as though somebody could hear. They left the box with a relief volunteer beside the public shelter, asking only for a receipt. Jason folded that receipt into his empty wallet. For once, proof of losing money felt worth keeping.",
+  "plot_mechanism": "misrepresented cargo creates a restitution choice",
+  "story_relation": "standalone; complete consequence and payoff",
+  "canon_status": {
+    "canonical_names": [
+      "Jason Duval",
+      "Lucia Caminos",
+      "Grassrivers"
+    ],
+    "fictional_elements": "All events, dialogue, sets, props, circumstances and supporting extras are original non-canon fan fiction; no game footage or official story claims."
+  },
+  "reference_assets": [
+    "characters/jason-duval/references/approved-v2-faces.png",
+    "characters/lucia-caminos/references/approved-v2-faces.png",
+    "characters/jason-duval/turnarounds/six-views.png",
+    "characters/lucia-caminos/turnarounds/six-views.png",
+    "characters/jason-duval/closet/four-outfits.png",
+    "characters/lucia-caminos/closet/four-outfits.png",
+    "world/references/environment-atlas.png",
+    "world/references/07-payoff.png"
+  ],
+  "continuity_sheet": {
+    "baseline": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans. Props: one red tackle box containing sealed medicine packets and a folded receipt. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures.",
+    "scenes": [
+      {
+        "scene": 1,
+        "action": "Jason sets closed red tackle box on bait counter",
+        "wardrobe": "Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans",
+        "prop": "one red tackle box containing sealed medicine packets and a folded receipt"
+      },
+      {
+        "scene": 2,
+        "action": "Lucia opens lid: intact sealed packets, no loose pills",
+        "wardrobe": "Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans",
+        "prop": "one red tackle box containing sealed medicine packets and a folded receipt"
+      },
+      {
+        "scene": 3,
+        "action": "Jason sees seller's empty doorway; Lucia remains beside box",
+        "wardrobe": "Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans",
+        "prop": "one red tackle box containing sealed medicine packets and a folded receipt"
+      },
+      {
+        "scene": 4,
+        "action": "Macro receipt front, fingers on edges, back revealed in next angle",
+        "wardrobe": "Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans",
+        "prop": "one red tackle box containing sealed medicine packets and a folded receipt"
+      },
+      {
+        "scene": 5,
+        "action": "Jason at window looks toward highway; closed box between heroes",
+        "wardrobe": "Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans",
+        "prop": "one red tackle box containing sealed medicine packets and a folded receipt"
+      },
+      {
+        "scene": 6,
+        "action": "Lucia closes lid while small shack radio glows on shelf",
+        "wardrobe": "Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans",
+        "prop": "one red tackle box containing sealed medicine packets and a folded receipt"
+      },
+      {
+        "scene": 7,
+        "action": "Anonymous volunteer receives closed box at public shelter desk",
+        "wardrobe": "Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans",
+        "prop": "one red tackle box containing sealed medicine packets and a folded receipt"
+      },
+      {
+        "scene": 8,
+        "action": "Jason slips folded new receipt into empty wallet; Lucia nearby",
+        "wardrobe": "Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans",
+        "prop": "one red tackle box containing sealed medicine packets and a folded receipt"
+      }
+    ],
+    "review": "Inspect reference identities, hand anatomy, prop grips/front-back orientation, unchanged wardrobe, unoccupied vehicle interiors, wheel contact and time of day at full size."
+  },
+  "cover": {
+    "text": "THE SINKING RECEIPT",
+    "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Jason at window looks toward highway; closed box between heroes. Use the episode wardrobe and approved face references. Single clear clue and readable hero reaction, no collage; reserve top 25% for hand-added title.",
+    "safe_area": "Keep text within center 80% width; no invented UI or official marks."
+  },
+  "upload_description": "The Sinking Receipt — an original GTA VI fan-fiction micro-story with Jason and Lucia, set around Grassrivers. This episode's specific set and events are invented, non-canon fan fiction. Unofficial and not affiliated with Rockstar Games. #GTAVI #FanFiction #ViceCityAlibis",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 6.94,
+      "narration": "Jason paid for a box that was supposed to contain cash. Inside, Lucia found somebody's emergency instead.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers roadside bait shack; original fan-fiction set, not a claimed game location. Composition/action: Jason sets closed red tackle box on bait counter. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans. Props: one red tackle box containing sealed medicine packets and a folded receipt. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm medium establishing frame; gentle 3% push toward the dilemma",
+      "sound": {
+        "score": "sparse muted minor piano question; no impact hit",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "tackle box latch click; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers roadside bait shack; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans",
+        "prop_state": "Jason sets closed red tackle box on bait counter",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans."
+      },
+      "on_screen_text": "The Sinking Receipt"
+    },
+    {
+      "start": 6.94,
+      "end": 13.88,
+      "narration": "Sealed medicine packets filled the tackle box. A folded receipt named a clinic beyond the flooded road.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers roadside bait shack; original fan-fiction set, not a claimed game location. Composition/action: Lucia opens lid: intact sealed packets, no loose pills. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans. Props: one red tackle box containing sealed medicine packets and a folded receipt. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "65mm insert with foreground hand and readable object plane; slow lateral drift",
+      "sound": {
+        "score": "low plucked bass joins restrained piano",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "sealed packet rustle; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers roadside bait shack; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans",
+        "prop_state": "Lucia opens lid: intact sealed packets, no loose pills",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 13.88,
+      "end": 20.81,
+      "narration": "Their seller was already gone. So was the money Jason had borrowed to make this deal happen.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers roadside bait shack; original fan-fiction set, not a claimed game location. Composition/action: Jason sees seller's empty doorway; Lucia remains beside box. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans. Props: one red tackle box containing sealed medicine packets and a folded receipt. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "50mm medium reaction, restrained 2% push; preserve screen direction",
+      "sound": {
+        "score": "soft brushed pulse, unresolved suspended chord",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "rain through open doorway; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers roadside bait shack; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans",
+        "prop_state": "Jason sees seller's empty doorway; Lucia remains beside box",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 20.81,
+      "end": 27.75,
+      "narration": "Lucia turned the receipt over. The delivery fee was unpaid. The medicine had never belonged to him.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers roadside bait shack; original fan-fiction set, not a claimed game location. Composition/action: Macro receipt front, fingers on edges, back revealed in next angle. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans. Props: one red tackle box containing sealed medicine packets and a folded receipt. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm over-shoulder toward the newly relevant detail; slow focus shift",
+      "sound": {
+        "score": "thin high pad reveals the clue, percussion drops",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "receipt turn; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers roadside bait shack; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans",
+        "prop_state": "Macro receipt front, fingers on edges, back revealed in next angle",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 27.75,
+      "end": 34.69,
+      "narration": "Jason stared toward the highway. He could still sell the box and recover something before morning came.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers roadside bait shack; original fan-fiction set, not a claimed game location. Composition/action: Jason at window looks toward highway; closed box between heroes. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans. Props: one red tackle box containing sealed medicine packets and a folded receipt. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "65mm intimate choice closeup, hold stable so fingers and prop remain clear",
+      "sound": {
+        "score": "single warm piano note over low tension drone",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "distant wet-road tire hiss; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers roadside bait shack; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans",
+        "prop_state": "Jason at window looks toward highway; closed box between heroes",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 34.69,
+      "end": 41.62,
+      "narration": "Then the shack radio mentioned stranded patients. Lucia closed the lid, gently, as though somebody could hear.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers roadside bait shack; original fan-fiction set, not a claimed game location. Composition/action: Lucia closes lid while small shack radio glows on shelf. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans. Props: one red tackle box containing sealed medicine packets and a folded receipt. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "40mm two-shot reveals consequence; subtle pullback",
+      "sound": {
+        "score": "pulse releases into open fifths, no triumphant swell",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "radio bulletin under narration, no intelligible competing words; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers roadside bait shack; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans",
+        "prop_state": "Lucia closes lid while small shack radio glows on shelf",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 41.62,
+      "end": 48.56,
+      "narration": "They left the box with a relief volunteer beside the public shelter, asking only for a receipt.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers roadside bait shack; original fan-fiction set, not a claimed game location. Composition/action: Anonymous volunteer receives closed box at public shelter desk. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans. Props: one red tackle box containing sealed medicine packets and a folded receipt. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm wider resolution frame, move with the shared action then stop",
+      "sound": {
+        "score": "soft major-color piano resolves the central decision",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "box settles on shelter desk; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers roadside bait shack; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans",
+        "prop_state": "Anonymous volunteer receives closed box at public shelter desk",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 48.56,
+      "end": 56,
+      "narration": "Jason folded that receipt into his empty wallet. For once, proof of losing money felt worth keeping.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers roadside bait shack; original fan-fiction set, not a claimed game location. Composition/action: Jason slips folded new receipt into empty wallet; Lucia nearby. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans. Props: one red tackle box containing sealed medicine packets and a folded receipt. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "50mm closing tableau, slow 3% drift outward; hold final two seconds",
+      "sound": {
+        "score": "warm sustained chord fades beneath the final sentence, last second environmental tail",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "receipt folds into wallet; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers roadside bait shack; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans",
+        "prop_state": "Jason slips folded new receipt into empty wallet; Lucia nearby",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: navy work shirt, grey jeans; Lucia: cream shirt, teal waterproof jacket, black jeans."
+      },
+      "on_screen_text": "FAN FICTION"
+    }
+  ],
+  "production_notes": {
+    "captions": "Add accurate sentence-level captions from script; max two short lines, high contrast, do not cover eyes or clue. On-screen text fields are edit overlays, never part of spoken word count.",
+    "timing": "Eight contiguous windows apportioned to actual spoken word count, with a half-second final environmental tail. Fit each exact narration segment to its assigned window with natural pauses; audition after synthesis; do not pitch/tempo process approved voice. Full runtime 56 seconds.",
+    "audio_exports": [
+      "dry_voice",
+      "score",
+      "ducked_music",
+      "ambience",
+      "effects",
+      "full_mix"
+    ],
+    "provenance": "Record API/model/settings/prompt/source/licensing per generated asset; none generated by this authoring pass.",
+    "publication": "Production plan only. No upload or publication performed."
+  }
+}

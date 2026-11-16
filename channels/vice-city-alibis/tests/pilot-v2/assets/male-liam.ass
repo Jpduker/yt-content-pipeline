@@ -1,0 +1,45 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,DejaVu Sans,63,&H00FFFFFF,&H000000FF,&H00101010,&H80000000,-1,0,0,0,100,100,0,0,1,4,1,2,85,85,295,1
+Style: Label,DejaVu Sans,25,&H00FFFFFF,&H000000FF,&H00101010,&H80000000,0,0,0,0,100,100,2,0,1,2,0,8,70,70,95,1
+Style: Hook,DejaVu Sans,66,&H0057E6FF,&H000000FF,&H00101010,&H80000000,-1,0,0,0,100,100,0,0,1,4,1,8,70,70,175,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:33.10,Label,,0,0,0,,UNOFFICIAL GTA VI FAN FICTION
+Dialogue: 1,0:00:00.00,0:00:03.36,Hook,,0,0,0,,HER PHOTO.\NIN THEIR STOLEN CAR.
+Dialogue: 2,0:00:00.08,0:00:01.38,Caption,,0,0,0,,LUCIA FOUND HER OWN
+Dialogue: 2,0:00:01.44,0:00:02.39,Caption,,0,0,0,,PHOTO IN THEIR STOLEN
+Dialogue: 2,0:00:02.40,0:00:03.18,Caption,,0,0,0,,CAR.
+Dialogue: 2,0:00:03.36,0:00:05.19,Caption,,0,0,0,,TAKEN OUTSIDE THEIR MOTEL…
+Dialogue: 2,0:00:05.20,0:00:06.55,Caption,,0,0,0,,TEN MINUTES AGO.
+Dialogue: 2,0:00:06.56,0:00:07.86,Caption,,0,0,0,,THEN THEIR FIXER CALLED.
+Dialogue: 2,0:00:08.11,0:00:08.67,Caption,,0,0,0,,"BRING THE CAR TO
+Dialogue: 2,0:00:08.68,0:00:09.67,Caption,,0,0,0,,THE DOCKS.
+Dialogue: 2,0:00:09.68,0:00:10.74,Caption,,0,0,0,,COME ALONE."
+Dialogue: 2,0:00:10.84,0:00:12.02,Caption,,0,0,0,,UNDER THE SEAT: HIS
+Dialogue: 2,0:00:12.08,0:00:13.03,Caption,,0,0,0,,CASH BAG…
+Dialogue: 2,0:00:13.04,0:00:13.38,Caption,,0,0,0,,AND A
+Dialogue: 2,0:00:13.52,0:00:14.42,Caption,,0,0,0,,TRACKER.
+Dialogue: 2,0:00:14.44,0:00:14.98,Caption,,0,0,0,,THEY WERE THE
+Dialogue: 2,0:00:15.12,0:00:15.87,Caption,,0,0,0,,DELIVERY.
+Dialogue: 2,0:00:15.88,0:00:16.79,Caption,,0,0,0,,SO LUCIA SENT THE
+Dialogue: 2,0:00:16.80,0:00:17.67,Caption,,0,0,0,,CAR AHEAD, ON A
+Dialogue: 2,0:00:17.68,0:00:18.59,Caption,,0,0,0,,TOW TRUCK.
+Dialogue: 2,0:00:18.60,0:00:19.51,Caption,,0,0,0,,AT THE DOCKS, THE
+Dialogue: 2,0:00:19.52,0:00:20.99,Caption,,0,0,0,,FIXER PULLED A GUN.
+Dialogue: 2,0:00:21.00,0:00:22.18,Caption,,0,0,0,,THE POLICE WERE ALREADY
+Dialogue: 2,0:00:22.24,0:00:23.06,Caption,,0,0,0,,CLOSING IN.
+Dialogue: 2,0:00:23.08,0:00:24.58,Caption,,0,0,0,,LUCIA HAD CALLED THEM.
+Dialogue: 2,0:00:24.68,0:00:25.99,Caption,,0,0,0,,ACROSS THE WATER, JASON
+Dialogue: 2,0:00:26.00,0:00:27.22,Caption,,0,0,0,,WATCHED THE LIGHTS.
+Dialogue: 2,0:00:27.24,0:00:28.79,Caption,,0,0,0,,"THERE GOES OUR PAYDAY."
+Dialogue: 2,0:00:28.80,0:00:29.99,Caption,,0,0,0,,LUCIA OPENED THE BAG
+Dialogue: 2,0:00:30.00,0:00:30.82,Caption,,0,0,0,,SHE'D TAKEN FROM THE
+Dialogue: 2,0:00:30.88,0:00:31.55,Caption,,0,0,0,,CAR.
+Dialogue: 2,0:00:31.56,0:00:32.74,Caption,,0,0,0,,"YOUR PAYDAY."

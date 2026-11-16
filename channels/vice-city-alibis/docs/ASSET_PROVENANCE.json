@@ -1,0 +1,78 @@
+[
+  {
+    "asset": "channel-logo",
+    "method": "built-in image generation",
+    "prompt": "Create an original premium SQUARE YouTube channel profile logo for 'Vice City Alibis', an unofficial GTA VI fan-fiction crime-story channel. A bold, beautifully designed interlocking VCA monogram, all three letters clearly legible, inside a simple near-black plum circular badge on matching near-black square background. Geometric custom sans-serif letterforms, mostly warm ivory, with a restrained neon magenta left edge and teal right edge suggesting tropical nightlife. One tiny, simple palm silhouette can sit above the monogram, not obscuring any letters. The monogram fills most of the safe central circle and remains readable at 98 pixels. Flat, crisp, professional icon design with very subtle neon edge light, no busy scenery, no chrome texture, no realistic faces, no car, no extra text. Do NOT copy Rockstar or Grand Theft Auto logos, no five-point star, no existing brand marks. Exact monogram text only: VCA. Centered, balanced, generous outer safe padding. 1:1 aspect.",
+    "reference_images": null,
+    "generated_source": "/workspace/scratch/387081923359/generated_images/exec-fc996bd0-75c0-4c84-bbe9-c43bf00833db.png",
+    "revision_note": null
+  },
+  {
+    "asset": "jason-turnaround",
+    "method": "built-in image generation",
+    "prompt": "A premium CHARACTER REFERENCE BOARD for the exact same Jason character shown in the supplied fan-fiction illustrations, preserve his precise facial identity, short brown hair, stubble, light skin, muscular build and small facial scar. This is a reference asset for consistent future illustrations. SIX full-body views of the SAME adult man arranged cleanly in 3 columns by 2 rows, all at identical scale: top row FRONT, LEFT THREE-QUARTER, LEFT PROFILE; bottom row BACK, RIGHT PROFILE, RIGHT THREE-QUARTER. Calm neutral expressions and natural upright posture, arms slightly separated from torso, both hands relaxed with correct anatomy, feet and shoes entirely visible. Identical locked wardrobe in all six views: plain fitted faded olive-green short-sleeved t-shirt, dark blue straight jeans, plain dark leather boots. No weapons or props. Faces must be anatomically consistent across views, not six different men. Neutral warm gray studio background, soft even lighting sufficient to judge facial forms, crisp premium painted crime graphic novel rendering consistent with the reference's realism and rich ink edges but without dramatic neon obscuring identity. Wide 3:2 high-resolution board. No text, no labels, no logos, no watermark.",
+    "reference_images": [
+      "/workspace/scratch/387081923359/gta6-pilot-v2/assets/03-phone.png",
+      "/workspace/scratch/387081923359/gta6-pilot-v2/assets/07-payoff.png"
+    ],
+    "generated_source": "/workspace/scratch/387081923359/generated_images/exec-936bc52e-cec5-415a-9904-2b9ace330f3b.png",
+    "revision_note": "Corrected duplicate facing directions in top-middle and top-right views; see characters/turnaround-notes.md"
+  },
+  {
+    "asset": "lucia-turnaround",
+    "method": "built-in image generation",
+    "prompt": "A premium CHARACTER REFERENCE BOARD for the exact same Lucia character shown in the supplied fan-fiction illustrations. Preserve her exact facial identity, tan Latina skin, strong eyebrows, dark brown ponytail with loose strands, small gold hoop earrings and athletic adult build. SIX full-body views of the SAME adult woman arranged cleanly in 3 columns by 2 rows, all at identical scale: top row FRONT, LEFT THREE-QUARTER, LEFT PROFILE; bottom row BACK, RIGHT PROFILE, RIGHT THREE-QUARTER. Calm neutral expressions and natural upright posture, arms slightly separated from torso, both hands relaxed with correct anatomy, feet and shoes entirely visible. Identical locked wardrobe in all six views: plain white cropped ribbed tank top, medium-blue straight jeans, plain white low-top sneakers. No weapons or props. Same face and hair design across views, not six different women. Neutral warm gray studio background, soft even lighting sufficient to judge facial forms, crisp premium painted crime graphic novel rendering consistent with the reference's realism and rich ink edges but without dramatic neon obscuring identity. Wide 3:2 high-resolution board. No text, no labels, no logos, no watermark.",
+    "reference_images": [
+      "/workspace/scratch/387081923359/gta6-pilot-v2/assets/03-phone.png",
+      "/workspace/scratch/387081923359/gta6-pilot-v2/assets/07-payoff.png"
+    ],
+    "generated_source": "/workspace/scratch/387081923359/generated_images/exec-f2a51a95-b7cf-4946-9861-678b0a424025.png",
+    "revision_note": "Corrected duplicate facing directions in top-middle and top-right views; see characters/turnaround-notes.md"
+  },
+  {
+    "asset": "jason-closet",
+    "method": "built-in image generation",
+    "prompt": "WARDROBE REFERENCE BOARD for the exact same Jason adult male character from the supplied illustrations; lock face, short brown hair, stubble, small facial scar, skin tone, muscular build and height. FOUR full-body front-facing views in one evenly spaced horizontal row, exact same man and relaxed pose in every view, all shoes and hands visible. Left to right outfits: 1) faded olive fitted t-shirt, dark blue jeans, dark leather boots (existing default); 2) charcoal lightweight zip jacket over plain black tee, dark practical cargo trousers, dark boots (heist night); 3) loose short-sleeved ivory linen button-up over plain gray tee, faded blue jeans and plain canvas shoes (sunlit Keys); 4) plain dark navy short-sleeved open-collar shirt, black jeans and dark boots (club meeting). No brands, no weapons, no masks, no gloves, no decorative text, no logos, no character identity changes. Neutral warm gray studio backdrop and consistent soft lighting. Premium realistic painted crime graphic novel art matching the references. Wide landscape 2:1 high-resolution image, clear separation, no labels.",
+    "reference_images": [
+      "/workspace/scratch/387081923359/gta6-pilot-v2/assets/03-phone.png",
+      "/workspace/scratch/387081923359/gta6-pilot-v2/assets/07-payoff.png"
+    ],
+    "generated_source": "/workspace/scratch/387081923359/generated_images/exec-bcc53fed-b2aa-45d4-adc6-b0195e4983ed.png",
+    "revision_note": null
+  },
+  {
+    "asset": "lucia-closet",
+    "method": "built-in image generation",
+    "prompt": "WARDROBE REFERENCE BOARD for the exact same Lucia adult female character from the supplied illustrations; lock her precise facial identity, tan skin, strong eyebrows, dark brown ponytail, small gold hoop earrings, athletic build and height. FOUR full-body front-facing views in one evenly spaced horizontal row, exact same woman and relaxed pose in every view, all shoes and hands visible. Left to right outfits: 1) plain white cropped ribbed tank, medium-blue straight jeans, white low-top sneakers (existing default); 2) plain charcoal zip hoodie over gray tank, dark cargo trousers, dark practical boots (heist night); 3) plain light-blue short-sleeved button-up over ivory tank, high-waisted denim shorts, plain canvas sneakers (sunlit Keys); 4) plain deep burgundy long-sleeved blouse with rolled sleeves, black jeans, black ankle boots (club meeting). Practical normal clothing, no brands, no weapons, no masks, no character identity changes. Neutral warm gray studio backdrop and consistent soft lighting. Premium realistic painted crime graphic novel art matching the references. Wide landscape 2:1 high-resolution image, clear separation, no labels, no text.",
+    "reference_images": [
+      "/workspace/scratch/387081923359/gta6-pilot-v2/assets/03-phone.png",
+      "/workspace/scratch/387081923359/gta6-pilot-v2/assets/07-payoff.png"
+    ],
+    "generated_source": "/workspace/scratch/387081923359/generated_images/exec-82cfe1ed-ca82-40ee-844e-b371f041acf7.png",
+    "revision_note": null
+  },
+  {
+    "asset": "world-atlas",
+    "method": "built-in image generation",
+    "prompt": "ENVIRONMENT STYLE REFERENCE ATLAS for this exact illustrated GTA VI fan-fiction world, not an official map. Four clearly separated beautiful environmental vignettes in a clean 2 by 2 arrangement with narrow dark gutters. Top left: rain-soaked Vice City neon motel street with palms and Art Deco facades, magenta/teal lights, amber motel windows, night. Top right: industrial cargo docks in tropical rain, stacked containers, harbor cranes, wet asphalt, distant city lights, night. Bottom left: quiet waterfront promenade with metal railings, warm lamps, dark water, cargo cranes across the harbor and tiny red-blue police lights, night. Bottom right: a new Leonida Keys-inspired setting in warm late afternoon, turquoise shallow water, modest fishing docks, mangroves and weathered low buildings, same premium painted crime graphic novel rendering rather than a different medium. NO people, NO cars, NO lettering, NO logos. Preserve the visual identity, realistic scale, painterly rich detail, light texture and atmospheric depth of the references. Not a geographical diagram, no claimed exact game layout. Wide landscape 16:9 high-resolution illustration atlas.",
+    "reference_images": [
+      "/workspace/scratch/387081923359/gta6-pilot-v2/assets/05-tow.png",
+      "/workspace/scratch/387081923359/gta6-pilot-v2/assets/07-payoff.png",
+      "/workspace/scratch/387081923359/gta6-pilot-v2/assets/03-phone.png"
+    ],
+    "generated_source": "/workspace/scratch/387081923359/generated_images/exec-fe173a9f-b493-48d4-82a5-310d7d86a3bf.png",
+    "revision_note": null
+  },
+  {
+    "asset": "fixer-turnaround",
+    "method": "built-in image generation",
+    "generated_source": "generated_images/exec-36a87380-8ea3-4da0-b6e8-a36289ba5075.png",
+    "prompt": "Six full-body views of the same original bald, mature fixer in cream linen suit, dark floral shirt, gold chain and brown loafers. Preserve the face and stocky body from approved fixer reference. 3x2 layout, row-major: front; three-quarter nose toward viewer-left; side profile nose toward viewer-left; rear; side profile nose toward viewer-right; three-quarter nose toward viewer-right. Neutral posture, anatomical hands, no weapon. Warm gray studio backdrop, even lighting, realistic painted crime graphic novel, no text."
+  },
+  {
+    "asset": "fixer-closet",
+    "method": "built-in image generation",
+    "generated_source": "generated_images/exec-3d116335-02f6-4702-9035-05e9ea637d26.png",
+    "prompt": "Four front-facing full-body views of the identical original fixer, same bald head, mature face, salt-and-pepper stubble, tan skin, stocky body and gold chain. Outfits left to right: cream linen suit/dark floral shirt/brown loafers; charcoal linen blazer/dark burgundy shirt/black trousers/black loafers; weathered navy dock overshirt/gray tee/olive work trousers/brown boots; pale tropical shirt/beige linen trousers/brown loafers. Relaxed neutral pose, all hands/shoes visible, no weapon, no props, no extra jewelry or brands. Wide 2:1 board, warm gray background, soft light, realistic painted crime graphic novel, no text."
+  }
+]

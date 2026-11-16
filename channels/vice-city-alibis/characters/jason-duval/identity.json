@@ -1,0 +1,25 @@
+{
+  "name": "Jason Duval",
+  "type": "GTA VI character in generated fan-art adaptation",
+  "identity_reference": "references/approved-v2-faces.png",
+  "additional_reference": "references/approved-v2-waterfront.png",
+  "identity_notes": "short brown hair, light stubble, muscular adult build; approved facial details from scene references",
+  "turnaround": "turnarounds/six-views.png",
+  "angle_order_row_major": [
+    "front",
+    "three-quarter-facing-viewer-left",
+    "profile-facing-viewer-left",
+    "back",
+    "profile-facing-viewer-right",
+    "three-quarter-facing-viewer-right"
+  ],
+  "closet": "closet/four-outfits.png",
+  "outfit_order_left_to_right": [
+    "J01-default-olive",
+    "J02-heist-charcoal",
+    "J03-keys-linen",
+    "J04-night-navy"
+  ],
+  "new_board_status": "needs user visual review before final lock",
+  "rule": "preserve face/build/hair; change outfit by ID only; validate hands and props every scene"
+}

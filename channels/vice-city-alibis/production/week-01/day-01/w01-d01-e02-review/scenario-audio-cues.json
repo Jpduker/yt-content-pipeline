@@ -1,0 +1,22 @@
+{
+  "licensing": "PRIVATE REVIEW ONLY; generated free-plan SFX are not commercially cleared",
+  "timing": "measured narration boundaries",
+  "water": {
+    "start": 0,
+    "end": 56,
+    "source": "channels\\vice-city-alibis\\production\\week-01\\day-01\\w01-d01-e02-audio\\water.mp3",
+    "role": "low-level continuous harbor bed under rain"
+  },
+  "fire": {
+    "start": 26.51,
+    "end": 40.15,
+    "source": "channels\\vice-city-alibis\\production\\week-01\\day-01\\w01-d01-e02-audio\\fire.mp3",
+    "role": "contained disposal fire, scenes 5 and 6"
+  },
+  "skiff": {
+    "start": 46.550000000000004,
+    "end": 56,
+    "source": "channels\\vice-city-alibis\\production\\week-01\\day-01\\w01-d01-e02-audio\\skiff.mp3",
+    "role": "single motor start and sustained idle, scene 8"
+  }
+}

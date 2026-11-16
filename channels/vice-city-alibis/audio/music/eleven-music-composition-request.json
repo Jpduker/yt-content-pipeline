@@ -1,0 +1,105 @@
+{
+  "model_id": "music_v2_5",
+  "composition_plan": {
+    "chunks": [
+      {
+        "text": "[Curiosity]\n{Instrumental only. Rainy neon motel mystery, sparse plucked synth notes and a soft low pulse, restrained curiosity, leave generous space for a close voice.}",
+        "duration_ms": 10840,
+        "positive_styles": [
+          "instrumental cinematic crime underscore",
+          "minimal neo-noir electronic score",
+          "subtle analog synthesizers",
+          "muted bass",
+          "restrained dynamics",
+          "sparse melodic motifs",
+          "space for spoken narration",
+          "curious unresolved harmony"
+        ],
+        "negative_styles": [
+          "vocals",
+          "lyrics",
+          "speech",
+          "choir",
+          "shrill lead",
+          "loud snare",
+          "trailer braams"
+        ]
+      },
+      {
+        "text": "[The tracker]\n{Instrumental only. A dark discovery increases tension. A gently rising low string texture, muted bass pulse, minimal higher notes.}",
+        "duration_ms": 5040,
+        "positive_styles": [
+          "instrumental cinematic crime underscore",
+          "minimal neo-noir electronic score",
+          "subtle analog synthesizers",
+          "muted bass",
+          "restrained dynamics",
+          "sparse melodic motifs",
+          "space for spoken narration",
+          "suspense",
+          "gradually growing pulse"
+        ],
+        "negative_styles": [
+          "vocals",
+          "lyrics",
+          "speech",
+          "choir",
+          "shrill lead",
+          "loud snare",
+          "trailer braams"
+        ],
+        "context_adherence": "high"
+      },
+      {
+        "text": "[Reverse the trap]\n{Instrumental only. Controlled excitement, clever escape. Add light tight percussion and a confident bass rhythm, restrained suspense at the docks, never overpower dialogue.}",
+        "duration_ms": 8800,
+        "positive_styles": [
+          "instrumental cinematic crime underscore",
+          "minimal neo-noir electronic score",
+          "subtle analog synthesizers",
+          "muted bass",
+          "restrained dynamics",
+          "sparse melodic motifs",
+          "space for spoken narration",
+          "controlled momentum",
+          "light percussion"
+        ],
+        "negative_styles": [
+          "vocals",
+          "lyrics",
+          "speech",
+          "choir",
+          "shrill lead",
+          "loud snare",
+          "trailer braams"
+        ],
+        "context_adherence": "high"
+      },
+      {
+        "text": "[The payoff]\n{Instrumental only. Ease into a sly, confident resolution with warm keys, playful plucked bass and a brief clean ending. No huge climax.}",
+        "duration_ms": 8420,
+        "positive_styles": [
+          "instrumental cinematic crime underscore",
+          "minimal neo-noir electronic score",
+          "subtle analog synthesizers",
+          "muted bass",
+          "restrained dynamics",
+          "sparse melodic motifs",
+          "space for spoken narration",
+          "confident playful resolution",
+          "warm electric keys"
+        ],
+        "negative_styles": [
+          "vocals",
+          "lyrics",
+          "speech",
+          "choir",
+          "shrill lead",
+          "loud snare",
+          "trailer braams"
+        ],
+        "context_adherence": "high"
+      }
+    ]
+  }
+}

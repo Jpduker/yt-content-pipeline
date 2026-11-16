@@ -1,0 +1,389 @@
+{
+  "id": "W01-D02-E05",
+  "day": 2,
+  "date": "2026-11-17",
+  "title": "The Last Meter",
+  "title_options": [
+    "The Last Meter",
+    "The Driver Brought It Back",
+    "A Detour Worth Paying For"
+  ],
+  "duration_seconds": 56,
+  "spoken_word_count": 140,
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    },
+    "direction": "Intimate, controlled storyteller; build curiosity without shouting; dry centered delivery; native pitch and tempo. Quoted character intent is performed by the same narrator; no extra voice.",
+    "licensing": "Planning only; no generated audio. Existing free-plan review assets require release licensing resolution."
+  },
+  "timeline": "linear",
+  "pov": "third-person limited: Lucia",
+  "delivery": "narrator-led",
+  "hook": "Jason thought the driver had betrayed them. Why else stop the taxi with their destination still ahead?",
+  "alternative_hooks": [
+    "Jason expected a trap. The driver had found his phone.",
+    "The missing money was waiting at the taxi shelter."
+  ],
+  "alternative_hook_use": "Replace scene 1 and re-time/recount the master before production; do not append.",
+  "script": "Jason thought the driver had betrayed them. Why else stop the taxi with their destination still ahead? An anonymous man waited under the shelter, holding the envelope their buyer had refused. Jason reached for his door. The driver paused the meter, and pointed toward Lucia's seat. Her phone was lying beneath it. She'd dropped it. The waiting man was a dispatcher, carrying the envelope they'd left at the taxi office. Jason relaxed his hand. He'd been preparing for somebody to take something. Nobody had even tried. Lucia collected her phone. Jason checked the envelope in front of them. Their returned advance was still intact. He paid the fare and added a tip. The driver smiled and asked if they wanted their destination. Home, Lucia said. The meter started again. Jason watched its numbers climb and felt relieved to understand why.",
+  "plot_mechanism": "suspicious detour resolves as honest lost-property service",
+  "story_relation": "standalone; complete consequence and payoff",
+  "canon_status": {
+    "canonical_names": [
+      "Jason Duval",
+      "Lucia Caminos",
+      "Leonida Keys"
+    ],
+    "fictional_elements": "All events, dialogue, sets, props, circumstances and supporting extras are original non-canon fan fiction; no game footage or official story claims."
+  },
+  "reference_assets": [
+    "characters/jason-duval/references/approved-v2-faces.png",
+    "characters/lucia-caminos/references/approved-v2-faces.png",
+    "characters/jason-duval/turnarounds/six-views.png",
+    "characters/lucia-caminos/turnarounds/six-views.png",
+    "characters/jason-duval/closet/four-outfits.png",
+    "characters/lucia-caminos/closet/four-outfits.png",
+    "world/references/environment-atlas.png",
+    "world/references/07-payoff.png"
+  ],
+  "continuity_sheet": {
+    "baseline": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers. Props: one metered yellow taxi with black steel rims, one fare receipt and returned envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures.",
+    "scenes": [
+      {
+        "scene": 1,
+        "action": "Yellow taxi stops at lit shelter, Jason driver-side rear passenger, Lucia passenger-side rear, anonymous driver front left",
+        "wardrobe": "Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers",
+        "prop": "one metered yellow taxi with black steel rims, one fare receipt and returned envelope"
+      },
+      {
+        "scene": 2,
+        "action": "Anonymous dispatcher waits under shelter holding returned envelope; Jason touches interior door handle",
+        "wardrobe": "Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers",
+        "prop": "one metered yellow taxi with black steel rims, one fare receipt and returned envelope"
+      },
+      {
+        "scene": 3,
+        "action": "Driver points safely from parked seat toward phone under Lucia rear seat",
+        "wardrobe": "Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers",
+        "prop": "one metered yellow taxi with black steel rims, one fare receipt and returned envelope"
+      },
+      {
+        "scene": 4,
+        "action": "Lucia retrieves own phone, dispatcher hands envelope through open rear window",
+        "wardrobe": "Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers",
+        "prop": "one metered yellow taxi with black steel rims, one fare receipt and returned envelope"
+      },
+      {
+        "scene": 5,
+        "action": "Jason relaxes empty open palm beside rear seat",
+        "wardrobe": "Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers",
+        "prop": "one metered yellow taxi with black steel rims, one fare receipt and returned envelope"
+      },
+      {
+        "scene": 6,
+        "action": "Jason opens returned advance envelope, banknotes stay inside; Lucia holds phone",
+        "wardrobe": "Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers",
+        "prop": "one metered yellow taxi with black steel rims, one fare receipt and returned envelope"
+      },
+      {
+        "scene": 7,
+        "action": "Jason pays driver from separate wallet, tip visible in open palm",
+        "wardrobe": "Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers",
+        "prop": "one metered yellow taxi with black steel rims, one fare receipt and returned envelope"
+      },
+      {
+        "scene": 8,
+        "action": "Taxi departs with same driver and heroes rear seats, dispatcher stays shelter, tires contact wet road",
+        "wardrobe": "Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers",
+        "prop": "one metered yellow taxi with black steel rims, one fare receipt and returned envelope"
+      }
+    ],
+    "review": "Inspect reference identities, hand anatomy, prop grips/front-back orientation, unchanged wardrobe, unoccupied vehicle interiors, wheel contact and time of day at full size."
+  },
+  "cover": {
+    "text": "THE LAST METER",
+    "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Jason relaxes empty open palm beside rear seat. Use the episode wardrobe and approved face references. Single clear clue and readable hero reaction, no collage; reserve top 25% for hand-added title.",
+    "safe_area": "Keep text within center 80% width; no invented UI or official marks."
+  },
+  "upload_description": "The Last Meter — an original GTA VI fan-fiction micro-story with Jason and Lucia, set around Leonida Keys. This episode's specific set and events are invented, non-canon fan fiction. Unofficial and not affiliated with Rockstar Games. #GTAVI #FanFiction #ViceCityAlibis",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 6.74,
+      "narration": "Jason thought the driver had betrayed them. Why else stop the taxi with their destination still ahead?",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys causeway taxi shelter; original fan-fiction set, not a claimed game location. Composition/action: Yellow taxi stops at lit shelter, Jason driver-side rear passenger, Lucia passenger-side rear, anonymous driver front left. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers. Props: one metered yellow taxi with black steel rims, one fare receipt and returned envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm medium establishing frame; gentle 3% push toward the dilemma",
+      "sound": {
+        "score": "sparse muted minor piano question; no impact hit",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "taxi idles and stops; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys causeway taxi shelter; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers",
+        "prop_state": "Yellow taxi stops at lit shelter, Jason driver-side rear passenger, Lucia passenger-side rear, anonymous driver front left",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers."
+      },
+      "on_screen_text": "The Last Meter"
+    },
+    {
+      "start": 6.74,
+      "end": 14.27,
+      "narration": "An anonymous man waited under the shelter, holding the envelope their buyer had refused. Jason reached for his door.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys causeway taxi shelter; original fan-fiction set, not a claimed game location. Composition/action: Anonymous dispatcher waits under shelter holding returned envelope; Jason touches interior door handle. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers. Props: one metered yellow taxi with black steel rims, one fare receipt and returned envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "65mm insert with foreground hand and readable object plane; slow lateral drift",
+      "sound": {
+        "score": "low plucked bass joins restrained piano",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "rear handle touched not opened; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys causeway taxi shelter; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers",
+        "prop_state": "Anonymous dispatcher waits under shelter holding returned envelope; Jason touches interior door handle",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 14.27,
+      "end": 20.61,
+      "narration": "The driver paused the meter, and pointed toward Lucia's seat. Her phone was lying beneath it.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys causeway taxi shelter; original fan-fiction set, not a claimed game location. Composition/action: Driver points safely from parked seat toward phone under Lucia rear seat. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers. Props: one metered yellow taxi with black steel rims, one fare receipt and returned envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "50mm medium reaction, restrained 2% push; preserve screen direction",
+      "sound": {
+        "score": "soft brushed pulse, unresolved suspended chord",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "meter pause click; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys causeway taxi shelter; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers",
+        "prop_state": "Driver points safely from parked seat toward phone under Lucia rear seat",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 20.61,
+      "end": 27.75,
+      "narration": "She'd dropped it. The waiting man was a dispatcher, carrying the envelope they'd left at the taxi office.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys causeway taxi shelter; original fan-fiction set, not a claimed game location. Composition/action: Lucia retrieves own phone, dispatcher hands envelope through open rear window. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers. Props: one metered yellow taxi with black steel rims, one fare receipt and returned envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm over-shoulder toward the newly relevant detail; slow focus shift",
+      "sound": {
+        "score": "thin high pad reveals the clue, percussion drops",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "phone retrieved from fabric; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys causeway taxi shelter; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers",
+        "prop_state": "Lucia retrieves own phone, dispatcher hands envelope through open rear window",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 27.75,
+      "end": 34.09,
+      "narration": "Jason relaxed his hand. He'd been preparing for somebody to take something. Nobody had even tried.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys causeway taxi shelter; original fan-fiction set, not a claimed game location. Composition/action: Jason relaxes empty open palm beside rear seat. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers. Props: one metered yellow taxi with black steel rims, one fare receipt and returned envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "65mm intimate choice closeup, hold stable so fingers and prop remain clear",
+      "sound": {
+        "score": "single warm piano note over low tension drone",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "hand settles on rear seat; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys causeway taxi shelter; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers",
+        "prop_state": "Jason relaxes empty open palm beside rear seat",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 34.09,
+      "end": 41.23,
+      "narration": "Lucia collected her phone. Jason checked the envelope in front of them. Their returned advance was still intact.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys causeway taxi shelter; original fan-fiction set, not a claimed game location. Composition/action: Jason opens returned advance envelope, banknotes stay inside; Lucia holds phone. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers. Props: one metered yellow taxi with black steel rims, one fare receipt and returned envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "40mm two-shot reveals consequence; subtle pullback",
+      "sound": {
+        "score": "pulse releases into open fifths, no triumphant swell",
+        "ambience": "Filtered rain outside walls, low enclosed room tone, distant exterior sounds softened",
+        "sfx": "envelope paper rustle; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys causeway taxi shelter; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers",
+        "prop_state": "Jason opens returned advance envelope, banknotes stay inside; Lucia holds phone",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 41.23,
+      "end": 48.36,
+      "narration": "He paid the fare and added a tip. The driver smiled and asked if they wanted their destination.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys causeway taxi shelter; original fan-fiction set, not a claimed game location. Composition/action: Jason pays driver from separate wallet, tip visible in open palm. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers. Props: one metered yellow taxi with black steel rims, one fare receipt and returned envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm wider resolution frame, move with the shared action then stop",
+      "sound": {
+        "score": "soft major-color piano resolves the central decision",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "fare notes change hands; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys causeway taxi shelter; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers",
+        "prop_state": "Jason pays driver from separate wallet, tip visible in open palm",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 48.36,
+      "end": 56,
+      "narration": "Home, Lucia said. The meter started again. Jason watched its numbers climb and felt relieved to understand why.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys causeway taxi shelter; original fan-fiction set, not a claimed game location. Composition/action: Taxi departs with same driver and heroes rear seats, dispatcher stays shelter, tires contact wet road. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers. Props: one metered yellow taxi with black steel rims, one fare receipt and returned envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "50mm closing tableau, slow 3% drift outward; hold final two seconds",
+      "sound": {
+        "score": "warm sustained chord fades beneath the final sentence, last second environmental tail",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "meter restarts and taxi rolls; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys causeway taxi shelter; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers",
+        "prop_state": "Taxi departs with same driver and heroes rear seats, dispatcher stays shelter, tires contact wet road",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey hoodie, black rain jacket, dark jeans; Lucia: cream shirt, navy rain shell, black trousers."
+      },
+      "on_screen_text": "FAN FICTION"
+    }
+  ],
+  "production_notes": {
+    "captions": "Add accurate sentence-level captions from script; max two short lines, high contrast, do not cover eyes or clue. On-screen text fields are edit overlays, never part of spoken word count.",
+    "timing": "Eight contiguous windows apportioned to actual spoken word count, with a half-second final environmental tail. Fit each exact narration segment to its assigned window with natural pauses; audition after synthesis; do not pitch/tempo process approved voice. Full runtime 56 seconds.",
+    "audio_exports": [
+      "dry_voice",
+      "score",
+      "ducked_music",
+      "ambience",
+      "effects",
+      "full_mix"
+    ],
+    "provenance": "Record API/model/settings/prompt/source/licensing per generated asset; none generated by this authoring pass.",
+    "publication": "Production plan only. No upload or publication performed."
+  }
+}

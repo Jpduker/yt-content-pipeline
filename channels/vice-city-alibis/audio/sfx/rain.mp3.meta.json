@@ -1,0 +1,14 @@
+{
+  "endpoint": "/v1/sound-generation?output_format=mp3_44100_128",
+  "request": {
+    "text": "Natural steady tropical rain falling on wet asphalt and a car roof at night, soft wide environmental ambience, no thunder, no voices, no music, no sudden hits, seamless background texture.",
+    "duration_seconds": 10,
+    "loop": true,
+    "prompt_influence": 0.65,
+    "model_id": "eleven_text_to_sound_v3"
+  },
+  "response_headers": {
+    "character-cost": "100",
+    "content-type": "audio/mpeg"
+  }
+}

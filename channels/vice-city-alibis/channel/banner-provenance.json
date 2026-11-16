@@ -1,0 +1,14 @@
+{
+  "asset": "banner-youtube-2560x1440.png",
+  "generator": "built-in image_gen",
+  "source": "banner-v1.png",
+  "export": "ffmpeg spatial resize to 2560x1440; artwork unchanged",
+  "prompt": "Create a polished YouTube channel banner, 2560x1440 landscape 16:9, for \"VICE CITY ALIBIS\". Premium painted cinematic crime graphic novel, tropical neon waterfront, rain-slick promenade, distant cargo cranes, palm silhouettes, atmospheric skyline, saturated magenta #F20BA6 and teal #12DCD2 highlights against deep plum #16091D, warm ivory #FFF2D8 lettering. Match the shown VCA palm logo's visual identity without copying it oversized. Tasteful editorial typography, exceptionally crisp. The only exact text, centered: \"VICE CITY ALIBIS\" on one line, below it \"Every score needs an alibi.\", below that smaller \"GTA VI FAN-FICTION STORIES\", then tiny but legible \"UNOFFICIAL • ORIGINAL STORIES\". All text must be safely contained in central horizontal rectangle x600..1960 y560..870 (relative to 2560x1440), ample margins. Keep main title width below1300 and height110. Decorative scene extends to all edges; central text dark quiet backing organically integrated. No characters, cars, guns, other text, game logos or official insignias. Beautiful rich artwork, no UI crop guides. This is fanfiction channel branding, not official game marketing. Save generated image normally; downstream will copy into channel directory.",
+  "status": "generated; text visually checked; YouTube crop preview still needs user check",
+  "safe_text_box": [
+    600,
+    560,
+    1960,
+    900
+  ]
+}

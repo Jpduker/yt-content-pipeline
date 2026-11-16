@@ -1,0 +1,402 @@
+{
+  "id": "W01-D04-E02",
+  "day": 4,
+  "date": "2026-11-19",
+  "title": "The Last Bid",
+  "title_options": [
+    "The Last Bid",
+    "A Compass or a Home",
+    "The Bid Jason Lowered"
+  ],
+  "duration_seconds": 56,
+  "spoken_word_count": 140,
+  "voice": {
+    "name": "Liam + Laura",
+    "id": "TX3LPaxmHKxFdv7VOQHJ / FGY2WhTYpPnrIDTdsKH5",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    },
+    "direction": "Two distinct dry centered character performances: Liam as Jason, Laura as Lucia. Narration voices approved; these character castings are provisional and need performance listening review. No Lara substitution. Calm urgent turns; no overlap or lip-sync claim.",
+    "licensing": "Planning only; no generated audio. Existing free-plan review assets require release licensing resolution."
+  },
+  "timeline": "linear",
+  "pov": "two-character external POV: only what Jason and Lucia say or observe",
+  "delivery": "character dialogue",
+  "hook": "A thousand for a broken compass. That's our boat's compass. I know that cracked rim.",
+  "alternative_hooks": [
+    "A broken compass nearly cost Jason somewhere to sleep.",
+    "Lucia stopped the bidding with one motel key."
+  ],
+  "alternative_hook_use": "Replace scene 1 and re-time/recount the master before production; do not append.",
+  "script": "A thousand for a broken compass. That's our boat's compass. I know that cracked rim. I know it too. I remember empty fuel, cold rain, and you promising we wouldn't gamble rent again. We left so much behind that night. Getting one piece back might make it feel different. Then hold this key. Our room is real. Its heater works. What direction does that compass even point? Nowhere. The needle's stuck. That man's bidding again. If I lower my paddle, he gets to keep it. He gets a broken compass. We get tonight, groceries, and a door we can close. Let him have it. All right. He's won. Keep the key, though. I'd rather carry the groceries. Does that heater sound terrible? Like thunder in a tin bucket. We'll complain about it all night. That's how we'll know we're home.",
+  "plot_mechanism": "sentimental bidding versus keeping a shared promise",
+  "story_relation": "standalone; complete consequence and payoff",
+  "canon_status": {
+    "canonical_names": [
+      "Jason Duval",
+      "Lucia Caminos",
+      "Port Gellhorn"
+    ],
+    "fictional_elements": "All events, dialogue, sets, props, circumstances and supporting extras are original non-canon fan fiction; no game footage or official story claims."
+  },
+  "reference_assets": [
+    "characters/jason-duval/references/approved-v2-faces.png",
+    "characters/lucia-caminos/references/approved-v2-faces.png",
+    "characters/jason-duval/turnarounds/six-views.png",
+    "characters/lucia-caminos/turnarounds/six-views.png",
+    "characters/jason-duval/closet/four-outfits.png",
+    "characters/lucia-caminos/closet/four-outfits.png",
+    "world/references/environment-atlas.png",
+    "world/references/07-payoff.png"
+  ],
+  "continuity_sheet": {
+    "baseline": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers. Props: one brass boat compass in glass display; numbered paper bid paddle. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures.",
+    "scenes": [
+      {
+        "scene": 1,
+        "action": "Jason raises numbered paper paddle beneath salvage auction canopy, Lucia beside him",
+        "wardrobe": "Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers",
+        "prop": "one brass boat compass in glass display; numbered paper bid paddle"
+      },
+      {
+        "scene": 2,
+        "action": "Insert cracked brass compass under glass, needle fixed northeast",
+        "wardrobe": "Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers",
+        "prop": "one brass boat compass in glass display; numbered paper bid paddle"
+      },
+      {
+        "scene": 3,
+        "action": "Lucia watches Jason, folded raincoat over chair back",
+        "wardrobe": "Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers",
+        "prop": "one brass boat compass in glass display; numbered paper bid paddle"
+      },
+      {
+        "scene": 4,
+        "action": "Anonymous bidder raises paddle across aisle, Jason responds",
+        "wardrobe": "Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers",
+        "prop": "one brass boat compass in glass display; numbered paper bid paddle"
+      },
+      {
+        "scene": 5,
+        "action": "Lucia lays plain motel key on table beside Jason hand",
+        "wardrobe": "Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers",
+        "prop": "one brass boat compass in glass display; numbered paper bid paddle"
+      },
+      {
+        "scene": 6,
+        "action": "Jason lowers paddle; anonymous winner receives compass in padded box",
+        "wardrobe": "Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers",
+        "prop": "one brass boat compass in glass display; numbered paper bid paddle"
+      },
+      {
+        "scene": 7,
+        "action": "Heroes exit canopy side by side into light rain",
+        "wardrobe": "Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers",
+        "prop": "one brass boat compass in glass display; numbered paper bid paddle"
+      },
+      {
+        "scene": 8,
+        "action": "Heroes carry plain grocery bag toward warm motel corridor, no car",
+        "wardrobe": "Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers",
+        "prop": "one brass boat compass in glass display; numbered paper bid paddle"
+      }
+    ],
+    "review": "Inspect reference identities, hand anatomy, prop grips/front-back orientation, unchanged wardrobe, unoccupied vehicle interiors, wheel contact and time of day at full size."
+  },
+  "cover": {
+    "text": "THE LAST BID",
+    "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Lucia lays plain motel key on table beside Jason hand. Use the episode wardrobe and approved face references. Single clear clue and readable hero reaction, no collage; reserve top 25% for hand-added title.",
+    "safe_area": "Keep text within center 80% width; no invented UI or official marks."
+  },
+  "upload_description": "The Last Bid — an original GTA VI fan-fiction micro-story with Jason and Lucia, set around Port Gellhorn. This episode's specific set and events are invented, non-canon fan fiction. Unofficial and not affiliated with Rockstar Games. #GTAVI #FanFiction #ViceCityAlibis",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5.95,
+      "narration": "A thousand for a broken compass. That's our boat's compass. I know that cracked rim.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn salvage auction canopy; original fan-fiction set, not a claimed game location. Composition/action: Jason raises numbered paper paddle beneath salvage auction canopy, Lucia beside him. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers. Props: one brass boat compass in glass display; numbered paper bid paddle. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim. Frame Jason as the speaking/reaction anchor, with the existing scene clue readable beside or behind them; no mouth animation.",
+      "camera": "35mm medium establishing frame; gentle 3% push toward the dilemma",
+      "sound": {
+        "score": "sparse muted minor piano question; no impact hit",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "bid paddle paper flick; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn salvage auction canopy; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers",
+        "prop_state": "Jason raises numbered paper paddle beneath salvage auction canopy, Lucia beside him",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers."
+      },
+      "on_screen_text": "The Last Bid | Jason",
+      "speaker": "Jason"
+    },
+    {
+      "start": 5.95,
+      "end": 13.08,
+      "narration": "I know it too. I remember empty fuel, cold rain, and you promising we wouldn't gamble rent again.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn salvage auction canopy; original fan-fiction set, not a claimed game location. Composition/action: Insert cracked brass compass under glass, needle fixed northeast. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers. Props: one brass boat compass in glass display; numbered paper bid paddle. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim. Frame Lucia as the speaking/reaction anchor, with the existing scene clue readable beside or behind them; no mouth animation.",
+      "camera": "65mm insert with foreground hand and readable object plane; slow lateral drift",
+      "sound": {
+        "score": "low plucked bass joins restrained piano",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "glass cabinet hinge creak; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn salvage auction canopy; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers",
+        "prop_state": "Insert cracked brass compass under glass, needle fixed northeast",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers."
+      },
+      "on_screen_text": "Lucia",
+      "speaker": "Lucia"
+    },
+    {
+      "start": 13.08,
+      "end": 19.43,
+      "narration": "We left so much behind that night. Getting one piece back might make it feel different.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn salvage auction canopy; original fan-fiction set, not a claimed game location. Composition/action: Lucia watches Jason, folded raincoat over chair back. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers. Props: one brass boat compass in glass display; numbered paper bid paddle. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim. Frame Jason as the speaking/reaction anchor, with the existing scene clue readable beside or behind them; no mouth animation.",
+      "camera": "50mm medium reaction, restrained 2% push; preserve screen direction",
+      "sound": {
+        "score": "soft brushed pulse, unresolved suspended chord",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "soft jacket movement; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn salvage auction canopy; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers",
+        "prop_state": "Lucia watches Jason, folded raincoat over chair back",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers."
+      },
+      "on_screen_text": "Jason",
+      "speaker": "Jason"
+    },
+    {
+      "start": 19.43,
+      "end": 26.56,
+      "narration": "Then hold this key. Our room is real. Its heater works. What direction does that compass even point?",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn salvage auction canopy; original fan-fiction set, not a claimed game location. Composition/action: Anonymous bidder raises paddle across aisle, Jason responds. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers. Props: one brass boat compass in glass display; numbered paper bid paddle. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim. Frame Lucia as the speaking/reaction anchor, with the existing scene clue readable beside or behind them; no mouth animation.",
+      "camera": "35mm over-shoulder toward the newly relevant detail; slow focus shift",
+      "sound": {
+        "score": "thin high pad reveals the clue, percussion drops",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "paddle rustle across aisle; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn salvage auction canopy; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers",
+        "prop_state": "Anonymous bidder raises paddle across aisle, Jason responds",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers."
+      },
+      "on_screen_text": "Lucia",
+      "speaker": "Lucia"
+    },
+    {
+      "start": 26.56,
+      "end": 33.7,
+      "narration": "Nowhere. The needle's stuck. That man's bidding again. If I lower my paddle, he gets to keep it.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn salvage auction canopy; original fan-fiction set, not a claimed game location. Composition/action: Lucia lays plain motel key on table beside Jason hand. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers. Props: one brass boat compass in glass display; numbered paper bid paddle. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim. Frame Jason as the speaking/reaction anchor, with the existing scene clue readable beside or behind them; no mouth animation.",
+      "camera": "65mm intimate choice closeup, hold stable so fingers and prop remain clear",
+      "sound": {
+        "score": "single warm piano note over low tension drone",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "motel key touches table; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn salvage auction canopy; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers",
+        "prop_state": "Lucia lays plain motel key on table beside Jason hand",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers."
+      },
+      "on_screen_text": "Jason",
+      "speaker": "Jason"
+    },
+    {
+      "start": 33.7,
+      "end": 41.23,
+      "narration": "He gets a broken compass. We get tonight, groceries, and a door we can close. Let him have it.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn salvage auction canopy; original fan-fiction set, not a claimed game location. Composition/action: Jason lowers paddle; anonymous winner receives compass in padded box. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers. Props: one brass boat compass in glass display; numbered paper bid paddle. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim. Frame Lucia as the speaking/reaction anchor, with the existing scene clue readable beside or behind them; no mouth animation.",
+      "camera": "40mm two-shot reveals consequence; subtle pullback",
+      "sound": {
+        "score": "pulse releases into open fifths, no triumphant swell",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "padded box closes; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn salvage auction canopy; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers",
+        "prop_state": "Jason lowers paddle; anonymous winner receives compass in padded box",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers."
+      },
+      "on_screen_text": "Lucia",
+      "speaker": "Lucia"
+    },
+    {
+      "start": 41.23,
+      "end": 48.36,
+      "narration": "All right. He's won. Keep the key, though. I'd rather carry the groceries. Does that heater sound terrible?",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn salvage auction canopy; original fan-fiction set, not a claimed game location. Composition/action: Heroes exit canopy side by side into light rain. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers. Props: one brass boat compass in glass display; numbered paper bid paddle. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim. Frame Jason as the speaking/reaction anchor, with the existing scene clue readable beside or behind them; no mouth animation.",
+      "camera": "35mm wider resolution frame, move with the shared action then stop",
+      "sound": {
+        "score": "soft major-color piano resolves the central decision",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "rain canopy drips; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn salvage auction canopy; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers",
+        "prop_state": "Heroes exit canopy side by side into light rain",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers."
+      },
+      "on_screen_text": "Jason",
+      "speaker": "Jason"
+    },
+    {
+      "start": 48.36,
+      "end": 56,
+      "narration": "Like thunder in a tin bucket. We'll complain about it all night. That's how we'll know we're home.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn salvage auction canopy; original fan-fiction set, not a claimed game location. Composition/action: Heroes carry plain grocery bag toward warm motel corridor, no car. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers. Props: one brass boat compass in glass display; numbered paper bid paddle. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim. Frame Lucia as the speaking/reaction anchor, with the existing scene clue readable beside or behind them; no mouth animation.",
+      "camera": "50mm closing tableau, slow 3% drift outward; hold final two seconds",
+      "sound": {
+        "score": "warm sustained chord fades beneath the final sentence, last second environmental tail",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "grocery bag handles rustle; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn salvage auction canopy; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers",
+        "prop_state": "Heroes carry plain grocery bag toward warm motel corridor, no car",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: brown leather jacket, dark tee, jeans; Lucia: teal overshirt, black trousers."
+      },
+      "on_screen_text": "FAN FICTION | Lucia",
+      "speaker": "Lucia"
+    }
+  ],
+  "production_notes": {
+    "captions": "Add accurate sentence-level captions from script; max two short lines, high contrast, do not cover eyes or clue. On-screen text fields are edit overlays, never part of spoken word count.",
+    "timing": "Eight contiguous windows apportioned to actual spoken word count, with a half-second final environmental tail. Fit each exact narration segment to its assigned window with natural pauses; audition after synthesis; do not pitch/tempo process approved voice. Full runtime 56 seconds.",
+    "audio_exports": [
+      "dry_voice",
+      "score",
+      "ducked_music",
+      "ambience",
+      "effects",
+      "full_mix"
+    ],
+    "provenance": "Record API/model/settings/prompt/source/licensing per generated asset; none generated by this authoring pass.",
+    "publication": "Production plan only. No upload or publication performed."
+  },
+  "casting": {
+    "status": "provisional character casting; narrator approvals do not approve impersonation",
+    "Jason": "Liam",
+    "Lucia": "Laura"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Vice City Alibis",
+  "slug": "vice-city-alibis",
+  "tagline": "Every score needs an alibi.",
+  "suggested_handle": "@ViceCityAlibis",
+  "handle_reserved": false,
+  "name_check": "No exact indexed search match surfaced on 2026-11-16; not a guarantee of availability",
+  "description_file": "description.txt",
+  "logo_file": "logo.png",
+  "palette": {
+    "plum": "#16091D",
+    "magenta": "#F20BA6",
+    "teal": "#12DCD2",
+    "ivory": "#FFF2D8"
+  },
+  "logo_status": "approved; user applied to created channel",
+  "banner_file": "banner-youtube-2560x1440.png",
+  "banner_status": "approved; user applied to created channel",
+  "channel_created": "user confirmed on 2026-11-16"
+}

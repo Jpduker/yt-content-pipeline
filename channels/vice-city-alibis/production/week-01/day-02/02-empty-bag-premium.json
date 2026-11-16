@@ -1,0 +1,389 @@
+{
+  "id": "W01-D02-E02",
+  "day": 2,
+  "date": "2026-11-17",
+  "title": "The Empty Bag Premium",
+  "title_options": [
+    "The Empty Bag Premium",
+    "Nothing Inside, Full Payment",
+    "The Crooked Seam"
+  ],
+  "duration_seconds": 56,
+  "spoken_word_count": 139,
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    },
+    "direction": "Intimate, controlled storyteller; build curiosity without shouting; dry centered delivery; native pitch and tempo. Quoted character intent is performed by the same narrator; no extra voice.",
+    "licensing": "Planning only; no generated audio. Existing free-plan review assets require release licensing resolution."
+  },
+  "timeline": "nonlinear: buyer reaction, short explicit earlier recovery, return to payment",
+  "pov": "third-person limited: Lucia",
+  "delivery": "narrator-led",
+  "hook": "Jason delivered an empty bag and waited for accusations. The buyer hugged it before checking a single pocket.",
+  "alternative_hooks": [
+    "The buyer paid for an empty bag.",
+    "Jason searched for cash. Lucia read the stitching."
+  ],
+  "alternative_hook_use": "Replace scene 1 and re-time/recount the master before production; do not append.",
+  "script": "Jason delivered an empty bag and waited for accusations. The buyer hugged it before checking a single pocket. Lucia had insisted they leave the contents alone. There weren't any. That made Jason mistrust the job. Their anonymous client had offered real money for a worn satchel from a shuttered resort's lost property. At the desk, the buyer traced a crescent repair beneath its handle. His father had stitched that crooked seam. Jason glanced over. She had spotted the initials inside the repair and checked with the clerk. The bag had been held for years. Its owner hadn't known the resort was closing until morning. He paid their agreed fee and walked out carrying nothing else. Jason opened the envelope. Every bill was there. Lucia asked whether an empty bag still seemed worthless. Jason put their fee away without answering.",
+  "plot_mechanism": "object value resides in family repair rather than hidden contents",
+  "story_relation": "standalone; complete consequence and payoff",
+  "canon_status": {
+    "canonical_names": [
+      "Jason Duval",
+      "Lucia Caminos",
+      "Leonida Keys"
+    ],
+    "fictional_elements": "All events, dialogue, sets, props, circumstances and supporting extras are original non-canon fan fiction; no game footage or official story claims."
+  },
+  "reference_assets": [
+    "characters/jason-duval/references/approved-v2-faces.png",
+    "characters/lucia-caminos/references/approved-v2-faces.png",
+    "characters/jason-duval/turnarounds/six-views.png",
+    "characters/lucia-caminos/turnarounds/six-views.png",
+    "characters/jason-duval/closet/four-outfits.png",
+    "characters/lucia-caminos/closet/four-outfits.png",
+    "world/references/environment-atlas.png",
+    "world/references/07-payoff.png"
+  ],
+  "continuity_sheet": {
+    "baseline": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers. Props: one empty hand-stitched leather satchel with crescent-shaped repair and one payment envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures.",
+    "scenes": [
+      {
+        "scene": 1,
+        "action": "Jason places open empty satchel on luggage desk; anonymous buyer embraces it",
+        "wardrobe": "Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers",
+        "prop": "one empty hand-stitched leather satchel with crescent-shaped repair and one payment envelope"
+      },
+      {
+        "scene": 2,
+        "action": "Earlier Jason opens empty satchel, Lucia gestures toward untouched lining",
+        "wardrobe": "Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers",
+        "prop": "one empty hand-stitched leather satchel with crescent-shaped repair and one payment envelope"
+      },
+      {
+        "scene": 3,
+        "action": "Heroes examine lost property tag, shuttered resort lobby behind",
+        "wardrobe": "Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers",
+        "prop": "one empty hand-stitched leather satchel with crescent-shaped repair and one payment envelope"
+      },
+      {
+        "scene": 4,
+        "action": "Buyer fingers crescent seam gently, satchel remains empty",
+        "wardrobe": "Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers",
+        "prop": "one empty hand-stitched leather satchel with crescent-shaped repair and one payment envelope"
+      },
+      {
+        "scene": 5,
+        "action": "Present-time insert: Lucia points to initials inside the repair while buyer holds same satchel at desk",
+        "wardrobe": "Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers",
+        "prop": "one empty hand-stitched leather satchel with crescent-shaped repair and one payment envelope"
+      },
+      {
+        "scene": 6,
+        "action": "Clerk shows old intake date on property ledger beside satchel",
+        "wardrobe": "Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers",
+        "prop": "one empty hand-stitched leather satchel with crescent-shaped repair and one payment envelope"
+      },
+      {
+        "scene": 7,
+        "action": "Buyer departs holding satchel, Jason opens payment envelope at desk",
+        "wardrobe": "Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers",
+        "prop": "one empty hand-stitched leather satchel with crescent-shaped repair and one payment envelope"
+      },
+      {
+        "scene": 8,
+        "action": "Jason pockets closed payment envelope, Lucia watches near exit",
+        "wardrobe": "Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers",
+        "prop": "one empty hand-stitched leather satchel with crescent-shaped repair and one payment envelope"
+      }
+    ],
+    "review": "Inspect reference identities, hand anatomy, prop grips/front-back orientation, unchanged wardrobe, unoccupied vehicle interiors, wheel contact and time of day at full size."
+  },
+  "cover": {
+    "text": "THE EMPTY BAG PREMIUM",
+    "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Present-time insert: Lucia points to initials inside the repair while buyer holds same satchel at desk. Use the episode wardrobe and approved face references. Single clear clue and readable hero reaction, no collage; reserve top 25% for hand-added title.",
+    "safe_area": "Keep text within center 80% width; no invented UI or official marks."
+  },
+  "upload_description": "The Empty Bag Premium — an original GTA VI fan-fiction micro-story with Jason and Lucia, set around Leonida Keys. This episode's specific set and events are invented, non-canon fan fiction. Unofficial and not affiliated with Rockstar Games. #GTAVI #FanFiction #ViceCityAlibis",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7.19,
+      "narration": "Jason delivered an empty bag and waited for accusations. The buyer hugged it before checking a single pocket.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys closed resort luggage desk; original fan-fiction set, not a claimed game location. Composition/action: Jason places open empty satchel on luggage desk; anonymous buyer embraces it. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers. Props: one empty hand-stitched leather satchel with crescent-shaped repair and one payment envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm medium establishing frame; gentle 3% push toward the dilemma",
+      "sound": {
+        "score": "sparse muted minor piano question; no impact hit",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "leather satchel sets down; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys closed resort luggage desk; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers",
+        "prop_state": "Jason places open empty satchel on luggage desk; anonymous buyer embraces it",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers."
+      },
+      "on_screen_text": "The Empty Bag Premium"
+    },
+    {
+      "start": 7.19,
+      "end": 13.97,
+      "narration": "Lucia had insisted they leave the contents alone. There weren't any. That made Jason mistrust the job.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys closed resort luggage desk; original fan-fiction set, not a claimed game location. Composition/action: Earlier Jason opens empty satchel, Lucia gestures toward untouched lining. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers. Props: one empty hand-stitched leather satchel with crescent-shaped repair and one payment envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "65mm insert with foreground hand and readable object plane; slow lateral drift",
+      "sound": {
+        "score": "low plucked bass joins restrained piano",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "empty lining flexes; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys closed resort luggage desk; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers",
+        "prop_state": "Earlier Jason opens empty satchel, Lucia gestures toward untouched lining",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 13.97,
+      "end": 20.76,
+      "narration": "Their anonymous client had offered real money for a worn satchel from a shuttered resort's lost property.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys closed resort luggage desk; original fan-fiction set, not a claimed game location. Composition/action: Heroes examine lost property tag, shuttered resort lobby behind. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers. Props: one empty hand-stitched leather satchel with crescent-shaped repair and one payment envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "50mm medium reaction, restrained 2% push; preserve screen direction",
+      "sound": {
+        "score": "soft brushed pulse, unresolved suspended chord",
+        "ambience": "Filtered rain outside walls, low enclosed room tone, distant exterior sounds softened",
+        "sfx": "property tag rustles; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys closed resort luggage desk; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers",
+        "prop_state": "Heroes examine lost property tag, shuttered resort lobby behind",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 20.76,
+      "end": 28.35,
+      "narration": "At the desk, the buyer traced a crescent repair beneath its handle. His father had stitched that crooked seam.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys closed resort luggage desk; original fan-fiction set, not a claimed game location. Composition/action: Buyer fingers crescent seam gently, satchel remains empty. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers. Props: one empty hand-stitched leather satchel with crescent-shaped repair and one payment envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm over-shoulder toward the newly relevant detail; slow focus shift",
+      "sound": {
+        "score": "thin high pad reveals the clue, percussion drops",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "fingers brush repair; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys closed resort luggage desk; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers",
+        "prop_state": "Buyer fingers crescent seam gently, satchel remains empty",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 28.35,
+      "end": 34.74,
+      "narration": "Jason glanced over. She had spotted the initials inside the repair and checked with the clerk.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys closed resort luggage desk; original fan-fiction set, not a claimed game location. Composition/action: Present-time insert: Lucia points to initials inside the repair while buyer holds same satchel at desk. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers. Props: one empty hand-stitched leather satchel with crescent-shaped repair and one payment envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "65mm intimate choice closeup, hold stable so fingers and prop remain clear",
+      "sound": {
+        "score": "single warm piano note over low tension drone",
+        "ambience": "Filtered rain outside walls, low enclosed room tone, distant exterior sounds softened",
+        "sfx": "ledger page turns; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys closed resort luggage desk; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers",
+        "prop_state": "Present-time insert: Lucia points to initials inside the repair while buyer holds same satchel at desk",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 34.74,
+      "end": 41.53,
+      "narration": "The bag had been held for years. Its owner hadn't known the resort was closing until morning.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys closed resort luggage desk; original fan-fiction set, not a claimed game location. Composition/action: Clerk shows old intake date on property ledger beside satchel. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers. Props: one empty hand-stitched leather satchel with crescent-shaped repair and one payment envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "40mm two-shot reveals consequence; subtle pullback",
+      "sound": {
+        "score": "pulse releases into open fifths, no triumphant swell",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "old intake card slips from sleeve; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys closed resort luggage desk; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers",
+        "prop_state": "Clerk shows old intake date on property ledger beside satchel",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 41.53,
+      "end": 49.11,
+      "narration": "He paid their agreed fee and walked out carrying nothing else. Jason opened the envelope. Every bill was there.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys closed resort luggage desk; original fan-fiction set, not a claimed game location. Composition/action: Buyer departs holding satchel, Jason opens payment envelope at desk. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers. Props: one empty hand-stitched leather satchel with crescent-shaped repair and one payment envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm wider resolution frame, move with the shared action then stop",
+      "sound": {
+        "score": "soft major-color piano resolves the central decision",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "payment envelope opens; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys closed resort luggage desk; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers",
+        "prop_state": "Buyer departs holding satchel, Jason opens payment envelope at desk",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 49.11,
+      "end": 56,
+      "narration": "Lucia asked whether an empty bag still seemed worthless. Jason put their fee away without answering.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys closed resort luggage desk; original fan-fiction set, not a claimed game location. Composition/action: Jason pockets closed payment envelope, Lucia watches near exit. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers. Props: one empty hand-stitched leather satchel with crescent-shaped repair and one payment envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "50mm closing tableau, slow 3% drift outward; hold final two seconds",
+      "sound": {
+        "score": "warm sustained chord fades beneath the final sentence, last second environmental tail",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "envelope pockets; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys closed resort luggage desk; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers",
+        "prop_state": "Jason pockets closed payment envelope, Lucia watches near exit",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: charcoal work jacket, grey tee, jeans; Lucia: burgundy shirt, black waterproof trousers."
+      },
+      "on_screen_text": "FAN FICTION"
+    }
+  ],
+  "production_notes": {
+    "captions": "Add accurate sentence-level captions from script; max two short lines, high contrast, do not cover eyes or clue. On-screen text fields are edit overlays, never part of spoken word count.",
+    "timing": "Eight contiguous windows apportioned to actual spoken word count, with a half-second final environmental tail. Fit each exact narration segment to its assigned window with natural pauses; audition after synthesis; do not pitch/tempo process approved voice. Full runtime 56 seconds.",
+    "audio_exports": [
+      "dry_voice",
+      "score",
+      "ducked_music",
+      "ambience",
+      "effects",
+      "full_mix"
+    ],
+    "provenance": "Record API/model/settings/prompt/source/licensing per generated asset; none generated by this authoring pass.",
+    "publication": "Production plan only. No upload or publication performed."
+  }
+}

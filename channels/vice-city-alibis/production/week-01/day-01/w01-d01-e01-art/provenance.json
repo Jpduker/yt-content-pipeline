@@ -1,0 +1,65 @@
+{
+  "episode": "The Motel Money",
+  "generator": "built-in image_gen; underlying model not reported",
+  "identity_reference": "characters/jason-duval/references/approved-v2-faces.png (contains Jason and Lucia)",
+  "style": "approved v2/v3 painted crime graphic novel",
+  "frames": [
+    {
+      "frame": 1,
+      "workspace_asset": "01.png",
+      "source": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-e0514609-1404-43e5-bc86-0c0b8c3812dd.png",
+      "shot_prompt": "9:16 vertical premium painted crime graphic novel, approved V2 Jason and Lucia face references, magenta/teal tropical night with amber skin; realistic anatomy and spatial depth. Inside approved neon motel room; Jason sets worn brown suitcase on bed; Lucia stands beside it, both looking down; rain beyond curtains. Match Jason J01 olive tee/dark jeans/boots and Lucia L01 white ribbed tank/blue jeans/white sneakers throughout; no extra limbs, no new cast, no generated text or logos; leave upper safe area for editorial captions.",
+      "revision": "Original generated frame"
+    },
+    {
+      "frame": 2,
+      "workspace_asset": "02.png",
+      "source": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-146c58b3-d12e-4607-8134-3e715e40a743.png",
+      "shot_prompt": "9:16 vertical premium painted crime graphic novel, approved V2 Jason and Lucia face references, magenta/teal tropical night with amber skin; realistic anatomy and spatial depth. Overhead insert of open suitcase on motel bed: seven kraft envelopes bearing distinct room-number labels, cash and folded receipts; Lucia's single right hand lifts one envelope. Match Jason J01 olive tee/dark jeans/boots and Lucia L01 white ribbed tank/blue jeans/white sneakers throughout; no extra limbs, no new cast, no generated text or logos; leave upper safe area for editorial captions.",
+      "revision": "Original generated frame"
+    },
+    {
+      "frame": 3,
+      "workspace_asset": "03.png",
+      "source": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-682ceb6c-7a9a-428e-af5c-a5dfb31ff797.png",
+      "shot_prompt": "9:16 vertical premium painted crime graphic novel, approved V2 Jason and Lucia face references, magenta/teal tropical night with amber skin; realistic anatomy and spatial depth. Lucia closeup studies one receipt; open case remains below her; Jason is a blurred shoulder; amber bedside lamp lights her expression. Match Jason J01 olive tee/dark jeans/boots and Lucia L01 white ribbed tank/blue jeans/white sneakers throughout; no extra limbs, no new cast, no generated text or logos; leave upper safe area for editorial captions.",
+      "revision": "Original generated frame"
+    },
+    {
+      "frame": 4,
+      "workspace_asset": "04.png",
+      "source": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-eedbf38f-1fd1-442d-8acd-936aacbf02e3.png",
+      "shot_prompt": "9:16 vertical premium painted crime graphic novel, approved V2 Jason and Lucia face references, magenta/teal tropical night with amber skin; realistic anatomy and spatial depth. Two-shot at bed; Jason holds a small stack of bills above the open case; Lucia indicates the seven envelopes without touching his hand. Match Jason J01 olive tee/dark jeans/boots and Lucia L01 white ribbed tank/blue jeans/white sneakers throughout; no extra limbs, no new cast, no generated text or logos; leave upper safe area for editorial captions.",
+      "revision": "Original generated frame"
+    },
+    {
+      "frame": 5,
+      "workspace_asset": "05.png",
+      "source": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-e99fcafa-0794-4410-af7e-7f02c08197a6.png",
+      "shot_prompt": "9:16 vertical premium painted crime graphic novel, approved V2 Jason and Lucia face references, magenta/teal tropical night with amber skin; realistic anatomy and spatial depth. Curtain-side view; both characters watch a headlight beam cross the closed curtain; anonymous buyer remains offscreen; no visible extra faces. Match Jason J01 olive tee/dark jeans/boots and Lucia L01 white ribbed tank/blue jeans/white sneakers throughout; no extra limbs, no new cast, no generated text or logos; leave upper safe area for editorial captions.",
+      "revision": "Original generated frame"
+    },
+    {
+      "frame": 6,
+      "workspace_asset": "06.png",
+      "source": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-9b3344db-4a4a-45ec-a237-4cbeb089565f.png",
+      "shot_prompt": "9:16 vertical premium painted crime graphic novel, approved V2 Jason and Lucia face references, magenta/teal tropical night with amber skin; realistic anatomy and spatial depth. Locked motel office exterior under covered walkway; Lucia feeds the reunited seven filled envelopes sequentially into wide rent slot; Jason keeps watch; brown suitcase open and empty beside him. Match Jason J01 olive tee/dark jeans/boots and Lucia L01 white ribbed tank/blue jeans/white sneakers throughout; no extra limbs, no new cast, no generated text or logos; leave upper safe area for editorial captions.",
+      "revision": "Original generated frame"
+    },
+    {
+      "frame": 7,
+      "workspace_asset": "07.png",
+      "source": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-57c1cb63-c826-4364-892b-edb689ae062a.png",
+      "shot_prompt": "9:16 vertical premium painted crime graphic novel, approved V2 Jason and Lucia face references, magenta/teal tropical night with amber skin; realistic anatomy and spatial depth. Wide courtyard: closed empty brown suitcase on pavement beside a stationary dark sedan; sedan has no visible occupants; Jason and Lucia already entering laundry passage at opposite edge. Match Jason J01 olive tee/dark jeans/boots and Lucia L01 white ribbed tank/blue jeans/white sneakers throughout; no extra limbs, no new cast, no generated text or logos; leave upper safe area for editorial captions.",
+      "revision": "Original generated frame"
+    },
+    {
+      "frame": 8,
+      "workspace_asset": "08.png",
+      "source": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-6bc9ecdd-e76c-4116-be9b-f57d6f3d1443.png",
+      "shot_prompt": "9:16 vertical premium painted crime graphic novel, approved V2 Jason and Lucia face references, magenta/teal tropical night with amber skin; realistic anatomy and spatial depth. Dawn office counter insert: seven recovered envelopes spread with their matching receipts; no people visible; pale blue light replaces night neon. Match Jason J01 olive tee/dark jeans/boots and Lucia L01 white ribbed tank/blue jeans/white sneakers throughout; no extra limbs, no new cast, no generated text or logos; leave upper safe area for editorial captions.",
+      "revision": "Remove characters and suitcase after departure"
+    }
+  ],
+  "review": "Manual visual inspection and correction performed; final user playback approval pending"
+}

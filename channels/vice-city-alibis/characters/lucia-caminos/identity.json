@@ -1,0 +1,25 @@
+{
+  "name": "Lucia Caminos",
+  "type": "GTA VI character in generated fan-art adaptation",
+  "identity_reference": "references/approved-v2-faces.png",
+  "additional_reference": "references/approved-v2-waterfront.png",
+  "identity_notes": "dark ponytail, strong brows, tan skin, small gold hoops, athletic adult build; approved face from scene references",
+  "turnaround": "turnarounds/six-views.png",
+  "angle_order_row_major": [
+    "front",
+    "three-quarter-facing-viewer-left",
+    "profile-facing-viewer-left",
+    "back",
+    "profile-facing-viewer-right",
+    "three-quarter-facing-viewer-right"
+  ],
+  "closet": "closet/four-outfits.png",
+  "outfit_order_left_to_right": [
+    "L01-default-white-tank",
+    "L02-heist-hoodie",
+    "L03-keys-blue-shirt",
+    "L04-night-burgundy"
+  ],
+  "new_board_status": "needs user visual review before final lock",
+  "rule": "preserve face/build/hair; change outfit by ID only; validate hands and props every scene"
+}

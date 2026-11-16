@@ -1,0 +1,235 @@
+{
+  "id": "w01-d01-e06",
+  "day": "2026-11-16",
+  "title": "The Dead Man in the Shower",
+  "duration_seconds": 56,
+  "voice": {
+    "name": "Laura",
+    "id": "FGY2WhTYpPnrIDTdsKH5",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    },
+    "direction": "Approved Laura narrator, dry and amused. Do not impersonate an official Lucia game voice."
+  },
+  "timeline": "Linear; scene3 recalls yesterday only in ep06",
+  "pov": "Third-person limited",
+  "delivery": "Narrator-led",
+  "hook": "The message said Jason was dead. Lucia heard him arguing with the motel shower through the bathroom door.",
+  "alternative_hooks": [
+    "Someone demanded hush money for a murder that never happened.",
+    "Jason was dead, according to the phone. The bathroom disagreed."
+  ],
+  "script": "The message said Jason was dead. Lucia heard him arguing with the motel shower through the bathroom door. A photograph followed. His boot beside a bloodstained sheet. The sender demanded cash to keep her name out. She remembered that boot yesterday. Someone had cleaned their old room after they checked out. He emerged carrying both boots, furious about cold water. Lucia held up the photograph. His anger became a grin. The sheet was theirs, too. He had spilled red sports drink while opening it with his teeth. Lucia photographed the very alive Jason holding both matching boots. Then she sent it back with one question. Would their photographer also bill them for laundry? The typing dots appeared, vanished, and stayed gone. Jason finally found hot water. Lucia put the cash away. Tonight, the only thing murdered was the shower pressure.",
+  "spoken_word_count": 140,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "narration": "The message said Jason was dead. Lucia heard him arguing with the motel shower through the bathroom door.",
+      "visual_prompt": "Vertical 9:16 premium painted crime graphic novel, approved V2 Jason/Lucia identities; rainy neon magenta/teal Vice City fan-fiction environment, amber lamps and realistic anatomy. Motel room Lucia sits on bed with phone; closed bathroom door at right, warm steam edge, Jason fully hidden. Match Jason J01 olive tee/dark jeans/dark boots except explicit barefoot beat; Lucia L01 white tank/blue jeans/white sneakers. Five plausible fingers, correct paper front/back, no extra people or vehicles. No generated logos/text; leave caption safe area.",
+      "camera": "Slow push toward central prop",
+      "sound": {
+        "music": "Single uneasy piano tone, then light pizzicato bass and dry rim taps; comic final two-note release. Current beat: hook restraint",
+        "ambience": "Filtered rain inside; wide rain and distant harbor water outside. Perspective follows visible location.",
+        "sfx": "Foley exactly tied to visible paper, phone, cloth or ashtray action; quiet harbor water outdoors, filtered rain indoors. No unrelated violence."
+      },
+      "continuity": {
+        "wardrobe": "Jason J01; Lucia L01; same wetness accumulates until dawn.",
+        "location_and_props": "Motel room Lucia sits on bed with phone; closed bathroom door at right, warm steam edge, Jason fully hidden.",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "world/references/05-tow.png"
+        ],
+        "occupants": "Only Jason and Lucia visible; ferry public passengers not framed; anonymous sender solely phone UI, no voice.",
+        "time": "Continuous rainy night; flashback explicitly labeled where specified."
+      },
+      "on_screen_text": "JASON IS \u201cDEAD\u201d"
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "narration": "A photograph followed. His boot beside a bloodstained sheet. The sender demanded cash to keep her name out.",
+      "visual_prompt": "Vertical 9:16 premium painted crime graphic novel, approved V2 Jason/Lucia identities; rainy neon magenta/teal Vice City fan-fiction environment, amber lamps and realistic anatomy. Phone insert shows SINGLE dark boot beside red-stained white sheet on unoccupied floor, no body, match boot reference exactly. Match Jason J01 olive tee/dark jeans/dark boots except explicit barefoot beat; Lucia L01 white tank/blue jeans/white sneakers. Five plausible fingers, correct paper front/back, no extra people or vehicles. No generated logos/text; leave caption safe area.",
+      "camera": "Locked overhead insert, gentle 3% crop",
+      "sound": {
+        "music": "Single uneasy piano tone, then light pizzicato bass and dry rim taps; comic final two-note release. Current beat: question",
+        "ambience": "Filtered rain inside; wide rain and distant harbor water outside. Perspective follows visible location.",
+        "sfx": "Foley exactly tied to visible paper, phone, cloth or ashtray action; quiet harbor water outdoors, filtered rain indoors. No unrelated violence."
+      },
+      "continuity": {
+        "wardrobe": "Jason J01; Lucia L01; same wetness accumulates until dawn.",
+        "location_and_props": "Phone insert shows SINGLE dark boot beside red-stained white sheet on unoccupied floor, no body, match boot reference exactly.",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "world/references/05-tow.png"
+        ],
+        "occupants": "Only Jason and Lucia visible; ferry public passengers not framed; anonymous sender solely phone UI, no voice.",
+        "time": "Continuous rainy night; flashback explicitly labeled where specified."
+      },
+      "on_screen_text": "THE CLUE"
+    },
+    {
+      "start": 14,
+      "end": 21,
+      "narration": "She remembered that boot yesterday. Someone had cleaned their old room after they checked out.",
+      "visual_prompt": "Vertical 9:16 premium painted crime graphic novel, approved V2 Jason/Lucia identities; rainy neon magenta/teal Vice City fan-fiction environment, amber lamps and realistic anatomy. Lucia looks at empty floor beside chair; memories represented as small inset of one boot in old motel room, clearly marked YESTERDAY by editor. Match Jason J01 olive tee/dark jeans/dark boots except explicit barefoot beat; Lucia L01 white tank/blue jeans/white sneakers. Five plausible fingers, correct paper front/back, no extra people or vehicles. No generated logos/text; leave caption safe area.",
+      "camera": "Slow push to Lucia reaction",
+      "sound": {
+        "music": "Single uneasy piano tone, then light pizzicato bass and dry rim taps; comic final two-note release. Current beat: recognition",
+        "ambience": "Filtered rain inside; wide rain and distant harbor water outside. Perspective follows visible location.",
+        "sfx": "Foley exactly tied to visible paper, phone, cloth or ashtray action; quiet harbor water outdoors, filtered rain indoors. No unrelated violence."
+      },
+      "continuity": {
+        "wardrobe": "Jason J01; Lucia L01; same wetness accumulates until dawn.",
+        "location_and_props": "Lucia looks at empty floor beside chair; memories represented as small inset of one boot in old motel room, clearly marked YESTERDAY by editor.",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "world/references/05-tow.png"
+        ],
+        "occupants": "Only Jason and Lucia visible; ferry public passengers not framed; anonymous sender solely phone UI, no voice.",
+        "time": "Continuous rainy night; flashback explicitly labeled where specified."
+      },
+      "on_screen_text": "YESTERDAY"
+    },
+    {
+      "start": 21,
+      "end": 28,
+      "narration": "He emerged carrying both boots, furious about cold water. Lucia held up the photograph. His anger became a grin.",
+      "visual_prompt": "Vertical 9:16 premium painted crime graphic novel, approved V2 Jason/Lucia identities; rainy neon magenta/teal Vice City fan-fiction environment, amber lamps and realistic anatomy. Jason emerges from bathroom fully dressed in olive tee/jeans but barefoot; Lucia holds phone; his two boots now brought from bathroom floor by him, keep explicit. Match Jason J01 olive tee/dark jeans/dark boots except explicit barefoot beat; Lucia L01 white tank/blue jeans/white sneakers. Five plausible fingers, correct paper front/back, no extra people or vehicles. No generated logos/text; leave caption safe area.",
+      "camera": "Restrained lateral drift",
+      "sound": {
+        "music": "Single uneasy piano tone, then light pizzicato bass and dry rim taps; comic final two-note release. Current beat: tension turn",
+        "ambience": "Filtered rain inside; wide rain and distant harbor water outside. Perspective follows visible location.",
+        "sfx": "Foley exactly tied to visible paper, phone, cloth or ashtray action; quiet harbor water outdoors, filtered rain indoors. No unrelated violence."
+      },
+      "continuity": {
+        "wardrobe": "Jason J01; Lucia L01; same wetness accumulates until dawn.",
+        "location_and_props": "Jason emerges from bathroom fully dressed in olive tee/jeans but barefoot; Lucia holds phone; his two boots now brought from bathroom floor by him, keep explicit.",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "world/references/05-tow.png"
+        ],
+        "occupants": "Only Jason and Lucia visible; ferry public passengers not framed; anonymous sender solely phone UI, no voice.",
+        "time": "Continuous rainy night; flashback explicitly labeled where specified."
+      },
+      "on_screen_text": "THE TURN"
+    },
+    {
+      "start": 28,
+      "end": 35,
+      "narration": "The sheet was theirs, too. He had spilled red sports drink while opening it with his teeth.",
+      "visual_prompt": "Vertical 9:16 premium painted crime graphic novel, approved V2 Jason/Lucia identities; rainy neon magenta/teal Vice City fan-fiction environment, amber lamps and realistic anatomy. Close insert phone photograph showing sports drink bottle edge beside red sheet stain; Lucia notices evidence while Jason gestures toward it. Match Jason J01 olive tee/dark jeans/dark boots except explicit barefoot beat; Lucia L01 white tank/blue jeans/white sneakers. Five plausible fingers, correct paper front/back, no extra people or vehicles. No generated logos/text; leave caption safe area.",
+      "camera": "Locked tension hold",
+      "sound": {
+        "music": "Single uneasy piano tone, then light pizzicato bass and dry rim taps; comic final two-note release. Current beat: decision",
+        "ambience": "Filtered rain inside; wide rain and distant harbor water outside. Perspective follows visible location.",
+        "sfx": "Foley exactly tied to visible paper, phone, cloth or ashtray action; quiet harbor water outdoors, filtered rain indoors. No unrelated violence."
+      },
+      "continuity": {
+        "wardrobe": "Jason J01; Lucia L01; same wetness accumulates until dawn.",
+        "location_and_props": "Close insert phone photograph showing sports drink bottle edge beside red sheet stain; Lucia notices evidence while Jason gestures toward it.",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "world/references/05-tow.png"
+        ],
+        "occupants": "Only Jason and Lucia visible; ferry public passengers not framed; anonymous sender solely phone UI, no voice.",
+        "time": "Continuous rainy night; flashback explicitly labeled where specified."
+      },
+      "on_screen_text": "WHAT CHANGED"
+    },
+    {
+      "start": 35,
+      "end": 42,
+      "narration": "Lucia photographed the very alive Jason holding both matching boots. Then she sent it back with one question.",
+      "visual_prompt": "Vertical 9:16 premium painted crime graphic novel, approved V2 Jason/Lucia identities; rainy neon magenta/teal Vice City fan-fiction environment, amber lamps and realistic anatomy. Jason fully dressed holding matching pair of dark boots at chest height, smiling; Lucia photographs him from across room, no nudity. Match Jason J01 olive tee/dark jeans/dark boots except explicit barefoot beat; Lucia L01 white tank/blue jeans/white sneakers. Five plausible fingers, correct paper front/back, no extra people or vehicles. No generated logos/text; leave caption safe area.",
+      "camera": "Slow track with the chosen action",
+      "sound": {
+        "music": "Single uneasy piano tone, then light pizzicato bass and dry rim taps; comic final two-note release. Current beat: action",
+        "ambience": "Filtered rain inside; wide rain and distant harbor water outside. Perspective follows visible location.",
+        "sfx": "Foley exactly tied to visible paper, phone, cloth or ashtray action; quiet harbor water outdoors, filtered rain indoors. No unrelated violence."
+      },
+      "continuity": {
+        "wardrobe": "Jason J01; Lucia L01; same wetness accumulates until dawn.",
+        "location_and_props": "Jason fully dressed holding matching pair of dark boots at chest height, smiling; Lucia photographs him from across room, no nudity.",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "world/references/05-tow.png"
+        ],
+        "occupants": "Only Jason and Lucia visible; ferry public passengers not framed; anonymous sender solely phone UI, no voice.",
+        "time": "Continuous rainy night; flashback explicitly labeled where specified."
+      },
+      "on_screen_text": "ONE CHOICE"
+    },
+    {
+      "start": 42,
+      "end": 49,
+      "narration": "Would their photographer also bill them for laundry? The typing dots appeared, vanished, and stayed gone.",
+      "visual_prompt": "Vertical 9:16 premium painted crime graphic novel, approved V2 Jason/Lucia identities; rainy neon magenta/teal Vice City fan-fiction environment, amber lamps and realistic anatomy. Lucia phone with outgoing picture, editable message and typing bubble areas; no generated words; Jason remains behind putting boots on. Match Jason J01 olive tee/dark jeans/dark boots except explicit barefoot beat; Lucia L01 white tank/blue jeans/white sneakers. Five plausible fingers, correct paper front/back, no extra people or vehicles. No generated logos/text; leave caption safe area.",
+      "camera": "Slow pull back to reveal consequence",
+      "sound": {
+        "music": "Single uneasy piano tone, then light pizzicato bass and dry rim taps; comic final two-note release. Current beat: consequence",
+        "ambience": "Filtered rain inside; wide rain and distant harbor water outside. Perspective follows visible location.",
+        "sfx": "Foley exactly tied to visible paper, phone, cloth or ashtray action; quiet harbor water outdoors, filtered rain indoors. No unrelated violence."
+      },
+      "continuity": {
+        "wardrobe": "Jason J01; Lucia L01; same wetness accumulates until dawn.",
+        "location_and_props": "Lucia phone with outgoing picture, editable message and typing bubble areas; no generated words; Jason remains behind putting boots on.",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "world/references/05-tow.png"
+        ],
+        "occupants": "Only Jason and Lucia visible; ferry public passengers not framed; anonymous sender solely phone UI, no voice.",
+        "time": "Continuous rainy night; flashback explicitly labeled where specified."
+      },
+      "on_screen_text": "NO SHORTCUT"
+    },
+    {
+      "start": 49,
+      "end": 56,
+      "narration": "Jason finally found hot water. Lucia put the cash away. Tonight, the only thing murdered was the shower pressure.",
+      "visual_prompt": "Vertical 9:16 premium painted crime graphic novel, approved V2 Jason/Lucia identities; rainy neon magenta/teal Vice City fan-fiction environment, amber lamps and realistic anatomy. Lucia closes cash envelope at bedside while Jason fully dressed reaches back into bathroom toward taps; comic dry tableau, no extra cast. Match Jason J01 olive tee/dark jeans/dark boots except explicit barefoot beat; Lucia L01 white tank/blue jeans/white sneakers. Five plausible fingers, correct paper front/back, no extra people or vehicles. No generated logos/text; leave caption safe area.",
+      "camera": "Gentle push into final symbolic detail",
+      "sound": {
+        "music": "Single uneasy piano tone, then light pizzicato bass and dry rim taps; comic final two-note release. Current beat: resolution; dip for final line",
+        "ambience": "Filtered rain inside; wide rain and distant harbor water outside. Perspective follows visible location.",
+        "sfx": "Foley exactly tied to visible paper, phone, cloth or ashtray action; quiet harbor water outdoors, filtered rain indoors. No unrelated violence."
+      },
+      "continuity": {
+        "wardrobe": "Jason J01; Lucia L01; same wetness accumulates until dawn.",
+        "location_and_props": "Lucia closes cash envelope at bedside while Jason fully dressed reaches back into bathroom toward taps; comic dry tableau, no extra cast.",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "world/references/05-tow.png"
+        ],
+        "occupants": "Only Jason and Lucia visible; ferry public passengers not framed; anonymous sender solely phone UI, no voice.",
+        "time": "Continuous rainy night; flashback explicitly labeled where specified."
+      },
+      "on_screen_text": "EVERY SCORE NEEDS AN ALIBI"
+    }
+  ],
+  "title_options": [
+    "The Dead Man in the Shower",
+    "Jason and Lucia: The Dead Man in the Shower",
+    "The Fake Murder Bill"
+  ],
+  "cover_text": "JASON IS \u201cDEAD\u201d",
+  "description": "Original unofficial GTA VI fan fiction featuring Jason and Lucia. Invented event, original motel/dock/waterfront sets, noncanonical. Not a leak or actual game footage. #GTAVI #FanFiction #Shorts",
+  "sound_emotional_progression": "Shock > uneasy absurdity > recognition > playful defiance > comic release.",
+  "production_status": "Authored production package; no render or synthesis claimed.",
+  "release_notes": "Private review first. Existing free-plan audio is not cleared for commercial release.",
+  "mix_notes": "Center intelligible speech; native pitch/tempo. Backgrounds roughly14dB beneath active voice as starting point, perspective-correct ambience. Render dry voice, score, ambience, SFX and final mix separately; private listening review required.",
+  "reference_policy": "Approved V2 faces first; turnaround/closet proposals secondary. No new recurring cast. Wardrobe uses J01/L01 only. Atlas is illustrative, invented sets are not game map claims."
+}

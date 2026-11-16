@@ -1,0 +1,392 @@
+{
+  "id": "W01-D03-E07",
+  "day": 3,
+  "date": "2026-11-18",
+  "title": "The Watermark",
+  "title_options": [
+    "The Watermark",
+    "The Debt the Rain Exposed",
+    "An Old Signature Wins"
+  ],
+  "duration_seconds": 56,
+  "spoken_word_count": 140,
+  "voice": {
+    "name": "Laura",
+    "id": "FGY2WhTYpPnrIDTdsKH5",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    },
+    "direction": "Intimate first-person confession by Lucia. Approved narrator voice, provisional character interpretation; preserve native pitch and tempo. Keep memory shifts clear and quiet.",
+    "licensing": "Planning only; no generated audio. Existing free-plan review assets require release licensing resolution."
+  },
+  "timeline": "linear",
+  "pov": "first person: Lucia",
+  "delivery": "first-person confession",
+  "hook": "I remembered every payment. The collector remembered the ones that let him charge us again.",
+  "alternative_hooks": [
+    "Rain erased the debt. Their collector doubled it anyway.",
+    "Lucia remembered the payment the collector hoped she forgot."
+  ],
+  "alternative_hook_use": "Replace scene 1 and re-time/recount the master before production; do not append.",
+  "script": "I remembered every payment. The collector remembered the ones that let him charge us again. Rain had soaked his ledger before we reached the lodge. Our balance looked like a blue cloud. He tapped the blank space and demanded double. Jason spread the pages under the lamp, seeking our number. I let the man talk. Each explanation gave me time to find the entry he hoped I'd forgotten. Three pages earlier, my signature sat beneath a payment, dry. He had counted the same debt twice. Jason moved both entries into the light. The collector stopped explaining. I waited until he offered a receipt. He crossed out our balance and signed. We left his ruined ledger behind. I kept the receipt flat. Outside, Jason asked whether I'd remembered that payment. Of course. People always get generous when they call me forgetful.",
+  "plot_mechanism": "document inconsistency overturns a dishonest debt claim",
+  "story_relation": "standalone; complete consequence and payoff",
+  "canon_status": {
+    "canonical_names": [
+      "Jason Duval",
+      "Lucia Caminos",
+      "Grassrivers"
+    ],
+    "fictional_elements": "All events, dialogue, sets, props, circumstances and supporting extras are original non-canon fan fiction; no game footage or official story claims."
+  },
+  "reference_assets": [
+    "characters/jason-duval/references/approved-v2-faces.png",
+    "characters/lucia-caminos/references/approved-v2-faces.png",
+    "characters/jason-duval/turnarounds/six-views.png",
+    "characters/lucia-caminos/turnarounds/six-views.png",
+    "characters/jason-duval/closet/four-outfits.png",
+    "characters/lucia-caminos/closet/four-outfits.png",
+    "world/references/environment-atlas.png",
+    "world/references/07-payoff.png"
+  ],
+  "continuity_sheet": {
+    "baseline": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers. Props: one water-damaged handwritten debt ledger and one desk lamp. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures.",
+    "scenes": [
+      {
+        "scene": 1,
+        "action": "Lucia opens wet handwritten ledger on lodge desk",
+        "wardrobe": "Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers",
+        "prop": "one water-damaged handwritten debt ledger and one desk lamp"
+      },
+      {
+        "scene": 2,
+        "action": "Jason fans pages beneath amber desk lamp without tearing binding",
+        "wardrobe": "Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers",
+        "prop": "one water-damaged handwritten debt ledger and one desk lamp"
+      },
+      {
+        "scene": 3,
+        "action": "Anonymous collector stands opposite desk, points at washed-out amount",
+        "wardrobe": "Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers",
+        "prop": "one water-damaged handwritten debt ledger and one desk lamp"
+      },
+      {
+        "scene": 4,
+        "action": "Lucia turns back to earlier dry page, Jason watches",
+        "wardrobe": "Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers",
+        "prop": "one water-damaged handwritten debt ledger and one desk lamp"
+      },
+      {
+        "scene": 5,
+        "action": "Insert old signed payment entry, readable overlay added in edit",
+        "wardrobe": "Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers",
+        "prop": "one water-damaged handwritten debt ledger and one desk lamp"
+      },
+      {
+        "scene": 6,
+        "action": "Jason angles open ledger toward lamp; collector goes quiet",
+        "wardrobe": "Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers",
+        "prop": "one water-damaged handwritten debt ledger and one desk lamp"
+      },
+      {
+        "scene": 7,
+        "action": "Collector signs separate receipt, Lucia receives it; ledger stays on desk",
+        "wardrobe": "Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers",
+        "prop": "one water-damaged handwritten debt ledger and one desk lamp"
+      },
+      {
+        "scene": 8,
+        "action": "Heroes under lodge awning, Lucia holds folded receipt, rain beyond",
+        "wardrobe": "Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers",
+        "prop": "one water-damaged handwritten debt ledger and one desk lamp"
+      }
+    ],
+    "review": "Inspect reference identities, hand anatomy, prop grips/front-back orientation, unchanged wardrobe, unoccupied vehicle interiors, wheel contact and time of day at full size."
+  },
+  "cover": {
+    "text": "THE WATERMARK",
+    "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Insert old signed payment entry, readable overlay added in edit. Use the episode wardrobe and approved face references. Single clear clue and readable hero reaction, no collage; reserve top 25% for hand-added title.",
+    "safe_area": "Keep text within center 80% width; no invented UI or official marks."
+  },
+  "upload_description": "The Watermark — an original GTA VI fan-fiction micro-story with Jason and Lucia, set around Grassrivers. This episode's specific set and events are invented, non-canon fan fiction. Unofficial and not affiliated with Rockstar Games. #GTAVI #FanFiction #ViceCityAlibis",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5.95,
+      "narration": "I remembered every payment. The collector remembered the ones that let him charge us again.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers fishing lodge lobby; original fan-fiction set, not a claimed game location. Composition/action: Lucia opens wet handwritten ledger on lodge desk. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers. Props: one water-damaged handwritten debt ledger and one desk lamp. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm medium establishing frame; gentle 3% push toward the dilemma",
+      "sound": {
+        "score": "sparse muted minor piano question; no impact hit",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "soaked ledger cover opens; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers fishing lodge lobby; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers",
+        "prop_state": "Lucia opens wet handwritten ledger on lodge desk",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers."
+      },
+      "on_screen_text": "The Watermark"
+    },
+    {
+      "start": 5.95,
+      "end": 12.69,
+      "narration": "Rain had soaked his ledger before we reached the lodge. Our balance looked like a blue cloud.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers fishing lodge lobby; original fan-fiction set, not a claimed game location. Composition/action: Jason fans pages beneath amber desk lamp without tearing binding. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers. Props: one water-damaged handwritten debt ledger and one desk lamp. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "65mm insert with foreground hand and readable object plane; slow lateral drift",
+      "sound": {
+        "score": "low plucked bass joins restrained piano",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "page edges separate; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers fishing lodge lobby; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers",
+        "prop_state": "Jason fans pages beneath amber desk lamp without tearing binding",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 12.69,
+      "end": 19.82,
+      "narration": "He tapped the blank space and demanded double. Jason spread the pages under the lamp, seeking our number.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers fishing lodge lobby; original fan-fiction set, not a claimed game location. Composition/action: Anonymous collector stands opposite desk, points at washed-out amount. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers. Props: one water-damaged handwritten debt ledger and one desk lamp. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "50mm medium reaction, restrained 2% push; preserve screen direction",
+      "sound": {
+        "score": "soft brushed pulse, unresolved suspended chord",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "collector finger taps wood; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers fishing lodge lobby; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers",
+        "prop_state": "Anonymous collector stands opposite desk, points at washed-out amount",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 19.82,
+      "end": 26.96,
+      "narration": "I let the man talk. Each explanation gave me time to find the entry he hoped I'd forgotten.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers fishing lodge lobby; original fan-fiction set, not a claimed game location. Composition/action: Lucia turns back to earlier dry page, Jason watches. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers. Props: one water-damaged handwritten debt ledger and one desk lamp. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm over-shoulder toward the newly relevant detail; slow focus shift",
+      "sound": {
+        "score": "thin high pad reveals the clue, percussion drops",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "dry page turn; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers fishing lodge lobby; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers",
+        "prop_state": "Lucia turns back to earlier dry page, Jason watches",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 26.96,
+      "end": 33.7,
+      "narration": "Three pages earlier, my signature sat beneath a payment, dry. He had counted the same debt twice.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers fishing lodge lobby; original fan-fiction set, not a claimed game location. Composition/action: Insert old signed payment entry, readable overlay added in edit. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers. Props: one water-damaged handwritten debt ledger and one desk lamp. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "65mm intimate choice closeup, hold stable so fingers and prop remain clear",
+      "sound": {
+        "score": "single warm piano note over low tension drone",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "quiet paper flattening; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers fishing lodge lobby; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers",
+        "prop_state": "Insert old signed payment entry, readable overlay added in edit",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 33.7,
+      "end": 40.83,
+      "narration": "Jason moved both entries into the light. The collector stopped explaining. I waited until he offered a receipt.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers fishing lodge lobby; original fan-fiction set, not a claimed game location. Composition/action: Jason angles open ledger toward lamp; collector goes quiet. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers. Props: one water-damaged handwritten debt ledger and one desk lamp. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "40mm two-shot reveals consequence; subtle pullback",
+      "sound": {
+        "score": "pulse releases into open fifths, no triumphant swell",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "lamp shade ticks during tilt; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers fishing lodge lobby; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers",
+        "prop_state": "Jason angles open ledger toward lamp; collector goes quiet",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 40.83,
+      "end": 47.97,
+      "narration": "He crossed out our balance and signed. We left his ruined ledger behind. I kept the receipt flat.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers fishing lodge lobby; original fan-fiction set, not a claimed game location. Composition/action: Collector signs separate receipt, Lucia receives it; ledger stays on desk. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers. Props: one water-damaged handwritten debt ledger and one desk lamp. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm wider resolution frame, move with the shared action then stop",
+      "sound": {
+        "score": "soft major-color piano resolves the central decision",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "pen signature and receipt slide; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers fishing lodge lobby; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers",
+        "prop_state": "Collector signs separate receipt, Lucia receives it; ledger stays on desk",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 47.97,
+      "end": 56,
+      "narration": "Outside, Jason asked whether I'd remembered that payment. Of course. People always get generous when they call me forgetful.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers fishing lodge lobby; original fan-fiction set, not a claimed game location. Composition/action: Heroes under lodge awning, Lucia holds folded receipt, rain beyond. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers. Props: one water-damaged handwritten debt ledger and one desk lamp. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "50mm closing tableau, slow 3% drift outward; hold final two seconds",
+      "sound": {
+        "score": "warm sustained chord fades beneath the final sentence, last second environmental tail",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "folded receipt rustle; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers fishing lodge lobby; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers",
+        "prop_state": "Heroes under lodge awning, Lucia holds folded receipt, rain beyond",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: olive shirt, charcoal jeans; Lucia: blue denim shirt, black rain jacket, dark trousers."
+      },
+      "on_screen_text": "FAN FICTION"
+    }
+  ],
+  "production_notes": {
+    "captions": "Add accurate sentence-level captions from script; max two short lines, high contrast, do not cover eyes or clue. On-screen text fields are edit overlays, never part of spoken word count.",
+    "timing": "Eight contiguous windows apportioned to actual spoken word count, with a half-second final environmental tail. Fit each exact narration segment to its assigned window with natural pauses; audition after synthesis; do not pitch/tempo process approved voice. Full runtime 56 seconds.",
+    "audio_exports": [
+      "dry_voice",
+      "score",
+      "ducked_music",
+      "ambience",
+      "effects",
+      "full_mix"
+    ],
+    "provenance": "Record API/model/settings/prompt/source/licensing per generated asset; none generated by this authoring pass.",
+    "publication": "Production plan only. No upload or publication performed."
+  },
+  "casting": {
+    "status": "provisional first-person character interpretation; listening review required"
+  }
+}

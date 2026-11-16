@@ -1,0 +1,14 @@
+{
+  "endpoint": "/v1/sound-generation?output_format=mp3_44100_128",
+  "request": {
+    "text": "A flatbed tow truck driving slowly away on a wet industrial road at night, natural low diesel engine and tires hissing through rain puddles, no horns, no speech, no music.",
+    "duration_seconds": 4,
+    "loop": false,
+    "prompt_influence": 0.65,
+    "model_id": "eleven_text_to_sound_v3"
+  },
+  "response_headers": {
+    "character-cost": "40",
+    "content-type": "audio/mpeg"
+  }
+}

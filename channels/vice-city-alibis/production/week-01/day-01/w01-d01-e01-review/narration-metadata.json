@@ -1,0 +1,32 @@
+{
+  "episode_id": "w01-d01-e01",
+  "title": "The Motel Money",
+  "script": "The payday was somebody else's rent. Lucia recognized the envelopes in Jason's suitcase before he opened one. Room numbers. Cash folded around rent receipts. Somebody had emptied the office safe during the storm. Their buyer had called it stolen gambling money. The suitcase told a much cheaper, uglier story. Jason counted enough to clear their debt. Lucia counted seven families paying for the same rooms twice. Outside, headlights swept the curtains. Their buyer had arrived early, expecting a suitcase and no questions. Lucia pushed the envelopes through the locked office's rent slot. Every room number stayed with its money. They left the empty suitcase beside the buyer's parked car, then walked out through the laundry courtyard. By morning, their debt was still waiting. For once, seven other people would not be waiting outside.",
+  "script_sha256": "787efd7a5c0159dec08a5ea1371323f6d8a827c3a8fd3f68ca07834aa3040b07",
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    },
+    "direction": "Native pitch and tempo. Intimate restrained narrator; reveal the moral turn without melodrama."
+  },
+  "synthesis_request": {
+    "text": "The payday was somebody else's rent. Lucia recognized the envelopes in Jason's suitcase before he opened one. Room numbers. Cash folded around rent receipts. Somebody had emptied the office safe during the storm. Their buyer had called it stolen gambling money. The suitcase told a much cheaper, uglier story. Jason counted enough to clear their debt. Lucia counted seven families paying for the same rooms twice. Outside, headlights swept the curtains. Their buyer had arrived early, expecting a suitcase and no questions. Lucia pushed the envelopes through the locked office's rent slot. Every room number stayed with its money. They left the empty suitcase beside the buyer's parked car, then walked out through the laundry courtyard. By morning, their debt was still waiting. For once, seven other people would not be waiting outside.",
+    "model_id": "eleven_v4",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "source_audio": "channels\\vice-city-alibis\\production\\week-01\\day-01\\w01-d01-e01-audio\\liam-private-preview.mp3",
+  "licensing": "free-plan private review; not commercially cleared"
+}

@@ -1,0 +1,24 @@
+{
+  "voice": "Liam",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "request": {
+    "text": "The buyer wanted the crate burned. Lucia wanted to know why. Jason had brought the fuel. Inside, they found a shipping ledger. Every missing container carried the same signature as their payment receipt. The buyer was erasing his thefts. Their instructions included a photograph of the fire, then final payment. Jason reached for the ledger. Lucia stopped him. First, she photographed every page beside its numbered seal. They carried the ledger aboard and burned the empty packing inside the dock's steel disposal cage. Lucia sent a close photograph: flames, broken seal, crate number. The buyer paid. Then another message arrived. He wanted confirmation that they had never looked inside. Lucia answered with a picture of his signature instead. The phone went silent. They left with the fee and the ledger. This time, silence was their insurance.",
+    "model_id": "eleven_v4",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "response": {
+    "request-id": "8XQ0HJF2cMRXzniMjGuU",
+    "history-item-id": "19XutDfDGfG0Rpau4Wo2",
+    "character-cost": "848"
+  },
+  "duration_seconds": 52.56,
+  "licensing": "free-plan private review; not commercially cleared",
+  "postprocessing": "none",
+  "status": "listen and retime before video edit"
+}

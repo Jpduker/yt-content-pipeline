@@ -1,0 +1,389 @@
+{
+  "id": "W01-D02-E04",
+  "day": 2,
+  "date": "2026-11-17",
+  "title": "The Torn Map",
+  "title_options": [
+    "The Torn Map",
+    "Five Hundred for a Septic Tank",
+    "The Treasure Beside the Fountain"
+  ],
+  "duration_seconds": 56,
+  "spoken_word_count": 140,
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    },
+    "direction": "Intimate, controlled storyteller; build curiosity without shouting; dry centered delivery; native pitch and tempo. Quoted character intent is performed by the same narrator; no extra voice.",
+    "licensing": "Planning only; no generated audio. Existing free-plan review assets require release licensing resolution."
+  },
+  "timeline": "linear",
+  "pov": "third-person limited: Lucia",
+  "delivery": "narrator-led",
+  "hook": "Half a map cost Jason five hundred. The other half hung behind Lucia.",
+  "alternative_hooks": [
+    "The secret treasure map was hanging beside a public fountain.",
+    "Jason paid for the half Lucia could read for free."
+  ],
+  "alternative_hook_use": "Replace scene 1 and re-time/recount the master before production; do not append.",
+  "script": "Half a map cost Jason five hundred. The other half hung behind Lucia. A seller had promised buried money beneath an island house. The second piece would cost another thousand. Jason arrived at the land office to identify the shore. Lucia went looking for a restroom. She found the complete survey beside a drinking fountain. Their secret mark wasn't treasure. It was a septic tank. The seller had traced a public drawing and torn it to invent mystery. Jason stared, cooling. They couldn't recover the cash then. They could stop the next sale. Lucia photographed both drawings for the complaint. Outside, the seller called to ask whether they wanted the ending. Jason said he'd already found it beside a fountain. Then he bought Lucia dinner with what remained. For five hundred, he'd learned the difference between hidden and simply unread.",
+  "plot_mechanism": "manufactured scarcity and public information defeat treasure scam",
+  "story_relation": "standalone; complete consequence and payoff",
+  "canon_status": {
+    "canonical_names": [
+      "Jason Duval",
+      "Lucia Caminos",
+      "Leonida Keys"
+    ],
+    "fictional_elements": "All events, dialogue, sets, props, circumstances and supporting extras are original non-canon fan fiction; no game footage or official story claims."
+  },
+  "reference_assets": [
+    "characters/jason-duval/references/approved-v2-faces.png",
+    "characters/lucia-caminos/references/approved-v2-faces.png",
+    "characters/jason-duval/turnarounds/six-views.png",
+    "characters/lucia-caminos/turnarounds/six-views.png",
+    "characters/jason-duval/closet/four-outfits.png",
+    "characters/lucia-caminos/closet/four-outfits.png",
+    "world/references/environment-atlas.png",
+    "world/references/07-payoff.png"
+  ],
+  "continuity_sheet": {
+    "baseline": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers. Props: one torn hand-drawn shoreline map and full public survey displayed behind glass. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures.",
+    "scenes": [
+      {
+        "scene": 1,
+        "action": "Lucia beside full framed survey, Jason holds matching torn map",
+        "wardrobe": "Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers",
+        "prop": "one torn hand-drawn shoreline map and full public survey displayed behind glass"
+      },
+      {
+        "scene": 2,
+        "action": "Earlier Jason studies torn map at office entry, phone offer visible",
+        "wardrobe": "Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers",
+        "prop": "one torn hand-drawn shoreline map and full public survey displayed behind glass"
+      },
+      {
+        "scene": 3,
+        "action": "Jason waits near records desk while Lucia follows restroom sign",
+        "wardrobe": "Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers",
+        "prop": "one torn hand-drawn shoreline map and full public survey displayed behind glass"
+      },
+      {
+        "scene": 4,
+        "action": "Lucia finds complete shoreline survey by drinking fountain, septic symbol clear as added overlay",
+        "wardrobe": "Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers",
+        "prop": "one torn hand-drawn shoreline map and full public survey displayed behind glass"
+      },
+      {
+        "scene": 5,
+        "action": "Jason compares torn sheet to framed survey through glass",
+        "wardrobe": "Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers",
+        "prop": "one torn hand-drawn shoreline map and full public survey displayed behind glass"
+      },
+      {
+        "scene": 6,
+        "action": "Lucia photographs both drawings for complaint; no private data",
+        "wardrobe": "Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers",
+        "prop": "one torn hand-drawn shoreline map and full public survey displayed behind glass"
+      },
+      {
+        "scene": 7,
+        "action": "Outside Jason declines caller, Lucia holds folded torn map",
+        "wardrobe": "Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers",
+        "prop": "one torn hand-drawn shoreline map and full public survey displayed behind glass"
+      },
+      {
+        "scene": 8,
+        "action": "Heroes share inexpensive dinner under takeaway awning, map in Jason pocket",
+        "wardrobe": "Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers",
+        "prop": "one torn hand-drawn shoreline map and full public survey displayed behind glass"
+      }
+    ],
+    "review": "Inspect reference identities, hand anatomy, prop grips/front-back orientation, unchanged wardrobe, unoccupied vehicle interiors, wheel contact and time of day at full size."
+  },
+  "cover": {
+    "text": "THE TORN MAP",
+    "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Jason compares torn sheet to framed survey through glass. Use the episode wardrobe and approved face references. Single clear clue and readable hero reaction, no collage; reserve top 25% for hand-added title.",
+    "safe_area": "Keep text within center 80% width; no invented UI or official marks."
+  },
+  "upload_description": "The Torn Map — an original GTA VI fan-fiction micro-story with Jason and Lucia, set around Leonida Keys. This episode's specific set and events are invented, non-canon fan fiction. Unofficial and not affiliated with Rockstar Games. #GTAVI #FanFiction #ViceCityAlibis",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5.15,
+      "narration": "Half a map cost Jason five hundred. The other half hung behind Lucia.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys island land-records waiting room; original fan-fiction set, not a claimed game location. Composition/action: Lucia beside full framed survey, Jason holds matching torn map. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers. Props: one torn hand-drawn shoreline map and full public survey displayed behind glass. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm medium establishing frame; gentle 3% push toward the dilemma",
+      "sound": {
+        "score": "sparse muted minor piano question; no impact hit",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "torn paper flexes; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys island land-records waiting room; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers",
+        "prop_state": "Lucia beside full framed survey, Jason holds matching torn map",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers."
+      },
+      "on_screen_text": "The Torn Map"
+    },
+    {
+      "start": 5.15,
+      "end": 11.89,
+      "narration": "A seller had promised buried money beneath an island house. The second piece would cost another thousand.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys island land-records waiting room; original fan-fiction set, not a claimed game location. Composition/action: Earlier Jason studies torn map at office entry, phone offer visible. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers. Props: one torn hand-drawn shoreline map and full public survey displayed behind glass. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "65mm insert with foreground hand and readable object plane; slow lateral drift",
+      "sound": {
+        "score": "low plucked bass joins restrained piano",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "phone vibration once; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys island land-records waiting room; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers",
+        "prop_state": "Earlier Jason studies torn map at office entry, phone offer visible",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 11.89,
+      "end": 18.24,
+      "narration": "Jason arrived at the land office to identify the shore. Lucia went looking for a restroom.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys island land-records waiting room; original fan-fiction set, not a claimed game location. Composition/action: Jason waits near records desk while Lucia follows restroom sign. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers. Props: one torn hand-drawn shoreline map and full public survey displayed behind glass. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "50mm medium reaction, restrained 2% push; preserve screen direction",
+      "sound": {
+        "score": "soft brushed pulse, unresolved suspended chord",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "office shoes on tile; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys island land-records waiting room; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers",
+        "prop_state": "Jason waits near records desk while Lucia follows restroom sign",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 18.24,
+      "end": 25.77,
+      "narration": "She found the complete survey beside a drinking fountain. Their secret mark wasn't treasure. It was a septic tank.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys island land-records waiting room; original fan-fiction set, not a claimed game location. Composition/action: Lucia finds complete shoreline survey by drinking fountain, septic symbol clear as added overlay. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers. Props: one torn hand-drawn shoreline map and full public survey displayed behind glass. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm over-shoulder toward the newly relevant detail; slow focus shift",
+      "sound": {
+        "score": "thin high pad reveals the clue, percussion drops",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "water fountain drip; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys island land-records waiting room; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers",
+        "prop_state": "Lucia finds complete shoreline survey by drinking fountain, septic symbol clear as added overlay",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 25.77,
+      "end": 32.11,
+      "narration": "The seller had traced a public drawing and torn it to invent mystery. Jason stared, cooling.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys island land-records waiting room; original fan-fiction set, not a claimed game location. Composition/action: Jason compares torn sheet to framed survey through glass. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers. Props: one torn hand-drawn shoreline map and full public survey displayed behind glass. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "65mm intimate choice closeup, hold stable so fingers and prop remain clear",
+      "sound": {
+        "score": "single warm piano note over low tension drone",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "paper aligns to glass; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys island land-records waiting room; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers",
+        "prop_state": "Jason compares torn sheet to framed survey through glass",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 32.11,
+      "end": 39.64,
+      "narration": "They couldn't recover the cash then. They could stop the next sale. Lucia photographed both drawings for the complaint.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys island land-records waiting room; original fan-fiction set, not a claimed game location. Composition/action: Lucia photographs both drawings for complaint; no private data. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers. Props: one torn hand-drawn shoreline map and full public survey displayed behind glass. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "40mm two-shot reveals consequence; subtle pullback",
+      "sound": {
+        "score": "pulse releases into open fifths, no triumphant swell",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "camera shutter quiet; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys island land-records waiting room; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers",
+        "prop_state": "Lucia photographs both drawings for complaint; no private data",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 39.64,
+      "end": 47.57,
+      "narration": "Outside, the seller called to ask whether they wanted the ending. Jason said he'd already found it beside a fountain.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys island land-records waiting room; original fan-fiction set, not a claimed game location. Composition/action: Outside Jason declines caller, Lucia holds folded torn map. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers. Props: one torn hand-drawn shoreline map and full public survey displayed behind glass. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm wider resolution frame, move with the shared action then stop",
+      "sound": {
+        "score": "soft major-color piano resolves the central decision",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "call ends; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys island land-records waiting room; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers",
+        "prop_state": "Outside Jason declines caller, Lucia holds folded torn map",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 47.57,
+      "end": 56,
+      "narration": "Then he bought Lucia dinner with what remained. For five hundred, he'd learned the difference between hidden and simply unread.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys island land-records waiting room; original fan-fiction set, not a claimed game location. Composition/action: Heroes share inexpensive dinner under takeaway awning, map in Jason pocket. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers. Props: one torn hand-drawn shoreline map and full public survey displayed behind glass. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "50mm closing tableau, slow 3% drift outward; hold final two seconds",
+      "sound": {
+        "score": "warm sustained chord fades beneath the final sentence, last second environmental tail",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "takeaway dish set down; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys island land-records waiting room; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers",
+        "prop_state": "Heroes share inexpensive dinner under takeaway awning, map in Jason pocket",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: green canvas jacket, white shirt, jeans; Lucia: rust raincoat, black trousers."
+      },
+      "on_screen_text": "FAN FICTION"
+    }
+  ],
+  "production_notes": {
+    "captions": "Add accurate sentence-level captions from script; max two short lines, high contrast, do not cover eyes or clue. On-screen text fields are edit overlays, never part of spoken word count.",
+    "timing": "Eight contiguous windows apportioned to actual spoken word count, with a half-second final environmental tail. Fit each exact narration segment to its assigned window with natural pauses; audition after synthesis; do not pitch/tempo process approved voice. Full runtime 56 seconds.",
+    "audio_exports": [
+      "dry_voice",
+      "score",
+      "ducked_music",
+      "ambience",
+      "effects",
+      "full_mix"
+    ],
+    "provenance": "Record API/model/settings/prompt/source/licensing per generated asset; none generated by this authoring pass.",
+    "publication": "Production plan only. No upload or publication performed."
+  }
+}

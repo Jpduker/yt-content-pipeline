@@ -1,0 +1,389 @@
+{
+  "id": "W01-D04-E04",
+  "day": 4,
+  "date": "2026-11-19",
+  "title": "Unclaimed",
+  "title_options": [
+    "Unclaimed",
+    "The Wrong Purple Case",
+    "The Sequin They Earned"
+  ],
+  "duration_seconds": 56,
+  "spoken_word_count": 140,
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    },
+    "direction": "Intimate, controlled storyteller; build curiosity without shouting; dry centered delivery; native pitch and tempo. Quoted character intent is performed by the same narrator; no extra voice.",
+    "licensing": "Planning only; no generated audio. Existing free-plan review assets require release licensing resolution."
+  },
+  "timeline": "linear",
+  "pov": "third-person limited: Lucia",
+  "delivery": "narrator-led",
+  "hook": "The suitcase was purple, just like the message said. The clown inside wasn't part of their deal.",
+  "alternative_hooks": [
+    "Their cash pickup turned out to be a clown costume.",
+    "Returning the wrong suitcase cost them the right payment."
+  ],
+  "alternative_hook_use": "Replace scene 1 and re-time/recount the master before production; do not append.",
+  "script": "The suitcase was purple, just like the message said. The clown inside wasn't part of their deal. Lucia lifted a sequined jacket. Jason found giant shoes, stage makeup, and a drawing embroidered into the lining. They had taken the wrong case from a crowded depot, certain every purple suitcase belonged to their contact. A public announcement asked for missing theatre costumes. Tomorrow's children's performance had already sold every seat available. Jason checked the clock. Their real pickup window was closing. Lucia zipped the costume case shut anyway. They carried it to lost property, where a performer pressed both hands against the purple lid in relief. Their contact stopped answering. No case, no payment. Jason sat beside Lucia beneath the departures board, silent. Then he found one silver sequin on his sleeve. She grinned. First honest tip we'd earned all week.",
+  "plot_mechanism": "mistaken luggage and opportunity cost of returning it",
+  "story_relation": "standalone; complete consequence and payoff",
+  "canon_status": {
+    "canonical_names": [
+      "Jason Duval",
+      "Lucia Caminos",
+      "Port Gellhorn"
+    ],
+    "fictional_elements": "All events, dialogue, sets, props, circumstances and supporting extras are original non-canon fan fiction; no game footage or official story claims."
+  },
+  "reference_assets": [
+    "characters/jason-duval/references/approved-v2-faces.png",
+    "characters/lucia-caminos/references/approved-v2-faces.png",
+    "characters/jason-duval/turnarounds/six-views.png",
+    "characters/lucia-caminos/turnarounds/six-views.png",
+    "characters/jason-duval/closet/four-outfits.png",
+    "characters/lucia-caminos/closet/four-outfits.png",
+    "world/references/environment-atlas.png",
+    "world/references/07-payoff.png"
+  ],
+  "continuity_sheet": {
+    "baseline": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers. Props: one purple suitcase holding theatre costumes and an embroidered child drawing. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures.",
+    "scenes": [
+      {
+        "scene": 1,
+        "action": "Lucia opens purple suitcase on bench, clown costume visible, no person inside",
+        "wardrobe": "Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers",
+        "prop": "one purple suitcase holding theatre costumes and an embroidered child drawing"
+      },
+      {
+        "scene": 2,
+        "action": "Jason lifts giant shoe, Lucia holds sequined jacket, embroidered drawing on lining",
+        "wardrobe": "Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers",
+        "prop": "one purple suitcase holding theatre costumes and an embroidered child drawing"
+      },
+      {
+        "scene": 3,
+        "action": "Wide busy depot with anonymous extras, purple case at heroes' feet",
+        "wardrobe": "Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers",
+        "prop": "one purple suitcase holding theatre costumes and an embroidered child drawing"
+      },
+      {
+        "scene": 4,
+        "action": "Depot announcement speaker above poster for fictional children's theatre",
+        "wardrobe": "Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers",
+        "prop": "one purple suitcase holding theatre costumes and an embroidered child drawing"
+      },
+      {
+        "scene": 5,
+        "action": "Jason checks clock, Lucia closes zipper with all costume pieces inside",
+        "wardrobe": "Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers",
+        "prop": "one purple suitcase holding theatre costumes and an embroidered child drawing"
+      },
+      {
+        "scene": 6,
+        "action": "Heroes hand case to anonymous relieved performer at lost property desk",
+        "wardrobe": "Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers",
+        "prop": "one purple suitcase holding theatre costumes and an embroidered child drawing"
+      },
+      {
+        "scene": 7,
+        "action": "Heroes empty handed seated below departures board, Jason phone screen dark",
+        "wardrobe": "Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers",
+        "prop": "one purple suitcase holding theatre costumes and an embroidered child drawing"
+      },
+      {
+        "scene": 8,
+        "action": "Close silver sequin on Jason sleeve; Lucia smiles beside him",
+        "wardrobe": "Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers",
+        "prop": "one purple suitcase holding theatre costumes and an embroidered child drawing"
+      }
+    ],
+    "review": "Inspect reference identities, hand anatomy, prop grips/front-back orientation, unchanged wardrobe, unoccupied vehicle interiors, wheel contact and time of day at full size."
+  },
+  "cover": {
+    "text": "UNCLAIMED",
+    "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Jason checks clock, Lucia closes zipper with all costume pieces inside. Use the episode wardrobe and approved face references. Single clear clue and readable hero reaction, no collage; reserve top 25% for hand-added title.",
+    "safe_area": "Keep text within center 80% width; no invented UI or official marks."
+  },
+  "upload_description": "Unclaimed — an original GTA VI fan-fiction micro-story with Jason and Lucia, set around Port Gellhorn. This episode's specific set and events are invented, non-canon fan fiction. Unofficial and not affiliated with Rockstar Games. #GTAVI #FanFiction #ViceCityAlibis",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 6.74,
+      "narration": "The suitcase was purple, just like the message said. The clown inside wasn't part of their deal.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn bus depot lost-property office; original fan-fiction set, not a claimed game location. Composition/action: Lucia opens purple suitcase on bench, clown costume visible, no person inside. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers. Props: one purple suitcase holding theatre costumes and an embroidered child drawing. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm medium establishing frame; gentle 3% push toward the dilemma",
+      "sound": {
+        "score": "sparse muted minor piano question; no impact hit",
+        "ambience": "Filtered rain outside walls, low enclosed room tone, distant exterior sounds softened",
+        "sfx": "suitcase zipper; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn bus depot lost-property office; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers",
+        "prop_state": "Lucia opens purple suitcase on bench, clown costume visible, no person inside",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers."
+      },
+      "on_screen_text": "Unclaimed"
+    },
+    {
+      "start": 6.74,
+      "end": 13.88,
+      "narration": "Lucia lifted a sequined jacket. Jason found giant shoes, stage makeup, and a drawing embroidered into the lining.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn bus depot lost-property office; original fan-fiction set, not a claimed game location. Composition/action: Jason lifts giant shoe, Lucia holds sequined jacket, embroidered drawing on lining. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers. Props: one purple suitcase holding theatre costumes and an embroidered child drawing. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "65mm insert with foreground hand and readable object plane; slow lateral drift",
+      "sound": {
+        "score": "low plucked bass joins restrained piano",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "oversized shoe touches bench; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn bus depot lost-property office; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers",
+        "prop_state": "Jason lifts giant shoe, Lucia holds sequined jacket, embroidered drawing on lining",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 13.88,
+      "end": 21.01,
+      "narration": "They had taken the wrong case from a crowded depot, certain every purple suitcase belonged to their contact.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn bus depot lost-property office; original fan-fiction set, not a claimed game location. Composition/action: Wide busy depot with anonymous extras, purple case at heroes' feet. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers. Props: one purple suitcase holding theatre costumes and an embroidered child drawing. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "50mm medium reaction, restrained 2% push; preserve screen direction",
+      "sound": {
+        "score": "soft brushed pulse, unresolved suspended chord",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "depot footsteps; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn bus depot lost-property office; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers",
+        "prop_state": "Wide busy depot with anonymous extras, purple case at heroes' feet",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 21.01,
+      "end": 27.75,
+      "narration": "A public announcement asked for missing theatre costumes. Tomorrow's children's performance had already sold every seat available.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn bus depot lost-property office; original fan-fiction set, not a claimed game location. Composition/action: Depot announcement speaker above poster for fictional children's theatre. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers. Props: one purple suitcase holding theatre costumes and an embroidered child drawing. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm over-shoulder toward the newly relevant detail; slow focus shift",
+      "sound": {
+        "score": "thin high pad reveals the clue, percussion drops",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "brief PA chime, no competing speech; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn bus depot lost-property office; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers",
+        "prop_state": "Depot announcement speaker above poster for fictional children's theatre",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 27.75,
+      "end": 34.49,
+      "narration": "Jason checked the clock. Their real pickup window was closing. Lucia zipped the costume case shut anyway.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn bus depot lost-property office; original fan-fiction set, not a claimed game location. Composition/action: Jason checks clock, Lucia closes zipper with all costume pieces inside. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers. Props: one purple suitcase holding theatre costumes and an embroidered child drawing. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "65mm intimate choice closeup, hold stable so fingers and prop remain clear",
+      "sound": {
+        "score": "single warm piano note over low tension drone",
+        "ambience": "Filtered rain outside walls, low enclosed room tone, distant exterior sounds softened",
+        "sfx": "zip closes; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn bus depot lost-property office; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers",
+        "prop_state": "Jason checks clock, Lucia closes zipper with all costume pieces inside",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 34.49,
+      "end": 41.62,
+      "narration": "They carried it to lost property, where a performer pressed both hands against the purple lid in relief.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn bus depot lost-property office; original fan-fiction set, not a claimed game location. Composition/action: Heroes hand case to anonymous relieved performer at lost property desk. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers. Props: one purple suitcase holding theatre costumes and an embroidered child drawing. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "40mm two-shot reveals consequence; subtle pullback",
+      "sound": {
+        "score": "pulse releases into open fifths, no triumphant swell",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "case wheels stop at desk; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn bus depot lost-property office; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers",
+        "prop_state": "Heroes hand case to anonymous relieved performer at lost property desk",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 41.62,
+      "end": 48.36,
+      "narration": "Their contact stopped answering. No case, no payment. Jason sat beside Lucia beneath the departures board, silent.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn bus depot lost-property office; original fan-fiction set, not a claimed game location. Composition/action: Heroes empty handed seated below departures board, Jason phone screen dark. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers. Props: one purple suitcase holding theatre costumes and an embroidered child drawing. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm wider resolution frame, move with the shared action then stop",
+      "sound": {
+        "score": "soft major-color piano resolves the central decision",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "quiet plastic seat creak; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn bus depot lost-property office; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers",
+        "prop_state": "Heroes empty handed seated below departures board, Jason phone screen dark",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 48.36,
+      "end": 56,
+      "narration": "Then he found one silver sequin on his sleeve. She grinned. First honest tip we'd earned all week.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn bus depot lost-property office; original fan-fiction set, not a claimed game location. Composition/action: Close silver sequin on Jason sleeve; Lucia smiles beside him. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers. Props: one purple suitcase holding theatre costumes and an embroidered child drawing. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "50mm closing tableau, slow 3% drift outward; hold final two seconds",
+      "sound": {
+        "score": "warm sustained chord fades beneath the final sentence, last second environmental tail",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "single fabric brush at sequin; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn bus depot lost-property office; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers",
+        "prop_state": "Close silver sequin on Jason sleeve; Lucia smiles beside him",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: dark green jacket, grey shirt, jeans; Lucia: tan raincoat, black trousers."
+      },
+      "on_screen_text": "FAN FICTION"
+    }
+  ],
+  "production_notes": {
+    "captions": "Add accurate sentence-level captions from script; max two short lines, high contrast, do not cover eyes or clue. On-screen text fields are edit overlays, never part of spoken word count.",
+    "timing": "Eight contiguous windows apportioned to actual spoken word count, with a half-second final environmental tail. Fit each exact narration segment to its assigned window with natural pauses; audition after synthesis; do not pitch/tempo process approved voice. Full runtime 56 seconds.",
+    "audio_exports": [
+      "dry_voice",
+      "score",
+      "ducked_music",
+      "ambience",
+      "effects",
+      "full_mix"
+    ],
+    "provenance": "Record API/model/settings/prompt/source/licensing per generated asset; none generated by this authoring pass.",
+    "publication": "Production plan only. No upload or publication performed."
+  }
+}

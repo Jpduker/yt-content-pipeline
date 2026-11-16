@@ -1,0 +1,8 @@
+{
+  "endpoint": "/v1/music",
+  "model_requested": "music_v2_5",
+  "status": 402,
+  "code": "paid_plan_required",
+  "message": "Music API is not available for free users",
+  "fallback": "original composed score from tools/build_sound_test.py"
+}

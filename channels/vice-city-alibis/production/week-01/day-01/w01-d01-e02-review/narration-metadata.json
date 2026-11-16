@@ -1,0 +1,32 @@
+{
+  "episode_id": "w01-d01-e02",
+  "title": "Paid to Burn the Evidence",
+  "script": "The buyer wanted the crate burned. Lucia wanted to know why. Jason had brought the fuel. Inside, they found a shipping ledger. Every missing container carried the same signature as their payment receipt. The buyer was erasing his thefts. Their instructions included a photograph of the fire, then final payment. Jason reached for the ledger. Lucia stopped him. First, she photographed every page beside its numbered seal. They carried the ledger aboard and burned the empty packing inside the dock's steel disposal cage. Lucia sent a close photograph: flames, broken seal, crate number. The buyer paid. Then another message arrived. He wanted confirmation that they had never looked inside. Lucia answered with a picture of his signature instead. The phone went silent. They left with the fee and the ledger. This time, silence was their insurance.",
+  "script_sha256": "c01a077f57dc0b9dfc67d126d958de8a4cba83a47d794b010586086a3d19ffb8",
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    },
+    "direction": "Native pitch and tempo. Intimate restrained narrator; reveal the moral turn without melodrama."
+  },
+  "synthesis_request": {
+    "text": "The buyer wanted the crate burned. Lucia wanted to know why. Jason had brought the fuel. Inside, they found a shipping ledger. Every missing container carried the same signature as their payment receipt. The buyer was erasing his thefts. Their instructions included a photograph of the fire, then final payment. Jason reached for the ledger. Lucia stopped him. First, she photographed every page beside its numbered seal. They carried the ledger aboard and burned the empty packing inside the dock's steel disposal cage. Lucia sent a close photograph: flames, broken seal, crate number. The buyer paid. Then another message arrived. He wanted confirmation that they had never looked inside. Lucia answered with a picture of his signature instead. The phone went silent. They left with the fee and the ledger. This time, silence was their insurance.",
+    "model_id": "eleven_v4",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "source_audio": "channels\\vice-city-alibis\\production\\week-01\\day-01\\w01-d01-e02-audio\\liam-private-preview.mp3",
+  "licensing": "free-plan private review; not commercially cleared"
+}

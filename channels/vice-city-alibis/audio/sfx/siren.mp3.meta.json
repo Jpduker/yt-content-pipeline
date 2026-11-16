@@ -1,0 +1,14 @@
+{
+  "endpoint": "/v1/sound-generation?output_format=mp3_44100_128",
+  "request": {
+    "text": "Distant police sirens approaching an industrial harbor in rain, realistic urban reflections, two far-away sirens, no voices, no gunfire, no music, keep perspective distant.",
+    "duration_seconds": 5,
+    "loop": false,
+    "prompt_influence": 0.65,
+    "model_id": "eleven_text_to_sound_v3"
+  },
+  "response_headers": {
+    "character-cost": "50",
+    "content-type": "audio/mpeg"
+  }
+}

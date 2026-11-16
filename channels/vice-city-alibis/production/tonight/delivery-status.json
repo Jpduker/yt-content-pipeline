@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-16",
+  "timezone": "Europe/Berlin",
+  "banner": "channel/banner-youtube-2560x1440.png",
+  "week": {
+    "episodes": 49,
+    "days": 7,
+    "episodes_per_day": 7,
+    "portrait_shot_plans": 392,
+    "status": "preproduction scripts and shot plans; dedicated artwork/audio/editing still required for remaining47"
+  },
+  "review_cuts": [
+    {
+      "title": "The Motel Money",
+      "file": "the-motel-money-review.mp4",
+      "duration": 56,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "full_decode": "passed",
+      "measured_audio_peak_db": -3.5
+    },
+    {
+      "title": "Paid to Burn the Evidence",
+      "file": "paid-to-burn-the-evidence-review.mp4",
+      "duration": 56,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "full_decode": "passed",
+      "measured_audio_peak_db": -4.3
+    }
+  ],
+  "review": "User approved both cuts for tonight’s upload, 2026-11-16",
+  "audio_license": "Free-plan ElevenLabs: noncommercial only, elevenlabs.io or11.ai required in publishing title. Not commercially cleared.",
+  "publishing": "Nothing uploaded",
+  "channel_status": "Created by user with logo, banner, name and description",
+  "next_session": "Remaining week production deferred to 17 November 2026 by user"
+}

@@ -1,0 +1,75 @@
+{
+  "duration": 33.101,
+  "score_origin": "original deterministic composition; Eleven Music request returned 402 paid_plan_required",
+  "sfx_origin": "ElevenLabs eleven_text_to_sound_v3",
+  "voice": "approved unchanged Liam Eleven v4 performance",
+  "music_sections": [
+    [
+      0,
+      10.84,
+      "curiosity"
+    ],
+    [
+      10.84,
+      15.88,
+      "tension"
+    ],
+    [
+      15.88,
+      24.68,
+      "momentum"
+    ],
+    [
+      24.68,
+      33.101,
+      "payoff"
+    ]
+  ],
+  "sfx_cues": [
+    {
+      "sound": "paper",
+      "start": 0.25,
+      "rms_before_duck": 0.021,
+      "lowpass_hz": 4500
+    },
+    {
+      "sound": "paper",
+      "start": 3.36,
+      "rms_before_duck": 0.014,
+      "lowpass_hz": 4000
+    },
+    {
+      "sound": "phone",
+      "start": 6.4,
+      "rms_before_duck": 0.045,
+      "lowpass_hz": 2400
+    },
+    {
+      "sound": "tow-truck",
+      "start": 15.88,
+      "rms_before_duck": 0.044,
+      "lowpass_hz": 3000
+    },
+    {
+      "sound": "siren",
+      "start": 20.0,
+      "rms_before_duck": 0.034,
+      "lowpass_hz": 2200
+    },
+    {
+      "sound": "siren",
+      "start": 24.68,
+      "rms_before_duck": 0.01,
+      "lowpass_hz": 1000
+    },
+    {
+      "sound": "zipper",
+      "start": 27.35,
+      "rms_before_duck": 0.023,
+      "lowpass_hz": 4500
+    }
+  ],
+  "mix_peak_before_aac_dbfs": -1.7237229523256667,
+  "master_gain": 1.3343697177210285,
+  "speech_duck_min": 0.4800000000705673
+}

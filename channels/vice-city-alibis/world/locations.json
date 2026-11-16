@@ -1,0 +1,50 @@
+{
+  "style_atlas": "references/environment-atlas.png",
+  "official_names_source": "https://www.rockstargames.com/VI/media/screenshots",
+  "sets": [
+    {
+      "id": "VC-MOTEL-01",
+      "region": "Vice City",
+      "set": "neon motel strip",
+      "status": "approved illustrated world; not exact in-game reconstruction",
+      "reference": "references/01-opening.png"
+    },
+    {
+      "id": "VC-DOCK-01",
+      "region": "Vice City-inspired harbor",
+      "set": "cargo docks",
+      "status": "approved illustrated world",
+      "reference": "references/05-tow.png"
+    },
+    {
+      "id": "VC-WATER-01",
+      "region": "Vice City-inspired harbor",
+      "set": "waterfront promenade",
+      "status": "approved illustrated world",
+      "reference": "references/07-payoff.png"
+    }
+  ],
+  "exploration_queue": [
+    {
+      "name": "Leonida Keys",
+      "status": "official named region; scene-specific production assets not yet generated"
+    },
+    {
+      "name": "Grassrivers",
+      "status": "official named region; scene-specific production assets not yet generated"
+    },
+    {
+      "name": "Port Gellhorn",
+      "status": "official named region; scene-specific production assets not yet generated"
+    },
+    {
+      "name": "Ambrosia",
+      "status": "official named region; scene-specific production assets not yet generated"
+    },
+    {
+      "name": "Mount Kalaga",
+      "status": "official named region; scene-specific production assets not yet generated"
+    }
+  ],
+  "atlas_note": "Keys vignette is an illustrative proposal, not a verified game location"
+}

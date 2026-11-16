@@ -1,0 +1,65 @@
+{
+  "episode": "Paid to Burn the Evidence",
+  "generator": "built-in image_gen; underlying model not reported",
+  "identity_reference": "characters/jason-duval/references/approved-v2-faces.png (contains Jason and Lucia)",
+  "style": "approved v2/v3 painted crime graphic novel",
+  "frames": [
+    {
+      "frame": 1,
+      "workspace_asset": "01.png",
+      "source": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-94de97c0-495a-48e0-a718-b4ed6fc0127a.png",
+      "shot_prompt": "9:16 premium painted crime graphic novel, approved V2 Jason and Lucia identities; magenta/teal wet dock night, amber skin, realistic anatomy and depth. Rainy cargo pier at night; Jason sets sealed square wooden crate beside steel disposal cage; sealed fuel can stands beside cage, Lucia scrutinizes crate; white skiff moored below. Jason J01 olive tee/dark jeans/boots; Lucia L01 white tank/blue jeans/white sneakers throughout. Plausible hands; no extra occupants; consistent crate and red ledger; no generated text or logos.",
+      "revision": "Remove ledger outside sealed crate"
+    },
+    {
+      "frame": 2,
+      "workspace_asset": "02.png",
+      "source": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-437ba585-1d7c-49f0-a693-f12c1bbb1d30.png",
+      "shot_prompt": "9:16 premium painted crime graphic novel, approved V2 Jason and Lucia identities; magenta/teal wet dock night, amber skin, realistic anatomy and depth. Overhead insert opened wooden crate: one thick red shipping ledger with page of container numbers and signature; Lucia holds payment receipt beside it; matching signature area reserved for editor overlay. Jason J01 olive tee/dark jeans/boots; Lucia L01 white tank/blue jeans/white sneakers throughout. Plausible hands; no extra occupants; consistent crate and red ledger; no generated text or logos.",
+      "revision": "Original generated frame"
+    },
+    {
+      "frame": 3,
+      "workspace_asset": "03.png",
+      "source": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-4ad9b36d-0d99-4802-b6c4-e0c8d99a6432.png",
+      "shot_prompt": "9:16 premium painted crime graphic novel, approved V2 Jason and Lucia identities; magenta/teal wet dock night, amber skin, realistic anatomy and depth. Lucia studies phone showing instruction layout, no generated lettering; opened red ledger stays on crate lid; Jason watches her; wet stacked containers behind. Jason J01 olive tee/dark jeans/boots; Lucia L01 white tank/blue jeans/white sneakers throughout. Plausible hands; no extra occupants; consistent crate and red ledger; no generated text or logos.",
+      "revision": "Written ledger and broken numbered seal"
+    },
+    {
+      "frame": 4,
+      "workspace_asset": "04.png",
+      "source": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-9a40eb37-b3bf-47b3-963f-4a5dbae32cc2.png",
+      "shot_prompt": "9:16 premium painted crime graphic novel, approved V2 Jason and Lucia identities; magenta/teal wet dock night, amber skin, realistic anatomy and depth. Close over Lucia shoulder: she photographs open red ledger with phone; numbered broken white seal positioned alongside page; Jason holds book steady with plausible hands. Jason J01 olive tee/dark jeans/boots; Lucia L01 white tank/blue jeans/white sneakers throughout. Plausible hands; no extra occupants; consistent crate and red ledger; no generated text or logos.",
+      "revision": "Matching written ledger, camera preview, seal740583"
+    },
+    {
+      "frame": 5,
+      "workspace_asset": "05.png",
+      "source": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-5bbfbca3-7002-4190-a6ca-4e284f3da165.png",
+      "shot_prompt": "9:16 premium painted crime graphic novel, approved V2 Jason and Lucia identities; magenta/teal wet dock night, amber skin, realistic anatomy and depth. Wide dock: empty wooden packing burning inside closed steel disposal cage; red ledger lies clearly visible and dry in skiff under Jason hand; Lucia remains on dock; fuel can now capped well away. Jason J01 olive tee/dark jeans/boots; Lucia L01 white tank/blue jeans/white sneakers throughout. Plausible hands; no extra occupants; consistent crate and red ledger; no generated text or logos.",
+      "revision": "Remove duplicated intact crate after burning"
+    },
+    {
+      "frame": 6,
+      "workspace_asset": "06.png",
+      "source": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-79e2e2a6-8c9e-42ca-a8d8-1ae3f8bce5c9.png",
+      "shot_prompt": "9:16 premium painted crime graphic novel, approved V2 Jason and Lucia identities; magenta/teal wet dock night, amber skin, realistic anatomy and depth. Lucia phone above smoldering cage foreground, composing tight crop of flames and crate number; white skiff below contains Jason and red ledger; empty crate destroyed, contents safe. Jason J01 olive tee/dark jeans/boots; Lucia L01 white tank/blue jeans/white sneakers throughout. Plausible hands; no extra occupants; consistent crate and red ledger; no generated text or logos.",
+      "revision": "Empty burning crate insert inside cage, seal740583"
+    },
+    {
+      "frame": 7,
+      "workspace_asset": "07.png",
+      "source": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-f576c300-4717-4eb5-baf8-63d68c52bce5.png",
+      "shot_prompt": "9:16 premium painted crime graphic novel, approved V2 Jason and Lucia identities; magenta/teal wet dock night, amber skin, realistic anatomy and depth. Insert Lucia phone at skiff side with photographed signature full screen, editorial interface added later; red ledger rests at her knee; Jason aboard at stern, no third occupant. Jason J01 olive tee/dark jeans/boots; Lucia L01 white tank/blue jeans/white sneakers throughout. Plausible hands; no extra occupants; consistent crate and red ledger; no generated text or logos.",
+      "revision": "Phone photo and ledger use matching discovered shipping entries and signature; no duplicated crate"
+    },
+    {
+      "frame": 8,
+      "workspace_asset": "08.png",
+      "source": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-5ab9e293-54c1-43a0-8bdc-88585284a2de.png",
+      "shot_prompt": "9:16 premium painted crime graphic novel, approved V2 Jason and Lucia identities; magenta/teal wet dock night, amber skin, realistic anatomy and depth. White skiff leaving pier toward approved waterfront skyline; Jason at stern steering, Lucia seated forward with closed red ledger in lap and phone lowered; distant disposal cage smoke, no pursuit. Jason J01 olive tee/dark jeans/boots; Lucia L01 white tank/blue jeans/white sneakers throughout. Plausible hands; no extra occupants; consistent crate and red ledger; no generated text or logos.",
+      "revision": "Remove intact crate from escape boat"
+    }
+  ],
+  "review": "Manual visual inspection and correction performed; final user playback approval pending"
+}

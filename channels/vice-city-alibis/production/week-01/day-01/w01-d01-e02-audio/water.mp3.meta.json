@@ -1,0 +1,14 @@
+{
+  "endpoint": "/v1/sound-generation?output_format=mp3_44100_128",
+  "request": {
+    "text": "Gentle harbor water lapping against small fiberglass skiff at rainy dock, subtle ambience no voices no music",
+    "duration_seconds": 8,
+    "loop": true,
+    "prompt_influence": 0.65,
+    "model_id": "eleven_text_to_sound_v3"
+  },
+  "response_headers": {
+    "character-cost": "80",
+    "content-type": "audio/mpeg"
+  }
+}

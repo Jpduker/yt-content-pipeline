@@ -1,0 +1,14 @@
+{
+  "endpoint": "/v1/sound-generation?output_format=mp3_44100_128",
+  "request": {
+    "text": "One close soft zipper opening on a black canvas duffel bag followed by a subtle rustle of paper banknote bundles, realistic gentle foley, no speech, no music.",
+    "duration_seconds": 2,
+    "loop": false,
+    "prompt_influence": 0.65,
+    "model_id": "eleven_text_to_sound_v3"
+  },
+  "response_headers": {
+    "character-cost": "20",
+    "content-type": "audio/mpeg"
+  }
+}

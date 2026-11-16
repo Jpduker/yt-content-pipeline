@@ -1,0 +1,22 @@
+{
+  "model_id": "eleven_v4",
+  "voices": {
+    "male": {
+      "name": "Liam",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ"
+    },
+    "female": {
+      "name": "Laura",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5"
+    }
+  },
+  "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0.3,
+    "use_speaker_boost": true,
+    "speed": 1.03
+  },
+  "post_processing": "Loudness normalization and mix only; no pitch shifting or tempo changes",
+  "selection_status": "Candidates for user review; not locked channel voices"
+}

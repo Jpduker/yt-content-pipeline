@@ -1,0 +1,389 @@
+{
+  "id": "W01-D04-E07",
+  "day": 4,
+  "date": "2026-11-19",
+  "title": "The Empty Stage",
+  "title_options": [
+    "The Empty Stage",
+    "The Key to Nobody's Fortune",
+    "What the Capsule Held"
+  ],
+  "duration_seconds": 56,
+  "spoken_word_count": 140,
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    },
+    "direction": "Intimate, controlled storyteller; build curiosity without shouting; dry centered delivery; native pitch and tempo. Quoted character intent is performed by the same narrator; no extra voice.",
+    "licensing": "Planning only; no generated audio. Existing free-plan review assets require release licensing resolution."
+  },
+  "timeline": "linear with next-day epilogue",
+  "pov": "third-person limited: Lucia",
+  "delivery": "narrator-led",
+  "hook": "The key opened nothing in the cinema. Jason tried twice before Lucia read the ribbon.",
+  "alternative_hooks": [
+    "The buyer wanted the key before the neighborhood could see inside.",
+    "Jason expected cash. The cinema had saved voices."
+  ],
+  "alternative_hook_use": "Replace scene 1 and re-time/recount the master before production; do not append.",
+  "script": "The key opened nothing in the cinema. Jason tried twice before Lucia read the ribbon. It carried a date, not a room number. Tonight. Their buyer promised a fortune for this key. They entered through the public side lobby, where a caretaker packed posters into a box. She recognized the ribbon immediately. The key belonged to a time capsule beneath the cinema's old stage. Jason asked about the buyer. The caretaker showed them a demolition notice. Someone wanted the capsule before witnesses arrived. Lucia set the key on the ticket counter. She asked when the neighborhood could come and watch it opened. At noon, the caretaker answered. Jason left their number for an invitation and tore up the private offer. The capsule held letters, not cash. They heard them read aloud the next day. Nobody had to steal those voices.",
+  "plot_mechanism": "private extraction replaced by community witnessing",
+  "story_relation": "standalone; complete consequence and payoff",
+  "canon_status": {
+    "canonical_names": [
+      "Jason Duval",
+      "Lucia Caminos",
+      "Port Gellhorn"
+    ],
+    "fictional_elements": "All events, dialogue, sets, props, circumstances and supporting extras are original non-canon fan fiction; no game footage or official story claims."
+  },
+  "reference_assets": [
+    "characters/jason-duval/references/approved-v2-faces.png",
+    "characters/lucia-caminos/references/approved-v2-faces.png",
+    "characters/jason-duval/turnarounds/six-views.png",
+    "characters/lucia-caminos/turnarounds/six-views.png",
+    "characters/jason-duval/closet/four-outfits.png",
+    "characters/lucia-caminos/closet/four-outfits.png",
+    "world/references/environment-atlas.png",
+    "world/references/07-payoff.png"
+  ],
+  "continuity_sheet": {
+    "baseline": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers. Props: one small silver key on red ribbon; one red velvet stage curtain. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures.",
+    "scenes": [
+      {
+        "scene": 1,
+        "action": "Jason holds silver key at closed cinema front, Lucia studies red ribbon",
+        "wardrobe": "Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers",
+        "prop": "one small silver key on red ribbon; one red velvet stage curtain"
+      },
+      {
+        "scene": 2,
+        "action": "Macro ribbon printed with date, silver key hangs consistently teeth down",
+        "wardrobe": "Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers",
+        "prop": "one small silver key on red ribbon; one red velvet stage curtain"
+      },
+      {
+        "scene": 3,
+        "action": "Heroes enter open public side lobby, anonymous caretaker with poster box",
+        "wardrobe": "Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers",
+        "prop": "one small silver key on red ribbon; one red velvet stage curtain"
+      },
+      {
+        "scene": 4,
+        "action": "Caretaker gestures toward stage floor, red curtain drawn to left",
+        "wardrobe": "Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers",
+        "prop": "one small silver key on red ribbon; one red velvet stage curtain"
+      },
+      {
+        "scene": 5,
+        "action": "Demolition notice on ticket counter, heroes read, key in Lucia hand",
+        "wardrobe": "Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers",
+        "prop": "one small silver key on red ribbon; one red velvet stage curtain"
+      },
+      {
+        "scene": 6,
+        "action": "Lucia lays key and attached ribbon on counter, talks to caretaker",
+        "wardrobe": "Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers",
+        "prop": "one small silver key on red ribbon; one red velvet stage curtain"
+      },
+      {
+        "scene": 7,
+        "action": "Jason tears private offer paper above waste bin; key stays counter",
+        "wardrobe": "Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers",
+        "prop": "one small silver key on red ribbon; one red velvet stage curtain"
+      },
+      {
+        "scene": 8,
+        "action": "Next day public gathering before open capsule letters on stage, heroes seated",
+        "wardrobe": "Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers",
+        "prop": "one small silver key on red ribbon; one red velvet stage curtain"
+      }
+    ],
+    "review": "Inspect reference identities, hand anatomy, prop grips/front-back orientation, unchanged wardrobe, unoccupied vehicle interiors, wheel contact and time of day at full size."
+  },
+  "cover": {
+    "text": "THE EMPTY STAGE",
+    "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Demolition notice on ticket counter, heroes read, key in Lucia hand. Use the episode wardrobe and approved face references. Single clear clue and readable hero reaction, no collage; reserve top 25% for hand-added title.",
+    "safe_area": "Keep text within center 80% width; no invented UI or official marks."
+  },
+  "upload_description": "The Empty Stage — an original GTA VI fan-fiction micro-story with Jason and Lucia, set around Port Gellhorn. This episode's specific set and events are invented, non-canon fan fiction. Unofficial and not affiliated with Rockstar Games. #GTAVI #FanFiction #ViceCityAlibis",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5.95,
+      "narration": "The key opened nothing in the cinema. Jason tried twice before Lucia read the ribbon.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn closed waterfront cinema; original fan-fiction set, not a claimed game location. Composition/action: Jason holds silver key at closed cinema front, Lucia studies red ribbon. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers. Props: one small silver key on red ribbon; one red velvet stage curtain. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm medium establishing frame; gentle 3% push toward the dilemma",
+      "sound": {
+        "score": "sparse muted minor piano question; no impact hit",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "key gently scrapes lock; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn closed waterfront cinema; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers",
+        "prop_state": "Jason holds silver key at closed cinema front, Lucia studies red ribbon",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers."
+      },
+      "on_screen_text": "The Empty Stage"
+    },
+    {
+      "start": 5.95,
+      "end": 12.69,
+      "narration": "It carried a date, not a room number. Tonight. Their buyer promised a fortune for this key.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn closed waterfront cinema; original fan-fiction set, not a claimed game location. Composition/action: Macro ribbon printed with date, silver key hangs consistently teeth down. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers. Props: one small silver key on red ribbon; one red velvet stage curtain. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "65mm insert with foreground hand and readable object plane; slow lateral drift",
+      "sound": {
+        "score": "low plucked bass joins restrained piano",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "ribbon flutters; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn closed waterfront cinema; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers",
+        "prop_state": "Macro ribbon printed with date, silver key hangs consistently teeth down",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 12.69,
+      "end": 18.63,
+      "narration": "They entered through the public side lobby, where a caretaker packed posters into a box.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn closed waterfront cinema; original fan-fiction set, not a claimed game location. Composition/action: Heroes enter open public side lobby, anonymous caretaker with poster box. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers. Props: one small silver key on red ribbon; one red velvet stage curtain. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "50mm medium reaction, restrained 2% push; preserve screen direction",
+      "sound": {
+        "score": "soft brushed pulse, unresolved suspended chord",
+        "ambience": "Filtered rain outside walls, low enclosed room tone, distant exterior sounds softened",
+        "sfx": "poster box shifts; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn closed waterfront cinema; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers",
+        "prop_state": "Heroes enter open public side lobby, anonymous caretaker with poster box",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 18.63,
+      "end": 25.37,
+      "narration": "She recognized the ribbon immediately. The key belonged to a time capsule beneath the cinema's old stage.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn closed waterfront cinema; original fan-fiction set, not a claimed game location. Composition/action: Caretaker gestures toward stage floor, red curtain drawn to left. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers. Props: one small silver key on red ribbon; one red velvet stage curtain. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm over-shoulder toward the newly relevant detail; slow focus shift",
+      "sound": {
+        "score": "thin high pad reveals the clue, percussion drops",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "stage board creak; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn closed waterfront cinema; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers",
+        "prop_state": "Caretaker gestures toward stage floor, red curtain drawn to left",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 25.37,
+      "end": 32.9,
+      "narration": "Jason asked about the buyer. The caretaker showed them a demolition notice. Someone wanted the capsule before witnesses arrived.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn closed waterfront cinema; original fan-fiction set, not a claimed game location. Composition/action: Demolition notice on ticket counter, heroes read, key in Lucia hand. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers. Props: one small silver key on red ribbon; one red velvet stage curtain. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "65mm intimate choice closeup, hold stable so fingers and prop remain clear",
+      "sound": {
+        "score": "single warm piano note over low tension drone",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "demolition notice taps counter; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn closed waterfront cinema; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers",
+        "prop_state": "Demolition notice on ticket counter, heroes read, key in Lucia hand",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 32.9,
+      "end": 40.44,
+      "narration": "Lucia set the key on the ticket counter. She asked when the neighborhood could come and watch it opened.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn closed waterfront cinema; original fan-fiction set, not a claimed game location. Composition/action: Lucia lays key and attached ribbon on counter, talks to caretaker. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers. Props: one small silver key on red ribbon; one red velvet stage curtain. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "40mm two-shot reveals consequence; subtle pullback",
+      "sound": {
+        "score": "pulse releases into open fifths, no triumphant swell",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "key and ribbon set down; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn closed waterfront cinema; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers",
+        "prop_state": "Lucia lays key and attached ribbon on counter, talks to caretaker",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 40.44,
+      "end": 47.57,
+      "narration": "At noon, the caretaker answered. Jason left their number for an invitation and tore up the private offer.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn closed waterfront cinema; original fan-fiction set, not a claimed game location. Composition/action: Jason tears private offer paper above waste bin; key stays counter. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers. Props: one small silver key on red ribbon; one red velvet stage curtain. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm wider resolution frame, move with the shared action then stop",
+      "sound": {
+        "score": "soft major-color piano resolves the central decision",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "offer paper tears; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn closed waterfront cinema; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers",
+        "prop_state": "Jason tears private offer paper above waste bin; key stays counter",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 47.57,
+      "end": 56,
+      "narration": "The capsule held letters, not cash. They heard them read aloud the next day. Nobody had to steal those voices.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn closed waterfront cinema; original fan-fiction set, not a claimed game location. Composition/action: Next day public gathering before open capsule letters on stage, heroes seated. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers. Props: one small silver key on red ribbon; one red velvet stage curtain. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "50mm closing tableau, slow 3% drift outward; hold final two seconds",
+      "sound": {
+        "score": "warm sustained chord fades beneath the final sentence, last second environmental tail",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "capsule paper rustle and soft audience breath; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn closed waterfront cinema; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers",
+        "prop_state": "Next day public gathering before open capsule letters on stage, heroes seated",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: slate shirt, brown rain jacket, dark jeans; Lucia: navy jacket, cream tee, black trousers."
+      },
+      "on_screen_text": "FAN FICTION"
+    }
+  ],
+  "production_notes": {
+    "captions": "Add accurate sentence-level captions from script; max two short lines, high contrast, do not cover eyes or clue. On-screen text fields are edit overlays, never part of spoken word count.",
+    "timing": "Eight contiguous windows apportioned to actual spoken word count, with a half-second final environmental tail. Fit each exact narration segment to its assigned window with natural pauses; audition after synthesis; do not pitch/tempo process approved voice. Full runtime 56 seconds.",
+    "audio_exports": [
+      "dry_voice",
+      "score",
+      "ducked_music",
+      "ambience",
+      "effects",
+      "full_mix"
+    ],
+    "provenance": "Record API/model/settings/prompt/source/licensing per generated asset; none generated by this authoring pass.",
+    "publication": "Production plan only. No upload or publication performed."
+  }
+}

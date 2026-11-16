@@ -1,0 +1,16 @@
+{
+  "name": "The Fixer",
+  "type": "original fan-fiction supporting character; not claimed game canon",
+  "reference": "references/fixer.png",
+  "appearance": "bald mature man, cream linen suit, dark floral shirt, gold chain",
+  "voice_candidate": "Callum; not auditioned",
+  "turnaround": "turnarounds/six-views.png",
+  "closet": "closet/four-outfits.png",
+  "outfit_order_left_to_right": [
+    "F01-cream-suit",
+    "F02-night-charcoal",
+    "F03-dock-disguise",
+    "F04-keys-linen"
+  ],
+  "new_board_status": "generated reference proposal; user review before final identity lock"
+}

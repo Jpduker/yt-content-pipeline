@@ -1,0 +1,21 @@
+{
+  "generator": "built-in image_gen; underlying model not reported",
+  "output": "2160x3840 JPG upload exports; original generated PNG retained",
+  "review": "Text, character likeness, seven motel envelopes and dock seal740583 visually inspected",
+  "assets": [
+    {
+      "key": "thumb_motel",
+      "slug": "the-motel-money",
+      "prompt": "Create one PORTRAIT9:16 cinematic YouTube Shorts thumbnail for a fictional adult crime story. Use reference ONLY for Lucia's recognizable adult face and painted graphic novel style. Upper half: extreme close-up of adult Lucia's FACE, curious and suspicious eyes, head portrait cropped at chin, no torso. Lower half: open worn brown suitcase on a motel table, containing kraft envelopes with room-number labels, folded rent receipts and a few banknotes. Face and suitcase are an editorial poster composition. Tropical rainy neon motel background softly blurred, deep plum with magenta and teal light, warm ivory highlights. Bold readable exact words 'WHOSE CASH?' in two lines near the upper-middle, large condensed capitals with dark outline, strong central composition and quiet text backing. Leave margins: central80percent width, clear bottom15percent andright15percent for interface. No other text, no logos, no playicon, no fake UI, no guns, no extra figures or hands. A suspenseful money mystery without revealing the ending. Full-face expression and mysterious suitcase are the only focal points. Premium cinematic illustration, not game footage. One image, not storyboard panels.",
+      "source": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-ad944ed5-bc54-43e7-8778-01f94f53a0c2.png"
+    },
+    {
+      "key": "thumb_evidence",
+      "slug": "paid-to-burn-the-evidence",
+      "prompt": "Create ONE premium YouTube Shorts thumbnail, PORTRAIT9:16, target2160x3840. Supplied reference locks Lucia/Jason identities, wardrobe and painted crime graphic novel style, and the red ledger/white seal prop. Strong cinematic editorial composition: Lucia's intent face in upper middle, closed RED hardcover shipping ledger30cm in lower middle on a dock crate; BROKEN WHITE plastic seal740583 beside ledger, clearly distinct. Behind her, distant empty packing burning in a steel cage, framed so it cannot be mistaken for ledger burning. Wet neon harbor teal and magenta, warm fire orange rimlight, deepplum dark separation. Close crop, one clear visual question: why must this ledger burn? Hands mostly outside frame or simple one realistic resting hand. Do NOT reveal the buyer's signature or ending, no extra duplicate books or crates in boat, no guns or invented police pursuit. Put ONLY exact headline 'BURN IT?' in large bold condensed ivory uppercase with restrained orange/magenta accent, across upper central third; high contrast against quiet dark background. Keep text within central80%width and important details away from bottom15% and right15%. No other lettering, fake UI, play icon, logo, watermark or collage panels. Match Lucia approved face and white tank, preserve natural anatomy. Original unofficial GTA VI fan-fiction thumbnail.",
+      "source": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-ea885b54-bebe-4c0d-8765-3b9ff6794f26.png",
+      "final_edit": "Removed invented gold anchor emblem; ledger now matches plain red cover in approved video"
+    }
+  ],
+  "completed_date": "2026-11-17"
+}

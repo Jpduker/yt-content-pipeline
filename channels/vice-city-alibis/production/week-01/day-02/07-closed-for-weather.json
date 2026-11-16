@@ -1,0 +1,402 @@
+{
+  "id": "W01-D02-E07",
+  "day": 2,
+  "date": "2026-11-17",
+  "title": "Closed for Weather",
+  "title_options": [
+    "Closed for Weather",
+    "The Horizon They Couldn't See",
+    "A Refund Beats the Sky"
+  ],
+  "duration_seconds": 56,
+  "spoken_word_count": 140,
+  "voice": {
+    "name": "Liam + Laura",
+    "id": "TX3LPaxmHKxFdv7VOQHJ / FGY2WhTYpPnrIDTdsKH5",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    },
+    "direction": "Two distinct dry centered character performances: Liam as Jason, Laura as Lucia. Narration voices approved; these character castings are provisional and need performance listening review. No Lara substitution. Calm urgent turns; no overlap or lip-sync claim.",
+    "licensing": "Planning only; no generated audio. Existing free-plan review assets require release licensing resolution."
+  },
+  "timeline": "linear",
+  "pov": "two-character external POV: only what Jason and Lucia say or observe",
+  "delivery": "character dialogue",
+  "hook": "We paid for two seats. There's the plane, there's our pilot, and he's drinking coffee.",
+  "alternative_hooks": [
+    "The pilot could see what Jason couldn't.",
+    "Their getaway flight stayed tied to the dock."
+  ],
+  "alternative_hook_use": "Replace scene 1 and re-time/recount the master before production; do not append.",
+  "script": "We paid for two seats. There's the plane, there's our pilot, and he's drinking coffee. Look past him, Jason. The storm isn't over the island yet. It's sitting across the route we'd be taking. Our buyer leaves tonight. If we're absent, he keeps the deal. Tell me there's another flight. There isn't. There is a cancellation notice, and it says refunds at this counter. Keep them dry. I hate losing a score because somebody who doesn't know us decides the sky's wrong. We could ask him. You can. But ask him what he sees, instead of asking what he'd charge to ignore it. He says that black line hides the horizon. I didn't even know I was looking at a line. Neither did I. Take the refund. We'll buy breakfast where the floor stays still, and complain about the weather.",
+  "plot_mechanism": "weather perspective defeats pressure to purchase unsafe passage",
+  "story_relation": "standalone; complete consequence and payoff",
+  "canon_status": {
+    "canonical_names": [
+      "Jason Duval",
+      "Lucia Caminos",
+      "Leonida Keys"
+    ],
+    "fictional_elements": "All events, dialogue, sets, props, circumstances and supporting extras are original non-canon fan fiction; no game footage or official story claims."
+  },
+  "reference_assets": [
+    "characters/jason-duval/references/approved-v2-faces.png",
+    "characters/lucia-caminos/references/approved-v2-faces.png",
+    "characters/jason-duval/turnarounds/six-views.png",
+    "characters/lucia-caminos/turnarounds/six-views.png",
+    "characters/jason-duval/closet/four-outfits.png",
+    "characters/lucia-caminos/closet/four-outfits.png",
+    "world/references/environment-atlas.png",
+    "world/references/07-payoff.png"
+  ],
+  "continuity_sheet": {
+    "baseline": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers. Props: one closed cash envelope, two refundable excursion tickets, storm cancellation sign. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures.",
+    "scenes": [
+      {
+        "scene": 1,
+        "action": "Jason addresses Lucia inside glass-roofed kiosk, stationary floatplane moored outside, anonymous pilot drinks coffee on shore",
+        "wardrobe": "Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers",
+        "prop": "one closed cash envelope, two refundable excursion tickets, storm cancellation sign"
+      },
+      {
+        "scene": 2,
+        "action": "Lucia points to distant storm wall beyond secured plane",
+        "wardrobe": "Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers",
+        "prop": "one closed cash envelope, two refundable excursion tickets, storm cancellation sign"
+      },
+      {
+        "scene": 3,
+        "action": "Jason holds closed cash envelope and two excursion tickets",
+        "wardrobe": "Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers",
+        "prop": "one closed cash envelope, two refundable excursion tickets, storm cancellation sign"
+      },
+      {
+        "scene": 4,
+        "action": "Lucia points to cancellation sign and refund counter",
+        "wardrobe": "Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers",
+        "prop": "one closed cash envelope, two refundable excursion tickets, storm cancellation sign"
+      },
+      {
+        "scene": 5,
+        "action": "Jason glances toward shore pilot, envelope remains closed",
+        "wardrobe": "Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers",
+        "prop": "one closed cash envelope, two refundable excursion tickets, storm cancellation sign"
+      },
+      {
+        "scene": 6,
+        "action": "Lucia calmly faces Jason, pilot in distant background",
+        "wardrobe": "Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers",
+        "prop": "one closed cash envelope, two refundable excursion tickets, storm cancellation sign"
+      },
+      {
+        "scene": 7,
+        "action": "Jason returns from brief offscreen weather question, looks at obscured horizon",
+        "wardrobe": "Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers",
+        "prop": "one closed cash envelope, two refundable excursion tickets, storm cancellation sign"
+      },
+      {
+        "scene": 8,
+        "action": "Lucia receives refund for tickets at kiosk counter, Jason waits beside her",
+        "wardrobe": "Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers",
+        "prop": "one closed cash envelope, two refundable excursion tickets, storm cancellation sign"
+      }
+    ],
+    "review": "Inspect reference identities, hand anatomy, prop grips/front-back orientation, unchanged wardrobe, unoccupied vehicle interiors, wheel contact and time of day at full size."
+  },
+  "cover": {
+    "text": "CLOSED FOR WEATHER",
+    "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Jason glances toward shore pilot, envelope remains closed. Use the episode wardrobe and approved face references. Single clear clue and readable hero reaction, no collage; reserve top 25% for hand-added title.",
+    "safe_area": "Keep text within center 80% width; no invented UI or official marks."
+  },
+  "upload_description": "Closed for Weather — an original GTA VI fan-fiction micro-story with Jason and Lucia, set around Leonida Keys. This episode's specific set and events are invented, non-canon fan fiction. Unofficial and not affiliated with Rockstar Games. #GTAVI #FanFiction #ViceCityAlibis",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5.95,
+      "narration": "We paid for two seats. There's the plane, there's our pilot, and he's drinking coffee.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys glass-roofed seaplane ticket kiosk; original fan-fiction set, not a claimed game location. Composition/action: Jason addresses Lucia inside glass-roofed kiosk, stationary floatplane moored outside, anonymous pilot drinks coffee on shore. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers. Props: one closed cash envelope, two refundable excursion tickets, storm cancellation sign. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim. Frame Jason as the speaking/reaction anchor, with the existing scene clue readable beside or behind them; no mouth animation.",
+      "camera": "35mm medium establishing frame; gentle 3% push toward the dilemma",
+      "sound": {
+        "score": "sparse muted minor piano question; no impact hit",
+        "ambience": "Filtered rain outside walls, low enclosed room tone, distant exterior sounds softened",
+        "sfx": "ticket paper flutters; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys glass-roofed seaplane ticket kiosk; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers",
+        "prop_state": "Jason addresses Lucia inside glass-roofed kiosk, stationary floatplane moored outside, anonymous pilot drinks coffee on shore",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers."
+      },
+      "on_screen_text": "Closed for Weather | Jason",
+      "speaker": "Jason"
+    },
+    {
+      "start": 5.95,
+      "end": 13.48,
+      "narration": "Look past him, Jason. The storm isn't over the island yet. It's sitting across the route we'd be taking.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys glass-roofed seaplane ticket kiosk; original fan-fiction set, not a claimed game location. Composition/action: Lucia points to distant storm wall beyond secured plane. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers. Props: one closed cash envelope, two refundable excursion tickets, storm cancellation sign. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim. Frame Lucia as the speaking/reaction anchor, with the existing scene clue readable beside or behind them; no mouth animation.",
+      "camera": "65mm insert with foreground hand and readable object plane; slow lateral drift",
+      "sound": {
+        "score": "low plucked bass joins restrained piano",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "wind outside glass; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys glass-roofed seaplane ticket kiosk; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers",
+        "prop_state": "Lucia points to distant storm wall beyond secured plane",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers."
+      },
+      "on_screen_text": "Lucia",
+      "speaker": "Lucia"
+    },
+    {
+      "start": 13.48,
+      "end": 19.82,
+      "narration": "Our buyer leaves tonight. If we're absent, he keeps the deal. Tell me there's another flight.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys glass-roofed seaplane ticket kiosk; original fan-fiction set, not a claimed game location. Composition/action: Jason holds closed cash envelope and two excursion tickets. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers. Props: one closed cash envelope, two refundable excursion tickets, storm cancellation sign. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim. Frame Jason as the speaking/reaction anchor, with the existing scene clue readable beside or behind them; no mouth animation.",
+      "camera": "50mm medium reaction, restrained 2% push; preserve screen direction",
+      "sound": {
+        "score": "soft brushed pulse, unresolved suspended chord",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "cash envelope grips; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys glass-roofed seaplane ticket kiosk; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers",
+        "prop_state": "Jason holds closed cash envelope and two excursion tickets",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers."
+      },
+      "on_screen_text": "Jason",
+      "speaker": "Jason"
+    },
+    {
+      "start": 19.82,
+      "end": 26.56,
+      "narration": "There isn't. There is a cancellation notice, and it says refunds at this counter. Keep them dry.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys glass-roofed seaplane ticket kiosk; original fan-fiction set, not a claimed game location. Composition/action: Lucia points to cancellation sign and refund counter. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers. Props: one closed cash envelope, two refundable excursion tickets, storm cancellation sign. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim. Frame Lucia as the speaking/reaction anchor, with the existing scene clue readable beside or behind them; no mouth animation.",
+      "camera": "35mm over-shoulder toward the newly relevant detail; slow focus shift",
+      "sound": {
+        "score": "thin high pad reveals the clue, percussion drops",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "notice rattles softly; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys glass-roofed seaplane ticket kiosk; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers",
+        "prop_state": "Lucia points to cancellation sign and refund counter",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers."
+      },
+      "on_screen_text": "Lucia",
+      "speaker": "Lucia"
+    },
+    {
+      "start": 26.56,
+      "end": 34.09,
+      "narration": "I hate losing a score because somebody who doesn't know us decides the sky's wrong. We could ask him.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys glass-roofed seaplane ticket kiosk; original fan-fiction set, not a claimed game location. Composition/action: Jason glances toward shore pilot, envelope remains closed. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers. Props: one closed cash envelope, two refundable excursion tickets, storm cancellation sign. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim. Frame Jason as the speaking/reaction anchor, with the existing scene clue readable beside or behind them; no mouth animation.",
+      "camera": "65mm intimate choice closeup, hold stable so fingers and prop remain clear",
+      "sound": {
+        "score": "single warm piano note over low tension drone",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "mooring rope creaks; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys glass-roofed seaplane ticket kiosk; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers",
+        "prop_state": "Jason glances toward shore pilot, envelope remains closed",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers."
+      },
+      "on_screen_text": "Jason",
+      "speaker": "Jason"
+    },
+    {
+      "start": 34.09,
+      "end": 40.83,
+      "narration": "You can. But ask him what he sees, instead of asking what he'd charge to ignore it.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys glass-roofed seaplane ticket kiosk; original fan-fiction set, not a claimed game location. Composition/action: Lucia calmly faces Jason, pilot in distant background. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers. Props: one closed cash envelope, two refundable excursion tickets, storm cancellation sign. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim. Frame Lucia as the speaking/reaction anchor, with the existing scene clue readable beside or behind them; no mouth animation.",
+      "camera": "40mm two-shot reveals consequence; subtle pullback",
+      "sound": {
+        "score": "pulse releases into open fifths, no triumphant swell",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "quiet jacket turn; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys glass-roofed seaplane ticket kiosk; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers",
+        "prop_state": "Lucia calmly faces Jason, pilot in distant background",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers."
+      },
+      "on_screen_text": "Lucia",
+      "speaker": "Lucia"
+    },
+    {
+      "start": 40.83,
+      "end": 47.97,
+      "narration": "He says that black line hides the horizon. I didn't even know I was looking at a line.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys glass-roofed seaplane ticket kiosk; original fan-fiction set, not a claimed game location. Composition/action: Jason returns from brief offscreen weather question, looks at obscured horizon. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers. Props: one closed cash envelope, two refundable excursion tickets, storm cancellation sign. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim. Frame Jason as the speaking/reaction anchor, with the existing scene clue readable beside or behind them; no mouth animation.",
+      "camera": "35mm wider resolution frame, move with the shared action then stop",
+      "sound": {
+        "score": "soft major-color piano resolves the central decision",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "distant thunder under speech; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys glass-roofed seaplane ticket kiosk; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers",
+        "prop_state": "Jason returns from brief offscreen weather question, looks at obscured horizon",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers."
+      },
+      "on_screen_text": "Jason",
+      "speaker": "Jason"
+    },
+    {
+      "start": 47.97,
+      "end": 56,
+      "narration": "Neither did I. Take the refund. We'll buy breakfast where the floor stays still, and complain about the weather.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Leonida Keys glass-roofed seaplane ticket kiosk; original fan-fiction set, not a claimed game location. Composition/action: Lucia receives refund for tickets at kiosk counter, Jason waits beside her. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers. Props: one closed cash envelope, two refundable excursion tickets, storm cancellation sign. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim. Frame Lucia as the speaking/reaction anchor, with the existing scene clue readable beside or behind them; no mouth animation.",
+      "camera": "50mm closing tableau, slow 3% drift outward; hold final two seconds",
+      "sound": {
+        "score": "warm sustained chord fades beneath the final sentence, last second environmental tail",
+        "ambience": "Soft saltwater chop, tropical rain on nearby shelter roof, light coastal wind; distant coastal road hiss only where a street is shown",
+        "sfx": "counter drawer and refund notes; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Leonida Keys glass-roofed seaplane ticket kiosk; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers",
+        "prop_state": "Lucia receives refund for tickets at kiosk counter, Jason waits beside her",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: blue shirt, charcoal jacket, jeans; Lucia: amber rain shell, black trousers."
+      },
+      "on_screen_text": "FAN FICTION | Lucia",
+      "speaker": "Lucia"
+    }
+  ],
+  "production_notes": {
+    "captions": "Add accurate sentence-level captions from script; max two short lines, high contrast, do not cover eyes or clue. On-screen text fields are edit overlays, never part of spoken word count.",
+    "timing": "Eight contiguous windows apportioned to actual spoken word count, with a half-second final environmental tail. Fit each exact narration segment to its assigned window with natural pauses; audition after synthesis; do not pitch/tempo process approved voice. Full runtime 56 seconds.",
+    "audio_exports": [
+      "dry_voice",
+      "score",
+      "ducked_music",
+      "ambience",
+      "effects",
+      "full_mix"
+    ],
+    "provenance": "Record API/model/settings/prompt/source/licensing per generated asset; none generated by this authoring pass.",
+    "publication": "Production plan only. No upload or publication performed."
+  },
+  "casting": {
+    "status": "provisional character casting; narrator approvals do not approve impersonation",
+    "Jason": "Liam",
+    "Lucia": "Laura"
+  }
+}

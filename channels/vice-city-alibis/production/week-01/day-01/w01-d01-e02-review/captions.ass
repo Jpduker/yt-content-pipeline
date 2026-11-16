@@ -1,0 +1,43 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,57,&H00D8F2FF,&H00D8F2FF,&H001D0916,&H80000000,-1,0,0,0,100,100,0,0,1,4,1,2,90,150,330,1
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.35,0:00:01.39,Default,,0,0,0,,The buyer wanted the
+Dialogue: 0,0:00:01.47,0:00:03.43,Default,,0,0,0,,crate burned. Lucia wanted
+Dialogue: 0,0:00:03.43,0:00:05.07,Default,,0,0,0,,to know why. Jason
+Dialogue: 0,0:00:05.07,0:00:06.23,Default,,0,0,0,,had brought the fuel.
+Dialogue: 0,0:00:06.43,0:00:07.63,Default,,0,0,0,,Inside, they found a
+Dialogue: 0,0:00:07.71,0:00:09.47,Default,,0,0,0,,shipping ledger.\NEvery missing
+Dialogue: 0,0:00:09.67,0:00:10.75,Default,,0,0,0,,container carried the same
+Dialogue: 0,0:00:10.75,0:00:11.95,Default,,0,0,0,,signature as their payment
+Dialogue: 0,0:00:11.95,0:00:13.63,Default,,0,0,0,,receipt. The buyer was
+Dialogue: 0,0:00:13.67,0:00:15.55,Default,,0,0,0,,erasing his thefts. Their
+Dialogue: 0,0:00:15.79,0:00:17.19,Default,,0,0,0,,instructions included\Na photograph
+Dialogue: 0,0:00:17.19,0:00:18.43,Default,,0,0,0,,of the fire, then
+Dialogue: 0,0:00:18.51,0:00:20.51,Default,,0,0,0,,final payment. Jason reached
+Dialogue: 0,0:00:20.51,0:00:22.03,Default,,0,0,0,,for the ledger. Lucia
+Dialogue: 0,0:00:22.11,0:00:23.71,Default,,0,0,0,,stopped him. First, she
+Dialogue: 0,0:00:23.71,0:00:25.39,Default,,0,0,0,,photographed every\Npage beside
+Dialogue: 0,0:00:25.39,0:00:26.91,Default,,0,0,0,,its numbered seal. They
+Dialogue: 0,0:00:26.91,0:00:28.03,Default,,0,0,0,,carried the ledger aboard
+Dialogue: 0,0:00:28.03,0:00:28.91,Default,,0,0,0,,and burned the empty
+Dialogue: 0,0:00:28.91,0:00:30.27,Default,,0,0,0,,packing inside the dock's
+Dialogue: 0,0:00:30.27,0:00:32.35,Default,,0,0,0,,steel disposal cage. Lucia
+Dialogue: 0,0:00:32.39,0:00:34.03,Default,,0,0,0,,sent a close photograph:
+Dialogue: 0,0:00:34.03,0:00:36.11,Default,,0,0,0,,flames, broken seal, crate
+Dialogue: 0,0:00:36.11,0:00:38.07,Default,,0,0,0,,number. The buyer paid.
+Dialogue: 0,0:00:38.27,0:00:40.19,Default,,0,0,0,,Then another message arrived.
+Dialogue: 0,0:00:40.19,0:00:41.47,Default,,0,0,0,,He wanted confirmation that
+Dialogue: 0,0:00:41.47,0:00:42.35,Default,,0,0,0,,they had never looked
+Dialogue: 0,0:00:42.35,0:00:44.35,Default,,0,0,0,,inside. Lucia answered with
+Dialogue: 0,0:00:44.35,0:00:45.07,Default,,0,0,0,,a picture of his
+Dialogue: 0,0:00:45.07,0:00:46.99,Default,,0,0,0,,signature instead. The phone
+Dialogue: 0,0:00:46.99,0:00:48.51,Default,,0,0,0,,went silent. They left
+Dialogue: 0,0:00:48.51,0:00:49.39,Default,,0,0,0,,with the fee and
+Dialogue: 0,0:00:49.39,0:00:51.31,Default,,0,0,0,,the ledger. This time,
+Dialogue: 0,0:00:51.31,0:00:53.07,Default,,0,0,0,,silence was their insurance.

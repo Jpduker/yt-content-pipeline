@@ -1,0 +1,402 @@
+{
+  "id": "W01-D03-E04",
+  "day": 3,
+  "date": "2026-11-18",
+  "title": "The White Line",
+  "title_options": [
+    "The White Line",
+    "Where the Road Ended",
+    "The Case That Floated Away"
+  ],
+  "duration_seconds": 56,
+  "spoken_word_count": 140,
+  "voice": {
+    "name": "Liam + Laura",
+    "id": "TX3LPaxmHKxFdv7VOQHJ / FGY2WhTYpPnrIDTdsKH5",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    },
+    "direction": "Two distinct dry centered character performances: Liam as Jason, Laura as Lucia. Narration voices approved; these character castings are provisional and need performance listening review. No Lara substitution. Calm urgent turns; no overlap or lip-sync claim.",
+    "licensing": "Planning only; no generated audio. Existing free-plan review assets require release licensing resolution."
+  },
+  "timeline": "linear",
+  "pov": "two-character external POV: only what Jason and Lucia say or observe",
+  "delivery": "character dialogue",
+  "hook": "He said stop before the white line. We're on it. Tell me that counts as before.",
+  "alternative_hooks": [
+    "The buyer waved them forward. The road was gone.",
+    "A washing chalk line was the only warning they got."
+  ],
+  "alternative_hook_use": "Replace scene 1 and re-time/recount the master before production; do not append.",
+  "script": "He said stop before the white line. We're on it. Tell me that counts as before. Jason, look where it ends. That's water over there. The line is chalk, and it's washing away. He's waving the cash again. Maybe the road just dips. We could leave the car and walk. That fence post isn't floating toward us. It's moving sideways. There's a current where the road should be. I can't see the edge anymore. Take my sleeve. Forget the case, just tell me where to step. Back toward my voice. One step. Good. The case is gone. Leave it. Keep your eyes on me. He's backing away too. He didn't know. All that money, and neither side could see the missing road. Then we both got a warning in time. Keep the car here. We'll wait for somebody who knows.",
+  "plot_mechanism": "a boundary warning acquires its true meaning",
+  "story_relation": "standalone; complete consequence and payoff",
+  "canon_status": {
+    "canonical_names": [
+      "Jason Duval",
+      "Lucia Caminos",
+      "Grassrivers"
+    ],
+    "fictional_elements": "All events, dialogue, sets, props, circumstances and supporting extras are original non-canon fan fiction; no game footage or official story claims."
+  },
+  "reference_assets": [
+    "characters/jason-duval/references/approved-v2-faces.png",
+    "characters/lucia-caminos/references/approved-v2-faces.png",
+    "characters/jason-duval/turnarounds/six-views.png",
+    "characters/lucia-caminos/turnarounds/six-views.png",
+    "characters/jason-duval/closet/four-outfits.png",
+    "characters/lucia-caminos/closet/four-outfits.png",
+    "world/references/environment-atlas.png",
+    "world/references/07-payoff.png"
+  ],
+  "continuity_sheet": {
+    "baseline": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans. Props: one chalk stripe across road and one silver hard case with empty interior. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Charcoal four-door sedan, black five-spoke rims, all four tires contact dry pavement; Jason driver/Lucia front passenger only before exit; parked and empty thereafter.",
+    "scenes": [
+      {
+        "scene": 1,
+        "action": "Stationary charcoal sedan front left tire touches chalk stripe on dry pavement",
+        "wardrobe": "Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans",
+        "prop": "one chalk stripe across road and one silver hard case with empty interior"
+      },
+      {
+        "scene": 2,
+        "action": "Lucia exits passenger side, stripe ends at muddy water",
+        "wardrobe": "Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans",
+        "prop": "one chalk stripe across road and one silver hard case with empty interior"
+      },
+      {
+        "scene": 3,
+        "action": "Distant anonymous buyer on separate bank holds cash above waist",
+        "wardrobe": "Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans",
+        "prop": "one chalk stripe across road and one silver hard case with empty interior"
+      },
+      {
+        "scene": 4,
+        "action": "Jason stands safely at stripe holding closed silver case; sedan parked behind",
+        "wardrobe": "Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans",
+        "prop": "one chalk stripe across road and one silver hard case with empty interior"
+      },
+      {
+        "scene": 5,
+        "action": "Fence post drifts laterally over missing road gap, Lucia points",
+        "wardrobe": "Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans",
+        "prop": "one chalk stripe across road and one silver hard case with empty interior"
+      },
+      {
+        "scene": 6,
+        "action": "Lucia pulls Jason one step back; case floats away beyond reach",
+        "wardrobe": "Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans",
+        "prop": "one chalk stripe across road and one silver hard case with empty interior"
+      },
+      {
+        "scene": 7,
+        "action": "Buyer retreats on far bank, cash lowered; water separates all people",
+        "wardrobe": "Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans",
+        "prop": "one chalk stripe across road and one silver hard case with empty interior"
+      },
+      {
+        "scene": 8,
+        "action": "Wide car still parked on dry bank, heroes together, chalk dissolving",
+        "wardrobe": "Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans",
+        "prop": "one chalk stripe across road and one silver hard case with empty interior"
+      }
+    ],
+    "review": "Inspect reference identities, hand anatomy, prop grips/front-back orientation, unchanged wardrobe, unoccupied vehicle interiors, wheel contact and time of day at full size."
+  },
+  "cover": {
+    "text": "THE WHITE LINE",
+    "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Fence post drifts laterally over missing road gap, Lucia points. Use the episode wardrobe and approved face references. Single clear clue and readable hero reaction, no collage; reserve top 25% for hand-added title.",
+    "safe_area": "Keep text within center 80% width; no invented UI or official marks."
+  },
+  "upload_description": "The White Line — an original GTA VI fan-fiction micro-story with Jason and Lucia, set around Grassrivers. This episode's specific set and events are invented, non-canon fan fiction. Unofficial and not affiliated with Rockstar Games. #GTAVI #FanFiction #ViceCityAlibis",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 6.34,
+      "narration": "He said stop before the white line. We're on it. Tell me that counts as before.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers flooded causeway rest stop; original fan-fiction set, not a claimed game location. Composition/action: Stationary charcoal sedan front left tire touches chalk stripe on dry pavement. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans. Props: one chalk stripe across road and one silver hard case with empty interior. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Charcoal four-door sedan, black five-spoke rims, all four tires contact dry pavement; Jason driver/Lucia front passenger only before exit; parked and empty thereafter. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim. Frame Jason as the speaking/reaction anchor, with the existing scene clue readable beside or behind them; no mouth animation.",
+      "camera": "35mm medium establishing frame; gentle 3% push toward the dilemma",
+      "sound": {
+        "score": "sparse muted minor piano question; no impact hit",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "stationary engine idle then switch off; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers flooded causeway rest stop; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans",
+        "prop_state": "Stationary charcoal sedan front left tire touches chalk stripe on dry pavement",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans."
+      },
+      "on_screen_text": "The White Line | Jason",
+      "speaker": "Jason"
+    },
+    {
+      "start": 6.34,
+      "end": 13.08,
+      "narration": "Jason, look where it ends. That's water over there. The line is chalk, and it's washing away.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers flooded causeway rest stop; original fan-fiction set, not a claimed game location. Composition/action: Lucia exits passenger side, stripe ends at muddy water. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans. Props: one chalk stripe across road and one silver hard case with empty interior. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Charcoal four-door sedan, black five-spoke rims, all four tires contact dry pavement; Jason driver/Lucia front passenger only before exit; parked and empty thereafter. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim. Frame Lucia as the speaking/reaction anchor, with the existing scene clue readable beside or behind them; no mouth animation.",
+      "camera": "65mm insert with foreground hand and readable object plane; slow lateral drift",
+      "sound": {
+        "score": "low plucked bass joins restrained piano",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "passenger door close; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers flooded causeway rest stop; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans",
+        "prop_state": "Lucia exits passenger side, stripe ends at muddy water",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans."
+      },
+      "on_screen_text": "Lucia",
+      "speaker": "Lucia"
+    },
+    {
+      "start": 13.08,
+      "end": 19.82,
+      "narration": "He's waving the cash again. Maybe the road just dips. We could leave the car and walk.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers flooded causeway rest stop; original fan-fiction set, not a claimed game location. Composition/action: Distant anonymous buyer on separate bank holds cash above waist. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans. Props: one chalk stripe across road and one silver hard case with empty interior. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Charcoal four-door sedan, black five-spoke rims, all four tires contact dry pavement; Jason driver/Lucia front passenger only before exit; parked and empty thereafter. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim. Frame Jason as the speaking/reaction anchor, with the existing scene clue readable beside or behind them; no mouth animation.",
+      "camera": "50mm medium reaction, restrained 2% push; preserve screen direction",
+      "sound": {
+        "score": "soft brushed pulse, unresolved suspended chord",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "distant water rushing; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers flooded causeway rest stop; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans",
+        "prop_state": "Distant anonymous buyer on separate bank holds cash above waist",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans."
+      },
+      "on_screen_text": "Jason",
+      "speaker": "Jason"
+    },
+    {
+      "start": 19.82,
+      "end": 26.96,
+      "narration": "That fence post isn't floating toward us. It's moving sideways. There's a current where the road should be.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers flooded causeway rest stop; original fan-fiction set, not a claimed game location. Composition/action: Jason stands safely at stripe holding closed silver case; sedan parked behind. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans. Props: one chalk stripe across road and one silver hard case with empty interior. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Charcoal four-door sedan, black five-spoke rims, all four tires contact dry pavement; Jason driver/Lucia front passenger only before exit; parked and empty thereafter. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim. Frame Lucia as the speaking/reaction anchor, with the existing scene clue readable beside or behind them; no mouth animation.",
+      "camera": "35mm over-shoulder toward the newly relevant detail; slow focus shift",
+      "sound": {
+        "score": "thin high pad reveals the clue, percussion drops",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "case handle creak; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers flooded causeway rest stop; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans",
+        "prop_state": "Jason stands safely at stripe holding closed silver case; sedan parked behind",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans."
+      },
+      "on_screen_text": "Lucia",
+      "speaker": "Lucia"
+    },
+    {
+      "start": 26.96,
+      "end": 34.09,
+      "narration": "I can't see the edge anymore. Take my sleeve. Forget the case, just tell me where to step.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers flooded causeway rest stop; original fan-fiction set, not a claimed game location. Composition/action: Fence post drifts laterally over missing road gap, Lucia points. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans. Props: one chalk stripe across road and one silver hard case with empty interior. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Charcoal four-door sedan, black five-spoke rims, all four tires contact dry pavement; Jason driver/Lucia front passenger only before exit; parked and empty thereafter. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim. Frame Jason as the speaking/reaction anchor, with the existing scene clue readable beside or behind them; no mouth animation.",
+      "camera": "65mm intimate choice closeup, hold stable so fingers and prop remain clear",
+      "sound": {
+        "score": "single warm piano note over low tension drone",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "floating timber knocks wet concrete; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers flooded causeway rest stop; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans",
+        "prop_state": "Fence post drifts laterally over missing road gap, Lucia points",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans."
+      },
+      "on_screen_text": "Jason",
+      "speaker": "Jason"
+    },
+    {
+      "start": 34.09,
+      "end": 41.23,
+      "narration": "Back toward my voice. One step. Good. The case is gone. Leave it. Keep your eyes on me.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers flooded causeway rest stop; original fan-fiction set, not a claimed game location. Composition/action: Lucia pulls Jason one step back; case floats away beyond reach. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans. Props: one chalk stripe across road and one silver hard case with empty interior. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Charcoal four-door sedan, black five-spoke rims, all four tires contact dry pavement; Jason driver/Lucia front passenger only before exit; parked and empty thereafter. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim. Frame Lucia as the speaking/reaction anchor, with the existing scene clue readable beside or behind them; no mouth animation.",
+      "camera": "40mm two-shot reveals consequence; subtle pullback",
+      "sound": {
+        "score": "pulse releases into open fifths, no triumphant swell",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "case splash far below speech; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers flooded causeway rest stop; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans",
+        "prop_state": "Lucia pulls Jason one step back; case floats away beyond reach",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans."
+      },
+      "on_screen_text": "Lucia",
+      "speaker": "Lucia"
+    },
+    {
+      "start": 41.23,
+      "end": 48.36,
+      "narration": "He's backing away too. He didn't know. All that money, and neither side could see the missing road.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers flooded causeway rest stop; original fan-fiction set, not a claimed game location. Composition/action: Buyer retreats on far bank, cash lowered; water separates all people. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans. Props: one chalk stripe across road and one silver hard case with empty interior. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Charcoal four-door sedan, black five-spoke rims, all four tires contact dry pavement; Jason driver/Lucia front passenger only before exit; parked and empty thereafter. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim. Frame Jason as the speaking/reaction anchor, with the existing scene clue readable beside or behind them; no mouth animation.",
+      "camera": "35mm wider resolution frame, move with the shared action then stop",
+      "sound": {
+        "score": "soft major-color piano resolves the central decision",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "far-bank retreat footsteps; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers flooded causeway rest stop; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans",
+        "prop_state": "Buyer retreats on far bank, cash lowered; water separates all people",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans."
+      },
+      "on_screen_text": "Jason",
+      "speaker": "Jason"
+    },
+    {
+      "start": 48.36,
+      "end": 56,
+      "narration": "Then we both got a warning in time. Keep the car here. We'll wait for somebody who knows.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers flooded causeway rest stop; original fan-fiction set, not a claimed game location. Composition/action: Wide car still parked on dry bank, heroes together, chalk dissolving. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans. Props: one chalk stripe across road and one silver hard case with empty interior. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Charcoal four-door sedan, black five-spoke rims, all four tires contact dry pavement; Jason driver/Lucia front passenger only before exit; parked and empty thereafter. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim. Frame Lucia as the speaking/reaction anchor, with the existing scene clue readable beside or behind them; no mouth animation.",
+      "camera": "50mm closing tableau, slow 3% drift outward; hold final two seconds",
+      "sound": {
+        "score": "warm sustained chord fades beneath the final sentence, last second environmental tail",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "soft rain dissolving chalk; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers flooded causeway rest stop; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans",
+        "prop_state": "Wide car still parked on dry bank, heroes together, chalk dissolving",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: faded denim jacket, black tee, dark trousers; Lucia: amber windbreaker, black jeans."
+      },
+      "on_screen_text": "FAN FICTION | Lucia",
+      "speaker": "Lucia"
+    }
+  ],
+  "production_notes": {
+    "captions": "Add accurate sentence-level captions from script; max two short lines, high contrast, do not cover eyes or clue. On-screen text fields are edit overlays, never part of spoken word count.",
+    "timing": "Eight contiguous windows apportioned to actual spoken word count, with a half-second final environmental tail. Fit each exact narration segment to its assigned window with natural pauses; audition after synthesis; do not pitch/tempo process approved voice. Full runtime 56 seconds.",
+    "audio_exports": [
+      "dry_voice",
+      "score",
+      "ducked_music",
+      "ambience",
+      "effects",
+      "full_mix"
+    ],
+    "provenance": "Record API/model/settings/prompt/source/licensing per generated asset; none generated by this authoring pass.",
+    "publication": "Production plan only. No upload or publication performed."
+  },
+  "casting": {
+    "status": "provisional character casting; narrator approvals do not approve impersonation",
+    "Jason": "Liam",
+    "Lucia": "Laura"
+  }
+}

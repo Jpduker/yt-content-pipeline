@@ -1,0 +1,14 @@
+{
+  "endpoint": "/v1/sound-generation?output_format=mp3_44100_128",
+  "request": {
+    "text": "One quiet close-up photographic paper rustle as a thin photo is picked up and adjusted by two hands, delicate realistic foley, no voices, no music, no extra impacts.",
+    "duration_seconds": 2,
+    "loop": false,
+    "prompt_influence": 0.65,
+    "model_id": "eleven_text_to_sound_v3"
+  },
+  "response_headers": {
+    "character-cost": "20",
+    "content-type": "audio/mpeg"
+  }
+}

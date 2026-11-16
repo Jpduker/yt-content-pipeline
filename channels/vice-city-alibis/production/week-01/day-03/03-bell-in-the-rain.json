@@ -1,0 +1,389 @@
+{
+  "id": "W01-D03-E03",
+  "day": 3,
+  "date": "2026-11-18",
+  "title": "The Bell in the Rain",
+  "title_options": [
+    "The Bell in the Rain",
+    "Nobody Rang the Bell",
+    "An Invitation From the Rain"
+  ],
+  "duration_seconds": 56,
+  "spoken_word_count": 136,
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    },
+    "direction": "Intimate, controlled storyteller; build curiosity without shouting; dry centered delivery; native pitch and tempo. Quoted character intent is performed by the same narrator; no extra voice.",
+    "licensing": "Planning only; no generated audio. Existing free-plan review assets require release licensing resolution."
+  },
+  "timeline": "linear",
+  "pov": "third-person limited: Lucia",
+  "delivery": "narrator-led",
+  "hook": "The bell rang three times from the empty pier. Jason thought their contact had finally arrived tonight.",
+  "alternative_hooks": [
+    "The contact rang the bell without ever arriving.",
+    "Jason followed a signal the weather was making."
+  ],
+  "alternative_hook_use": "Replace scene 1 and re-time/recount the master before production; do not append.",
+  "script": "The bell rang three times from the empty pier. Jason thought their contact had finally arrived tonight. Lucia saw nobody behind the visitor counter, only an empty satchel somebody had carefully placed beneath it. A handwritten sign promised payment for bringing that bag to a waiting truck beyond the mangrove bend. Jason lifted the strap. The bell rang again, although both his hands were right there in sight. Lucia followed the sound upward. Rainwater filled a broken gutter, tipping a loose board against the bell. They had spent an hour answering weather. Their contact had never come. Neither had the promised money. Jason put the satchel back. Lucia tore down the sign before another desperate stranger could believe it. As they left, the bell rang once more. This time, neither of them turned around to answer.",
+  "plot_mechanism": "natural sound mistaken for an arranged signal",
+  "story_relation": "standalone; complete consequence and payoff",
+  "canon_status": {
+    "canonical_names": [
+      "Jason Duval",
+      "Lucia Caminos",
+      "Grassrivers"
+    ],
+    "fictional_elements": "All events, dialogue, sets, props, circumstances and supporting extras are original non-canon fan fiction; no game footage or official story claims."
+  },
+  "reference_assets": [
+    "characters/jason-duval/references/approved-v2-faces.png",
+    "characters/lucia-caminos/references/approved-v2-faces.png",
+    "characters/jason-duval/turnarounds/six-views.png",
+    "characters/lucia-caminos/turnarounds/six-views.png",
+    "characters/jason-duval/closet/four-outfits.png",
+    "characters/lucia-caminos/closet/four-outfits.png",
+    "world/references/environment-atlas.png",
+    "world/references/07-payoff.png"
+  ],
+  "continuity_sheet": {
+    "baseline": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans. Props: one brass service bell bolted to a counter; one empty canvas satchel. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures.",
+    "scenes": [
+      {
+        "scene": 1,
+        "action": "Heroes approach empty pier counter as bolted brass bell vibrates",
+        "wardrobe": "Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans",
+        "prop": "one brass service bell bolted to a counter; one empty canvas satchel"
+      },
+      {
+        "scene": 2,
+        "action": "Lucia peers behind counter, empty canvas satchel on lower shelf",
+        "wardrobe": "Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans",
+        "prop": "one brass service bell bolted to a counter; one empty canvas satchel"
+      },
+      {
+        "scene": 3,
+        "action": "Handwritten payment sign beside trail to distant parked truck, no occupants visible",
+        "wardrobe": "Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans",
+        "prop": "one brass service bell bolted to a counter; one empty canvas satchel"
+      },
+      {
+        "scene": 4,
+        "action": "Jason lifts empty bag by strap; Lucia watches bell",
+        "wardrobe": "Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans",
+        "prop": "one brass service bell bolted to a counter; one empty canvas satchel"
+      },
+      {
+        "scene": 5,
+        "action": "Upward view of rain-filled gutter tipping loose board onto bell",
+        "wardrobe": "Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans",
+        "prop": "one brass service bell bolted to a counter; one empty canvas satchel"
+      },
+      {
+        "scene": 6,
+        "action": "Wide deserted pier; heroes alone with open empty satchel",
+        "wardrobe": "Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans",
+        "prop": "one brass service bell bolted to a counter; one empty canvas satchel"
+      },
+      {
+        "scene": 7,
+        "action": "Lucia removes sign, Jason returns bag to same lower shelf",
+        "wardrobe": "Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans",
+        "prop": "one brass service bell bolted to a counter; one empty canvas satchel"
+      },
+      {
+        "scene": 8,
+        "action": "Heroes exit away from pier, bell small in background",
+        "wardrobe": "Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans",
+        "prop": "one brass service bell bolted to a counter; one empty canvas satchel"
+      }
+    ],
+    "review": "Inspect reference identities, hand anatomy, prop grips/front-back orientation, unchanged wardrobe, unoccupied vehicle interiors, wheel contact and time of day at full size."
+  },
+  "cover": {
+    "text": "THE BELL IN THE RAIN",
+    "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Upward view of rain-filled gutter tipping loose board onto bell. Use the episode wardrobe and approved face references. Single clear clue and readable hero reaction, no collage; reserve top 25% for hand-added title.",
+    "safe_area": "Keep text within center 80% width; no invented UI or official marks."
+  },
+  "upload_description": "The Bell in the Rain — an original GTA VI fan-fiction micro-story with Jason and Lucia, set around Grassrivers. This episode's specific set and events are invented, non-canon fan fiction. Unofficial and not affiliated with Rockstar Games. #GTAVI #FanFiction #ViceCityAlibis",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 6.94,
+      "narration": "The bell rang three times from the empty pier. Jason thought their contact had finally arrived tonight.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers abandoned visitor pier; original fan-fiction set, not a claimed game location. Composition/action: Heroes approach empty pier counter as bolted brass bell vibrates. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans. Props: one brass service bell bolted to a counter; one empty canvas satchel. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm medium establishing frame; gentle 3% push toward the dilemma",
+      "sound": {
+        "score": "sparse muted minor piano question; no impact hit",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "three soft brass bell taps; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers abandoned visitor pier; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans",
+        "prop_state": "Heroes approach empty pier counter as bolted brass bell vibrates",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans."
+      },
+      "on_screen_text": "The Bell in the Rain"
+    },
+    {
+      "start": 6.94,
+      "end": 13.88,
+      "narration": "Lucia saw nobody behind the visitor counter, only an empty satchel somebody had carefully placed beneath it.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers abandoned visitor pier; original fan-fiction set, not a claimed game location. Composition/action: Lucia peers behind counter, empty canvas satchel on lower shelf. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans. Props: one brass service bell bolted to a counter; one empty canvas satchel. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "65mm insert with foreground hand and readable object plane; slow lateral drift",
+      "sound": {
+        "score": "low plucked bass joins restrained piano",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "satchel canvas scrape; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers abandoned visitor pier; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans",
+        "prop_state": "Lucia peers behind counter, empty canvas satchel on lower shelf",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 13.88,
+      "end": 20.81,
+      "narration": "A handwritten sign promised payment for bringing that bag to a waiting truck beyond the mangrove bend.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers abandoned visitor pier; original fan-fiction set, not a claimed game location. Composition/action: Handwritten payment sign beside trail to distant parked truck, no occupants visible. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans. Props: one brass service bell bolted to a counter; one empty canvas satchel. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "50mm medium reaction, restrained 2% push; preserve screen direction",
+      "sound": {
+        "score": "soft brushed pulse, unresolved suspended chord",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "sign flaps in breeze; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers abandoned visitor pier; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans",
+        "prop_state": "Handwritten payment sign beside trail to distant parked truck, no occupants visible",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 20.81,
+      "end": 27.75,
+      "narration": "Jason lifted the strap. The bell rang again, although both his hands were right there in sight.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers abandoned visitor pier; original fan-fiction set, not a claimed game location. Composition/action: Jason lifts empty bag by strap; Lucia watches bell. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans. Props: one brass service bell bolted to a counter; one empty canvas satchel. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm over-shoulder toward the newly relevant detail; slow focus shift",
+      "sound": {
+        "score": "thin high pad reveals the clue, percussion drops",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "strap lifts and bell repeats; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers abandoned visitor pier; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans",
+        "prop_state": "Jason lifts empty bag by strap; Lucia watches bell",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 27.75,
+      "end": 34.69,
+      "narration": "Lucia followed the sound upward. Rainwater filled a broken gutter, tipping a loose board against the bell.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers abandoned visitor pier; original fan-fiction set, not a claimed game location. Composition/action: Upward view of rain-filled gutter tipping loose board onto bell. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans. Props: one brass service bell bolted to a counter; one empty canvas satchel. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "65mm intimate choice closeup, hold stable so fingers and prop remain clear",
+      "sound": {
+        "score": "single warm piano note over low tension drone",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "gutter slosh and board tap; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers abandoned visitor pier; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans",
+        "prop_state": "Upward view of rain-filled gutter tipping loose board onto bell",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 34.69,
+      "end": 41.62,
+      "narration": "They had spent an hour answering weather. Their contact had never come. Neither had the promised money.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers abandoned visitor pier; original fan-fiction set, not a claimed game location. Composition/action: Wide deserted pier; heroes alone with open empty satchel. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans. Props: one brass service bell bolted to a counter; one empty canvas satchel. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "40mm two-shot reveals consequence; subtle pullback",
+      "sound": {
+        "score": "pulse releases into open fifths, no triumphant swell",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "quiet kayak-free empty pier creak; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers abandoned visitor pier; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans",
+        "prop_state": "Wide deserted pier; heroes alone with open empty satchel",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 41.62,
+      "end": 48.56,
+      "narration": "Jason put the satchel back. Lucia tore down the sign before another desperate stranger could believe it.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers abandoned visitor pier; original fan-fiction set, not a claimed game location. Composition/action: Lucia removes sign, Jason returns bag to same lower shelf. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans. Props: one brass service bell bolted to a counter; one empty canvas satchel. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm wider resolution frame, move with the shared action then stop",
+      "sound": {
+        "score": "soft major-color piano resolves the central decision",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "paper tear at sign corner; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers abandoned visitor pier; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans",
+        "prop_state": "Lucia removes sign, Jason returns bag to same lower shelf",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 48.56,
+      "end": 56,
+      "narration": "As they left, the bell rang once more. This time, neither of them turned around to answer.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Grassrivers abandoned visitor pier; original fan-fiction set, not a claimed game location. Composition/action: Heroes exit away from pier, bell small in background. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans. Props: one brass service bell bolted to a counter; one empty canvas satchel. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "50mm closing tableau, slow 3% drift outward; hold final two seconds",
+      "sound": {
+        "score": "warm sustained chord fades beneath the final sentence, last second environmental tail",
+        "ambience": "Wide soft tropical rain with close roof drips and far insect bed",
+        "sfx": "one final soft bell tap; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Grassrivers abandoned visitor pier; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans",
+        "prop_state": "Heroes exit away from pier, bell small in background",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: tan canvas jacket, charcoal tee, jeans; Lucia: dark green shirt, black raincoat, jeans."
+      },
+      "on_screen_text": "FAN FICTION"
+    }
+  ],
+  "production_notes": {
+    "captions": "Add accurate sentence-level captions from script; max two short lines, high contrast, do not cover eyes or clue. On-screen text fields are edit overlays, never part of spoken word count.",
+    "timing": "Eight contiguous windows apportioned to actual spoken word count, with a half-second final environmental tail. Fit each exact narration segment to its assigned window with natural pauses; audition after synthesis; do not pitch/tempo process approved voice. Full runtime 56 seconds.",
+    "audio_exports": [
+      "dry_voice",
+      "score",
+      "ducked_music",
+      "ambience",
+      "effects",
+      "full_mix"
+    ],
+    "provenance": "Record API/model/settings/prompt/source/licensing per generated asset; none generated by this authoring pass.",
+    "publication": "Production plan only. No upload or publication performed."
+  }
+}

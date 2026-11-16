@@ -1,0 +1,258 @@
+# W01-D04-E06 — Low Tide Money
+
+Date: 2026-11-19 | 56 seconds | 137 spoken words | Liam
+
+
+Timeline: linear. POV: third-person limited: Lucia. Delivery: narrator-led. Standalone payoff.
+
+
+Mechanism: temptation returns; voluntary public restitution closes the conflict.
+
+
+## Hook
+
+Low tide returned the money Jason had thrown away. Lucia wished the harbor had kept its mouth shut.
+
+
+Alternative hooks (replace opening and re-time; never append):
+
+- The harbor returned the money. Jason had to refuse it again.
+
+- Their rent was late when the discarded cash washed back.
+
+
+## Title options
+
+- Low Tide Money
+
+- The Harbor Gives It Back
+
+- Money Thrown Away Twice
+
+
+## Full script
+
+Low tide returned the money Jason had thrown away. Lucia wished the harbor had kept its mouth shut. The transparent pouch lay tangled beneath the public pier, where he'd dropped it after their argument. They stood above it, waiting. Back then, keeping the money had meant breaking a promise. Now their rent was late. Jason climbed down the public steps and lifted the pouch from the mud. Lucia said nothing. He counted through the plastic, lips moving, already rebuilding the life that money could buy. Then a marina worker pointed to the donation box for storm repairs. Its glass front held three coins. Jason looked from the pouch to Lucia. He pushed it through the collection slot before reconsidering. They walked home with wet shoes and the same overdue rent. This time, the money stayed thrown away.
+
+
+## Continuity
+
+an invented Port Gellhorn derelict marina payphone shelter; original fan-fiction set, not a claimed game location.
+
+Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: ochre work jacket, navy tee, jeans; Lucia: charcoal hoodie, olive rain shell, black trousers. Props: one transparent waterproof pouch holding damp banknotes; bolted public donation box. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures.
+
+
+Reference assets:
+
+- characters/jason-duval/references/approved-v2-faces.png
+
+- characters/lucia-caminos/references/approved-v2-faces.png
+
+- characters/jason-duval/turnarounds/six-views.png
+
+- characters/lucia-caminos/turnarounds/six-views.png
+
+- characters/jason-duval/closet/four-outfits.png
+
+- characters/lucia-caminos/closet/four-outfits.png
+
+- world/references/environment-atlas.png
+
+- world/references/07-payoff.png
+
+
+## Voice and mix
+
+{
+  "name": "Liam",
+  "id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model": "eleven_v4",
+  "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0.3,
+    "use_speaker_boost": true,
+    "speed": 1.03
+  },
+  "direction": "Intimate, controlled storyteller; build curiosity without shouting; dry centered delivery; native pitch and tempo. Quoted character intent is performed by the same narrator; no extra voice.",
+  "licensing": "Planning only; no generated audio. Existing free-plan review assets require release licensing resolution."
+}
+
+Speech centered and clear; duck backgrounds around 14 dB below active speech. Export dry voice, score, ducked music, ambience, effects and full mix separately. Audition exact segment fit without pitch/tempo processing.
+
+
+## Scene 1 — 0–7.29 seconds
+
+**Narration:** Low tide returned the money Jason had thrown away. Lucia wished the harbor had kept its mouth shut.
+
+
+**Visual:** Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn derelict marina payphone shelter; original fan-fiction set, not a claimed game location. Composition/action: Heroes look down from public pier at transparent pouch caught on exposed rung. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: ochre work jacket, navy tee, jeans; Lucia: charcoal hoodie, olive rain shell, black trousers. Props: one transparent waterproof pouch holding damp banknotes; bolted public donation box. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.
+
+
+**Camera/motion:** 35mm medium establishing frame; gentle 3% push toward the dilemma
+
+
+**Sound:** Score: sparse muted minor piano question; no impact hit. Ambience: Wide soft port rain, low distant harbor machinery and wet street hiss. SFX: water laps under pier; precisely aligned to visible action, quiet beneath speech. Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses.
+
+
+**Continuity state:** Heroes look down from public pier at transparent pouch caught on exposed rung. Maintain episode clothes, weather and source identity; change time only when stated.
+
+
+**Text overlay:** Low Tide Money.
+
+
+## Scene 2 — 7.29–13.77 seconds
+
+**Narration:** The transparent pouch lay tangled beneath the public pier, where he'd dropped it after their argument.
+
+
+**Visual:** Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn derelict marina payphone shelter; original fan-fiction set, not a claimed game location. Composition/action: Insert same pouch in mud, banknotes visible through plastic. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: ochre work jacket, navy tee, jeans; Lucia: charcoal hoodie, olive rain shell, black trousers. Props: one transparent waterproof pouch holding damp banknotes; bolted public donation box. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.
+
+
+**Camera/motion:** 65mm insert with foreground hand and readable object plane; slow lateral drift
+
+
+**Sound:** Score: low plucked bass joins restrained piano. Ambience: Wide soft port rain, low distant harbor machinery and wet street hiss. SFX: plastic pouch brushes rung; precisely aligned to visible action, quiet beneath speech. Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses.
+
+
+**Continuity state:** Insert same pouch in mud, banknotes visible through plastic. Maintain episode clothes, weather and source identity; change time only when stated.
+
+
+**Text overlay:** Captions only.
+
+
+## Scene 3 — 13.77–19.85 seconds
+
+**Narration:** They stood above it, waiting. Back then, keeping the money had meant breaking a promise.
+
+
+**Visual:** Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn derelict marina payphone shelter; original fan-fiction set, not a claimed game location. Composition/action: Heroes stand shoulder to shoulder above low water. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: ochre work jacket, navy tee, jeans; Lucia: charcoal hoodie, olive rain shell, black trousers. Props: one transparent waterproof pouch holding damp banknotes; bolted public donation box. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.
+
+
+**Camera/motion:** 50mm medium reaction, restrained 2% push; preserve screen direction
+
+
+**Sound:** Score: soft brushed pulse, unresolved suspended chord. Ambience: Wide soft port rain, low distant harbor machinery and wet street hiss. SFX: soft jacket movement; precisely aligned to visible action, quiet beneath speech. Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses.
+
+
+**Continuity state:** Heroes stand shoulder to shoulder above low water. Maintain episode clothes, weather and source identity; change time only when stated.
+
+
+**Text overlay:** Captions only.
+
+
+## Scene 4 — 19.85–27.14 seconds
+
+**Narration:** Now their rent was late. Jason climbed down the public steps and lifted the pouch from the mud.
+
+
+**Visual:** Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn derelict marina payphone shelter; original fan-fiction set, not a claimed game location. Composition/action: Jason uses public steps, safely lifts pouch, Lucia stays at top. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: ochre work jacket, navy tee, jeans; Lucia: charcoal hoodie, olive rain shell, black trousers. Props: one transparent waterproof pouch holding damp banknotes; bolted public donation box. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.
+
+
+**Camera/motion:** 35mm over-shoulder toward the newly relevant detail; slow focus shift
+
+
+**Sound:** Score: thin high pad reveals the clue, percussion drops. Ambience: Wide soft port rain, low distant harbor machinery and wet street hiss. SFX: mud releases pouch; precisely aligned to visible action, quiet beneath speech. Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses.
+
+
+**Continuity state:** Jason uses public steps, safely lifts pouch, Lucia stays at top. Maintain episode clothes, weather and source identity; change time only when stated.
+
+
+**Text overlay:** Captions only.
+
+
+## Scene 5 — 27.14–34.43 seconds
+
+**Narration:** Lucia said nothing. He counted through the plastic, lips moving, already rebuilding the life that money could buy.
+
+
+**Visual:** Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn derelict marina payphone shelter; original fan-fiction set, not a claimed game location. Composition/action: Jason holds sealed pouch toward light, counts visible note edges. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: ochre work jacket, navy tee, jeans; Lucia: charcoal hoodie, olive rain shell, black trousers. Props: one transparent waterproof pouch holding damp banknotes; bolted public donation box. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.
+
+
+**Camera/motion:** 65mm intimate choice closeup, hold stable so fingers and prop remain clear
+
+
+**Sound:** Score: single warm piano note over low tension drone. Ambience: Wide soft port rain, low distant harbor machinery and wet street hiss. SFX: sealed plastic crinkles; precisely aligned to visible action, quiet beneath speech. Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses.
+
+
+**Continuity state:** Jason holds sealed pouch toward light, counts visible note edges. Maintain episode clothes, weather and source identity; change time only when stated.
+
+
+**Text overlay:** Captions only.
+
+
+## Scene 6 — 34.43–41.73 seconds
+
+**Narration:** Then a marina worker pointed to the donation box for storm repairs. Its glass front held three coins.
+
+
+**Visual:** Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn derelict marina payphone shelter; original fan-fiction set, not a claimed game location. Composition/action: Anonymous worker gestures to bolted donation box with three coins behind glass. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: ochre work jacket, navy tee, jeans; Lucia: charcoal hoodie, olive rain shell, black trousers. Props: one transparent waterproof pouch holding damp banknotes; bolted public donation box. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.
+
+
+**Camera/motion:** 40mm two-shot reveals consequence; subtle pullback
+
+
+**Sound:** Score: pulse releases into open fifths, no triumphant swell. Ambience: Wide soft port rain, low distant harbor machinery and wet street hiss. SFX: worker glove taps donation box; precisely aligned to visible action, quiet beneath speech. Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses.
+
+
+**Continuity state:** Anonymous worker gestures to bolted donation box with three coins behind glass. Maintain episode clothes, weather and source identity; change time only when stated.
+
+
+**Text overlay:** Captions only.
+
+
+## Scene 7 — 41.73–48.21 seconds
+
+**Narration:** Jason looked from the pouch to Lucia. He pushed it through the collection slot before reconsidering.
+
+
+**Visual:** Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn derelict marina payphone shelter; original fan-fiction set, not a claimed game location. Composition/action: Jason slides entire flexible pouch into wide donation slot, Lucia witnesses. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: ochre work jacket, navy tee, jeans; Lucia: charcoal hoodie, olive rain shell, black trousers. Props: one transparent waterproof pouch holding damp banknotes; bolted public donation box. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.
+
+
+**Camera/motion:** 35mm wider resolution frame, move with the shared action then stop
+
+
+**Sound:** Score: soft major-color piano resolves the central decision. Ambience: Wide soft port rain, low distant harbor machinery and wet street hiss. SFX: flexible pouch slips through broad slot; precisely aligned to visible action, quiet beneath speech. Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses.
+
+
+**Continuity state:** Jason slides entire flexible pouch into wide donation slot, Lucia witnesses. Maintain episode clothes, weather and source identity; change time only when stated.
+
+
+**Text overlay:** Captions only.
+
+
+## Scene 8 — 48.21–56 seconds
+
+**Narration:** They walked home with wet shoes and the same overdue rent. This time, the money stayed thrown away.
+
+
+**Visual:** Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn derelict marina payphone shelter; original fan-fiction set, not a claimed game location. Composition/action: Heroes leave along waterfront on foot, donation pouch visible in box behind. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: ochre work jacket, navy tee, jeans; Lucia: charcoal hoodie, olive rain shell, black trousers. Props: one transparent waterproof pouch holding damp banknotes; bolted public donation box. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.
+
+
+**Camera/motion:** 50mm closing tableau, slow 3% drift outward; hold final two seconds
+
+
+**Sound:** Score: warm sustained chord fades beneath the final sentence, last second environmental tail. Ambience: Wide soft port rain, low distant harbor machinery and wet street hiss. SFX: wet shoe squelch; precisely aligned to visible action, quiet beneath speech. Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses.
+
+
+**Continuity state:** Heroes leave along waterfront on foot, donation pouch visible in box behind. Maintain episode clothes, weather and source identity; change time only when stated.
+
+
+**Text overlay:** FAN FICTION.
+
+
+## Cover
+
+Text: LOW TIDE MONEY
+
+Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Jason holds sealed pouch toward light, counts visible note edges. Use the episode wardrobe and approved face references. Single clear clue and readable hero reaction, no collage; reserve top 25% for hand-added title.
+
+
+## Upload description
+
+Low Tide Money — an original GTA VI fan-fiction micro-story with Jason and Lucia, set around Port Gellhorn. This episode's specific set and events are invented, non-canon fan fiction. Unofficial and not affiliated with Rockstar Games. #GTAVI #FanFiction #ViceCityAlibis
+
+
+## Production review
+
+All character faces follow existing approved references. Check hands, prop position, any visible vehicle contact and occupants at full size. No generated image, audio, account action or upload is included. Caption from exact script; alternative hooks require a new timing pass. Fictional sets and events are never presented as confirmed game content. Record provenance and clear release audio rights before commercial distribution.

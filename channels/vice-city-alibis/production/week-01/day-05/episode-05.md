@@ -1,0 +1,179 @@
+# VCA-W01-D05-E05 â€” The Alarm That Paid
+
+2026-11-20 | 56 seconds | 140 spoken words
+
+Voice: Liam; Narrator-led nonlinear reveal; clearly mark the single temporal transition.
+
+Timeline: Nonlinear: consequence first; scenes 2–6 reconstruct earlier cause; scenes 7–8 return to consequence.
+
+POV: Third person limited to Jason and Lucia; no unseen antagonist knowledge.
+
+## Script
+
+The alarm rang, and Jason opened the drawer. He was robbing a safe by making noise. Ten minutes earlier, Lucia had found cash sleeves behind glass, without any keyhole or handle. Jason saw a locked cabinet. Lucia saw emergency instructions: remove cash before evacuating, using the fire marshal's release. The building was empty, but the alarm panel refused to arm with its maintenance door open. Jason pulled the wedge. The door latched behind them, and the panel changed from amber to steady green. Lucia pulled the lever. Every exit unlocked, the cash drawer slid open, and their quiet robbery became very loud. They took two sleeves, used the nearest fire exit, and reached the drainage path before the first truck arrived. Jason hated the bell. Lucia liked a system that announced its own mistake while holding the door for them.
+
+## Titles
+
+- The Alarm That Paid
+
+- The Loudest Safe in Ambrosia
+
+- Pull Alarm, Collect Cash
+
+## Scenes
+
+### 1. 0â€“7s
+
+The alarm rang, and Jason opened the drawer. He was robbing a safe by making noise.
+
+Image: Portrait 9:16 cinematic painted crime graphic novel, rich teal/magenta shadows with warm amber skin. Use supplied approved-v2 character references first, then turnaround/closet and environment atlas as style guides. Invented fan-fiction set: invented bottling plant cash office, Ambrosia; not an exact game reconstruction. humid dry night, amber industrial lamps and distant teal signage. Jason at open steel cash drawer beneath ringing red alarm bell; Lucia at manual alarm lever. Jason J02-heist-charcoal; Lucia L02-heist-hoodie. Frame the narrated evidence clearly in foreground; anatomically correct connected fingers/wrists, plausible grip and prop scale. Preserve prop state from previous scene. No generated captions, logos or extra people. Cars if present need consistent body/rims, grounded tires and correct driver position.
+
+Camera: Slow 5% push toward the central evidence, one plane of motion.
+
+Sound: {"music": "0–7s: Sparse muted bass and two dry minor piano notes; establish unease.", "ambience": "invented bottling plant cash office: low ventilation and distant industrial hum, restrained exterior insects", "sfx": "1.0s: brief red bell ring ducked immediately; tie transient to visible action, keep below speech."}
+
+Continuity: Jason J02-heist-charcoal; Lucia L02-heist-hoodie; same approved faces/builds/hair; Lucia ponytail and small gold hoops. humid dry night, amber industrial lamps and distant teal signage. Props: red alarm bell; steel drawer; sealed cash sleeves; wall clock; no vehicle. Beat state: Jason at open steel cash drawer beneath ringing red alarm bell; Lucia at manual alarm lever. Only Jason and Lucia may be identifiable; no extra occupants. Vehicles only if explicitly described in this beat; otherwise out of frame. No photos unless specified; no mirrored writing. Maintain left/right placement across adjacent shots.
+
+Editor text: FAN FICTION •
+
+### 2. 7â€“14s
+
+Ten minutes earlier, Lucia had found cash sleeves behind glass, without any keyhole or handle.
+
+Image: Portrait 9:16 cinematic painted crime graphic novel, rich teal/magenta shadows with warm amber skin. Use supplied approved-v2 character references first, then turnaround/closet and environment atlas as style guides. Invented fan-fiction set: invented bottling plant cash office, Ambrosia; not an exact game reconstruction. humid dry night, amber industrial lamps and distant teal signage. Same office earlier, sealed sleeves visible through locked drawer glass; pair inspecting unbroken cabinet. Jason J02-heist-charcoal; Lucia L02-heist-hoodie. Frame the narrated evidence clearly in foreground; anatomically correct connected fingers/wrists, plausible grip and prop scale. Preserve prop state from previous scene. No generated captions, logos or extra people. Cars if present need consistent body/rims, grounded tires and correct driver position.
+
+Camera: Measured lateral slide revealing the clue, preserve screen direction.
+
+Sound: {"music": "7–14s: Low brushed pulse enters beneath speech.", "ambience": "invented bottling plant cash office: low ventilation and distant industrial hum, restrained exterior insects", "sfx": "8.0s: finger tap on glass; tie transient to visible action, keep below speech."}
+
+Continuity: Jason J02-heist-charcoal; Lucia L02-heist-hoodie; same approved faces/builds/hair; Lucia ponytail and small gold hoops. humid dry night, amber industrial lamps and distant teal signage. Props: red alarm bell; steel drawer; sealed cash sleeves; wall clock; no vehicle. Beat state: Same office earlier, sealed sleeves visible through locked drawer glass; pair inspecting unbroken cabinet. Only Jason and Lucia may be identifiable; no extra occupants. Vehicles only if explicitly described in this beat; otherwise out of frame. No photos unless specified; no mirrored writing. Maintain left/right placement across adjacent shots.
+
+Editor text: FAN FICTION • EARLIER
+
+### 3. 14â€“21s
+
+Jason saw a locked cabinet. Lucia saw emergency instructions: remove cash before evacuating, using the fire marshal's release.
+
+Image: Portrait 9:16 cinematic painted crime graphic novel, rich teal/magenta shadows with warm amber skin. Use supplied approved-v2 character references first, then turnaround/closet and environment atlas as style guides. Invented fan-fiction set: invented bottling plant cash office, Ambrosia; not an exact game reconstruction. humid dry night, amber industrial lamps and distant teal signage. Lucia reading wall emergency diagram connecting alarm to cash release; editor types wording clearly. Jason J02-heist-charcoal; Lucia L02-heist-hoodie. Frame the narrated evidence clearly in foreground; anatomically correct connected fingers/wrists, plausible grip and prop scale. Preserve prop state from previous scene. No generated captions, logos or extra people. Cars if present need consistent body/rims, grounded tires and correct driver position.
+
+Camera: Static close-up with slight depth drift; hold readable prop.
+
+Sound: {"music": "14–21s: Remove bass for clue, retain single held tone.", "ambience": "invented bottling plant cash office: low ventilation and distant industrial hum, restrained exterior insects", "sfx": "15.0s: paper notice rustle; tie transient to visible action, keep below speech."}
+
+Continuity: Jason J02-heist-charcoal; Lucia L02-heist-hoodie; same approved faces/builds/hair; Lucia ponytail and small gold hoops. humid dry night, amber industrial lamps and distant teal signage. Props: red alarm bell; steel drawer; sealed cash sleeves; wall clock; no vehicle. Beat state: Lucia reading wall emergency diagram connecting alarm to cash release; editor types wording clearly. Only Jason and Lucia may be identifiable; no extra occupants. Vehicles only if explicitly described in this beat; otherwise out of frame. No photos unless specified; no mirrored writing. Maintain left/right placement across adjacent shots.
+
+Editor text:
+
+### 4. 21â€“28s
+
+The building was empty, but the alarm panel refused to arm with its maintenance door open.
+
+Image: Portrait 9:16 cinematic painted crime graphic novel, rich teal/magenta shadows with warm amber skin. Use supplied approved-v2 character references first, then turnaround/closet and environment atlas as style guides. Invented fan-fiction set: invented bottling plant cash office, Ambrosia; not an exact game reconstruction. humid dry night, amber industrial lamps and distant teal signage. Wide empty plant office, panel amber light, maintenance door held by wooden wedge. Jason J02-heist-charcoal; Lucia L02-heist-hoodie. Frame the narrated evidence clearly in foreground; anatomically correct connected fingers/wrists, plausible grip and prop scale. Preserve prop state from previous scene. No generated captions, logos or extra people. Cars if present need consistent body/rims, grounded tires and correct driver position.
+
+Camera: Over-shoulder push toward the choice, no axis crossing.
+
+Sound: {"music": "21–28s: Restrained ticking percussion raises pressure.", "ambience": "invented bottling plant cash office: low ventilation and distant industrial hum, restrained exterior insects", "sfx": "22.0s: panel fault chirp; tie transient to visible action, keep below speech."}
+
+Continuity: Jason J02-heist-charcoal; Lucia L02-heist-hoodie; same approved faces/builds/hair; Lucia ponytail and small gold hoops. humid dry night, amber industrial lamps and distant teal signage. Props: red alarm bell; steel drawer; sealed cash sleeves; wall clock; no vehicle. Beat state: Wide empty plant office, panel amber light, maintenance door held by wooden wedge. Only Jason and Lucia may be identifiable; no extra occupants. Vehicles only if explicitly described in this beat; otherwise out of frame. No photos unless specified; no mirrored writing. Maintain left/right placement across adjacent shots.
+
+Editor text:
+
+### 5. 28â€“35s
+
+Jason pulled the wedge. The door latched behind them, and the panel changed from amber to steady green.
+
+Image: Portrait 9:16 cinematic painted crime graphic novel, rich teal/magenta shadows with warm amber skin. Use supplied approved-v2 character references first, then turnaround/closet and environment atlas as style guides. Invented fan-fiction set: invented bottling plant cash office, Ambrosia; not an exact game reconstruction. humid dry night, amber industrial lamps and distant teal signage. Jason lifting wedge; door now closed; green indicator, Lucia at lever. Jason J02-heist-charcoal; Lucia L02-heist-hoodie. Frame the narrated evidence clearly in foreground; anatomically correct connected fingers/wrists, plausible grip and prop scale. Preserve prop state from previous scene. No generated captions, logos or extra people. Cars if present need consistent body/rims, grounded tires and correct driver position.
+
+Camera: Controlled tilt from hands to consequence.
+
+Sound: {"music": "28–35s: Brief bass movement on choice; no loud hit.", "ambience": "invented bottling plant cash office: low ventilation and distant industrial hum, restrained exterior insects", "sfx": "29.0s: door latch and relay click; tie transient to visible action, keep below speech."}
+
+Continuity: Jason J02-heist-charcoal; Lucia L02-heist-hoodie; same approved faces/builds/hair; Lucia ponytail and small gold hoops. humid dry night, amber industrial lamps and distant teal signage. Props: red alarm bell; steel drawer; sealed cash sleeves; wall clock; no vehicle. Beat state: Jason lifting wedge; door now closed; green indicator, Lucia at lever. Only Jason and Lucia may be identifiable; no extra occupants. Vehicles only if explicitly described in this beat; otherwise out of frame. No photos unless specified; no mirrored writing. Maintain left/right placement across adjacent shots.
+
+Editor text:
+
+### 6. 35â€“42s
+
+Lucia pulled the lever. Every exit unlocked, the cash drawer slid open, and their quiet robbery became very loud.
+
+Image: Portrait 9:16 cinematic painted crime graphic novel, rich teal/magenta shadows with warm amber skin. Use supplied approved-v2 character references first, then turnaround/closet and environment atlas as style guides. Invented fan-fiction set: invented bottling plant cash office, Ambrosia; not an exact game reconstruction. humid dry night, amber industrial lamps and distant teal signage. Lucia pulling manual lever; drawer extending; illuminated exit beyond Jason; no smoke or fire. Jason J02-heist-charcoal; Lucia L02-heist-hoodie. Frame the narrated evidence clearly in foreground; anatomically correct connected fingers/wrists, plausible grip and prop scale. Preserve prop state from previous scene. No generated captions, logos or extra people. Cars if present need consistent body/rims, grounded tires and correct driver position.
+
+Camera: Small tracking move following the stated action.
+
+Sound: {"music": "35–42s: Add soft low strings as action commits.", "ambience": "invented bottling plant cash office: low ventilation and distant industrial hum, restrained exterior insects", "sfx": "36.0s: short bell burst then mechanical drawer slide; tie transient to visible action, keep below speech."}
+
+Continuity: Jason J02-heist-charcoal; Lucia L02-heist-hoodie; same approved faces/builds/hair; Lucia ponytail and small gold hoops. humid dry night, amber industrial lamps and distant teal signage. Props: red alarm bell; steel drawer; sealed cash sleeves; wall clock; no vehicle. Beat state: Lucia pulling manual lever; drawer extending; illuminated exit beyond Jason; no smoke or fire. Only Jason and Lucia may be identifiable; no extra occupants. Vehicles only if explicitly described in this beat; otherwise out of frame. No photos unless specified; no mirrored writing. Maintain left/right placement across adjacent shots.
+
+Editor text:
+
+### 7. 42â€“49s
+
+They took two sleeves, used the nearest fire exit, and reached the drainage path before the first truck arrived.
+
+Image: Portrait 9:16 cinematic painted crime graphic novel, rich teal/magenta shadows with warm amber skin. Use supplied approved-v2 character references first, then turnaround/closet and environment atlas as style guides. Invented fan-fiction set: invented bottling plant cash office, Ambrosia; not an exact game reconstruction. humid dry night, amber industrial lamps and distant teal signage. Pair carrying one cash sleeve each outside open exit, distant anonymous emergency light glow only. Jason J02-heist-charcoal; Lucia L02-heist-hoodie. Frame the narrated evidence clearly in foreground; anatomically correct connected fingers/wrists, plausible grip and prop scale. Preserve prop state from previous scene. No generated captions, logos or extra people. Cars if present need consistent body/rims, grounded tires and correct driver position.
+
+Camera: Locked medium-wide showing resulting positions.
+
+Sound: {"music": "42–49s: Resolve percussion into a held warm minor chord.", "ambience": "invented bottling plant cash office: low ventilation and distant industrial hum, restrained exterior insects", "sfx": "43.0s: exit bar thunk and hurried footfalls; tie transient to visible action, keep below speech."}
+
+Continuity: Jason J02-heist-charcoal; Lucia L02-heist-hoodie; same approved faces/builds/hair; Lucia ponytail and small gold hoops. humid dry night, amber industrial lamps and distant teal signage. Props: red alarm bell; steel drawer; sealed cash sleeves; wall clock; no vehicle. Beat state: Pair carrying one cash sleeve each outside open exit, distant anonymous emergency light glow only. Only Jason and Lucia may be identifiable; no extra occupants. Vehicles only if explicitly described in this beat; otherwise out of frame. No photos unless specified; no mirrored writing. Maintain left/right placement across adjacent shots.
+
+Editor text:
+
+### 8. 49â€“56s
+
+Jason hated the bell. Lucia liked a system that announced its own mistake while holding the door for them.
+
+Image: Portrait 9:16 cinematic painted crime graphic novel, rich teal/magenta shadows with warm amber skin. Use supplied approved-v2 character references first, then turnaround/closet and environment atlas as style guides. Invented fan-fiction set: invented bottling plant cash office, Ambrosia; not an exact game reconstruction. humid dry night, amber industrial lamps and distant teal signage. Exterior drainage path, pair receding with sleeves; open fire exit behind; red bell visible through window. Jason J02-heist-charcoal; Lucia L02-heist-hoodie. Frame the narrated evidence clearly in foreground; anatomically correct connected fingers/wrists, plausible grip and prop scale. Preserve prop state from previous scene. No generated captions, logos or extra people. Cars if present need consistent body/rims, grounded tires and correct driver position.
+
+Camera: Slow pull back for resolved final image; hold final second.
+
+Sound: {"music": "49–56s: Music drops 4 dB for last sentence, short dry ending.", "ambience": "invented bottling plant cash office: low ventilation and distant industrial hum, restrained exterior insects", "sfx": "50.0s: bell distant and low; tie transient to visible action, keep below speech."}
+
+Continuity: Jason J02-heist-charcoal; Lucia L02-heist-hoodie; same approved faces/builds/hair; Lucia ponytail and small gold hoops. humid dry night, amber industrial lamps and distant teal signage. Props: red alarm bell; steel drawer; sealed cash sleeves; wall clock; no vehicle. Beat state: Exterior drainage path, pair receding with sleeves; open fire exit behind; red bell visible through window. Only Jason and Lucia may be identifiable; no extra occupants. Vehicles only if explicitly described in this beat; otherwise out of frame. No photos unless specified; no mirrored writing. Maintain left/right placement across adjacent shots.
+
+Editor text: ORIGINAL STORY
+
+## Cover
+
+{"text": "THE ALARM THAT PAID", "image_prompt": "Portrait 9:16 cinematic painted crime graphic novel, rich teal/magenta shadows with warm amber skin. Use supplied approved-v2 character references first, then turnaround/closet and environment atlas as style guides. Invented fan-fiction set: invented bottling plant cash office, Ambrosia; not an exact game reconstruction. humid dry night, amber industrial lamps and distant teal signage. Jason at open steel cash drawer beneath ringing red alarm bell; Lucia at manual alarm lever. Jason J02-heist-charcoal; Lucia L02-heist-hoodie. Frame the narrated evidence clearly in foreground; anatomically correct connected fingers/wrists, plausible grip and prop scale. Preserve prop state from previous scene. No generated captions, logos or extra people. Cars if present need consistent body/rims, grounded tires and correct driver position. Cover variant: single central prop at large scale, readable facial reaction, reserve upper fifth for editor-added title.", "layout": "Portrait 9:16; 3–6 word title in upper safe area; no counterfeit official logo."}
+
+## Description
+
+An original GTA VI fan-fiction short featuring Jason and Lucia in Ambrosia. invented bottling plant cash office, events and dialogue are invented. Unofficial fan work; not Rockstar footage, a leak, a mission preview or a claim about game canon. Every score needs an alibi. #GTAVI #FanFiction #ViceCityAlibis
+
+## Continuity sheet
+
+[{"scene": 1, "time": "0–7s", "location": "invented bottling plant cash office", "state": "Jason J02-heist-charcoal; Lucia L02-heist-hoodie; same approved faces/builds/hair; Lucia ponytail and small gold hoops. humid dry night, amber industrial lamps and distant teal signage. Props: red alarm bell; steel drawer; sealed cash sleeves; wall clock; no vehicle. Beat state: Jason at open steel cash drawer beneath ringing red alarm bell; Lucia at manual alarm lever. Only Jason and Lucia may be identifiable; no extra occupants. Vehicles only if explicitly described in this beat; otherwise out of frame. No photos unless specified; no mirrored writing. Maintain left/right placement across adjacent shots.", "entry_exit": "Follow scene visual action; cut on action, no offscreen teleportation.", "reference_assets": ["characters/jason-duval/references/approved-v2-faces.png", "characters/lucia-caminos/references/approved-v2-faces.png", "characters/jason-duval/references/approved-v2-waterfront.png", "characters/lucia-caminos/references/approved-v2-waterfront.png", "characters/jason-duval/turnarounds/six-views.png", "characters/lucia-caminos/turnarounds/six-views.png", "characters/jason-duval/closet/four-outfits.png", "characters/lucia-caminos/closet/four-outfits.png", "world/references/environment-atlas.png"]}, {"scene": 2, "time": "7–14s", "location": "invented bottling plant cash office", "state": "Jason J02-heist-charcoal; Lucia L02-heist-hoodie; same approved faces/builds/hair; Lucia ponytail and small gold hoops. humid dry night, amber industrial lamps and distant teal signage. Props: red alarm bell; steel drawer; sealed cash sleeves; wall clock; no vehicle. Beat state: Same office earlier, sealed sleeves visible through locked drawer glass; pair inspecting unbroken cabinet. Only Jason and Lucia may be identifiable; no extra occupants. Vehicles only if explicitly described in this beat; otherwise out of frame. No photos unless specified; no mirrored writing. Maintain left/right placement across adjacent shots.", "entry_exit": "Follow scene visual action; cut on action, no offscreen teleportation.", "reference_assets": ["characters/jason-duval/references/approved-v2-faces.png", "characters/lucia-caminos/references/approved-v2-faces.png", "characters/jason-duval/references/approved-v2-waterfront.png", "characters/lucia-caminos/references/approved-v2-waterfront.png", "characters/jason-duval/turnarounds/six-views.png", "characters/lucia-caminos/turnarounds/six-views.png", "characters/jason-duval/closet/four-outfits.png", "characters/lucia-caminos/closet/four-outfits.png", "world/references/environment-atlas.png"]}, {"scene": 3, "time": "14–21s", "location": "invented bottling plant cash office", "state": "Jason J02-heist-charcoal; Lucia L02-heist-hoodie; same approved faces/builds/hair; Lucia ponytail and small gold hoops. humid dry night, amber industrial lamps and distant teal signage. Props: red alarm bell; steel drawer; sealed cash sleeves; wall clock; no vehicle. Beat state: Lucia reading wall emergency diagram connecting alarm to cash release; editor types wording clearly. Only Jason and Lucia may be identifiable; no extra occupants. Vehicles only if explicitly described in this beat; otherwise out of frame. No photos unless specified; no mirrored writing. Maintain left/right placement across adjacent shots.", "entry_exit": "Follow scene visual action; cut on action, no offscreen teleportation.", "reference_assets": ["characters/jason-duval/references/approved-v2-faces.png", "characters/lucia-caminos/references/approved-v2-faces.png", "characters/jason-duval/references/approved-v2-waterfront.png", "characters/lucia-caminos/references/approved-v2-waterfront.png", "characters/jason-duval/turnarounds/six-views.png", "characters/lucia-caminos/turnarounds/six-views.png", "characters/jason-duval/closet/four-outfits.png", "characters/lucia-caminos/closet/four-outfits.png", "world/references/environment-atlas.png"]}, {"scene": 4, "time": "21–28s", "location": "invented bottling plant cash office", "state": "Jason J02-heist-charcoal; Lucia L02-heist-hoodie; same approved faces/builds/hair; Lucia ponytail and small gold hoops. humid dry night, amber industrial lamps and distant teal signage. Props: red alarm bell; steel drawer; sealed cash sleeves; wall clock; no vehicle. Beat state: Wide empty plant office, panel amber light, maintenance door held by wooden wedge. Only Jason and Lucia may be identifiable; no extra occupants. Vehicles only if explicitly described in this beat; otherwise out of frame. No photos unless specified; no mirrored writing. Maintain left/right placement across adjacent shots.", "entry_exit": "Follow scene visual action; cut on action, no offscreen teleportation.", "reference_assets": ["characters/jason-duval/references/approved-v2-faces.png", "characters/lucia-caminos/references/approved-v2-faces.png", "characters/jason-duval/references/approved-v2-waterfront.png", "characters/lucia-caminos/references/approved-v2-waterfront.png", "characters/jason-duval/turnarounds/six-views.png", "characters/lucia-caminos/turnarounds/six-views.png", "characters/jason-duval/closet/four-outfits.png", "characters/lucia-caminos/closet/four-outfits.png", "world/references/environment-atlas.png"]}, {"scene": 5, "time": "28–35s", "location": "invented bottling plant cash office", "state": "Jason J02-heist-charcoal; Lucia L02-heist-hoodie; same approved faces/builds/hair; Lucia ponytail and small gold hoops. humid dry night, amber industrial lamps and distant teal signage. Props: red alarm bell; steel drawer; sealed cash sleeves; wall clock; no vehicle. Beat state: Jason lifting wedge; door now closed; green indicator, Lucia at lever. Only Jason and Lucia may be identifiable; no extra occupants. Vehicles only if explicitly described in this beat; otherwise out of frame. No photos unless specified; no mirrored writing. Maintain left/right placement across adjacent shots.", "entry_exit": "Follow scene visual action; cut on action, no offscreen teleportation.", "reference_assets": ["characters/jason-duval/references/approved-v2-faces.png", "characters/lucia-caminos/references/approved-v2-faces.png", "characters/jason-duval/references/approved-v2-waterfront.png", "characters/lucia-caminos/references/approved-v2-waterfront.png", "characters/jason-duval/turnarounds/six-views.png", "characters/lucia-caminos/turnarounds/six-views.png", "characters/jason-duval/closet/four-outfits.png", "characters/lucia-caminos/closet/four-outfits.png", "world/references/environment-atlas.png"]}, {"scene": 6, "time": "35–42s", "location": "invented bottling plant cash office", "state": "Jason J02-heist-charcoal; Lucia L02-heist-hoodie; same approved faces/builds/hair; Lucia ponytail and small gold hoops. humid dry night, amber industrial lamps and distant teal signage. Props: red alarm bell; steel drawer; sealed cash sleeves; wall clock; no vehicle. Beat state: Lucia pulling manual lever; drawer extending; illuminated exit beyond Jason; no smoke or fire. Only Jason and Lucia may be identifiable; no extra occupants. Vehicles only if explicitly described in this beat; otherwise out of frame. No photos unless specified; no mirrored writing. Maintain left/right placement across adjacent shots.", "entry_exit": "Follow scene visual action; cut on action, no offscreen teleportation.", "reference_assets": ["characters/jason-duval/references/approved-v2-faces.png", "characters/lucia-caminos/references/approved-v2-faces.png", "characters/jason-duval/references/approved-v2-waterfront.png", "characters/lucia-caminos/references/approved-v2-waterfront.png", "characters/jason-duval/turnarounds/six-views.png", "characters/lucia-caminos/turnarounds/six-views.png", "characters/jason-duval/closet/four-outfits.png", "characters/lucia-caminos/closet/four-outfits.png", "world/references/environment-atlas.png"]}, {"scene": 7, "time": "42–49s", "location": "invented bottling plant cash office", "state": "Jason J02-heist-charcoal; Lucia L02-heist-hoodie; same approved faces/builds/hair; Lucia ponytail and small gold hoops. humid dry night, amber industrial lamps and distant teal signage. Props: red alarm bell; steel drawer; sealed cash sleeves; wall clock; no vehicle. Beat state: Pair carrying one cash sleeve each outside open exit, distant anonymous emergency light glow only. Only Jason and Lucia may be identifiable; no extra occupants. Vehicles only if explicitly described in this beat; otherwise out of frame. No photos unless specified; no mirrored writing. Maintain left/right placement across adjacent shots.", "entry_exit": "Follow scene visual action; cut on action, no offscreen teleportation.", "reference_assets": ["characters/jason-duval/references/approved-v2-faces.png", "characters/lucia-caminos/references/approved-v2-faces.png", "characters/jason-duval/references/approved-v2-waterfront.png", "characters/lucia-caminos/references/approved-v2-waterfront.png", "characters/jason-duval/turnarounds/six-views.png", "characters/lucia-caminos/turnarounds/six-views.png", "characters/jason-duval/closet/four-outfits.png", "characters/lucia-caminos/closet/four-outfits.png", "world/references/environment-atlas.png"]}, {"scene": 8, "time": "49–56s", "location": "invented bottling plant cash office", "state": "Jason J02-heist-charcoal; Lucia L02-heist-hoodie; same approved faces/builds/hair; Lucia ponytail and small gold hoops. humid dry night, amber industrial lamps and distant teal signage. Props: red alarm bell; steel drawer; sealed cash sleeves; wall clock; no vehicle. Beat state: Exterior drainage path, pair receding with sleeves; open fire exit behind; red bell visible through window. Only Jason and Lucia may be identifiable; no extra occupants. Vehicles only if explicitly described in this beat; otherwise out of frame. No photos unless specified; no mirrored writing. Maintain left/right placement across adjacent shots.", "entry_exit": "Follow scene visual action; cut on action, no offscreen teleportation.", "reference_assets": ["characters/jason-duval/references/approved-v2-faces.png", "characters/lucia-caminos/references/approved-v2-faces.png", "characters/jason-duval/references/approved-v2-waterfront.png", "characters/lucia-caminos/references/approved-v2-waterfront.png", "characters/jason-duval/turnarounds/six-views.png", "characters/lucia-caminos/turnarounds/six-views.png", "characters/jason-duval/closet/four-outfits.png", "characters/lucia-caminos/closet/four-outfits.png", "world/references/environment-atlas.png"]}]
+
+## References
+
+characters/jason-duval/references/approved-v2-faces.png
+
+characters/lucia-caminos/references/approved-v2-faces.png
+
+characters/jason-duval/references/approved-v2-waterfront.png
+
+characters/lucia-caminos/references/approved-v2-waterfront.png
+
+characters/jason-duval/turnarounds/six-views.png
+
+characters/lucia-caminos/turnarounds/six-views.png
+
+characters/jason-duval/closet/four-outfits.png
+
+characters/lucia-caminos/closet/four-outfits.png
+
+world/references/environment-atlas.png
+
+## Audio and release
+
+{"speech": "Centered dry voice, roughly -16 LUFS starting target; intelligibility takes priority.", "backgrounds": "Duck score/ambience about 14 dB under active narration; verify by ear on phone/headphones. Scene cues are composition/SFX briefs, not existing generated assets.", "exports": ["dry-voice", "score", "ducked-music", "ambience", "effects", "full-mix"], "provenance": "No external calls or credentials used. Log actual model/source/licensing when assets are generated; current free-plan review audio is not automatically release-cleared."}
+
+Written production package only; images, voice, music, edit and human playback review remain to be produced. No publishing authorized.
+
+Read aloud within 56s without rushing; eight seven-second windows are editorial targets, retime within total56 if required.
+
+Review full-size hands, written prop orientation/content, vehicle wheel contact/occupants, clothing and time consistency.
+
+Confirm causal clue visible before payoff; labels must remain noncanon fan fiction.

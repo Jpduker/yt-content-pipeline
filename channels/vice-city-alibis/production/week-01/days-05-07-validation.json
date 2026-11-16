@@ -1,0 +1,136 @@
+{
+  "episodes": 21,
+  "json_files": 21,
+  "markdown_files": 21,
+  "scenes": 168,
+  "duration_seconds": 1176,
+  "checks": "All scripts 120\u2013140 words; exact scene/script equality; eight contiguous 7-second windows per episode; 3 title options; matching Markdown scripts. Written packages only, no assets rendered.",
+  "files": [
+    {
+      "id": "VCA-W01-D05-E01",
+      "words": 138,
+      "json": "production\\week-01\\day-05\\episode-01.json",
+      "md": "production\\week-01\\day-05\\episode-01.md"
+    },
+    {
+      "id": "VCA-W01-D05-E02",
+      "words": 139,
+      "json": "production\\week-01\\day-05\\episode-02.json",
+      "md": "production\\week-01\\day-05\\episode-02.md"
+    },
+    {
+      "id": "VCA-W01-D05-E03",
+      "words": 135,
+      "json": "production\\week-01\\day-05\\episode-03.json",
+      "md": "production\\week-01\\day-05\\episode-03.md"
+    },
+    {
+      "id": "VCA-W01-D05-E04",
+      "words": 140,
+      "json": "production\\week-01\\day-05\\episode-04.json",
+      "md": "production\\week-01\\day-05\\episode-04.md"
+    },
+    {
+      "id": "VCA-W01-D05-E05",
+      "words": 140,
+      "json": "production\\week-01\\day-05\\episode-05.json",
+      "md": "production\\week-01\\day-05\\episode-05.md"
+    },
+    {
+      "id": "VCA-W01-D05-E06",
+      "words": 140,
+      "json": "production\\week-01\\day-05\\episode-06.json",
+      "md": "production\\week-01\\day-05\\episode-06.md"
+    },
+    {
+      "id": "VCA-W01-D05-E07",
+      "words": 139,
+      "json": "production\\week-01\\day-05\\episode-07.json",
+      "md": "production\\week-01\\day-05\\episode-07.md"
+    },
+    {
+      "id": "VCA-W01-D06-E01",
+      "words": 132,
+      "json": "production\\week-01\\day-06\\episode-01.json",
+      "md": "production\\week-01\\day-06\\episode-01.md"
+    },
+    {
+      "id": "VCA-W01-D06-E02",
+      "words": 140,
+      "json": "production\\week-01\\day-06\\episode-02.json",
+      "md": "production\\week-01\\day-06\\episode-02.md"
+    },
+    {
+      "id": "VCA-W01-D06-E03",
+      "words": 140,
+      "json": "production\\week-01\\day-06\\episode-03.json",
+      "md": "production\\week-01\\day-06\\episode-03.md"
+    },
+    {
+      "id": "VCA-W01-D06-E04",
+      "words": 140,
+      "json": "production\\week-01\\day-06\\episode-04.json",
+      "md": "production\\week-01\\day-06\\episode-04.md"
+    },
+    {
+      "id": "VCA-W01-D06-E05",
+      "words": 140,
+      "json": "production\\week-01\\day-06\\episode-05.json",
+      "md": "production\\week-01\\day-06\\episode-05.md"
+    },
+    {
+      "id": "VCA-W01-D06-E06",
+      "words": 140,
+      "json": "production\\week-01\\day-06\\episode-06.json",
+      "md": "production\\week-01\\day-06\\episode-06.md"
+    },
+    {
+      "id": "VCA-W01-D06-E07",
+      "words": 140,
+      "json": "production\\week-01\\day-06\\episode-07.json",
+      "md": "production\\week-01\\day-06\\episode-07.md"
+    },
+    {
+      "id": "VCA-W01-D07-E01",
+      "words": 140,
+      "json": "production\\week-01\\day-07\\episode-01.json",
+      "md": "production\\week-01\\day-07\\episode-01.md"
+    },
+    {
+      "id": "VCA-W01-D07-E02",
+      "words": 140,
+      "json": "production\\week-01\\day-07\\episode-02.json",
+      "md": "production\\week-01\\day-07\\episode-02.md"
+    },
+    {
+      "id": "VCA-W01-D07-E03",
+      "words": 140,
+      "json": "production\\week-01\\day-07\\episode-03.json",
+      "md": "production\\week-01\\day-07\\episode-03.md"
+    },
+    {
+      "id": "VCA-W01-D07-E04",
+      "words": 140,
+      "json": "production\\week-01\\day-07\\episode-04.json",
+      "md": "production\\week-01\\day-07\\episode-04.md"
+    },
+    {
+      "id": "VCA-W01-D07-E05",
+      "words": 139,
+      "json": "production\\week-01\\day-07\\episode-05.json",
+      "md": "production\\week-01\\day-07\\episode-05.md"
+    },
+    {
+      "id": "VCA-W01-D07-E06",
+      "words": 140,
+      "json": "production\\week-01\\day-07\\episode-06.json",
+      "md": "production\\week-01\\day-07\\episode-06.md"
+    },
+    {
+      "id": "VCA-W01-D07-E07",
+      "words": 139,
+      "json": "production\\week-01\\day-07\\episode-07.json",
+      "md": "production\\week-01\\day-07\\episode-07.md"
+    }
+  ]
+}

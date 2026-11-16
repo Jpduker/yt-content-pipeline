@@ -1,0 +1,389 @@
+{
+  "id": "W01-D04-E03",
+  "day": 4,
+  "date": "2026-11-19",
+  "title": "Wet Paint",
+  "title_options": [
+    "Wet Paint",
+    "The Door That Exposed the Deal",
+    "Blue Door, Bad Papers"
+  ],
+  "duration_seconds": 56,
+  "spoken_word_count": 139,
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    },
+    "direction": "Intimate, controlled storyteller; build curiosity without shouting; dry centered delivery; native pitch and tempo. Quoted character intent is performed by the same narrator; no extra voice.",
+    "licensing": "Planning only; no generated audio. Existing free-plan review assets require release licensing resolution."
+  },
+  "timeline": "linear",
+  "pov": "third-person limited: Lucia",
+  "delivery": "narrator-led",
+  "hook": "Their getaway car came back with a blue door. Jason had paid for cream, and Lucia wanted answers.",
+  "alternative_hooks": [
+    "One blue door revealed they never owned the car.",
+    "The engine worked. The ownership papers did not."
+  ],
+  "alternative_hook_use": "Replace scene 1 and re-time/recount the master before production; do not append.",
+  "script": "Their getaway car came back with a blue door. Jason had paid for cream, and Lucia wanted answers. The painter shrugged and pointed at the invoice. One door replaced. Color matching had never been included. Jason called it a mistake. Lucia called it a landmark. Everyone they'd passed would remember this car. Then the painter mentioned the owner who'd collected his cream door yesterday, smiling through a mouthful of excuses. Lucia opened their envelope. The ownership papers were photocopies. Their car had been sold twice. Jason looked at the keys. The engine still worked. That made walking away feel harder than it should. They left the coupe with the shop and filed their claim from the bus stop across the street. The bus arrived blue and cream. Lucia laughed first. This time, Jason knew exactly what their fare bought.",
+  "plot_mechanism": "visible repair exposes a fraudulent sale; legal exit",
+  "story_relation": "standalone; complete consequence and payoff",
+  "canon_status": {
+    "canonical_names": [
+      "Jason Duval",
+      "Lucia Caminos",
+      "Port Gellhorn"
+    ],
+    "fictional_elements": "All events, dialogue, sets, props, circumstances and supporting extras are original non-canon fan fiction; no game footage or official story claims."
+  },
+  "reference_assets": [
+    "characters/jason-duval/references/approved-v2-faces.png",
+    "characters/lucia-caminos/references/approved-v2-faces.png",
+    "characters/jason-duval/turnarounds/six-views.png",
+    "characters/lucia-caminos/turnarounds/six-views.png",
+    "characters/jason-duval/closet/four-outfits.png",
+    "characters/lucia-caminos/closet/four-outfits.png",
+    "world/references/environment-atlas.png",
+    "world/references/07-payoff.png"
+  ],
+  "continuity_sheet": {
+    "baseline": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans. Props: one stationary cream coupe with fresh blue door; one orange pawn envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Cream two-door coupe with exactly one blue driver door, silver six-spoke wheels, all tires on courtyard pavement; stationary engine off, no occupants throughout.",
+    "scenes": [
+      {
+        "scene": 1,
+        "action": "Stationary cream coupe with single blue driver door, both heroes outside",
+        "wardrobe": "Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans",
+        "prop": "one stationary cream coupe with fresh blue door; one orange pawn envelope"
+      },
+      {
+        "scene": 2,
+        "action": "Anonymous painter points to invoice on clipboard, coupe behind",
+        "wardrobe": "Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans",
+        "prop": "one stationary cream coupe with fresh blue door; one orange pawn envelope"
+      },
+      {
+        "scene": 3,
+        "action": "Lucia examines mismatched panel, Jason holds keys",
+        "wardrobe": "Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans",
+        "prop": "one stationary cream coupe with fresh blue door; one orange pawn envelope"
+      },
+      {
+        "scene": 4,
+        "action": "Painter gestures toward empty wall door rack, no second car shown",
+        "wardrobe": "Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans",
+        "prop": "one stationary cream coupe with fresh blue door; one orange pawn envelope"
+      },
+      {
+        "scene": 5,
+        "action": "Lucia opens orange envelope revealing photocopied ownership sheets",
+        "wardrobe": "Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans",
+        "prop": "one stationary cream coupe with fresh blue door; one orange pawn envelope"
+      },
+      {
+        "scene": 6,
+        "action": "Jason holds key above open palm, engine off, driver seat visibly empty",
+        "wardrobe": "Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans",
+        "prop": "one stationary cream coupe with fresh blue door; one orange pawn envelope"
+      },
+      {
+        "scene": 7,
+        "action": "Coupe stays shop with keys on desk; heroes at bus stop using phone",
+        "wardrobe": "Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans",
+        "prop": "one stationary cream coupe with fresh blue door; one orange pawn envelope"
+      },
+      {
+        "scene": 8,
+        "action": "Blue and cream public bus stops; heroes board with no luggage",
+        "wardrobe": "Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans",
+        "prop": "one stationary cream coupe with fresh blue door; one orange pawn envelope"
+      }
+    ],
+    "review": "Inspect reference identities, hand anatomy, prop grips/front-back orientation, unchanged wardrobe, unoccupied vehicle interiors, wheel contact and time of day at full size."
+  },
+  "cover": {
+    "text": "WET PAINT",
+    "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Lucia opens orange envelope revealing photocopied ownership sheets. Use the episode wardrobe and approved face references. Single clear clue and readable hero reaction, no collage; reserve top 25% for hand-added title.",
+    "safe_area": "Keep text within center 80% width; no invented UI or official marks."
+  },
+  "upload_description": "Wet Paint — an original GTA VI fan-fiction micro-story with Jason and Lucia, set around Port Gellhorn. This episode's specific set and events are invented, non-canon fan fiction. Unofficial and not affiliated with Rockstar Games. #GTAVI #FanFiction #ViceCityAlibis",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7.19,
+      "narration": "Their getaway car came back with a blue door. Jason had paid for cream, and Lucia wanted answers.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn shuttered body-shop courtyard; original fan-fiction set, not a claimed game location. Composition/action: Stationary cream coupe with single blue driver door, both heroes outside. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans. Props: one stationary cream coupe with fresh blue door; one orange pawn envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Cream two-door coupe with exactly one blue driver door, silver six-spoke wheels, all tires on courtyard pavement; stationary engine off, no occupants throughout. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm medium establishing frame; gentle 3% push toward the dilemma",
+      "sound": {
+        "score": "sparse muted minor piano question; no impact hit",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "coupe door latch close; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn shuttered body-shop courtyard; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans",
+        "prop_state": "Stationary cream coupe with single blue driver door, both heroes outside",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans."
+      },
+      "on_screen_text": "Wet Paint"
+    },
+    {
+      "start": 7.19,
+      "end": 13.97,
+      "narration": "The painter shrugged and pointed at the invoice. One door replaced. Color matching had never been included.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn shuttered body-shop courtyard; original fan-fiction set, not a claimed game location. Composition/action: Anonymous painter points to invoice on clipboard, coupe behind. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans. Props: one stationary cream coupe with fresh blue door; one orange pawn envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Cream two-door coupe with exactly one blue driver door, silver six-spoke wheels, all tires on courtyard pavement; stationary engine off, no occupants throughout. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "65mm insert with foreground hand and readable object plane; slow lateral drift",
+      "sound": {
+        "score": "low plucked bass joins restrained piano",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "clipboard tap; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn shuttered body-shop courtyard; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans",
+        "prop_state": "Anonymous painter points to invoice on clipboard, coupe behind",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 13.97,
+      "end": 20.76,
+      "narration": "Jason called it a mistake. Lucia called it a landmark. Everyone they'd passed would remember this car.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn shuttered body-shop courtyard; original fan-fiction set, not a claimed game location. Composition/action: Lucia examines mismatched panel, Jason holds keys. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans. Props: one stationary cream coupe with fresh blue door; one orange pawn envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Cream two-door coupe with exactly one blue driver door, silver six-spoke wheels, all tires on courtyard pavement; stationary engine off, no occupants throughout. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "50mm medium reaction, restrained 2% push; preserve screen direction",
+      "sound": {
+        "score": "soft brushed pulse, unresolved suspended chord",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "fingers lightly brush dry painted seam; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn shuttered body-shop courtyard; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans",
+        "prop_state": "Lucia examines mismatched panel, Jason holds keys",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 20.76,
+      "end": 27.95,
+      "narration": "Then the painter mentioned the owner who'd collected his cream door yesterday, smiling through a mouthful of excuses.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn shuttered body-shop courtyard; original fan-fiction set, not a claimed game location. Composition/action: Painter gestures toward empty wall door rack, no second car shown. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans. Props: one stationary cream coupe with fresh blue door; one orange pawn envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Cream two-door coupe with exactly one blue driver door, silver six-spoke wheels, all tires on courtyard pavement; stationary engine off, no occupants throughout. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm over-shoulder toward the newly relevant detail; slow focus shift",
+      "sound": {
+        "score": "thin high pad reveals the clue, percussion drops",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "empty door rack creak; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn shuttered body-shop courtyard; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans",
+        "prop_state": "Painter gestures toward empty wall door rack, no second car shown",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 27.95,
+      "end": 33.94,
+      "narration": "Lucia opened their envelope. The ownership papers were photocopies. Their car had been sold twice.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn shuttered body-shop courtyard; original fan-fiction set, not a claimed game location. Composition/action: Lucia opens orange envelope revealing photocopied ownership sheets. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans. Props: one stationary cream coupe with fresh blue door; one orange pawn envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Cream two-door coupe with exactly one blue driver door, silver six-spoke wheels, all tires on courtyard pavement; stationary engine off, no occupants throughout. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "65mm intimate choice closeup, hold stable so fingers and prop remain clear",
+      "sound": {
+        "score": "single warm piano note over low tension drone",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "photocopied sheets rustle; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn shuttered body-shop courtyard; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans",
+        "prop_state": "Lucia opens orange envelope revealing photocopied ownership sheets",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 33.94,
+      "end": 41.13,
+      "narration": "Jason looked at the keys. The engine still worked. That made walking away feel harder than it should.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn shuttered body-shop courtyard; original fan-fiction set, not a claimed game location. Composition/action: Jason holds key above open palm, engine off, driver seat visibly empty. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans. Props: one stationary cream coupe with fresh blue door; one orange pawn envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Cream two-door coupe with exactly one blue driver door, silver six-spoke wheels, all tires on courtyard pavement; stationary engine off, no occupants throughout. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "40mm two-shot reveals consequence; subtle pullback",
+      "sound": {
+        "score": "pulse releases into open fifths, no triumphant swell",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "keys shift in palm; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn shuttered body-shop courtyard; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans",
+        "prop_state": "Jason holds key above open palm, engine off, driver seat visibly empty",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 41.13,
+      "end": 48.31,
+      "narration": "They left the coupe with the shop and filed their claim from the bus stop across the street.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn shuttered body-shop courtyard; original fan-fiction set, not a claimed game location. Composition/action: Coupe stays shop with keys on desk; heroes at bus stop using phone. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans. Props: one stationary cream coupe with fresh blue door; one orange pawn envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Cream two-door coupe with exactly one blue driver door, silver six-spoke wheels, all tires on courtyard pavement; stationary engine off, no occupants throughout. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "35mm wider resolution frame, move with the shared action then stop",
+      "sound": {
+        "score": "soft major-color piano resolves the central decision",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "phone screen tap with no alert; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn shuttered body-shop courtyard; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans",
+        "prop_state": "Coupe stays shop with keys on desk; heroes at bus stop using phone",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 48.31,
+      "end": 56,
+      "narration": "The bus arrived blue and cream. Lucia laughed first. This time, Jason knew exactly what their fare bought.",
+      "visual_prompt": "Portrait 9:16, premium cinematic painted crime graphic novel, rich teal and magenta practical accents, warm amber skin, tropical rain haze, layered depth, controlled brush texture; realistic anatomy, five fingers, connected wrists and plausible grips; no photoreal face replacement, no generated lettering, no logos. Use approved Jason and Lucia face references first; preserve exact identity/hair/build from references, check new boards against them. Set: an invented Port Gellhorn shuttered body-shop courtyard; original fan-fiction set, not a claimed game location. Composition/action: Blue and cream public bus stops; heroes board with no luggage. Wardrobe/continuity: Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans. Props: one stationary cream coupe with fresh blue door; one orange pawn envelope. Both heroes are on foot except any explicitly stationary pictured vehicle. No extra vehicle occupants; all unseen seats remain empty. Supporting extras are anonymous one-episode figures. Cream two-door coupe with exactly one blue driver door, silver six-spoke wheels, all tires on courtyard pavement; stationary engine off, no occupants throughout. Any sunrise, dawn or next-day change occurs only when this scene explicitly calls for it; retain wardrobe and props across that transition. Keep central faces and clue clear in middle 70%; reserve lower 20% for captions. No duplicate heroes or props. Still illustration with editorial camera motion; no lip-sync claim.",
+      "camera": "50mm closing tableau, slow 3% drift outward; hold final two seconds",
+      "sound": {
+        "score": "warm sustained chord fades beneath the final sentence, last second environmental tail",
+        "ambience": "Wide soft port rain, low distant harbor machinery and wet street hiss",
+        "sfx": "bus air brake low and brief; precisely aligned to visible action, quiet beneath speech",
+        "mix": "Centered dry speech anchors mix; all backgrounds duck about 14 dB below active speech; no SFX over consonants; music breathes only in pauses."
+      },
+      "continuity": {
+        "location": "an invented Port Gellhorn shuttered body-shop courtyard; original fan-fiction set, not a claimed game location.",
+        "wardrobe": "Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans",
+        "prop_state": "Blue and cream public bus stops; heroes board with no luggage",
+        "vehicle_occupants": "No occupied vehicle unless explicitly shown; see episode baseline",
+        "entry_exit": "Preserve left-to-right action established in scene 1; scene action states any move",
+        "reference_assets": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/07-payoff.png"
+        ],
+        "light_weather": "Continuous humid storm-night rain, amber practical key from frame left, teal wet reflections; no unexplained weather or time change. Jason: grey denim shirt, dark trousers; Lucia: olive jacket, white tee, black jeans."
+      },
+      "on_screen_text": "FAN FICTION"
+    }
+  ],
+  "production_notes": {
+    "captions": "Add accurate sentence-level captions from script; max two short lines, high contrast, do not cover eyes or clue. On-screen text fields are edit overlays, never part of spoken word count.",
+    "timing": "Eight contiguous windows apportioned to actual spoken word count, with a half-second final environmental tail. Fit each exact narration segment to its assigned window with natural pauses; audition after synthesis; do not pitch/tempo process approved voice. Full runtime 56 seconds.",
+    "audio_exports": [
+      "dry_voice",
+      "score",
+      "ducked_music",
+      "ambience",
+      "effects",
+      "full_mix"
+    ],
+    "provenance": "Record API/model/settings/prompt/source/licensing per generated asset; none generated by this authoring pass.",
+    "publication": "Production plan only. No upload or publication performed."
+  }
+}
