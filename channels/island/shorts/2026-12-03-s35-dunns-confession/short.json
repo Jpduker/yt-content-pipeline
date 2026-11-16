@@ -1,0 +1,174 @@
+{
+ "code": "S35",
+ "day": "2026-12-03",
+ "slot": 1,
+ "title": "Dunn’s confession",
+ "hook": "Dunn hid the boat’s name for a reason. Today he told it.",
+ "ask": "Which ship is the fourth? Look at who is sailing this weekend.",
+ "music": {
+  "mood": "mystery"
+ },
+ "shots": [
+  {
+   "id": "office",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     9,
+     1.0,
+     12
+    ],
+    "az": [
+     -10,
+     0
+    ],
+    "d": [
+     10.5,
+     10
+    ],
+    "h": [
+     4.8,
+     4.5
+    ]
+   },
+   "cast": {
+    "dunn": {
+     "at": [
+      9.6,
+      12.2
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      7.4,
+      12.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "lit": 0
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "Gus put the contract on Dunn’s desk, next to the locket. Dunn looked at the signature and sat down."
+    }
+   ],
+   "lead": 1.0
+  },
+  {
+   "id": "confess",
+   "time": "day",
+   "cam": {
+    "type": "dive",
+    "at": [
+     8.6,
+     1.0,
+     12.4
+    ],
+    "az": [
+     -5,
+     2
+    ],
+    "d": [
+     5.6,
+     5.2
+    ],
+    "h": [
+     2.5,
+     2.3
+    ]
+   },
+   "cast": {
+    "dunn": {
+     "at": [
+      9.6,
+      12.2
+     ],
+     "pose": "point",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      7.4,
+      12.6
+     ],
+     "pose": "look",
+     "face": "r",
+     "lit": 0
+    }
+   },
+   "lines": [
+    {
+     "id": "d1",
+     "text": "Crane came to me thirty years ago. Money, to look away when a wreck washed up. I was young. I took it.",
+     "dlg": "DUNN"
+    },
+    {
+     "id": "d2",
+     "text": "He wrote to me last week. Saturday, he said. Don’t stand in the way of Saturday.",
+     "dlg": "DUNN",
+     "pause": 0.8
+    }
+   ],
+   "lead": 0.6
+  },
+  {
+   "id": "board",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -3,
+     0.6,
+     36
+    ],
+    "az": [
+     -150,
+     -160
+    ],
+    "d": [
+     11,
+     10.4
+    ],
+    "h": [
+     5,
+     4.8
+    ]
+   },
+   "cast": {
+    "marlo": {
+     "at": [
+      -2.4,
+      37.6
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "n2",
+     "text": "Saturday, one boat leaves the island. The winter ferry, full, carrying everyone’s Christmas home from the mainland.",
+     "pause": 0.4
+    },
+    {
+     "id": "n3",
+     "text": "Marlo’s ferry. Her name is the Lantern.",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.6,
+   "tail": 1.0
+  }
+ ],
+ "thumb": "a harbour master in a red muffler with his head in his hands at a desk, a locket and an old contract in front of him",
+ "thumbText": "HE TOOK THE MONEY",
+ "label": "THE KEEPER'S ISLAND · 35"
+}

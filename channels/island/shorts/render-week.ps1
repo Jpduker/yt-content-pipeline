@@ -42,7 +42,7 @@ foreach ($d in $dirs) {
   $t0 = Get-Date; Say "$Name picture... (progress: $Dir\out\render.log)"
   cmd /c "node core/render/video.mjs ""$Dir"" --fps $Fps --workers $Workers --size $Size --q ss=$SS --out ""$Dir\out\video.mp4"" > ""$Dir\out\render.log"" 2>&1"
   if (-not (Test-Path "$Dir\out\video.mp4")) { Say "$Name RENDER-FAIL (see out\render.log)"; $fails++; if ($fails -ge 2) { Say "two failures in a row: stopping"; break }; continue }
-  cmd /c "ffmpeg -v error -y -i ""$Dir\out\video.mp4"" -i ""$Dir\out\mix.wav"" -af loudnorm=I=-14:TP=-1.2:LRA=11 -ar 48000 -c:v copy -c:a aac -b:a 192k -shortest -movflags +faststart ""$final"" 2>> ""$Dir\out\render.log"""
+  cmd /c "ffmpeg -v error -y -i ""$Dir\out\video.mp4"" -i ""$Dir\out\mix.wav"" -af loudnorm=I=-14:TP=-1.5:LRA=11 -ar 48000 -c:v copy -c:a aac -b:a 192k -shortest -movflags +faststart ""$final"" 2>> ""$Dir\out\render.log"""
   $mins = [math]::Round(((Get-Date) - $t0).TotalMinutes, 1)
   $fails = 0; if (Test-Path $final) { Say "$Name OK in $mins min -> final\$Name.mp4" } else { Say "$Name MUX-FAIL" }
 }

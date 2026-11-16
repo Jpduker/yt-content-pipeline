@@ -1,0 +1,32 @@
+[
+ {
+  "id": "n1",
+  "text": "Gus put the contract on Dunn\u2019s desk, next to the locket. Dunn looked at the signature and sat down.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "d1",
+  "text": "Crane came to me thirty years ago. Money, to look away when a wreck washed up. I was young. I took it.",
+  "voice": "bm_george",
+  "speed": 1.0
+ },
+ {
+  "id": "d2",
+  "text": "He wrote to me last week. Saturday, he said. Don\u2019t stand in the way of Saturday.",
+  "voice": "bm_george",
+  "speed": 1.0
+ },
+ {
+  "id": "n2",
+  "text": "Saturday, one boat leaves the island. The winter ferry, full, carrying everyone\u2019s Christmas home from the mainland.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n3",
+  "text": "Marlo\u2019s ferry. Her name is the Lantern.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]

@@ -1,0 +1,38 @@
+[
+ {
+  "id": "n1",
+  "text": "Gus left the yellow coat where he found it, folded, with the stone on top. In case she came back for it.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n2",
+  "text": "He kept the key.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n3",
+  "text": "By nine, a grey salvage barge was tied up at the quay. No flag. No port painted on the stern.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n4",
+  "text": "A man in a pale suit stepped off it as if he owned the stones he walked on.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "d1",
+  "text": "Silas Crane. Salvage. I am looking for the keeper.",
+  "voice": "bm_fable",
+  "speed": 1.0
+ },
+ {
+  "id": "d2",
+  "text": "Tell him I have come about the fourth mark.",
+  "voice": "bm_fable",
+  "speed": 1.0
+ }
+]

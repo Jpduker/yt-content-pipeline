@@ -1,0 +1,195 @@
+{
+ "code": "S32",
+ "title": "Wren\u2019s drawing from 1926",
+ "label": "THE KEEPER'S ISLAND \u00b7 32",
+ "DUR": 33.761,
+ "shots": [
+  {
+   "id": "post",
+   "time": "dusk",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -6.5,
+     1.0,
+     7.6
+    ],
+    "az": [
+     30,
+     20
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     4.6,
+     4.3
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      7.4
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -4.4,
+      8.2
+     ],
+     "pose": "idle",
+     "face": "l"
+    }
+   },
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 9.599,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 6.279,
+     "sub": "When Gus said the name Crane, Old Wren went to the back room and came out with a frame, face down.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "tale",
+   "time": "dusk",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -6.5,
+     1.0,
+     7.6
+    ],
+    "az": [
+     16,
+     10
+    ],
+    "d": [
+     8.6,
+     8.2
+    ],
+    "h": [
+     4.0,
+     3.8
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      7.4
+     ],
+     "pose": "open",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -4.4,
+      8.2
+     ],
+     "pose": "idle",
+     "face": "l"
+    }
+   },
+   "lead": 0.6,
+   "a": 9.599,
+   "b": 21.069,
+   "vo": [
+    {
+     "id": "d1",
+     "t": 10.019,
+     "d": 5.96,
+     "sub": "The man who sold his shadow did not sell it to the sea, Gus. He sold it to a buyer. My grandmother drew him.",
+     "dlg": "WREN"
+    },
+    {
+     "id": "d2",
+     "t": 16.829,
+     "d": 3.52,
+     "sub": "Pale suit. Black hat. A silver cane. Nineteen twenty-six.",
+     "dlg": "WREN"
+    }
+   ]
+  },
+  {
+   "id": "frame",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -5.8,
+     1.0,
+     7.8
+    ],
+    "az": [
+     -15,
+     -10
+    ],
+    "d": [
+     6,
+     5.6
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      7.4
+     ],
+     "pose": "idle",
+     "face": "r"
+    },
+    "gus": {
+     "at": [
+      -4.4,
+      8.2
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1
+    }
+   },
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 21.069,
+   "b": 33.761,
+   "vo": [
+    {
+     "id": "n2",
+     "t": 21.989,
+     "d": 1.418,
+     "sub": "She turned the frame over.",
+     "dlg": null
+    },
+    {
+     "id": "n3",
+     "t": 24.357,
+     "d": 5.704,
+     "sub": "The man in the drawing was smiling the same thin smile Gus had seen on the quay that morning.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "Wren keeps a drawing of the man who bought a shadow. It is a hundred years old.",
+ "hookEnd": 2.3,
+ "ask": "Same suit, same face, a hundred years apart. What is Silas Crane?",
+ "askAt": 30.561,
+ "music": {
+  "mood": "dusk"
+ }
+}

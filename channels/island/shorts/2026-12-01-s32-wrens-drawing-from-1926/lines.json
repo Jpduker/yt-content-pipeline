@@ -1,0 +1,32 @@
+[
+ {
+  "id": "n1",
+  "text": "When Gus said the name Crane, Old Wren went to the back room and came out with a frame, face down.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "d1",
+  "text": "The man who sold his shadow did not sell it to the sea, Gus. He sold it to a buyer. My grandmother drew him.",
+  "voice": "bf_emma",
+  "speed": 1.0
+ },
+ {
+  "id": "d2",
+  "text": "Pale suit. Black hat. A silver cane. Nineteen twenty-six.",
+  "voice": "bf_emma",
+  "speed": 1.0
+ },
+ {
+  "id": "n2",
+  "text": "She turned the frame over.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n3",
+  "text": "The man in the drawing was smiling the same thin smile Gus had seen on the quay that morning.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]

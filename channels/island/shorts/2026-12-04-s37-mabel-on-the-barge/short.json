@@ -1,0 +1,182 @@
+{
+ "code": "S37",
+ "day": "2026-12-04",
+ "slot": 1,
+ "title": "Mabel on the barge",
+ "hook": "Pip found Mabel. She was not lost. She was working.",
+ "ask": "Three names crossed out. Will the fourth be?",
+ "music": {
+  "mood": "tense"
+ },
+ "shots": [
+  {
+   "id": "fly",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     14,
+     2.4,
+     19
+    ],
+    "az": [
+     -50,
+     -40
+    ],
+    "d": [
+     10,
+     9
+    ],
+    "h": [
+     3.6,
+     3.2
+    ]
+   },
+   "cast": {
+    "pip": {
+     "at": [
+      13.2,
+      17.6
+     ],
+     "pose": "fly",
+     "y": 2.4,
+     "hero": 1,
+     "fly": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "Pip searched all night. At four in the morning he found her, on the one deck on the island no cat should be on."
+    }
+   ],
+   "props": [
+    "barge"
+   ],
+   "lead": 1.0
+  },
+  {
+   "id": "deck",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     15,
+     0.6,
+     18.5
+    ],
+    "az": [
+     -60,
+     -45
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     5.5,
+     5
+    ]
+   },
+   "cast": {
+    "mabel": {
+     "at": [
+      15.2,
+      18.4
+     ],
+     "pose": "sit",
+     "face": "l",
+     "hero": 1,
+     "y": 0.8
+    },
+    "gus": {
+     "at": [
+      11.6,
+      14.4
+     ],
+     "to": [
+      12.8,
+      15.4
+     ],
+     "walk": [
+      0.4,
+      2.6
+     ],
+     "pose": "walk",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "n2",
+     "text": "Mabel was sitting on Crane’s desk, in the wheelhouse, on top of a ledger. She would not move.",
+     "pause": 0.4
+    },
+    {
+     "id": "n3",
+     "text": "So Gus read what she was sitting on.",
+     "pause": 0.8
+    }
+   ],
+   "props": [
+    "barge"
+   ],
+   "lead": 0.6
+  },
+  {
+   "id": "ledger",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     12.8,
+     1.0,
+     15.4
+    ],
+    "az": [
+     -20,
+     -14
+    ],
+    "d": [
+     5.6,
+     5.2
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      12.8,
+      15.4
+     ],
+     "pose": "fwd",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "n4",
+     "text": "Four ships. The Keeper’s Daughter, crossed out. The Saltgrass, crossed out. The Wenna Grey, crossed out.",
+     "pause": 0.5
+    },
+    {
+     "id": "n5",
+     "text": "And the fourth, not yet. The Lantern. Saturday. Three twelve.",
+     "pause": 1.0
+    }
+   ],
+   "props": [
+    "barge"
+   ],
+   "lead": 0.6,
+   "tail": 1.0
+  }
+ ],
+ "thumb": "a grey cat sitting on an open ledger in a ship wheelhouse at night, three ship names crossed out, the fourth not",
+ "thumbText": "THE FOURTH NAME",
+ "label": "THE KEEPER'S ISLAND · 37"
+}

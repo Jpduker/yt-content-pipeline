@@ -1,0 +1,38 @@
+[
+ {
+  "id": "d1",
+  "text": "Forty families are waiting on that boat, Gus. If I don\u2019t sail, Crane just waits for the next one.",
+  "voice": "af_nova",
+  "speed": 1.0
+ },
+ {
+  "id": "d2",
+  "text": "So we don\u2019t stop the ferry. We stop him.",
+  "voice": "af_nova",
+  "speed": 1.0
+ },
+ {
+  "id": "n1",
+  "text": "Gus came home to a broken window and a drawer pulled out onto the floor.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n2",
+  "text": "The coat was still on its hook. The locket was still in his pocket.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n3",
+  "text": "Only one thing was missing.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n4",
+  "text": "The brass key to the lamp below.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]

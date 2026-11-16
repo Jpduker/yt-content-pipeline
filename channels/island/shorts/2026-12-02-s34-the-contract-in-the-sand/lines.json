@@ -1,0 +1,38 @@
+[
+ {
+  "id": "n1",
+  "text": "Rollo had come along in Gus\u2019s coat pocket, uninvited. He found the paper wedged under a crate, and tried to eat it.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n2",
+  "text": "Gus got it back. Mostly.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n3",
+  "text": "Old paper, salt-stained. Four ships for four years of life. Payable to the bearer.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n4",
+  "text": "Signed with an M. Witnessed in a thin, sloping hand: S. Crane.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n5",
+  "text": "Payable to the bearer. Whoever holds the paper is owed the ships.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n6",
+  "text": "And the bearer had just sailed into their harbour.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]

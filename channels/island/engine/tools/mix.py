@@ -42,6 +42,11 @@ def gate(tm):
         keys += [(sh['a'], v), (sh['b'] - .3, v)]
     return curve(keys + [(DUR, 0)])
 night, day, dusk, storm, dawn = gate('night'), gate('day'), gate('dusk'), gate('storm'), gate('dawn')
+cave = gate('cave')
+drips = np.zeros(N)
+for t0 in np.arange(.3, DUR, .9):
+    tt0 = t0 + rng.uniform(0, .7); s = int(tt0 * SR); d = int(.12 * SR)
+    if s + d < N: x = np.arange(d) / SR; drips[s:s + d] += np.sin(2 * np.pi * rng.uniform(900, 1600) * x * (1 + 2 * x)) * np.exp(-x / .025) * rng.uniform(.15, .4)
 # distance to the sea: map shots hear the sea big, the headland hears it below, the village hears boats
 waves = lp(brown(DUR), 650) * (.45 + .55 * np.sin(2 * np.pi * .1 * tt + 1) ** 4) + hp(lp(noise(DUR), 3500), 600) * .1 * (.3 + .7 * np.sin(2 * np.pi * .1 * tt + .6) ** 6)
 waves *= .4
@@ -62,7 +67,7 @@ for t0 in lamp_out: humG *= 1 - (tt > t0)   # dies with the lamp
 amb = stereo(waves * (night * .8 + day * .6 + dusk * .7 + storm * .9 + dawn * .7), -.25) + stereo(np.roll(waves, 7919) * (night * .8 + day * .6 + dusk * .7 + storm * .9 + dawn * .7), .25) \
     + stereo(windN * (night + storm * 1.8 + dusk * .6 + dawn * .5 + day * .3), -.5) + stereo(np.roll(windN, 9001) * (night + storm * 1.8 + dusk * .6 + dawn * .5 + day * .3), .5) \
     + gullB * (day * 1.0 + dawn * .6 + dusk * .3)[:, None] + stereo(crick * (dusk + night * .4), .3) \
-    + stereo(rainB * .8 * storm, -.35) + stereo(np.roll(rainB, 4801) * .8 * storm, .35) + stereo(hum * humG, -.1)
+    + stereo(lp(waves, 300) * 1.4 * cave, -.1) + stereo(drips * cave, .4) + stereo(np.roll(drips, 7001) * cave, -.4) + stereo(rainB * .8 * storm, -.35) + stereo(np.roll(rainB, 4801) * .8 * storm, .35) + stereo(hum * humG, -.1)
 
 # —— Foley and events ——
 fx = np.zeros((N, 2))

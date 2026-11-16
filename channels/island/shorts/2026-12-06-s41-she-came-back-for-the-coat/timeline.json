@@ -1,0 +1,211 @@
+{
+ "code": "S41",
+ "title": "She came back for the coat",
+ "label": "THE KEEPER'S ISLAND \u00b7 41",
+ "DUR": 42.388,
+ "shots": [
+  {
+   "id": "crane",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -25,
+     -15
+    ],
+    "d": [
+     7.4,
+     7
+    ],
+    "h": [
+     8.8,
+     8.4
+    ]
+   },
+   "cast": {
+    "crane": {
+     "at": [
+      -92.6,
+      -95.8
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    },
+    "stranger": {
+     "at": [
+      -93.8,
+      -86.6
+     ],
+     "to": [
+      -93.4,
+      -93.6
+     ],
+     "walk": [
+      3.0,
+      8.0
+     ],
+     "pose": "walk",
+     "face": "r"
+    }
+   },
+   "under": "on",
+   "events": [
+    {
+     "t": 3.0,
+     "kind": "splash"
+    }
+   ],
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 16.036,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 6.191,
+     "sub": "In the cave, Silas Crane stood at the under-lamp with the stolen key, counting, the way she used to.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 9.241,
+     "d": 6.075,
+     "sub": "He did not hear the water move behind him. A yellow coat, the one Gus had left on the rocks.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "shutter",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "az": [
+     -150,
+     -158
+    ],
+    "d": [
+     6,
+     5.6
+    ],
+    "h": [
+     4.4,
+     4.2
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -93.4,
+      -93.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    },
+    "crane": {
+     "at": [
+      -92.6,
+      -95.8
+     ],
+     "pose": "idle",
+     "face": "l"
+    }
+   },
+   "under": 6.0,
+   "events": [
+    {
+     "t": 5.2,
+     "kind": "match"
+    }
+   ],
+   "lead": 0.6,
+   "a": 16.036,
+   "b": 25.921,
+   "vo": [
+    {
+     "id": "d1",
+     "t": 16.456,
+     "d": 3.281,
+     "sub": "The paper said bearer, Silas. Tonight, I am bearing it.",
+     "dlg": "THE STRANGER"
+    },
+    {
+     "id": "n3",
+     "t": 20.587,
+     "d": 4.614,
+     "sub": "She put the contract into the flame of the low lamp, and the lamp went out with it.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "shadow",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -86.6,
+     2.2,
+     -90.6
+    ],
+    "az": [
+     -66,
+     -60
+    ],
+    "d": [
+     12.8,
+     11.8
+    ],
+    "h": [
+     1.5,
+     1.3
+    ],
+    "aper": 60
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -90.2,
+      -93.4
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "under": "off",
+   "props": [
+    "cshadow"
+   ],
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 25.921,
+   "b": 42.388,
+   "vo": [
+    {
+     "id": "n4",
+     "t": 26.641,
+     "d": 6.44,
+     "sub": "There was a sound like a wave pulling back across stones. When the green light settled, Crane was gone.",
+     "dlg": null
+    },
+    {
+     "id": "n5",
+     "t": 34.031,
+     "d": 4.257,
+     "sub": "Only his shadow was left, on the cave wall. And it was still smiling.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "Under the island, Crane had his hand on the lamp. Then someone else came out of the sea.",
+ "hookEnd": 2.3,
+ "ask": "Crane fell into the dark. Why did his shadow stay on the wall?",
+ "askAt": 38.788,
+ "music": {
+  "mood": "dread"
+ }
+}

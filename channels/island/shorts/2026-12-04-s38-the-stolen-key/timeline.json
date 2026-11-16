@@ -1,0 +1,194 @@
+{
+ "code": "S38",
+ "title": "The stolen key",
+ "label": "THE KEEPER'S ISLAND \u00b7 38",
+ "DUR": 31.169,
+ "shots": [
+  {
+   "id": "jetty",
+   "time": "dusk",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -2.8,
+     0.6,
+     36.8
+    ],
+    "az": [
+     -170,
+     -175
+    ],
+    "d": [
+     5.6,
+     5.2
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "marlo": {
+     "at": [
+      -2.4,
+      37.2
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -3.2,
+      36.2
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 11.587,
+   "vo": [
+    {
+     "id": "d1",
+     "t": 2.6,
+     "d": 5.155,
+     "sub": "Forty families are waiting on that boat, Gus. If I don\u2019t sail, Crane just waits for the next one.",
+     "dlg": "MARLO"
+    },
+    {
+     "id": "d2",
+     "t": 8.605,
+     "d": 2.262,
+     "sub": "So we don\u2019t stop the ferry. We stop him.",
+     "dlg": "MARLO"
+    }
+   ]
+  },
+  {
+   "id": "cottage",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -1.4,
+     4.8,
+     -14.6
+    ],
+    "az": [
+     25,
+     15
+    ],
+    "d": [
+     9,
+     8.6
+    ],
+    "h": [
+     4.4,
+     4.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -1.6,
+      -14.4
+     ],
+     "pose": "up",
+     "face": "l",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      -0.2,
+      -14.0
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lead": 0.6,
+   "a": 11.587,
+   "b": 21.63,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 12.007,
+     "d": 4.657,
+     "sub": "Gus came home to a broken window and a drawer pulled out onto the floor.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 17.114,
+     "d": 3.796,
+     "sub": "The coat was still on its hook. The locket was still in his pocket.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "drawer",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -1.6,
+     4.8,
+     -14.4
+    ],
+    "az": [
+     15,
+     22
+    ],
+    "d": [
+     5.4,
+     5
+    ],
+    "h": [
+     2.4,
+     2.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -1.6,
+      -14.4
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1
+    }
+   },
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 21.63,
+   "b": 31.169,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 22.55,
+     "d": 1.591,
+     "sub": "Only one thing was missing.",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 25.091,
+     "d": 1.778,
+     "sub": "The brass key to the lamp below.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "Marlo would not cancel the ferry. And the key was gone.",
+ "hookEnd": 2.3,
+ "ask": "Crane has both keys now. How do you stop a light you cannot reach?",
+ "askAt": 27.369,
+ "music": {
+  "mood": "dread"
+ }
+}

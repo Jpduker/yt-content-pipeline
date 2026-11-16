@@ -1,0 +1,200 @@
+{
+ "code": "S30",
+ "day": "2026-11-30",
+ "slot": 2,
+ "title": "The man in the pale suit",
+ "hook": "Silas Crane made Gus an offer. He already knew the answer.",
+ "ask": "\"Your mother’s debt.\" Who told him?",
+ "music": {
+  "mood": "tense"
+ },
+ "shots": [
+  {
+   "id": "meet",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     9.5,
+     0.9,
+     13.4
+    ],
+    "az": [
+     -20,
+     -8
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     4.6,
+     4.3
+    ]
+   },
+   "cast": {
+    "crane": {
+     "at": [
+      11.0,
+      13.8
+     ],
+     "pose": "idle",
+     "face": "l"
+    },
+    "gus": {
+     "at": [
+      8.4,
+      13.2
+     ],
+     "to": [
+      9.4,
+      13.4
+     ],
+     "walk": [
+      0.2,
+      2.0
+     ],
+     "pose": "walk",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    },
+    "mabel": {
+     "at": [
+      7.6,
+      13.6
+     ],
+     "pose": "sit",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "Gus came down to the quay with Mabel. Mabel took one look at the man and sat down very fast."
+    }
+   ],
+   "props": [
+    "barge"
+   ],
+   "lead": 1.0
+  },
+  {
+   "id": "offer",
+   "time": "day",
+   "cam": {
+    "type": "dive",
+    "at": [
+     10.2,
+     1.0,
+     13.6
+    ],
+    "az": [
+     -15,
+     -8
+    ],
+    "d": [
+     5.8,
+     5.4
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "crane": {
+     "at": [
+      11.0,
+      13.8
+     ],
+     "pose": "offer",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      9.4,
+      13.4
+     ],
+     "pose": "idle",
+     "face": "r",
+     "lit": 0
+    }
+   },
+   "lines": [
+    {
+     "id": "d1",
+     "text": "I buy what the sea leaves behind. Your rocks have been generous lately.",
+     "dlg": "CRANE"
+    },
+    {
+     "id": "d2",
+     "text": "Sell me the salvage rights, keeper, and I will forget your mother’s debt.",
+     "dlg": "CRANE",
+     "pause": 1.0
+    }
+   ],
+   "props": [
+    "barge"
+   ],
+   "lead": 0.6
+  },
+  {
+   "id": "gus",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     9.4,
+     0.9,
+     13.4
+    ],
+    "az": [
+     -34,
+     -24
+    ],
+    "d": [
+     6.6,
+     6.2
+    ],
+    "h": [
+     3.0,
+     2.8
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      9.4,
+      13.4
+     ],
+     "pose": "look",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    }
+   },
+   "lines": [
+    {
+     "id": "n2",
+     "text": "Nobody on the island knew about the debt. Nobody but Gus, a cat, a mouse…",
+     "pause": 0.4
+    },
+    {
+     "id": "n3",
+     "text": "and the woman who had walked back into the sea.",
+     "pause": 1.0
+    }
+   ],
+   "props": [
+    "barge"
+   ],
+   "lead": 0.6,
+   "tail": 1.0
+  }
+ ],
+ "thumb": "on a quay, a pale man in a cream suit and bowler hat holding out a paper to an old keeper in a sea-green coat; a grey cat sitting bolt upright",
+ "thumbText": "HE KNOWS",
+ "label": "THE KEEPER'S ISLAND · 30"
+}

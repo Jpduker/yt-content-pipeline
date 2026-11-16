@@ -1,0 +1,548 @@
+[
+ {
+  "id": "c1",
+  "text": "Every debt has a collector.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "c2",
+  "text": "This one came by sea.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "p1",
+  "text": "Previously, on the Keeper\u2019s Island.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "p2",
+  "text": "Under the lighthouse, a false lamp was wrecking ships, and the stranger lighting it was Gus\u2019s own mother.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "p3",
+  "text": "She owed the sea four ships for four years of life. Gus closed her lamp. And she left her coat on the rocks.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s29_n1",
+  "text": "Gus left the yellow coat where he found it, folded, with the stone on top. In case she came back for it.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s29_n2",
+  "text": "He kept the key.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s29_n3",
+  "text": "By nine, a grey salvage barge was tied up at the quay. No flag. No port painted on the stern.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s29_n4",
+  "text": "A man in a pale suit stepped off it as if he owned the stones he walked on.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s29_d1",
+  "text": "Silas Crane. Salvage. I am looking for the keeper.",
+  "voice": "bm_fable",
+  "speed": 1.0
+ },
+ {
+  "id": "s29_d2",
+  "text": "Tell him I have come about the fourth mark.",
+  "voice": "bm_fable",
+  "speed": 1.0
+ },
+ {
+  "id": "s30_n1",
+  "text": "Gus came down to the quay with Mabel. Mabel took one look at the man and sat down very fast.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s30_d1",
+  "text": "I buy what the sea leaves behind. Your rocks have been generous lately.",
+  "voice": "bm_fable",
+  "speed": 1.0
+ },
+ {
+  "id": "s30_d2",
+  "text": "Sell me the salvage rights, keeper, and I will forget your mother\u2019s debt.",
+  "voice": "bm_fable",
+  "speed": 1.0
+ },
+ {
+  "id": "s30_n2",
+  "text": "Nobody on the island knew about the debt. Nobody but Gus, a cat, a mouse\u2026",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s30_n3",
+  "text": "and the woman who had walked back into the sea.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s31_n1",
+  "text": "Pip circled the barge four times before anyone noticed. Nobody ever notices gulls.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s31_n2",
+  "text": "On the fifth pass, he landed on the wheelhouse.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s31_n3",
+  "text": "Bolted to the roof was a brass horn. Old. Green at the seams.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s31_n4",
+  "text": "Exactly like the one in the cave under the lighthouse.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s31_n5",
+  "text": "The horn under the island never needed a ship. It needed someone at sea to answer it.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s32_n1",
+  "text": "When Gus said the name Crane, Old Wren went to the back room and came out with a frame, face down.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s32_d1",
+  "text": "The man who sold his shadow did not sell it to the sea, Gus. He sold it to a buyer. My grandmother drew him.",
+  "voice": "bf_emma",
+  "speed": 1.0
+ },
+ {
+  "id": "s32_d2",
+  "text": "Pale suit. Black hat. A silver cane. Nineteen twenty-six.",
+  "voice": "bf_emma",
+  "speed": 1.0
+ },
+ {
+  "id": "s32_n2",
+  "text": "She turned the frame over.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s32_n3",
+  "text": "The man in the drawing was smiling the same thin smile Gus had seen on the quay that morning.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "k1",
+  "text": "That night Gus kept the lamp himself, sitting on the step below it, the way he had as a young man.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "k2",
+  "text": "A man who never ages. A horn that answers another horn. A debt written on paper, not in the sea.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "k3",
+  "text": "For the first time in a month, the mystery had a face. A smiling one.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s33_n1",
+  "text": "Marlo had been thinking about the crack in the cliff since Pip found it.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s33_n2",
+  "text": "At low tide, she said, a small boat fits through. She had done it at sixteen, on a dare.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s33_n3",
+  "text": "They came in under the rock, oars shipped, the cave glowing green around them.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s33_n4",
+  "text": "The under-lamp was cold. The foghorn was cold. But the sand\u2026",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s33_n5",
+  "text": "Fin-prints. Dozens. Walking up from the water to the horn, and back.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s33_n6",
+  "text": "Made since the storm. Since she left.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s34_n1",
+  "text": "Rollo had come along in Gus\u2019s coat pocket, uninvited. He found the paper wedged under a crate, and tried to eat it.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s34_n2",
+  "text": "Gus got it back. Mostly.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s34_n3",
+  "text": "Old paper, salt-stained. Four ships for four years of life. Payable to the bearer.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s34_n4",
+  "text": "Signed with an M. Witnessed in a thin, sloping hand: S. Crane.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s34_n5",
+  "text": "Payable to the bearer. Whoever holds the paper is owed the ships.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s34_n6",
+  "text": "And the bearer had just sailed into their harbour.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "q1",
+  "text": "Pause here. The contract says four ships, payable to the bearer.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "q2",
+  "text": "Not to the sea. Not to the mother. To whoever holds the paper.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s35_n1",
+  "text": "Gus put the contract on Dunn\u2019s desk, next to the locket. Dunn looked at the signature and sat down.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s35_d1",
+  "text": "Crane came to me thirty years ago. Money, to look away when a wreck washed up. I was young. I took it.",
+  "voice": "bm_george",
+  "speed": 1.0
+ },
+ {
+  "id": "s35_d2",
+  "text": "He wrote to me last week. Saturday, he said. Don\u2019t stand in the way of Saturday.",
+  "voice": "bm_george",
+  "speed": 1.0
+ },
+ {
+  "id": "s35_n2",
+  "text": "Saturday, one boat leaves the island. The winter ferry, full, carrying everyone\u2019s Christmas home from the mainland.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s35_n3",
+  "text": "Marlo\u2019s ferry. Her name is the Lantern.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s36_n1",
+  "text": "At dusk Crane addressed the council on the quay, with documents, stamps and a very good pen.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s36_n2",
+  "text": "Salvage rights, he said. A small fee. And the keeper should rest, after such a hard month.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s36_d1",
+  "text": "All in favour. Thank you. Keeper, the council thanks you for your service.",
+  "voice": "bm_fable",
+  "speed": 1.0
+ },
+ {
+  "id": "s36_n3",
+  "text": "Gus walked home without a word. He set down two bowls by the door, as he had every night for eleven years.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s36_n4",
+  "text": "Only one was eaten. Mabel had not come home.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s37_n1",
+  "text": "Pip searched all night. At four in the morning he found her, on the one deck on the island no cat should be on.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s37_n2",
+  "text": "Mabel was sitting on Crane\u2019s desk, in the wheelhouse, on top of a ledger. She would not move.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s37_n3",
+  "text": "So Gus read what she was sitting on.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s37_n4",
+  "text": "Four ships. The Keeper\u2019s Daughter, crossed out. The Saltgrass, crossed out. The Wenna Grey, crossed out.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s37_n5",
+  "text": "And the fourth, not yet. The Lantern. Saturday. Three twelve.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s38_d1",
+  "text": "Forty families are waiting on that boat, Gus. If I don\u2019t sail, Crane just waits for the next one.",
+  "voice": "af_nova",
+  "speed": 1.0
+ },
+ {
+  "id": "s38_d2",
+  "text": "So we don\u2019t stop the ferry. We stop him.",
+  "voice": "af_nova",
+  "speed": 1.0
+ },
+ {
+  "id": "s38_n1",
+  "text": "Gus came home to a broken window and a drawer pulled out onto the floor.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s38_n2",
+  "text": "The coat was still on its hook. The locket was still in his pocket.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s38_n3",
+  "text": "Only one thing was missing.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s38_n4",
+  "text": "The brass key to the lamp below.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "w1",
+  "text": "Friday night nobody slept. Rollo counted the hours out loud until Mabel sat on him.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "w2",
+  "text": "Gus polished his lantern until he could see his own face in the brass. Tomorrow it would have to do the work of a lighthouse.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s39_n1",
+  "text": "They met at noon on the cliff path: a keeper, a ferry pilot, a postmistress, a harbour master, a gull, a cat and a mouse.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s39_n2",
+  "text": "Crane would light the low lamp to pull the ferry onto the rocks. So they would give the ferry a third light.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s39_n3",
+  "text": "Gus\u2019s own lantern, held at the cliff edge at exactly the right height, lined up with the tower.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s39_n4",
+  "text": "A new safe line, away from the rocks. Marlo would steer by it, and by nothing else.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s39_n5",
+  "text": "At four, the sky over the north turned the colour of a bruise.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s39_n6",
+  "text": "The storm was coming early.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s40_n1",
+  "text": "The Lantern came out of the rain at three ten, every window lit, forty families aboard.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s40_n2",
+  "text": "On the cliff, Gus raised his lantern to the line.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s40_n3",
+  "text": "Three eleven. Far below, under the rock, a low light opened its eye.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s40_n4",
+  "text": "Three twelve.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s40_n5",
+  "text": "The tower went dark. And the wind took his lantern down to an ember.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "r1",
+  "text": "One last pause. A false light below. The true lamp dark. One ember on a cliff.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "r2",
+  "text": "Someone has to reach the low lamp before twelve seconds are up. Who is left that can?",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s41_n1",
+  "text": "In the cave, Silas Crane stood at the under-lamp with the stolen key, counting, the way she used to.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s41_n2",
+  "text": "He did not hear the water move behind him. A yellow coat, the one Gus had left on the rocks.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s41_d1",
+  "text": "The paper said bearer, Silas. Tonight, I am bearing it.",
+  "voice": "bf_isabella",
+  "speed": 1.0
+ },
+ {
+  "id": "s41_n3",
+  "text": "She put the contract into the flame of the low lamp, and the lamp went out with it.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s41_n4",
+  "text": "There was a sound like a wave pulling back across stones. When the green light settled, Crane was gone.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s41_n5",
+  "text": "Only his shadow was left, on the cave wall. And it was still smiling.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s42_n1",
+  "text": "Gus\u2019s lantern held for twelve seconds on an ember and a prayer. It was enough. The Lantern came home on the new line.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s42_n2",
+  "text": "Forty families. Every Christmas parcel. Marlo did not stop waving for an hour.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s42_n3",
+  "text": "She was waiting on the rocks where the coat had been, facing the sunrise.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s42_n4",
+  "text": "And for the first time, on the wet stone beside her, there was a shadow.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s42_n5",
+  "text": "The debt was paid in paper, not ships. The lamp turned all night and did not miss once.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s42_n6",
+  "text": "But under the island, on a wall of wet rock, a smiling shadow was learning to move on its own.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]

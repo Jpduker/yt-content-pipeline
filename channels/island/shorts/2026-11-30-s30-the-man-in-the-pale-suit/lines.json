@@ -1,0 +1,32 @@
+[
+ {
+  "id": "n1",
+  "text": "Gus came down to the quay with Mabel. Mabel took one look at the man and sat down very fast.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "d1",
+  "text": "I buy what the sea leaves behind. Your rocks have been generous lately.",
+  "voice": "bm_fable",
+  "speed": 1.0
+ },
+ {
+  "id": "d2",
+  "text": "Sell me the salvage rights, keeper, and I will forget your mother\u2019s debt.",
+  "voice": "bm_fable",
+  "speed": 1.0
+ },
+ {
+  "id": "n2",
+  "text": "Nobody on the island knew about the debt. Nobody but Gus, a cat, a mouse\u2026",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n3",
+  "text": "and the woman who had walked back into the sea.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]

@@ -1,0 +1,203 @@
+{
+ "code": "S36",
+ "day": "2026-12-03",
+ "slot": 2,
+ "title": "The council sides with Crane",
+ "hook": "Crane brought a paper to the council. The council loves paper.",
+ "ask": "Mabel never wanders off. So where is she?",
+ "music": {
+  "mood": "dusk"
+ },
+ "shots": [
+  {
+   "id": "quay",
+   "time": "dusk",
+   "cam": {
+    "type": "stage",
+    "at": [
+     9,
+     0.9,
+     13.2
+    ],
+    "az": [
+     -15,
+     -5
+    ],
+    "d": [
+     13,
+     12
+    ],
+    "h": [
+     5.8,
+     5.4
+    ]
+   },
+   "cast": {
+    "crane": {
+     "at": [
+      11.2,
+      13.8
+     ],
+     "pose": "offer",
+     "face": "l",
+     "hero": 1
+    },
+    "dunn": {
+     "at": [
+      9.2,
+      13.0
+     ],
+     "pose": "idle",
+     "face": "r"
+    },
+    "wren": {
+     "at": [
+      7.2,
+      13.4
+     ],
+     "pose": "idle",
+     "face": "r"
+    },
+    "gus": {
+     "at": [
+      5.6,
+      13.0
+     ],
+     "pose": "idle",
+     "face": "r",
+     "lit": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "At dusk Crane addressed the council on the quay, with documents, stamps and a very good pen."
+    },
+    {
+     "id": "n2",
+     "text": "Salvage rights, he said. A small fee. And the keeper should rest, after such a hard month.",
+     "pause": 0.6
+    }
+   ],
+   "props": [
+    "barge"
+   ],
+   "lead": 1.0
+  },
+  {
+   "id": "vote",
+   "time": "dusk",
+   "cam": {
+    "type": "dive",
+    "at": [
+     10.4,
+     1.0,
+     13.6
+    ],
+    "az": [
+     -10,
+     -4
+    ],
+    "d": [
+     6,
+     5.6
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "crane": {
+     "at": [
+      11.2,
+      13.8
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    },
+    "dunn": {
+     "at": [
+      9.2,
+      13.0
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "d1",
+     "text": "All in favour. Thank you. Keeper, the council thanks you for your service.",
+     "dlg": "CRANE",
+     "pause": 0.8
+    }
+   ],
+   "props": [
+    "barge"
+   ],
+   "lead": 0.6
+  },
+  {
+   "id": "cottage",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -1,
+     4.8,
+     -14
+    ],
+    "az": [
+     10,
+     4
+    ],
+    "d": [
+     9.5,
+     9
+    ],
+    "h": [
+     4.4,
+     4.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -1.2,
+      -13.6
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1
+    },
+    "rollo": {
+     "at": [
+      -2.6,
+      -13.2
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "n3",
+     "text": "Gus walked home without a word. He set down two bowls by the door, as he had every night for eleven years.",
+     "pause": 0.5
+    },
+    {
+     "id": "n4",
+     "text": "Only one was eaten. Mabel had not come home.",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.6,
+   "tail": 1.0
+  }
+ ],
+ "thumb": "dusk on a quay, a pale man in a cream suit addressing villagers with a raised paper, an old keeper alone at the edge",
+ "thumbText": "OUTVOTED",
+ "label": "THE KEEPER'S ISLAND · 36"
+}

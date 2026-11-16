@@ -1,0 +1,225 @@
+{
+ "code": "S39",
+ "day": "2026-12-05",
+ "slot": 1,
+ "title": "The plan",
+ "hook": "Two lights wreck a ship. Two lights can also bring one home.",
+ "ask": "Would you trust a lamp you didn’t light yourself?",
+ "askLen": 3.6,
+ "music": {
+  "mood": "day"
+ },
+ "shots": [
+  {
+   "id": "board",
+   "time": "day",
+   "cam": {
+    "type": "track",
+    "side": "south",
+    "h": 5.0,
+    "d": 12.5,
+    "lead": 0.6
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      0,
+      -11
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    },
+    "marlo": {
+     "at": [
+      1.3,
+      -10.6
+     ],
+     "pose": "idle",
+     "face": "l"
+    },
+    "wren": {
+     "at": [
+      -1.3,
+      -10.8
+     ],
+     "pose": "idle",
+     "face": "r"
+    },
+    "dunn": {
+     "at": [
+      2.6,
+      -11.2
+     ],
+     "pose": "idle",
+     "face": "l"
+    },
+    "mabel": {
+     "at": [
+      0.6,
+      -11.7
+     ],
+     "pose": "sit",
+     "face": "r"
+    },
+    "rollo": {
+     "at": [
+      -0.5,
+      -11.8
+     ],
+     "pose": "idle",
+     "face": "r"
+    },
+    "pip": {
+     "at": [
+      -2.2,
+      -11.4
+     ],
+     "pose": "fly",
+     "y": 2.6,
+     "fly": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "They met at noon on the cliff path: a keeper, a ferry pilot, a postmistress, a harbour master, a gull, a cat and a mouse."
+    },
+    {
+     "id": "n2",
+     "text": "Crane would light the low lamp to pull the ferry onto the rocks. So they would give the ferry a third light.",
+     "pause": 0.6
+    }
+   ],
+   "props": [
+    "wreck",
+    "barge"
+   ],
+   "lead": 1.0
+  },
+  {
+   "id": "path",
+   "time": "day",
+   "cam": {
+    "type": "track",
+    "side": "south",
+    "h": 5.4,
+    "d": 13.5,
+    "lead": 2.0
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -1.5,
+      -11
+     ],
+     "to": [
+      6,
+      -11.4
+     ],
+     "walk": [
+      0.4,
+      9
+     ],
+     "pose": "walk",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    },
+    "marlo": {
+     "at": [
+      -3,
+      -10.6
+     ],
+     "to": [
+      4.5,
+      -11
+     ],
+     "walk": [
+      0.5,
+      9
+     ],
+     "pose": "walk",
+     "face": "r"
+    },
+    "mabel": {
+     "at": [
+      -4.2,
+      -10.6
+     ],
+     "to": [
+      3.2,
+      -11
+     ],
+     "walk": [
+      0.6,
+      9.1
+     ],
+     "pose": "walk",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "n3",
+     "text": "Gus’s own lantern, held at the cliff edge at exactly the right height, lined up with the tower.",
+     "pause": 0.4
+    },
+    {
+     "id": "n4",
+     "text": "A new safe line, away from the rocks. Marlo would steer by it, and by nothing else.",
+     "pause": 0.8
+    }
+   ],
+   "lead": 0.6
+  },
+  {
+   "id": "sky",
+   "time": "dusk",
+   "cam": {
+    "type": "map",
+    "from": [
+     -40,
+     34,
+     52
+    ],
+    "to": [
+     -32,
+     28,
+     42
+    ],
+    "look": [
+     16,
+     6,
+     -34
+    ],
+    "look2": [
+     12,
+     6,
+     -14
+    ],
+    "fov": 34,
+    "band": 0.45
+   },
+   "cast": {},
+   "lines": [
+    {
+     "id": "n5",
+     "text": "At four, the sky over the north turned the colour of a bruise.",
+     "pause": 0.4
+    },
+    {
+     "id": "n6",
+     "text": "The storm was coming early.",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.6,
+   "tail": 1.0
+  }
+ ],
+ "thumb": "noon on a cliff path, a keeper, a ferry pilot, an old woman, a harbour master, a gull, a cat and a mouse gathered over a drawn map",
+ "thumbText": "THE PLAN",
+ "label": "THE KEEPER'S ISLAND · 39"
+}

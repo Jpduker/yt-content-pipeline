@@ -1,0 +1,172 @@
+{
+ "code": "S31",
+ "day": "2026-12-01",
+ "slot": 1,
+ "title": "Pip spies on the barge",
+ "hook": "Gulls are not allowed on the barge. Pip took that personally.",
+ "ask": "The same horn, above the water and below it. Who has been calling whom?",
+ "music": {
+  "mood": "day"
+ },
+ "shots": [
+  {
+   "id": "fly",
+   "time": "day",
+   "cam": {
+    "type": "top",
+    "h": [
+     15,
+     13
+    ],
+    "fov": 42
+   },
+   "cast": {
+    "pip": {
+     "at": [
+      -4,
+      6
+     ],
+     "to": [
+      14,
+      19
+     ],
+     "pose": "fly",
+     "y": 12,
+     "hero": 1,
+     "fly": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "Pip circled the barge four times before anyone noticed. Nobody ever notices gulls."
+    },
+    {
+     "id": "n2",
+     "text": "On the fifth pass, he landed on the wheelhouse.",
+     "pause": 0.6
+    }
+   ],
+   "props": [
+    "barge"
+   ],
+   "lead": 1.0
+  },
+  {
+   "id": "deck",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     15,
+     0.6,
+     18.5
+    ],
+    "az": [
+     -60,
+     -45
+    ],
+    "d": [
+     11,
+     10
+    ],
+    "h": [
+     5.5,
+     5
+    ]
+   },
+   "cast": {
+    "pip": {
+     "at": [
+      15.4,
+      17.6
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1,
+     "y": 1.6
+    }
+   },
+   "lines": [
+    {
+     "id": "n3",
+     "text": "Bolted to the roof was a brass horn. Old. Green at the seams.",
+     "pause": 0.4
+    },
+    {
+     "id": "n4",
+     "text": "Exactly like the one in the cave under the lighthouse.",
+     "pause": 1.0
+    }
+   ],
+   "props": [
+    "barge"
+   ],
+   "lead": 0.6
+  },
+  {
+   "id": "report",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -1.2,
+     4.8,
+     -13.4
+    ],
+    "az": [
+     20,
+     12
+    ],
+    "d": [
+     9.5,
+     9
+    ],
+    "h": [
+     4.4,
+     4.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -1.2,
+      -13.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    },
+    "pip": {
+     "at": [
+      0.6,
+      -13.2
+     ],
+     "pose": "idle",
+     "face": "l"
+    },
+    "mabel": {
+     "at": [
+      -2.4,
+      -13.2
+     ],
+     "pose": "sit",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "n5",
+     "text": "The horn under the island never needed a ship. It needed someone at sea to answer it.",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.6,
+   "tail": 1.0
+  }
+ ],
+ "thumb": "a white seagull perched on a barge wheelhouse beside an old green-brass foghorn, harbour in daylight",
+ "thumbText": "THE SAME HORN",
+ "label": "THE KEEPER'S ISLAND · 31"
+}

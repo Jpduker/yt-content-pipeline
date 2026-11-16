@@ -1,0 +1,188 @@
+{
+ "code": "S31",
+ "title": "Pip spies on the barge",
+ "label": "THE KEEPER'S ISLAND \u00b7 31",
+ "DUR": 31.728,
+ "shots": [
+  {
+   "id": "fly",
+   "time": "day",
+   "cam": {
+    "type": "top",
+    "h": [
+     15,
+     13
+    ],
+    "fov": 42
+   },
+   "cast": {
+    "pip": {
+     "at": [
+      -4,
+      6
+     ],
+     "to": [
+      14,
+      19
+     ],
+     "pose": "fly",
+     "y": 12,
+     "hero": 1,
+     "fly": 1
+    }
+   },
+   "props": [
+    "barge"
+   ],
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 12.203,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 5.748,
+     "sub": "Pip circled the barge four times before anyone noticed. Nobody ever notices gulls.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 8.798,
+     "d": 2.685,
+     "sub": "On the fifth pass, he landed on the wheelhouse.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "deck",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     15,
+     0.6,
+     18.5
+    ],
+    "az": [
+     -60,
+     -45
+    ],
+    "d": [
+     11,
+     10
+    ],
+    "h": [
+     5.5,
+     5
+    ]
+   },
+   "cast": {
+    "pip": {
+     "at": [
+      15.4,
+      17.6
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1,
+     "y": 1.6
+    }
+   },
+   "props": [
+    "barge"
+   ],
+   "lead": 0.6,
+   "a": 12.203,
+   "b": 22.056,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 12.823,
+     "d": 4.495,
+     "sub": "Bolted to the roof was a brass horn. Old. Green at the seams.",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 18.268,
+     "d": 3.068,
+     "sub": "Exactly like the one in the cave under the lighthouse.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "report",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -1.2,
+     4.8,
+     -13.4
+    ],
+    "az": [
+     20,
+     12
+    ],
+    "d": [
+     9.5,
+     9
+    ],
+    "h": [
+     4.4,
+     4.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -1.2,
+      -13.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    },
+    "pip": {
+     "at": [
+      0.6,
+      -13.2
+     ],
+     "pose": "idle",
+     "face": "l"
+    },
+    "mabel": {
+     "at": [
+      -2.4,
+      -13.2
+     ],
+     "pose": "sit",
+     "face": "r"
+    }
+   },
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 22.056,
+   "b": 31.728,
+   "vo": [
+    {
+     "id": "n5",
+     "t": 22.976,
+     "d": 5.052,
+     "sub": "The horn under the island never needed a ship. It needed someone at sea to answer it.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "Gulls are not allowed on the barge. Pip took that personally.",
+ "hookEnd": 2.3,
+ "ask": "The same horn, above the water and below it. Who has been calling whom?",
+ "askAt": 28.528,
+ "music": {
+  "mood": "day"
+ }
+}

@@ -1,0 +1,185 @@
+{
+ "code": "S42",
+ "day": "2026-12-06",
+ "slot": 2,
+ "title": "A shadow at dawn",
+ "hook": "The ferry came home. And on the north rocks, a woman stood in the sunrise.",
+ "ask": "Crane’s shadow is still in the cave. What does a shadow do without its owner?",
+ "askLen": 3.8,
+ "music": {
+  "mood": "dusk"
+ },
+ "shots": [
+  {
+   "id": "ferry",
+   "time": "dawn",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -3,
+     0.6,
+     36
+    ],
+    "az": [
+     -150,
+     -160
+    ],
+    "d": [
+     12,
+     11
+    ],
+    "h": [
+     5.4,
+     5
+    ]
+   },
+   "cast": {
+    "marlo": {
+     "at": [
+      -2.4,
+      37.6
+     ],
+     "pose": "wave",
+     "face": "l",
+     "hero": 1
+    },
+    "dunn": {
+     "at": [
+      -3.2,
+      34.4
+     ],
+     "pose": "idle",
+     "face": "r"
+    },
+    "wren": {
+     "at": [
+      -3.8,
+      33.4
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "Gus’s lantern held for twelve seconds on an ember and a prayer. It was enough. The Lantern came home on the new line."
+    },
+    {
+     "id": "n2",
+     "text": "Forty families. Every Christmas parcel. Marlo did not stop waving for an hour.",
+     "pause": 0.6
+    }
+   ],
+   "lead": 1.0
+  },
+  {
+   "id": "rocks",
+   "time": "dawn",
+   "cam": {
+    "type": "orbit",
+    "at": [
+     11.4,
+     1.0,
+     -46.8
+    ],
+    "az": [
+     -40,
+     -15
+    ],
+    "d": [
+     9,
+     8.2
+    ],
+    "h": [
+     5,
+     4.6
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      10.0,
+      -44.4
+     ],
+     "pose": "idle",
+     "face": "r",
+     "shadow": true
+    },
+    "gus": {
+     "at": [
+      11.8,
+      -43.6
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1,
+     "lit": 0
+    }
+   },
+   "lines": [
+    {
+     "id": "n3",
+     "text": "She was waiting on the rocks where the coat had been, facing the sunrise.",
+     "pause": 0.4
+    },
+    {
+     "id": "n4",
+     "text": "And for the first time, on the wet stone beside her, there was a shadow.",
+     "pause": 1.0
+    }
+   ],
+   "props": [
+    "wreck"
+   ],
+   "lead": 0.6
+  },
+  {
+   "id": "end",
+   "time": "dawn",
+   "cam": {
+    "type": "map",
+    "from": [
+     -50,
+     44,
+     70
+    ],
+    "to": [
+     -60,
+     56,
+     84
+    ],
+    "look": [
+     10,
+     5,
+     -12
+    ],
+    "look2": [
+     8,
+     4,
+     -10
+    ],
+    "fov": 38,
+    "band": 0.45
+   },
+   "cast": {},
+   "lines": [
+    {
+     "id": "n5",
+     "text": "The debt was paid in paper, not ships. The lamp turned all night and did not miss once.",
+     "pause": 0.5
+    },
+    {
+     "id": "n6",
+     "text": "But under the island, on a wall of wet rock, a smiling shadow was learning to move on its own.",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.8,
+   "tail": 1.2
+  }
+ ],
+ "thumb": "sunrise on black sea rocks, a woman in a yellow coat seen from behind with a long shadow on the wet stone, an old keeper watching",
+ "thumbText": "HER SHADOW",
+ "label": "THE KEEPER'S ISLAND · 42"
+}

@@ -1,0 +1,200 @@
+{
+ "code": "S33",
+ "title": "Through the crack by sea",
+ "label": "THE KEEPER'S ISLAND \u00b7 33",
+ "DUR": 35.162,
+ "shots": [
+  {
+   "id": "jetty",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -3,
+     0.6,
+     36
+    ],
+    "az": [
+     -150,
+     -160
+    ],
+    "d": [
+     11,
+     10.4
+    ],
+    "h": [
+     5,
+     4.8
+    ]
+   },
+   "cast": {
+    "marlo": {
+     "at": [
+      -2.4,
+      37.6
+     ],
+     "pose": "wave",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -3.4,
+      35.2
+     ],
+     "to": [
+      -3.0,
+      37.0
+     ],
+     "walk": [
+      0.3,
+      2.4
+     ],
+     "pose": "walk",
+     "face": "r"
+    }
+   },
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 13.031,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 3.772,
+     "sub": "Marlo had been thinking about the crack in the cliff since Pip found it.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 6.822,
+     "d": 5.489,
+     "sub": "At low tide, she said, a small boat fits through. She had done it at sixteen, on a dare.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "cave",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -172,
+     -164
+    ],
+    "d": [
+     6.6,
+     6.2
+    ],
+    "h": [
+     3.6,
+     3.4
+    ]
+   },
+   "cast": {
+    "marlo": {
+     "at": [
+      -92.6,
+      -86.6
+     ],
+     "pose": "idle",
+     "face": "l"
+    },
+    "gus": {
+     "at": [
+      -94,
+      -87.4
+     ],
+     "pose": "up",
+     "face": "l",
+     "hero": 1
+    }
+   },
+   "lead": 0.6,
+   "a": 13.031,
+   "b": 23.21,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 13.451,
+     "d": 4.574,
+     "sub": "They came in under the rock, oars shipped, the cave glowing green around them.",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 18.475,
+     "d": 4.015,
+     "sub": "The under-lamp was cold. The foghorn was cold. But the sand\u2026",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "prints",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "az": [
+     -30,
+     -24
+    ],
+    "d": [
+     6,
+     5.6
+    ],
+    "h": [
+     4.6,
+     4.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -95.4,
+      -90.4
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1
+    },
+    "marlo": {
+     "at": [
+      -94,
+      -89.6
+     ],
+     "pose": "idle",
+     "face": "l"
+    }
+   },
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 23.21,
+   "b": 35.162,
+   "vo": [
+    {
+     "id": "n5",
+     "t": 23.88,
+     "d": 4.341,
+     "sub": "Fin-prints. Dozens. Walking up from the water to the horn, and back.",
+     "dlg": null
+    },
+    {
+     "id": "n6",
+     "t": 29.171,
+     "d": 2.291,
+     "sub": "Made since the storm. Since she left.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "There is a second way into the cave. Only a ferry pilot would know it.",
+ "hookEnd": 2.3,
+ "ask": "Fresh fin-prints, after the stranger was gone. Who else swims into that cave?",
+ "askAt": 31.962,
+ "music": {
+  "mood": "tense"
+ }
+}

@@ -1,0 +1,190 @@
+{
+ "code": "S40",
+ "day": "2026-12-05",
+ "slot": 2,
+ "title": "Twelve seconds and no lamp",
+ "hook": "Three eleven. The ferry’s lights in the rain. Gus at the cliff edge.",
+ "ask": "Twelve seconds. One lantern. Is it enough?",
+ "music": {
+  "mood": "tense"
+ },
+ "shots": [
+  {
+   "id": "ship",
+   "time": "storm",
+   "cam": {
+    "type": "map",
+    "from": [
+     -58,
+     54,
+     82
+    ],
+    "to": [
+     -50,
+     48,
+     70
+    ],
+    "look": [
+     16,
+     4,
+     -36
+    ],
+    "look2": [
+     18,
+     5,
+     -40
+    ]
+   },
+   "cast": {},
+   "lines": [
+    {
+     "id": "n1",
+     "text": "The Lantern came out of the rain at three ten, every window lit, forty families aboard."
+    },
+    {
+     "id": "n2",
+     "text": "On the cliff, Gus raised his lantern to the line.",
+     "pause": 0.6
+    }
+   ],
+   "props": [
+    "ship"
+   ],
+   "events": [
+    {
+     "t": 2.5,
+     "kind": "flash"
+    },
+    {
+     "t": 6.0,
+     "kind": "horn"
+    }
+   ],
+   "weather": "rain",
+   "lead": 1.0
+  },
+  {
+   "id": "cliff",
+   "time": "storm",
+   "cam": {
+    "type": "stage",
+    "at": [
+     14.4,
+     5.0,
+     -12.0
+    ],
+    "az": [
+     170,
+     178
+    ],
+    "d": [
+     8,
+     7.6
+    ],
+    "h": [
+     3.6,
+     3.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      14.4,
+      -12.0
+     ],
+     "pose": "up",
+     "face": "r",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      13.2,
+      -11.6
+     ],
+     "pose": "sit",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "n3",
+     "text": "Three eleven. Far below, under the rock, a low light opened its eye.",
+     "pause": 0.6
+    },
+    {
+     "id": "n4",
+     "text": "Three twelve.",
+     "pause": 0.6
+    }
+   ],
+   "lamp": {
+    "flicker": 7.2,
+    "len": 0.9
+   },
+   "events": [
+    {
+     "t": 1.4,
+     "kind": "flash"
+    }
+   ],
+   "weather": "rain",
+   "lead": 0.6
+  },
+  {
+   "id": "dark",
+   "time": "storm",
+   "cam": {
+    "type": "dive",
+    "at": [
+     14.4,
+     4.9,
+     -12.0
+    ],
+    "az": [
+     170,
+     176
+    ],
+    "d": [
+     5,
+     4.6
+    ],
+    "h": [
+     2.4,
+     2.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      14.4,
+      -12.0
+     ],
+     "pose": "up",
+     "face": "r",
+     "hero": 1,
+     "lit": 0.5
+    }
+   },
+   "lines": [
+    {
+     "id": "n5",
+     "text": "The tower went dark. And the wind took his lantern down to an ember.",
+     "pause": 1.2
+    }
+   ],
+   "lamp": "off",
+   "events": [
+    {
+     "t": 2.0,
+     "kind": "flash"
+    }
+   ],
+   "weather": "rain",
+   "lead": 0.6,
+   "tail": 1.4
+  }
+ ],
+ "thumb": "storm at night, a ferry full of lit windows near black rocks, an old keeper on a cliff edge holding up a lantern with a tiny ember",
+ "thumbText": "12 SECONDS",
+ "label": "THE KEEPER'S ISLAND · 40"
+}

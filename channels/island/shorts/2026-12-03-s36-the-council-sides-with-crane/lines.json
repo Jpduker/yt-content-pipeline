@@ -1,0 +1,32 @@
+[
+ {
+  "id": "n1",
+  "text": "At dusk Crane addressed the council on the quay, with documents, stamps and a very good pen.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n2",
+  "text": "Salvage rights, he said. A small fee. And the keeper should rest, after such a hard month.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "d1",
+  "text": "All in favour. Thank you. Keeper, the council thanks you for your service.",
+  "voice": "bm_fable",
+  "speed": 1.0
+ },
+ {
+  "id": "n3",
+  "text": "Gus walked home without a word. He set down two bowls by the door, as he had every night for eleven years.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n4",
+  "text": "Only one was eaten. Mabel had not come home.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]

@@ -204,6 +204,46 @@ function drawRollo(P, E, p) {
 }
 const ROLLO = { idle0: {}, idle1: { nibble: 1 }, w0: { step: 0 }, w1: { step: 1 }, w2: { step: 2 }, w3: { step: 3 } };
 
+// —— Marlo, the ferry pilot (Chapter 2) —— orange knit cap, navy sailor jumper, rolled trousers, a coil of rope. p: { step, bob, blink, arm:'rope'|'wave' }
+const CM = { cap: ramp(['#7a2a08', '#c24a12', '#ee7a2a', '#ffa860'], .22), jumper: ramp(['#0c1430', '#18244a', '#283a6a', '#3a5288'], .22), trou: ramp(['#3a3020', '#5a4a30', '#7a6644'], .22), hair: ramp(['#1a0e08', '#3a2010', '#5a3418'], .22), rope: ramp(['#6a5430', '#a8884a', '#d0b070'], .22) };
+function drawMarlo(P, E, p) {
+  const by = p.bob || 0, st = p.step ?? -1;
+  const legs = st < 0 ? [[12, 0], [18, 0]] : [[[10, 0], [20, -1]], [[13, -1], [17, 0]], [[20, -1], [10, 0]], [[17, 0], [13, -1]]][st];
+  legs.forEach(([lx, ly], i) => { for (let y = 34; y < 44 + ly; y++) for (let x = lx; x < lx + 5; x++) P.set(x, y, CM.trou(i ? .5 : .8 - (x === lx ? .3 : 0), x, y));
+    for (let y = 44 + ly; y < 49 + ly; y++) for (let x = lx - 1; x < lx + 6; x++) P.set(x, y, C.boot(y > 46 + ly ? .25 : .6, x, y)); });
+  const top = 19 + by;
+  P.poly([[10, top], [22, top], [23, 35], [9, 35]], (x, y) => { const s = (x - 9) / 14; let v = .7 - s * .4; if ((y - top) % 4 === 0) v += .12; return CM.jumper(v, x, y); });
+  const hx = 16, hy = 13 + by;
+  P.ellipse(hx + .5, hy - 1, 6, 6.2, (x, y, dx, dy) => CM.hair(.6 - dy * .2, x, y));   // hair behind (bob)
+  P.ellipse(hx + 1, hy, 5, 5.4, (x, y, dx, dy) => C.skin(.5 - dx * .15 - dy * .25, x, y));
+  P.ellipse(hx + .5, hy - 4.5, 5.8, 3.2, (x, y, dx, dy) => CM.cap(.65 - dy * .3, x, y)); P.rect(hx - 5, hy - 3, 11, 2, CM.cap(.4, 0, 0)); P.set(hx, hy - 8, CM.cap(.9, 0, 0)); P.set(hx + 1, hy - 8, CM.cap(.9, 0, 0));
+  if (!p.blink) { P.set(hx + 1, hy - 1, INK); P.set(hx + 4, hy - 1, INK); }
+  P.set(hx + 5, hy, C.skin(.8, 0, 0)); P.rect(hx + 2, hy + 2, 3, 1, hex('#9a4a40'));
+  if ((p.arm || 'rope') === 'rope') { for (let y = -3; y <= 3; y++) for (let x = -3; x <= 3; x++) { const r = Math.hypot(x, y); if (r > 1.4 && r < 3.2) P.set(23 + x, top + 9 + y, CM.rope(.7 - y * .06, x, y)); } P.rect(21, top + 3, 2, 5, CM.jumper(.6, 0, 0)); }
+  else { P.rect(22, top - 2, 2, 5, CM.jumper(.7, 0, 0)); P.rect(23, top - 5, 2, 3, C.skin(.6, 0, 0)); }
+}
+const MARLO = { idle0: {}, idle1: { bob: 1 }, blink: { blink: 1 }, wave: { arm: 'wave' }, wave1: { arm: 'wave', bob: 1 }, w0: { step: 0 }, w1: { step: 1, bob: -1 }, w2: { step: 2 }, w3: { step: 3, bob: -1 } };
+
+// —— Silas Crane, the salvage merchant (Chapter 3) —— cream suit, black bowler, silver cane, too-pale face; tall and thin. p: { step, bob, blink, arm:'cane'|'offer' }
+const CC = { suit: ramp(['#8a7e64', '#bdb092', '#e2d8bc', '#f6efdc'], .22), hat: ramp(['#08080a', '#16161c', '#26262e'], .22), cane: ramp(['#6a6e78', '#a8aeb8', '#e6eaf0'], .22) };
+function drawCrane(P, E, p) {
+  const by = p.bob || 0, st = p.step ?? -1;
+  const legs = st < 0 ? [[13, 0], [18, 0]] : [[[11, 0], [20, -1]], [[14, -1], [17, 0]], [[20, -1], [11, 0]], [[17, 0], [14, -1]]][st];
+  legs.forEach(([lx, ly], i) => { for (let y = 32; y < 46 + ly; y++) for (let x = lx; x < lx + 4; x++) P.set(x, y, CC.suit(i ? .5 : .78 - (x === lx ? .25 : 0), x, y));
+    for (let y = 46 + ly; y < 49 + ly; y++) for (let x = lx - 1; x < lx + 5; x++) P.set(x, y, CC.hat(.5, x, y)); });
+  const top = 15 + by;
+  P.poly([[11, top], [22, top], [23, 33], [10, 33]], (x, y) => { const s = (x - 10) / 13; let v = .75 - s * .4; if (s > .45 && s < .52) v -= .3; return CC.suit(v, x, y); });
+  P.rect(15, top, 3, 7, hex('#3a0e14')); P.set(16, top + 1, hex('#8a1a2a'));   // dark waistcoat + red tie
+  const hx = 16, hy = 9 + by;
+  P.ellipse(hx + 1, hy, 4.6, 5.4, (x, y, dx, dy) => C.skin(.82 - dx * .1 - dy * .15, x, y));   // pale
+  P.rect(hx - 5, hy - 4, 12, 1, CC.hat(.4, 0, 0)); P.rect(hx - 3, hy - 8, 8, 4, CC.hat(.6, 0, 0)); P.rect(hx - 2, hy - 9, 6, 1, CC.hat(.8, 0, 0));
+  if (!p.blink) { P.set(hx + 1, hy - 1, INK); P.set(hx + 4, hy - 1, INK); }
+  P.rect(hx + 1, hy + 3, 4, 1, hex('#6a3a3a'));   // thin smile
+  if ((p.arm || 'cane') === 'cane') { P.rect(22, top + 3, 2, 10, CC.suit(.6, 0, 0)); for (let y = top + 12; y < 49; y++) P.set(24, y, CC.cane(.7, 0, y)); P.rect(23, top + 11, 3, 2, CC.cane(.95, 0, 0)); }
+  else { P.rect(22, top + 2, 2, 4, CC.suit(.6, 0, 0)); P.rect(24, top + 4, 4, 2, CC.suit(.7, 0, 0)); P.rect(28, top + 3, 3, 3, hex('#f2ecd8')); }   // offering a paper
+}
+const CRANE = { idle0: {}, idle1: { bob: 1 }, blink: { blink: 1 }, offer: { arm: 'offer' }, offer1: { arm: 'offer', bob: 1 }, w0: { step: 0 }, w1: { step: 1, bob: -1 }, w2: { step: 2 }, w3: { step: 3, bob: -1 } };
+
 function atlas(table, draw, FW, FH) {
   const names = Object.keys(table), n = names.length, P = new PX(FW * n, FH), E = new PX(FW * n, FH);
   names.forEach((k, i) => {
@@ -254,13 +294,17 @@ export const makeWren = () => simple(WREN, drawWren, 34, 50, 'wren', { blob: .4,
 export const makeStranger = () => { const c = simple(STRANGER, drawStranger, 34, 50, 'stranger', { shadow: false }); c.mesh.castShadow = false; return c; };
 export const makePip = () => simple(PIP, drawPip, 22, 18, 'pip', { blob: .2 });
 export const makeRollo = () => simple(ROLLO, drawRollo, 14, 10, 'rollo', { blob: .16 });
-export const MAKERS = { gus: makeGus, mabel: makeMabel, dunn: makeDunn, wren: makeWren, stranger: makeStranger, pip: makePip, rollo: makeRollo };
+export const makeMarlo = () => simple(MARLO, drawMarlo, 34, 50, 'marlo', { blob: .38 });
+export const makeCrane = () => simple(CRANE, drawCrane, 34, 50, 'crane', { blob: .36 });
+export const MAKERS = { crane: makeCrane, marlo: makeMarlo, gus: makeGus, mabel: makeMabel, dunn: makeDunn, wren: makeWren, stranger: makeStranger, pip: makePip, rollo: makeRollo };
 // Pose → frame name per character (walk cycles step at ~8.5 fps; idles alternate at ~1.4 Hz)
 export function poseFrame(who, pose, t, seed = 0) {
   const w = ['w0', 'w1', 'w2', 'w3'][Math.floor(t * 8.5 + seed) % 4], i2 = Math.floor(t * 1.4 + seed) % 2, bl = Math.floor(t * 8 + seed) % 29 === 0;
   if (who === 'gus') return { walk: w, idle: bl ? 'blink' : (i2 ? 'idle1' : 'idle0'), look: bl ? 'lookBlink' : (i2 ? 'look1' : 'look'), up: i2 ? 'up1' : 'up', lookUp: i2 ? 'lookUp1' : 'lookUp', fwd: 'fwd' }[pose] || 'idle0';
   if (who === 'mabel') return { walk: ['w0', 'w1', 'w2', 'w3'][Math.floor(t * 11 + seed) % 4], sit: bl ? 'sitBlink' : (Math.floor(t * .9 + seed) % 2 ? 'sit1' : 'sit0'), idle: bl ? 'standBlink' : 'stand' }[pose] || 'sit0';
   if (who === 'dunn') return { walk: w, idle: bl ? 'blink' : (i2 ? 'idle1' : 'idle0'), point: i2 ? 'point1' : 'point' }[pose] || 'idle0';
+  if (who === 'crane') return { walk: w, idle: bl ? 'blink' : (i2 ? 'idle1' : 'idle0'), offer: i2 ? 'offer1' : 'offer' }[pose] || 'idle0';
+  if (who === 'marlo') return { walk: w, idle: bl ? 'blink' : (i2 ? 'idle1' : 'idle0'), wave: i2 ? 'wave1' : 'wave' }[pose] || 'idle0';
   if (who === 'wren') return { idle: bl ? 'blink' : (i2 ? 'idle1' : 'idle0'), open: i2 ? 'open1' : 'open' }[pose] || 'idle0';
   if (who === 'stranger') return { walk: w, idle: i2 ? 'idle1' : 'idle0' }[pose] || 'idle0';
   if (who === 'pip') return { fly: ['fly0', 'fly1', 'fly2', 'fly3'][Math.floor(t * 7 + seed) % 4], idle: bl ? 'standBlink' : (Math.floor(t * .8 + seed) % 2 ? 'stand1' : 'stand0') }[pose] || 'stand0';

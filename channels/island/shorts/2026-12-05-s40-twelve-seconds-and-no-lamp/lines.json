@@ -1,0 +1,32 @@
+[
+ {
+  "id": "n1",
+  "text": "The Lantern came out of the rain at three ten, every window lit, forty families aboard.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n2",
+  "text": "On the cliff, Gus raised his lantern to the line.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n3",
+  "text": "Three eleven. Far below, under the rock, a low light opened its eye.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n4",
+  "text": "Three twelve.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n5",
+  "text": "The tower went dark. And the wind took his lantern down to an ember.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]

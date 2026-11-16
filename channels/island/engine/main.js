@@ -26,7 +26,7 @@ function bandOf(hero) {
   return Math.min(.8, Math.max(.2, _v.y * .5 + .5));
 }
 const shotAt = t => TL.shots.find(s => t >= s.a && t < s.b) || TL.shots[TL.shots.length - 1];
-window.DUR = TL.DUR;
+window.DUR = TL.DUR; window.__dbg = { S, post, renderer, camera, THREE };
 window.render = t => {
   const shot = shotAt(t);
   post.vig.uniforms.fade.value = 1; post.bloom.strength = .55; post.bloom.radius = .75; post.bloom.threshold = .85;

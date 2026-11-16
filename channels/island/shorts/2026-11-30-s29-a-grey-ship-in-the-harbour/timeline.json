@@ -1,0 +1,205 @@
+{
+ "code": "S29",
+ "title": "A grey ship in the harbour",
+ "label": "THE KEEPER'S ISLAND \u00b7 29",
+ "DUR": 34.999,
+ "shots": [
+  {
+   "id": "rocks",
+   "time": "dawn",
+   "cam": {
+    "type": "orbit",
+    "at": [
+     11.4,
+     1.0,
+     -46.8
+    ],
+    "az": [
+     -30,
+     -5
+    ],
+    "d": [
+     9,
+     8.4
+    ],
+    "h": [
+     5,
+     4.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      12.6,
+      -45.6
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1,
+     "lit": 0
+    }
+   },
+   "props": [
+    "wreck",
+    "coat"
+   ],
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 11.515,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 6.655,
+     "sub": "Gus left the yellow coat where he found it, folded, with the stone on top. In case she came back for it.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 9.705,
+     "d": 1.09,
+     "sub": "He kept the key.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "barge",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     13,
+     0.9,
+     17
+    ],
+    "az": [
+     -40,
+     -25
+    ],
+    "d": [
+     15,
+     13.5
+    ],
+    "h": [
+     6.5,
+     6
+    ]
+   },
+   "cast": {
+    "crane": {
+     "at": [
+      11.4,
+      13.8
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    },
+    "dunn": {
+     "at": [
+      8.6,
+      13.2
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "props": [
+    "barge"
+   ],
+   "lead": 0.8,
+   "a": 11.515,
+   "b": 24.496,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 12.075,
+     "d": 6.716,
+     "sub": "By nine, a grey salvage barge was tied up at the quay. No flag. No port painted on the stern.",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 19.241,
+     "d": 4.535,
+     "sub": "A man in a pale suit stepped off it as if he owned the stones he walked on.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "dunn",
+   "time": "day",
+   "cam": {
+    "type": "dive",
+    "at": [
+     10,
+     1.0,
+     13.5
+    ],
+    "az": [
+     -10,
+     -4
+    ],
+    "d": [
+     6,
+     5.6
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "crane": {
+     "at": [
+      11.4,
+      13.8
+     ],
+     "pose": "offer",
+     "face": "l",
+     "hero": 1
+    },
+    "dunn": {
+     "at": [
+      8.6,
+      13.2
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "props": [
+    "barge"
+   ],
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 24.496,
+   "b": 34.999,
+   "vo": [
+    {
+     "id": "d1",
+     "t": 25.116,
+     "d": 3.143,
+     "sub": "Silas Crane. Salvage. I am looking for the keeper.",
+     "dlg": "CRANE"
+    },
+    {
+     "id": "d2",
+     "t": 29.209,
+     "d": 2.09,
+     "sub": "Tell him I have come about the fourth mark.",
+     "dlg": "CRANE"
+    }
+   ]
+  }
+ ],
+ "hook": "The morning after the storm, a ship nobody had called sailed into the harbour.",
+ "hookEnd": 2.3,
+ "ask": "How does a stranger know about a mark burned in a rock last night?",
+ "askAt": 31.799,
+ "music": {
+  "mood": "mystery"
+ }
+}
