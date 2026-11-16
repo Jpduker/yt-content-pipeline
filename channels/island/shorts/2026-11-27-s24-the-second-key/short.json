@@ -1,0 +1,174 @@
+{
+ "code": "S24",
+ "day": "2026-11-27",
+ "slot": 2,
+ "title": "The second key",
+ "hook": "The under-lamp has a lock. Only a keeper’s key fits it.",
+ "ask": "Sixty years in a safe, and gone the week the wrecks began. Who took it?",
+ "askLen": 3.8,
+ "music": {
+  "mood": "tense"
+ },
+ "shots": [
+  {
+   "id": "lock",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -92.6,
+     0.8,
+     -97.2
+    ],
+    "az": [
+     30,
+     38
+    ],
+    "d": [
+     6.2,
+     5.8
+    ],
+    "h": [
+     4.6,
+     4.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -93.6,
+      -97.0
+     ],
+     "pose": "fwd",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "Back in the cave, Gus tried his own lamp key in the old brass door. It turned like it had been waiting."
+    },
+    {
+     "id": "n2",
+     "text": "Two locks. Two keys. One for the lamp above, one for the lamp below.",
+     "pause": 0.6
+    }
+   ],
+   "events": [
+    {
+     "t": 2.8,
+     "kind": "lock"
+    }
+   ],
+   "lead": 1.0
+  },
+  {
+   "id": "post",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -6.5,
+     1.0,
+     7.6
+    ],
+    "az": [
+     24,
+     16
+    ],
+    "d": [
+     9.4,
+     9
+    ],
+    "h": [
+     4.4,
+     4.2
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      7.4
+     ],
+     "pose": "idle",
+     "face": "r"
+    },
+    "gus": {
+     "at": [
+      -4.4,
+      8.2
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "n3",
+     "text": "The second key, said the island, had always lived in the post office safe.",
+     "pause": 0.4
+    },
+    {
+     "id": "n4",
+     "text": "Wren opened the safe without being asked.",
+     "pause": 0.8
+    }
+   ],
+   "lead": 0.6
+  },
+  {
+   "id": "empty",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -6.2,
+     1.0,
+     7.6
+    ],
+    "az": [
+     8,
+     2
+    ],
+    "d": [
+     5.4,
+     5
+    ],
+    "h": [
+     2.5,
+     2.3
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      7.4
+     ],
+     "pose": "open",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "n5",
+     "text": "Empty. A clean square in the dust where a key had lain for sixty years.",
+     "pause": 0.4
+    },
+    {
+     "id": "d1",
+     "text": "I know who has it, Gus. I gave it to her myself.",
+     "dlg": "WREN",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.6,
+   "tail": 1.0
+  }
+ ],
+ "label": "THE KEEPER'S ISLAND · 24"
+}

@@ -1,7 +1,7 @@
-# The Keeper's Island · render the whole week of Shorts on THIS Windows PC's GPU (GTX 1650), 1080x1920 @ 30 fps.
-# Double-click render-week.bat (or: powershell -ExecutionPolicy Bypass -File render-week.ps1). Leave the window open; it logs to render-week.log.
+﻿# The Keeper's Island · render the whole week of Shorts on THIS Windows PC's GPU (GTX 1650), 1080x1920 @ 30 fps.
+# Double-click render-week.bat (weeks 1-3) or render-weekN.bat (one later week). Or: powershell -ExecutionPolicy Bypass -File render-week.ps1 -From yyyy-mm-dd -To yyyy-mm-dd. Leave the window open; it logs to render-week.log.
 # Already-finished Shorts (final\*.mp4 newer than timeline.json) are skipped, so you can stop and re-run any time.
-param([string]$Size = "1080x1920", [int]$Fps = 30, [int]$Workers = 2, [string]$SS = "1", [string]$Only = "")
+param([string]$Size = "1080x1920", [int]$Fps = 30, [int]$Workers = 2, [string]$SS = "1", [string]$Only = "", [string]$From = "", [string]$To = "")
 $ErrorActionPreference = "Continue"   # node/ffmpeg write progress to stderr; "Stop" would abort on it
 $Shorts = $PSScriptRoot
 $Root = (Resolve-Path "$Shorts\..\..\..").Path
@@ -34,6 +34,8 @@ Say "start week render · $Size @ $Fps fps · workers $Workers · ss=$SS · ANGL
 # 4. Every Short in date order: picture -> mux with its mix (loudness -14 LUFS) -> final\<folder>.mp4
 $dirs = Get-ChildItem $Shorts -Directory | Where-Object { Test-Path "$($_.FullName)\timeline.json" } | Sort-Object Name
 if ($Only) { $dirs = $dirs | Where-Object { $_.Name -like "*$Only*" } }
+if ($From) { $dirs = $dirs | Where-Object { $_.Name.Substring(0, 10) -ge $From } }   # folder names start with the date: -From 2026-12-07 -To 2026-12-13 = one week
+if ($To) { $dirs = $dirs | Where-Object { $_.Name.Substring(0, 10) -le $To } }
 $fails = 0
 foreach ($d in $dirs) {
   $Dir = $d.FullName; $Name = $d.Name; $final = "$Dir\final\$Name.mp4"

@@ -1,0 +1,194 @@
+{
+ "code": "S28",
+ "title": "The coat on the rocks",
+ "label": "THE KEEPER'S ISLAND \u00b7 28",
+ "DUR": 40.498,
+ "shots": [
+  {
+   "id": "ferry",
+   "time": "dawn",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -3,
+     0.6,
+     36
+    ],
+    "az": [
+     -150,
+     -160
+    ],
+    "d": [
+     12,
+     11
+    ],
+    "h": [
+     5.4,
+     5
+    ]
+   },
+   "cast": {
+    "marlo": {
+     "at": [
+      -2.4,
+      37.2
+     ],
+     "pose": "wave",
+     "face": "l",
+     "hero": 1
+    },
+    "dunn": {
+     "at": [
+      -3.2,
+      34.4
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 13.028,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 5.357,
+     "sub": "Thirty-one passengers walked off the ferry at dawn and never knew how close they had come.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 8.407,
+     "d": 3.901,
+     "sub": "Marlo knew. She waved at the lighthouse until her arm hurt.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "coat",
+   "time": "dawn",
+   "cam": {
+    "type": "orbit",
+    "at": [
+     11.4,
+     1.0,
+     -46.8
+    ],
+    "az": [
+     -40,
+     -10
+    ],
+    "d": [
+     9,
+     8
+    ],
+    "h": [
+     5,
+     4.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      12.6,
+      -45.6
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1,
+     "lit": 0
+    },
+    "mabel": {
+     "at": [
+      13.6,
+      -45.2
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "props": [
+    "wreck",
+    "coat"
+   ],
+   "lead": 0.6,
+   "a": 13.028,
+   "b": 27.268,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 13.648,
+     "d": 7.068,
+     "sub": "On the north rocks, Gus found the yellow coat, folded neatly, a stone on top so the wind would not take it.",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 21.566,
+     "d": 4.982,
+     "sub": "Under the stone, the brass key. And a fourth mark, freshly burned into the rock.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "time": "dawn",
+   "cam": {
+    "type": "map",
+    "from": [
+     -50,
+     44,
+     70
+    ],
+    "to": [
+     -60,
+     56,
+     84
+    ],
+    "look": [
+     10,
+     5,
+     -12
+    ],
+    "look2": [
+     8,
+     4,
+     -10
+    ],
+    "fov": 38,
+    "band": 0.45
+   },
+   "cast": {},
+   "lead": 0.8,
+   "tail": 1.2,
+   "a": 27.268,
+   "b": 40.498,
+   "vo": [
+    {
+     "id": "n5",
+     "t": 28.128,
+     "d": 3.314,
+     "sub": "Four marks. Three ships. The sea was still owed one.",
+     "dlg": null
+    },
+    {
+     "id": "n6",
+     "t": 32.392,
+     "d": 4.006,
+     "sub": "And Gus had just taken away the only person who knew how to pay it.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "The ferry made it home. By morning, the stranger was gone.",
+ "hookEnd": 2.3,
+ "ask": "Four marks, four ships. One is still owed. Who pays it?",
+ "askAt": 36.898,
+ "music": {
+  "mood": "dusk"
+ }
+}

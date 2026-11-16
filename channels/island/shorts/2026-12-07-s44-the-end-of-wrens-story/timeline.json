@@ -1,0 +1,212 @@
+{
+ "code": "S44",
+ "title": "The end of Wren\u2019s story",
+ "label": "THE KEEPER'S ISLAND \u00b7 44",
+ "DUR": 34.443,
+ "shots": [
+  {
+   "id": "post",
+   "time": "dusk",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -6.5,
+     1.0,
+     7.6
+    ],
+    "az": [
+     30,
+     20
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     4.6,
+     4.3
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      7.4
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -4.4,
+      8.2
+     ],
+     "pose": "idle",
+     "face": "l",
+     "lit": 1
+    },
+    "mabel": {
+     "at": [
+      -3.2,
+      8.6
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 9.756,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 6.436,
+     "sub": "The post office smelled of candle wax and other people\u2019s letters. Wren was waiting, as if she had heard.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "tale",
+   "time": "dusk",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -6.5,
+     1.0,
+     7.6
+    ],
+    "az": [
+     18,
+     12
+    ],
+    "d": [
+     8.6,
+     8.2
+    ],
+    "h": [
+     4.0,
+     3.8
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      7.4
+     ],
+     "pose": "open",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -4.4,
+      8.2
+     ],
+     "pose": "idle",
+     "face": "l"
+    },
+    "mabel": {
+     "at": [
+      -3.2,
+      8.6
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lead": 0.6,
+   "a": 9.756,
+   "b": 21.819,
+   "vo": [
+    {
+     "id": "d1",
+     "t": 10.376,
+     "d": 4.377,
+     "sub": "The man who sold his shadow sold it to a buyer in a pale suit. Your Mr Crane.",
+     "dlg": "WREN"
+    },
+    {
+     "id": "d2",
+     "t": 15.653,
+     "d": 5.446,
+     "sub": "And a shadow without its master does one thing, Gus. It goes home. To the family that sold it.",
+     "dlg": "WREN"
+    }
+   ]
+  },
+  {
+   "id": "dark",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -4.4,
+     1.0,
+     8.2
+    ],
+    "az": [
+     -70,
+     -62
+    ],
+    "d": [
+     5.6,
+     5.2
+    ],
+    "h": [
+     2.4,
+     2.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -4.4,
+      8.2
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      -3.2,
+      8.6
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 21.819,
+   "b": 34.443,
+   "vo": [
+    {
+     "id": "n2",
+     "t": 22.539,
+     "d": 1.666,
+     "sub": "Gus asked her the man\u2019s name.",
+     "dlg": null
+    },
+    {
+     "id": "n3",
+     "t": 25.155,
+     "d": 5.188,
+     "sub": "Wren blew out the candle instead. Some names, she said, you only say in daylight.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "Old Wren told Gus the end of the story. The part she always skipped.",
+ "hookEnd": 2.3,
+ "ask": "Whose family sold the shadow? And why won\u2019t Wren say the name?",
+ "askAt": 30.843,
+ "music": {
+  "mood": "dusk"
+ }
+}

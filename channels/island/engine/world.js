@@ -25,7 +25,7 @@ export function groundY(x, z) {
 const TIMES = {
   night: { top: '#040716', mid: '#0e1a3a', hor: '#27405e', fog: '#141f36', fogD: .0095, sun: '#8aa4de', sunI: .95, sunPos: [-25, 60, 50], hemi: ['#36497a', '#0a0a12', .9], exp: 1.15, prac: 1, star: 1, lamp: 1, seaBright: 1 },
   dusk: { top: '#2a1c4a', mid: '#7a3a5a', hor: '#e08a50', fog: '#4a3448', fogD: .0065, sun: '#ffb070', sunI: 3.0, sunPos: [-70, 18, 40], hemi: ['#8a6a9a', '#3a2418', 1.5], exp: 1.5, prac: .4, star: .25, lamp: 1, seaBright: 1.2 },
-  dawn: { top: '#3a5a8a', mid: '#9a9ab8', hor: '#f0c8a0', fog: '#8c92a8', fogD: .0055, sun: '#ffd8a8', sunI: 3.2, sunPos: [70, 22, -30], hemi: ['#a8b8d8', '#4a4038', 1.6], exp: 1.6, prac: .15, star: 0, lamp: 1, seaBright: 1.3 },
+  dawn: { top: '#3a5a8a', mid: '#9a9ab8', hor: '#f0c8a0', fog: '#8c92a8', fogD: .0055, sun: '#ffd8a8', sunI: 3.4, sunPos: [70, 34, -30], hemi: ['#b0bede', '#5a5044', 1.8], exp: 2.0, prac: .15, star: 0, lamp: 1, seaBright: 1.3 },
   day: { top: '#2a5a96', mid: '#5d86b0', hor: '#8e928c', fog: '#66788a', fogD: .0045, sun: '#fff1d6', sunI: 3.2, sunPos: [40, 70, 30], hemi: ['#9fb6d4', '#4a4434', 1.6, ], exp: 2.3, prac: 0, star: 0, lamp: 0, seaBright: 1.0 },
   cave: { top: '#03060a', mid: '#060c12', hor: '#0a1418', fog: '#0c2226', fogD: .012, sun: '#4a6a78', sunI: .5, sunPos: [-25, 60, 50], hemi: ['#7a8a88', '#14100c', 1.5], exp: 2.0, prac: 1, star: 0, lamp: 0, seaBright: .7 },
   storm: { top: '#0a0d18', mid: '#1a2030', hor: '#2c3444', fog: '#1a1d2c', fogD: .011, sun: '#7a8ab0', sunI: .7, sunPos: [-25, 60, 50], hemi: ['#2a3450', '#0a0a12', .8], exp: 1.1, prac: 1, star: 0, lamp: 1, seaBright: .8 },
@@ -204,7 +204,25 @@ export function buildWorld(aspect) {
       const smile = (y === 21 && x > 4 && x < 11) || (y === 22 && (x === 4 || x === 11)) || (y === 22 && x > 5 && x < 10 && false); if (smile) return [92, 128, 112]; return head || hat || body || cane ? [3, 5, 6] : null; });
     const sm = new THREE.Mesh(new THREE.PlaneGeometry(2.3, 4.6), new THREE.MeshBasicMaterial({ map: texOf(SP.done()), transparent: true, opacity: .96, depthWrite: false })); sm.position.y = 2.5; cshadow.add(sm); const gl = new THREE.PointLight('#5ad8b8', 16, 8, 1.2); gl.position.set(0, 2.2, 2.2); cshadow.add(gl); }
   cshadow.position.set(CAVE.x + 9.4, .42, CAVE.z + 4.9); cshadow.rotation.y = Math.atan2(-9.4, -4.9); cshadow.visible = false; scene.add(cshadow);
-  const PROPS = { wreck, prints, ship, coat, barge, cshadow };
+  // three cables behind the lamp room (Ch1 S06): two whole, the third cut through with a bright copper end
+  const cables = new THREE.Group();
+  { const cm = new THREE.MeshStandardMaterial({ color: '#8a7656', roughness: .5, emissive: '#2a2010', emissiveIntensity: .6 }), cu = new THREE.MeshStandardMaterial({ color: '#d08040', emissive: '#c06020', emissiveIntensity: .8, metalness: .6 });
+    [-.42, 0, .42].forEach((x, i) => { if (i < 2) { const c = new THREE.Mesh(new THREE.CylinderGeometry(.06, .06, 1.9, 6), cm); c.position.set(x, 12.55, 1.22); cables.add(c); }
+      else { [[13.15, .7], [12.0, .8]].forEach(([y, h]) => { const c = new THREE.Mesh(new THREE.CylinderGeometry(.06, .06, h, 6), cm); c.position.set(x, y, 1.22); cables.add(c); });
+        [12.78, 12.42].forEach(y => { const e = new THREE.Mesh(new THREE.CylinderGeometry(.07, .07, .06, 6), cu); e.position.set(x, y, 1.22); cables.add(e); }); } }); }
+  cables.position.set(LH.x, LH.y, LH.z); cables.visible = false; scene.add(cables);
+  // a second lantern far along the path (Ch1 S05): shot.farlight = { from: [x,y,z], to: [x,y,z] }
+  const farlight = new THREE.Group();
+  { const g = glow('#ffc870', 1.1, 1.0); farlight.add(g); const pl = new THREE.PointLight('#ffb860', 6, 6, 1.6); farlight.add(pl); }
+  farlight.visible = false; scene.add(farlight);
+  // a ring of twelve lanterns on the ground (Ch4): shot.ringAt = [x, y, z, radius]
+  const ring = new THREE.Group();
+  { const lm = new THREE.MeshStandardMaterial({ color: '#2a2016', emissive: '#ffb45a', emissiveIntensity: 3 });
+    for (let i = 0; i < 12; i++) { const a = i / 12 * Math.PI * 2, l = new THREE.Group(); l.add(new THREE.Mesh(new THREE.BoxGeometry(.18, .26, .18), lm)); const g = glow('#ffb25e', .7, 1); l.add(g); l.position.set(Math.cos(a), .14, Math.sin(a)); l.userData.a = a; ring.add(l); }
+    [0, 1, 2].forEach(i => { const pl = new THREE.PointLight('#ffae55', 7, 9, 1.6); pl.userData.a = i / 3 * Math.PI * 2; ring.add(pl); }); }
+  ring.visible = false; scene.add(ring);
+  const _wp = new THREE.Vector3();
+  const PROPS = { ring, wreck, prints, ship, coat, barge, cshadow, cables, farlight };
 
   // —— Sea, ridges, mist, rain ——
   const SEA = sea(1400, { ppm: 9 }); SEA.mesh.position.y = SEA_Y; scene.add(SEA.mesh);
@@ -246,14 +264,23 @@ export function buildWorld(aspect) {
     sun.color.set(TM.sun); sun.intensity = TM.sunI; sun.position.set(...TM.sunPos); hemi.color.set(TM.hemi[0]); hemi.groundColor.set(TM.hemi[1]); hemi.intensity = TM.hemi[2];
     renderer.toneMappingExposure = TM.exp;
     const prac = TM.prac;
-    winLights.forEach((L, i) => { const dc = cam.position.distanceTo(L.position); L.intensity = 8 * prac * Math.min(1, dc / 14) * (1 + .04 * Math.sin(t * 3 + i)); });   // windows near the lens stop blowing out
-    winMats.forEach(m => { m.emissiveIntensity = m.userData.em0 * prac * .7 + .1; m.color.setScalar(prac > 0 ? 1 : .45); });
+    winLights.forEach((L, i) => { const dc = cam.position.distanceTo(L.position); L.intensity = 8 * prac * Math.min(1, dc / 14) ** 2 * (1 + .04 * Math.sin(t * 3 + i)); });   // windows near the lens stop blowing out
+    const winNear = Math.min(1, Math.min(...winLights.map(L => cam.position.distanceTo(L.position))) / 11);   // close to any window: dim all window glass so it does not bloom
+    winMats.forEach(m => { m.emissiveIntensity = (m.userData.em0 * prac * .7) * (.05 + .95 * winNear * winNear) + .05; m.color.setScalar(prac > 0 ? 1 : .45); });
     if (post && post.vig) { post.vig.uniforms.warm.value = { day: .22, dawn: .18, dusk: .26, night: .1, storm: .04, cave: .08 }[shot.time || 'night'] ?? .1; }
-    lamps.forEach((L, i) => { if (L.L) L.L.intensity = 12 * prac * flick(t, 5 + i * 3); if (L.gl) L.gl.material.opacity = prac; if (L.lm) L.lm.emissiveIntensity = 4 * prac; });
+    lamps.forEach((L, i) => { const near = L.gl ? Math.min(1, cam.position.distanceTo(L.gl.getWorldPosition(_wp)) / 26) : 1; if (L.L) L.L.intensity = 12 * prac * flick(t, 5 + i * 3) * (.3 + .7 * near); if (L.gl) L.gl.material.opacity = prac * near; if (L.lm) L.lm.emissiveIntensity = 4 * prac * (.12 + .88 * near * near); });
     doorLamp.intensity = 4 * prac * flick(t, 2); doorGlow.material.opacity = prac; tower.userData.dlm.emissiveIntensity = 3.5 * prac;
     MIST.visible = TM.prac > .3; MIST.userData.update(t);
     RAIN.visible = shot.weather === 'rain' || shot.time === 'storm'; if (RAIN.visible) { RAIN.userData.update(t, [-6, 0]); }
     for (const k in PROPS) PROPS[k].visible = !!(shot.props && shot.props.includes(k));
+    prints.children.forEach(m => m.material.color.set(shot.printsCol || '#c8a020'));
+    prints.position.set(...(shot.printsAt ? [shot.printsAt[0] - 8.2, shot.printsAt[1] - 4.25, shot.printsAt[2] + 11] : [0, 0, 0]));   // move the footprint trail (default: the cliff path)
+    if (shot.ringAt) { const [rx, ry, rz, rr] = shot.ringAt; ring.visible = true; ring.position.set(rx, ry, rz); ring.children.forEach(c => { const a = c.userData.a; c.position.set(Math.cos(a) * rr * (c.isLight ? .8 : 1), c.isLight ? 1.2 : .14, Math.sin(a) * rr * (c.isLight ? .8 : 1)); }); }
+    if (shot.lightsOut != null) {   // the village lights die one by one from shot-time lightsOut (windows, lamp posts, then the window glass)
+      const k0 = lt - shot.lightsOut; winLights.forEach((L, i) => { if (k0 > i * .9) L.intensity = 0; });
+      lamps.forEach((L, i) => { if (k0 > .45 + i * .9) { if (L.L) L.L.intensity = 0; if (L.gl) L.gl.material.opacity = 0; if (L.lm) L.lm.emissiveIntensity = 0; } });
+      const f = Math.max(0, 1 - Math.max(0, k0) / 5); winMats.forEach(m => { m.emissiveIntensity *= f; }); }
+    if (shot.farlight) { farlight.visible = true; const f = shot.farlight, k = clamp(lt / dur); farlight.position.set(f.from[0] + (f.to[0] - f.from[0]) * k, f.from[1] + (f.to[1] - f.from[1]) * k + Math.sin(t * 2.4) * .08, f.from[2] + (f.to[2] - f.from[2]) * k); }
     { const C2 = cave.userData, inCave = shot.time === 'cave', ul = inCave ? (shot.under == null ? 0 : (typeof shot.under === 'number' ? (lt > shot.under ? 1 : 0) : (shot.under === 'on' ? 1 : 0))) : 0;
       C2.lensM.emissiveIntensity = ul * 1.8 * flick(t, 13); C2.uL.intensity = ul * 12 * flick(t, 13); C2.uG.material.opacity = ul; C2.teal.intensity = inCave ? 3 : 0; C2.amb.intensity = inCave ? 22 : 0;
       C2.ub.visible = ul > 0; if (ul > 0) { const o = new THREE.Vector3(CAVE.x + 3, 1.85, CAVE.z - 2.5), dir = new THREE.Vector3(.6, -.02, .8).normalize(); C2.ub.userData.aim(o, dir, cam); C2.ub.material.uniforms.k.value = .35 * ul; C2.ub.material.uniforms.t.value = t; } }
@@ -266,7 +293,7 @@ export function buildWorld(aspect) {
     for (const k in cast) cast[k].root.visible = false;
     for (const k in (shot.cast || {})) {
       const c = cast[k]; if (!c) continue; const b = block(shot.cast[k], lt, dur); B[k] = b;
-      c.root.visible = true; c.root.position.set(b.x, b.y, b.z); c.frame(poseFrame(k, b.pose, t, k.length)); c.mesh.castShadow = shot.cast[k].shadow ?? (k !== 'stranger');
+      c.root.visible = true; c.root.position.set(b.x, b.y, b.z); c.frame(poseFrame(k, b.pose, t, k.length)); c.mesh.castShadow = shot.cast[k].shadow ?? (k !== 'stranger' && k !== 'shade');
       if (!hero || shot.cast[k].hero) hero = k;
     }
     const heroP = hero ? new THREE.Vector3(B[hero].x, B[hero].y + .8, B[hero].z) : V(shot.cam.at || [LH.x, LH.y + 6, LH.z]);

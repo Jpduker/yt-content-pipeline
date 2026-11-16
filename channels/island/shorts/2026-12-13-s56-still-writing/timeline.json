@@ -1,0 +1,223 @@
+{
+ "code": "S56",
+ "title": "Still writing",
+ "label": "THE KEEPER'S ISLAND \u00b7 56",
+ "DUR": 44.002,
+ "shots": [
+  {
+   "id": "rocks",
+   "time": "dawn",
+   "cam": {
+    "type": "orbit",
+    "at": [
+     11.4,
+     1.0,
+     -46.8
+    ],
+    "az": [
+     -40,
+     -15
+    ],
+    "d": [
+     9,
+     8.2
+    ],
+    "h": [
+     5,
+     4.6
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      10.0,
+      -44.4
+     ],
+     "pose": "idle",
+     "face": "r",
+     "shadow": true
+    },
+    "gus": {
+     "at": [
+      11.8,
+      -43.6
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1,
+     "lit": 0
+    }
+   },
+   "props": [
+    "wreck"
+   ],
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 12.319,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 5.699,
+     "sub": "Sunday at dawn, Gus walked out to the north rocks. She was there, the way he knew she would be.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 8.749,
+     "d": 2.85,
+     "sub": "Two people. Two shadows. He counted twice.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "talk",
+   "time": "dawn",
+   "cam": {
+    "type": "dive",
+    "at": [
+     10.9,
+     1.0,
+     -44.0
+    ],
+    "az": [
+     -35,
+     -26
+    ],
+    "d": [
+     6,
+     5.6
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      10.0,
+      -44.4
+     ],
+     "pose": "idle",
+     "face": "r",
+     "shadow": true
+    },
+    "gus": {
+     "at": [
+      11.8,
+      -43.6
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1,
+     "lit": 0
+    }
+   },
+   "props": [
+    "wreck"
+   ],
+   "lead": 0.6,
+   "a": 12.319,
+   "b": 22.894,
+   "vo": [
+    {
+     "id": "d1",
+     "t": 12.939,
+     "d": 5.259,
+     "sub": "Your grandfather sold his shadow to Crane. Crane must have sold his own to someone, long before.",
+     "dlg": "THE STRANGER"
+    },
+    {
+     "id": "d2",
+     "t": 19.148,
+     "d": 3.026,
+     "sub": "A man does not live a hundred years on one shadow, Gus.",
+     "dlg": "THE STRANGER"
+    }
+   ]
+  },
+  {
+   "id": "barge",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     13.6,
+     0.9,
+     17.6
+    ],
+    "az": [
+     -58,
+     -50
+    ],
+    "d": [
+     11,
+     10.4
+    ],
+    "h": [
+     4.6,
+     4.4
+    ]
+   },
+   "cast": {
+    "dunn": {
+     "at": [
+      12.2,
+      15.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      11.0,
+      15.2
+     ],
+     "pose": "look",
+     "face": "r",
+     "lit": 0
+    }
+   },
+   "props": [
+    "barge"
+   ],
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 22.894,
+   "b": 44.002,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 23.514,
+     "d": 5.704,
+     "sub": "That morning Dunn found Crane\u2019s grey barge drifting empty outside the harbour, and towed it in.",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 29.668,
+     "d": 7.018,
+     "sub": "In the wheelhouse, the ledger lay open at a new page. One line, in a thin sloping hand, the ink still wet.",
+     "dlg": null
+    },
+    {
+     "id": "n5",
+     "t": 37.736,
+     "d": 2.566,
+     "sub": "The Keeper\u2019s Island. Payable to the bearer.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "Dawn on the north rocks. For the first time in a week, Gus had one shadow.",
+ "hookEnd": 2.3,
+ "ask": "Crane is gone. So who is still writing in his ledger?",
+ "askAt": 40.802,
+ "music": {
+  "mood": "mystery"
+ }
+}

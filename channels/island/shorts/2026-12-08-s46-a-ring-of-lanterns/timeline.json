@@ -1,0 +1,234 @@
+{
+ "code": "S46",
+ "title": "A ring of lanterns",
+ "label": "THE KEEPER'S ISLAND \u00b7 46",
+ "DUR": 39.004,
+ "shots": [
+  {
+   "id": "ring",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -1,
+     4.8,
+     -14
+    ],
+    "az": [
+     30,
+     18
+    ],
+    "d": [
+     12,
+     11
+    ],
+    "h": [
+     6,
+     5.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -1.2,
+      -13.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    },
+    "marlo": {
+     "at": [
+      0.4,
+      -13.0
+     ],
+     "pose": "idle",
+     "face": "l"
+    },
+    "mabel": {
+     "at": [
+      -0.4,
+      -13.9
+     ],
+     "pose": "sit",
+     "face": "r"
+    }
+   },
+   "ringAt": [
+    -1,
+    4.3,
+    -14,
+    3.6
+   ],
+   "lightsOut": -30,
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 14.436,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 6.471,
+     "sub": "Marlo had watched the lights die from the jetty, and run the whole cliff path with every lantern off the ferry.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 9.521,
+     "d": 4.195,
+     "sub": "Twelve lanterns, in a ring around the cottage, an arm\u2019s length apart.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "press",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "az": [
+     -20,
+     -12
+    ],
+    "d": [
+     6.4,
+     6
+    ],
+    "h": [
+     2.4,
+     2.2
+    ]
+   },
+   "cast": {
+    "shade": {
+     "at": [
+      2.8,
+      -12.2
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -1.2,
+      -13.6
+     ],
+     "pose": "look",
+     "face": "r"
+    }
+   },
+   "ringAt": [
+    -1,
+    4.3,
+    -14,
+    3.6
+   ],
+   "lightsOut": -30,
+   "lead": 0.6,
+   "a": 14.436,
+   "b": 25.085,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 15.056,
+     "d": 6.506,
+     "sub": "At the edge of the ring, the dark stopped. It pressed against the light, the way the sea presses against a wall.",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 22.512,
+     "d": 1.853,
+     "sub": "And in the dark, something smiled.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "wait",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -1,
+     4.8,
+     -14
+    ],
+    "az": [
+     10,
+     4
+    ],
+    "d": [
+     9.5,
+     9
+    ],
+    "h": [
+     4.4,
+     4.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -1.2,
+      -13.6
+     ],
+     "pose": "up",
+     "face": "r",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      -0.4,
+      -13.9
+     ],
+     "pose": "sit",
+     "face": "r"
+    },
+    "marlo": {
+     "at": [
+      0.4,
+      -13.0
+     ],
+     "pose": "idle",
+     "face": "l"
+    }
+   },
+   "ringAt": [
+    -1,
+    4.3,
+    -14,
+    3.6
+   ],
+   "lightsOut": -30,
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 25.085,
+   "b": 39.004,
+   "vo": [
+    {
+     "id": "n5",
+     "t": 25.755,
+     "d": 3.07,
+     "sub": "It could not come in. Not while the lanterns burned.",
+     "dlg": null
+    },
+    {
+     "id": "n6",
+     "t": 29.775,
+     "d": 5.129,
+     "sub": "Marlo checked the oil. She did not say how much was left. She did not have to.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "It could not cross the light. So Gus built a wall of it.",
+ "hookEnd": 2.3,
+ "ask": "Twelve lanterns burn until four. Sunrise is at eight. Then what?",
+ "askAt": 35.404,
+ "music": {
+  "mood": "tense"
+ }
+}

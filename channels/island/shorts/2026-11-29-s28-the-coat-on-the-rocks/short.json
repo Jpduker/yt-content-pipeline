@@ -1,0 +1,175 @@
+{
+ "code": "S28",
+ "day": "2026-11-29",
+ "slot": 2,
+ "title": "The coat on the rocks",
+ "hook": "The ferry made it home. By morning, the stranger was gone.",
+ "ask": "Four marks, four ships. One is still owed. Who pays it?",
+ "askLen": 3.6,
+ "music": {
+  "mood": "dusk"
+ },
+ "shots": [
+  {
+   "id": "ferry",
+   "time": "dawn",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -3,
+     0.6,
+     36
+    ],
+    "az": [
+     -150,
+     -160
+    ],
+    "d": [
+     12,
+     11
+    ],
+    "h": [
+     5.4,
+     5
+    ]
+   },
+   "cast": {
+    "marlo": {
+     "at": [
+      -2.4,
+      37.2
+     ],
+     "pose": "wave",
+     "face": "l",
+     "hero": 1
+    },
+    "dunn": {
+     "at": [
+      -3.2,
+      34.4
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "Thirty-one passengers walked off the ferry at dawn and never knew how close they had come."
+    },
+    {
+     "id": "n2",
+     "text": "Marlo knew. She waved at the lighthouse until her arm hurt.",
+     "pause": 0.6
+    }
+   ],
+   "lead": 1.0
+  },
+  {
+   "id": "coat",
+   "time": "dawn",
+   "cam": {
+    "type": "orbit",
+    "at": [
+     11.4,
+     1.0,
+     -46.8
+    ],
+    "az": [
+     -40,
+     -10
+    ],
+    "d": [
+     9,
+     8
+    ],
+    "h": [
+     5,
+     4.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      12.6,
+      -45.6
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1,
+     "lit": 0
+    },
+    "mabel": {
+     "at": [
+      13.6,
+      -45.2
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "n3",
+     "text": "On the north rocks, Gus found the yellow coat, folded neatly, a stone on top so the wind would not take it.",
+     "pause": 0.4
+    },
+    {
+     "id": "n4",
+     "text": "Under the stone, the brass key. And a fourth mark, freshly burned into the rock.",
+     "pause": 0.8
+    }
+   ],
+   "props": [
+    "wreck",
+    "coat"
+   ],
+   "lead": 0.6
+  },
+  {
+   "id": "end",
+   "time": "dawn",
+   "cam": {
+    "type": "map",
+    "from": [
+     -50,
+     44,
+     70
+    ],
+    "to": [
+     -60,
+     56,
+     84
+    ],
+    "look": [
+     10,
+     5,
+     -12
+    ],
+    "look2": [
+     8,
+     4,
+     -10
+    ],
+    "fov": 38,
+    "band": 0.45
+   },
+   "cast": {},
+   "lines": [
+    {
+     "id": "n5",
+     "text": "Four marks. Three ships. The sea was still owed one.",
+     "pause": 0.6
+    },
+    {
+     "id": "n6",
+     "text": "And Gus had just taken away the only person who knew how to pay it.",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.8,
+   "tail": 1.2
+  }
+ ],
+ "label": "THE KEEPER'S ISLAND · 28"
+}

@@ -1,0 +1,196 @@
+{
+ "code": "S26",
+ "day": "2026-11-28",
+ "slot": 2,
+ "title": "A ship in the storm",
+ "hook": "Storm. Three o’clock. A real ship this time, with people on it.",
+ "ask": "Douse the false light, or relight the true one? He can only reach one in time.",
+ "askLen": 3.8,
+ "music": {
+  "mood": "tense"
+ },
+ "shots": [
+  {
+   "id": "ship",
+   "time": "storm",
+   "cam": {
+    "type": "map",
+    "from": [
+     -56,
+     52,
+     80
+    ],
+    "to": [
+     -48,
+     46,
+     66
+    ],
+    "look": [
+     16,
+     4,
+     -36
+    ],
+    "look2": [
+     18,
+     5,
+     -40
+    ]
+   },
+   "cast": {},
+   "lines": [
+    {
+     "id": "n1",
+     "text": "The storm came in at midnight. At three, through the rain, a ship’s lights. A real ferry, full of passengers, coming home."
+    },
+    {
+     "id": "n2",
+     "text": "At three eleven, Gus watched the top lamp flicker.",
+     "pause": 0.6
+    }
+   ],
+   "props": [
+    "ship"
+   ],
+   "lamp": {
+    "flicker": 9.4,
+    "len": 0.9
+   },
+   "events": [
+    {
+     "t": 3.0,
+     "kind": "flash"
+    },
+    {
+     "t": 6.5,
+     "kind": "horn"
+    }
+   ],
+   "weather": "rain",
+   "lead": 1.0
+  },
+  {
+   "id": "run",
+   "time": "storm",
+   "cam": {
+    "type": "track",
+    "side": "south",
+    "h": 5.6,
+    "d": 13.5,
+    "lead": 2.4
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      3,
+      -11
+     ],
+     "to": [
+      12.2,
+      -12.6
+     ],
+     "walk": [
+      0.2,
+      5.0
+     ],
+     "pose": "walk",
+     "face": "r",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      1.6,
+      -10.6
+     ],
+     "to": [
+      10.8,
+      -12.2
+     ],
+     "walk": [
+      0.3,
+      5.2
+     ],
+     "pose": "walk",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "n3",
+     "text": "He could run up ninety-one steps to the tower, or down ninety-one steps to the cave.",
+     "pause": 0.4
+    },
+    {
+     "id": "n4",
+     "text": "Twelve seconds. One staircase.",
+     "pause": 0.8
+    }
+   ],
+   "lamp": "off",
+   "events": [
+    {
+     "t": 1.6,
+     "kind": "flash"
+    }
+   ],
+   "weather": "rain",
+   "lead": 0.6
+  },
+  {
+   "id": "hatch",
+   "time": "storm",
+   "cam": {
+    "type": "dive",
+    "at": [
+     13.6,
+     5.0,
+     -14.4
+    ],
+    "az": [
+     -14,
+     -8
+    ],
+    "d": [
+     5,
+     4.6
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      13.4,
+      -13.6
+     ],
+     "pose": "up",
+     "face": "l",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "n5",
+     "text": "He chose down.",
+     "pause": 1.2
+    }
+   ],
+   "lamp": "off",
+   "events": [
+    {
+     "t": 0.6,
+     "kind": "flash"
+    },
+    {
+     "t": 2.0,
+     "kind": "creak"
+    }
+   ],
+   "weather": "rain",
+   "lead": 0.6,
+   "tail": 1.2
+  }
+ ],
+ "label": "THE KEEPER'S ISLAND · 26"
+}

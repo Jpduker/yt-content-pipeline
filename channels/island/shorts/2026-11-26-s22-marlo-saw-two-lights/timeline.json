@@ -1,0 +1,184 @@
+{
+ "code": "S22",
+ "title": "Marlo saw two lights",
+ "label": "THE KEEPER'S ISLAND \u00b7 22",
+ "DUR": 34.333,
+ "shots": [
+  {
+   "id": "jetty",
+   "time": "dusk",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -3,
+     0.6,
+     36
+    ],
+    "az": [
+     -150,
+     -160
+    ],
+    "d": [
+     11,
+     10.4
+    ],
+    "h": [
+     5,
+     4.8
+    ]
+   },
+   "cast": {
+    "marlo": {
+     "at": [
+      -2.4,
+      37.2
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -3.4,
+      34.6
+     ],
+     "to": [
+      -3.2,
+      36.2
+     ],
+     "walk": [
+      0.3,
+      2.4
+     ],
+     "pose": "walk",
+     "face": "r",
+     "lit": 1
+    }
+   },
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 12.689,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 9.369,
+     "sub": "Marlo runs the ferry. She is twenty-two, she has crossed this water four thousand times, and nobody on the council has ever asked her a thing.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "talk",
+   "time": "dusk",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -2.8,
+     0.6,
+     36.8
+    ],
+    "az": [
+     -170,
+     -175
+    ],
+    "d": [
+     5.6,
+     5.2
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "marlo": {
+     "at": [
+      -2.4,
+      37.2
+     ],
+     "pose": "wave",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -3.2,
+      36.2
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "lead": 0.6,
+   "a": 12.689,
+   "b": 23.923,
+   "vo": [
+    {
+     "id": "d1",
+     "t": 13.109,
+     "d": 4.926,
+     "sub": "That night I was out late. I saw the lamp go dark. Twelve seconds. Then I saw the other one.",
+     "dlg": "MARLO"
+    },
+    {
+     "id": "d2",
+     "t": 18.885,
+     "d": 4.318,
+     "sub": "Low, by the water. Steady. And that boat turned toward it like it had been told to.",
+     "dlg": "MARLO"
+    }
+   ]
+  },
+  {
+   "id": "map",
+   "time": "night",
+   "cam": {
+    "type": "map",
+    "from": [
+     -40,
+     34,
+     52
+    ],
+    "to": [
+     -30,
+     28,
+     40
+    ],
+    "look": [
+     14,
+     6,
+     -24
+    ],
+    "look2": [
+     16,
+     8,
+     -30
+    ],
+    "fov": 34,
+    "band": 0.45
+   },
+   "cast": {},
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 23.923,
+   "b": 34.333,
+   "vo": [
+    {
+     "id": "n2",
+     "t": 24.843,
+     "d": 5.79,
+     "sub": "Two lights. One high, one low. Gus closed his eyes and saw the whole thing at once.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "The ferry pilot saw the wreck happen. Nobody asked her.",
+ "hookEnd": 2.3,
+ "ask": "Which light was lying? The high one, or the low one?",
+ "askAt": 31.133,
+ "music": {
+  "mood": "dusk"
+ }
+}

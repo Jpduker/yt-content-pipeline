@@ -1,0 +1,39 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'shorts/2026-11-16-s01-every-night-at-312-this-lighthouse-goes/final/2026-11-16-s01-every-night-at-312-this-lighthouse-goes.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+  Duration: 00:00:34.97, start: 0.000000, bitrate: 8529 kb/s
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuvj420p(pc, bt470bg/unknown/unknown), 1080x1920 [SAR 1:1 DAR 9:16], 8323 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc63.1.102 libx264
+    Side data:
+      ICC Profile
+  Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 196 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x5e581e81d9c0] deprecated pixel format used, make sure you did set range correctly
+[mjpeg @ 0x5e581e5cb680] bitrate tolerance 4000000 too small for bitrate 200000, overriding
+Output #0, image2, to 'qa/week1/s01-e.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.76.100
+  Stream #0:0(und): Video: mjpeg, yuvj420p(pc, bt470bg/unknown/unknown, progressive), 1632x480 [SAR 135:136 DAR 27:8], q=2-31, 200 kb/s, 0.02 fps, 0.02 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc58.134.100 mjpeg
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+      ICC Profile
+frame=    1 fps=0.1 q=5.6 Lsize=N/A time=00:01:00.00 bitrate=N/A speed=3.65x    
+video:42kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown

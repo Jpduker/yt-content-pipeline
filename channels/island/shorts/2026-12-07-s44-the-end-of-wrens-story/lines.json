@@ -1,0 +1,32 @@
+[
+ {
+  "id": "n1",
+  "text": "The post office smelled of candle wax and other people\u2019s letters. Wren was waiting, as if she had heard.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "d1",
+  "text": "The man who sold his shadow sold it to a buyer in a pale suit. Your Mr Crane.",
+  "voice": "bf_emma",
+  "speed": 1.0
+ },
+ {
+  "id": "d2",
+  "text": "And a shadow without its master does one thing, Gus. It goes home. To the family that sold it.",
+  "voice": "bf_emma",
+  "speed": 1.0
+ },
+ {
+  "id": "n2",
+  "text": "Gus asked her the man\u2019s name.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n3",
+  "text": "Wren blew out the candle instead. Some names, she said, you only say in daylight.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]

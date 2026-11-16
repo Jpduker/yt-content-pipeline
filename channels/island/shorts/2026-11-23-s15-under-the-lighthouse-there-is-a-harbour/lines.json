@@ -1,0 +1,38 @@
+[
+ {
+  "id": "n1",
+  "text": "Mabel went first. Cats do not wait for permission.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n2",
+  "text": "Gus relit his lantern with a shaking match and followed her down.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n3",
+  "text": "Ninety-one steps. He counted every one.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n4",
+  "text": "At the bottom the tunnel opened, and the lantern light fell away into a space far too big to be inside an island.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n5",
+  "text": "Water, glowing green. A beach of black sand. Crates, rope, a jetty of old wood.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n6",
+  "text": "A harbour. Under the lighthouse. And the sand was full of fresh footprints.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]

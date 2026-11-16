@@ -1,0 +1,213 @@
+{
+ "code": "S26",
+ "title": "A ship in the storm",
+ "label": "THE KEEPER'S ISLAND \u00b7 26",
+ "DUR": 30.64,
+ "shots": [
+  {
+   "id": "ship",
+   "time": "storm",
+   "cam": {
+    "type": "map",
+    "from": [
+     -56,
+     52,
+     80
+    ],
+    "to": [
+     -48,
+     46,
+     66
+    ],
+    "look": [
+     16,
+     4,
+     -36
+    ],
+    "look2": [
+     18,
+     5,
+     -40
+    ]
+   },
+   "cast": {},
+   "props": [
+    "ship"
+   ],
+   "lamp": {
+    "flicker": 9.4,
+    "len": 0.9
+   },
+   "events": [
+    {
+     "t": 3.0,
+     "kind": "flash"
+    },
+    {
+     "t": 6.5,
+     "kind": "horn"
+    }
+   ],
+   "weather": "rain",
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 14.893,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 7.907,
+     "sub": "The storm came in at midnight. At three, through the rain, a ship\u2019s lights. A real ferry, full of passengers, coming home.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 10.957,
+     "d": 3.216,
+     "sub": "At three eleven, Gus watched the top lamp flicker.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "run",
+   "time": "storm",
+   "cam": {
+    "type": "track",
+    "side": "south",
+    "h": 5.6,
+    "d": 13.5,
+    "lead": 2.4
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      3,
+      -11
+     ],
+     "to": [
+      12.2,
+      -12.6
+     ],
+     "walk": [
+      0.2,
+      5.0
+     ],
+     "pose": "walk",
+     "face": "r",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      1.6,
+      -10.6
+     ],
+     "to": [
+      10.8,
+      -12.2
+     ],
+     "walk": [
+      0.3,
+      5.2
+     ],
+     "pose": "walk",
+     "face": "r"
+    }
+   },
+   "lamp": "off",
+   "events": [
+    {
+     "t": 1.6,
+     "kind": "flash"
+    }
+   ],
+   "weather": "rain",
+   "lead": 0.6,
+   "a": 14.893,
+   "b": 24.209,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 15.513,
+     "d": 5.069,
+     "sub": "He could run up ninety-one steps to the tower, or down ninety-one steps to the cave.",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 21.432,
+     "d": 2.057,
+     "sub": "Twelve seconds. One staircase.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "hatch",
+   "time": "storm",
+   "cam": {
+    "type": "dive",
+    "at": [
+     13.6,
+     5.0,
+     -14.4
+    ],
+    "az": [
+     -14,
+     -8
+    ],
+    "d": [
+     5,
+     4.6
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      13.4,
+      -13.6
+     ],
+     "pose": "up",
+     "face": "l",
+     "hero": 1
+    }
+   },
+   "lamp": "off",
+   "events": [
+    {
+     "t": 0.6,
+     "kind": "flash"
+    },
+    {
+     "t": 2.0,
+     "kind": "creak"
+    }
+   ],
+   "weather": "rain",
+   "lead": 0.6,
+   "tail": 1.2,
+   "a": 24.209,
+   "b": 30.64,
+   "vo": [
+    {
+     "id": "n5",
+     "t": 25.229,
+     "d": 1.111,
+     "sub": "He chose down.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "Storm. Three o\u2019clock. A real ship this time, with people on it.",
+ "hookEnd": 2.3,
+ "ask": "Douse the false light, or relight the true one? He can only reach one in time.",
+ "askAt": 26.84,
+ "music": {
+  "mood": "tense"
+ }
+}

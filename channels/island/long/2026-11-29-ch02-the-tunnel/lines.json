@@ -1,0 +1,590 @@
+[
+ {
+  "id": "c1",
+  "text": "Some lights save ships.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "c2",
+  "text": "Some lights were built to drown them.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "p1",
+  "text": "Previously, on the Keeper\u2019s Island.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "p2",
+  "text": "Every night at three twelve, the lamp went dark for twelve seconds, and a boat ran onto the north rocks.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "p3",
+  "text": "The clues led under the headland, to a door older than the tower. And a stranger in a yellow coat who casts no shadow.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "p4",
+  "text": "Three days were up. And Gus walked into the dark on purpose.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s15_n1",
+  "text": "Mabel went first. Cats do not wait for permission.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s15_n2",
+  "text": "Gus relit his lantern with a shaking match and followed her down.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s15_n3",
+  "text": "Ninety-one steps. He counted every one.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s15_n4",
+  "text": "At the bottom the tunnel opened, and the lantern light fell away into a space far too big to be inside an island.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s15_n5",
+  "text": "Water, glowing green. A beach of black sand. Crates, rope, a jetty of old wood.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s15_n6",
+  "text": "A harbour. Under the lighthouse. And the sand was full of fresh footprints.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s16_n1",
+  "text": "On a stone block at the water\u2019s edge stood something Gus knew better than his own face.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s16_n2",
+  "text": "A lamp. Brass, lens, wick. A keeper\u2019s lamp, smaller and older than his own.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s16_n3",
+  "text": "He laid his hand on the glass.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s16_n4",
+  "text": "It was warm.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s16_n5",
+  "text": "Somebody had lit this lamp tonight, while the real one was dark.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s16_n6",
+  "text": "And its lens was not pointed at the sky. It faced a crack in the rock, a slit that opened onto the sea\u2026",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s16_n7",
+  "text": "straight at the north rocks.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s17_n1",
+  "text": "At sunrise Pip was sent out with one job. Find where that light comes out.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s17_n2",
+  "text": "He circled the north cliff eleven times, mostly to be admired.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s17_n3",
+  "text": "On the twelfth, he saw it. A slit in the rock just above the waterline, black, the width of a door.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s17_n4",
+  "text": "From out at sea, a light in there would sit low and steady. Right below the lighthouse.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s17_n5",
+  "text": "Gus went very quiet. Every keeper knows what two lights, one above the other, mean to a sailor.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s17_n6",
+  "text": "They mean: line us up, and you are safe.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s18_n1",
+  "text": "Old Wren did not look surprised. She looked like someone who had been waiting sixty years for this visit.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s18_d1",
+  "text": "Before the tower, this island had wreckers. A false light on a stormy night, and the sea brought them a ship.",
+  "voice": "bf_emma",
+  "speed": 1.0
+ },
+ {
+  "id": "s18_d2",
+  "text": "They kept a ledger of every wreck. And every name that lit the lamp.",
+  "voice": "bf_emma",
+  "speed": 1.0
+ },
+ {
+  "id": "s18_n2",
+  "text": "She opened it at the last page. One line, sixty years old, in careful, familiar handwriting.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s18_n3",
+  "text": "It was his grandfather\u2019s.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "m1",
+  "text": "Gus never knew his mother. He knew a photograph, a yellow coat on a hook, and one sentence everyone on the island repeated.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "m2",
+  "text": "She rowed out into the storm the night you were born, and the sea kept her.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "m3",
+  "text": "He had kept the lamp lit for thirty years so the sea would never keep anyone else.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s19_n1",
+  "text": "Three o\u2019clock. Gus, Mabel, and Rollo, who had insisted, crouched behind the crates.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s19_n2",
+  "text": "The lantern was turned down to a bead. Nobody breathed loudly. Rollo had brought snacks.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s19_n3",
+  "text": "Three eleven. The water moved.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s19_n4",
+  "text": "Something rose out of it. A hood. Shoulders. A yellow coat, streaming wet, walking up the shelf as if the sea were a staircase.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s19_n5",
+  "text": "Three twelve. Far above, the real lamp went dark.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s19_n6",
+  "text": "And down here, the stranger lit the other one.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s20_n1",
+  "text": "The stranger stood by the lamp and counted. Gus could see the hood move. One. Two. Three.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s20_n2",
+  "text": "Nine seconds in, Rollo sneezed.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s20_n3",
+  "text": "The hood turned. Not toward the noise. Toward Gus. As if the stranger had known all along exactly where he was.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s20_n4",
+  "text": "Then a splash, a ring of green light on the water, and nothing.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s20_n5",
+  "text": "Rollo, ashamed, ran to the waterline to make up for it. He came back dragging something on a chain.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s20_n6",
+  "text": "A silver locket. Inside, a tiny painted face Gus had only ever seen in his mother\u2019s photographs.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s20_n7",
+  "text": "His own. As a baby.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s21_n1",
+  "text": "Gus put the locket on Dunn\u2019s desk and said nothing. It worked better than shouting.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s21_n2",
+  "text": "Dunn sighed, unlocked a drawer, and took out the wrecked boat\u2019s registry plate.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s21_d1",
+  "text": "No owner. No port. No crew. Just a name painted on the bow.",
+  "voice": "bm_george",
+  "speed": 1.0
+ },
+ {
+  "id": "s21_d2",
+  "text": "She was called the Keeper\u2019s Daughter.",
+  "voice": "bm_george",
+  "speed": 1.0
+ },
+ {
+  "id": "s21_n3",
+  "text": "Gus never had a sister. His mother was the keeper\u2019s only daughter.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s21_n4",
+  "text": "And she was lost at sea the night he was born.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s22_n1",
+  "text": "Marlo runs the ferry. She is twenty-two, she has crossed this water four thousand times, and nobody on the council has ever asked her a thing.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s22_d1",
+  "text": "That night I was out late. I saw the lamp go dark. Twelve seconds. Then I saw the other one.",
+  "voice": "af_nova",
+  "speed": 1.0
+ },
+ {
+  "id": "s22_d2",
+  "text": "Low, by the water. Steady. And that boat turned toward it like it had been told to.",
+  "voice": "af_nova",
+  "speed": 1.0
+ },
+ {
+  "id": "s22_n2",
+  "text": "Two lights. One high, one low. Gus closed his eyes and saw the whole thing at once.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "q1",
+  "text": "Pause here. Two lights, one above the other. A boat that steered onto the rocks as if it had been told to.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "q2",
+  "text": "You already know how sailors use two lights. Think about what happens when one of them moves.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s23_n1",
+  "text": "Here is the trick. A ship coming home lines up two lights, one behind and above the other.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s23_n2",
+  "text": "When the high light sits right on top of the low one, you are in the safe channel. Every sailor knows it.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s23_n3",
+  "text": "But move the low light, and the safe line moves with it. Put it in the cliff, and the line runs straight onto the north rocks.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s23_n4",
+  "text": "And if the high lamp goes dark for twelve seconds, a sailor has only one light left to trust.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s23_n5",
+  "text": "Whoever did this was no wrecker. Only a keeper knows the lamp that well.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s24_n1",
+  "text": "Back in the cave, Gus tried his own lamp key in the old brass door. It turned like it had been waiting.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s24_n2",
+  "text": "Two locks. Two keys. One for the lamp above, one for the lamp below.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s24_n3",
+  "text": "The second key, said the island, had always lived in the post office safe.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s24_n4",
+  "text": "Wren opened the safe without being asked.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s24_n5",
+  "text": "Empty. A clean square in the dust where a key had lain for sixty years.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s24_d1",
+  "text": "I know who has it, Gus. I gave it to her myself.",
+  "voice": "bf_emma",
+  "speed": 1.0
+ },
+ {
+  "id": "w1",
+  "text": "That night Gus slept for the first time in a week. Mabel and Rollo took the watch.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "w2",
+  "text": "Rollo watched the lamp. Mabel watched the sea. And just before dawn, Mabel\u2019s ears went flat.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "w3",
+  "text": "Far out, past the north rocks, a small light was moving. Toward the island. In no hurry at all.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s25_n1",
+  "text": "They sat in the sun outside the post office, and for a long time Wren just held the locket.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s25_d1",
+  "text": "The night you were born, a ship hit the rocks. Your mother rowed out to it alone. She never came back.",
+  "voice": "bf_emma",
+  "speed": 1.0
+ },
+ {
+  "id": "s25_d2",
+  "text": "Except she did, Gus. This autumn. She came to my door in a yellow coat, and asked me for the key.",
+  "voice": "bf_emma",
+  "speed": 1.0
+ },
+ {
+  "id": "s25_n2",
+  "text": "Gus had spent his whole life keeping a light for a mother he thought the sea had taken.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s25_n3",
+  "text": "The sea had given her back. And she had come home to put the light out.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s26_n1",
+  "text": "The storm came in at midnight. At three, through the rain, a ship\u2019s lights. A real ferry, full of passengers, coming home.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s26_n2",
+  "text": "At three eleven, Gus watched the top lamp flicker.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s26_n3",
+  "text": "He could run up ninety-one steps to the tower, or down ninety-one steps to the cave.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s26_n4",
+  "text": "Twelve seconds. One staircase.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s26_n5",
+  "text": "He chose down.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s27_n1",
+  "text": "She was there, by the low lamp, hand on the shutter, watching the ship come on through the crack.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s27_n2",
+  "text": "Gus did not shout. He set his lantern down on the sand.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s27_d1",
+  "text": "You kept it lit, little one. Sixty years. I watched you every night.",
+  "voice": "bf_isabella",
+  "speed": 1.0
+ },
+ {
+  "id": "s27_d2",
+  "text": "The sea has my debt. A ship for every year it gave me. Four ships. Then I am free.",
+  "voice": "bf_isabella",
+  "speed": 1.0
+ },
+ {
+  "id": "s27_n3",
+  "text": "Gus put his hand on the hot shutter, next to hers.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s27_n4",
+  "text": "Then the man who has never let a light go out, closed one.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s28_n1",
+  "text": "Thirty-one passengers walked off the ferry at dawn and never knew how close they had come.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s28_n2",
+  "text": "Marlo knew. She waved at the lighthouse until her arm hurt.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s28_n3",
+  "text": "On the north rocks, Gus found the yellow coat, folded neatly, a stone on top so the wind would not take it.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s28_n4",
+  "text": "Under the stone, the brass key. And a fourth mark, freshly burned into the rock.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s28_n5",
+  "text": "Four marks. Three ships. The sea was still owed one.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s28_n6",
+  "text": "And Gus had just taken away the only person who knew how to pay it.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "r1",
+  "text": "One more question before the end. The tale said four marks, one for each year the sea let him live.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "r2",
+  "text": "The stranger said four ships. Count the wrecks you have seen, and count the marks.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "t1",
+  "text": "That night the lamp turned, and turned, and did not miss once.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "t2",
+  "text": "But at three twelve, far out at sea, a horn answered it. From somewhere no ship should be.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]

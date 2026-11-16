@@ -1,0 +1,189 @@
+{
+ "code": "S49",
+ "title": "The empty wall",
+ "label": "THE KEEPER'S ISLAND \u00b7 49",
+ "DUR": 36.163,
+ "shots": [
+  {
+   "id": "row",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -172,
+     -164
+    ],
+    "d": [
+     6.6,
+     6.2
+    ],
+    "h": [
+     3.6,
+     3.4
+    ]
+   },
+   "cast": {
+    "marlo": {
+     "at": [
+      -92.6,
+      -86.6
+     ],
+     "pose": "idle",
+     "face": "l"
+    },
+    "gus": {
+     "at": [
+      -94,
+      -87.4
+     ],
+     "pose": "up",
+     "face": "l",
+     "hero": 1
+    }
+   },
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 14.303,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 6.912,
+     "sub": "Thursday, low tide. Marlo rowed them in through the crack, oars shipped, the cave glowing green around them.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 9.962,
+     "d": 3.621,
+     "sub": "On the wall where the smile had been, there was only wet rock.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "wall",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "az": [
+     -62,
+     -56
+    ],
+    "d": [
+     5.4,
+     5
+    ],
+    "h": [
+     2.4,
+     2.2
+    ]
+   },
+   "cast": {
+    "rollo": {
+     "at": [
+      -89.4,
+      -92.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -90.6,
+      -93.6
+     ],
+     "pose": "look",
+     "face": "r"
+    }
+   },
+   "lead": 0.6,
+   "a": 14.303,
+   "b": 18.6,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 15.023,
+     "d": 2.857,
+     "sub": "Rollo found the only thing it had left behind.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "trail",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "az": [
+     55,
+     62
+    ],
+    "d": [
+     5.4,
+     5
+    ],
+    "h": [
+     3.8,
+     3.6
+    ]
+   },
+   "cast": {
+    "rollo": {
+     "at": [
+      -93.0,
+      -91.4
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -91.8,
+      -90.6
+     ],
+     "pose": "fwd",
+     "face": "l"
+    }
+   },
+   "props": [
+    "prints"
+   ],
+   "printsAt": [
+    -94.4,
+    0.45,
+    -91.2
+   ],
+   "printsCol": "#101418",
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 18.6,
+   "b": 36.163,
+   "vo": [
+    {
+     "id": "n4",
+     "t": 19.27,
+     "d": 7.708,
+     "sub": "A dent in the sand, the shape of a bowler hat. And a long dark stain, as if something had been dragged toward the water.",
+     "dlg": null
+    },
+    {
+     "id": "n5",
+     "t": 27.928,
+     "d": 4.535,
+     "sub": "Toward the deep pool at the back of the cave. The one Mabel will not go near.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "Gus went back into the cave. The wall was empty. It had left its hat.",
+ "hookEnd": 2.3,
+ "ask": "Why would a shadow hide under water?",
+ "askAt": 32.963,
+ "music": {
+  "mood": "tense"
+ }
+}

@@ -1,0 +1,201 @@
+{
+ "code": "S45",
+ "title": "The lights went out one by one",
+ "label": "THE KEEPER'S ISLAND \u00b7 45",
+ "DUR": 41.256,
+ "shots": [
+  {
+   "id": "village",
+   "time": "night",
+   "cam": {
+    "type": "map",
+    "from": [
+     -34,
+     26,
+     40
+    ],
+    "to": [
+     -30,
+     23,
+     34
+    ],
+    "look": [
+     0,
+     2,
+     4
+    ],
+    "look2": [
+     0,
+     3,
+     -6
+    ],
+    "fov": 34,
+    "band": 0.5
+   },
+   "cast": {},
+   "lightsOut": 2.0,
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 16.238,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 6.697,
+     "sub": "At midnight the window of the post office went dark. Then the harbour office. Then the lamp by the jetty.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 9.747,
+     "d": 5.771,
+     "sub": "Not blown out. Swallowed. As if something had walked past each one and taken the light with it.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "step",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -1,
+     4.8,
+     -14
+    ],
+    "az": [
+     25,
+     15
+    ],
+    "d": [
+     11,
+     10
+    ],
+    "h": [
+     5,
+     4.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -1.2,
+      -13.6
+     ],
+     "pose": "up",
+     "face": "r",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      0.4,
+      -13.3
+     ],
+     "pose": "sit",
+     "face": "r"
+    },
+    "rollo": {
+     "at": [
+      -2.6,
+      -13.2
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "lightsOut": -30,
+   "lead": 0.6,
+   "a": 16.238,
+   "b": 26.283,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 16.658,
+     "d": 5.948,
+     "sub": "From the cottage step, Gus watched the dark come up the cliff path. Lamp by lamp. Toward him.",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 23.456,
+     "d": 2.107,
+     "sub": "Mabel\u2019s tail went thick as a rope.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "edge",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -0.2,
+     5.0,
+     -13.4
+    ],
+    "az": [
+     10,
+     4
+    ],
+    "d": [
+     5.6,
+     5.2
+    ],
+    "h": [
+     2.4,
+     2.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -1.2,
+      -13.6
+     ],
+     "pose": "up",
+     "face": "r",
+     "hero": 1,
+     "lit": 0.7
+    },
+    "shade": {
+     "at": [
+      0.5,
+      -12.7
+     ],
+     "pose": "idle",
+     "face": "l"
+    }
+   },
+   "lightsOut": -30,
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 26.283,
+   "b": 41.256,
+   "vo": [
+    {
+     "id": "n5",
+     "t": 26.903,
+     "d": 5.404,
+     "sub": "Then his own flame leaned away from the path, the way a candle leans from a cold door.",
+     "dlg": null
+    },
+    {
+     "id": "n6",
+     "t": 33.257,
+     "d": 3.899,
+     "sub": "Just beyond the light, something was standing. Waiting for it to go out.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "Tuesday night, the lights of the village went out. One by one. Coming closer.",
+ "hookEnd": 2.3,
+ "ask": "It is waiting at the edge of your light. What do you do?",
+ "askAt": 37.656,
+ "music": {
+  "mood": "dread"
+ }
+}

@@ -110,6 +110,12 @@
    "props": [
     "prints"
    ],
+   "printsAt": [
+    22.4,
+    9.3,
+    -19.4
+   ],
+   "printsCol": "#3a5a6a",
    "lead": 0.8,
    "tail": 0.8,
    "a": 11.581,
@@ -174,6 +180,15 @@
      "face": "l"
     }
    },
+   "props": [
+    "prints"
+   ],
+   "printsAt": [
+    22.4,
+    9.3,
+    -19.4
+   ],
+   "printsCol": "#3a5a6a",
    "lead": 0.6,
    "tail": 1.0,
    "a": 23.755,

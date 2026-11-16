@@ -1,0 +1,32 @@
+[
+ {
+  "id": "n1",
+  "text": "They sat in the sun outside the post office, and for a long time Wren just held the locket.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "d1",
+  "text": "The night you were born, a ship hit the rocks. Your mother rowed out to it alone. She never came back.",
+  "voice": "bf_emma",
+  "speed": 1.0
+ },
+ {
+  "id": "d2",
+  "text": "Except she did, Gus. This autumn. She came to my door in a yellow coat, and asked me for the key.",
+  "voice": "bf_emma",
+  "speed": 1.0
+ },
+ {
+  "id": "n2",
+  "text": "Gus had spent his whole life keeping a light for a mother he thought the sea had taken.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n3",
+  "text": "The sea had given her back. And she had come home to put the light out.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]

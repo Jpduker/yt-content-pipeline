@@ -1,0 +1,125 @@
+22:30 checking headless Chrome for playwright-core (downloads once, ~100 MB)
+22:31 start week render · 1080x1920 @ 30 fps · workers 2 · ss=1 · ANGLE=d3d11
+22:31 2026-11-16-s01-every-night-at-312-this-lighthouse-goes picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-16-s01-every-night-at-312-this-lighthouse-goes\out\render.log)
+22:40 2026-11-16-s01-every-night-at-312-this-lighthouse-goes OK in 8.2 min -> final\2026-11-16-s01-every-night-at-312-this-lighthouse-goes.mp4
+22:40 2026-11-16-s02-the-boat-on-the-north-rocks picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-16-s02-the-boat-on-the-north-rocks\out\render.log)
+22:45 2026-11-16-s02-the-boat-on-the-north-rocks RENDER-FAIL (see out\render.log)
+22:45 2026-11-17-s03-the-lamp-room-clock-is-twelve-seconds-sl picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-17-s03-the-lamp-room-clock-is-twelve-seconds-sl\out\render.log)
+22:51 2026-11-17-s03-the-lamp-room-clock-is-twelve-seconds-sl OK in 5.7 min -> final\2026-11-17-s03-the-lamp-room-clock-is-twelve-seconds-sl.mp4
+22:51 2026-11-17-s04-pip-saw-someone-on-the-rocks picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-17-s04-pip-saw-someone-on-the-rocks\out\render.log)
+22:55 2026-11-17-s04-pip-saw-someone-on-the-rocks OK in 3.9 min -> final\2026-11-17-s04-pip-saw-someone-on-the-rocks.mp4
+22:55 2026-11-18-s05-the-stake-out picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-18-s05-the-stake-out\out\render.log)
+23:00 2026-11-18-s05-the-stake-out OK in 5.4 min -> final\2026-11-18-s05-the-stake-out.mp4
+23:00 2026-11-18-s06-three-cables-one-cut picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-18-s06-three-cables-one-cut\out\render.log)
+23:05 2026-11-18-s06-three-cables-one-cut OK in 4.6 min -> final\2026-11-18-s06-three-cables-one-cut.mp4
+23:05 2026-11-19-s07-the-door-in-the-rock picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-19-s07-the-door-in-the-rock\out\render.log)
+23:10 2026-11-19-s07-the-door-in-the-rock OK in 5.2 min -> final\2026-11-19-s07-the-door-in-the-rock.mp4
+23:10 2026-11-19-s08-old-wren-knows-the-marks picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-19-s08-old-wren-knows-the-marks\out\render.log)
+23:14 2026-11-19-s08-old-wren-knows-the-marks OK in 4.5 min -> final\2026-11-19-s08-old-wren-knows-the-marks.mp4
+23:14 2026-11-20-s09-the-lock-opens-on-the-third-try picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-20-s09-the-lock-opens-on-the-third-try\out\render.log)
+23:19 2026-11-20-s09-the-lock-opens-on-the-third-try OK in 4.9 min -> final\2026-11-20-s09-the-lock-opens-on-the-third-try.mp4
+23:19 2026-11-20-s10-one-of-the-footprints-has-no-shadow picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-20-s10-one-of-the-footprints-has-no-shadow\out\render.log)
+23:25 2026-11-20-s10-one-of-the-footprints-has-no-shadow OK in 5.4 min -> final\2026-11-20-s10-one-of-the-footprints-has-no-shadow.mp4
+23:25 2026-11-21-s11-the-lamp-went-dark-at-noon picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-21-s11-the-lamp-went-dark-at-noon\out\render.log)
+23:28 2026-11-21-s11-the-lamp-went-dark-at-noon OK in 3.7 min -> final\2026-11-21-s11-the-lamp-went-dark-at-noon.mp4
+23:28 2026-11-21-s12-dunns-logbook picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-21-s12-dunns-logbook\out\render.log)
+23:33 2026-11-21-s12-dunns-logbook OK in 4.1 min -> final\2026-11-21-s12-dunns-logbook.mp4
+23:33 2026-11-22-s13-the-horn-comes-from-under-the-island picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-22-s13-the-horn-comes-from-under-the-island\out\render.log)
+23:35 2026-11-22-s13-the-horn-comes-from-under-the-island OK in 2.8 min -> final\2026-11-22-s13-the-horn-comes-from-under-the-island.mp4
+23:35 2026-11-22-s14-three-days-are-up picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-22-s14-three-days-are-up\out\render.log)
+23:39 2026-11-22-s14-three-days-are-up OK in 3.2 min -> final\2026-11-22-s14-three-days-are-up.mp4
+23:39 ALL DONE
+00:05 checking headless Chrome for playwright-core (downloads once, ~100 MB)
+00:05 start week render · 1080x1920 @ 30 fps · workers 2 · ss=1 · ANGLE=d3d11
+00:05 2026-11-16-s01-every-night-at-312-this-lighthouse-goes skip (done)
+00:05 2026-11-16-s02-the-boat-on-the-north-rocks picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-16-s02-the-boat-on-the-north-rocks\out\render.log)
+00:10 2026-11-16-s02-the-boat-on-the-north-rocks OK in 4.2 min -> final\2026-11-16-s02-the-boat-on-the-north-rocks.mp4
+00:10 2026-11-17-s03-the-lamp-room-clock-is-twelve-seconds-sl skip (done)
+00:10 2026-11-17-s04-pip-saw-someone-on-the-rocks skip (done)
+00:10 2026-11-18-s05-the-stake-out skip (done)
+00:10 2026-11-18-s06-three-cables-one-cut skip (done)
+00:10 2026-11-19-s07-the-door-in-the-rock skip (done)
+00:10 2026-11-19-s08-old-wren-knows-the-marks skip (done)
+00:10 2026-11-20-s09-the-lock-opens-on-the-third-try skip (done)
+00:10 2026-11-20-s10-one-of-the-footprints-has-no-shadow skip (done)
+00:10 2026-11-21-s11-the-lamp-went-dark-at-noon skip (done)
+00:10 2026-11-21-s12-dunns-logbook skip (done)
+00:10 2026-11-22-s13-the-horn-comes-from-under-the-island skip (done)
+00:10 2026-11-22-s14-three-days-are-up skip (done)
+00:10 ALL DONE
+12:23 checking headless Chrome for playwright-core (downloads once, ~100 MB)
+12:23 start week render · 1080x1920 @ 30 fps · workers 2 · ss=1 · ANGLE=d3d11
+12:23 2026-11-16-s01-every-night-at-312-this-lighthouse-goes skip (done)
+12:23 2026-11-16-s02-the-boat-on-the-north-rocks skip (done)
+12:23 2026-11-17-s03-the-lamp-room-clock-is-twelve-seconds-sl skip (done)
+12:23 2026-11-17-s04-pip-saw-someone-on-the-rocks skip (done)
+12:23 2026-11-18-s05-the-stake-out skip (done)
+12:23 2026-11-18-s06-three-cables-one-cut skip (done)
+12:23 2026-11-19-s07-the-door-in-the-rock skip (done)
+12:23 2026-11-19-s08-old-wren-knows-the-marks skip (done)
+12:23 2026-11-20-s09-the-lock-opens-on-the-third-try skip (done)
+12:23 2026-11-20-s10-one-of-the-footprints-has-no-shadow skip (done)
+12:23 2026-11-21-s11-the-lamp-went-dark-at-noon skip (done)
+12:23 2026-11-21-s12-dunns-logbook skip (done)
+12:23 2026-11-22-s13-the-horn-comes-from-under-the-island skip (done)
+12:23 2026-11-22-s14-three-days-are-up skip (done)
+12:23 2026-11-23-s15-under-the-lighthouse-there-is-a-harbour picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-23-s15-under-the-lighthouse-there-is-a-harbour\out\render.log)
+12:28 2026-11-23-s15-under-the-lighthouse-there-is-a-harbour OK in 4.9 min -> final\2026-11-23-s15-under-the-lighthouse-there-is-a-harbour.mp4
+12:28 2026-11-23-s16-a-second-lamp-under-the-first picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-23-s16-a-second-lamp-under-the-first\out\render.log)
+12:32 2026-11-23-s16-a-second-lamp-under-the-first OK in 4.1 min -> final\2026-11-23-s16-a-second-lamp-under-the-first.mp4
+12:32 2026-11-24-s17-pip-finds-the-slit-in-the-cliff picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-24-s17-pip-finds-the-slit-in-the-cliff\out\render.log)
+12:36 2026-11-24-s17-pip-finds-the-slit-in-the-cliff OK in 4.5 min -> final\2026-11-24-s17-pip-finds-the-slit-in-the-cliff.mp4
+12:36 2026-11-24-s18-the-wreckers-light picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-24-s18-the-wreckers-light\out\render.log)
+12:41 2026-11-24-s18-the-wreckers-light OK in 4.8 min -> final\2026-11-24-s18-the-wreckers-light.mp4
+12:41 2026-11-25-s19-waiting-in-the-dark-harbour picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-25-s19-waiting-in-the-dark-harbour\out\render.log)
+12:45 2026-11-25-s19-waiting-in-the-dark-harbour OK in 4.3 min -> final\2026-11-25-s19-waiting-in-the-dark-harbour.mp4
+12:45 2026-11-25-s20-rollo-sneezes picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-25-s20-rollo-sneezes\out\render.log)
+12:50 2026-11-25-s20-rollo-sneezes OK in 5 min -> final\2026-11-25-s20-rollo-sneezes.mp4
+12:50 2026-11-26-s21-the-boat-that-belonged-to-nobody picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-26-s21-the-boat-that-belonged-to-nobody\out\render.log)
+12:54 2026-11-26-s21-the-boat-that-belonged-to-nobody OK in 3.7 min -> final\2026-11-26-s21-the-boat-that-belonged-to-nobody.mp4
+12:54 2026-11-26-s22-marlo-saw-two-lights picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-26-s22-marlo-saw-two-lights\out\render.log)
+12:57 2026-11-26-s22-marlo-saw-two-lights OK in 3.4 min -> final\2026-11-26-s22-marlo-saw-two-lights.mp4
+12:57 2026-11-27-s23-leading-lights picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-27-s23-leading-lights\out\render.log)
+13:02 2026-11-27-s23-leading-lights OK in 4.5 min -> final\2026-11-27-s23-leading-lights.mp4
+13:02 2026-11-27-s24-the-second-key picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-27-s24-the-second-key\out\render.log)
+13:06 2026-11-27-s24-the-second-key OK in 4.2 min -> final\2026-11-27-s24-the-second-key.mp4
+13:06 2026-11-28-s25-wrens-promise picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-28-s25-wrens-promise\out\render.log)
+13:10 2026-11-28-s25-wrens-promise OK in 4.1 min -> final\2026-11-28-s25-wrens-promise.mp4
+13:10 2026-11-28-s26-a-ship-in-the-storm picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-28-s26-a-ship-in-the-storm\out\render.log)
+13:14 2026-11-28-s26-a-ship-in-the-storm OK in 3.9 min -> final\2026-11-28-s26-a-ship-in-the-storm.mp4
+13:14 2026-11-29-s27-the-keeper-and-the-stranger picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-29-s27-the-keeper-and-the-stranger\out\render.log)
+13:19 2026-11-29-s27-the-keeper-and-the-stranger OK in 4.4 min -> final\2026-11-29-s27-the-keeper-and-the-stranger.mp4
+13:19 2026-11-29-s28-the-coat-on-the-rocks picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-29-s28-the-coat-on-the-rocks\out\render.log)
+13:23 2026-11-29-s28-the-coat-on-the-rocks OK in 4.2 min -> final\2026-11-29-s28-the-coat-on-the-rocks.mp4
+13:23 ALL DONE
+13:58 checking headless Chrome for playwright-core (downloads once, ~100 MB)
+13:58 start week render · 1080x1920 @ 30 fps · workers 2 · ss=1 · ANGLE=d3d11
+13:58 2026-11-16-s01-every-night-at-312-this-lighthouse-goes skip (done)
+13:58 2026-11-16-s02-the-boat-on-the-north-rocks skip (done)
+13:58 2026-11-17-s03-the-lamp-room-clock-is-twelve-seconds-sl skip (done)
+13:58 2026-11-17-s04-pip-saw-someone-on-the-rocks skip (done)
+13:58 2026-11-18-s05-the-stake-out skip (done)
+13:58 2026-11-18-s06-three-cables-one-cut skip (done)
+13:58 2026-11-19-s07-the-door-in-the-rock skip (done)
+13:58 2026-11-19-s08-old-wren-knows-the-marks skip (done)
+13:58 2026-11-20-s09-the-lock-opens-on-the-third-try skip (done)
+13:58 2026-11-20-s10-one-of-the-footprints-has-no-shadow skip (done)
+13:58 2026-11-21-s11-the-lamp-went-dark-at-noon skip (done)
+13:58 2026-11-21-s12-dunns-logbook skip (done)
+13:58 2026-11-22-s13-the-horn-comes-from-under-the-island skip (done)
+13:58 2026-11-22-s14-three-days-are-up skip (done)
+13:58 2026-11-23-s15-under-the-lighthouse-there-is-a-harbour skip (done)
+13:58 2026-11-23-s16-a-second-lamp-under-the-first skip (done)
+13:58 2026-11-24-s17-pip-finds-the-slit-in-the-cliff skip (done)
+13:58 2026-11-24-s18-the-wreckers-light skip (done)
+13:58 2026-11-25-s19-waiting-in-the-dark-harbour skip (done)
+13:58 2026-11-25-s20-rollo-sneezes skip (done)
+13:58 2026-11-26-s21-the-boat-that-belonged-to-nobody skip (done)
+13:58 2026-11-26-s22-marlo-saw-two-lights skip (done)
+13:58 2026-11-27-s23-leading-lights skip (done)
+13:58 2026-11-27-s24-the-second-key skip (done)
+13:58 2026-11-28-s25-wrens-promise skip (done)
+13:58 2026-11-28-s26-a-ship-in-the-storm skip (done)
+13:58 2026-11-29-s27-the-keeper-and-the-stranger skip (done)
+13:58 2026-11-29-s28-the-coat-on-the-rocks skip (done)
+13:58 2026-11-30-s29-a-grey-ship-in-the-harbour picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\shorts\2026-11-30-s29-a-grey-ship-in-the-harbour\out\render.log)

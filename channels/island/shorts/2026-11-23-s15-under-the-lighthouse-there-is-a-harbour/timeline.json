@@ -1,0 +1,219 @@
+{
+ "code": "S15",
+ "title": "Under the lighthouse there is a harbour",
+ "label": "THE KEEPER'S ISLAND \u00b7 15",
+ "DUR": 37.74,
+ "shots": [
+  {
+   "id": "hatch",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     13.6,
+     5.2,
+     -14.4
+    ],
+    "az": [
+     -24,
+     -14
+    ],
+    "d": [
+     8.5,
+     8
+    ],
+    "h": [
+     3.8,
+     3.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      12.6,
+      -12.9
+     ],
+     "to": [
+      13.4,
+      -13.6
+     ],
+     "walk": [
+      0.5,
+      3.2
+     ],
+     "pose": "up",
+     "face": "l",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      11.4,
+      -12.4
+     ],
+     "to": [
+      12.4,
+      -13.0
+     ],
+     "walk": [
+      0.8,
+      3.4
+     ],
+     "pose": "walk",
+     "face": "l"
+    }
+   },
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 10.96,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 3.293,
+     "sub": "Mabel went first. Cats do not wait for permission.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 6.343,
+     "d": 3.897,
+     "sub": "Gus relit his lantern with a shaking match and followed her down.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "stairs",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -60,
+     -40
+    ],
+    "d": [
+     8,
+     7.5
+    ],
+    "h": [
+     9.5,
+     9
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -103.4,
+      -101.2
+     ],
+     "to": [
+      -101.4,
+      -99.2
+     ],
+     "walk": [
+      0.4,
+      4.0
+     ],
+     "pose": "up",
+     "face": "r",
+     "hero": 1,
+     "y": 3.2
+    },
+    "mabel": {
+     "at": [
+      -102,
+      -99.8
+     ],
+     "pose": "sit",
+     "face": "r"
+    }
+   },
+   "under": null,
+   "lead": 0.8,
+   "a": 10.96,
+   "b": 22.442,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 11.52,
+     "d": 2.575,
+     "sub": "Ninety-one steps. He counted every one.",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 14.545,
+     "d": 7.177,
+     "sub": "At the bottom the tunnel opened, and the lantern light fell away into a space far too big to be inside an island.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "cave",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -20,
+     10
+    ],
+    "d": [
+     8,
+     7.6
+    ],
+    "h": [
+     10,
+     9.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -100.6,
+      -98.4
+     ],
+     "pose": "up",
+     "face": "r",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      -99.6,
+      -97.8
+     ],
+     "pose": "sit",
+     "face": "r"
+    }
+   },
+   "props": [],
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 22.442,
+   "b": 37.74,
+   "vo": [
+    {
+     "id": "n5",
+     "t": 23.062,
+     "d": 5.712,
+     "sub": "Water, glowing green. A beach of black sand. Crates, rope, a jetty of old wood.",
+     "dlg": null
+    },
+    {
+     "id": "n6",
+     "t": 29.674,
+     "d": 4.366,
+     "sub": "A harbour. Under the lighthouse. And the sand was full of fresh footprints.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "Gus walked into the dark. The stairs kept going down.",
+ "hookEnd": 2.3,
+ "ask": "A harbour no map shows. Who has been sailing in here?",
+ "askAt": 34.54,
+ "music": {
+  "mood": "dread"
+ }
+}

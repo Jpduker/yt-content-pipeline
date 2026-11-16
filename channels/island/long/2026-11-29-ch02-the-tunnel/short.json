@@ -1,0 +1,2839 @@
+{
+ "code": "CH02",
+ "title": "The Keeper’s Island · Chapter 2: The Tunnel",
+ "label": null,
+ "hook": null,
+ "ask": null,
+ "music": {
+  "mood": "mystery"
+ },
+ "shots": [
+  {
+   "id": "cold",
+   "time": "storm",
+   "cam": {
+    "type": "map",
+    "from": [
+     -40,
+     34,
+     52
+    ],
+    "to": [
+     -32,
+     28,
+     42
+    ],
+    "look": [
+     16,
+     6,
+     -34
+    ],
+    "look2": [
+     18,
+     7,
+     -38
+    ],
+    "fov": 34,
+    "band": 0.45
+   },
+   "cast": {},
+   "lines": [
+    {
+     "id": "c1",
+     "text": "Some lights save ships.",
+     "pause": 0.4
+    },
+    {
+     "id": "c2",
+     "text": "Some lights were built to drown them.",
+     "pause": 0.6
+    }
+   ],
+   "props": [
+    "ship"
+   ],
+   "lamp": {
+    "flicker": 5.6,
+    "len": 0.9
+   },
+   "events": [
+    {
+     "t": 1.2,
+     "kind": "flash"
+    },
+    {
+     "t": 4.0,
+     "kind": "horn"
+    }
+   ],
+   "weather": "rain",
+   "lead": 1.4,
+   "tail": 2.6,
+   "mood": "dread"
+  },
+  {
+   "id": "card",
+   "time": "night",
+   "cam": {
+    "type": "map",
+    "from": [
+     -60,
+     56,
+     84
+    ],
+    "to": [
+     -58,
+     55,
+     82
+    ],
+    "look": [
+     8,
+     4,
+     -10
+    ]
+   },
+   "cast": {},
+   "lines": [],
+   "card": {
+    "label": "CHAPTER  II",
+    "title": "The Tunnel"
+   },
+   "lamp": "off",
+   "min": 4.6,
+   "lead": 0,
+   "tail": 0,
+   "mood": "mystery"
+  },
+  {
+   "id": "recap",
+   "time": "night",
+   "cam": {
+    "type": "map",
+    "from": [
+     -58,
+     54,
+     82
+    ],
+    "to": [
+     -50,
+     48,
+     70
+    ],
+    "look": [
+     8,
+     4,
+     -10
+    ],
+    "look2": [
+     12,
+     6,
+     -14
+    ]
+   },
+   "cast": {},
+   "lines": [
+    {
+     "id": "p1",
+     "text": "Previously, on the Keeper’s Island."
+    },
+    {
+     "id": "p2",
+     "text": "Every night at three twelve, the lamp went dark for twelve seconds, and a boat ran onto the north rocks."
+    },
+    {
+     "id": "p3",
+     "text": "The clues led under the headland, to a door older than the tower. And a stranger in a yellow coat who casts no shadow."
+    },
+    {
+     "id": "p4",
+     "text": "Three days were up. And Gus walked into the dark on purpose.",
+     "pause": 0.4
+    }
+   ],
+   "lamp": "off",
+   "lead": 0.8,
+   "tail": 0.8,
+   "mood": "mystery"
+  },
+  {
+   "id": "S15-hatch",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     13.6,
+     5.2,
+     -14.4
+    ],
+    "az": [
+     -24,
+     -14
+    ],
+    "d": [
+     8.5,
+     8
+    ],
+    "h": [
+     3.8,
+     3.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      12.6,
+      -12.9
+     ],
+     "to": [
+      13.4,
+      -13.6
+     ],
+     "walk": [
+      0.5,
+      3.2
+     ],
+     "pose": "up",
+     "face": "l",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      11.4,
+      -12.4
+     ],
+     "to": [
+      12.4,
+      -13.0
+     ],
+     "walk": [
+      0.8,
+      3.4
+     ],
+     "pose": "walk",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "s15_n1",
+     "text": "Mabel went first. Cats do not wait for permission."
+    },
+    {
+     "id": "s15_n2",
+     "text": "Gus relit his lantern with a shaking match and followed her down.",
+     "pause": 0.6
+    }
+   ],
+   "lead": 1.0,
+   "mood": "dread"
+  },
+  {
+   "id": "S15-stairs",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -60,
+     -40
+    ],
+    "d": [
+     8,
+     7.5
+    ],
+    "h": [
+     9.5,
+     9
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -103.4,
+      -101.2
+     ],
+     "to": [
+      -101.4,
+      -99.2
+     ],
+     "walk": [
+      0.4,
+      4.0
+     ],
+     "pose": "up",
+     "face": "r",
+     "hero": 1,
+     "y": 3.2
+    },
+    "mabel": {
+     "at": [
+      -102,
+      -99.8
+     ],
+     "pose": "sit",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "s15_n3",
+     "text": "Ninety-one steps. He counted every one."
+    },
+    {
+     "id": "s15_n4",
+     "text": "At the bottom the tunnel opened, and the lantern light fell away into a space far too big to be inside an island.",
+     "pause": 0.6
+    }
+   ],
+   "under": null,
+   "lead": 0.8,
+   "mood": "dread"
+  },
+  {
+   "id": "S15-cave",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -20,
+     10
+    ],
+    "d": [
+     8,
+     7.6
+    ],
+    "h": [
+     10,
+     9.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -100.6,
+      -98.4
+     ],
+     "pose": "up",
+     "face": "r",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      -99.6,
+      -97.8
+     ],
+     "pose": "sit",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "s15_n5",
+     "text": "Water, glowing green. A beach of black sand. Crates, rope, a jetty of old wood.",
+     "pause": 0.4
+    },
+    {
+     "id": "s15_n6",
+     "text": "A harbour. Under the lighthouse. And the sand was full of fresh footprints.",
+     "pause": 0.9
+    }
+   ],
+   "props": [],
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "dread"
+  },
+  {
+   "id": "S16-plinth",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     10,
+     30
+    ],
+    "d": [
+     7,
+     6.4
+    ],
+    "h": [
+     8.4,
+     8
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -95.5,
+      -96.6
+     ],
+     "to": [
+      -93.6,
+      -97.0
+     ],
+     "walk": [
+      0.3,
+      2.6
+     ],
+     "pose": "up",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "s16_n1",
+     "text": "On a stone block at the water’s edge stood something Gus knew better than his own face."
+    },
+    {
+     "id": "s16_n2",
+     "text": "A lamp. Brass, lens, wick. A keeper’s lamp, smaller and older than his own.",
+     "pause": 0.6
+    }
+   ],
+   "lead": 1.0,
+   "mood": "mystery"
+  },
+  {
+   "id": "S16-touch",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -92.8,
+     0.8,
+     -97.2
+    ],
+    "az": [
+     35,
+     45
+    ],
+    "d": [
+     6.5,
+     6
+    ],
+    "h": [
+     4.6,
+     4.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -93.6,
+      -97.0
+     ],
+     "pose": "fwd",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "s16_n3",
+     "text": "He laid his hand on the glass.",
+     "pause": 0.4
+    },
+    {
+     "id": "s16_n4",
+     "text": "It was warm.",
+     "pause": 1.2
+    },
+    {
+     "id": "s16_n5",
+     "text": "Somebody had lit this lamp tonight, while the real one was dark.",
+     "pause": 0.4
+    }
+   ],
+   "lead": 0.6,
+   "mood": "mystery"
+  },
+  {
+   "id": "S16-crack",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -40,
+     -55
+    ],
+    "d": [
+     8,
+     7.6
+    ],
+    "h": [
+     9.4,
+     9
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -93.6,
+      -97.0
+     ],
+     "pose": "look",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "s16_n6",
+     "text": "And its lens was not pointed at the sky. It faced a crack in the rock, a slit that opened onto the sea…",
+     "pause": 0.5
+    },
+    {
+     "id": "s16_n7",
+     "text": "straight at the north rocks.",
+     "pause": 1.0
+    }
+   ],
+   "under": 0.2,
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "mystery"
+  },
+  {
+   "id": "S17-fly",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -35,
+     -25
+    ],
+    "d": [
+     9,
+     8
+    ],
+    "h": [
+     2.4,
+     2
+    ]
+   },
+   "cast": {
+    "pip": {
+     "at": [
+      -2,
+      -26
+     ],
+     "to": [
+      12,
+      -42
+     ],
+     "pose": "fly",
+     "y": 8,
+     "hero": 1,
+     "fly": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "s17_n1",
+     "text": "At sunrise Pip was sent out with one job. Find where that light comes out."
+    },
+    {
+     "id": "s17_n2",
+     "text": "He circled the north cliff eleven times, mostly to be admired.",
+     "pause": 0.6
+    }
+   ],
+   "lead": 1.0,
+   "mood": "day"
+  },
+  {
+   "id": "S17-cliff",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     12,
+     1.5,
+     -44
+    ],
+    "az": [
+     -150,
+     -135
+    ],
+    "d": [
+     14,
+     12.5
+    ],
+    "h": [
+     5.5,
+     5
+    ]
+   },
+   "cast": {
+    "pip": {
+     "at": [
+      10.5,
+      -42.5
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "s17_n3",
+     "text": "On the twelfth, he saw it. A slit in the rock just above the waterline, black, the width of a door.",
+     "pause": 0.4
+    },
+    {
+     "id": "s17_n4",
+     "text": "From out at sea, a light in there would sit low and steady. Right below the lighthouse.",
+     "pause": 0.8
+    }
+   ],
+   "props": [
+    "wreck"
+   ],
+   "lead": 0.8,
+   "mood": "day"
+  },
+  {
+   "id": "S17-report",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -1.2,
+     4.8,
+     -13.4
+    ],
+    "az": [
+     20,
+     12
+    ],
+    "d": [
+     9.5,
+     9
+    ],
+    "h": [
+     4.4,
+     4.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -1.2,
+      -13.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    },
+    "pip": {
+     "at": [
+      0.6,
+      -13.2
+     ],
+     "pose": "idle",
+     "face": "l"
+    },
+    "mabel": {
+     "at": [
+      -2.4,
+      -13.2
+     ],
+     "pose": "sit",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "s17_n5",
+     "text": "Gus went very quiet. Every keeper knows what two lights, one above the other, mean to a sailor.",
+     "pause": 0.5
+    },
+    {
+     "id": "s17_n6",
+     "text": "They mean: line us up, and you are safe.",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "day"
+  },
+  {
+   "id": "S18-post",
+   "time": "dusk",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -6.5,
+     1.0,
+     7.6
+    ],
+    "az": [
+     30,
+     20
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     4.6,
+     4.3
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      7.4
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -4.4,
+      8.2
+     ],
+     "pose": "idle",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "s18_n1",
+     "text": "Old Wren did not look surprised. She looked like someone who had been waiting sixty years for this visit."
+    }
+   ],
+   "lead": 1.0,
+   "mood": "dusk"
+  },
+  {
+   "id": "S18-tale",
+   "time": "dusk",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -6.5,
+     1.0,
+     7.6
+    ],
+    "az": [
+     16,
+     10
+    ],
+    "d": [
+     8.6,
+     8.2
+    ],
+    "h": [
+     4.0,
+     3.8
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      7.4
+     ],
+     "pose": "open",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -4.4,
+      8.2
+     ],
+     "pose": "idle",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "s18_d1",
+     "text": "Before the tower, this island had wreckers. A false light on a stormy night, and the sea brought them a ship.",
+     "dlg": "WREN"
+    },
+    {
+     "id": "s18_d2",
+     "text": "They kept a ledger of every wreck. And every name that lit the lamp.",
+     "dlg": "WREN",
+     "pause": 0.6
+    }
+   ],
+   "lead": 0.6,
+   "mood": "dusk"
+  },
+  {
+   "id": "S18-book",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -5.8,
+     1.0,
+     7.8
+    ],
+    "az": [
+     -15,
+     -10
+    ],
+    "d": [
+     6,
+     5.6
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      7.4
+     ],
+     "pose": "idle",
+     "face": "r"
+    },
+    "gus": {
+     "at": [
+      -4.4,
+      8.2
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "s18_n2",
+     "text": "She opened it at the last page. One line, sixty years old, in careful, familiar handwriting.",
+     "pause": 0.5
+    },
+    {
+     "id": "s18_n3",
+     "text": "It was his grandfather’s.",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "dusk"
+  },
+  {
+   "id": "memory",
+   "time": "dawn",
+   "cam": {
+    "type": "map",
+    "from": [
+     40,
+     26,
+     -70
+    ],
+    "to": [
+     34,
+     22,
+     -62
+    ],
+    "look": [
+     16,
+     6,
+     -30
+    ],
+    "look2": [
+     18,
+     8,
+     -28
+    ],
+    "fov": 34,
+    "band": 0.5
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      21.4,
+      -20.4
+     ],
+     "pose": "lookUp",
+     "face": "l",
+     "lit": 0
+    }
+   },
+   "lines": [
+    {
+     "id": "m1",
+     "text": "Gus never knew his mother. He knew a photograph, a yellow coat on a hook, and one sentence everyone on the island repeated."
+    },
+    {
+     "id": "m2",
+     "text": "She rowed out into the storm the night you were born, and the sea kept her.",
+     "pause": 0.5
+    },
+    {
+     "id": "m3",
+     "text": "He had kept the lamp lit for thirty years so the sea would never keep anyone else.",
+     "pause": 0.8
+    }
+   ],
+   "lead": 0.8,
+   "tail": 0.8,
+   "mood": "dusk"
+  },
+  {
+   "id": "S19-hide",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -20,
+     -10
+    ],
+    "d": [
+     7.6,
+     7.2
+    ],
+    "h": [
+     9,
+     8.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -99.6,
+      -100.2
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1,
+     "lit": 0.25
+    },
+    "mabel": {
+     "at": [
+      -100.4,
+      -99.6
+     ],
+     "pose": "sit",
+     "face": "r"
+    },
+    "rollo": {
+     "at": [
+      -98.6,
+      -100.6
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "s19_n1",
+     "text": "Three o’clock. Gus, Mabel, and Rollo, who had insisted, crouched behind the crates."
+    },
+    {
+     "id": "s19_n2",
+     "text": "The lantern was turned down to a bead. Nobody breathed loudly. Rollo had brought snacks.",
+     "pause": 0.8
+    }
+   ],
+   "lead": 1.0,
+   "mood": "tense"
+  },
+  {
+   "id": "S19-water",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     10,
+     25
+    ],
+    "d": [
+     8,
+     7.4
+    ],
+    "h": [
+     8.6,
+     8.2
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -94.0,
+      -85.8
+     ],
+     "to": [
+      -93.8,
+      -90.0
+     ],
+     "walk": [
+      2.0,
+      6.0
+     ],
+     "pose": "walk",
+     "face": "l",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "s19_n3",
+     "text": "Three eleven. The water moved.",
+     "pause": 1.0
+    },
+    {
+     "id": "s19_n4",
+     "text": "Something rose out of it. A hood. Shoulders. A yellow coat, streaming wet, walking up the shelf as if the sea were a staircase.",
+     "pause": 0.4
+    }
+   ],
+   "events": [
+    {
+     "t": 2.0,
+     "kind": "splash"
+    }
+   ],
+   "lead": 0.6,
+   "mood": "tense"
+  },
+  {
+   "id": "S19-light",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -30,
+     -40
+    ],
+    "d": [
+     7.4,
+     7
+    ],
+    "h": [
+     8.8,
+     8.4
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -92.8,
+      -95.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -99.6,
+      -100.2
+     ],
+     "pose": "look",
+     "face": "r",
+     "lit": 0.25
+    }
+   },
+   "lines": [
+    {
+     "id": "s19_n5",
+     "text": "Three twelve. Far above, the real lamp went dark.",
+     "pause": 0.6
+    },
+    {
+     "id": "s19_n6",
+     "text": "And down here, the stranger lit the other one.",
+     "pause": 1.0
+    }
+   ],
+   "under": 6.2,
+   "events": [
+    {
+     "t": 6.2,
+     "kind": "match"
+    }
+   ],
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "tense"
+  },
+  {
+   "id": "S20-wait",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -15,
+     -5
+    ],
+    "d": [
+     8,
+     7.6
+    ],
+    "h": [
+     9.2,
+     8.8
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -92.8,
+      -95.6
+     ],
+     "pose": "idle",
+     "face": "r"
+    },
+    "gus": {
+     "at": [
+      -99.6,
+      -100.2
+     ],
+     "pose": "look",
+     "face": "r",
+     "hero": 1,
+     "lit": 0.25
+    },
+    "rollo": {
+     "at": [
+      -98.6,
+      -100.6
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "s20_n1",
+     "text": "The stranger stood by the lamp and counted. Gus could see the hood move. One. Two. Three."
+    },
+    {
+     "id": "s20_n2",
+     "text": "Nine seconds in, Rollo sneezed.",
+     "pause": 1.2
+    }
+   ],
+   "under": "on",
+   "lead": 1.0,
+   "mood": "tense"
+  },
+  {
+   "id": "S20-turn",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "az": [
+     -80,
+     -90
+    ],
+    "d": [
+     7,
+     6.4
+    ],
+    "h": [
+     3.6,
+     3.4
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -92.8,
+      -95.6
+     ],
+     "to": [
+      -93.4,
+      -88.5
+     ],
+     "walk": [
+      1.6,
+      5.0
+     ],
+     "pose": "walk",
+     "face": "l",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "s20_n3",
+     "text": "The hood turned. Not toward the noise. Toward Gus. As if the stranger had known all along exactly where he was.",
+     "pause": 0.4
+    },
+    {
+     "id": "s20_n4",
+     "text": "Then a splash, a ring of green light on the water, and nothing.",
+     "pause": 0.6
+    }
+   ],
+   "under": "on",
+   "events": [
+    {
+     "t": 5.0,
+     "kind": "splash"
+    }
+   ],
+   "lead": 0.6,
+   "mood": "tense"
+  },
+  {
+   "id": "S20-sand",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -93.4,
+     0.4,
+     -90.8
+    ],
+    "az": [
+     -20,
+     -12
+    ],
+    "d": [
+     5.4,
+     5
+    ],
+    "h": [
+     3.8,
+     3.6
+    ]
+   },
+   "cast": {
+    "rollo": {
+     "at": [
+      -94.0,
+      -91.2
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -95.2,
+      -92.0
+     ],
+     "pose": "fwd",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "s20_n5",
+     "text": "Rollo, ashamed, ran to the waterline to make up for it. He came back dragging something on a chain.",
+     "pause": 0.4
+    },
+    {
+     "id": "s20_n6",
+     "text": "A silver locket. Inside, a tiny painted face Gus had only ever seen in his mother’s photographs.",
+     "pause": 0.4
+    },
+    {
+     "id": "s20_n7",
+     "text": "His own. As a baby.",
+     "pause": 1.0
+    }
+   ],
+   "under": "on",
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "tense"
+  },
+  {
+   "id": "S21-office",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     9,
+     1.0,
+     12
+    ],
+    "az": [
+     -10,
+     0
+    ],
+    "d": [
+     10.5,
+     10
+    ],
+    "h": [
+     4.8,
+     4.5
+    ]
+   },
+   "cast": {
+    "dunn": {
+     "at": [
+      9.6,
+      12.2
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      7.4,
+      12.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "lit": 0
+    }
+   },
+   "lines": [
+    {
+     "id": "s21_n1",
+     "text": "Gus put the locket on Dunn’s desk and said nothing. It worked better than shouting."
+    },
+    {
+     "id": "s21_n2",
+     "text": "Dunn sighed, unlocked a drawer, and took out the wrecked boat’s registry plate.",
+     "pause": 0.6
+    }
+   ],
+   "lead": 1.0,
+   "mood": "mystery"
+  },
+  {
+   "id": "S21-plate",
+   "time": "day",
+   "cam": {
+    "type": "dive",
+    "at": [
+     8.6,
+     1.0,
+     12.4
+    ],
+    "az": [
+     -5,
+     2
+    ],
+    "d": [
+     5.6,
+     5.2
+    ],
+    "h": [
+     2.5,
+     2.3
+    ]
+   },
+   "cast": {
+    "dunn": {
+     "at": [
+      9.6,
+      12.2
+     ],
+     "pose": "point",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      7.4,
+      12.6
+     ],
+     "pose": "look",
+     "face": "r",
+     "lit": 0
+    }
+   },
+   "lines": [
+    {
+     "id": "s21_d1",
+     "text": "No owner. No port. No crew. Just a name painted on the bow.",
+     "dlg": "DUNN"
+    },
+    {
+     "id": "s21_d2",
+     "text": "She was called the Keeper’s Daughter.",
+     "dlg": "DUNN",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.6,
+   "mood": "mystery"
+  },
+  {
+   "id": "S21-rocks",
+   "time": "day",
+   "cam": {
+    "type": "orbit",
+    "at": [
+     13,
+     1.2,
+     -45
+    ],
+    "az": [
+     -140,
+     -115
+    ],
+    "d": [
+     15,
+     13
+    ],
+    "h": [
+     6.5,
+     5.8
+    ]
+   },
+   "cast": {
+    "pip": {
+     "at": [
+      14.5,
+      -47
+     ],
+     "pose": "idle",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "s21_n3",
+     "text": "Gus never had a sister. His mother was the keeper’s only daughter.",
+     "pause": 0.5
+    },
+    {
+     "id": "s21_n4",
+     "text": "And she was lost at sea the night he was born.",
+     "pause": 1.0
+    }
+   ],
+   "props": [
+    "wreck"
+   ],
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "mystery"
+  },
+  {
+   "id": "S22-jetty",
+   "time": "dusk",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -3,
+     0.6,
+     36
+    ],
+    "az": [
+     -150,
+     -160
+    ],
+    "d": [
+     11,
+     10.4
+    ],
+    "h": [
+     5,
+     4.8
+    ]
+   },
+   "cast": {
+    "marlo": {
+     "at": [
+      -2.4,
+      37.2
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -3.4,
+      34.6
+     ],
+     "to": [
+      -3.2,
+      36.2
+     ],
+     "walk": [
+      0.3,
+      2.4
+     ],
+     "pose": "walk",
+     "face": "r",
+     "lit": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "s22_n1",
+     "text": "Marlo runs the ferry. She is twenty-two, she has crossed this water four thousand times, and nobody on the council has ever asked her a thing."
+    }
+   ],
+   "lead": 1.0,
+   "mood": "dusk"
+  },
+  {
+   "id": "S22-talk",
+   "time": "dusk",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -2.8,
+     0.6,
+     36.8
+    ],
+    "az": [
+     -170,
+     -175
+    ],
+    "d": [
+     5.6,
+     5.2
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "marlo": {
+     "at": [
+      -2.4,
+      37.2
+     ],
+     "pose": "wave",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -3.2,
+      36.2
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "s22_d1",
+     "text": "That night I was out late. I saw the lamp go dark. Twelve seconds. Then I saw the other one.",
+     "dlg": "MARLO"
+    },
+    {
+     "id": "s22_d2",
+     "text": "Low, by the water. Steady. And that boat turned toward it like it had been told to.",
+     "dlg": "MARLO",
+     "pause": 0.8
+    }
+   ],
+   "lead": 0.6,
+   "mood": "dusk"
+  },
+  {
+   "id": "S22-map",
+   "time": "night",
+   "cam": {
+    "type": "map",
+    "from": [
+     -40,
+     34,
+     52
+    ],
+    "to": [
+     -30,
+     28,
+     40
+    ],
+    "look": [
+     14,
+     6,
+     -24
+    ],
+    "look2": [
+     16,
+     8,
+     -30
+    ],
+    "fov": 34,
+    "band": 0.45
+   },
+   "cast": {},
+   "lines": [
+    {
+     "id": "s22_n2",
+     "text": "Two lights. One high, one low. Gus closed his eyes and saw the whole thing at once.",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "dusk"
+  },
+  {
+   "id": "solve1",
+   "time": "night",
+   "cam": {
+    "type": "map",
+    "from": [
+     40,
+     26,
+     -70
+    ],
+    "to": [
+     36,
+     24,
+     -64
+    ],
+    "look": [
+     16,
+     6,
+     -30
+    ],
+    "fov": 34,
+    "band": 0.5
+   },
+   "cast": {},
+   "lines": [
+    {
+     "id": "q1",
+     "text": "Pause here. Two lights, one above the other. A boat that steered onto the rocks as if it had been told to."
+    },
+    {
+     "id": "q2",
+     "text": "You already know how sailors use two lights. Think about what happens when one of them moves.",
+     "pause": 0.4
+    }
+   ],
+   "props": [
+    "wreck"
+   ],
+   "solve": {
+    "q": "How do two lights steer a ship onto the rocks?",
+    "secs": 5
+   },
+   "lead": 0.6,
+   "tail": 6.2,
+   "mood": "mystery"
+  },
+  {
+   "id": "S23-board",
+   "time": "day",
+   "cam": {
+    "type": "map",
+    "from": [
+     -40,
+     34,
+     52
+    ],
+    "to": [
+     -32,
+     28,
+     42
+    ],
+    "look": [
+     16,
+     6,
+     -34
+    ],
+    "fov": 34,
+    "band": 0.45
+   },
+   "cast": {},
+   "lines": [
+    {
+     "id": "s23_n1",
+     "text": "Here is the trick. A ship coming home lines up two lights, one behind and above the other."
+    },
+    {
+     "id": "s23_n2",
+     "text": "When the high light sits right on top of the low one, you are in the safe channel. Every sailor knows it.",
+     "pause": 0.5
+    }
+   ],
+   "props": [
+    "wreck"
+   ],
+   "lead": 1.0,
+   "mood": "mystery"
+  },
+  {
+   "id": "S23-trap",
+   "time": "day",
+   "cam": {
+    "type": "map",
+    "from": [
+     40,
+     26,
+     -70
+    ],
+    "to": [
+     34,
+     22,
+     -62
+    ],
+    "look": [
+     16,
+     6,
+     -30
+    ],
+    "look2": [
+     18,
+     8,
+     -28
+    ],
+    "fov": 34,
+    "band": 0.5
+   },
+   "cast": {},
+   "lines": [
+    {
+     "id": "s23_n3",
+     "text": "But move the low light, and the safe line moves with it. Put it in the cliff, and the line runs straight onto the north rocks.",
+     "pause": 0.4
+    },
+    {
+     "id": "s23_n4",
+     "text": "And if the high lamp goes dark for twelve seconds, a sailor has only one light left to trust.",
+     "pause": 0.8
+    }
+   ],
+   "props": [
+    "wreck"
+   ],
+   "lead": 0.6,
+   "mood": "mystery"
+  },
+  {
+   "id": "S23-gus",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     21.4,
+     9.8,
+     -20.4
+    ],
+    "az": [
+     40,
+     30
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     5,
+     4.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      21.4,
+      -20.4
+     ],
+     "pose": "lookUp",
+     "face": "l",
+     "hero": 1,
+     "lit": 0
+    },
+    "mabel": {
+     "at": [
+      22.5,
+      -20.0
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "s23_n5",
+     "text": "Whoever did this was no wrecker. Only a keeper knows the lamp that well.",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "mystery"
+  },
+  {
+   "id": "S24-lock",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -92.6,
+     0.8,
+     -97.2
+    ],
+    "az": [
+     30,
+     38
+    ],
+    "d": [
+     6.2,
+     5.8
+    ],
+    "h": [
+     4.6,
+     4.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -93.6,
+      -97.0
+     ],
+     "pose": "fwd",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "s24_n1",
+     "text": "Back in the cave, Gus tried his own lamp key in the old brass door. It turned like it had been waiting."
+    },
+    {
+     "id": "s24_n2",
+     "text": "Two locks. Two keys. One for the lamp above, one for the lamp below.",
+     "pause": 0.6
+    }
+   ],
+   "events": [
+    {
+     "t": 2.8,
+     "kind": "lock"
+    }
+   ],
+   "lead": 1.0,
+   "mood": "tense"
+  },
+  {
+   "id": "S24-post",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -6.5,
+     1.0,
+     7.6
+    ],
+    "az": [
+     24,
+     16
+    ],
+    "d": [
+     9.4,
+     9
+    ],
+    "h": [
+     4.4,
+     4.2
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      7.4
+     ],
+     "pose": "idle",
+     "face": "r"
+    },
+    "gus": {
+     "at": [
+      -4.4,
+      8.2
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "s24_n3",
+     "text": "The second key, said the island, had always lived in the post office safe.",
+     "pause": 0.4
+    },
+    {
+     "id": "s24_n4",
+     "text": "Wren opened the safe without being asked.",
+     "pause": 0.8
+    }
+   ],
+   "lead": 0.6,
+   "mood": "tense"
+  },
+  {
+   "id": "S24-empty",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -6.2,
+     1.0,
+     7.6
+    ],
+    "az": [
+     8,
+     2
+    ],
+    "d": [
+     5.4,
+     5
+    ],
+    "h": [
+     2.5,
+     2.3
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      7.4
+     ],
+     "pose": "open",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "s24_n5",
+     "text": "Empty. A clean square in the dust where a key had lain for sixty years.",
+     "pause": 0.4
+    },
+    {
+     "id": "s24_d1",
+     "text": "I know who has it, Gus. I gave it to her myself.",
+     "dlg": "WREN",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "tense"
+  },
+  {
+   "id": "watch",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -1,
+     4.8,
+     -14
+    ],
+    "az": [
+     10,
+     4
+    ],
+    "d": [
+     9.5,
+     9
+    ],
+    "h": [
+     4.4,
+     4.2
+    ]
+   },
+   "cast": {
+    "mabel": {
+     "at": [
+      0.4,
+      -13.3
+     ],
+     "pose": "sit",
+     "face": "l",
+     "hero": 1
+    },
+    "rollo": {
+     "at": [
+      -0.8,
+      -13.2
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "w1",
+     "text": "That night Gus slept for the first time in a week. Mabel and Rollo took the watch."
+    },
+    {
+     "id": "w2",
+     "text": "Rollo watched the lamp. Mabel watched the sea. And just before dawn, Mabel’s ears went flat.",
+     "pause": 0.6
+    },
+    {
+     "id": "w3",
+     "text": "Far out, past the north rocks, a small light was moving. Toward the island. In no hurry at all.",
+     "pause": 0.8
+    }
+   ],
+   "lead": 0.8,
+   "tail": 0.8,
+   "mood": "dread"
+  },
+  {
+   "id": "S25-garden",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -6.5,
+     1.0,
+     8.2
+    ],
+    "az": [
+     -25,
+     -15
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     4.6,
+     4.3
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      8.4
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    },
+    "gus": {
+     "at": [
+      -4.6,
+      8.8
+     ],
+     "pose": "idle",
+     "face": "l",
+     "lit": 0
+    },
+    "mabel": {
+     "at": [
+      -3.6,
+      9.2
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "s25_n1",
+     "text": "They sat in the sun outside the post office, and for a long time Wren just held the locket."
+    }
+   ],
+   "lead": 1.0,
+   "mood": "dusk"
+  },
+  {
+   "id": "S25-truth",
+   "time": "day",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -6.0,
+     1.0,
+     8.4
+    ],
+    "az": [
+     -35,
+     -28
+    ],
+    "d": [
+     5.8,
+     5.4
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      8.4
+     ],
+     "pose": "open",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -4.6,
+      8.8
+     ],
+     "pose": "look",
+     "face": "l",
+     "lit": 0
+    }
+   },
+   "lines": [
+    {
+     "id": "s25_d1",
+     "text": "The night you were born, a ship hit the rocks. Your mother rowed out to it alone. She never came back.",
+     "dlg": "WREN"
+    },
+    {
+     "id": "s25_d2",
+     "text": "Except she did, Gus. This autumn. She came to my door in a yellow coat, and asked me for the key.",
+     "dlg": "WREN",
+     "pause": 0.8
+    }
+   ],
+   "lead": 0.6,
+   "mood": "dusk"
+  },
+  {
+   "id": "S25-gus",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -4.6,
+     1.0,
+     8.8
+    ],
+    "az": [
+     -34,
+     -24
+    ],
+    "d": [
+     6.6,
+     6.2
+    ],
+    "h": [
+     3.0,
+     2.8
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -4.6,
+      8.8
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1,
+     "lit": 0
+    }
+   },
+   "lines": [
+    {
+     "id": "s25_n2",
+     "text": "Gus had spent his whole life keeping a light for a mother he thought the sea had taken.",
+     "pause": 0.5
+    },
+    {
+     "id": "s25_n3",
+     "text": "The sea had given her back. And she had come home to put the light out.",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "dusk"
+  },
+  {
+   "id": "S26-ship",
+   "time": "storm",
+   "cam": {
+    "type": "map",
+    "from": [
+     -56,
+     52,
+     80
+    ],
+    "to": [
+     -48,
+     46,
+     66
+    ],
+    "look": [
+     16,
+     4,
+     -36
+    ],
+    "look2": [
+     18,
+     5,
+     -40
+    ]
+   },
+   "cast": {},
+   "lines": [
+    {
+     "id": "s26_n1",
+     "text": "The storm came in at midnight. At three, through the rain, a ship’s lights. A real ferry, full of passengers, coming home."
+    },
+    {
+     "id": "s26_n2",
+     "text": "At three eleven, Gus watched the top lamp flicker.",
+     "pause": 0.6
+    }
+   ],
+   "props": [
+    "ship"
+   ],
+   "lamp": {
+    "flicker": 9.4,
+    "len": 0.9
+   },
+   "events": [
+    {
+     "t": 3.0,
+     "kind": "flash"
+    },
+    {
+     "t": 6.5,
+     "kind": "horn"
+    }
+   ],
+   "weather": "rain",
+   "lead": 1.0,
+   "mood": "tense"
+  },
+  {
+   "id": "S26-run",
+   "time": "storm",
+   "cam": {
+    "type": "track",
+    "side": "south",
+    "h": 5.6,
+    "d": 13.5,
+    "lead": 2.4
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      3,
+      -11
+     ],
+     "to": [
+      12.2,
+      -12.6
+     ],
+     "walk": [
+      0.2,
+      5.0
+     ],
+     "pose": "walk",
+     "face": "r",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      1.6,
+      -10.6
+     ],
+     "to": [
+      10.8,
+      -12.2
+     ],
+     "walk": [
+      0.3,
+      5.2
+     ],
+     "pose": "walk",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "s26_n3",
+     "text": "He could run up ninety-one steps to the tower, or down ninety-one steps to the cave.",
+     "pause": 0.4
+    },
+    {
+     "id": "s26_n4",
+     "text": "Twelve seconds. One staircase.",
+     "pause": 0.8
+    }
+   ],
+   "lamp": "off",
+   "events": [
+    {
+     "t": 1.6,
+     "kind": "flash"
+    }
+   ],
+   "weather": "rain",
+   "lead": 0.6,
+   "mood": "tense"
+  },
+  {
+   "id": "S26-hatch",
+   "time": "storm",
+   "cam": {
+    "type": "dive",
+    "at": [
+     13.6,
+     5.0,
+     -14.4
+    ],
+    "az": [
+     -14,
+     -8
+    ],
+    "d": [
+     5,
+     4.6
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      13.4,
+      -13.6
+     ],
+     "pose": "up",
+     "face": "l",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "s26_n5",
+     "text": "He chose down.",
+     "pause": 1.2
+    }
+   ],
+   "lamp": "off",
+   "events": [
+    {
+     "t": 0.6,
+     "kind": "flash"
+    },
+    {
+     "t": 2.0,
+     "kind": "creak"
+    }
+   ],
+   "weather": "rain",
+   "lead": 0.6,
+   "tail": 1.2,
+   "mood": "tense"
+  },
+  {
+   "id": "S27-face",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -25,
+     -15
+    ],
+    "d": [
+     7.4,
+     7
+    ],
+    "h": [
+     8.8,
+     8.4
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -92.6,
+      -95.8
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -95.6,
+      -96.2
+     ],
+     "to": [
+      -94.2,
+      -96.6
+     ],
+     "walk": [
+      0.4,
+      2.4
+     ],
+     "pose": "up",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "s27_n1",
+     "text": "She was there, by the low lamp, hand on the shutter, watching the ship come on through the crack."
+    },
+    {
+     "id": "s27_n2",
+     "text": "Gus did not shout. He set his lantern down on the sand.",
+     "pause": 0.6
+    }
+   ],
+   "under": "on",
+   "lead": 1.0,
+   "mood": "dread"
+  },
+  {
+   "id": "S27-speak",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -93.4,
+     0.8,
+     -96.4
+    ],
+    "az": [
+     -150,
+     -158
+    ],
+    "d": [
+     6,
+     5.6
+    ],
+    "h": [
+     4.4,
+     4.2
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -92.6,
+      -95.8
+     ],
+     "pose": "idle",
+     "face": "r"
+    },
+    "gus": {
+     "at": [
+      -94.2,
+      -96.6
+     ],
+     "pose": "fwd",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "s27_d1",
+     "text": "You kept it lit, little one. Sixty years. I watched you every night.",
+     "dlg": "THE STRANGER"
+    },
+    {
+     "id": "s27_d2",
+     "text": "The sea has my debt. A ship for every year it gave me. Four ships. Then I am free.",
+     "dlg": "THE STRANGER",
+     "pause": 0.6
+    }
+   ],
+   "under": "on",
+   "lead": 0.6,
+   "mood": "dread"
+  },
+  {
+   "id": "S27-douse",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -40,
+     -55
+    ],
+    "d": [
+     7.6,
+     7.4
+    ],
+    "h": [
+     9,
+     8.8
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -92.6,
+      -95.8
+     ],
+     "pose": "idle",
+     "face": "r"
+    },
+    "gus": {
+     "at": [
+      -93.4,
+      -97.2
+     ],
+     "pose": "up",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "s27_n3",
+     "text": "Gus put his hand on the hot shutter, next to hers.",
+     "pause": 0.4
+    },
+    {
+     "id": "s27_n4",
+     "text": "Then the man who has never let a light go out, closed one.",
+     "pause": 1.0
+    }
+   ],
+   "under": "on",
+   "events": [
+    {
+     "t": 7.0,
+     "kind": "thump"
+    }
+   ],
+   "lead": 0.6,
+   "tail": 1.2,
+   "mood": "dread"
+  },
+  {
+   "id": "S28-ferry",
+   "time": "dawn",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -3,
+     0.6,
+     36
+    ],
+    "az": [
+     -150,
+     -160
+    ],
+    "d": [
+     12,
+     11
+    ],
+    "h": [
+     5.4,
+     5
+    ]
+   },
+   "cast": {
+    "marlo": {
+     "at": [
+      -2.4,
+      37.2
+     ],
+     "pose": "wave",
+     "face": "l",
+     "hero": 1
+    },
+    "dunn": {
+     "at": [
+      -3.2,
+      34.4
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "s28_n1",
+     "text": "Thirty-one passengers walked off the ferry at dawn and never knew how close they had come."
+    },
+    {
+     "id": "s28_n2",
+     "text": "Marlo knew. She waved at the lighthouse until her arm hurt.",
+     "pause": 0.6
+    }
+   ],
+   "lead": 1.0,
+   "mood": "dusk"
+  },
+  {
+   "id": "S28-coat",
+   "time": "dawn",
+   "cam": {
+    "type": "orbit",
+    "at": [
+     11.4,
+     1.0,
+     -46.8
+    ],
+    "az": [
+     -40,
+     -10
+    ],
+    "d": [
+     9,
+     8
+    ],
+    "h": [
+     5,
+     4.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      12.6,
+      -45.6
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1,
+     "lit": 0
+    },
+    "mabel": {
+     "at": [
+      13.6,
+      -45.2
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "s28_n3",
+     "text": "On the north rocks, Gus found the yellow coat, folded neatly, a stone on top so the wind would not take it.",
+     "pause": 0.4
+    },
+    {
+     "id": "s28_n4",
+     "text": "Under the stone, the brass key. And a fourth mark, freshly burned into the rock.",
+     "pause": 0.8
+    }
+   ],
+   "props": [
+    "wreck",
+    "coat"
+   ],
+   "lead": 0.6,
+   "mood": "dusk"
+  },
+  {
+   "id": "S28-end",
+   "time": "dawn",
+   "cam": {
+    "type": "map",
+    "from": [
+     -50,
+     44,
+     70
+    ],
+    "to": [
+     -60,
+     56,
+     84
+    ],
+    "look": [
+     10,
+     5,
+     -12
+    ],
+    "look2": [
+     8,
+     4,
+     -10
+    ],
+    "fov": 38,
+    "band": 0.45
+   },
+   "cast": {},
+   "lines": [
+    {
+     "id": "s28_n5",
+     "text": "Four marks. Three ships. The sea was still owed one.",
+     "pause": 0.6
+    },
+    {
+     "id": "s28_n6",
+     "text": "And Gus had just taken away the only person who knew how to pay it.",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.8,
+   "tail": 1.2,
+   "mood": "dusk"
+  },
+  {
+   "id": "solve2",
+   "time": "dawn",
+   "cam": {
+    "type": "orbit",
+    "at": [
+     11.4,
+     1.0,
+     -46.8
+    ],
+    "az": [
+     -10,
+     20
+    ],
+    "d": [
+     9,
+     8.4
+    ],
+    "h": [
+     5,
+     4.6
+    ]
+   },
+   "cast": {},
+   "lines": [
+    {
+     "id": "r1",
+     "text": "One more question before the end. The tale said four marks, one for each year the sea let him live."
+    },
+    {
+     "id": "r2",
+     "text": "The stranger said four ships. Count the wrecks you have seen, and count the marks.",
+     "pause": 0.4
+    }
+   ],
+   "props": [
+    "wreck",
+    "coat"
+   ],
+   "solve": {
+    "q": "If the sea is owed four, how many are still owed?",
+    "secs": 5
+   },
+   "lead": 0.6,
+   "tail": 6.2,
+   "mood": "mystery"
+  },
+  {
+   "id": "tease",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     21.4,
+     9.8,
+     -20.4
+    ],
+    "az": [
+     40,
+     30
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     5,
+     4.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      21.4,
+      -20.4
+     ],
+     "pose": "lookUp",
+     "face": "l",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      22.5,
+      -20.0
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "t1",
+     "text": "That night the lamp turned, and turned, and did not miss once."
+    },
+    {
+     "id": "t2",
+     "text": "But at three twelve, far out at sea, a horn answered it. From somewhere no ship should be.",
+     "pause": 0.6
+    }
+   ],
+   "lamp": "on",
+   "events": [
+    {
+     "t": 6.0,
+     "kind": "horn"
+    }
+   ],
+   "lead": 0.8,
+   "tail": 1.2,
+   "mood": "dusk"
+  },
+  {
+   "id": "title",
+   "time": "night",
+   "cam": {
+    "type": "map",
+    "from": [
+     -50,
+     44,
+     70
+    ],
+    "to": [
+     -60,
+     56,
+     84
+    ],
+    "look": [
+     10,
+     5,
+     -12
+    ],
+    "look2": [
+     8,
+     4,
+     -10
+    ],
+    "fov": 38
+   },
+   "cast": {},
+   "lines": [],
+   "title": {
+    "title": "THE KEEPER’S ISLAND",
+    "tag": "Chapter III · The Fourth Ship — next week",
+    "credit": "Original story, characters and music · Voices: Kokoro TTS"
+   },
+   "lamp": "on",
+   "min": 8.0,
+   "lead": 0,
+   "tail": 0,
+   "mood": "dusk"
+  }
+ ]
+}

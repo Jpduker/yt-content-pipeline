@@ -244,6 +244,19 @@ function drawCrane(P, E, p) {
 }
 const CRANE = { idle0: {}, idle1: { bob: 1 }, blink: { blink: 1 }, offer: { arm: 'offer' }, offer1: { arm: 'offer', bob: 1 }, w0: { step: 0 }, w1: { step: 1, bob: -1 }, w2: { step: 2 }, w3: { step: 3, bob: -1 } };
 
+// —— The Shade (Chapter 4): the shadow Crane left on the cave wall, walking on its own. Crane's outline in near-black, a pale glowing smile.
+// p.cap: the outline changes — a keeper's peaked cap instead of the bowler (the shadow's first owner). Casts no shadow of its own.
+function drawShade(P, E, p) {
+  drawCrane(P, E, { ...p, arm: 'cane' });
+  for (let y = 0; y < 50; y++) for (let x = 0; x < 34; x++) { const c = P.get(x, y); if (c) P.set(x, y, [8 + (y % 3), 10, 16]); }
+  const hx = 16, hy = 9 + (p.bob || 0);
+  if (p.cap) { for (let y = hy - 9; y < hy - 3; y++) for (let x = hx - 6; x < hx + 8; x++) P.set(x, y, [0, 0, 0], 0);
+    P.rect(hx - 3, hy - 7, 9, 3, [8, 10, 16]); P.rect(hx + 3, hy - 4, 6, 1, [8, 10, 16]); }   // flat cap with a peak
+  for (let x = hx + 1; x < hx + 5; x++) { P.set(x, hy + 3, [205, 230, 214]); E.set(x, hy + 3, [205, 230, 214]); }
+  P.set(hx, hy + 2, [205, 230, 214]); E.set(hx, hy + 2, [205, 230, 214]); P.set(hx + 5, hy + 2, [205, 230, 214]); E.set(hx + 5, hy + 2, [205, 230, 214]);
+  if (!p.blink) { P.set(hx + 1, hy - 1, [150, 200, 180]); P.set(hx + 4, hy - 1, [150, 200, 180]); }
+}
+const SHADE = { idle0: {}, idle1: { bob: 1 }, blink: { blink: 1 }, cap0: { cap: 1 }, cap1: { cap: 1, bob: 1 }, w0: { step: 0 }, w1: { step: 1, bob: -1 }, w2: { step: 2 }, w3: { step: 3, bob: -1 } };
 function atlas(table, draw, FW, FH) {
   const names = Object.keys(table), n = names.length, P = new PX(FW * n, FH), E = new PX(FW * n, FH);
   names.forEach((k, i) => {
@@ -296,13 +309,15 @@ export const makePip = () => simple(PIP, drawPip, 22, 18, 'pip', { blob: .2 });
 export const makeRollo = () => simple(ROLLO, drawRollo, 14, 10, 'rollo', { blob: .16 });
 export const makeMarlo = () => simple(MARLO, drawMarlo, 34, 50, 'marlo', { blob: .38 });
 export const makeCrane = () => simple(CRANE, drawCrane, 34, 50, 'crane', { blob: .36 });
-export const MAKERS = { crane: makeCrane, marlo: makeMarlo, gus: makeGus, mabel: makeMabel, dunn: makeDunn, wren: makeWren, stranger: makeStranger, pip: makePip, rollo: makeRollo };
+export const makeShade = () => { const c = simple(SHADE, drawShade, 34, 50, 'shade', { shadow: false, em: true }); c.mesh.castShadow = false; return c; };
+export const MAKERS = { shade: makeShade, crane: makeCrane, marlo: makeMarlo, gus: makeGus, mabel: makeMabel, dunn: makeDunn, wren: makeWren, stranger: makeStranger, pip: makePip, rollo: makeRollo };
 // Pose → frame name per character (walk cycles step at ~8.5 fps; idles alternate at ~1.4 Hz)
 export function poseFrame(who, pose, t, seed = 0) {
   const w = ['w0', 'w1', 'w2', 'w3'][Math.floor(t * 8.5 + seed) % 4], i2 = Math.floor(t * 1.4 + seed) % 2, bl = Math.floor(t * 8 + seed) % 29 === 0;
   if (who === 'gus') return { walk: w, idle: bl ? 'blink' : (i2 ? 'idle1' : 'idle0'), look: bl ? 'lookBlink' : (i2 ? 'look1' : 'look'), up: i2 ? 'up1' : 'up', lookUp: i2 ? 'lookUp1' : 'lookUp', fwd: 'fwd' }[pose] || 'idle0';
   if (who === 'mabel') return { walk: ['w0', 'w1', 'w2', 'w3'][Math.floor(t * 11 + seed) % 4], sit: bl ? 'sitBlink' : (Math.floor(t * .9 + seed) % 2 ? 'sit1' : 'sit0'), idle: bl ? 'standBlink' : 'stand' }[pose] || 'sit0';
   if (who === 'dunn') return { walk: w, idle: bl ? 'blink' : (i2 ? 'idle1' : 'idle0'), point: i2 ? 'point1' : 'point' }[pose] || 'idle0';
+  if (who === 'shade') return { walk: w, idle: bl ? 'blink' : (i2 ? 'idle1' : 'idle0'), cap: i2 ? 'cap1' : 'cap0' }[pose] || 'idle0';
   if (who === 'crane') return { walk: w, idle: bl ? 'blink' : (i2 ? 'idle1' : 'idle0'), offer: i2 ? 'offer1' : 'offer' }[pose] || 'idle0';
   if (who === 'marlo') return { walk: w, idle: bl ? 'blink' : (i2 ? 'idle1' : 'idle0'), wave: i2 ? 'wave1' : 'wave' }[pose] || 'idle0';
   if (who === 'wren') return { idle: bl ? 'blink' : (i2 ? 'idle1' : 'idle0'), open: i2 ? 'open1' : 'open' }[pose] || 'idle0';

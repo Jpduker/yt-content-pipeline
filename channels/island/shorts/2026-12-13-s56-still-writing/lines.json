@@ -1,0 +1,44 @@
+[
+ {
+  "id": "n1",
+  "text": "Sunday at dawn, Gus walked out to the north rocks. She was there, the way he knew she would be.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n2",
+  "text": "Two people. Two shadows. He counted twice.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "d1",
+  "text": "Your grandfather sold his shadow to Crane. Crane must have sold his own to someone, long before.",
+  "voice": "bf_isabella",
+  "speed": 1.0
+ },
+ {
+  "id": "d2",
+  "text": "A man does not live a hundred years on one shadow, Gus.",
+  "voice": "bf_isabella",
+  "speed": 1.0
+ },
+ {
+  "id": "n3",
+  "text": "That morning Dunn found Crane\u2019s grey barge drifting empty outside the harbour, and towed it in.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n4",
+  "text": "In the wheelhouse, the ledger lay open at a new page. One line, in a thin sloping hand, the ink still wet.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n5",
+  "text": "The Keeper\u2019s Island. Payable to the bearer.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]

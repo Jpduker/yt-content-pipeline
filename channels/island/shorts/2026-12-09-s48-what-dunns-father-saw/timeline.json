@@ -1,0 +1,203 @@
+{
+ "code": "S48",
+ "title": "What Dunn\u2019s father saw",
+ "label": "THE KEEPER'S ISLAND \u00b7 48",
+ "DUR": 38.49,
+ "shots": [
+  {
+   "id": "office",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     9,
+     1.0,
+     12
+    ],
+    "az": [
+     10,
+     0
+    ],
+    "d": [
+     10.5,
+     10
+    ],
+    "h": [
+     4.8,
+     4.5
+    ]
+   },
+   "cast": {
+    "dunn": {
+     "at": [
+      9.6,
+      12.2
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      7.4,
+      12.6
+     ],
+     "to": [
+      8.2,
+      12.5
+     ],
+     "walk": [
+      0.3,
+      1.8
+     ],
+     "pose": "walk",
+     "face": "r",
+     "lit": 0
+    }
+   },
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 9.436,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 6.116,
+     "sub": "Dunn had heard the name from Wren before Gus reached the quay. He was waiting with a small black diary.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "diary",
+   "time": "day",
+   "cam": {
+    "type": "dive",
+    "at": [
+     9.0,
+     1.0,
+     12.3
+    ],
+    "az": [
+     -12,
+     -4
+    ],
+    "d": [
+     6.0,
+     5.6
+    ],
+    "h": [
+     2.5,
+     2.3
+    ],
+    "lookOff": [
+     0,
+     -0.6,
+     0
+    ]
+   },
+   "cast": {
+    "dunn": {
+     "at": [
+      9.6,
+      12.2
+     ],
+     "pose": "point",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      8.2,
+      12.5
+     ],
+     "pose": "idle",
+     "face": "r",
+     "lit": 0
+    }
+   },
+   "lead": 0.6,
+   "a": 9.436,
+   "b": 24.251,
+   "vo": [
+    {
+     "id": "d1",
+     "t": 10.056,
+     "d": 6.81,
+     "sub": "My father wrote it down. Your grandfather walked off his sunk boat without a mark on him. And without a shadow.",
+     "dlg": "DUNN"
+    },
+    {
+     "id": "d2",
+     "t": 17.816,
+     "d": 5.715,
+     "sub": "Four years later, to the day, he walked back into the sea. My father said he was smiling.",
+     "dlg": "DUNN"
+    }
+   ]
+  },
+  {
+   "id": "gus",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     8.2,
+     0.9,
+     12.5
+    ],
+    "az": [
+     -34,
+     -24
+    ],
+    "d": [
+     6.6,
+     6.2
+    ],
+    "h": [
+     3.0,
+     2.8
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      8.2,
+      12.5
+     ],
+     "pose": "look",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    }
+   },
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 24.251,
+   "b": 38.49,
+   "vo": [
+    {
+     "id": "n2",
+     "t": 24.921,
+     "d": 4.151,
+     "sub": "Four years. The price his mother paid. The smile on the cave wall.",
+     "dlg": null
+    },
+    {
+     "id": "n3",
+     "t": 30.022,
+     "d": 4.168,
+     "sub": "It had never been Crane\u2019s shadow at all. Crane had only been wearing it.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "Dunn\u2019s father was harbour master in 1926. He kept a diary. Dunn kept it locked.",
+ "hookEnd": 2.3,
+ "ask": "Crane wore a stolen shadow for a hundred years. So where is his own?",
+ "askAt": 34.69,
+ "music": {
+  "mood": "mystery"
+ }
+}

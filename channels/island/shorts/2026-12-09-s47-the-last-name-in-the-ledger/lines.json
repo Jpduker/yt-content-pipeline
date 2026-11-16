@@ -1,0 +1,44 @@
+[
+ {
+  "id": "n1",
+  "text": "The lanterns held until a quarter to four. Then the dark went back into the rock, as if it had somewhere to be.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n2",
+  "text": "At noon, Wren opened the wreckers\u2019 ledger at the very last page.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "d1",
+  "text": "Nineteen twenty-six. Sold, one shadow, to S. Crane, for four years of life at sea.",
+  "voice": "bf_emma",
+  "speed": 1.0
+ },
+ {
+  "id": "d2",
+  "text": "Signed by the last of the wreckers. Your grandfather, Gus.",
+  "voice": "bf_emma",
+  "speed": 1.0
+ },
+ {
+  "id": "n3",
+  "text": "Gus had his grandfather\u2019s watch. His grandfather\u2019s cap. His grandfather\u2019s name.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n4",
+  "text": "He had never once asked what his grandfather had been.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n5",
+  "text": "Now his grandfather\u2019s shadow had come home, looking for family.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]

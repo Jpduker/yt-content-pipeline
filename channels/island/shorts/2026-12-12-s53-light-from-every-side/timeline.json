@@ -1,0 +1,208 @@
+{
+ "code": "S53",
+ "title": "Light from every side",
+ "label": "THE KEEPER'S ISLAND \u00b7 53",
+ "DUR": 41.404,
+ "shots": [
+  {
+   "id": "board",
+   "time": "dusk",
+   "cam": {
+    "type": "map",
+    "from": [
+     -40,
+     34,
+     52
+    ],
+    "to": [
+     -32,
+     28,
+     42
+    ],
+    "look": [
+     16,
+     6,
+     -30
+    ],
+    "look2": [
+     12,
+     6,
+     -14
+    ],
+    "fov": 34,
+    "band": 0.45
+   },
+   "cast": {},
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 15.522,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 4.088,
+     "sub": "Saturday at dusk, they worked it out on the back of a ferry timetable.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 7.138,
+     "d": 7.664,
+     "sub": "Every light throws a shadow on its far side. Light something from every side at once, and there is no far side left.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "path",
+   "time": "dusk",
+   "cam": {
+    "type": "track",
+    "side": "south",
+    "h": 5.4,
+    "d": 13.5,
+    "lead": 2.0
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -1.5,
+      -11
+     ],
+     "to": [
+      6,
+      -11.4
+     ],
+     "walk": [
+      0.4,
+      9
+     ],
+     "pose": "walk",
+     "face": "r",
+     "hero": 1
+    },
+    "marlo": {
+     "at": [
+      -3,
+      -10.6
+     ],
+     "to": [
+      4.5,
+      -11
+     ],
+     "walk": [
+      0.5,
+      9
+     ],
+     "pose": "walk",
+     "face": "r"
+    },
+    "dunn": {
+     "at": [
+      -4.2,
+      -10.6
+     ],
+     "to": [
+      3.2,
+      -11
+     ],
+     "walk": [
+      0.6,
+      9.1
+     ],
+     "pose": "walk",
+     "face": "r"
+    }
+   },
+   "lead": 0.6,
+   "a": 15.522,
+   "b": 28.963,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 16.142,
+     "d": 8.632,
+     "sub": "The tower above. The under-lamp below. Twelve lanterns in a ring. Wren\u2019s candle, Dunn\u2019s harbour lamp, Marlo\u2019s ferry lights.",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 25.624,
+     "d": 2.619,
+     "sub": "And Gus\u2019s lantern in the middle. As bait.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "door",
+   "time": "dusk",
+   "cam": {
+    "type": "stage",
+    "at": [
+     21.4,
+     9.8,
+     -20.4
+    ],
+    "az": [
+     40,
+     30
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     5,
+     4.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      21.4,
+      -20.4
+     ],
+     "pose": "lookUp",
+     "face": "l",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      22.5,
+      -20.0
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 28.963,
+   "b": 41.404,
+   "vo": [
+    {
+     "id": "n5",
+     "t": 29.583,
+     "d": 4.146,
+     "sub": "Wren asked who would stand in the middle when the dark came for its keeper.",
+     "dlg": null
+    },
+    {
+     "id": "n6",
+     "t": 34.679,
+     "d": 3.025,
+     "sub": "Gus said that was the job. It always had been.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "A shadow needs one dark side. They decided to take it away.",
+ "hookEnd": 2.3,
+ "ask": "Would you stand in the middle of the ring?",
+ "askAt": 38.204,
+ "music": {
+  "mood": "dusk"
+ }
+}

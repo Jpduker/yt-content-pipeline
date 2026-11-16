@@ -1,0 +1,195 @@
+{
+ "code": "S18",
+ "title": "The wreckers\u2019 light",
+ "label": "THE KEEPER'S ISLAND \u00b7 18",
+ "DUR": 33.249,
+ "shots": [
+  {
+   "id": "post",
+   "time": "dusk",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -6.5,
+     1.0,
+     7.6
+    ],
+    "az": [
+     30,
+     20
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     4.6,
+     4.3
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      7.4
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -4.4,
+      8.2
+     ],
+     "pose": "idle",
+     "face": "l"
+    }
+   },
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 9.488,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 6.168,
+     "sub": "Old Wren did not look surprised. She looked like someone who had been waiting sixty years for this visit.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "tale",
+   "time": "dusk",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -6.5,
+     1.0,
+     7.6
+    ],
+    "az": [
+     16,
+     10
+    ],
+    "d": [
+     8.6,
+     8.2
+    ],
+    "h": [
+     4.0,
+     3.8
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      7.4
+     ],
+     "pose": "open",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -4.4,
+      8.2
+     ],
+     "pose": "idle",
+     "face": "l"
+    }
+   },
+   "lead": 0.6,
+   "a": 9.488,
+   "b": 20.082,
+   "vo": [
+    {
+     "id": "d1",
+     "t": 9.908,
+     "d": 5.544,
+     "sub": "Before the tower, this island had wreckers. A false light on a stormy night, and the sea brought them a ship.",
+     "dlg": "WREN"
+    },
+    {
+     "id": "d2",
+     "t": 15.902,
+     "d": 3.46,
+     "sub": "They kept a ledger of every wreck. And every name that lit the lamp.",
+     "dlg": "WREN"
+    }
+   ]
+  },
+  {
+   "id": "book",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -5.8,
+     1.0,
+     7.8
+    ],
+    "az": [
+     -15,
+     -10
+    ],
+    "d": [
+     6,
+     5.6
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      7.4
+     ],
+     "pose": "idle",
+     "face": "r"
+    },
+    "gus": {
+     "at": [
+      -4.4,
+      8.2
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1
+    }
+   },
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 20.082,
+   "b": 33.249,
+   "vo": [
+    {
+     "id": "n2",
+     "t": 20.752,
+     "d": 6.314,
+     "sub": "She opened it at the last page. One line, sixty years old, in careful, familiar handwriting.",
+     "dlg": null
+    },
+    {
+     "id": "n3",
+     "t": 28.016,
+     "d": 1.533,
+     "sub": "It was his grandfather\u2019s.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "A hundred years ago, this island lived on shipwrecks.",
+ "hookEnd": 2.3,
+ "ask": "Whose name would you expect in a wrecker\u2019s ledger?",
+ "askAt": 30.049,
+ "music": {
+  "mood": "dusk"
+ }
+}

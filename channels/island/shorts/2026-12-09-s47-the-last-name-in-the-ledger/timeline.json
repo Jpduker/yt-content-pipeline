@@ -1,0 +1,213 @@
+{
+ "code": "S47",
+ "title": "The last name in the ledger",
+ "label": "THE KEEPER'S ISLAND \u00b7 47",
+ "DUR": 43.405,
+ "shots": [
+  {
+   "id": "garden",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -6.5,
+     1.0,
+     8.2
+    ],
+    "az": [
+     -25,
+     -15
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     4.6,
+     4.3
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      8.4
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    },
+    "gus": {
+     "at": [
+      -4.6,
+      8.8
+     ],
+     "pose": "idle",
+     "face": "l",
+     "lit": 0
+    },
+    "mabel": {
+     "at": [
+      -3.6,
+      9.2
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 14.609,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 6.87,
+     "sub": "The lanterns held until a quarter to four. Then the dark went back into the rock, as if it had somewhere to be.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 9.92,
+     "d": 3.969,
+     "sub": "At noon, Wren opened the wreckers\u2019 ledger at the very last page.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "time": "day",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -6.0,
+     1.0,
+     8.4
+    ],
+    "az": [
+     -35,
+     -28
+    ],
+    "d": [
+     5.8,
+     5.4
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      8.4
+     ],
+     "pose": "open",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -4.6,
+      8.8
+     ],
+     "pose": "look",
+     "face": "l",
+     "lit": 0
+    }
+   },
+   "lead": 0.6,
+   "a": 14.609,
+   "b": 25.057,
+   "vo": [
+    {
+     "id": "d1",
+     "t": 15.229,
+     "d": 4.832,
+     "sub": "Nineteen twenty-six. Sold, one shadow, to S. Crane, for four years of life at sea.",
+     "dlg": "WREN"
+    },
+    {
+     "id": "d2",
+     "t": 21.011,
+     "d": 3.326,
+     "sub": "Signed by the last of the wreckers. Your grandfather, Gus.",
+     "dlg": "WREN"
+    }
+   ]
+  },
+  {
+   "id": "gus",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -4.6,
+     1.0,
+     8.8
+    ],
+    "az": [
+     -34,
+     -24
+    ],
+    "d": [
+     6.6,
+     6.2
+    ],
+    "h": [
+     3.0,
+     2.8
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -4.6,
+      8.8
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1,
+     "lit": 0
+    }
+   },
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 25.057,
+   "b": 43.405,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 25.677,
+     "d": 5.223,
+     "sub": "Gus had his grandfather\u2019s watch. His grandfather\u2019s cap. His grandfather\u2019s name.",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 31.35,
+     "d": 2.982,
+     "sub": "He had never once asked what his grandfather had been.",
+     "dlg": null
+    },
+    {
+     "id": "n5",
+     "t": 35.282,
+     "d": 3.823,
+     "sub": "Now his grandfather\u2019s shadow had come home, looking for family.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "In daylight, Wren said the name. Gus had to sit down.",
+ "hookEnd": 2.3,
+ "ask": "If a shadow comes home to the family, who is left in the family but Gus?",
+ "askAt": 39.605,
+ "music": {
+  "mood": "day"
+ }
+}

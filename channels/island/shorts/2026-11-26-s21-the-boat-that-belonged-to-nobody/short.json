@@ -1,0 +1,179 @@
+{
+ "code": "S21",
+ "day": "2026-11-26",
+ "slot": 1,
+ "title": "The boat that belonged to nobody",
+ "hook": "The wrecked boat had a name. Dunn had been hiding it.",
+ "ask": "A boat named for a keeper, crewed by nobody. What was it carrying?",
+ "music": {
+  "mood": "mystery"
+ },
+ "shots": [
+  {
+   "id": "office",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     9,
+     1.0,
+     12
+    ],
+    "az": [
+     -10,
+     0
+    ],
+    "d": [
+     10.5,
+     10
+    ],
+    "h": [
+     4.8,
+     4.5
+    ]
+   },
+   "cast": {
+    "dunn": {
+     "at": [
+      9.6,
+      12.2
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      7.4,
+      12.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "lit": 0
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "Gus put the locket on Dunn’s desk and said nothing. It worked better than shouting."
+    },
+    {
+     "id": "n2",
+     "text": "Dunn sighed, unlocked a drawer, and took out the wrecked boat’s registry plate.",
+     "pause": 0.6
+    }
+   ],
+   "lead": 1.0
+  },
+  {
+   "id": "plate",
+   "time": "day",
+   "cam": {
+    "type": "dive",
+    "at": [
+     8.6,
+     1.0,
+     12.4
+    ],
+    "az": [
+     -5,
+     2
+    ],
+    "d": [
+     5.6,
+     5.2
+    ],
+    "h": [
+     2.5,
+     2.3
+    ]
+   },
+   "cast": {
+    "dunn": {
+     "at": [
+      9.6,
+      12.2
+     ],
+     "pose": "point",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      7.4,
+      12.6
+     ],
+     "pose": "look",
+     "face": "r",
+     "lit": 0
+    }
+   },
+   "lines": [
+    {
+     "id": "d1",
+     "text": "No owner. No port. No crew. Just a name painted on the bow.",
+     "dlg": "DUNN"
+    },
+    {
+     "id": "d2",
+     "text": "She was called the Keeper’s Daughter.",
+     "dlg": "DUNN",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.6
+  },
+  {
+   "id": "rocks",
+   "time": "day",
+   "cam": {
+    "type": "orbit",
+    "at": [
+     13,
+     1.2,
+     -45
+    ],
+    "az": [
+     -140,
+     -115
+    ],
+    "d": [
+     15,
+     13
+    ],
+    "h": [
+     6.5,
+     5.8
+    ]
+   },
+   "cast": {
+    "pip": {
+     "at": [
+      14.5,
+      -47
+     ],
+     "pose": "idle",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "n3",
+     "text": "Gus never had a sister. His mother was the keeper’s only daughter.",
+     "pause": 0.5
+    },
+    {
+     "id": "n4",
+     "text": "And she was lost at sea the night he was born.",
+     "pause": 1.0
+    }
+   ],
+   "props": [
+    "wreck"
+   ],
+   "lead": 0.6,
+   "tail": 1.0
+  }
+ ],
+ "label": "THE KEEPER'S ISLAND · 21"
+}

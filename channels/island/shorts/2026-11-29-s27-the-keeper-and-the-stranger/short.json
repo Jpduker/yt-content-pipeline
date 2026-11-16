@@ -1,0 +1,191 @@
+{
+ "code": "S27",
+ "day": "2026-11-29",
+ "slot": 1,
+ "title": "The keeper and the stranger",
+ "hook": "Mother and son, a hand apart, and a lamp between them.",
+ "ask": "She called him \"little one\". After sixty years. Would you forgive her?",
+ "askLen": 3.8,
+ "music": {
+  "mood": "dread"
+ },
+ "shots": [
+  {
+   "id": "face",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -25,
+     -15
+    ],
+    "d": [
+     7.4,
+     7
+    ],
+    "h": [
+     8.8,
+     8.4
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -92.6,
+      -95.8
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -95.6,
+      -96.2
+     ],
+     "to": [
+      -94.2,
+      -96.6
+     ],
+     "walk": [
+      0.4,
+      2.4
+     ],
+     "pose": "up",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "She was there, by the low lamp, hand on the shutter, watching the ship come on through the crack."
+    },
+    {
+     "id": "n2",
+     "text": "Gus did not shout. He set his lantern down on the sand.",
+     "pause": 0.6
+    }
+   ],
+   "under": "on",
+   "lead": 1.0
+  },
+  {
+   "id": "speak",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -93.4,
+     0.8,
+     -96.4
+    ],
+    "az": [
+     -150,
+     -158
+    ],
+    "d": [
+     6,
+     5.6
+    ],
+    "h": [
+     4.4,
+     4.2
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -92.6,
+      -95.8
+     ],
+     "pose": "idle",
+     "face": "r"
+    },
+    "gus": {
+     "at": [
+      -94.2,
+      -96.6
+     ],
+     "pose": "fwd",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "d1",
+     "text": "You kept it lit, little one. Sixty years. I watched you every night.",
+     "dlg": "THE STRANGER"
+    },
+    {
+     "id": "d2",
+     "text": "The sea has my debt. A ship for every year it gave me. Four ships. Then I am free.",
+     "dlg": "THE STRANGER",
+     "pause": 0.6
+    }
+   ],
+   "under": "on",
+   "lead": 0.6
+  },
+  {
+   "id": "douse",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -40,
+     -55
+    ],
+    "d": [
+     7.6,
+     7.4
+    ],
+    "h": [
+     9,
+     8.8
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -92.6,
+      -95.8
+     ],
+     "pose": "idle",
+     "face": "r"
+    },
+    "gus": {
+     "at": [
+      -93.4,
+      -97.2
+     ],
+     "pose": "up",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "n3",
+     "text": "Gus put his hand on the hot shutter, next to hers.",
+     "pause": 0.4
+    },
+    {
+     "id": "n4",
+     "text": "Then the man who has never let a light go out, closed one.",
+     "pause": 1.0
+    }
+   ],
+   "under": "on",
+   "events": [
+    {
+     "t": 7.0,
+     "kind": "thump"
+    }
+   ],
+   "lead": 0.6,
+   "tail": 1.2
+  }
+ ],
+ "label": "THE KEEPER'S ISLAND · 27"
+}

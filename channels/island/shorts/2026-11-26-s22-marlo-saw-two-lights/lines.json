@@ -1,0 +1,26 @@
+[
+ {
+  "id": "n1",
+  "text": "Marlo runs the ferry. She is twenty-two, she has crossed this water four thousand times, and nobody on the council has ever asked her a thing.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "d1",
+  "text": "That night I was out late. I saw the lamp go dark. Twelve seconds. Then I saw the other one.",
+  "voice": "af_nova",
+  "speed": 1.0
+ },
+ {
+  "id": "d2",
+  "text": "Low, by the water. Steady. And that boat turned toward it like it had been told to.",
+  "voice": "af_nova",
+  "speed": 1.0
+ },
+ {
+  "id": "n2",
+  "text": "Two lights. One high, one low. Gus closed his eyes and saw the whole thing at once.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]

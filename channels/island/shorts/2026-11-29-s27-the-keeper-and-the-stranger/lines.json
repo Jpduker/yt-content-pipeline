@@ -1,0 +1,38 @@
+[
+ {
+  "id": "n1",
+  "text": "She was there, by the low lamp, hand on the shutter, watching the ship come on through the crack.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n2",
+  "text": "Gus did not shout. He set his lantern down on the sand.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "d1",
+  "text": "You kept it lit, little one. Sixty years. I watched you every night.",
+  "voice": "bf_isabella",
+  "speed": 1.0
+ },
+ {
+  "id": "d2",
+  "text": "The sea has my debt. A ship for every year it gave me. Four ships. Then I am free.",
+  "voice": "bf_isabella",
+  "speed": 1.0
+ },
+ {
+  "id": "n3",
+  "text": "Gus put his hand on the hot shutter, next to hers.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n4",
+  "text": "Then the man who has never let a light go out, closed one.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]

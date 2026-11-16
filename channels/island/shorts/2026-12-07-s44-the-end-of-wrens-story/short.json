@@ -1,0 +1,199 @@
+{
+ "code": "S44",
+ "day": "2026-12-07",
+ "slot": 2,
+ "title": "The end of Wren’s story",
+ "hook": "Old Wren told Gus the end of the story. The part she always skipped.",
+ "ask": "Whose family sold the shadow? And why won’t Wren say the name?",
+ "askLen": 3.6,
+ "music": {
+  "mood": "dusk"
+ },
+ "shots": [
+  {
+   "id": "post",
+   "time": "dusk",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -6.5,
+     1.0,
+     7.6
+    ],
+    "az": [
+     30,
+     20
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     4.6,
+     4.3
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      7.4
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -4.4,
+      8.2
+     ],
+     "pose": "idle",
+     "face": "l",
+     "lit": 1
+    },
+    "mabel": {
+     "at": [
+      -3.2,
+      8.6
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "The post office smelled of candle wax and other people’s letters. Wren was waiting, as if she had heard."
+    }
+   ],
+   "lead": 1.0
+  },
+  {
+   "id": "tale",
+   "time": "dusk",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -6.5,
+     1.0,
+     7.6
+    ],
+    "az": [
+     18,
+     12
+    ],
+    "d": [
+     8.6,
+     8.2
+    ],
+    "h": [
+     4.0,
+     3.8
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      7.4
+     ],
+     "pose": "open",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -4.4,
+      8.2
+     ],
+     "pose": "idle",
+     "face": "l"
+    },
+    "mabel": {
+     "at": [
+      -3.2,
+      8.6
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "d1",
+     "text": "The man who sold his shadow sold it to a buyer in a pale suit. Your Mr Crane.",
+     "dlg": "WREN",
+     "pause": 0.4
+    },
+    {
+     "id": "d2",
+     "text": "And a shadow without its master does one thing, Gus. It goes home. To the family that sold it.",
+     "dlg": "WREN",
+     "pause": 0.9
+    }
+   ],
+   "lead": 0.6
+  },
+  {
+   "id": "dark",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -4.4,
+     1.0,
+     8.2
+    ],
+    "az": [
+     -70,
+     -62
+    ],
+    "d": [
+     5.6,
+     5.2
+    ],
+    "h": [
+     2.4,
+     2.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -4.4,
+      8.2
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      -3.2,
+      8.6
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "n2",
+     "text": "Gus asked her the man’s name.",
+     "pause": 0.6
+    },
+    {
+     "id": "n3",
+     "text": "Wren blew out the candle instead. Some names, she said, you only say in daylight.",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.6,
+   "tail": 1.0
+  }
+ ],
+ "thumb": "an old woman in a violet shawl and round spectacles blowing out a candle in a cosy post office at dusk, an old keeper leaning in to listen",
+ "thumbText": "SAY THE NAME",
+ "label": "THE KEEPER'S ISLAND · 44"
+}

@@ -1,0 +1,32 @@
+[
+ {
+  "id": "n1",
+  "text": "Here is the trick. A ship coming home lines up two lights, one behind and above the other.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n2",
+  "text": "When the high light sits right on top of the low one, you are in the safe channel. Every sailor knows it.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n3",
+  "text": "But move the low light, and the safe line moves with it. Put it in the cliff, and the line runs straight onto the north rocks.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n4",
+  "text": "And if the high lamp goes dark for twelve seconds, a sailor has only one light left to trust.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n5",
+  "text": "Whoever did this was no wrecker. Only a keeper knows the lamp that well.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]

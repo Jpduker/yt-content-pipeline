@@ -1,0 +1,590 @@
+[
+ {
+  "id": "c1",
+  "text": "Every shadow has an owner.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "c2",
+  "text": "This one was going home.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "p1",
+  "text": "Previously, on the Keeper\u2019s Island.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "p2",
+  "text": "A man who never aged came to collect four ships. Gus\u2019s mother burned his contract in the cave, and the sea took Silas Crane.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "p3",
+  "text": "But his shadow stayed behind, on the wall. Smiling.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s43_n1",
+  "text": "Monday. The quay was busy for the first time since the storm. Parcels, nets, gossip.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s43_n2",
+  "text": "Gus counted people out of habit. Seven. Then he counted shadows.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s43_n3",
+  "text": "Eight. The eighth had nobody standing over it.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s43_n4",
+  "text": "It stood on its own at the empty berth where the barge had been. Upright. Wearing a bowler hat.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s43_n5",
+  "text": "Nobody else on the quay saw it. Or nobody else would say.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s43_n6",
+  "text": "When Gus looked again, the berth was empty, and the noon sun shone straight through where it had stood.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s44_n1",
+  "text": "The post office smelled of candle wax and other people\u2019s letters. Wren was waiting, as if she had heard.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s44_d1",
+  "text": "The man who sold his shadow sold it to a buyer in a pale suit. Your Mr Crane.",
+  "voice": "bf_emma",
+  "speed": 1.0
+ },
+ {
+  "id": "s44_d2",
+  "text": "And a shadow without its master does one thing, Gus. It goes home. To the family that sold it.",
+  "voice": "bf_emma",
+  "speed": 1.0
+ },
+ {
+  "id": "s44_n2",
+  "text": "Gus asked her the man\u2019s name.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s44_n3",
+  "text": "Wren blew out the candle instead. Some names, she said, you only say in daylight.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s45_n1",
+  "text": "At midnight the window of the post office went dark. Then the harbour office. Then the lamp by the jetty.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s45_n2",
+  "text": "Not blown out. Swallowed. As if something had walked past each one and taken the light with it.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s45_n3",
+  "text": "From the cottage step, Gus watched the dark come up the cliff path. Lamp by lamp. Toward him.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s45_n4",
+  "text": "Mabel\u2019s tail went thick as a rope.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s45_n5",
+  "text": "Then his own flame leaned away from the path, the way a candle leans from a cold door.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s45_n6",
+  "text": "Just beyond the light, something was standing. Waiting for it to go out.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s46_n1",
+  "text": "Marlo had watched the lights die from the jetty, and run the whole cliff path with every lantern off the ferry.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s46_n2",
+  "text": "Twelve lanterns, in a ring around the cottage, an arm\u2019s length apart.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s46_n3",
+  "text": "At the edge of the ring, the dark stopped. It pressed against the light, the way the sea presses against a wall.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s46_n4",
+  "text": "And in the dark, something smiled.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s46_n5",
+  "text": "It could not come in. Not while the lanterns burned.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s46_n6",
+  "text": "Marlo checked the oil. She did not say how much was left. She did not have to.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "k1",
+  "text": "The next night Gus kept the lamp himself, on the step below it, with the ring of lanterns still burning in his eyes.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "k2",
+  "text": "A shadow that walks. A shadow that cannot cross light. A shadow that goes home to the family that sold it.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "k3",
+  "text": "And a family name Wren would only say in daylight.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s47_n1",
+  "text": "The lanterns held until a quarter to four. Then the dark went back into the rock, as if it had somewhere to be.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s47_n2",
+  "text": "At noon, Wren opened the wreckers\u2019 ledger at the very last page.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s47_d1",
+  "text": "Nineteen twenty-six. Sold, one shadow, to S. Crane, for four years of life at sea.",
+  "voice": "bf_emma",
+  "speed": 1.0
+ },
+ {
+  "id": "s47_d2",
+  "text": "Signed by the last of the wreckers. Your grandfather, Gus.",
+  "voice": "bf_emma",
+  "speed": 1.0
+ },
+ {
+  "id": "s47_n3",
+  "text": "Gus had his grandfather\u2019s watch. His grandfather\u2019s cap. His grandfather\u2019s name.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s47_n4",
+  "text": "He had never once asked what his grandfather had been.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s47_n5",
+  "text": "Now his grandfather\u2019s shadow had come home, looking for family.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s48_n1",
+  "text": "Dunn had heard the name from Wren before Gus reached the quay. He was waiting with a small black diary.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s48_d1",
+  "text": "My father wrote it down. Your grandfather walked off his sunk boat without a mark on him. And without a shadow.",
+  "voice": "bm_george",
+  "speed": 1.0
+ },
+ {
+  "id": "s48_d2",
+  "text": "Four years later, to the day, he walked back into the sea. My father said he was smiling.",
+  "voice": "bm_george",
+  "speed": 1.0
+ },
+ {
+  "id": "s48_n2",
+  "text": "Four years. The price his mother paid. The smile on the cave wall.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s48_n3",
+  "text": "It had never been Crane\u2019s shadow at all. Crane had only been wearing it.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "q1",
+  "text": "Pause here. The shadow came home to the family that sold it.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "q2",
+  "text": "Gus\u2019s grandfather sold it in 1926. His grandfather is gone. His mother has her own shadow back.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s49_n1",
+  "text": "Thursday, low tide. Marlo rowed them in through the crack, oars shipped, the cave glowing green around them.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s49_n2",
+  "text": "On the wall where the smile had been, there was only wet rock.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s49_n3",
+  "text": "Rollo found the only thing it had left behind.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s49_n4",
+  "text": "A dent in the sand, the shape of a bowler hat. And a long dark stain, as if something had been dragged toward the water.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s49_n5",
+  "text": "Toward the deep pool at the back of the cave. The one Mabel will not go near.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s50_n1",
+  "text": "Gus knelt at the pool with his lantern. Under the surface, something darker than the water turned over.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s50_n2",
+  "text": "Then a hand made of nothing but shadow closed around the light, and pulled.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s50_n3",
+  "text": "Gus went with it. Knees, then hands, then the cold.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s50_n4",
+  "text": "And Mabel, who sits down very fast for fish and fear, did neither. She jumped.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s50_n5",
+  "text": "She came up with her teeth in his collar and the lantern still lit, and hauled until Marlo could grab them both.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s50_n6",
+  "text": "But the flame it had touched had gone thin and pale, like a lamp seen through ice.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s51_n1",
+  "text": "Pip had a theory. Gulls usually do. At noon he would count every person on the island, and every shadow.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s51_n2",
+  "text": "Two hundred and six people. Two hundred and seven shadows.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s51_n3",
+  "text": "He found the extra one on the cliff path. It was walking beside Gus, step for step, close enough to hold his hand.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s51_n4",
+  "text": "Gus had two shadows now. One of them wore a hat.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s51_n5",
+  "text": "Pip told Gus. Gus did not turn around.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s51_n6",
+  "text": "He said he had felt it since the pool. Cold, on his left side, like standing too close to the sea.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s52_n1",
+  "text": "Gus had not seen his mother since the ferry came home. At midnight she was at the end of the jetty, facing the sea.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s52_n2",
+  "text": "Her shadow lay on the boards beside her, small and ordinary. She seemed to be keeping an eye on it.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s52_d1",
+  "text": "It wants a keeper, Gus. It belonged to one once. It will take yours, and your light with it.",
+  "voice": "bf_isabella",
+  "speed": 1.0
+ },
+ {
+  "id": "s52_d2",
+  "text": "A shadow must fall away from its light. Give it nowhere to fall.",
+  "voice": "bf_isabella",
+  "speed": 1.0
+ },
+ {
+  "id": "s52_n3",
+  "text": "Then she stepped off the end of the jetty, and the sea closed over her like a door.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s52_n4",
+  "text": "Gus stood there while the lamp came round three times. Nowhere to fall.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "w1",
+  "text": "That night Gus slept with his lantern lit, for the first time since he was a boy.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "w2",
+  "text": "Mabel slept on his chest. She had not left his side since the pool, and she was not about to start.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s53_n1",
+  "text": "Saturday at dusk, they worked it out on the back of a ferry timetable.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s53_n2",
+  "text": "Every light throws a shadow on its far side. Light something from every side at once, and there is no far side left.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s53_n3",
+  "text": "The tower above. The under-lamp below. Twelve lanterns in a ring. Wren\u2019s candle, Dunn\u2019s harbour lamp, Marlo\u2019s ferry lights.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s53_n4",
+  "text": "And Gus\u2019s lantern in the middle. As bait.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s53_n5",
+  "text": "Wren asked who would stand in the middle when the dark came for its keeper.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s53_n6",
+  "text": "Gus said that was the job. It always had been.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "r1",
+  "text": "One last pause. A shadow always falls away from its light.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "r2",
+  "text": "The tower above. The cave lamp below. A ring of lanterns all round. And Gus in the middle.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s54_n1",
+  "text": "At three o\u2019clock the island looked like a birthday cake. Every window, every lantern, the tower, the ferry, all burning at once.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s54_n2",
+  "text": "At the foot of the tower, Gus stood alone in the ring, and waited.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s54_n3",
+  "text": "At three twelve, the dark came up out of the door in the rock and crossed the grass toward him.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s54_n4",
+  "text": "It reached the first lantern, and its edge went thin as paper.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s54_n5",
+  "text": "Light from the tower. Light from below. Light from every side.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s54_n6",
+  "text": "The shadow turned, and turned, looking for somewhere to fall. There was nowhere left.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s55_n1",
+  "text": "In the middle of all that light, the bowler hat came apart like smoke.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s55_n2",
+  "text": "What was left wore a flat cap with a peak. A keeper\u2019s cap. The one hanging by Gus\u2019s door.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s55_n3",
+  "text": "Gus said the only word he could think of.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s55_d1",
+  "text": "Grandad.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s55_n4",
+  "text": "The shadow knelt, the way a tired man kneels, and the smile went out of it.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s55_n5",
+  "text": "Then it slid down the steps, under the door in the rock, and away toward the sea. Not hunting. Going home.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s55_n6",
+  "text": "At four the lanterns burned out one by one, and there was nothing left in the dark to wait for them.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s56_n1",
+  "text": "Sunday at dawn, Gus walked out to the north rocks. She was there, the way he knew she would be.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s56_n2",
+  "text": "Two people. Two shadows. He counted twice.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s56_d1",
+  "text": "Your grandfather sold his shadow to Crane. Crane must have sold his own to someone, long before.",
+  "voice": "bf_isabella",
+  "speed": 1.0
+ },
+ {
+  "id": "s56_d2",
+  "text": "A man does not live a hundred years on one shadow, Gus.",
+  "voice": "bf_isabella",
+  "speed": 1.0
+ },
+ {
+  "id": "s56_n3",
+  "text": "That morning Dunn found Crane\u2019s grey barge drifting empty outside the harbour, and towed it in.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s56_n4",
+  "text": "In the wheelhouse, the ledger lay open at a new page. One line, in a thin sloping hand, the ink still wet.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "s56_n5",
+  "text": "The Keeper\u2019s Island. Payable to the bearer.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]

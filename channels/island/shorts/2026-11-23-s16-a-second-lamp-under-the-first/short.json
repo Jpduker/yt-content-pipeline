@@ -1,0 +1,162 @@
+{
+ "code": "S16",
+ "day": "2026-11-23",
+ "slot": 2,
+ "title": "A second lamp under the first",
+ "hook": "Someone built a lighthouse under the lighthouse.",
+ "ask": "Why would anyone need a second lamp… pointed at the rocks?",
+ "music": {
+  "mood": "mystery"
+ },
+ "shots": [
+  {
+   "id": "plinth",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     10,
+     30
+    ],
+    "d": [
+     7,
+     6.4
+    ],
+    "h": [
+     8.4,
+     8
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -95.5,
+      -96.6
+     ],
+     "to": [
+      -93.6,
+      -97.0
+     ],
+     "walk": [
+      0.3,
+      2.6
+     ],
+     "pose": "up",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "On a stone block at the water’s edge stood something Gus knew better than his own face."
+    },
+    {
+     "id": "n2",
+     "text": "A lamp. Brass, lens, wick. A keeper’s lamp, smaller and older than his own.",
+     "pause": 0.6
+    }
+   ],
+   "lead": 1.0
+  },
+  {
+   "id": "touch",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -92.8,
+     0.8,
+     -97.2
+    ],
+    "az": [
+     35,
+     45
+    ],
+    "d": [
+     6.5,
+     6
+    ],
+    "h": [
+     4.6,
+     4.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -93.6,
+      -97.0
+     ],
+     "pose": "fwd",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "n3",
+     "text": "He laid his hand on the glass.",
+     "pause": 0.4
+    },
+    {
+     "id": "n4",
+     "text": "It was warm.",
+     "pause": 1.2
+    },
+    {
+     "id": "n5",
+     "text": "Somebody had lit this lamp tonight, while the real one was dark.",
+     "pause": 0.4
+    }
+   ],
+   "lead": 0.6
+  },
+  {
+   "id": "crack",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -40,
+     -55
+    ],
+    "d": [
+     8,
+     7.6
+    ],
+    "h": [
+     9.4,
+     9
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -93.6,
+      -97.0
+     ],
+     "pose": "look",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "n6",
+     "text": "And its lens was not pointed at the sky. It faced a crack in the rock, a slit that opened onto the sea…",
+     "pause": 0.5
+    },
+    {
+     "id": "n7",
+     "text": "straight at the north rocks.",
+     "pause": 1.0
+    }
+   ],
+   "under": 0.2,
+   "lead": 0.6,
+   "tail": 1.0
+  }
+ ],
+ "label": "THE KEEPER'S ISLAND · 16"
+}

@@ -1,0 +1,183 @@
+{
+ "code": "S25",
+ "day": "2026-11-28",
+ "slot": 1,
+ "title": "Wren’s promise",
+ "hook": "Wren kept one secret for sixty years. Today she broke her promise.",
+ "ask": "If your mother were alive, and lighting false lamps… what would you do?",
+ "askLen": 3.8,
+ "music": {
+  "mood": "dusk"
+ },
+ "shots": [
+  {
+   "id": "garden",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -6.5,
+     1.0,
+     8.2
+    ],
+    "az": [
+     -25,
+     -15
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     4.6,
+     4.3
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      8.4
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    },
+    "gus": {
+     "at": [
+      -4.6,
+      8.8
+     ],
+     "pose": "idle",
+     "face": "l",
+     "lit": 0
+    },
+    "mabel": {
+     "at": [
+      -3.6,
+      9.2
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "They sat in the sun outside the post office, and for a long time Wren just held the locket."
+    }
+   ],
+   "lead": 1.0
+  },
+  {
+   "id": "truth",
+   "time": "day",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -6.0,
+     1.0,
+     8.4
+    ],
+    "az": [
+     -35,
+     -28
+    ],
+    "d": [
+     5.8,
+     5.4
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      8.4
+     ],
+     "pose": "open",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -4.6,
+      8.8
+     ],
+     "pose": "look",
+     "face": "l",
+     "lit": 0
+    }
+   },
+   "lines": [
+    {
+     "id": "d1",
+     "text": "The night you were born, a ship hit the rocks. Your mother rowed out to it alone. She never came back.",
+     "dlg": "WREN"
+    },
+    {
+     "id": "d2",
+     "text": "Except she did, Gus. This autumn. She came to my door in a yellow coat, and asked me for the key.",
+     "dlg": "WREN",
+     "pause": 0.8
+    }
+   ],
+   "lead": 0.6
+  },
+  {
+   "id": "gus",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -4.6,
+     1.0,
+     8.8
+    ],
+    "az": [
+     -34,
+     -24
+    ],
+    "d": [
+     6.6,
+     6.2
+    ],
+    "h": [
+     3.0,
+     2.8
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -4.6,
+      8.8
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1,
+     "lit": 0
+    }
+   },
+   "lines": [
+    {
+     "id": "n2",
+     "text": "Gus had spent his whole life keeping a light for a mother he thought the sea had taken.",
+     "pause": 0.5
+    },
+    {
+     "id": "n3",
+     "text": "The sea had given her back. And she had come home to put the light out.",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.6,
+   "tail": 1.0
+  }
+ ],
+ "label": "THE KEEPER'S ISLAND · 25"
+}

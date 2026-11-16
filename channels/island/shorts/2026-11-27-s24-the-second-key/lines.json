@@ -1,0 +1,38 @@
+[
+ {
+  "id": "n1",
+  "text": "Back in the cave, Gus tried his own lamp key in the old brass door. It turned like it had been waiting.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n2",
+  "text": "Two locks. Two keys. One for the lamp above, one for the lamp below.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n3",
+  "text": "The second key, said the island, had always lived in the post office safe.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n4",
+  "text": "Wren opened the safe without being asked.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n5",
+  "text": "Empty. A clean square in the dust where a key had lain for sixty years.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "d1",
+  "text": "I know who has it, Gus. I gave it to her myself.",
+  "voice": "bf_emma",
+  "speed": 1.0
+ }
+]

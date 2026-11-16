@@ -1,0 +1,184 @@
+{
+ "code": "S16",
+ "title": "A second lamp under the first",
+ "label": "THE KEEPER'S ISLAND \u00b7 16",
+ "DUR": 36.835,
+ "shots": [
+  {
+   "id": "plinth",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     10,
+     30
+    ],
+    "d": [
+     7,
+     6.4
+    ],
+    "h": [
+     8.4,
+     8
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -95.5,
+      -96.6
+     ],
+     "to": [
+      -93.6,
+      -97.0
+     ],
+     "walk": [
+      0.3,
+      2.6
+     ],
+     "pose": "up",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 13.677,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 5.104,
+     "sub": "On a stone block at the water\u2019s edge stood something Gus knew better than his own face.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 8.154,
+     "d": 4.803,
+     "sub": "A lamp. Brass, lens, wick. A keeper\u2019s lamp, smaller and older than his own.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "touch",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -92.8,
+     0.8,
+     -97.2
+    ],
+    "az": [
+     35,
+     45
+    ],
+    "d": [
+     6.5,
+     6
+    ],
+    "h": [
+     4.6,
+     4.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -93.6,
+      -97.0
+     ],
+     "pose": "fwd",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "lead": 0.6,
+   "a": 13.677,
+   "b": 23.054,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 14.297,
+     "d": 1.7,
+     "sub": "He laid his hand on the glass.",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 17.047,
+     "d": 0.974,
+     "sub": "It was warm.",
+     "dlg": null
+    },
+    {
+     "id": "n5",
+     "t": 18.471,
+     "d": 3.863,
+     "sub": "Somebody had lit this lamp tonight, while the real one was dark.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "crack",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -40,
+     -55
+    ],
+    "d": [
+     8,
+     7.6
+    ],
+    "h": [
+     9.4,
+     9
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -93.6,
+      -97.0
+     ],
+     "pose": "look",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "under": 0.2,
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 23.054,
+   "b": 36.835,
+   "vo": [
+    {
+     "id": "n6",
+     "t": 23.724,
+     "d": 6.963,
+     "sub": "And its lens was not pointed at the sky. It faced a crack in the rock, a slit that opened onto the sea\u2026",
+     "dlg": null
+    },
+    {
+     "id": "n7",
+     "t": 31.637,
+     "d": 1.498,
+     "sub": "straight at the north rocks.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "Someone built a lighthouse under the lighthouse.",
+ "hookEnd": 2.3,
+ "ask": "Why would anyone need a second lamp\u2026 pointed at the rocks?",
+ "askAt": 33.635,
+ "music": {
+  "mood": "mystery"
+ }
+}

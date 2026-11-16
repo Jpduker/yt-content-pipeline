@@ -1,0 +1,207 @@
+{
+ "code": "S50",
+ "day": "2026-12-10",
+ "slot": 2,
+ "title": "Mabel and the water",
+ "hook": "Mabel has never touched sea water. Today she jumped in.",
+ "ask": "It wanted the lantern, not Gus. What does a shadow want with light?",
+ "askLen": 3.6,
+ "music": {
+  "mood": "dread"
+ },
+ "shots": [
+  {
+   "id": "pool",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -60,
+     -45
+    ],
+    "d": [
+     8,
+     7.6
+    ],
+    "h": [
+     9.6,
+     9.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -91.8,
+      -90.6
+     ],
+     "pose": "fwd",
+     "face": "l",
+     "hero": 1
+    },
+    "marlo": {
+     "at": [
+      -90.4,
+      -89.8
+     ],
+     "pose": "idle",
+     "face": "l"
+    },
+    "mabel": {
+     "at": [
+      -92.8,
+      -89.6
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "Gus knelt at the pool with his lantern. Under the surface, something darker than the water turned over."
+    },
+    {
+     "id": "n2",
+     "text": "Then a hand made of nothing but shadow closed around the light, and pulled.",
+     "pause": 0.6
+    }
+   ],
+   "events": [
+    {
+     "t": 7.0,
+     "kind": "splash"
+    }
+   ],
+   "lead": 1.0
+  },
+  {
+   "id": "jump",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "az": [
+     55,
+     62
+    ],
+    "d": [
+     5.4,
+     5
+    ],
+    "h": [
+     3.8,
+     3.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -91.8,
+      -90.6
+     ],
+     "pose": "fwd",
+     "face": "l",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      -90.6,
+      -89.6
+     ],
+     "to": [
+      -92.2,
+      -90.4
+     ],
+     "walk": [
+      3.4,
+      4.2
+     ],
+     "pose": "walk",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "n3",
+     "text": "Gus went with it. Knees, then hands, then the cold.",
+     "pause": 0.4
+    },
+    {
+     "id": "n4",
+     "text": "And Mabel, who sits down very fast for fish and fear, did neither. She jumped.",
+     "pause": 0.8
+    }
+   ],
+   "events": [
+    {
+     "t": 4.2,
+     "kind": "splash"
+    }
+   ],
+   "lead": 0.6
+  },
+  {
+   "id": "out",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -172,
+     -164
+    ],
+    "d": [
+     6.6,
+     6.2
+    ],
+    "h": [
+     3.6,
+     3.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -94,
+      -87.4
+     ],
+     "pose": "up",
+     "face": "l",
+     "hero": 1,
+     "lit": 0.4
+    },
+    "mabel": {
+     "at": [
+      -93.0,
+      -87.0
+     ],
+     "pose": "sit",
+     "face": "l"
+    },
+    "marlo": {
+     "at": [
+      -92.6,
+      -86.6
+     ],
+     "pose": "idle",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "n5",
+     "text": "She came up with her teeth in his collar and the lantern still lit, and hauled until Marlo could grab them both.",
+     "pause": 0.4
+    },
+    {
+     "id": "n6",
+     "text": "But the flame it had touched had gone thin and pale, like a lamp seen through ice.",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.6,
+   "tail": 1.0
+  }
+ ],
+ "thumb": "a grey cat leaping toward a dark glowing pool in a sea cave to grab an old keeper by the collar, a shadowy hand reaching up from the water toward his lantern",
+ "thumbText": "SHE JUMPED",
+ "label": "THE KEEPER'S ISLAND · 50"
+}

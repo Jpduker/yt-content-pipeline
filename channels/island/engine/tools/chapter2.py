@@ -34,7 +34,7 @@ shots += [shot('recap', 'night', { 'type': 'map', 'from': [-58, 54, 82], 'to': [
                 L('p4', 'Three days were up. And Gus walked into the dark on purpose.', pause=.4)], lamp='off', lead=.8, tail=.8, mood='mystery')]
 shots += take('S15') + take('S16') + take('S17') + take('S18')
 # Bridge: Gus at the lamp room at dawn, remembering his mother
-shots += [shot('memory', 'dawn', { 'type': 'orbit', 'at': [21, 19.5, -24], 'az': [30, 0], 'd': [12, 10], 'h': [2.5, 1.5], 'fov': 28 }, { 'gus': { 'at': [21.4, -20.4], 'pose': 'lookUp', 'face': 'l', 'lit': 0 } },
+shots += [shot('memory', 'dawn', { 'type': 'map', 'from': [40, 26, -70], 'to': [34, 22, -62], 'look': [16, 6, -30], 'look2': [18, 8, -28], 'fov': 34, 'band': .5 }, { 'gus': { 'at': [21.4, -20.4], 'pose': 'lookUp', 'face': 'l', 'lit': 0 } },
                [L('m1', 'Gus never knew his mother. He knew a photograph, a yellow coat on a hook, and one sentence everyone on the island repeated.'),
                 L('m2', 'She rowed out into the storm the night you were born, and the sea kept her.', pause=.5),
                 L('m3', 'He had kept the lamp lit for thirty years so the sea would never keep anyone else.', pause=.8)], lead=.8, tail=.8, mood='dusk')]

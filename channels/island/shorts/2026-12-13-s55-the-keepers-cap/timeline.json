@@ -1,0 +1,211 @@
+{
+ "code": "S55",
+ "title": "The keeper\u2019s cap",
+ "label": "THE KEEPER'S ISLAND \u00b7 55",
+ "DUR": 42.643,
+ "shots": [
+  {
+   "id": "shape",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     22.2,
+     9.8,
+     -19.0
+    ],
+    "az": [
+     55,
+     62
+    ],
+    "d": [
+     6,
+     5.6
+    ],
+    "h": [
+     2.4,
+     2.2
+    ]
+   },
+   "cast": {
+    "shade": {
+     "at": [
+      22.6,
+      -18.6
+     ],
+     "pose": "cap",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      21.0,
+      -19.6
+     ],
+     "pose": "look",
+     "face": "r"
+    }
+   },
+   "ringAt": [
+    21.2,
+    9.2,
+    -19.4,
+    3.2
+   ],
+   "lamp": "on",
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 13.854,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 3.924,
+     "sub": "In the middle of all that light, the bowler hat came apart like smoke.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 7.374,
+     "d": 5.76,
+     "sub": "What was left wore a flat cap with a peak. A keeper\u2019s cap. The one hanging by Gus\u2019s door.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "name",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     21.6,
+     9.8,
+     -19.2
+    ],
+    "az": [
+     30,
+     22
+    ],
+    "d": [
+     7.6,
+     7.2
+    ],
+    "h": [
+     3.2,
+     3.0
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      21.0,
+      -19.6
+     ],
+     "pose": "fwd",
+     "face": "r",
+     "hero": 1
+    },
+    "shade": {
+     "at": [
+      22.6,
+      -18.6
+     ],
+     "pose": "cap",
+     "face": "l"
+    }
+   },
+   "ringAt": [
+    21.2,
+    9.2,
+    -19.4,
+    3.2
+   ],
+   "lamp": "on",
+   "lead": 0.6,
+   "a": 13.854,
+   "b": 24.504,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 14.524,
+     "d": 2.145,
+     "sub": "Gus said the only word he could think of.",
+     "dlg": null
+    },
+    {
+     "id": "d1",
+     "t": 17.619,
+     "d": 0.829,
+     "sub": "Grandad.",
+     "dlg": "GUS"
+    },
+    {
+     "id": "n4",
+     "t": 19.298,
+     "d": 4.486,
+     "sub": "The shadow knelt, the way a tired man kneels, and the smile went out of it.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "home",
+   "time": "night",
+   "cam": {
+    "type": "map",
+    "from": [
+     -30,
+     24,
+     30
+    ],
+    "to": [
+     -26,
+     20,
+     22
+    ],
+    "look": [
+     16,
+     4,
+     -20
+    ],
+    "look2": [
+     14,
+     3,
+     -24
+    ],
+    "fov": 34,
+    "band": 0.45
+   },
+   "cast": {},
+   "lamp": "on",
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 24.504,
+   "b": 42.643,
+   "vo": [
+    {
+     "id": "n5",
+     "t": 25.124,
+     "d": 6.537,
+     "sub": "Then it slid down the steps, under the door in the rock, and away toward the sea. Not hunting. Going home.",
+     "dlg": null
+    },
+    {
+     "id": "n6",
+     "t": 32.611,
+     "d": 5.732,
+     "sub": "At four the lanterns burned out one by one, and there was nothing left in the dark to wait for them.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "Cornered in the light, the shadow changed shape. Gus knew that shape.",
+ "hookEnd": 2.3,
+ "ask": "It was his grandfather all along. So who did Crane\u2019s own shadow go to?",
+ "askAt": 38.843,
+ "music": {
+  "mood": "dusk"
+ }
+}

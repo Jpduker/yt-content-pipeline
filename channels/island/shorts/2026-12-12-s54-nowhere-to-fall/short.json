@@ -1,0 +1,194 @@
+{
+ "code": "S54",
+ "day": "2026-12-12",
+ "slot": 2,
+ "title": "Nowhere to fall",
+ "hook": "Three twelve. The old hour. Every light on the island was already burning.",
+ "ask": "A shadow with nowhere to fall. What happens to it?",
+ "music": {
+  "mood": "dread"
+ },
+ "shots": [
+  {
+   "id": "island",
+   "time": "night",
+   "cam": {
+    "type": "map",
+    "from": [
+     -50,
+     44,
+     70
+    ],
+    "to": [
+     -44,
+     38,
+     60
+    ],
+    "look": [
+     10,
+     5,
+     -12
+    ],
+    "look2": [
+     14,
+     6,
+     -16
+    ],
+    "fov": 36,
+    "band": 0.45
+   },
+   "cast": {},
+   "lines": [
+    {
+     "id": "n1",
+     "text": "At three o’clock the island looked like a birthday cake. Every window, every lantern, the tower, the ferry, all burning at once."
+    },
+    {
+     "id": "n2",
+     "text": "At the foot of the tower, Gus stood alone in the ring, and waited.",
+     "pause": 0.6
+    }
+   ],
+   "lamp": "on",
+   "lead": 1.0
+  },
+  {
+   "id": "come",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     21.4,
+     9.8,
+     -20.4
+    ],
+    "az": [
+     40,
+     30
+    ],
+    "d": [
+     11,
+     10.4
+    ],
+    "h": [
+     5.2,
+     4.8
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      21.0,
+      -19.6
+     ],
+     "pose": "up",
+     "face": "r",
+     "hero": 1
+    },
+    "shade": {
+     "at": [
+      25.6,
+      -16.8
+     ],
+     "to": [
+      23.4,
+      -18.2
+     ],
+     "walk": [
+      0.5,
+      5.0
+     ],
+     "pose": "walk",
+     "face": "l"
+    }
+   },
+   "lines": [
+    {
+     "id": "n3",
+     "text": "At three twelve, the dark came up out of the door in the rock and crossed the grass toward him.",
+     "pause": 0.4
+    },
+    {
+     "id": "n4",
+     "text": "It reached the first lantern, and its edge went thin as paper.",
+     "pause": 0.8
+    }
+   ],
+   "ringAt": [
+    21.2,
+    9.2,
+    -19.4,
+    3.2
+   ],
+   "lamp": "on",
+   "lead": 0.6
+  },
+  {
+   "id": "turn",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     22.2,
+     9.8,
+     -19.0
+    ],
+    "az": [
+     55,
+     62
+    ],
+    "d": [
+     6,
+     5.6
+    ],
+    "h": [
+     2.4,
+     2.2
+    ]
+   },
+   "cast": {
+    "shade": {
+     "at": [
+      23.4,
+      -18.2
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      21.0,
+      -19.6
+     ],
+     "pose": "up",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "n5",
+     "text": "Light from the tower. Light from below. Light from every side.",
+     "pause": 0.4
+    },
+    {
+     "id": "n6",
+     "text": "The shadow turned, and turned, looking for somewhere to fall. There was nowhere left.",
+     "pause": 1.0
+    }
+   ],
+   "ringAt": [
+    21.2,
+    9.2,
+    -19.4,
+    3.2
+   ],
+   "lamp": "on",
+   "lead": 0.6,
+   "tail": 1.0
+  }
+ ],
+ "thumb": "a lighthouse at night surrounded by a ring of lanterns, a black smiling silhouette trapped in the circle of light facing an old keeper",
+ "thumbText": "3:12",
+ "label": "THE KEEPER'S ISLAND · 54"
+}

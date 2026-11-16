@@ -1,0 +1,32 @@
+[
+ {
+  "id": "n1",
+  "text": "Dunn had heard the name from Wren before Gus reached the quay. He was waiting with a small black diary.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "d1",
+  "text": "My father wrote it down. Your grandfather walked off his sunk boat without a mark on him. And without a shadow.",
+  "voice": "bm_george",
+  "speed": 1.0
+ },
+ {
+  "id": "d2",
+  "text": "Four years later, to the day, he walked back into the sea. My father said he was smiling.",
+  "voice": "bm_george",
+  "speed": 1.0
+ },
+ {
+  "id": "n2",
+  "text": "Four years. The price his mother paid. The smile on the cave wall.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n3",
+  "text": "It had never been Crane\u2019s shadow at all. Crane had only been wearing it.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]

@@ -1,0 +1,190 @@
+{
+ "code": "S19",
+ "day": "2026-11-25",
+ "slot": 1,
+ "title": "Waiting in the dark harbour",
+ "hook": "This time, they would be waiting when the lamp went out.",
+ "ask": "Someone just walked out of the sea. Would you stay hidden?",
+ "music": {
+  "mood": "tense"
+ },
+ "shots": [
+  {
+   "id": "hide",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -20,
+     -10
+    ],
+    "d": [
+     7.6,
+     7.2
+    ],
+    "h": [
+     9,
+     8.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -99.6,
+      -100.2
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1,
+     "lit": 0.25
+    },
+    "mabel": {
+     "at": [
+      -100.4,
+      -99.6
+     ],
+     "pose": "sit",
+     "face": "r"
+    },
+    "rollo": {
+     "at": [
+      -98.6,
+      -100.6
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "Three o’clock. Gus, Mabel, and Rollo, who had insisted, crouched behind the crates."
+    },
+    {
+     "id": "n2",
+     "text": "The lantern was turned down to a bead. Nobody breathed loudly. Rollo had brought snacks.",
+     "pause": 0.8
+    }
+   ],
+   "lead": 1.0
+  },
+  {
+   "id": "water",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     10,
+     25
+    ],
+    "d": [
+     8,
+     7.4
+    ],
+    "h": [
+     8.6,
+     8.2
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -94.0,
+      -85.8
+     ],
+     "to": [
+      -93.8,
+      -90.0
+     ],
+     "walk": [
+      2.0,
+      6.0
+     ],
+     "pose": "walk",
+     "face": "l",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "n3",
+     "text": "Three eleven. The water moved.",
+     "pause": 1.0
+    },
+    {
+     "id": "n4",
+     "text": "Something rose out of it. A hood. Shoulders. A yellow coat, streaming wet, walking up the shelf as if the sea were a staircase.",
+     "pause": 0.4
+    }
+   ],
+   "events": [
+    {
+     "t": 2.0,
+     "kind": "splash"
+    }
+   ],
+   "lead": 0.6
+  },
+  {
+   "id": "light",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -30,
+     -40
+    ],
+    "d": [
+     7.4,
+     7
+    ],
+    "h": [
+     8.8,
+     8.4
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -92.8,
+      -95.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -99.6,
+      -100.2
+     ],
+     "pose": "look",
+     "face": "r",
+     "lit": 0.25
+    }
+   },
+   "lines": [
+    {
+     "id": "n5",
+     "text": "Three twelve. Far above, the real lamp went dark.",
+     "pause": 0.6
+    },
+    {
+     "id": "n6",
+     "text": "And down here, the stranger lit the other one.",
+     "pause": 1.0
+    }
+   ],
+   "under": 6.2,
+   "events": [
+    {
+     "t": 6.2,
+     "kind": "match"
+    }
+   ],
+   "lead": 0.6,
+   "tail": 1.0
+  }
+ ],
+ "label": "THE KEEPER'S ISLAND · 19"
+}

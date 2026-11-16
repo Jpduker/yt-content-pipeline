@@ -36,7 +36,7 @@ S.append(dict(code='S16', day='2026-11-23', slot=2, title='A second lamp under t
 # ---------------------------------------------------------------- Tue 24
 S.append(dict(code='S17', day='2026-11-24', slot=1, title='Pip finds the slit in the cliff', hook='From the sea, the cliff has an eye. Only gulls had ever seen it.',
   ask='Two lights, one high, one low. Which one would you steer by?', music={ 'mood': 'day' }, shots=[
-  shot('fly', 'day', { 'type': 'top', 'h': [15, 13], 'fov': 42 }, { 'pip': { 'at': [-2, -30], 'to': [16, -52], 'pose': 'fly', 'y': 13, 'hero': 1, 'fly': 1 } }, [
+  shot('fly', 'day', { 'type': 'stage', 'az': [-35, -25], 'd': [9, 8], 'h': [2.4, 2] }, { 'pip': { 'at': [-2, -26], 'to': [12, -42], 'pose': 'fly', 'y': 8, 'hero': 1, 'fly': 1 } }, [
     L('n1', 'At sunrise Pip was sent out with one job. Find where that light comes out.'), L('n2', 'He circled the north cliff eleven times, mostly to be admired.', pause=.6)], lead=1.0),
   shot('cliff', 'day', { 'type': 'stage', 'at': [12, 1.5, -44], 'az': [-150, -135], 'd': [14, 12.5], 'h': [5.5, 5] }, { 'pip': { 'at': [10.5, -42.5], 'pose': 'idle', 'face': 'r', 'hero': 1 } }, [
     L('n3', 'On the twelfth, he saw it. A slit in the rock just above the waterline, black, the width of a door.', pause=.4),
@@ -69,7 +69,7 @@ S.append(dict(code='S20', day='2026-11-25', slot=2, title='Rollo sneezes', hook=
   ask='A locket with Gus’s face… as a baby. Who keeps that?', music={ 'mood': 'tense' }, shots=[
   shot('wait', 'cave', CAVECAM(CA(-1, .6, -3.5), (-15, -5), (8, 7.6), (9.2, 8.8)), { 'stranger': { 'at': C(2.2, -.6), 'pose': 'idle', 'face': 'r' }, 'gus': { 'at': C(-4.6, -5.2), 'pose': 'look', 'face': 'r', 'hero': 1, 'lit': .25 }, 'rollo': { 'at': C(-3.6, -5.6), 'pose': 'idle', 'face': 'r' } }, [
     L('n1', 'The stranger stood by the lamp and counted. Gus could see the hood move. One. Two. Three.'), L('n2', 'Nine seconds in, Rollo sneezed.', pause=1.2)], under='on', lead=1.0),
-  shot('turn', 'cave', { 'type': 'dive', 'at': CA(2.2, .8, -.6), 'az': [-150, -160], 'd': [6.4, 6], 'h': [4.4, 4.2] }, { 'stranger': { 'at': C(2.2, -.6), 'to': C(1.6, 6.5), 'walk': [1.6, 5.0], 'pose': 'walk', 'face': 'l', 'hero': 1 } }, [
+  shot('turn', 'cave', { 'type': 'dive', 'az': [-80, -90], 'd': [7, 6.4], 'h': [3.6, 3.4] }, { 'stranger': { 'at': C(2.2, -.6), 'to': C(1.6, 6.5), 'walk': [1.6, 5.0], 'pose': 'walk', 'face': 'l', 'hero': 1 } }, [
     L('n3', 'The hood turned. Not toward the noise. Toward Gus. As if the stranger had known all along exactly where he was.', pause=.4),
     L('n4', 'Then a splash, a ring of green light on the water, and nothing.', pause=.6)], under='on', events=[{ 't': 5.0, 'kind': 'splash' }], lead=.6),
   shot('sand', 'cave', { 'type': 'dive', 'at': CA(1.6, .4, 4.2), 'az': [-20, -12], 'd': [5.4, 5], 'h': [3.8, 3.6] }, { 'rollo': { 'at': C(1.0, 3.8), 'pose': 'idle', 'face': 'r', 'hero': 1 }, 'gus': { 'at': C(-.2, 3.0), 'pose': 'fwd', 'face': 'r' } }, [
@@ -99,7 +99,7 @@ S.append(dict(code='S22', day='2026-11-26', slot=2, title='Marlo saw two lights'
 # ---------------------------------------------------------------- Fri 27
 S.append(dict(code='S23', day='2026-11-27', slot=1, title='Leading lights', hook='Sailors have trusted this trick for three hundred years. Someone turned it into a trap.',
   ask='Now you know how. But who would wreck a ship named for her own family?', askLen=3.8, music={ 'mood': 'mystery' }, shots=[
-  shot('board', 'day', { 'type': 'top', 'at': [12, 1, -30], 'h': [26, 24], 'fov': 44 }, {}, [
+  shot('board', 'day', { 'type': 'map', 'from': [-40, 34, 52], 'to': [-32, 28, 42], 'look': [16, 6, -34], 'fov': 34, 'band': .45 }, {}, [
     L('n1', 'Here is the trick. A ship coming home lines up two lights, one behind and above the other.'),
     L('n2', 'When the high light sits right on top of the low one, you are in the safe channel. Every sailor knows it.', pause=.5)], props=['wreck'], lead=1.0),
   shot('trap', 'day', { 'type': 'map', 'from': [40, 26, -70], 'to': [34, 22, -62], 'look': [16, 6, -30], 'look2': [18, 8, -28], 'fov': 34, 'band': .5 }, {}, [
@@ -125,7 +125,7 @@ S.append(dict(code='S25', day='2026-11-28', slot=1, title='Wren’s promise', ho
   shot('truth', 'day', { 'type': 'dive', 'at': [-6.0, 1.0, 8.4], 'az': [-35, -28], 'd': [5.8, 5.4], 'h': [2.6, 2.4] }, { 'wren': { 'at': [-6.9, 8.4], 'pose': 'open', 'face': 'r', 'hero': 1 }, 'gus': { 'at': [-4.6, 8.8], 'pose': 'look', 'face': 'l', 'lit': 0 } }, [
     L('d1', 'The night you were born, a ship hit the rocks. Your mother rowed out to it alone. She never came back.', dlg='WREN'),
     L('d2', 'Except she did, Gus. This autumn. She came to my door in a yellow coat, and asked me for the key.', dlg='WREN', pause=.8)], lead=.6),
-  shot('gus', 'day', { 'type': 'stage', 'at': [-4.6, 1.0, 8.8], 'az': [-160, -150], 'd': [8, 7.6], 'h': [3.8, 3.6] }, { 'gus': { 'at': [-4.6, 8.8], 'pose': 'look', 'face': 'l', 'hero': 1, 'lit': 0 } }, [
+  shot('gus', 'day', { 'type': 'stage', 'at': [-4.6, 1.0, 8.8], 'az': [-34, -24], 'd': [6.6, 6.2], 'h': [3.0, 2.8] }, { 'gus': { 'at': [-4.6, 8.8], 'pose': 'look', 'face': 'l', 'hero': 1, 'lit': 0 } }, [
     L('n2', 'Gus had spent his whole life keeping a light for a mother he thought the sea had taken.', pause=.5), L('n3', 'The sea had given her back. And she had come home to put the light out.', pause=1.0)], lead=.6, tail=1.0),
 ]))
 S.append(dict(code='S26', day='2026-11-28', slot=2, title='A ship in the storm', hook='Storm. Three o’clock. A real ship this time, with people on it.',

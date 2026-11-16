@@ -1,0 +1,210 @@
+{
+ "code": "S52",
+ "title": "She came back to the jetty",
+ "label": "THE KEEPER'S ISLAND \u00b7 52",
+ "DUR": 42.655,
+ "shots": [
+  {
+   "id": "jetty",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -3,
+     0.6,
+     36
+    ],
+    "az": [
+     -150,
+     -160
+    ],
+    "d": [
+     11,
+     10.4
+    ],
+    "h": [
+     5,
+     4.8
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -2.6,
+      38.4
+     ],
+     "pose": "idle",
+     "face": "l",
+     "shadow": true
+    },
+    "gus": {
+     "at": [
+      -3.4,
+      35.2
+     ],
+     "to": [
+      -3.0,
+      36.8
+     ],
+     "walk": [
+      0.3,
+      2.6
+     ],
+     "pose": "walk",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 17.157,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 7.081,
+     "sub": "Gus had not seen his mother since the ferry came home. At midnight she was at the end of the jetty, facing the sea.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 10.131,
+     "d": 6.306,
+     "sub": "Her shadow lay on the boards beside her, small and ordinary. She seemed to be keeping an eye on it.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "warn",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -2.8,
+     0.6,
+     37.6
+    ],
+    "az": [
+     -170,
+     -176
+    ],
+    "d": [
+     5.6,
+     5.2
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -2.6,
+      38.4
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1,
+     "shadow": true
+    },
+    "gus": {
+     "at": [
+      -3.0,
+      36.8
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "lead": 0.6,
+   "a": 17.157,
+   "b": 28.0,
+   "vo": [
+    {
+     "id": "d1",
+     "t": 17.777,
+     "d": 5.048,
+     "sub": "It wants a keeper, Gus. It belonged to one once. It will take yours, and your light with it.",
+     "dlg": "THE STRANGER"
+    },
+    {
+     "id": "d2",
+     "t": 23.775,
+     "d": 3.505,
+     "sub": "A shadow must fall away from its light. Give it nowhere to fall.",
+     "dlg": "THE STRANGER"
+    }
+   ]
+  },
+  {
+   "id": "gone",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -3.0,
+     0.6,
+     36.8
+    ],
+    "az": [
+     -20,
+     -12
+    ],
+    "d": [
+     5.6,
+     5.2
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -3.0,
+      36.8
+     ],
+     "pose": "look",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "events": [
+    {
+     "t": 1.2,
+     "kind": "splash"
+    }
+   ],
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 28.0,
+   "b": 42.655,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 28.67,
+     "d": 4.638,
+     "sub": "Then she stepped off the end of the jetty, and the sea closed over her like a door.",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 34.258,
+     "d": 4.097,
+     "sub": "Gus stood there while the lamp came round three times. Nowhere to fall.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "At midnight, the woman in the yellow coat came back. She had one thing to say.",
+ "hookEnd": 2.3,
+ "ask": "A shadow has to fall away from a light. How do you give it nowhere to fall?",
+ "askAt": 38.855,
+ "music": {
+  "mood": "mystery"
+ }
+}

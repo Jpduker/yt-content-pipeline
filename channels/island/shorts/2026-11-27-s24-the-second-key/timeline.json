@@ -1,0 +1,192 @@
+{
+ "code": "S24",
+ "title": "The second key",
+ "label": "THE KEEPER'S ISLAND \u00b7 24",
+ "DUR": 37.2,
+ "shots": [
+  {
+   "id": "lock",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -92.6,
+     0.8,
+     -97.2
+    ],
+    "az": [
+     30,
+     38
+    ],
+    "d": [
+     6.2,
+     5.8
+    ],
+    "h": [
+     4.6,
+     4.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -93.6,
+      -97.0
+     ],
+     "pose": "fwd",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "events": [
+    {
+     "t": 2.8,
+     "kind": "lock"
+    }
+   ],
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 14.679,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 6.457,
+     "sub": "Back in the cave, Gus tried his own lamp key in the old brass door. It turned like it had been waiting.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 9.507,
+     "d": 4.452,
+     "sub": "Two locks. Two keys. One for the lamp above, one for the lamp below.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "post",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -6.5,
+     1.0,
+     7.6
+    ],
+    "az": [
+     24,
+     16
+    ],
+    "d": [
+     9.4,
+     9
+    ],
+    "h": [
+     4.4,
+     4.2
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      7.4
+     ],
+     "pose": "idle",
+     "face": "r"
+    },
+    "gus": {
+     "at": [
+      -4.4,
+      8.2
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    }
+   },
+   "lead": 0.6,
+   "a": 14.679,
+   "b": 23.89,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 15.299,
+     "d": 4.604,
+     "sub": "The second key, said the island, had always lived in the post office safe.",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 20.753,
+     "d": 2.417,
+     "sub": "Wren opened the safe without being asked.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "empty",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -6.2,
+     1.0,
+     7.6
+    ],
+    "az": [
+     8,
+     2
+    ],
+    "d": [
+     5.4,
+     5
+    ],
+    "h": [
+     2.5,
+     2.3
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      7.4
+     ],
+     "pose": "open",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 23.89,
+   "b": 37.2,
+   "vo": [
+    {
+     "id": "n5",
+     "t": 24.51,
+     "d": 4.431,
+     "sub": "Empty. A clean square in the dust where a key had lain for sixty years.",
+     "dlg": null
+    },
+    {
+     "id": "d1",
+     "t": 29.891,
+     "d": 3.009,
+     "sub": "I know who has it, Gus. I gave it to her myself.",
+     "dlg": "WREN"
+    }
+   ]
+  }
+ ],
+ "hook": "The under-lamp has a lock. Only a keeper\u2019s key fits it.",
+ "hookEnd": 2.3,
+ "ask": "Sixty years in a safe, and gone the week the wrecks began. Who took it?",
+ "askAt": 33.4,
+ "music": {
+  "mood": "tense"
+ }
+}

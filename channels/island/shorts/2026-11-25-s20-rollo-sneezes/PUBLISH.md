@@ -1,0 +1,32 @@
+# S20 · Rollo sneezes
+**Upload:** 2026-11-25 · slot 2 of 2 (slot 1 ≈ 17:00, slot 2 ≈ 21:00 Berlin; keep the order, the story is serial) · **Shorts, 9:16, 46 s**
+**File:** final/2026-11-25-s20-rollo-sneezes.mp4 · audience: **not made for kids** (general; mystery tone) · comments on · Related video: previous part
+
+## Title (≤100 chars)
+Rollo sneezes | The Keeper's Island, part 20
+
+## Description
+Twelve seconds of silence. Rollo lasted nine.
+
+The Keeper's Island · Chapter 2, part 6. One island, one lighthouse, one keeper who swears it isn't him. Every episode continues the story; every clue is on screen before it matters. New parts every day.
+
+Previous part → the Short before this one · next part → tomorrow.
+Made entirely in code: hand-drawn pixel characters inside a lit 3D miniature. Original story, characters and music. Narration by Kokoro TTS.
+
+#Shorts #mystery #lighthouse #pixelart #storytime #animation #keepersisland
+
+## Tags
+the keeper's island, lighthouse mystery, pixel art story, animated short story, mystery shorts, storytime animation, cozy mystery, serial story, lighthouse keeper, riddle story, pixel art animation, diorama, island mystery, cliffhanger, chapter 2 part 6
+
+## Pinned comment (post right after upload)
+A locket with Gus’s face… as a baby. Who keeps that?  — Part 21 tomorrow. All clues are already on screen.
+
+## Thumbnail (Gemini prompt — Shorts mostly show frame 1, but set it anyway)
+Vertical 9:16 illustration, pixel-art characters standing like paper cut-outs inside a lit, fogged 3D miniature diorama seen from a high three-quarter angle with a tilt-shift blur band, heavy vignette, strong bloom on every lamp. Scene: a tiny mouse on black sand holding up a silver locket on a chain, glowing water behind, an old keeper staring. Palette: cold blue night (or pale daylight where stated) against warm amber practicals; the old keeper wears a sea-green oilskin coat, mustard scarf, navy wool cap, white beard. No text, no logos, no game references. Leave the top 20 % and bottom 25 % uncluttered.
+Text to add yourself (Cinzel-like serif, gold, 2–4 words): **THE LOCKET**
+
+## Credits (keep in the project; not needed in the description)
+Voices: Kokoro TTS (am_michael narrator). Music: original cue rendered with lemo-opuscar's sampler (VSCO2 CE / Salamander samples, CC0 / CC-BY-3.0 — see tools/lemo-opuscar/core/audio/instruments/*/LICENSE). Engine: lemo-opuscar 2.5D Pixel Art (MIT code); our own world, cast and story.
+
+## Story so far (for the next writer)
+Twelve seconds of silence. Rollo lasted nine. → A locket with Gus’s face… as a baby. Who keeps that?

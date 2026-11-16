@@ -1,0 +1,210 @@
+{
+ "code": "S19",
+ "title": "Waiting in the dark harbour",
+ "label": "THE KEEPER'S ISLAND \u00b7 19",
+ "DUR": 39.508,
+ "shots": [
+  {
+   "id": "hide",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -20,
+     -10
+    ],
+    "d": [
+     7.6,
+     7.2
+    ],
+    "h": [
+     9,
+     8.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -99.6,
+      -100.2
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1,
+     "lit": 0.25
+    },
+    "mabel": {
+     "at": [
+      -100.4,
+      -99.6
+     ],
+     "pose": "sit",
+     "face": "r"
+    },
+    "rollo": {
+     "at": [
+      -98.6,
+      -100.6
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 15.622,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 5.393,
+     "sub": "Three o\u2019clock. Gus, Mabel, and Rollo, who had insisted, crouched behind the crates.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 8.843,
+     "d": 6.059,
+     "sub": "The lantern was turned down to a bead. Nobody breathed loudly. Rollo had brought snacks.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "water",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     10,
+     25
+    ],
+    "d": [
+     8,
+     7.4
+    ],
+    "h": [
+     8.6,
+     8.2
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -94.0,
+      -85.8
+     ],
+     "to": [
+      -93.8,
+      -90.0
+     ],
+     "walk": [
+      2.0,
+      6.0
+     ],
+     "pose": "walk",
+     "face": "l",
+     "hero": 1
+    }
+   },
+   "events": [
+    {
+     "t": 2.0,
+     "kind": "splash"
+    }
+   ],
+   "lead": 0.6,
+   "a": 15.622,
+   "b": 27.977,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 16.542,
+     "d": 2.019,
+     "sub": "Three eleven. The water moved.",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 19.011,
+     "d": 8.246,
+     "sub": "Something rose out of it. A hood. Shoulders. A yellow coat, streaming wet, walking up the shelf as if the sea were a staircase.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "light",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -30,
+     -40
+    ],
+    "d": [
+     7.4,
+     7
+    ],
+    "h": [
+     8.8,
+     8.4
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -92.8,
+      -95.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -99.6,
+      -100.2
+     ],
+     "pose": "look",
+     "face": "r",
+     "lit": 0.25
+    }
+   },
+   "under": 6.2,
+   "events": [
+    {
+     "t": 6.2,
+     "kind": "match"
+    }
+   ],
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 27.977,
+   "b": 39.508,
+   "vo": [
+    {
+     "id": "n5",
+     "t": 28.697,
+     "d": 3.389,
+     "sub": "Three twelve. Far above, the real lamp went dark.",
+     "dlg": null
+    },
+    {
+     "id": "n6",
+     "t": 33.036,
+     "d": 2.772,
+     "sub": "And down here, the stranger lit the other one.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "This time, they would be waiting when the lamp went out.",
+ "hookEnd": 2.3,
+ "ask": "Someone just walked out of the sea. Would you stay hidden?",
+ "askAt": 36.308,
+ "music": {
+  "mood": "tense"
+ }
+}

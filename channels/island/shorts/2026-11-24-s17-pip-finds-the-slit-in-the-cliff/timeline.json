@@ -1,0 +1,198 @@
+{
+ "code": "S17",
+ "title": "Pip finds the slit in the cliff",
+ "label": "THE KEEPER'S ISLAND \u00b7 17",
+ "DUR": 39.825,
+ "shots": [
+  {
+   "id": "fly",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -35,
+     -25
+    ],
+    "d": [
+     9,
+     8
+    ],
+    "h": [
+     2.4,
+     2
+    ]
+   },
+   "cast": {
+    "pip": {
+     "at": [
+      -2,
+      -26
+     ],
+     "to": [
+      12,
+      -42
+     ],
+     "pose": "fly",
+     "y": 8,
+     "hero": 1,
+     "fly": 1
+    }
+   },
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 12.577,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 4.714,
+     "sub": "At sunrise Pip was sent out with one job. Find where that light comes out.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 7.764,
+     "d": 4.093,
+     "sub": "He circled the north cliff eleven times, mostly to be admired.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "cliff",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     12,
+     1.5,
+     -44
+    ],
+    "az": [
+     -150,
+     -135
+    ],
+    "d": [
+     14,
+     12.5
+    ],
+    "h": [
+     5.5,
+     5
+    ]
+   },
+   "cast": {
+    "pip": {
+     "at": [
+      10.5,
+      -42.5
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "props": [
+    "wreck"
+   ],
+   "lead": 0.8,
+   "a": 12.577,
+   "b": 26.25,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 13.337,
+     "d": 6.111,
+     "sub": "On the twelfth, he saw it. A slit in the rock just above the waterline, black, the width of a door.",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 20.298,
+     "d": 5.232,
+     "sub": "From out at sea, a light in there would sit low and steady. Right below the lighthouse.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "report",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -1.2,
+     4.8,
+     -13.4
+    ],
+    "az": [
+     20,
+     12
+    ],
+    "d": [
+     9.5,
+     9
+    ],
+    "h": [
+     4.4,
+     4.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -1.2,
+      -13.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    },
+    "pip": {
+     "at": [
+      0.6,
+      -13.2
+     ],
+     "pose": "idle",
+     "face": "l"
+    },
+    "mabel": {
+     "at": [
+      -2.4,
+      -13.2
+     ],
+     "pose": "sit",
+     "face": "r"
+    }
+   },
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 26.25,
+   "b": 39.825,
+   "vo": [
+    {
+     "id": "n5",
+     "t": 26.92,
+     "d": 5.976,
+     "sub": "Gus went very quiet. Every keeper knows what two lights, one above the other, mean to a sailor.",
+     "dlg": null
+    },
+    {
+     "id": "n6",
+     "t": 33.846,
+     "d": 2.279,
+     "sub": "They mean: line us up, and you are safe.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "From the sea, the cliff has an eye. Only gulls had ever seen it.",
+ "hookEnd": 2.3,
+ "ask": "Two lights, one high, one low. Which one would you steer by?",
+ "askAt": 36.625,
+ "music": {
+  "mood": "day"
+ }
+}

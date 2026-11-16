@@ -37,15 +37,15 @@ S.append(dict(code='S03', day='2026-11-17', slot=1, title='The lamp-room clock i
     L('n1', 'Gus climbed to the lamp room at noon. The first thing he checked was the clock.'), L('n2', 'Twelve seconds slow. Exactly twelve.', pause=.9)], lead=1.2, tail=.8),
   shot('door', 'day', { 'type': 'stage', 'az': [60, 50], 'd': [9, 8.5], 'h': [4.5, 4.2] }, { 'gus': { 'at': [20.2, -19.6], 'to': [21.6, -20.6], 'walk': [.5, 2.2], 'pose': 'look', 'face': 'l', 'hero': 1, 'lit': 0 }, 'mabel': { 'at': [23, -19.4], 'pose': 'sit', 'face': 'l' } }, [
     L('n3', 'A clock does not lose twelve seconds on its own. Somebody had stopped the pendulum, and started it again.', pause=.4),
-    L('n4', 'On the stairs, still damp, were footprints. Webbed ones.', pause=1.0)], props=['prints'], lead=.8, tail=.8),
+    L('n4', 'On the stairs, still damp, were footprints. Webbed ones.', pause=1.0)], props=['prints'], printsAt=[22.4, 9.3, -19.4], printsCol='#3a5a6a', lead=.8, tail=.8),
   shot('prints', 'day', { 'type': 'dive', 'at': [21.6, 9.6, -20.6], 'az': [95, 100], 'd': [5, 4.6], 'h': [2.2, 2.0] }, { 'gus': { 'at': [21.6, -20.6], 'pose': 'look', 'face': 'l', 'hero': 1, 'lit': 0 }, 'mabel': { 'at': [23, -19.4], 'pose': 'sit', 'face': 'l' } }, [
-    L('n5', 'Mabel, as usual, said nothing. Then she put her paw beside one.', pause=.7), L('n6', 'Too big for a gull. Far too big. Those were a diver’s fins.', pause=.3), L('n7', 'Someone had come up from the sea.', pause=.8)], lead=.6, tail=1.0),
+    L('n5', 'Mabel, as usual, said nothing. Then she put her paw beside one.', pause=.7), L('n6', 'Too big for a gull. Far too big. Those were a diver’s fins.', pause=.3), L('n7', 'Someone had come up from the sea.', pause=.8)], props=['prints'], printsAt=[22.4, 9.3, -19.4], printsCol='#3a5a6a', lead=.6, tail=1.0),
 ]))
 S.append(dict(code='S04', day='2026-11-17', slot=2, title='Pip saw someone on the rocks', label="THE KEEPER'S ISLAND · 4",
   hook='Pip sees everything from up there. This time, he wished he hadn’t.', ask='Would you tell the keeper what you saw… if nobody believed you?', music={ 'mood': 'day' }, shots=[
-  shot('fly', 'day', { 'type': 'top', 'h': [15, 13], 'fov': 42 }, { 'pip': { 'at': [-10, 4], 'to': [14, -30], 'pose': 'fly', 'y': 15, 'hero': 1, 'fly': 1 } }, [
+  shot('fly', 'day', { 'type': 'stage', 'az': [-35, -25], 'd': [9, 8], 'h': [2.4, 2] }, { 'pip': { 'at': [-4, -4], 'to': [10, -30], 'pose': 'fly', 'y': 9, 'hero': 1, 'fly': 1 } }, [
     L('n1', 'Pip the gull flies over the island every morning, mostly to be seen flying.'), L('n2', 'He saw the wreck. He saw Gus on the stairs. And on the north rocks, he saw a coat.', pause=.8)], lead=1.2, tail=.6),
-  shot('rocks', 'day', { 'type': 'stage', 'at': [12, 1.1, -46], 'az': [-20, -35], 'd': [14, 12], 'h': [6.5, 5.5] }, { 'stranger': { 'at': [11.5, -47.5], 'pose': 'idle', 'face': 'l', 'hero': 1 }, 'pip': { 'at': [8, -40], 'to': [16, -44], 'pose': 'fly', 'y': 5, 'fly': 1 } }, [
+  shot('rocks', 'day', { 'type': 'stage', 'at': [12, 1.1, -46], 'az': [-20, -35], 'd': [14, 12], 'h': [6.5, 5.5] }, { 'stranger': { 'at': [10.0, -44.4], 'pose': 'idle', 'face': 'l', 'hero': 1 }, 'pip': { 'at': [6, -38], 'to': [12, -41], 'pose': 'fly', 'y': 5, 'fly': 1 } }, [
     L('n3', 'A yellow coat, hood up, facing the lighthouse. Standing where no boat could land.', pause=1.0)], props=['wreck'], lead=.9, tail=.9),
   shot('empty', 'day', { 'type': 'stage', 'at': [12, 1.1, -46], 'az': [-35, -40], 'd': [12, 11.5], 'h': [5.5, 5.2] }, { 'pip': { 'at': [13, -44], 'pose': 'idle', 'face': 'l', 'hero': 1 } }, [
     L('n4', 'Pip screamed it to the whole harbour. Gulls are not taken seriously.', pause=.6), L('n5', 'By the time Gus looked up… the rocks were empty.', pause=.4), L('n6', 'But the coat had left something behind.', pause=.9)], props=['wreck'], lead=.7, tail=1.0),
@@ -58,16 +58,16 @@ S.append(dict(code='S05', day='2026-11-18', slot=1, title='The stake-out', label
   shot('night', 'night', { 'type': 'stage', 'at': [-1, 4.8, -14], 'az': [15, 8], 'd': [10, 9.5], 'h': [4.6, 4.4] }, { 'gus': { 'at': [-1.2, -13.6], 'pose': 'lookUp', 'face': 'l', 'hero': 1 }, 'mabel': { 'at': [.4, -13.3], 'pose': 'sit', 'face': 'l' }, 'rollo': { 'at': [-2.6, -13.2], 'pose': 'idle', 'face': 'r' } }, [
     L('n3', 'Midnight. One. Two. Mabel slept. Rollo finished the sandwiches.', pause=.5), L('n4', 'Three eleven. Gus raised his lantern so the lamp would know he was there.', pause=1.2)], lead=.8, tail=.4),
   shot('out', 'night', { 'type': 'track', 'side': 'south', 'h': 5.2, 'd': 13, 'lead': 1.5 }, { 'gus': { 'at': [-1.2, -13.6], 'pose': 'lookUp', 'face': 'r', 'hero': 1 }, 'mabel': { 'at': [.4, -13.3], 'pose': 'sit', 'face': 'r' } }, [
-    L('n5', 'Three twelve. Dark.', pause=1.3), L('n6', 'And far along the cliff path, something was moving. A small light. Swinging, like a lantern.', pause=.5), L('n7', 'Gus looked down at his own. Still lit. Still in his hand.', pause=.9)], lamp={ 'out': 1.0 }, lead=.6, tail=1.0),
+    L('n5', 'Three twelve. Dark.', pause=1.3), L('n6', 'And far along the cliff path, something was moving. A small light. Swinging, like a lantern.', pause=.5), L('n7', 'Gus looked down at his own. Still lit. Still in his hand.', pause=.9)], lamp={ 'out': 1.0 }, farlight={ 'from': [2.2, 5.1, -11.8], 'to': [.8, 5.1, -11.6] }, lead=.6, tail=1.0),
 ]))
 S.append(dict(code='S06', day='2026-11-18', slot=2, title='Three cables, one cut', label="THE KEEPER'S ISLAND · 6",
   hook='Three cables. One cut. The cut one was dry.', ask='Which way did the cutter leave? Stairs, or window?', askLen=3.6, music={ 'mood': 'tense' }, shots=[
-  shot('tower', 'night', { 'type': 'orbit', 'at': [21, 18.5, -24], 'az': [50, 20], 'd': [11, 9.5], 'h': [3, 2] }, { 'gus': { 'at': DOOR, 'pose': 'up', 'face': 'l', 'hero': 0 } }, [
-    L('n1', 'At dawn Gus went up with his lantern. Behind the lamp run three cables.'), L('n2', 'Two were whole, and wet with sea-mist. The third was cut clean through. And it was dry.', pause=.9)], lead=1.2, tail=.8),
-  shot('door', 'night', { 'type': 'stage', 'az': [45, 38], 'd': [9.5, 9], 'h': [4.6, 4.4] }, { 'gus': { 'at': [21.0, -20.4], 'pose': 'look', 'face': 'l', 'hero': 1 }, 'mabel': { 'at': [22.6, -19.9], 'pose': 'sit', 'face': 'l' } }, [
+  shot('tower', 'dawn', { 'type': 'orbit', 'at': [21, 21.6, -22.8], 'az': [30, 12], 'd': [6.4, 5.6], 'h': [1.2, .9], 'aper': 50 }, { 'gus': { 'at': DOOR, 'pose': 'up', 'face': 'l', 'hero': 0 } }, [
+    L('n1', 'At dawn Gus went up with his lantern. Behind the lamp run three cables.'), L('n2', 'Two were whole, and wet with sea-mist. The third was cut clean through. And it was dry.', pause=.9)], props=['cables'], lamp='off', lead=1.2, tail=.8),
+  shot('door', 'dawn', { 'type': 'stage', 'az': [45, 38], 'd': [9.5, 9], 'h': [4.6, 4.4] }, { 'gus': { 'at': [21.0, -20.4], 'pose': 'look', 'face': 'l', 'hero': 1, 'lit': 0 }, 'mabel': { 'at': [22.6, -19.9], 'pose': 'sit', 'face': 'l' } }, [
     L('n3', 'Dry means cut from inside, after the mist. And whoever did it left in a hurry.', pause=.4), L('n4', 'The window was open. The stairs were… painted. Dunn had painted them that very morning.', pause=1.0)], lead=.8, tail=.6),
-  shot('prints', 'night', { 'type': 'dive', 'at': [21.0, 9.6, -20.4], 'az': [110, 118], 'd': [5.2, 4.8], 'h': [2.3, 2.1] }, { 'gus': { 'at': [21.0, -20.4], 'pose': 'look', 'face': 'l', 'hero': 1 }, 'mabel': { 'at': [22.6, -19.9], 'pose': 'sit', 'face': 'l' } }, [
-    L('n5', 'Yellow paint. On the stairs, going down. Across the grass. Toward a door in the rock that Gus had never seen.', pause=1.0)], props=['prints'], lead=.6, tail=1.0),
+  shot('prints', 'dawn', { 'type': 'dive', 'at': [21.0, 9.6, -20.4], 'az': [110, 118], 'd': [5.2, 4.8], 'h': [2.3, 2.1] }, { 'gus': { 'at': [21.0, -20.4], 'pose': 'look', 'face': 'l', 'hero': 1, 'lit': 0 }, 'mabel': { 'at': [22.6, -19.9], 'pose': 'sit', 'face': 'l' } }, [
+    L('n5', 'Yellow paint. On the stairs, going down. Across the grass. Toward a door in the rock that Gus had never seen.', pause=1.0)], props=['prints'], printsAt=[21.8, 9.3, -19.2], lead=.6, tail=1.0),
 ]))
 # ---------------------------------------------------------------- Day 4 · Thu 19
 S.append(dict(code='S07', day='2026-11-19', slot=1, title='The door in the rock', label="THE KEEPER'S ISLAND · 7",
@@ -86,7 +86,7 @@ S.append(dict(code='S08', day='2026-11-19', slot=2, title='Old Wren knows the ma
   shot('tale', 'dusk', { 'type': 'stage', 'at': [-6.5, 1.0, 7.6], 'az': [18, 12], 'd': [8.6, 8.2], 'h': [4.0, 3.8] }, { 'wren': { 'at': [-6.9, 7.4], 'pose': 'open', 'face': 'r', 'hero': 1 }, 'gus': { 'at': [-4.4, 8.2], 'pose': 'idle', 'face': 'l' }, 'mabel': { 'at': [-3.2, 8.6], 'pose': 'sit', 'face': 'l' } }, [
     L('d1', 'The man who sold his shadow. He paid with four marks, one for each year the sea let him live.', dlg='WREN'),
     L('d2', 'Three he carved on his door. The fourth was never drawn, Gus. It was burned.', dlg='WREN', pause=.9)], lead=.6, tail=.6),
-  shot('dark', 'night', { 'type': 'dive', 'at': [-4.4, 1.0, 8.2], 'az': [-20, -15], 'd': [5.6, 5.2], 'h': [2.4, 2.2] }, { 'gus': { 'at': [-4.4, 8.2], 'pose': 'look', 'face': 'l', 'hero': 1 }, 'mabel': { 'at': [-3.2, 8.6], 'pose': 'sit', 'face': 'l' } }, [
+  shot('dark', 'night', { 'type': 'dive', 'at': [-4.4, 1.0, 8.2], 'az': [-70, -62], 'd': [5.6, 5.2], 'h': [2.4, 2.2] }, { 'gus': { 'at': [-4.4, 8.2], 'pose': 'look', 'face': 'l', 'hero': 1 }, 'mabel': { 'at': [-3.2, 8.6], 'pose': 'sit', 'face': 'l' } }, [
     L('n3', 'Then she closed the shutters, which she never does before the lamp comes on.', pause=.6), L('n4', 'That night, for the first time in a hundred years, the lamp did not come on at all.', pause=1.0)], lamp='off', lead=.6, tail=1.0),
 ]))
 # ---------------------------------------------------------------- Day 5 · Fri 20
@@ -101,11 +101,11 @@ S.append(dict(code='S09', day='2026-11-20', slot=1, title='The lock opens on the
 ]))
 S.append(dict(code='S10', day='2026-11-20', slot=2, title='One of the footprints has no shadow', label="THE KEEPER'S ISLAND · 10",
   hook='Two sets of footprints in the wet sand. Only one of them cast a shadow.', ask='Not the lamp. His lantern. What puts out a flame without wind?', askLen=3.6, music={ 'mood': 'dread' }, shots=[
-  shot('tunnel', 'night', { 'type': 'stage', 'at': [13.6, 5.2, -14.4], 'az': [-24, -16], 'd': [7.4, 7], 'h': [3.3, 3.1] }, { 'gus': { 'at': [12.6, -12.9], 'to': [13.4, -13.6], 'walk': [.4, 2.4], 'pose': 'up', 'face': 'l', 'hero': 1 }, 'mabel': { 'at': [11.4, -12.4], 'to': [12.4, -13.0], 'walk': [.8, 2.6], 'pose': 'sit', 'face': 'l' } }, [
-    L('n1', 'Inside, the tunnel ran down toward the sound of the sea. The floor was wet sand.'), L('n2', 'And in the sand, two sets of footprints. Fins. And boots.', pause=.9)], lead=1.2, tail=.6),
-  shot('shadow', 'night', { 'type': 'dive', 'at': [13.4, 5.0, -13.6], 'az': [-10, -4], 'd': [4.6, 4.2], 'h': [2.1, 2.0], 'fov': 28 }, { 'gus': { 'at': [13.4, -13.6], 'pose': 'up', 'face': 'l', 'hero': 1 } }, [
-    L('n3', 'Gus held the lantern low. The fin-prints threw little shadows on the wall, the way prints do.', pause=.5), L('n4', 'The boot-prints threw none.', pause=1.4)], lead=.6, tail=.8),
-  shot('out', 'night', { 'type': 'stage', 'at': [13.4, 5.2, -13.6], 'az': [-22, -16], 'd': [7, 6.8], 'h': [3.2, 3.1] }, { 'gus': { 'at': [13.4, -13.6], 'pose': 'up', 'face': 'l', 'hero': 1, 'poses': [[3.2, 'look']], 'lit': 1 }, 'mabel': { 'at': [12.4, -13.0], 'pose': 'sit', 'face': 'l' } }, [
+  shot('tunnel', 'night', { 'type': 'stage', 'at': [-101.8, 1.2, -97.2], 'az': [70, 78], 'd': [7, 6.4], 'h': [2.8, 2.6] }, { 'gus': { 'at': [-102.8, -97.6], 'to': [-101.2, -96.8], 'walk': [.4, 3.0], 'pose': 'walk', 'face': 'r', 'hero': 1 }, 'mabel': { 'at': [-103.4, -98.2], 'to': [-102.0, -97.4], 'walk': [.8, 3.2], 'pose': 'walk', 'face': 'r' } }, [
+    L('n1', 'Inside, the tunnel ran down toward the sound of the sea. The floor was wet sand.'), L('n2', 'And in the sand, two sets of footprints. Fins. And boots.', pause=.9)], props=['prints'], printsAt=[-100.4, .45, -96.6], printsCol='#2a3a40', lead=1.2, tail=.6),
+  shot('shadow', 'night', { 'type': 'dive', 'at': [-100.6, .8, -96.7], 'az': [62, 70], 'd': [4.4, 4.0], 'h': [1.8, 1.6], 'fov': 28 }, { 'gus': { 'at': [-101.2, -96.8], 'pose': 'fwd', 'face': 'r', 'hero': 1 } }, [
+    L('n3', 'Gus held the lantern low. The fin-prints threw little shadows on the wall, the way prints do.', pause=.5), L('n4', 'The boot-prints threw none.', pause=1.4)], props=['prints'], printsAt=[-100.4, .45, -96.6], printsCol='#2a3a40', lead=.6, tail=.8),
+  shot('out', 'night', { 'type': 'stage', 'at': [-101.2, 1.2, -96.8], 'az': [84, 92], 'd': [6.6, 6.2], 'h': [2.6, 2.4] }, { 'gus': { 'at': [-101.2, -96.8], 'pose': 'up', 'face': 'r', 'hero': 1, 'poses': [[3.2, 'look']], 'lit': 1 }, 'mabel': { 'at': [-102.2, -97.3], 'pose': 'sit', 'face': 'r' } }, [
     L('n5', 'Mabel’s fur stood up along her whole back.', pause=.6), L('n6', 'And then Gus’s lantern went out. Not the lamp. His lantern. In his hand. Without a breath of wind.', pause=1.0)], events=[{ 't': 3.2, 'kind': 'whoosh' }], lamp='off', lead=.6, tail=1.0),
 ]))
 # ---------------------------------------------------------------- Day 6 · Sat 21
@@ -115,14 +115,14 @@ S.append(dict(code='S11', day='2026-11-21', slot=1, title='The lamp went dark at
     L('n1', 'Day three. The council met on the quay at noon, because Dunn liked an audience.'), L('n2', 'Gus had no proof. He had a story about a door, and a cat who would not go near it.', pause=.9)], lamp='on', lead=1.2, tail=.4),
   shot('noon', 'day', { 'type': 'map', 'from': [-40, 30, 40], 'to': [-30, 26, 26], 'look': [14, 10, -18], 'look2': [18, 12, -22], 'fov': 34, 'band': .5 }, {}, [
     L('n3', 'Then, at twelve o’clock exactly, in full sun… the lamp went out.', pause=1.6)], lamp={ 'flicker': 3.0, 'len': .8 }, lead=.8, tail=1.2),
-  shot('rocks', 'day', { 'type': 'stage', 'at': [12, 1.1, -46], 'az': [-30, -38], 'd': [13, 11.5], 'h': [6, 5.4] }, { 'stranger': { 'at': [11.5, -47.5], 'pose': 'idle', 'face': 'l', 'hero': 1 } }, [
+  shot('rocks', 'day', { 'type': 'stage', 'at': [12, 1.1, -46], 'az': [-30, -38], 'd': [13, 11.5], 'h': [6, 5.4] }, { 'stranger': { 'at': [10.0, -44.4], 'pose': 'idle', 'face': 'l', 'hero': 1 } }, [
     L('n4', 'Every head on the quay turned to the tower. Every head but one.', pause=.5), L('n5', 'On the north rocks stood the yellow coat. Facing away from the lighthouse. Facing the quay. Facing Gus.', pause=1.0)], props=['wreck'], lamp='off', lead=.6, tail=1.0),
 ]))
 S.append(dict(code='S12', day='2026-11-21', slot=2, title='Dunn’s logbook', label="THE KEEPER'S ISLAND · 12",
   hook='Dunn’s logbook goes back sixty years. The lamp has failed before. Once.', ask='Twelve seconds, the night Gus was born. Coincidence?', music={ 'mood': 'mystery' }, shots=[
   shot('office', 'dusk', { 'type': 'stage', 'at': [9, 1.0, 12], 'az': [10, 0], 'd': [10.5, 10], 'h': [4.8, 4.5] }, { 'dunn': { 'at': [9.6, 12.2], 'pose': 'idle', 'face': 'l', 'hero': 1 }, 'gus': { 'at': [7.4, 12.6], 'pose': 'idle', 'face': 'r', 'lit': 1 }, 'mabel': { 'at': [6.4, 13], 'pose': 'sit', 'face': 'r' } }, [
     L('n1', 'A lamp that fails in daylight is nobody’s carelessness. Even Dunn could see that.'), L('n2', 'So he did something he had never done. He opened the old logbook for Gus.', pause=.6)], lead=1.2, tail=.4),
-  shot('log', 'dusk', { 'type': 'dive', 'at': [9.6, 1.0, 12.2], 'az': [-5, 0], 'd': [5.6, 5.2], 'h': [2.5, 2.3] }, { 'dunn': { 'at': [9.6, 12.2], 'pose': 'point', 'face': 'l', 'hero': 1 }, 'gus': { 'at': [7.4, 12.6], 'pose': 'idle', 'face': 'r' } }, [
+  shot('log', 'dusk', { 'type': 'dive', 'at': [9.0, 1.0, 12.3], 'az': [-12, -4], 'lookOff': [0, -.6, 0], 'd': [6.0, 5.6], 'h': [2.5, 2.3] }, { 'dunn': { 'at': [9.6, 12.2], 'pose': 'point', 'face': 'l', 'hero': 1 }, 'gus': { 'at': [7.4, 12.6], 'pose': 'idle', 'face': 'r' } }, [
     L('d1', 'Sixty years of nights, Gus. The lamp failed once before. One night. Twelve seconds.', dlg='DUNN'), L('d2', 'Look at the date.', dlg='DUNN', pause=1.2)], lead=.6, tail=.6),
   shot('gus', 'night', { 'type': 'stage', 'at': [7.4, 1.0, 12.6], 'az': [-30, -24], 'd': [7.4, 7], 'h': [3.4, 3.2] }, { 'gus': { 'at': [7.4, 12.6], 'pose': 'look', 'face': 'r', 'hero': 1 }, 'mabel': { 'at': [6.4, 13], 'pose': 'sit', 'face': 'r' }, 'dunn': { 'at': [9.6, 12.2], 'pose': 'idle', 'face': 'l' } }, [
     L('n3', 'Gus knew the date before he read it. Everyone on the island knew it.', pause=.5), L('n4', 'It was the night he was born.', pause=1.0)], lead=.6, tail=1.0),

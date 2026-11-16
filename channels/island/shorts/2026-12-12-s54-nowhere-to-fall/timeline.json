@@ -1,0 +1,212 @@
+{
+ "code": "S54",
+ "title": "Nowhere to fall",
+ "label": "THE KEEPER'S ISLAND \u00b7 54",
+ "DUR": 41.034,
+ "shots": [
+  {
+   "id": "island",
+   "time": "night",
+   "cam": {
+    "type": "map",
+    "from": [
+     -50,
+     44,
+     70
+    ],
+    "to": [
+     -44,
+     38,
+     60
+    ],
+    "look": [
+     10,
+     5,
+     -12
+    ],
+    "look2": [
+     14,
+     6,
+     -16
+    ],
+    "fov": 36,
+    "band": 0.45
+   },
+   "cast": {},
+   "lamp": "on",
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 15.49,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 8.185,
+     "sub": "At three o\u2019clock the island looked like a birthday cake. Every window, every lantern, the tower, the ferry, all burning at once.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 11.235,
+     "d": 3.535,
+     "sub": "At the foot of the tower, Gus stood alone in the ring, and waited.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "come",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     21.4,
+     9.8,
+     -20.4
+    ],
+    "az": [
+     40,
+     30
+    ],
+    "d": [
+     11,
+     10.4
+    ],
+    "h": [
+     5.2,
+     4.8
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      21.0,
+      -19.6
+     ],
+     "pose": "up",
+     "face": "r",
+     "hero": 1
+    },
+    "shade": {
+     "at": [
+      25.6,
+      -16.8
+     ],
+     "to": [
+      23.4,
+      -18.2
+     ],
+     "walk": [
+      0.5,
+      5.0
+     ],
+     "pose": "walk",
+     "face": "l"
+    }
+   },
+   "ringAt": [
+    21.2,
+    9.2,
+    -19.4,
+    3.2
+   ],
+   "lamp": "on",
+   "lead": 0.6,
+   "a": 15.49,
+   "b": 26.932,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 16.11,
+     "d": 5.444,
+     "sub": "At three twelve, the dark came up out of the door in the rock and crossed the grass toward him.",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 22.404,
+     "d": 3.808,
+     "sub": "It reached the first lantern, and its edge went thin as paper.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "turn",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     22.2,
+     9.8,
+     -19.0
+    ],
+    "az": [
+     55,
+     62
+    ],
+    "d": [
+     6,
+     5.6
+    ],
+    "h": [
+     2.4,
+     2.2
+    ]
+   },
+   "cast": {
+    "shade": {
+     "at": [
+      23.4,
+      -18.2
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      21.0,
+      -19.6
+     ],
+     "pose": "up",
+     "face": "r"
+    }
+   },
+   "ringAt": [
+    21.2,
+    9.2,
+    -19.4,
+    3.2
+   ],
+   "lamp": "on",
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 26.932,
+   "b": 41.034,
+   "vo": [
+    {
+     "id": "n5",
+     "t": 27.552,
+     "d": 4.039,
+     "sub": "Light from the tower. Light from below. Light from every side.",
+     "dlg": null
+    },
+    {
+     "id": "n6",
+     "t": 32.541,
+     "d": 4.793,
+     "sub": "The shadow turned, and turned, looking for somewhere to fall. There was nowhere left.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "Three twelve. The old hour. Every light on the island was already burning.",
+ "hookEnd": 2.3,
+ "ask": "A shadow with nowhere to fall. What happens to it?",
+ "askAt": 37.834,
+ "music": {
+  "mood": "dread"
+ }
+}

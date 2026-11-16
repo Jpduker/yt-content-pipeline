@@ -1,0 +1,204 @@
+{
+ "code": "S43",
+ "day": "2026-12-07",
+ "slot": 1,
+ "title": "A shadow nobody owned",
+ "hook": "Noon on the quay. Seven people. Eight shadows.",
+ "ask": "A shadow with no owner. Where does it go when the sun goes down?",
+ "askLen": 3.6,
+ "music": {
+  "mood": "mystery"
+ },
+ "shots": [
+  {
+   "id": "quay",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     9.5,
+     0.9,
+     13.4
+    ],
+    "az": [
+     -24,
+     -12
+    ],
+    "d": [
+     11,
+     10
+    ],
+    "h": [
+     4.8,
+     4.5
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      7.6,
+      13.0
+     ],
+     "to": [
+      8.8,
+      13.3
+     ],
+     "walk": [
+      0.3,
+      2.2
+     ],
+     "pose": "walk",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    },
+    "dunn": {
+     "at": [
+      6.2,
+      12.6
+     ],
+     "pose": "idle",
+     "face": "r"
+    },
+    "marlo": {
+     "at": [
+      5.2,
+      13.4
+     ],
+     "pose": "idle",
+     "face": "r"
+    },
+    "mabel": {
+     "at": [
+      8.0,
+      13.8
+     ],
+     "pose": "sit",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "Monday. The quay was busy for the first time since the storm. Parcels, nets, gossip."
+    },
+    {
+     "id": "n2",
+     "text": "Gus counted people out of habit. Seven. Then he counted shadows.",
+     "pause": 0.6
+    }
+   ],
+   "lead": 1.0
+  },
+  {
+   "id": "shade",
+   "time": "day",
+   "cam": {
+    "type": "dive",
+    "at": [
+     10.2,
+     1.0,
+     13.6
+    ],
+    "az": [
+     -15,
+     -8
+    ],
+    "d": [
+     6.2,
+     5.8
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "shade": {
+     "at": [
+      11.0,
+      13.8
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      8.8,
+      13.3
+     ],
+     "pose": "look",
+     "face": "r",
+     "lit": 0
+    }
+   },
+   "lines": [
+    {
+     "id": "n3",
+     "text": "Eight. The eighth had nobody standing over it.",
+     "pause": 0.5
+    },
+    {
+     "id": "n4",
+     "text": "It stood on its own at the empty berth where the barge had been. Upright. Wearing a bowler hat.",
+     "pause": 0.9
+    }
+   ],
+   "lead": 0.6
+  },
+  {
+   "id": "gus",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     8.8,
+     0.9,
+     13.3
+    ],
+    "az": [
+     -34,
+     -24
+    ],
+    "d": [
+     6.6,
+     6.2
+    ],
+    "h": [
+     3.0,
+     2.8
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      8.8,
+      13.3
+     ],
+     "pose": "look",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    }
+   },
+   "lines": [
+    {
+     "id": "n5",
+     "text": "Nobody else on the quay saw it. Or nobody else would say.",
+     "pause": 0.4
+    },
+    {
+     "id": "n6",
+     "text": "When Gus looked again, the berth was empty, and the noon sun shone straight through where it had stood.",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.6,
+   "tail": 1.0
+  }
+ ],
+ "thumb": "noon on a small stone quay, a tall pitch-black silhouette of a man in a bowler hat standing upright on its own with a faint pale smile, villagers not noticing, an old keeper in a sea-green coat staring",
+ "thumbText": "NO OWNER",
+ "label": "THE KEEPER'S ISLAND · 43"
+}

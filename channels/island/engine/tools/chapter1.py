@@ -36,7 +36,7 @@ shots += [shot('ritual', 'dawn', { 'type': 'track', 'side': 'south', 'h': 5.4, '
                 L('a4', 'The lamp never goes out. Not for weather. Not for war. Not for anyone.', pause=.4)], lead=.8, tail=.6, mood='day')]
 shots += take('S02') + take('S03') + take('S04')
 # Solve it #1
-shots += [shot('solve1', 'day', { 'type': 'top', 'h': [16, 15], 'fov': 40, 'at': [12, 1, -40] }, {},
+shots += [shot('solve1', 'day', { 'type': 'map', 'from': [-40, 34, 52], 'to': [-32, 28, 42], 'look': [16, 6, -34], 'fov': 34, 'band': .45 }, {},
                [L('q1', 'Stop here for a second. You have seen three things.'),
                 L('q2', 'A clock stopped by hand. Fins on the stairs. A coat on rocks where no boat can land.'),
                 L('q3', 'Somebody came out of the sea, climbed the tower, and left by a way nobody watches.', pause=.4)],
@@ -57,8 +57,8 @@ shots += [shot('count', 'night', { 'type': 'stage', 'at': [-1, 4.8, -14], 'az': 
                 L('k4', 'And five. Every clue led to the same place. Under his own feet.', pause=.8)], lamp='off', lead=.8, tail=.8, mood='dread')]
 shots += take('S09') + take('S10')
 # Solve it #2
-shots += [shot('solve2', 'night', { 'type': 'dive', 'at': [13.4, 5.0, -13.6], 'az': [-14, -8], 'd': [6, 5.6], 'h': [2.6, 2.4] },
-               { 'gus': { 'at': [13.4, -13.6], 'pose': 'look', 'face': 'l', 'hero': 1, 'lit': 0 } },
+shots += [shot('solve2', 'night', { 'type': 'stage', 'at': [-101.2, 1.2, -96.8], 'az': [84, 92], 'd': [6.6, 6.2], 'h': [2.6, 2.4] },
+               { 'gus': { 'at': [-101.2, -96.8], 'pose': 'look', 'face': 'r', 'hero': 1, 'lit': .6 } },
                [L('r1', 'Before you go on. A flame needs three things. Fuel. Heat. Air.'),
                 L('r2', 'Gus’s lantern had oil, and it was hot. So in that tunnel, something took the third.', pause=.5)],
                lamp='off', solve={ 'q': 'What in a sea-cave can steal the air from a flame?', 'secs': 5 }, lead=.6, tail=6.2, mood='dread')]

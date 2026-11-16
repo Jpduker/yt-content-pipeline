@@ -1,0 +1,207 @@
+{
+ "code": "S51",
+ "title": "One shadow too many",
+ "label": "THE KEEPER'S ISLAND \u00b7 51",
+ "DUR": 41.063,
+ "shots": [
+  {
+   "id": "fly",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -35,
+     -25
+    ],
+    "d": [
+     9,
+     8
+    ],
+    "h": [
+     2.4,
+     2
+    ]
+   },
+   "cast": {
+    "pip": {
+     "at": [
+      -4,
+      6
+     ],
+     "to": [
+      4,
+      -8
+     ],
+     "pose": "fly",
+     "y": 8,
+     "hero": 1,
+     "fly": 1
+    }
+   },
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 14.495,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 6.974,
+     "sub": "Pip had a theory. Gulls usually do. At noon he would count every person on the island, and every shadow.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 10.024,
+     "d": 3.751,
+     "sub": "Two hundred and six people. Two hundred and seven shadows.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "path",
+   "time": "day",
+   "cam": {
+    "type": "track",
+    "side": "south",
+    "h": 5.6,
+    "d": 14,
+    "lead": 2.4
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      3,
+      -11
+     ],
+     "to": [
+      12.2,
+      -12.6
+     ],
+     "walk": [
+      0.4,
+      7.5
+     ],
+     "pose": "walk",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    },
+    "shade": {
+     "at": [
+      2.0,
+      -11.7
+     ],
+     "to": [
+      11.2,
+      -13.3
+     ],
+     "walk": [
+      0.4,
+      7.5
+     ],
+     "pose": "walk",
+     "face": "r"
+    }
+   },
+   "lead": 0.6,
+   "a": 14.495,
+   "b": 26.99,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 15.115,
+     "d": 7.291,
+     "sub": "He found the extra one on the cliff path. It was walking beside Gus, step for step, close enough to hold his hand.",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 23.256,
+     "d": 3.014,
+     "sub": "Gus had two shadows now. One of them wore a hat.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "report",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -1.2,
+     4.8,
+     -13.4
+    ],
+    "az": [
+     20,
+     12
+    ],
+    "d": [
+     9.5,
+     9
+    ],
+    "h": [
+     4.4,
+     4.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -1.2,
+      -13.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    },
+    "pip": {
+     "at": [
+      0.6,
+      -13.2
+     ],
+     "pose": "idle",
+     "face": "l"
+    },
+    "mabel": {
+     "at": [
+      -2.4,
+      -13.2
+     ],
+     "pose": "sit",
+     "face": "r"
+    }
+   },
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 26.99,
+   "b": 41.063,
+   "vo": [
+    {
+     "id": "n5",
+     "t": 27.61,
+     "d": 2.853,
+     "sub": "Pip told Gus. Gus did not turn around.",
+     "dlg": null
+    },
+    {
+     "id": "n6",
+     "t": 31.413,
+     "d": 5.95,
+     "sub": "He said he had felt it since the pool. Cold, on his left side, like standing too close to the sea.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "Pip counted every shadow on the island at noon. There was one too many.",
+ "hookEnd": 2.3,
+ "ask": "Two shadows. Which one is really his?",
+ "askAt": 37.863,
+ "music": {
+  "mood": "day"
+ }
+}

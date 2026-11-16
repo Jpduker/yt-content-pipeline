@@ -1,0 +1,38 @@
+[
+ {
+  "id": "n1",
+  "text": "Gus had not seen his mother since the ferry came home. At midnight she was at the end of the jetty, facing the sea.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n2",
+  "text": "Her shadow lay on the boards beside her, small and ordinary. She seemed to be keeping an eye on it.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "d1",
+  "text": "It wants a keeper, Gus. It belonged to one once. It will take yours, and your light with it.",
+  "voice": "bf_isabella",
+  "speed": 1.0
+ },
+ {
+  "id": "d2",
+  "text": "A shadow must fall away from its light. Give it nowhere to fall.",
+  "voice": "bf_isabella",
+  "speed": 1.0
+ },
+ {
+  "id": "n3",
+  "text": "Then she stepped off the end of the jetty, and the sea closed over her like a door.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n4",
+  "text": "Gus stood there while the lamp came round three times. Nowhere to fall.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]

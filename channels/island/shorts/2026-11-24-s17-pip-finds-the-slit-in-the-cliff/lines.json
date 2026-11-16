@@ -1,0 +1,38 @@
+[
+ {
+  "id": "n1",
+  "text": "At sunrise Pip was sent out with one job. Find where that light comes out.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n2",
+  "text": "He circled the north cliff eleven times, mostly to be admired.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n3",
+  "text": "On the twelfth, he saw it. A slit in the rock just above the waterline, black, the width of a door.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n4",
+  "text": "From out at sea, a light in there would sit low and steady. Right below the lighthouse.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n5",
+  "text": "Gus went very quiet. Every keeper knows what two lights, one above the other, mean to a sailor.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n6",
+  "text": "They mean: line us up, and you are safe.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]

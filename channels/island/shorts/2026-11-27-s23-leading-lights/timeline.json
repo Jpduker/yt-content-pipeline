@@ -1,0 +1,171 @@
+{
+ "code": "S23",
+ "title": "Leading lights",
+ "label": "THE KEEPER'S ISLAND \u00b7 23",
+ "DUR": 40.807,
+ "shots": [
+  {
+   "id": "board",
+   "time": "day",
+   "cam": {
+    "type": "map",
+    "from": [
+     -40,
+     34,
+     52
+    ],
+    "to": [
+     -32,
+     28,
+     42
+    ],
+    "look": [
+     16,
+     6,
+     -34
+    ],
+    "fov": 34,
+    "band": 0.45
+   },
+   "cast": {},
+   "props": [
+    "wreck"
+   ],
+   "lead": 1.0,
+   "a": 0.0,
+   "b": 15.366,
+   "vo": [
+    {
+     "id": "n1",
+     "t": 2.6,
+     "d": 5.598,
+     "sub": "Here is the trick. A ship coming home lines up two lights, one behind and above the other.",
+     "dlg": null
+    },
+    {
+     "id": "n2",
+     "t": 8.648,
+     "d": 5.998,
+     "sub": "When the high light sits right on top of the low one, you are in the safe channel. Every sailor knows it.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "trap",
+   "time": "day",
+   "cam": {
+    "type": "map",
+    "from": [
+     40,
+     26,
+     -70
+    ],
+    "to": [
+     34,
+     22,
+     -62
+    ],
+    "look": [
+     16,
+     6,
+     -30
+    ],
+    "look2": [
+     18,
+     8,
+     -28
+    ],
+    "fov": 34,
+    "band": 0.5
+   },
+   "cast": {},
+   "props": [
+    "wreck"
+   ],
+   "lead": 0.6,
+   "a": 15.366,
+   "b": 31.275,
+   "vo": [
+    {
+     "id": "n3",
+     "t": 15.986,
+     "d": 7.696,
+     "sub": "But move the low light, and the safe line moves with it. Put it in the cliff, and the line runs straight onto the north rocks.",
+     "dlg": null
+    },
+    {
+     "id": "n4",
+     "t": 24.532,
+     "d": 6.023,
+     "sub": "And if the high lamp goes dark for twelve seconds, a sailor has only one light left to trust.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "gus",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     21.4,
+     9.8,
+     -20.4
+    ],
+    "az": [
+     40,
+     30
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     5,
+     4.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      21.4,
+      -20.4
+     ],
+     "pose": "lookUp",
+     "face": "l",
+     "hero": 1,
+     "lit": 0
+    },
+    "mabel": {
+     "at": [
+      22.5,
+      -20.0
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lead": 0.6,
+   "tail": 1.0,
+   "a": 31.275,
+   "b": 40.807,
+   "vo": [
+    {
+     "id": "n5",
+     "t": 32.195,
+     "d": 4.312,
+     "sub": "Whoever did this was no wrecker. Only a keeper knows the lamp that well.",
+     "dlg": null
+    }
+   ]
+  }
+ ],
+ "hook": "Sailors have trusted this trick for three hundred years. Someone turned it into a trap.",
+ "hookEnd": 2.3,
+ "ask": "Now you know how. But who would wreck a ship named for her own family?",
+ "askAt": 37.007,
+ "music": {
+  "mood": "mystery"
+ }
+}

@@ -6,26 +6,27 @@
  "shots": [
   {
    "id": "tower",
-   "time": "night",
+   "time": "dawn",
    "cam": {
     "type": "orbit",
     "at": [
      21,
-     18.5,
-     -24
+     21.6,
+     -22.8
     ],
     "az": [
-     50,
-     20
+     30,
+     12
     ],
     "d": [
-     11,
-     9.5
+     6.4,
+     5.6
     ],
     "h": [
-     3,
-     2
-    ]
+     1.2,
+     0.9
+    ],
+    "aper": 50
    },
    "cast": {
     "gus": {
@@ -38,6 +39,10 @@
      "hero": 0
     }
    },
+   "props": [
+    "cables"
+   ],
+   "lamp": "off",
    "lead": 1.2,
    "tail": 0.8,
    "a": 0.0,
@@ -61,7 +66,7 @@
   },
   {
    "id": "door",
-   "time": "night",
+   "time": "dawn",
    "cam": {
     "type": "stage",
     "az": [
@@ -85,7 +90,8 @@
      ],
      "pose": "look",
      "face": "l",
-     "hero": 1
+     "hero": 1,
+     "lit": 0
     },
     "mabel": {
      "at": [
@@ -119,7 +125,7 @@
   },
   {
    "id": "prints",
-   "time": "night",
+   "time": "dawn",
    "cam": {
     "type": "dive",
     "at": [
@@ -148,7 +154,8 @@
      ],
      "pose": "look",
      "face": "l",
-     "hero": 1
+     "hero": 1,
+     "lit": 0
     },
     "mabel": {
      "at": [
@@ -161,6 +168,11 @@
    },
    "props": [
     "prints"
+   ],
+   "printsAt": [
+    21.8,
+    9.3,
+    -19.2
    ],
    "lead": 0.6,
    "tail": 1.0,

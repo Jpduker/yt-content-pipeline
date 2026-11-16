@@ -1,0 +1,10 @@
+00:49 checking headless Chrome for playwright-core (downloads once, ~100 MB)
+00:49 start week render · 1920x1080 @ 30 fps · workers 2 · ss=1 · ANGLE=d3d11
+00:49 2026-11-22-ch01-twelve-seconds-of-dark picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\long\2026-11-22-ch01-twelve-seconds-of-dark\out\render.log)
+10:34 2026-11-22-ch01-twelve-seconds-of-dark RENDER-FAIL (see out\render.log)
+10:34 ALL DONE
+10:34 checking headless Chrome for playwright-core (downloads once, ~100 MB)
+10:34 start week render · 1920x1080 @ 30 fps · workers 2 · ss=1 · ANGLE=d3d11
+10:34 2026-11-22-ch01-twelve-seconds-of-dark picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\long\2026-11-22-ch01-twelve-seconds-of-dark\out\render.log)
+11:43 2026-11-22-ch01-twelve-seconds-of-dark OK in 68.3 min -> final\2026-11-22-ch01-twelve-seconds-of-dark.mp4
+11:43 ALL DONE

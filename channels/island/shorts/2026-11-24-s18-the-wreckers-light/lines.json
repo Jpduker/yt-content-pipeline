@@ -1,0 +1,32 @@
+[
+ {
+  "id": "n1",
+  "text": "Old Wren did not look surprised. She looked like someone who had been waiting sixty years for this visit.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "d1",
+  "text": "Before the tower, this island had wreckers. A false light on a stormy night, and the sea brought them a ship.",
+  "voice": "bf_emma",
+  "speed": 1.0
+ },
+ {
+  "id": "d2",
+  "text": "They kept a ledger of every wreck. And every name that lit the lamp.",
+  "voice": "bf_emma",
+  "speed": 1.0
+ },
+ {
+  "id": "n2",
+  "text": "She opened it at the last page. One line, sixty years old, in careful, familiar handwriting.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n3",
+  "text": "It was his grandfather\u2019s.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]

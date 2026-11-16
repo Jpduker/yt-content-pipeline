@@ -1,0 +1,195 @@
+{
+ "code": "S20",
+ "day": "2026-11-25",
+ "slot": 2,
+ "title": "Rollo sneezes",
+ "hook": "Twelve seconds of silence. Rollo lasted nine.",
+ "ask": "A locket with Gus’s face… as a baby. Who keeps that?",
+ "music": {
+  "mood": "tense"
+ },
+ "shots": [
+  {
+   "id": "wait",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -15,
+     -5
+    ],
+    "d": [
+     8,
+     7.6
+    ],
+    "h": [
+     9.2,
+     8.8
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -92.8,
+      -95.6
+     ],
+     "pose": "idle",
+     "face": "r"
+    },
+    "gus": {
+     "at": [
+      -99.6,
+      -100.2
+     ],
+     "pose": "look",
+     "face": "r",
+     "hero": 1,
+     "lit": 0.25
+    },
+    "rollo": {
+     "at": [
+      -98.6,
+      -100.6
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "The stranger stood by the lamp and counted. Gus could see the hood move. One. Two. Three."
+    },
+    {
+     "id": "n2",
+     "text": "Nine seconds in, Rollo sneezed.",
+     "pause": 1.2
+    }
+   ],
+   "under": "on",
+   "lead": 1.0
+  },
+  {
+   "id": "turn",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "az": [
+     -80,
+     -90
+    ],
+    "d": [
+     7,
+     6.4
+    ],
+    "h": [
+     3.6,
+     3.4
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -92.8,
+      -95.6
+     ],
+     "to": [
+      -93.4,
+      -88.5
+     ],
+     "walk": [
+      1.6,
+      5.0
+     ],
+     "pose": "walk",
+     "face": "l",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "n3",
+     "text": "The hood turned. Not toward the noise. Toward Gus. As if the stranger had known all along exactly where he was.",
+     "pause": 0.4
+    },
+    {
+     "id": "n4",
+     "text": "Then a splash, a ring of green light on the water, and nothing.",
+     "pause": 0.6
+    }
+   ],
+   "under": "on",
+   "events": [
+    {
+     "t": 5.0,
+     "kind": "splash"
+    }
+   ],
+   "lead": 0.6
+  },
+  {
+   "id": "sand",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -93.4,
+     0.4,
+     -90.8
+    ],
+    "az": [
+     -20,
+     -12
+    ],
+    "d": [
+     5.4,
+     5
+    ],
+    "h": [
+     3.8,
+     3.6
+    ]
+   },
+   "cast": {
+    "rollo": {
+     "at": [
+      -94.0,
+      -91.2
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -95.2,
+      -92.0
+     ],
+     "pose": "fwd",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "n5",
+     "text": "Rollo, ashamed, ran to the waterline to make up for it. He came back dragging something on a chain.",
+     "pause": 0.4
+    },
+    {
+     "id": "n6",
+     "text": "A silver locket. Inside, a tiny painted face Gus had only ever seen in his mother’s photographs.",
+     "pause": 0.4
+    },
+    {
+     "id": "n7",
+     "text": "His own. As a baby.",
+     "pause": 1.0
+    }
+   ],
+   "under": "on",
+   "lead": 0.6,
+   "tail": 1.0
+  }
+ ],
+ "label": "THE KEEPER'S ISLAND · 20"
+}

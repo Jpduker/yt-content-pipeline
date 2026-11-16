@@ -1,0 +1,190 @@
+{
+ "code": "S48",
+ "day": "2026-12-09",
+ "slot": 2,
+ "title": "What Dunn’s father saw",
+ "hook": "Dunn’s father was harbour master in 1926. He kept a diary. Dunn kept it locked.",
+ "ask": "Crane wore a stolen shadow for a hundred years. So where is his own?",
+ "askLen": 3.8,
+ "music": {
+  "mood": "mystery"
+ },
+ "shots": [
+  {
+   "id": "office",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     9,
+     1.0,
+     12
+    ],
+    "az": [
+     10,
+     0
+    ],
+    "d": [
+     10.5,
+     10
+    ],
+    "h": [
+     4.8,
+     4.5
+    ]
+   },
+   "cast": {
+    "dunn": {
+     "at": [
+      9.6,
+      12.2
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      7.4,
+      12.6
+     ],
+     "to": [
+      8.2,
+      12.5
+     ],
+     "walk": [
+      0.3,
+      1.8
+     ],
+     "pose": "walk",
+     "face": "r",
+     "lit": 0
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "Dunn had heard the name from Wren before Gus reached the quay. He was waiting with a small black diary."
+    }
+   ],
+   "lead": 1.0
+  },
+  {
+   "id": "diary",
+   "time": "day",
+   "cam": {
+    "type": "dive",
+    "at": [
+     9.0,
+     1.0,
+     12.3
+    ],
+    "az": [
+     -12,
+     -4
+    ],
+    "d": [
+     6.0,
+     5.6
+    ],
+    "h": [
+     2.5,
+     2.3
+    ],
+    "lookOff": [
+     0,
+     -0.6,
+     0
+    ]
+   },
+   "cast": {
+    "dunn": {
+     "at": [
+      9.6,
+      12.2
+     ],
+     "pose": "point",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      8.2,
+      12.5
+     ],
+     "pose": "idle",
+     "face": "r",
+     "lit": 0
+    }
+   },
+   "lines": [
+    {
+     "id": "d1",
+     "text": "My father wrote it down. Your grandfather walked off his sunk boat without a mark on him. And without a shadow.",
+     "dlg": "DUNN",
+     "pause": 0.4
+    },
+    {
+     "id": "d2",
+     "text": "Four years later, to the day, he walked back into the sea. My father said he was smiling.",
+     "dlg": "DUNN",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.6
+  },
+  {
+   "id": "gus",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     8.2,
+     0.9,
+     12.5
+    ],
+    "az": [
+     -34,
+     -24
+    ],
+    "d": [
+     6.6,
+     6.2
+    ],
+    "h": [
+     3.0,
+     2.8
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      8.2,
+      12.5
+     ],
+     "pose": "look",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    }
+   },
+   "lines": [
+    {
+     "id": "n2",
+     "text": "Four years. The price his mother paid. The smile on the cave wall.",
+     "pause": 0.5
+    },
+    {
+     "id": "n3",
+     "text": "It had never been Crane’s shadow at all. Crane had only been wearing it.",
+     "pause": 1.0
+    }
+   ],
+   "lead": 0.6,
+   "tail": 1.0
+  }
+ ],
+ "thumb": "a harbour master in a black peaked cap and red muffler holding out an old black diary on a sunny quay, an old keeper in sea-green reading over his shoulder",
+ "thumbText": "MY FATHER SAW",
+ "label": "THE KEEPER'S ISLAND · 48"
+}

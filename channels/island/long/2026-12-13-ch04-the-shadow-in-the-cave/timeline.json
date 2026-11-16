@@ -1,0 +1,3276 @@
+{
+ "code": "CH04",
+ "title": "The Keeper\u2019s Island \u00b7 Chapter 4: The Shadow in the Cave",
+ "label": null,
+ "DUR": 595.771,
+ "shots": [
+  {
+   "id": "cold",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -86.6,
+     2.2,
+     -90.6
+    ],
+    "az": [
+     -66,
+     -60
+    ],
+    "d": [
+     12.8,
+     11.4
+    ],
+    "h": [
+     1.5,
+     1.3
+    ],
+    "aper": 60
+   },
+   "cast": {},
+   "props": [
+    "cshadow"
+   ],
+   "events": [
+    {
+     "t": 3.4,
+     "kind": "whoosh"
+    }
+   ],
+   "lead": 2.4,
+   "tail": 2.0,
+   "mood": "dread",
+   "a": 0.0,
+   "b": 7.082,
+   "vo": [
+    {
+     "id": "c1",
+     "t": 1.88,
+     "d": 1.591,
+     "sub": "Every shadow has an owner.",
+     "dlg": null
+    },
+    {
+     "id": "c2",
+     "t": 3.921,
+     "d": 1.561,
+     "sub": "This one was going home.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "card",
+   "time": "night",
+   "cam": {
+    "type": "map",
+    "from": [
+     -60,
+     56,
+     84
+    ],
+    "to": [
+     -58,
+     55,
+     82
+    ],
+    "look": [
+     8,
+     4,
+     -10
+    ],
+    "look2": [
+     12,
+     6,
+     -14
+    ]
+   },
+   "cast": {},
+   "card": {
+    "label": "CHAPTER  IV",
+    "title": "The Shadow in the Cave"
+   },
+   "lamp": "on",
+   "min": 4.6,
+   "lead": 0,
+   "tail": 0,
+   "mood": "mystery",
+   "a": 7.082,
+   "b": 11.682,
+   "vo": []
+  },
+  {
+   "id": "recap",
+   "time": "night",
+   "cam": {
+    "type": "map",
+    "from": [
+     -58,
+     54,
+     82
+    ],
+    "to": [
+     -50,
+     48,
+     70
+    ],
+    "look": [
+     8,
+     4,
+     -10
+    ],
+    "look2": [
+     12,
+     6,
+     -14
+    ]
+   },
+   "cast": {},
+   "lamp": "on",
+   "lead": 0.8,
+   "tail": 0.8,
+   "mood": "mystery",
+   "a": 11.682,
+   "b": 27.434,
+   "vo": [
+    {
+     "id": "p1",
+     "t": 12.242,
+     "d": 2.117,
+     "sub": "Previously, on the Keeper\u2019s Island.",
+     "dlg": null
+    },
+    {
+     "id": "p2",
+     "t": 14.809,
+     "d": 8.23,
+     "sub": "A man who never aged came to collect four ships. Gus\u2019s mother burned his contract in the cave, and the sea took Silas Crane.",
+     "dlg": null
+    },
+    {
+     "id": "p3",
+     "t": 23.489,
+     "d": 3.305,
+     "sub": "But his shadow stayed behind, on the wall. Smiling.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S43-quay",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     9.5,
+     0.9,
+     13.4
+    ],
+    "az": [
+     -24,
+     -12
+    ],
+    "d": [
+     11,
+     10
+    ],
+    "h": [
+     4.8,
+     4.5
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      7.6,
+      13.0
+     ],
+     "to": [
+      8.8,
+      13.3
+     ],
+     "walk": [
+      0.3,
+      2.2
+     ],
+     "pose": "walk",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    },
+    "dunn": {
+     "at": [
+      6.2,
+      12.6
+     ],
+     "pose": "idle",
+     "face": "r"
+    },
+    "marlo": {
+     "at": [
+      5.2,
+      13.4
+     ],
+     "pose": "idle",
+     "face": "r"
+    },
+    "mabel": {
+     "at": [
+      8.0,
+      13.8
+     ],
+     "pose": "sit",
+     "face": "r"
+    }
+   },
+   "lead": 1.0,
+   "mood": "mystery",
+   "a": 27.434,
+   "b": 38.879,
+   "vo": [
+    {
+     "id": "s43_n1",
+     "t": 28.134,
+     "d": 5.37,
+     "sub": "Monday. The quay was busy for the first time since the storm. Parcels, nets, gossip.",
+     "dlg": null
+    },
+    {
+     "id": "s43_n2",
+     "t": 33.954,
+     "d": 4.205,
+     "sub": "Gus counted people out of habit. Seven. Then he counted shadows.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S43-shade",
+   "time": "day",
+   "cam": {
+    "type": "dive",
+    "at": [
+     10.2,
+     1.0,
+     13.6
+    ],
+    "az": [
+     -15,
+     -8
+    ],
+    "d": [
+     6.2,
+     5.8
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "shade": {
+     "at": [
+      11.0,
+      13.8
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      8.8,
+      13.3
+     ],
+     "pose": "look",
+     "face": "r",
+     "lit": 0
+    }
+   },
+   "lead": 0.6,
+   "mood": "mystery",
+   "a": 38.879,
+   "b": 49.423,
+   "vo": [
+    {
+     "id": "s43_n3",
+     "t": 39.549,
+     "d": 2.602,
+     "sub": "Eight. The eighth had nobody standing over it.",
+     "dlg": null
+    },
+    {
+     "id": "s43_n4",
+     "t": 43.051,
+     "d": 5.652,
+     "sub": "It stood on its own at the empty berth where the barge had been. Upright. Wearing a bowler hat.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S43-gus",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     8.8,
+     0.9,
+     13.3
+    ],
+    "az": [
+     -34,
+     -24
+    ],
+    "d": [
+     6.6,
+     6.2
+    ],
+    "h": [
+     3.0,
+     2.8
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      8.8,
+      13.3
+     ],
+     "pose": "look",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    }
+   },
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "mystery",
+   "a": 49.423,
+   "b": 61.26,
+   "vo": [
+    {
+     "id": "s43_n5",
+     "t": 50.043,
+     "d": 3.583,
+     "sub": "Nobody else on the quay saw it. Or nobody else would say.",
+     "dlg": null
+    },
+    {
+     "id": "s43_n6",
+     "t": 54.576,
+     "d": 5.884,
+     "sub": "When Gus looked again, the berth was empty, and the noon sun shone straight through where it had stood.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S44-post",
+   "time": "dusk",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -6.5,
+     1.0,
+     7.6
+    ],
+    "az": [
+     30,
+     20
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     4.6,
+     4.3
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      7.4
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -4.4,
+      8.2
+     ],
+     "pose": "idle",
+     "face": "l",
+     "lit": 1
+    },
+    "mabel": {
+     "at": [
+      -3.2,
+      8.6
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lead": 1.0,
+   "mood": "dusk",
+   "a": 61.26,
+   "b": 69.116,
+   "vo": [
+    {
+     "id": "s44_n1",
+     "t": 61.96,
+     "d": 6.436,
+     "sub": "The post office smelled of candle wax and other people\u2019s letters. Wren was waiting, as if she had heard.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S44-tale",
+   "time": "dusk",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -6.5,
+     1.0,
+     7.6
+    ],
+    "az": [
+     18,
+     12
+    ],
+    "d": [
+     8.6,
+     8.2
+    ],
+    "h": [
+     4.0,
+     3.8
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      7.4
+     ],
+     "pose": "open",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -4.4,
+      8.2
+     ],
+     "pose": "idle",
+     "face": "l"
+    },
+    "mabel": {
+     "at": [
+      -3.2,
+      8.6
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lead": 0.6,
+   "mood": "dusk",
+   "a": 69.116,
+   "b": 81.179,
+   "vo": [
+    {
+     "id": "s44_d1",
+     "t": 69.736,
+     "d": 4.377,
+     "sub": "The man who sold his shadow sold it to a buyer in a pale suit. Your Mr Crane.",
+     "dlg": "WREN"
+    },
+    {
+     "id": "s44_d2",
+     "t": 75.013,
+     "d": 5.446,
+     "sub": "And a shadow without its master does one thing, Gus. It goes home. To the family that sold it.",
+     "dlg": "WREN"
+    }
+   ]
+  },
+  {
+   "id": "S44-dark",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -4.4,
+     1.0,
+     8.2
+    ],
+    "az": [
+     -70,
+     -62
+    ],
+    "d": [
+     5.6,
+     5.2
+    ],
+    "h": [
+     2.4,
+     2.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -4.4,
+      8.2
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      -3.2,
+      8.6
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "dusk",
+   "a": 81.179,
+   "b": 90.503,
+   "vo": [
+    {
+     "id": "s44_n2",
+     "t": 81.899,
+     "d": 1.666,
+     "sub": "Gus asked her the man\u2019s name.",
+     "dlg": null
+    },
+    {
+     "id": "s44_n3",
+     "t": 84.515,
+     "d": 5.188,
+     "sub": "Wren blew out the candle instead. Some names, she said, you only say in daylight.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S45-village",
+   "time": "night",
+   "cam": {
+    "type": "map",
+    "from": [
+     -34,
+     26,
+     40
+    ],
+    "to": [
+     -30,
+     23,
+     34
+    ],
+    "look": [
+     0,
+     2,
+     4
+    ],
+    "look2": [
+     0,
+     3,
+     -6
+    ],
+    "fov": 34,
+    "band": 0.5
+   },
+   "cast": {},
+   "lightsOut": 2.0,
+   "lead": 1.0,
+   "mood": "dread",
+   "a": 90.503,
+   "b": 104.841,
+   "vo": [
+    {
+     "id": "s45_n1",
+     "t": 91.203,
+     "d": 6.697,
+     "sub": "At midnight the window of the post office went dark. Then the harbour office. Then the lamp by the jetty.",
+     "dlg": null
+    },
+    {
+     "id": "s45_n2",
+     "t": 98.35,
+     "d": 5.771,
+     "sub": "Not blown out. Swallowed. As if something had walked past each one and taken the light with it.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S45-step",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -1,
+     4.8,
+     -14
+    ],
+    "az": [
+     25,
+     15
+    ],
+    "d": [
+     11,
+     10
+    ],
+    "h": [
+     5,
+     4.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -1.2,
+      -13.6
+     ],
+     "pose": "up",
+     "face": "r",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      0.4,
+      -13.3
+     ],
+     "pose": "sit",
+     "face": "r"
+    },
+    "rollo": {
+     "at": [
+      -2.6,
+      -13.2
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "lightsOut": -30,
+   "lead": 0.6,
+   "mood": "dread",
+   "a": 104.841,
+   "b": 114.886,
+   "vo": [
+    {
+     "id": "s45_n3",
+     "t": 105.261,
+     "d": 5.948,
+     "sub": "From the cottage step, Gus watched the dark come up the cliff path. Lamp by lamp. Toward him.",
+     "dlg": null
+    },
+    {
+     "id": "s45_n4",
+     "t": 112.059,
+     "d": 2.107,
+     "sub": "Mabel\u2019s tail went thick as a rope.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S45-edge",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -0.2,
+     5.0,
+     -13.4
+    ],
+    "az": [
+     10,
+     4
+    ],
+    "d": [
+     5.6,
+     5.2
+    ],
+    "h": [
+     2.4,
+     2.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -1.2,
+      -13.6
+     ],
+     "pose": "up",
+     "face": "r",
+     "hero": 1,
+     "lit": 0.7
+    },
+    "shade": {
+     "at": [
+      0.5,
+      -12.7
+     ],
+     "pose": "idle",
+     "face": "l"
+    }
+   },
+   "lightsOut": -30,
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "dread",
+   "a": 114.886,
+   "b": 126.559,
+   "vo": [
+    {
+     "id": "s45_n5",
+     "t": 115.506,
+     "d": 5.404,
+     "sub": "Then his own flame leaned away from the path, the way a candle leans from a cold door.",
+     "dlg": null
+    },
+    {
+     "id": "s45_n6",
+     "t": 121.86,
+     "d": 3.899,
+     "sub": "Just beyond the light, something was standing. Waiting for it to go out.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S46-ring",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -1,
+     4.8,
+     -14
+    ],
+    "az": [
+     30,
+     18
+    ],
+    "d": [
+     12,
+     11
+    ],
+    "h": [
+     6,
+     5.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -1.2,
+      -13.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    },
+    "marlo": {
+     "at": [
+      0.4,
+      -13.0
+     ],
+     "pose": "idle",
+     "face": "l"
+    },
+    "mabel": {
+     "at": [
+      -0.4,
+      -13.9
+     ],
+     "pose": "sit",
+     "face": "r"
+    }
+   },
+   "ringAt": [
+    -1,
+    4.3,
+    -14,
+    3.6
+   ],
+   "lightsOut": -30,
+   "lead": 1.0,
+   "mood": "tense",
+   "a": 126.559,
+   "b": 139.095,
+   "vo": [
+    {
+     "id": "s46_n1",
+     "t": 127.259,
+     "d": 6.471,
+     "sub": "Marlo had watched the lights die from the jetty, and run the whole cliff path with every lantern off the ferry.",
+     "dlg": null
+    },
+    {
+     "id": "s46_n2",
+     "t": 134.18,
+     "d": 4.195,
+     "sub": "Twelve lanterns, in a ring around the cottage, an arm\u2019s length apart.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S46-press",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "az": [
+     -20,
+     -12
+    ],
+    "d": [
+     6.4,
+     6
+    ],
+    "h": [
+     2.4,
+     2.2
+    ]
+   },
+   "cast": {
+    "shade": {
+     "at": [
+      2.8,
+      -12.2
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -1.2,
+      -13.6
+     ],
+     "pose": "look",
+     "face": "r"
+    }
+   },
+   "ringAt": [
+    -1,
+    4.3,
+    -14,
+    3.6
+   ],
+   "lightsOut": -30,
+   "lead": 0.6,
+   "mood": "tense",
+   "a": 139.095,
+   "b": 149.744,
+   "vo": [
+    {
+     "id": "s46_n3",
+     "t": 139.715,
+     "d": 6.506,
+     "sub": "At the edge of the ring, the dark stopped. It pressed against the light, the way the sea presses against a wall.",
+     "dlg": null
+    },
+    {
+     "id": "s46_n4",
+     "t": 147.171,
+     "d": 1.853,
+     "sub": "And in the dark, something smiled.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S46-wait",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -1,
+     4.8,
+     -14
+    ],
+    "az": [
+     10,
+     4
+    ],
+    "d": [
+     9.5,
+     9
+    ],
+    "h": [
+     4.4,
+     4.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -1.2,
+      -13.6
+     ],
+     "pose": "up",
+     "face": "r",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      -0.4,
+      -13.9
+     ],
+     "pose": "sit",
+     "face": "r"
+    },
+    "marlo": {
+     "at": [
+      0.4,
+      -13.0
+     ],
+     "pose": "idle",
+     "face": "l"
+    }
+   },
+   "ringAt": [
+    -1,
+    4.3,
+    -14,
+    3.6
+   ],
+   "lightsOut": -30,
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "tense",
+   "a": 149.744,
+   "b": 160.363,
+   "vo": [
+    {
+     "id": "s46_n5",
+     "t": 150.414,
+     "d": 3.07,
+     "sub": "It could not come in. Not while the lanterns burned.",
+     "dlg": null
+    },
+    {
+     "id": "s46_n6",
+     "t": 154.434,
+     "d": 5.129,
+     "sub": "Marlo checked the oil. She did not say how much was left. She did not have to.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "think",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     21.4,
+     9.8,
+     -20.4
+    ],
+    "az": [
+     40,
+     30
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     5,
+     4.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      21.4,
+      -20.4
+     ],
+     "pose": "lookUp",
+     "face": "l",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      22.5,
+      -20.0
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lamp": "on",
+   "lead": 0.8,
+   "tail": 0.8,
+   "mood": "mystery",
+   "a": 160.363,
+   "b": 179.857,
+   "vo": [
+    {
+     "id": "k1",
+     "t": 160.923,
+     "d": 7.356,
+     "sub": "The next night Gus kept the lamp himself, on the step below it, with the ring of lanterns still burning in his eyes.",
+     "dlg": null
+    },
+    {
+     "id": "k2",
+     "t": 168.729,
+     "d": 6.754,
+     "sub": "A shadow that walks. A shadow that cannot cross light. A shadow that goes home to the family that sold it.",
+     "dlg": null
+    },
+    {
+     "id": "k3",
+     "t": 176.333,
+     "d": 2.884,
+     "sub": "And a family name Wren would only say in daylight.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S47-garden",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -6.5,
+     1.0,
+     8.2
+    ],
+    "az": [
+     -25,
+     -15
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     4.6,
+     4.3
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      8.4
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    },
+    "gus": {
+     "at": [
+      -4.6,
+      8.8
+     ],
+     "pose": "idle",
+     "face": "l",
+     "lit": 0
+    },
+    "mabel": {
+     "at": [
+      -3.6,
+      9.2
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lead": 1.0,
+   "mood": "day",
+   "a": 179.857,
+   "b": 192.566,
+   "vo": [
+    {
+     "id": "s47_n1",
+     "t": 180.557,
+     "d": 6.87,
+     "sub": "The lanterns held until a quarter to four. Then the dark went back into the rock, as if it had somewhere to be.",
+     "dlg": null
+    },
+    {
+     "id": "s47_n2",
+     "t": 187.877,
+     "d": 3.969,
+     "sub": "At noon, Wren opened the wreckers\u2019 ledger at the very last page.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S47-truth",
+   "time": "day",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -6.0,
+     1.0,
+     8.4
+    ],
+    "az": [
+     -35,
+     -28
+    ],
+    "d": [
+     5.8,
+     5.4
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "wren": {
+     "at": [
+      -6.9,
+      8.4
+     ],
+     "pose": "open",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -4.6,
+      8.8
+     ],
+     "pose": "look",
+     "face": "l",
+     "lit": 0
+    }
+   },
+   "lead": 0.6,
+   "mood": "day",
+   "a": 192.566,
+   "b": 203.014,
+   "vo": [
+    {
+     "id": "s47_d1",
+     "t": 193.186,
+     "d": 4.832,
+     "sub": "Nineteen twenty-six. Sold, one shadow, to S. Crane, for four years of life at sea.",
+     "dlg": "WREN"
+    },
+    {
+     "id": "s47_d2",
+     "t": 198.968,
+     "d": 3.326,
+     "sub": "Signed by the last of the wreckers. Your grandfather, Gus.",
+     "dlg": "WREN"
+    }
+   ]
+  },
+  {
+   "id": "S47-gus",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -4.6,
+     1.0,
+     8.8
+    ],
+    "az": [
+     -34,
+     -24
+    ],
+    "d": [
+     6.6,
+     6.2
+    ],
+    "h": [
+     3.0,
+     2.8
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -4.6,
+      8.8
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1,
+     "lit": 0
+    }
+   },
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "day",
+   "a": 203.014,
+   "b": 217.862,
+   "vo": [
+    {
+     "id": "s47_n3",
+     "t": 203.634,
+     "d": 5.223,
+     "sub": "Gus had his grandfather\u2019s watch. His grandfather\u2019s cap. His grandfather\u2019s name.",
+     "dlg": null
+    },
+    {
+     "id": "s47_n4",
+     "t": 209.307,
+     "d": 2.982,
+     "sub": "He had never once asked what his grandfather had been.",
+     "dlg": null
+    },
+    {
+     "id": "s47_n5",
+     "t": 213.239,
+     "d": 3.823,
+     "sub": "Now his grandfather\u2019s shadow had come home, looking for family.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S48-office",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     9,
+     1.0,
+     12
+    ],
+    "az": [
+     10,
+     0
+    ],
+    "d": [
+     10.5,
+     10
+    ],
+    "h": [
+     4.8,
+     4.5
+    ]
+   },
+   "cast": {
+    "dunn": {
+     "at": [
+      9.6,
+      12.2
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      7.4,
+      12.6
+     ],
+     "to": [
+      8.2,
+      12.5
+     ],
+     "walk": [
+      0.3,
+      1.8
+     ],
+     "pose": "walk",
+     "face": "r",
+     "lit": 0
+    }
+   },
+   "lead": 1.0,
+   "mood": "mystery",
+   "a": 217.862,
+   "b": 225.398,
+   "vo": [
+    {
+     "id": "s48_n1",
+     "t": 218.562,
+     "d": 6.116,
+     "sub": "Dunn had heard the name from Wren before Gus reached the quay. He was waiting with a small black diary.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S48-diary",
+   "time": "day",
+   "cam": {
+    "type": "dive",
+    "at": [
+     9.0,
+     1.0,
+     12.3
+    ],
+    "az": [
+     -12,
+     -4
+    ],
+    "d": [
+     6.0,
+     5.6
+    ],
+    "h": [
+     2.5,
+     2.3
+    ],
+    "lookOff": [
+     0,
+     -0.6,
+     0
+    ]
+   },
+   "cast": {
+    "dunn": {
+     "at": [
+      9.6,
+      12.2
+     ],
+     "pose": "point",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      8.2,
+      12.5
+     ],
+     "pose": "idle",
+     "face": "r",
+     "lit": 0
+    }
+   },
+   "lead": 0.6,
+   "mood": "mystery",
+   "a": 225.398,
+   "b": 240.213,
+   "vo": [
+    {
+     "id": "s48_d1",
+     "t": 226.018,
+     "d": 6.81,
+     "sub": "My father wrote it down. Your grandfather walked off his sunk boat without a mark on him. And without a shadow.",
+     "dlg": "DUNN"
+    },
+    {
+     "id": "s48_d2",
+     "t": 233.778,
+     "d": 5.715,
+     "sub": "Four years later, to the day, he walked back into the sea. My father said he was smiling.",
+     "dlg": "DUNN"
+    }
+   ]
+  },
+  {
+   "id": "S48-gus",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     8.2,
+     0.9,
+     12.5
+    ],
+    "az": [
+     -34,
+     -24
+    ],
+    "d": [
+     6.6,
+     6.2
+    ],
+    "h": [
+     3.0,
+     2.8
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      8.2,
+      12.5
+     ],
+     "pose": "look",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    }
+   },
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "mystery",
+   "a": 240.213,
+   "b": 250.952,
+   "vo": [
+    {
+     "id": "s48_n2",
+     "t": 240.883,
+     "d": 4.151,
+     "sub": "Four years. The price his mother paid. The smile on the cave wall.",
+     "dlg": null
+    },
+    {
+     "id": "s48_n3",
+     "t": 245.984,
+     "d": 4.168,
+     "sub": "It had never been Crane\u2019s shadow at all. Crane had only been wearing it.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "solve1",
+   "time": "day",
+   "cam": {
+    "type": "map",
+    "from": [
+     -40,
+     34,
+     52
+    ],
+    "to": [
+     -32,
+     28,
+     42
+    ],
+    "look": [
+     16,
+     6,
+     -34
+    ],
+    "look2": [
+     12,
+     6,
+     -14
+    ],
+    "fov": 34,
+    "band": 0.45
+   },
+   "cast": {},
+   "solve": {
+    "q": "So who is the shadow really coming for?",
+    "secs": 5
+   },
+   "lead": 0.6,
+   "tail": 6.2,
+   "mood": "mystery",
+   "a": 250.952,
+   "b": 268.366,
+   "vo": [
+    {
+     "id": "q1",
+     "t": 251.372,
+     "d": 3.566,
+     "sub": "Pause here. The shadow came home to the family that sold it.",
+     "dlg": null
+    },
+    {
+     "id": "q2",
+     "t": 255.388,
+     "d": 8.018,
+     "sub": "Gus\u2019s grandfather sold it in 1926. His grandfather is gone. His mother has her own shadow back.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S49-row",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -172,
+     -164
+    ],
+    "d": [
+     6.6,
+     6.2
+    ],
+    "h": [
+     3.6,
+     3.4
+    ]
+   },
+   "cast": {
+    "marlo": {
+     "at": [
+      -92.6,
+      -86.6
+     ],
+     "pose": "idle",
+     "face": "l"
+    },
+    "gus": {
+     "at": [
+      -94,
+      -87.4
+     ],
+     "pose": "up",
+     "face": "l",
+     "hero": 1
+    }
+   },
+   "lead": 1.0,
+   "mood": "tense",
+   "a": 268.366,
+   "b": 280.769,
+   "vo": [
+    {
+     "id": "s49_n1",
+     "t": 269.066,
+     "d": 6.912,
+     "sub": "Thursday, low tide. Marlo rowed them in through the crack, oars shipped, the cave glowing green around them.",
+     "dlg": null
+    },
+    {
+     "id": "s49_n2",
+     "t": 276.428,
+     "d": 3.621,
+     "sub": "On the wall where the smile had been, there was only wet rock.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S49-wall",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "az": [
+     -62,
+     -56
+    ],
+    "d": [
+     5.4,
+     5
+    ],
+    "h": [
+     2.4,
+     2.2
+    ]
+   },
+   "cast": {
+    "rollo": {
+     "at": [
+      -89.4,
+      -92.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -90.6,
+      -93.6
+     ],
+     "pose": "look",
+     "face": "r"
+    }
+   },
+   "lead": 0.6,
+   "mood": "tense",
+   "a": 280.769,
+   "b": 285.066,
+   "vo": [
+    {
+     "id": "s49_n3",
+     "t": 281.489,
+     "d": 2.857,
+     "sub": "Rollo found the only thing it had left behind.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S49-trail",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "az": [
+     55,
+     62
+    ],
+    "d": [
+     5.4,
+     5
+    ],
+    "h": [
+     3.8,
+     3.6
+    ]
+   },
+   "cast": {
+    "rollo": {
+     "at": [
+      -93.0,
+      -91.4
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -91.8,
+      -90.6
+     ],
+     "pose": "fwd",
+     "face": "l"
+    }
+   },
+   "props": [
+    "prints"
+   ],
+   "printsAt": [
+    -94.4,
+    0.45,
+    -91.2
+   ],
+   "printsCol": "#101418",
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "tense",
+   "a": 285.066,
+   "b": 299.729,
+   "vo": [
+    {
+     "id": "s49_n4",
+     "t": 285.736,
+     "d": 7.708,
+     "sub": "A dent in the sand, the shape of a bowler hat. And a long dark stain, as if something had been dragged toward the water.",
+     "dlg": null
+    },
+    {
+     "id": "s49_n5",
+     "t": 294.394,
+     "d": 4.535,
+     "sub": "Toward the deep pool at the back of the cave. The one Mabel will not go near.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S50-pool",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -60,
+     -45
+    ],
+    "d": [
+     8,
+     7.6
+    ],
+    "h": [
+     9.6,
+     9.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -91.8,
+      -90.6
+     ],
+     "pose": "fwd",
+     "face": "l",
+     "hero": 1
+    },
+    "marlo": {
+     "at": [
+      -90.4,
+      -89.8
+     ],
+     "pose": "idle",
+     "face": "l"
+    },
+    "mabel": {
+     "at": [
+      -92.8,
+      -89.6
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "events": [
+    {
+     "t": 7.0,
+     "kind": "splash"
+    }
+   ],
+   "lead": 1.0,
+   "mood": "dread",
+   "a": 299.729,
+   "b": 312.266,
+   "vo": [
+    {
+     "id": "s50_n1",
+     "t": 300.429,
+     "d": 6.379,
+     "sub": "Gus knelt at the pool with his lantern. Under the surface, something darker than the water turned over.",
+     "dlg": null
+    },
+    {
+     "id": "s50_n2",
+     "t": 307.258,
+     "d": 4.288,
+     "sub": "Then a hand made of nothing but shadow closed around the light, and pulled.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S50-jump",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "az": [
+     55,
+     62
+    ],
+    "d": [
+     5.4,
+     5
+    ],
+    "h": [
+     3.8,
+     3.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -91.8,
+      -90.6
+     ],
+     "pose": "fwd",
+     "face": "l",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      -90.6,
+      -89.6
+     ],
+     "to": [
+      -92.2,
+      -90.4
+     ],
+     "walk": [
+      3.4,
+      4.2
+     ],
+     "pose": "walk",
+     "face": "l"
+    }
+   },
+   "events": [
+    {
+     "t": 4.2,
+     "kind": "splash"
+    }
+   ],
+   "lead": 0.6,
+   "mood": "dread",
+   "a": 312.266,
+   "b": 322.518,
+   "vo": [
+    {
+     "id": "s50_n3",
+     "t": 312.886,
+     "d": 3.196,
+     "sub": "Gus went with it. Knees, then hands, then the cold.",
+     "dlg": null
+    },
+    {
+     "id": "s50_n4",
+     "t": 316.932,
+     "d": 4.866,
+     "sub": "And Mabel, who sits down very fast for fish and fear, did neither. She jumped.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S50-out",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -172,
+     -164
+    ],
+    "d": [
+     6.6,
+     6.2
+    ],
+    "h": [
+     3.6,
+     3.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -94,
+      -87.4
+     ],
+     "pose": "up",
+     "face": "l",
+     "hero": 1,
+     "lit": 0.4
+    },
+    "mabel": {
+     "at": [
+      -93.0,
+      -87.0
+     ],
+     "pose": "sit",
+     "face": "l"
+    },
+    "marlo": {
+     "at": [
+      -92.6,
+      -86.6
+     ],
+     "pose": "idle",
+     "face": "l"
+    }
+   },
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "dread",
+   "a": 322.518,
+   "b": 336.461,
+   "vo": [
+    {
+     "id": "s50_n5",
+     "t": 323.138,
+     "d": 6.748,
+     "sub": "She came up with her teeth in his collar and the lantern still lit, and hauled until Marlo could grab them both.",
+     "dlg": null
+    },
+    {
+     "id": "s50_n6",
+     "t": 330.836,
+     "d": 4.825,
+     "sub": "But the flame it had touched had gone thin and pale, like a lamp seen through ice.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S51-fly",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -35,
+     -25
+    ],
+    "d": [
+     9,
+     8
+    ],
+    "h": [
+     2.4,
+     2
+    ]
+   },
+   "cast": {
+    "pip": {
+     "at": [
+      -4,
+      6
+     ],
+     "to": [
+      4,
+      -8
+     ],
+     "pose": "fly",
+     "y": 8,
+     "hero": 1,
+     "fly": 1
+    }
+   },
+   "lead": 1.0,
+   "mood": "day",
+   "a": 336.461,
+   "b": 349.056,
+   "vo": [
+    {
+     "id": "s51_n1",
+     "t": 337.161,
+     "d": 6.974,
+     "sub": "Pip had a theory. Gulls usually do. At noon he would count every person on the island, and every shadow.",
+     "dlg": null
+    },
+    {
+     "id": "s51_n2",
+     "t": 344.585,
+     "d": 3.751,
+     "sub": "Two hundred and six people. Two hundred and seven shadows.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S51-path",
+   "time": "day",
+   "cam": {
+    "type": "track",
+    "side": "south",
+    "h": 5.6,
+    "d": 14,
+    "lead": 2.4
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      3,
+      -11
+     ],
+     "to": [
+      12.2,
+      -12.6
+     ],
+     "walk": [
+      0.4,
+      7.5
+     ],
+     "pose": "walk",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    },
+    "shade": {
+     "at": [
+      2.0,
+      -11.7
+     ],
+     "to": [
+      11.2,
+      -13.3
+     ],
+     "walk": [
+      0.4,
+      7.5
+     ],
+     "pose": "walk",
+     "face": "r"
+    }
+   },
+   "lead": 0.6,
+   "mood": "day",
+   "a": 349.056,
+   "b": 361.551,
+   "vo": [
+    {
+     "id": "s51_n3",
+     "t": 349.676,
+     "d": 7.291,
+     "sub": "He found the extra one on the cliff path. It was walking beside Gus, step for step, close enough to hold his hand.",
+     "dlg": null
+    },
+    {
+     "id": "s51_n4",
+     "t": 357.817,
+     "d": 3.014,
+     "sub": "Gus had two shadows now. One of them wore a hat.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S51-report",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -1.2,
+     4.8,
+     -13.4
+    ],
+    "az": [
+     20,
+     12
+    ],
+    "d": [
+     9.5,
+     9
+    ],
+    "h": [
+     4.4,
+     4.2
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -1.2,
+      -13.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1,
+     "lit": 0
+    },
+    "pip": {
+     "at": [
+      0.6,
+      -13.2
+     ],
+     "pose": "idle",
+     "face": "l"
+    },
+    "mabel": {
+     "at": [
+      -2.4,
+      -13.2
+     ],
+     "pose": "sit",
+     "face": "r"
+    }
+   },
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "day",
+   "a": 361.551,
+   "b": 372.724,
+   "vo": [
+    {
+     "id": "s51_n5",
+     "t": 362.171,
+     "d": 2.853,
+     "sub": "Pip told Gus. Gus did not turn around.",
+     "dlg": null
+    },
+    {
+     "id": "s51_n6",
+     "t": 365.974,
+     "d": 5.95,
+     "sub": "He said he had felt it since the pool. Cold, on his left side, like standing too close to the sea.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S52-jetty",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -3,
+     0.6,
+     36
+    ],
+    "az": [
+     -150,
+     -160
+    ],
+    "d": [
+     11,
+     10.4
+    ],
+    "h": [
+     5,
+     4.8
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -2.6,
+      38.4
+     ],
+     "pose": "idle",
+     "face": "l",
+     "shadow": true
+    },
+    "gus": {
+     "at": [
+      -3.4,
+      35.2
+     ],
+     "to": [
+      -3.0,
+      36.8
+     ],
+     "walk": [
+      0.3,
+      2.6
+     ],
+     "pose": "walk",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "lead": 1.0,
+   "mood": "mystery",
+   "a": 372.724,
+   "b": 387.981,
+   "vo": [
+    {
+     "id": "s52_n1",
+     "t": 373.424,
+     "d": 7.081,
+     "sub": "Gus had not seen his mother since the ferry came home. At midnight she was at the end of the jetty, facing the sea.",
+     "dlg": null
+    },
+    {
+     "id": "s52_n2",
+     "t": 380.955,
+     "d": 6.306,
+     "sub": "Her shadow lay on the boards beside her, small and ordinary. She seemed to be keeping an eye on it.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S52-warn",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -2.8,
+     0.6,
+     37.6
+    ],
+    "az": [
+     -170,
+     -176
+    ],
+    "d": [
+     5.6,
+     5.2
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -2.6,
+      38.4
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1,
+     "shadow": true
+    },
+    "gus": {
+     "at": [
+      -3.0,
+      36.8
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "lead": 0.6,
+   "mood": "mystery",
+   "a": 387.981,
+   "b": 398.824,
+   "vo": [
+    {
+     "id": "s52_d1",
+     "t": 388.601,
+     "d": 5.048,
+     "sub": "It wants a keeper, Gus. It belonged to one once. It will take yours, and your light with it.",
+     "dlg": "THE STRANGER"
+    },
+    {
+     "id": "s52_d2",
+     "t": 394.599,
+     "d": 3.505,
+     "sub": "A shadow must fall away from its light. Give it nowhere to fall.",
+     "dlg": "THE STRANGER"
+    }
+   ]
+  },
+  {
+   "id": "S52-gone",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     -3.0,
+     0.6,
+     36.8
+    ],
+    "az": [
+     -20,
+     -12
+    ],
+    "d": [
+     5.6,
+     5.2
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -3.0,
+      36.8
+     ],
+     "pose": "look",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "events": [
+    {
+     "t": 1.2,
+     "kind": "splash"
+    }
+   ],
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "mystery",
+   "a": 398.824,
+   "b": 409.979,
+   "vo": [
+    {
+     "id": "s52_n3",
+     "t": 399.494,
+     "d": 4.638,
+     "sub": "Then she stepped off the end of the jetty, and the sea closed over her like a door.",
+     "dlg": null
+    },
+    {
+     "id": "s52_n4",
+     "t": 405.082,
+     "d": 4.097,
+     "sub": "Gus stood there while the lamp came round three times. Nowhere to fall.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "watch",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -1,
+     4.8,
+     -14
+    ],
+    "az": [
+     10,
+     4
+    ],
+    "d": [
+     9.5,
+     9
+    ],
+    "h": [
+     4.4,
+     4.2
+    ]
+   },
+   "cast": {
+    "mabel": {
+     "at": [
+      0.4,
+      -13.3
+     ],
+     "pose": "sit",
+     "face": "l",
+     "hero": 1
+    },
+    "rollo": {
+     "at": [
+      -0.8,
+      -13.2
+     ],
+     "pose": "idle",
+     "face": "r"
+    },
+    "gus": {
+     "at": [
+      -2.2,
+      -13.6
+     ],
+     "pose": "idle",
+     "face": "r"
+    }
+   },
+   "lead": 0.8,
+   "tail": 0.8,
+   "mood": "dusk",
+   "a": 409.979,
+   "b": 422.459,
+   "vo": [
+    {
+     "id": "w1",
+     "t": 410.539,
+     "d": 4.489,
+     "sub": "That night Gus slept with his lantern lit, for the first time since he was a boy.",
+     "dlg": null
+    },
+    {
+     "id": "w2",
+     "t": 415.878,
+     "d": 5.941,
+     "sub": "Mabel slept on his chest. She had not left his side since the pool, and she was not about to start.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S53-board",
+   "time": "dusk",
+   "cam": {
+    "type": "map",
+    "from": [
+     -40,
+     34,
+     52
+    ],
+    "to": [
+     -32,
+     28,
+     42
+    ],
+    "look": [
+     16,
+     6,
+     -30
+    ],
+    "look2": [
+     12,
+     6,
+     -14
+    ],
+    "fov": 34,
+    "band": 0.45
+   },
+   "cast": {},
+   "lead": 1.0,
+   "mood": "dusk",
+   "a": 422.459,
+   "b": 436.081,
+   "vo": [
+    {
+     "id": "s53_n1",
+     "t": 423.159,
+     "d": 4.088,
+     "sub": "Saturday at dusk, they worked it out on the back of a ferry timetable.",
+     "dlg": null
+    },
+    {
+     "id": "s53_n2",
+     "t": 427.697,
+     "d": 7.664,
+     "sub": "Every light throws a shadow on its far side. Light something from every side at once, and there is no far side left.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S53-path",
+   "time": "dusk",
+   "cam": {
+    "type": "track",
+    "side": "south",
+    "h": 5.4,
+    "d": 13.5,
+    "lead": 2.0
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -1.5,
+      -11
+     ],
+     "to": [
+      6,
+      -11.4
+     ],
+     "walk": [
+      0.4,
+      9
+     ],
+     "pose": "walk",
+     "face": "r",
+     "hero": 1
+    },
+    "marlo": {
+     "at": [
+      -3,
+      -10.6
+     ],
+     "to": [
+      4.5,
+      -11
+     ],
+     "walk": [
+      0.5,
+      9
+     ],
+     "pose": "walk",
+     "face": "r"
+    },
+    "dunn": {
+     "at": [
+      -4.2,
+      -10.6
+     ],
+     "to": [
+      3.2,
+      -11
+     ],
+     "walk": [
+      0.6,
+      9.1
+     ],
+     "pose": "walk",
+     "face": "r"
+    }
+   },
+   "lead": 0.6,
+   "mood": "dusk",
+   "a": 436.081,
+   "b": 449.522,
+   "vo": [
+    {
+     "id": "s53_n3",
+     "t": 436.701,
+     "d": 8.632,
+     "sub": "The tower above. The under-lamp below. Twelve lanterns in a ring. Wren\u2019s candle, Dunn\u2019s harbour lamp, Marlo\u2019s ferry lights.",
+     "dlg": null
+    },
+    {
+     "id": "s53_n4",
+     "t": 446.183,
+     "d": 2.619,
+     "sub": "And Gus\u2019s lantern in the middle. As bait.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S53-door",
+   "time": "dusk",
+   "cam": {
+    "type": "stage",
+    "at": [
+     21.4,
+     9.8,
+     -20.4
+    ],
+    "az": [
+     40,
+     30
+    ],
+    "d": [
+     10,
+     9.4
+    ],
+    "h": [
+     5,
+     4.6
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      21.4,
+      -20.4
+     ],
+     "pose": "lookUp",
+     "face": "l",
+     "hero": 1
+    },
+    "mabel": {
+     "at": [
+      22.5,
+      -20.0
+     ],
+     "pose": "sit",
+     "face": "l"
+    }
+   },
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "dusk",
+   "a": 449.522,
+   "b": 459.063,
+   "vo": [
+    {
+     "id": "s53_n5",
+     "t": 450.142,
+     "d": 4.146,
+     "sub": "Wren asked who would stand in the middle when the dark came for its keeper.",
+     "dlg": null
+    },
+    {
+     "id": "s53_n6",
+     "t": 455.238,
+     "d": 3.025,
+     "sub": "Gus said that was the job. It always had been.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "solve2",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     21.4,
+     9.8,
+     -20.4
+    ],
+    "az": [
+     40,
+     30
+    ],
+    "d": [
+     11,
+     10.4
+    ],
+    "h": [
+     5.2,
+     4.8
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      21.0,
+      -19.6
+     ],
+     "pose": "up",
+     "face": "r",
+     "hero": 1
+    }
+   },
+   "ringAt": [
+    21.2,
+    9.2,
+    -19.4,
+    3.2
+   ],
+   "lamp": "on",
+   "solve": {
+    "q": "Where is there left for the shadow to fall?",
+    "secs": 5
+   },
+   "lead": 0.6,
+   "tail": 6.2,
+   "mood": "dread",
+   "a": 459.063,
+   "b": 475.092,
+   "vo": [
+    {
+     "id": "r1",
+     "t": 459.483,
+     "d": 4.037,
+     "sub": "One last pause. A shadow always falls away from its light.",
+     "dlg": null
+    },
+    {
+     "id": "r2",
+     "t": 463.97,
+     "d": 6.162,
+     "sub": "The tower above. The cave lamp below. A ring of lanterns all round. And Gus in the middle.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S54-island",
+   "time": "night",
+   "cam": {
+    "type": "map",
+    "from": [
+     -50,
+     44,
+     70
+    ],
+    "to": [
+     -44,
+     38,
+     60
+    ],
+    "look": [
+     10,
+     5,
+     -12
+    ],
+    "look2": [
+     14,
+     6,
+     -16
+    ],
+    "fov": 36,
+    "band": 0.45
+   },
+   "cast": {},
+   "lamp": "on",
+   "lead": 1.0,
+   "mood": "dread",
+   "a": 475.092,
+   "b": 488.682,
+   "vo": [
+    {
+     "id": "s54_n1",
+     "t": 475.792,
+     "d": 8.185,
+     "sub": "At three o\u2019clock the island looked like a birthday cake. Every window, every lantern, the tower, the ferry, all burning at once.",
+     "dlg": null
+    },
+    {
+     "id": "s54_n2",
+     "t": 484.427,
+     "d": 3.535,
+     "sub": "At the foot of the tower, Gus stood alone in the ring, and waited.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S54-come",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     21.4,
+     9.8,
+     -20.4
+    ],
+    "az": [
+     40,
+     30
+    ],
+    "d": [
+     11,
+     10.4
+    ],
+    "h": [
+     5.2,
+     4.8
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      21.0,
+      -19.6
+     ],
+     "pose": "up",
+     "face": "r",
+     "hero": 1
+    },
+    "shade": {
+     "at": [
+      25.6,
+      -16.8
+     ],
+     "to": [
+      23.4,
+      -18.2
+     ],
+     "walk": [
+      0.5,
+      5.0
+     ],
+     "pose": "walk",
+     "face": "l"
+    }
+   },
+   "ringAt": [
+    21.2,
+    9.2,
+    -19.4,
+    3.2
+   ],
+   "lamp": "on",
+   "lead": 0.6,
+   "mood": "dread",
+   "a": 488.682,
+   "b": 500.124,
+   "vo": [
+    {
+     "id": "s54_n3",
+     "t": 489.302,
+     "d": 5.444,
+     "sub": "At three twelve, the dark came up out of the door in the rock and crossed the grass toward him.",
+     "dlg": null
+    },
+    {
+     "id": "s54_n4",
+     "t": 495.596,
+     "d": 3.808,
+     "sub": "It reached the first lantern, and its edge went thin as paper.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S54-turn",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     22.2,
+     9.8,
+     -19.0
+    ],
+    "az": [
+     55,
+     62
+    ],
+    "d": [
+     6,
+     5.6
+    ],
+    "h": [
+     2.4,
+     2.2
+    ]
+   },
+   "cast": {
+    "shade": {
+     "at": [
+      23.4,
+      -18.2
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      21.0,
+      -19.6
+     ],
+     "pose": "up",
+     "face": "r"
+    }
+   },
+   "ringAt": [
+    21.2,
+    9.2,
+    -19.4,
+    3.2
+   ],
+   "lamp": "on",
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "dread",
+   "a": 500.124,
+   "b": 511.326,
+   "vo": [
+    {
+     "id": "s54_n5",
+     "t": 500.744,
+     "d": 4.039,
+     "sub": "Light from the tower. Light from below. Light from every side.",
+     "dlg": null
+    },
+    {
+     "id": "s54_n6",
+     "t": 505.733,
+     "d": 4.793,
+     "sub": "The shadow turned, and turned, looking for somewhere to fall. There was nowhere left.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S55-shape",
+   "time": "night",
+   "cam": {
+    "type": "dive",
+    "at": [
+     22.2,
+     9.8,
+     -19.0
+    ],
+    "az": [
+     55,
+     62
+    ],
+    "d": [
+     6,
+     5.6
+    ],
+    "h": [
+     2.4,
+     2.2
+    ]
+   },
+   "cast": {
+    "shade": {
+     "at": [
+      22.6,
+      -18.6
+     ],
+     "pose": "cap",
+     "face": "l",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      21.0,
+      -19.6
+     ],
+     "pose": "look",
+     "face": "r"
+    }
+   },
+   "ringAt": [
+    21.2,
+    9.2,
+    -19.4,
+    3.2
+   ],
+   "lamp": "on",
+   "lead": 1.0,
+   "mood": "dusk",
+   "a": 511.326,
+   "b": 523.28,
+   "vo": [
+    {
+     "id": "s55_n1",
+     "t": 512.026,
+     "d": 3.924,
+     "sub": "In the middle of all that light, the bowler hat came apart like smoke.",
+     "dlg": null
+    },
+    {
+     "id": "s55_n2",
+     "t": 516.8,
+     "d": 5.76,
+     "sub": "What was left wore a flat cap with a peak. A keeper\u2019s cap. The one hanging by Gus\u2019s door.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S55-name",
+   "time": "night",
+   "cam": {
+    "type": "stage",
+    "at": [
+     21.6,
+     9.8,
+     -19.2
+    ],
+    "az": [
+     30,
+     22
+    ],
+    "d": [
+     7.6,
+     7.2
+    ],
+    "h": [
+     3.2,
+     3.0
+    ]
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      21.0,
+      -19.6
+     ],
+     "pose": "fwd",
+     "face": "r",
+     "hero": 1
+    },
+    "shade": {
+     "at": [
+      22.6,
+      -18.6
+     ],
+     "pose": "cap",
+     "face": "l"
+    }
+   },
+   "ringAt": [
+    21.2,
+    9.2,
+    -19.4,
+    3.2
+   ],
+   "lamp": "on",
+   "lead": 0.6,
+   "mood": "dusk",
+   "a": 523.28,
+   "b": 533.93,
+   "vo": [
+    {
+     "id": "s55_n3",
+     "t": 523.95,
+     "d": 2.145,
+     "sub": "Gus said the only word he could think of.",
+     "dlg": null
+    },
+    {
+     "id": "s55_d1",
+     "t": 527.045,
+     "d": 0.829,
+     "sub": "Grandad.",
+     "dlg": "GUS"
+    },
+    {
+     "id": "s55_n4",
+     "t": 528.724,
+     "d": 4.486,
+     "sub": "The shadow knelt, the way a tired man kneels, and the smile went out of it.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S55-home",
+   "time": "night",
+   "cam": {
+    "type": "map",
+    "from": [
+     -30,
+     24,
+     30
+    ],
+    "to": [
+     -26,
+     20,
+     22
+    ],
+    "look": [
+     16,
+     4,
+     -20
+    ],
+    "look2": [
+     14,
+     3,
+     -24
+    ],
+    "fov": 34,
+    "band": 0.45
+   },
+   "cast": {},
+   "lamp": "on",
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "dusk",
+   "a": 533.93,
+   "b": 548.569,
+   "vo": [
+    {
+     "id": "s55_n5",
+     "t": 534.55,
+     "d": 6.537,
+     "sub": "Then it slid down the steps, under the door in the rock, and away toward the sea. Not hunting. Going home.",
+     "dlg": null
+    },
+    {
+     "id": "s55_n6",
+     "t": 542.037,
+     "d": 5.732,
+     "sub": "At four the lanterns burned out one by one, and there was nothing left in the dark to wait for them.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S56-rocks",
+   "time": "dawn",
+   "cam": {
+    "type": "orbit",
+    "at": [
+     11.4,
+     1.0,
+     -46.8
+    ],
+    "az": [
+     -40,
+     -15
+    ],
+    "d": [
+     9,
+     8.2
+    ],
+    "h": [
+     5,
+     4.6
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      10.0,
+      -44.4
+     ],
+     "pose": "idle",
+     "face": "r",
+     "shadow": true
+    },
+    "gus": {
+     "at": [
+      11.8,
+      -43.6
+     ],
+     "pose": "look",
+     "face": "l",
+     "hero": 1,
+     "lit": 0
+    }
+   },
+   "props": [
+    "wreck"
+   ],
+   "lead": 1.0,
+   "mood": "mystery",
+   "a": 548.569,
+   "b": 558.988,
+   "vo": [
+    {
+     "id": "s56_n1",
+     "t": 549.269,
+     "d": 5.699,
+     "sub": "Sunday at dawn, Gus walked out to the north rocks. She was there, the way he knew she would be.",
+     "dlg": null
+    },
+    {
+     "id": "s56_n2",
+     "t": 555.418,
+     "d": 2.85,
+     "sub": "Two people. Two shadows. He counted twice.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "S56-talk",
+   "time": "dawn",
+   "cam": {
+    "type": "dive",
+    "at": [
+     10.9,
+     1.0,
+     -44.0
+    ],
+    "az": [
+     -35,
+     -26
+    ],
+    "d": [
+     6,
+     5.6
+    ],
+    "h": [
+     2.6,
+     2.4
+    ]
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      10.0,
+      -44.4
+     ],
+     "pose": "idle",
+     "face": "r",
+     "shadow": true
+    },
+    "gus": {
+     "at": [
+      11.8,
+      -43.6
+     ],
+     "pose": "idle",
+     "face": "l",
+     "hero": 1,
+     "lit": 0
+    }
+   },
+   "props": [
+    "wreck"
+   ],
+   "lead": 0.6,
+   "mood": "mystery",
+   "a": 558.988,
+   "b": 569.563,
+   "vo": [
+    {
+     "id": "s56_d1",
+     "t": 559.608,
+     "d": 5.259,
+     "sub": "Your grandfather sold his shadow to Crane. Crane must have sold his own to someone, long before.",
+     "dlg": "THE STRANGER"
+    },
+    {
+     "id": "s56_d2",
+     "t": 565.817,
+     "d": 3.026,
+     "sub": "A man does not live a hundred years on one shadow, Gus.",
+     "dlg": "THE STRANGER"
+    }
+   ]
+  },
+  {
+   "id": "S56-barge",
+   "time": "day",
+   "cam": {
+    "type": "stage",
+    "at": [
+     13.6,
+     0.9,
+     17.6
+    ],
+    "az": [
+     -58,
+     -50
+    ],
+    "d": [
+     11,
+     10.4
+    ],
+    "h": [
+     4.6,
+     4.4
+    ]
+   },
+   "cast": {
+    "dunn": {
+     "at": [
+      12.2,
+      15.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      11.0,
+      15.2
+     ],
+     "pose": "look",
+     "face": "r",
+     "lit": 0
+    }
+   },
+   "props": [
+    "barge"
+   ],
+   "lead": 0.6,
+   "tail": 1.0,
+   "mood": "mystery",
+   "a": 569.563,
+   "b": 587.771,
+   "vo": [
+    {
+     "id": "s56_n3",
+     "t": 570.183,
+     "d": 5.704,
+     "sub": "That morning Dunn found Crane\u2019s grey barge drifting empty outside the harbour, and towed it in.",
+     "dlg": null
+    },
+    {
+     "id": "s56_n4",
+     "t": 576.337,
+     "d": 7.018,
+     "sub": "In the wheelhouse, the ledger lay open at a new page. One line, in a thin sloping hand, the ink still wet.",
+     "dlg": null
+    },
+    {
+     "id": "s56_n5",
+     "t": 584.405,
+     "d": 2.566,
+     "sub": "The Keeper\u2019s Island. Payable to the bearer.",
+     "dlg": null
+    }
+   ]
+  },
+  {
+   "id": "title",
+   "time": "dawn",
+   "cam": {
+    "type": "map",
+    "from": [
+     -50,
+     44,
+     70
+    ],
+    "to": [
+     -60,
+     56,
+     84
+    ],
+    "look": [
+     10,
+     5,
+     -12
+    ],
+    "look2": [
+     8,
+     4,
+     -10
+    ],
+    "fov": 38
+   },
+   "cast": {},
+   "title": {
+    "title": "THE KEEPER\u2019S ISLAND",
+    "tag": "Chapter V \u00b7 The Last Page \u2014 next week",
+    "credit": "Original story, characters and music \u00b7 Voices: Kokoro TTS"
+   },
+   "lamp": "on",
+   "min": 8.0,
+   "lead": 0,
+   "tail": 0,
+   "mood": "dusk",
+   "a": 587.771,
+   "b": 595.771,
+   "vo": []
+  }
+ ],
+ "hook": null,
+ "hookEnd": 0,
+ "ask": null,
+ "askAt": null,
+ "music": {
+  "mood": "mystery"
+ }
+}

@@ -27,10 +27,12 @@ $PY $T/mix_long.py $CH 2>&1 | tail -1
 echo "== QA stills (one per shot, 9:16 and 16:9)"; mkdir -p $W/qa
 for d in $SH/*/; do ts=$(python3 -c "import json,sys;T=json.load(open(sys.argv[1]+'/timeline.json'));print(' '.join(f\"{(s['a']+s['b'])/2:.1f}\" for s in T['shots']))" $d)
   node core/render/still.mjs $d $ts --size 360x640 --q 'ss=1' --prefix "$(basename $d | cut -c12-14)_" --out $W/qa > /dev/null 2>&1 || echo "STILL FAIL $d"; done
-echo "== package"; O=$W/kit; rm -rf $O; mkdir -p $O/shorts $O/long $O/engine/tools
-for d in $SH/*/; do b=$(basename $d); mkdir -p $O/shorts/$b/out $O/shorts/$b/voices; ffmpeg -v error -y -i $d/out/mix.wav -c:a pcm_s16le $O/shorts/$b/out/mix.wav
+echo "== package (audio as FLAC; engine/tools/unpack_kit.py turns it back into out/mix.wav on the device)"; O=$W/kit; rm -rf $O; mkdir -p $O/shorts $O/long $O/engine/tools
+for d in $SH/*/; do b=$(basename $d); mkdir -p $O/shorts/$b/out $O/shorts/$b/voices; ffmpeg -v error -y -i $d/out/mix.wav -c:a flac -sample_fmt s16 $O/shorts/$b/out/mix.flac
   cp $d/{timeline.json,lines.json,short.json,PUBLISH.md,index.html} $O/shorts/$b/; cp $d/voices/dur.json $O/shorts/$b/voices/; done
-mkdir -p $O/long/$CHNAME/out $O/long/$CHNAME/voices; cp $CH/out/mix.wav $O/long/$CHNAME/out/; cp $CH/{short.json,lines.json,timeline.json,index.html} $O/long/$CHNAME/; cp $CH/voices/dur.json $O/long/$CHNAME/voices/
+mkdir -p $O/long/$CHNAME/out $O/long/$CHNAME/voices; ffmpeg -v error -y -i $CH/out/mix.wav -c:a flac -sample_fmt s16 $O/long/$CHNAME/out/mix.flac; cp $CH/{short.json,lines.json,timeline.json,index.html} $O/long/$CHNAME/; cp $CH/voices/dur.json $O/long/$CHNAME/voices/
 cp $E/{cast.js,world.js,ui.js,main.js,index.html} $O/engine/; cp $T/*.py $T/*.sh $O/engine/tools/
-[ -f $W/extra/PUBLISH-CH.md ] && cp $W/extra/PUBLISH-CH.md $O/long/ ; [ -f $W/extra/WEEK.md ] && cp $W/extra/WEEK.md $O/shorts/
+F=$(ls $SH | head -1 | cut -c1-10); LA=$(ls $SH | tail -1 | cut -c1-10); N=$(echo $CHNAME | sed -E 's/.*-ch0?([0-9]+)-.*/\1/')
+[ -f $W/extra/PUBLISH-CH.md ] && cp $W/extra/PUBLISH-CH.md $O/long/PUBLISH-CH$(printf %02d $N).md ; [ -f $W/extra/WEEK.md ] && cp $W/extra/WEEK.md $O/shorts/WEEK-$F-to-${LA:5}.md
+for b in render-week render-long; do printf '@echo off\r\nREM The Keeper'"'"'s Island: week %s only (%s to %s)\r\npowershell -NoProfile -ExecutionPolicy Bypass -File "%%~dp0%s.ps1" -From %s -To %s %%*\r\n' $N $F $LA $b $F $LA > $O/$([ $b = render-week ] && echo shorts/render-week$N.bat || echo long/render-long-week$N.bat); done
 (cd $O && tar czf $KIT .); ls -la $KIT

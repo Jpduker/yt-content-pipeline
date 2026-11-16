@@ -1,0 +1,38 @@
+[
+ {
+  "id": "n1",
+  "text": "Gus put the locket on Dunn\u2019s desk and said nothing. It worked better than shouting.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n2",
+  "text": "Dunn sighed, unlocked a drawer, and took out the wrecked boat\u2019s registry plate.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "d1",
+  "text": "No owner. No port. No crew. Just a name painted on the bow.",
+  "voice": "bm_george",
+  "speed": 1.0
+ },
+ {
+  "id": "d2",
+  "text": "She was called the Keeper\u2019s Daughter.",
+  "voice": "bm_george",
+  "speed": 1.0
+ },
+ {
+  "id": "n3",
+  "text": "Gus never had a sister. His mother was the keeper\u2019s only daughter.",
+  "voice": "am_michael",
+  "speed": 1.0
+ },
+ {
+  "id": "n4",
+  "text": "And she was lost at sea the night he was born.",
+  "voice": "am_michael",
+  "speed": 1.0
+ }
+]
