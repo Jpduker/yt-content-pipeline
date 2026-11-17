@@ -1,0 +1,142 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, when a dad laughs, he turns into a kid. For one minute.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 5.031
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your dad hasn't laughed in two years.",
+  "sec": "hook",
+  "start": 5.171,
+  "end": 7.317
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Not since he lost his job. He just fixes things. Quietly.",
+  "sec": "act1",
+  "start": 7.917,
+  "end": 11.902
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "So you try everything. Bad jokes.",
+  "sec": "act1",
+  "start": 12.076,
+  "end": 14.43
+ },
+ {
+  "id": "L005",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Why did the scarecrow win an award? He was outstanding in his field.",
+  "sec": "act1",
+  "start": 14.69,
+  "end": 18.532
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Nothing.",
+  "sec": "act1",
+  "start": 18.932,
+  "end": 19.407
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then you find his old football in the shed. You kick it at him. Badly.",
+  "sec": "act1",
+  "start": 19.603,
+  "end": 23.678
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It hits him right on the head.",
+  "sec": "act1",
+  "start": 23.894,
+  "end": 25.244
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And he laughs.",
+  "sec": "act1",
+  "start": 25.384,
+  "end": 26.359
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Suddenly he's eight. Gap teeth. Grass on his knees.",
+  "sec": "act1",
+  "start": 26.499,
+  "end": 30.053
+ },
+ {
+  "id": "L011",
+  "tag": "KID",
+  "thought": false,
+  "note": "",
+  "text": "Again! Kick it again!",
+  "sec": "act1",
+  "start": 30.313,
+  "end": 31.814
+ },
+ {
+  "id": "L012",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "For one minute, you play with the boy your dad used to be.",
+  "sec": "act1",
+  "start": 32.214,
+  "end": 35.629
+ },
+ {
+  "id": "L013",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "When he grows back, he's still smiling.",
+  "sec": "act1",
+  "start": 35.769,
+  "end": 38.028
+ },
+ {
+  "id": "L014",
+  "tag": "DAD",
+  "thought": false,
+  "note": "",
+  "text": "Same time tomorrow?",
+  "sec": "act1",
+  "start": 38.288,
+  "end": 39.775
+ }
+]

@@ -1,0 +1,102 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, your shadow doesn't follow you. It stays with the last person you hurt.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 5.865
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "This morning, mine left.",
+  "sec": "hook",
+  "start": 6.005,
+  "end": 7.665
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It's standing next to my little sister, Ava. She won't look at me.",
+  "sec": "act1",
+  "start": 8.265,
+  "end": 12.215
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Yesterday I laughed at her drawing. In front of my friends.",
+  "sec": "act1",
+  "start": 12.355,
+  "end": 15.68
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She said it didn't matter. Shadows don't lie.",
+  "sec": "act1",
+  "start": 15.888,
+  "end": 18.588
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "All day, it stays with her. At breakfast. On the bus. At her desk.",
+  "sec": "act1",
+  "start": 18.728,
+  "end": 23.508
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "So I knock on her door.",
+  "sec": "act1",
+  "start": 23.648,
+  "end": 25.02
+ },
+ {
+  "id": "L008",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Your drawing was really good. I was being an idiot.",
+  "sec": "act1",
+  "start": 25.279,
+  "end": 28.267
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She shrugs. Then she holds up a new one.",
+  "sec": "act1",
+  "start": 28.667,
+  "end": 30.967
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It's me and her. Walking home. And my shadow, right behind me.",
+  "sec": "act1",
+  "start": 31.188,
+  "end": 35.238
+ }
+]

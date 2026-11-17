@@ -1,0 +1,10 @@
+# Sat 28 Nov · publish sheet (Berlin times)
+Common: Not made for kids · Film & Animation · English · upload the .srt on the long-form · "An original animated story. All characters are fictional."
+| Time | File | Title | Pinned comment | Tags |
+|---|---|---|---|---|
+| 09:00 | shorts/2026-11-28-o27-shadow-hurt/final/o27-shadow-hurt-9x16.mp4 | In This World, Your Shadow Stays With the Last Person You Hurt | One apology brought it back. Where is YOUR shadow standing right now? 👇 | what if, shorts, shadow, sister, siblings, apology, family, stickman animation, animated story, between the ifs |
+| 13:00 | shorts/2026-11-28-o28-luck-gift/final/o28-luck-gift-9x16.mp4 | Her Brother Had 24 Hours of Luck. He Gave It Away. | He tripped twice on the way home. Best Tuesday ever. Who would YOU give your lucky day to? 👇 | what if, shorts, luck, brother, sister, siblings, job interview, wholesome, stickman animation, animated story, between the ifs |
+| 17:00 | final/what-if-your-dog-could-talk-for-24-hours-1080p.mp4 (+ .en.srt) | What If Your Dog Could Talk for 24 Hours? | Biscuit waited 11 years to say it. What would YOUR dog say to you? 👇 | what if, what if your dog could talk, dog, talking dog, family, pets, emotional, what if animation, stickman animation, animated story, between the ifs |
+| 18:30 | final/wi19-short-1-9x16.mp4 | My Dog Could Talk for 24 Hours. First: Complaints. #shorts | What would YOUR dog complain about? 👇 | what if, shorts, talking dog, dog, funny, pets, stickman animation, animated story, between the ifs |
+| 20:30 | final/wi19-short-2-9x16.mp4 (CLIFFHANGER) | My Dog Told Me Something Only the Vet Knew #shorts | "My legs hurt now." Full story on the channel 👇 | what if, shorts, dog, talking dog, cliffhanger, emotional, stickman animation, animated story, between the ifs |
+Long-form description: In this world, every dog gets to talk once, for 24 hours. Biscuit has been waiting eleven years. First come the complaints: the postman, the vacuum, the dry food. Then, on a park bench, the things he's been holding for the whole family. What would your dog say to you?

@@ -1,6 +1,6 @@
 {
  "title": "Every Promise He Made Became a String. One Just Snapped. #shorts",
- "duration": 40.767,
+ "duration": 44.167,
  "shots": [
   {
    "id": "s001",
@@ -628,6 +628,37 @@
      "at": 4.597
     }
    }
+  },
+  {
+   "id": "sOUT",
+   "start": 40.767,
+   "end": 44.167,
+   "line": "",
+   "scene": "outro",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 3.0,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "iris",
+    "line": "See you between the ifs!",
+    "slots": false
+   }
   }
  ],
  "music": [
@@ -639,7 +670,7 @@
   },
   {
    "start": 19.08,
-   "end": 40.767,
+   "end": 44.167,
    "mood": "playful",
    "intensity": 0.4
   }

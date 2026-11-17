@@ -1,6 +1,6 @@
 {
  "title": "What If Your Phone Deleted Whoever You Ignored Longest?",
- "duration": 80.85,
+ "duration": 90.85,
  "shots": [
   {
    "id": "s001",
@@ -1338,6 +1338,37 @@
      }
     ]
    }
+  },
+  {
+   "id": "sOUT",
+   "start": 80.85,
+   "end": 90.85,
+   "line": "",
+   "scene": "outro",
+   "bars": "none",
+   "in": {
+    "type": "dipWhite",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -18
+    },
+    {
+     "at": 2.8,
+     "name": "ding",
+     "gain": -16
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "silent",
+    "line": null,
+    "slots": false
+   }
   }
  ],
  "music": [
@@ -1361,7 +1392,7 @@
   },
   {
    "start": 69.52,
-   "end": 80.85,
+   "end": 90.85,
    "mood": "hopeful",
    "intensity": 0.4
   }

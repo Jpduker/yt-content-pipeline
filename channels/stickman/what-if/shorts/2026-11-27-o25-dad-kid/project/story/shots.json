@@ -1,0 +1,818 @@
+{
+ "title": "In This World, Dads Turn Into Kids When They Laugh",
+ "duration": 45.57,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 5.021,
+   "line": "",
+   "scene": "kt",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.25,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 2.506,
+     "name": "hit",
+     "gain": -7
+    },
+    {
+     "at": 4.13,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#FFD23F",
+    "items": [
+     {
+      "k": "rise",
+      "t": "WHEN A DAD LAUGHS",
+      "at": 1.25,
+      "y": 0.18,
+      "sz": 78,
+      "c": "#111111"
+     },
+     {
+      "k": "slam",
+      "t": "HE TURNS INTO A KID",
+      "at": 2.506,
+      "y": 0.29,
+      "sz": 96,
+      "c": "#FF5A36"
+     },
+     {
+      "k": "pop",
+      "t": "1 MINUTE",
+      "at": 4.13,
+      "x": 0.5,
+      "y": 0.4,
+      "sz": 70,
+      "disc": "#111111",
+      "c": "#FFD23F"
+     }
+    ],
+    "who": [
+     {
+      "id": "DAD",
+      "x": 0.5,
+      "y": 0.93,
+      "s": 2.4,
+      "expr": "smile"
+     }
+    ],
+    "motif": "num"
+   }
+  },
+  {
+   "id": "s002",
+   "start": 5.021,
+   "end": 7.767,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "push",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 1.525,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "day": true,
+    "who": "DAD",
+    "expr": "flat",
+    "side": -1,
+    "bgCam": [
+     1060,
+     520,
+     1.5
+    ],
+    "pops": [
+     {
+      "t": "2 YEARS",
+      "at": 1.525,
+      "c": "red",
+      "x": 0.5,
+      "y": 0.22,
+      "sz": 120
+     }
+    ]
+   }
+  },
+  {
+   "id": "s003",
+   "start": 7.767,
+   "end": 11.926,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "day": true,
+    "cam": [
+     [
+      960,
+      600,
+      1.2
+     ],
+     [
+      960,
+      600,
+      1.3
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 840,
+      "pose": "stand",
+      "expr": "worried",
+      "f": 1
+     },
+     {
+      "id": "DAD",
+      "x": 1080,
+      "pose": "crouch",
+      "expr": "flat",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s004",
+   "start": 11.926,
+   "end": 14.54,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "day": true,
+    "cam": [
+     [
+      960,
+      600,
+      1.2
+     ],
+     [
+      960,
+      600,
+      1.3
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 840,
+      "pose": "explain",
+      "expr": "happy",
+      "f": 1
+     },
+     {
+      "id": "DAD",
+      "x": 1080,
+      "pose": "stand",
+      "expr": "flat",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s005",
+   "start": 14.54,
+   "end": 18.782,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "day": true,
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "talk"
+     ],
+     [
+      0.4596888260254594,
+      "happy"
+     ]
+    ],
+    "side": 1,
+    "bgCam": [
+     840,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s006",
+   "start": 18.782,
+   "end": 19.453,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "day": true,
+    "who": "DAD",
+    "expr": "flat",
+    "side": -1,
+    "bgCam": [
+     1080,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s007",
+   "start": 19.453,
+   "end": 23.744,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 3.625,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "garden",
+    "so": {
+     "goal": 0
+    },
+    "day": true,
+    "cam": [
+     [
+      960,
+      600,
+      1.2
+     ],
+     [
+      960,
+      600,
+      1.3
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 840,
+      "pose": [
+       [
+        0,
+        "stand"
+       ],
+       [
+        0.6117455138662313,
+        "kick"
+       ]
+      ],
+      "expr": "smirk",
+      "f": 1
+     },
+     {
+      "id": "DAD",
+      "x": 1080,
+      "pose": "stand",
+      "expr": "flat",
+      "f": -1
+     }
+    ],
+    "pops": [
+     {
+      "t": "BADLY",
+      "at": 3.625,
+      "c": "gold",
+      "x": 0.5,
+      "y": 0.24,
+      "sz": 110
+     }
+    ]
+   }
+  },
+  {
+   "id": "s008",
+   "start": 23.744,
+   "end": 25.234,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "hit",
+     "gain": -6
+    },
+    {
+     "at": 0.25,
+     "name": "kick",
+     "gain": -9
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "garden",
+    "so": {
+     "goal": 0
+    },
+    "day": true,
+    "cam": [
+     [
+      960,
+      600,
+      1.2
+     ],
+     [
+      960,
+      600,
+      1.3399999999999999
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 840,
+      "pose": "handsOnHead",
+      "expr": "scared",
+      "f": 1
+     },
+     {
+      "id": "DAD",
+      "x": 1080,
+      "pose": "handsOnHead",
+      "expr": "surprised",
+      "f": -1
+     }
+    ],
+    "slam": {
+     "t": "BONK",
+     "at": 0.25,
+     "c": "gold",
+     "x": 0.62,
+     "y": 0.3,
+     "sz": 130,
+     "rot": 0.12
+    }
+   }
+  },
+  {
+   "id": "s009",
+   "start": 25.234,
+   "end": 26.349,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "garden",
+    "so": {
+     "goal": 0
+    },
+    "day": true,
+    "who": "DAD",
+    "expr": "laugh",
+    "side": -1,
+    "bgCam": [
+     1080,
+     520,
+     1.5
+    ],
+    "push": 0.16
+   }
+  },
+  {
+   "id": "s010",
+   "start": 26.349,
+   "end": 30.163,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "iris",
+    "fill": "#FFD23F"
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -16
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "garden",
+    "so": {
+     "goal": 0
+    },
+    "day": true,
+    "cam": [
+     [
+      960,
+      620,
+      1.2
+     ],
+     [
+      960,
+      620,
+      1.3
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 820,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": 1
+     },
+     {
+      "id": "DAD",
+      "x": 1080,
+      "pose": "jump",
+      "expr": "laugh",
+      "f": -1,
+      "s": 1.25
+     }
+    ],
+    "pops": [
+     {
+      "t": "AGE 8",
+      "at": 0.8,
+      "c": "lime",
+      "x": 0.5,
+      "y": 0.22,
+      "sz": 120
+     }
+    ]
+   }
+  },
+  {
+   "id": "s011",
+   "start": 30.163,
+   "end": 32.064,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "garden",
+    "so": {
+     "goal": 0
+    },
+    "day": true,
+    "cam": [
+     [
+      960,
+      620,
+      1.2
+     ],
+     [
+      960,
+      620,
+      1.3
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 820,
+      "pose": "kick",
+      "expr": "happy",
+      "f": 1
+     },
+     {
+      "id": "DAD",
+      "x": 1080,
+      "pose": "cheer",
+      "expr": "laugh",
+      "f": -1,
+      "s": 1.25
+     }
+    ]
+   }
+  },
+  {
+   "id": "s012",
+   "start": 32.064,
+   "end": 35.619,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.94,
+     "name": "flash",
+     "gain": -10
+    },
+    {
+     "at": 2.19,
+     "name": "ding",
+     "gain": -16
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "garden",
+    "so": {
+     "goal": 0
+    },
+    "day": true,
+    "cam": [
+     [
+      960,
+      620,
+      1.2
+     ],
+     [
+      960,
+      620,
+      1.3199999999999998
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 820,
+      "pose": "cheer",
+      "expr": "laugh",
+      "f": 1
+     },
+     {
+      "id": "DAD",
+      "x": 1080,
+      "pose": "jump",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.25
+     }
+    ],
+    "polaroid": {
+     "at": 1.94,
+     "caption": "THE BOY HE USED TO BE",
+     "ring": [
+      1080,
+      540,
+      260
+     ]
+    }
+   }
+  },
+  {
+   "id": "s013",
+   "start": 35.619,
+   "end": 38.138,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "garden",
+    "so": {
+     "goal": 0
+    },
+    "day": true,
+    "cam": [
+     [
+      960,
+      600,
+      1.2
+     ],
+     [
+      960,
+      600,
+      1.3
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 840,
+      "pose": "stand",
+      "expr": "tearsmile",
+      "f": 1
+     },
+     {
+      "id": "DAD",
+      "x": 1080,
+      "pose": "stand",
+      "expr": "smile",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s014",
+   "start": 38.138,
+   "end": 42.17,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "garden",
+    "so": {
+     "goal": 0
+    },
+    "day": true,
+    "who": "DAD",
+    "expr": "happy",
+    "side": -1,
+    "bgCam": [
+     1080,
+     520,
+     1.5
+    ],
+    "ask": {
+     "text": "What would make YOUR dad laugh?",
+     "at": 1.737
+    }
+   }
+  },
+  {
+   "id": "sOUT",
+   "start": 42.17,
+   "end": 45.57,
+   "line": "",
+   "scene": "outro",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 3.0,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "iris",
+    "line": "See you between the ifs!",
+    "slots": false
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 19.66,
+   "mood": "sad",
+   "intensity": 0.3
+  },
+  {
+   "start": 19.6,
+   "end": 45.57,
+   "mood": "playful",
+   "intensity": 0.42
+  }
+ ],
+ "sfx": []
+}

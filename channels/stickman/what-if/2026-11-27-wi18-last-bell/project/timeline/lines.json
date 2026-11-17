@@ -1,0 +1,212 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Theo walks out of the door. And a bell rings.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 4.7
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, a bell rings the last time you'll see someone.",
+  "sec": "hook",
+  "start": 4.84,
+  "end": 8.58
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Everyone hears it. Nobody knows what comes after.",
+  "sec": "hook",
+  "start": 8.755,
+  "end": 11.999
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You've heard bells before.",
+  "sec": "act1",
+  "start": 14.199,
+  "end": 15.699
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The old man at the bus stop. Ding. You never saw him again.",
+  "sec": "act1",
+  "start": 15.839,
+  "end": 19.904
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Kofi the barista. Ding. He moved to Lisbon.",
+  "sec": "act1",
+  "start": 20.043,
+  "end": 23.393
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You never cared. They were just bells.",
+  "sec": "act1",
+  "start": 23.534,
+  "end": 25.497
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "But that one was Theo's.",
+  "sec": "act2",
+  "start": 27.397,
+  "end": 29.122
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You run to the window. He's already gone.",
+  "sec": "act2",
+  "start": 29.261,
+  "end": 31.712
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You call him. No answer.",
+  "sec": "act2",
+  "start": 31.95,
+  "end": 34.175
+ },
+ {
+  "id": "L011",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The last thing you said to your brother was: shut the door properly.",
+  "sec": "act2",
+  "start": 34.314,
+  "end": 38.074
+ },
+ {
+  "id": "L012",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You run to the station.",
+  "sec": "act2",
+  "start": 38.283,
+  "end": 39.833
+ },
+ {
+  "id": "L013",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The train has gone. The platform is empty.",
+  "sec": "act2",
+  "start": 40.012,
+  "end": 42.784
+ },
+ {
+  "id": "L014",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "What are you doing here?",
+  "sec": "act3",
+  "start": 45.384,
+  "end": 46.645
+ },
+ {
+  "id": "L015",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Theo. Behind you. With two suitcases and a lamp.",
+  "sec": "act3",
+  "start": 47.045,
+  "end": 50.367
+ },
+ {
+  "id": "L016",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "The bell! I heard the bell!",
+  "sec": "act3",
+  "start": 50.627,
+  "end": 52.185
+ },
+ {
+  "id": "L017",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "I told you. I'm moving out. Into Mira's old flat.",
+  "sec": "act3",
+  "start": 52.335,
+  "end": 55.24
+ },
+ {
+  "id": "L018",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "It's two streets away.",
+  "sec": "act3",
+  "start": 55.401,
+  "end": 56.461
+ },
+ {
+  "id": "L019",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The bell was right. It was the last time you'd see him living in your flat.",
+  "sec": "act3",
+  "start": 57.261,
+  "end": 61.761
+ },
+ {
+  "id": "L020",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Bells tell you when something ends. Not what comes next.",
+  "sec": "act3",
+  "start": 62.016,
+  "end": 65.816
+ },
+ {
+  "id": "L021",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Who would you hug if you heard the bell?",
+  "sec": "act3",
+  "start": 65.956,
+  "end": 67.684
+ }
+]

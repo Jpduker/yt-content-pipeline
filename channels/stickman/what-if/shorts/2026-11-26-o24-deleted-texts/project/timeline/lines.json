@@ -1,0 +1,92 @@
+[
+ {
+  "id": "L001",
+  "tag": "ROBOT",
+  "thought": false,
+  "note": "",
+  "text": "Deleted message from Dad. Who ate my yoghurt.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 4.144
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, every text you type and delete gets read out at dinner.",
+  "sec": "hook",
+  "start": 4.544,
+  "end": 8.574
+ },
+ {
+  "id": "L003",
+  "tag": "ROBOT",
+  "thought": false,
+  "note": "",
+  "text": "Deleted message from Mum. Your father is snoring again.",
+  "sec": "act1",
+  "start": 9.174,
+  "end": 13.352
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then it's Lily's turn.",
+  "sec": "act1",
+  "start": 13.752,
+  "end": 15.116
+ },
+ {
+  "id": "L005",
+  "tag": "ROBOT",
+  "thought": false,
+  "note": "",
+  "text": "Deleted message from Lily. I got into art school. Please don't be mad.",
+  "sec": "act1",
+  "start": 15.376,
+  "end": 20.521
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Silence.",
+  "sec": "act1",
+  "start": 20.921,
+  "end": 21.683
+ },
+ {
+  "id": "L007",
+  "tag": "DAD",
+  "thought": false,
+  "note": "",
+  "text": "Why would we be mad?",
+  "sec": "act1",
+  "start": 21.943,
+  "end": 23.093
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Lily cries. Dad cries. The robot reads one more.",
+  "sec": "act1",
+  "start": 23.493,
+  "end": 27.218
+ },
+ {
+  "id": "L009",
+  "tag": "ROBOT",
+  "thought": false,
+  "note": "",
+  "text": "Deleted message from Dad. So proud of you.",
+  "sec": "act1",
+  "start": 27.478,
+  "end": 31.016
+ }
+]

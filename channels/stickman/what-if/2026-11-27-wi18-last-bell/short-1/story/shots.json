@@ -1,0 +1,421 @@
+{
+ "title": "The Bell Rings Once. Then They're Gone.",
+ "duration": 31.847,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 4.69,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 3.424,
+     "name": "hit",
+     "gain": -6
+    },
+    {
+     "at": 3.424,
+     "name": "kick",
+     "gain": -9
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    },
+    {
+     "at": 3.424,
+     "name": "ding",
+     "gain": -8
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "bags": true
+    },
+    "day": true,
+    "cam": [
+     [
+      960,
+      600,
+      1.3
+     ],
+     [
+      960,
+      600,
+      1.4000000000000001
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 860,
+      "pose": "wave",
+      "expr": "smile",
+      "f": 1
+     },
+     {
+      "id": "THEO",
+      "x": 0,
+      "pose": "walk",
+      "expr": "happy",
+      "f": 1,
+      "walk": [
+       1040,
+       1400,
+       0.15,
+       0.9
+      ]
+     }
+    ],
+    "slam": {
+     "t": "DING",
+     "at": 3.424,
+     "c": "gold",
+     "x": 0.7,
+     "y": 0.28,
+     "sz": 110,
+     "rot": -0.1
+    },
+    "motif": "num",
+    "hookText": "THE LAST TIME"
+   }
+  },
+  {
+   "id": "s002",
+   "start": 4.69,
+   "end": 12.649,
+   "line": "",
+   "scene": "kt",
+   "bars": "none",
+   "in": {
+    "dur": 0.45,
+    "type": "iris",
+    "fill": "#FFD23F"
+   },
+   "sfx": [
+    {
+     "at": 1.016,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 1.816,
+     "name": "hit",
+     "gain": -7
+    },
+    {
+     "at": 2.64,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 5.489,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -16
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#FFD23F",
+    "items": [
+     {
+      "k": "rise",
+      "t": "A BELL RINGS",
+      "at": 1.016,
+      "y": 0.26,
+      "sz": 100,
+      "c": "#111111"
+     },
+     {
+      "k": "slam",
+      "t": "THE LAST TIME",
+      "at": 1.816,
+      "y": 0.42,
+      "sz": 150,
+      "c": "#FF5A36"
+     },
+     {
+      "k": "rise",
+      "t": "YOU'LL SEE SOMEONE",
+      "at": 2.64,
+      "y": 0.56,
+      "sz": 84,
+      "c": "#111111"
+     },
+     {
+      "k": "rise",
+      "t": "NOBODY KNOWS WHAT COMES AFTER",
+      "at": 5.489,
+      "y": 0.7,
+      "sz": 60,
+      "c": "#111111"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s004",
+   "start": 15.689,
+   "end": 19.893,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 2.225,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 2.225,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "day": true,
+    "cam": [
+     [
+      960,
+      600,
+      1.3
+     ],
+     [
+      960,
+      600,
+      1.4000000000000001
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 840,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     },
+     {
+      "id": "GRANDPA",
+      "x": 1080,
+      "pose": "stand",
+      "expr": "smile",
+      "f": -1
+     }
+    ],
+    "pops": [
+     {
+      "t": "DING",
+      "at": 2.225,
+      "c": "gold",
+      "x": 0.7,
+      "y": 0.28,
+      "sz": 110,
+      "rot": -0.1
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s005",
+   "start": 19.893,
+   "end": 23.384,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 1.7,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 1.7,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "cafe",
+    "so": {
+     "variant": "am"
+    },
+    "day": true,
+    "cam": [
+     [
+      1000,
+      580,
+      1.4
+     ],
+     [
+      1000,
+      580,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 860,
+      "pose": "holdFront",
+      "expr": "neutral",
+      "f": 1
+     },
+     {
+      "id": "BARISTA",
+      "x": 1160,
+      "pose": "wave",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "pops": [
+     {
+      "t": "DING",
+      "at": 1.7,
+      "c": "gold",
+      "x": 0.7,
+      "y": 0.28,
+      "sz": 110,
+      "rot": -0.1
+     }
+    ]
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s006",
+   "start": 23.384,
+   "end": 28.447,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "cafe",
+    "so": {
+     "variant": "am"
+    },
+    "day": true,
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     860,
+     520,
+     1.5
+    ],
+    "expr": "flat",
+    "ask": {
+     "text": "Who would YOU hug if you heard the bell?",
+     "at": 2.863
+    }
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   }
+  },
+  {
+   "id": "sOUT",
+   "start": 28.447,
+   "end": 31.847,
+   "line": "",
+   "scene": "outro",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 3.0,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "iris",
+    "line": "See you between the ifs!",
+    "slots": false
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 12.25,
+   "mood": "mystery",
+   "intensity": 0.3
+  },
+  {
+   "start": 14.2,
+   "end": 31.847,
+   "mood": "sad",
+   "intensity": 0.26
+  }
+ ],
+ "sfx": []
+}

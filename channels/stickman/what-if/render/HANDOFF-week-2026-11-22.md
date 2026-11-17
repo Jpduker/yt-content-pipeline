@@ -33,7 +33,10 @@ Approved (Vivek 17 Nov): KT_Test look (characters + kinetic typography), lineup 
 - DONE Mon 23: WI14 (+cuts), O17, O18 (outros added by prep_week).
 - DONE Tue 24: WI15 (+cuts), O19, O20.
 - DONE Wed 25: WI16 (+cuts), O21, O22.
-- NEXT: Thu 26 WI17 mum-calls + O23 borrow-day + O24 deleted-texts; Fri; Sat; then prep_week.sh, look at sheets, pack_week.sh, ship, commit.
+- DONE Thu 26: WI17 (+cuts), O23, O24. Engine: KT pages draw the ask/hook plate.
+- DONE Fri 27: WI18 (+cuts), O25 (kid dad = same DAD at s=1.25), O26.
+- DONE Sat 28: WI19 (Biscuit = dog floater, liftAt=999 keeps him grounded, rest=-110 on the bench; dog shots set vx so 9:16 cuts keep the dog), O27 (new cast SHADOW), O28.
+- Rules learned Fri/Sat: hugs need ≥160 between characters (heads otherwise overlap); 9:16 KT lines ≤ ~20 characters at sz 70+ or they spill; dog close-ups z ≤ 1.25.
 - Note: the phone insert ('phone') and 'drawing' insert carry old content (Mira text / horse); use KT pages for messages and drawings instead.
 - 17 Nov 20:50: Vivek asked for a like/subscribe ending on EVERY video. Built `outro` shot (gen.js) with 4 variants: A 'iris' (1930s cartoon iris-out + sign-off), B 'silent' (silent-film card), C 'button' (hero presses SUBSCRIBE, bell, thumbs-up), D 'ident' (channel card + room for YouTube end-screen elements). Samples: shorts/2026-11-17-outro-test{,-16x9}. WAITING for his pick → then add an outro shot to every video of the week (Shorts ≈ 2.5–3 s after the ask; long-forms 8–10 s so the YouTube end screen fits) before prep_week/pack.
 - 17 Nov 21:30: Vivek picked endings: A ('iris') on every Short, B/C/D rotating on long-forms (add_outro.py does it by date; prep_week.sh adds it automatically when missing). Shorts capped at 59.8 s.

@@ -1,6 +1,6 @@
 {
  "title": "Two Promises. Same Sunday. One Has to Break. #shorts",
- "duration": 32.412,
+ "duration": 35.812,
  "shots": [
   {
    "id": "s008",
@@ -392,6 +392,37 @@
      "at": 6.021
     }
    }
+  },
+  {
+   "id": "sOUT",
+   "start": 32.412,
+   "end": 35.812,
+   "line": "",
+   "scene": "outro",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 3.0,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "iris",
+    "line": "See you between the ifs!",
+    "slots": false
+   }
   }
  ],
  "music": [
@@ -403,7 +434,7 @@
   },
   {
    "start": 19.75,
-   "end": 32.412,
+   "end": 35.812,
    "mood": "tension",
    "intensity": 0.3
   }

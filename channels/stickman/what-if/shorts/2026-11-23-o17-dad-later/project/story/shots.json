@@ -1,6 +1,6 @@
 {
  "title": "Every Time You Say \"Later\", You Lose 1 Hour With Dad",
- "duration": 30.65,
+ "duration": 34.05,
  "shots": [
   {
    "id": "s001",
@@ -565,6 +565,37 @@
      "at": 1.05
     }
    }
+  },
+  {
+   "id": "sOUT",
+   "start": 30.65,
+   "end": 34.05,
+   "line": "",
+   "scene": "outro",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 3.0,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "iris",
+    "line": "See you between the ifs!",
+    "slots": false
+   }
   }
  ],
  "music": [
@@ -576,7 +607,7 @@
   },
   {
    "start": 17.88,
-   "end": 30.65,
+   "end": 34.05,
    "mood": "hopeful",
    "intensity": 0.4
   }

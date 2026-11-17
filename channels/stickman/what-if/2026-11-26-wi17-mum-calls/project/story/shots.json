@@ -1,0 +1,1310 @@
+{
+ "title": "What If You Aged 1 Year Every Time You Ignored Mum's Call?",
+ "duration": 81.61,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 5.747,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "bags": true
+    },
+    "day": true,
+    "clock": "FRIDAY",
+    "cam": [
+     [
+      900,
+      600,
+      1.4
+     ],
+     [
+      900,
+      600,
+      1.52
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 880,
+      "pose": [
+       [
+        0,
+        "sad"
+       ],
+       [
+        0.5,
+        "stand"
+       ]
+      ],
+      "expr": "wince",
+      "f": 1,
+      "badge": {
+       "k": "num",
+       "v": [
+        [
+         0,
+         23
+        ],
+        [
+         0.5,
+         28
+        ]
+       ],
+       "hot": 99,
+       "at": 0
+      }
+     }
+    ],
+    "motif": "num"
+   }
+  },
+  {
+   "id": "s002",
+   "start": 5.747,
+   "end": 8.713,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "flat",
+    "so": {
+     "bags": true
+    },
+    "day": true,
+    "ins": "contacts",
+    "rows": [
+     [
+      "MUM",
+      "5 missed"
+     ],
+     [
+      "MIRA",
+      "today"
+     ],
+     [
+      "THEO",
+      "today"
+     ]
+    ],
+    "clk": [
+     [
+      0,
+      "18:02"
+     ]
+    ],
+    "noHand": true,
+    "low": true
+   }
+  },
+  {
+   "id": "s003",
+   "start": 8.713,
+   "end": 13.905,
+   "line": "",
+   "scene": "kt",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "iris",
+    "fill": "#FF5A36"
+   },
+   "sfx": [
+    {
+     "at": 1.024,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 1.674,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 3.325,
+     "name": "hit",
+     "gain": -7
+    },
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -16
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#FF5A36",
+    "items": [
+     {
+      "k": "rise",
+      "t": "EVERY IGNORED CALL",
+      "at": 1.024,
+      "y": 0.28,
+      "sz": 90,
+      "c": "#fff"
+     },
+     {
+      "k": "rise",
+      "t": "FROM MUM",
+      "at": 1.674,
+      "y": 0.38,
+      "sz": 90,
+      "c": "#111111"
+     },
+     {
+      "k": "slam",
+      "t": "+1 YEAR",
+      "at": 3.325,
+      "y": 0.54,
+      "sz": 200,
+      "c": "#fff"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s004",
+   "start": 13.905,
+   "end": 15.504,
+   "line": "",
+   "scene": "title",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "flash",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "title",
+    "lines": [
+     "WHAT IF YOU AGED 1 YEAR EVERY",
+     "TIME YOU IGNORED MUM'S CALL?"
+    ],
+    "set": "flat",
+    "so": {},
+    "bgCam": [
+     900,
+     520,
+     0.7
+    ]
+   }
+  },
+  {
+   "id": "s005",
+   "start": 15.504,
+   "end": 19.794,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "clock": "TUE 10:00",
+    "cam": [
+     [
+      1060,
+      580,
+      1.4
+     ],
+     [
+      1060,
+      580,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 900,
+      "pose": "phone",
+      "expr": "flat",
+      "f": 1,
+      "badge": {
+       "k": "num",
+       "v": [
+        [
+         0,
+         23
+        ],
+        [
+         0.7517482517482516,
+         24
+        ]
+       ],
+       "hot": 99,
+       "at": 0
+      }
+     },
+     {
+      "id": "BOSS",
+      "x": 1200,
+      "pose": "explain",
+      "expr": "neutral",
+      "f": -1
+     }
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s006",
+   "start": 19.794,
+   "end": 22.369,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "garden",
+    "so": {},
+    "day": true,
+    "clock": "WED 18:00",
+    "cam": [
+     [
+      960,
+      600,
+      1.35
+     ],
+     [
+      960,
+      600,
+      1.4500000000000002
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 880,
+      "pose": "kick",
+      "expr": "joy",
+      "f": 1,
+      "badge": {
+       "k": "num",
+       "v": [
+        [
+         0,
+         24
+        ],
+        [
+         0.6644660194174753,
+         25
+        ]
+       ],
+       "hot": 99,
+       "at": 0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "s007",
+   "start": 22.369,
+   "end": 26.289,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "cafe",
+    "so": {
+     "variant": "pm"
+    },
+    "clock": "MUM'S BIRTHDAY",
+    "cam": [
+     [
+      1000,
+      580,
+      1.4
+     ],
+     [
+      1000,
+      580,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 900,
+      "pose": "phone",
+      "expr": "neutral",
+      "f": 1,
+      "badge": {
+       "k": "num",
+       "v": [
+        [
+         0,
+         25
+        ],
+        [
+         0.4872448979591835,
+         26
+        ],
+        [
+         0.5637755102040816,
+         27
+        ],
+        [
+         0.7665816326530607,
+         28
+        ]
+       ],
+       "hot": 99,
+       "at": 0
+      }
+     }
+    ]
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s008",
+   "start": 26.289,
+   "end": 29.573,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "push",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.751,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "bags": true
+    },
+    "day": true,
+    "cam": [
+     [
+      900,
+      600,
+      1.45
+     ],
+     [
+      900,
+      600,
+      1.55
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 880,
+      "pose": [
+       [
+        0,
+        "sit"
+       ],
+       [
+        0.5,
+        "stand"
+       ]
+      ],
+      "expr": "wince",
+      "f": 1,
+      "badge": {
+       "k": "num",
+       "v": 28,
+       "hot": 99,
+       "at": 0
+      }
+     }
+    ],
+    "chairs": [
+     [
+      880,
+      1
+     ]
+    ],
+    "pops": [
+     {
+      "t": "CLICK",
+      "at": 0.751,
+      "c": "cream",
+      "x": 0.68,
+      "y": 0.3,
+      "sz": 100
+     }
+    ]
+   }
+  },
+  {
+   "id": "s009",
+   "start": 29.573,
+   "end": 33.807,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "cafe",
+    "so": {
+     "variant": "pm"
+    },
+    "cam": [
+     [
+      1000,
+      580,
+      1.35
+     ],
+     [
+      1000,
+      580,
+      1.4500000000000002
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 860,
+      "pose": "sad",
+      "expr": "tired",
+      "f": 1,
+      "badge": {
+       "k": "num",
+       "v": 28,
+       "hot": 99,
+       "at": 0
+      }
+     },
+     {
+      "id": "MIRA",
+      "x": 1140,
+      "pose": "explain",
+      "expr": "worried",
+      "f": -1
+     }
+    ]
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s010",
+   "start": 33.807,
+   "end": 35.321,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "clock": "ONE WEEK LATER",
+    "cam": [
+     [
+      900,
+      600,
+      1.4
+     ],
+     [
+      900,
+      600,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 880,
+      "pose": "phone",
+      "expr": "confused",
+      "f": 1,
+      "badge": {
+       "k": "num",
+       "v": 28,
+       "hot": 99,
+       "at": 0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "s011",
+   "start": 35.321,
+   "end": 37.168,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "ins": "contacts",
+    "rows": [
+     [
+      "MUM",
+      "7 days"
+     ],
+     [
+      "MIRA",
+      "today"
+     ],
+     [
+      "THEO",
+      "today"
+     ]
+    ],
+    "clk": [
+     [
+      0,
+      "21:30"
+     ]
+    ],
+    "noHand": true,
+    "low": true
+   }
+  },
+  {
+   "id": "s012",
+   "start": 37.168,
+   "end": 40.491,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     760,
+     520,
+     1.5
+    ],
+    "expr": "flat",
+    "badge": {
+     "k": "num",
+     "v": 28,
+     "hot": 99,
+     "at": 0
+    }
+   }
+  },
+  {
+   "id": "s013",
+   "start": 40.491,
+   "end": 42.77,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     760,
+     520,
+     1.5
+    ],
+    "expr": "worried",
+    "push": 0.14,
+    "badge": {
+     "k": "num",
+     "v": 28,
+     "hot": 99,
+     "at": 0
+    }
+   }
+  },
+  {
+   "id": "s014",
+   "start": 42.77,
+   "end": 45.765,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "ins": "callscreen",
+    "name": "Mum",
+    "clk": [
+     [
+      0,
+      "21:31"
+     ],
+     [
+      1.5,
+      "21:32"
+     ]
+    ],
+    "noHand": false
+   }
+  },
+  {
+   "id": "s015",
+   "start": 45.765,
+   "end": 49.078,
+   "line": "",
+   "scene": "kt",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "hit",
+     "gain": -7
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#14213D",
+    "items": [
+     {
+      "k": "slam",
+      "t": "VOICEMAIL",
+      "at": 0.15,
+      "y": 0.45,
+      "sz": 170,
+      "c": "#FF5A36"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s016",
+   "start": 49.078,
+   "end": 51.118,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "train",
+    "so": {},
+    "clock": "06:10",
+    "cam": [
+     [
+      960,
+      600,
+      1.35
+     ],
+     [
+      960,
+      600,
+      1.4500000000000002
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 900,
+      "pose": "stand",
+      "expr": "worried",
+      "f": 1,
+      "badge": {
+       "k": "num",
+       "v": 28,
+       "hot": 99,
+       "at": 0
+      }
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s017",
+   "start": 51.118,
+   "end": 55.101,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "garden",
+    "so": {},
+    "day": true,
+    "clock": "SAT 09:00",
+    "cam": [
+     [
+      960,
+      600,
+      1.3
+     ],
+     [
+      960,
+      600,
+      1.4000000000000001
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 0,
+      "pose": "walk",
+      "expr": "worried",
+      "f": 1,
+      "walk": [
+       600,
+       830,
+       0,
+       0.5
+      ],
+      "badge": {
+       "k": "num",
+       "v": 28,
+       "hot": 99,
+       "at": 0
+      }
+     },
+     {
+      "id": "MUM",
+      "x": 1080,
+      "pose": "holdFront",
+      "expr": "happy",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s018",
+   "start": 55.101,
+   "end": 57.483,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "garden",
+    "so": {},
+    "day": true,
+    "who": "MUM",
+    "side": -1,
+    "bgCam": [
+     1080,
+     520,
+     1.5
+    ],
+    "expr": "surprised"
+   }
+  },
+  {
+   "id": "s019",
+   "start": 57.483,
+   "end": 60.393,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "garden",
+    "so": {},
+    "day": true,
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     830,
+     520,
+     1.5
+    ],
+    "expr": "tearsmile",
+    "badge": {
+     "k": "num",
+     "v": 28,
+     "hot": 99,
+     "at": 0
+    }
+   }
+  },
+  {
+   "id": "s020",
+   "start": 60.393,
+   "end": 66.651,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 4.919,
+     "name": "flash",
+     "gain": -10
+    },
+    {
+     "at": 5.169,
+     "name": "ding",
+     "gain": -16
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "garden",
+    "so": {},
+    "day": true,
+    "cam": [
+     [
+      960,
+      600,
+      1.4
+     ],
+     [
+      960,
+      600,
+      1.52
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 860,
+      "pose": "holdFront",
+      "expr": "tender",
+      "f": 1,
+      "badge": {
+       "k": "num",
+       "v": 28,
+       "hot": 99,
+       "at": 0
+      }
+     },
+     {
+      "id": "MUM",
+      "x": 1060,
+      "pose": "holdFront",
+      "expr": "tearsmile",
+      "f": -1
+     }
+    ],
+    "polaroid": {
+     "at": 4.919,
+     "caption": "FIRST RING. EVERY TIME.",
+     "ring": [
+      960,
+      430,
+      300
+     ]
+    }
+   }
+  },
+  {
+   "id": "s021",
+   "start": 66.651,
+   "end": 71.61,
+   "line": "",
+   "scene": "kt",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "iris",
+    "fill": "#14213D"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 0.325,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 0.475,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 0.6,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 1.025,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 1.45,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 1.675,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -16
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#14213D",
+    "items": [
+     {
+      "k": "word",
+      "t": "WHEN",
+      "at": 0.15,
+      "x": 0.32,
+      "y": 0.28,
+      "sz": 100,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "DID",
+      "at": 0.325,
+      "x": 0.68,
+      "y": 0.28,
+      "sz": 100,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "YOU",
+      "at": 0.475,
+      "x": 0.32,
+      "y": 0.4,
+      "sz": 100,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "LAST",
+      "at": 0.6,
+      "x": 0.68,
+      "y": 0.4,
+      "sz": 100,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "ANSWER",
+      "at": 1.025,
+      "x": 0.5,
+      "y": 0.52,
+      "sz": 100,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "ON THE",
+      "at": 1.45,
+      "x": 0.5,
+      "y": 0.62,
+      "sz": 100,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "FIRST RING?",
+      "at": 1.675,
+      "x": 0.5,
+      "y": 0.74,
+      "sz": 130,
+      "c": "#FFD23F"
+     }
+    ]
+   }
+  },
+  {
+   "id": "sOUT",
+   "start": 71.61,
+   "end": 81.61,
+   "line": "",
+   "scene": "outro",
+   "bars": "none",
+   "in": {
+    "type": "bands",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "hit",
+     "gain": -8
+    },
+    {
+     "at": 0.65,
+     "name": "hit",
+     "gain": -9
+    },
+    {
+     "at": 1.2,
+     "name": "swish",
+     "gain": -16
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "ident",
+    "line": null,
+    "slots": false
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 13.71,
+   "mood": "tension",
+   "intensity": 0.3
+  },
+  {
+   "start": 15.65,
+   "end": 32.31,
+   "mood": "playful",
+   "intensity": 0.38
+  },
+  {
+   "start": 33.96,
+   "end": 46.88,
+   "mood": "sad",
+   "intensity": 0.3
+  },
+  {
+   "start": 49.23,
+   "end": 81.61,
+   "mood": "hopeful",
+   "intensity": 0.4
+  }
+ ],
+ "sfx": []
+}

@@ -1,0 +1,122 @@
+[
+ {
+  "id": "L020",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "Can we sit down?",
+  "sec": "act2",
+  "start": 0.15,
+  "end": 1.596
+ },
+ {
+  "id": "L021",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You sit. He climbs up next to you. It takes him two tries.",
+  "sec": "act2",
+  "start": 1.996,
+  "end": 5.722
+ },
+ {
+  "id": "L022",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "I need to tell you some things. While I still can.",
+  "sec": "act2",
+  "start": 5.982,
+  "end": 9.109
+ },
+ {
+  "id": "L023",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The jokes stop.",
+  "sec": "act2",
+  "start": 9.509,
+  "end": 10.581
+ },
+ {
+  "id": "L024",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "When you were seven, you cried under the bed after school. Every day for a month.",
+  "sec": "act2",
+  "start": 10.841,
+  "end": 14.936
+ },
+ {
+  "id": "L025",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "I lay next to you. That was my job.",
+  "sec": "act2",
+  "start": 15.195,
+  "end": 17.98
+ },
+ {
+  "id": "L026",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I didn't think you knew.",
+  "sec": "act2",
+  "start": 18.13,
+  "end": 19.394
+ },
+ {
+  "id": "L027",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "I always know.",
+  "sec": "act2",
+  "start": 19.544,
+  "end": 20.319
+ },
+ {
+  "id": "L028",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "Your dad cries in the car sometimes. Your mum talks to me when nobody calls back.",
+  "sec": "act2",
+  "start": 20.459,
+  "end": 24.884
+ },
+ {
+  "id": "L029",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "I hold all of it. I don't mind.",
+  "sec": "act2",
+  "start": 25.135,
+  "end": 27.487
+ },
+ {
+  "id": "L030",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then he says the thing you weren't ready for.",
+  "sec": "act2",
+  "start": 28.287,
+  "end": 30.397
+ },
+ {
+  "id": "L031",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "My legs hurt now. The vet knows. You don't.",
+  "sec": "act2",
+  "start": 30.657,
+  "end": 33.571
+ }
+]

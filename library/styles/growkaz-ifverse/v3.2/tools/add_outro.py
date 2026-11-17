@@ -16,7 +16,7 @@ st = round(float(S['duration']), 3)
 if vert and st + secs > 59.8: secs = max(2.6, 59.8 - st)   # Shorts stay under 60 s
 en = round(st + secs, 3)
 tr = {'iris': {'type': 'cut', 'dur': 0}, 'silent': {'type': 'dipWhite', 'dur': .5}, 'button': {'type': 'push', 'dur': .45}, 'ident': {'type': 'bands', 'dur': .5}}[v]
-sfx = {'iris': [('swish', 1.9, -12), ('ding', 3.0, -14)], 'silent': [('shimmer', .2, -18), ('ding', 2.8, -16)], 'button': [('step', .3, -16), ('click' if False else 'pop', 1.6, -8), ('ding', 2.0, -10), ('pop', 2.6, -12)], 'ident': [('hit', .3, -8), ('hit', .65, -9), ('swish', 1.2, -16)]}[v]
+sfx = {'iris': [('swish', 1.9, -12), ('ding', 3.0, -14)], 'silent': [('shimmer', .2, -18), ('ding', 2.8, -16)], 'button': [('footstep', .3, -16), ('pop', 1.6, -8), ('ding', 2.0, -10), ('pop', 2.6, -12)], 'ident': [('hit', .3, -8), ('hit', .65, -9), ('swish', 1.2, -16)]}[v]
 S['shots'].append(dict(id='sOUT', start=st, end=en, line='', scene='outro', bars='none', **{'in': tr}, sfx=[{'at': a, 'name': n, 'gain': g} for n, a, g in sfx], captions=False,
                        params=dict(k='outro', v=v, line=line, slots=False)))
 S['duration'] = en

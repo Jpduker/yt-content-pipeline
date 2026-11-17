@@ -1,0 +1,82 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "On Monday you were twenty-three. It's Friday, and you're twenty-eight.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 5.685
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Because you ignored five of Mum's calls.",
+  "sec": "hook",
+  "start": 5.897,
+  "end": 8.722
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, every call from your mum that you ignore makes you one year older.",
+  "sec": "hook",
+  "start": 8.863,
+  "end": 13.455
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It started small. A missed call in a meeting. Twenty-four.",
+  "sec": "act1",
+  "start": 15.654,
+  "end": 19.804
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "A call during football. Twenty-five.",
+  "sec": "act1",
+  "start": 19.944,
+  "end": 22.38
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Her birthday. You were busy. Three calls. Twenty-eight.",
+  "sec": "act1",
+  "start": 22.519,
+  "end": 26.299
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your knees click now. Your back hurts when you stand.",
+  "sec": "act1",
+  "start": 26.439,
+  "end": 29.515
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your friends think you've been working too hard.",
+  "sec": "act1",
+  "start": 29.723,
+  "end": 32.057
+ }
+]

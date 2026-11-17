@@ -1,0 +1,673 @@
+{
+ "title": "Mum Stopped Calling. Then He Called Her. #shorts",
+ "duration": 37.774,
+ "shots": [
+  {
+   "id": "s005",
+   "start": 0.0,
+   "end": 4.29,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "cam": [
+     [
+      1060,
+      580,
+      1.4
+     ],
+     [
+      1060,
+      580,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 900,
+      "pose": "phone",
+      "expr": "flat",
+      "f": 1,
+      "badge": {
+       "k": "num",
+       "v": [
+        [
+         0,
+         23
+        ],
+        [
+         0.7517482517482516,
+         24
+        ]
+       ],
+       "hot": 99,
+       "at": 0
+      }
+     },
+     {
+      "id": "BOSS",
+      "x": 1200,
+      "pose": "explain",
+      "expr": "neutral",
+      "f": -1
+     }
+    ],
+    "motif": "num",
+    "hookText": "THEN THE CALLS STOPPED"
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s006",
+   "start": 4.29,
+   "end": 6.865,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "garden",
+    "so": {},
+    "day": true,
+    "cam": [
+     [
+      960,
+      600,
+      1.35
+     ],
+     [
+      960,
+      600,
+      1.4500000000000002
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 880,
+      "pose": "kick",
+      "expr": "joy",
+      "f": 1,
+      "badge": {
+       "k": "num",
+       "v": [
+        [
+         0,
+         24
+        ],
+        [
+         0.6644660194174753,
+         25
+        ]
+       ],
+       "hot": 99,
+       "at": 0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "s007",
+   "start": 6.865,
+   "end": 10.785,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "cafe",
+    "so": {
+     "variant": "pm"
+    },
+    "cam": [
+     [
+      1000,
+      580,
+      1.4
+     ],
+     [
+      1000,
+      580,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 900,
+      "pose": "phone",
+      "expr": "neutral",
+      "f": 1,
+      "badge": {
+       "k": "num",
+       "v": [
+        [
+         0,
+         25
+        ],
+        [
+         0.4872448979591835,
+         26
+        ],
+        [
+         0.5637755102040816,
+         27
+        ],
+        [
+         0.7665816326530607,
+         28
+        ]
+       ],
+       "hot": 99,
+       "at": 0
+      }
+     }
+    ]
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s008",
+   "start": 10.785,
+   "end": 14.069,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "push",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.751,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "bags": true
+    },
+    "day": true,
+    "cam": [
+     [
+      900,
+      600,
+      1.45
+     ],
+     [
+      900,
+      600,
+      1.55
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 880,
+      "pose": [
+       [
+        0,
+        "sit"
+       ],
+       [
+        0.5,
+        "stand"
+       ]
+      ],
+      "expr": "wince",
+      "f": 1,
+      "badge": {
+       "k": "num",
+       "v": 28,
+       "hot": 99,
+       "at": 0
+      }
+     }
+    ],
+    "chairs": [
+     [
+      880,
+      1
+     ]
+    ],
+    "pops": [
+     {
+      "t": "CLICK",
+      "at": 0.751,
+      "c": "cream",
+      "x": 0.68,
+      "y": 0.3,
+      "sz": 100
+     }
+    ]
+   }
+  },
+  {
+   "id": "s009",
+   "start": 14.069,
+   "end": 18.303,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "cafe",
+    "so": {
+     "variant": "pm"
+    },
+    "cam": [
+     [
+      1000,
+      580,
+      1.35
+     ],
+     [
+      1000,
+      580,
+      1.4500000000000002
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 860,
+      "pose": "sad",
+      "expr": "tired",
+      "f": 1,
+      "badge": {
+       "k": "num",
+       "v": 28,
+       "hot": 99,
+       "at": 0
+      }
+     },
+     {
+      "id": "MIRA",
+      "x": 1140,
+      "pose": "explain",
+      "expr": "worried",
+      "f": -1
+     }
+    ]
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s010",
+   "start": 18.303,
+   "end": 19.817,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "cam": [
+     [
+      900,
+      600,
+      1.4
+     ],
+     [
+      900,
+      600,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 880,
+      "pose": "phone",
+      "expr": "confused",
+      "f": 1,
+      "badge": {
+       "k": "num",
+       "v": 28,
+       "hot": 99,
+       "at": 0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "s011",
+   "start": 19.817,
+   "end": 21.664,
+   "line": "",
+   "scene": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "ins": "contacts",
+    "rows": [
+     [
+      "MUM",
+      "7 days"
+     ],
+     [
+      "MIRA",
+      "today"
+     ],
+     [
+      "THEO",
+      "today"
+     ]
+    ],
+    "clk": [
+     [
+      0,
+      "21:30"
+     ]
+    ],
+    "noHand": true,
+    "low": true
+   }
+  },
+  {
+   "id": "s012",
+   "start": 21.664,
+   "end": 24.987,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     760,
+     520,
+     1.5
+    ],
+    "expr": "flat",
+    "badge": {
+     "k": "num",
+     "v": 28,
+     "hot": 99,
+     "at": 0
+    }
+   }
+  },
+  {
+   "id": "s013",
+   "start": 24.987,
+   "end": 27.266,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     760,
+     520,
+     1.5
+    ],
+    "expr": "worried",
+    "push": 0.14,
+    "badge": {
+     "k": "num",
+     "v": 28,
+     "hot": 99,
+     "at": 0
+    }
+   }
+  },
+  {
+   "id": "s014",
+   "start": 27.266,
+   "end": 30.261,
+   "line": "",
+   "scene": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "ins": "callscreen",
+    "name": "Mum",
+    "clk": [
+     [
+      0,
+      "21:31"
+     ],
+     [
+      1.5,
+      "21:32"
+     ]
+    ],
+    "noHand": false
+   }
+  },
+  {
+   "id": "s015",
+   "start": 30.261,
+   "end": 34.374,
+   "line": "",
+   "scene": "kt",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "hit",
+     "gain": -7
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#14213D",
+    "items": [
+     {
+      "k": "slam",
+      "t": "VOICEMAIL",
+      "at": 0.15,
+      "y": 0.45,
+      "sz": 170,
+      "c": "#FF5A36"
+     }
+    ],
+    "ask": {
+     "text": "Full story on the channel",
+     "at": 1.913
+    }
+   }
+  },
+  {
+   "id": "sOUT",
+   "start": 34.374,
+   "end": 37.774,
+   "line": "",
+   "scene": "outro",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 3.0,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "iris",
+    "line": "See you between the ifs!",
+    "slots": false
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.15,
+   "end": 16.81,
+   "mood": "playful",
+   "intensity": 0.38
+  },
+  {
+   "start": 18.46,
+   "end": 37.774,
+   "mood": "sad",
+   "intensity": 0.3
+  }
+ ],
+ "sfx": []
+}

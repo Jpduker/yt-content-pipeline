@@ -1,0 +1,23 @@
+{
+ "title": "Every Parent Gets 3 Rewinds a Year. Mum Used Hers on Me.",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "ifs",
+ "duration": 36.27,
+ "captions": false,
+ "bars": "none",
+ "fadeIn": 0.15,
+ "fadeOut": 0.3,
+ "music": {
+  "enabled": true,
+  "gainDb": -19
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": 0
+ },
+ "loudness": -14,
+ "voiceover": "input/voiceover.wav",
+ "myCaptions": true
+}

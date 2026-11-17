@@ -1,6 +1,6 @@
 {
  "title": "He Asked His Mum One Question. Then She Froze. #shorts",
- "duration": 40.409,
+ "duration": 43.809,
  "shots": [
   {
    "id": "s012",
@@ -481,6 +481,37 @@
     "name": "roomtone",
     "gain": -29
    }
+  },
+  {
+   "id": "sOUT",
+   "start": 40.409,
+   "end": 43.809,
+   "line": "",
+   "scene": "outro",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 3.0,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "iris",
+    "line": "See you between the ifs!",
+    "slots": false
+   }
   }
  ],
  "music": [
@@ -492,7 +523,7 @@
   },
   {
    "start": 30.64,
-   "end": 40.409,
+   "end": 43.809,
    "mood": "sad",
    "intensity": 0.3
   }

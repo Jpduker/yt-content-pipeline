@@ -1,6 +1,6 @@
 {
  "title": "What If Every Promise You Made Was a String?",
- "duration": 93.3,
+ "duration": 103.3,
  "shots": [
   {
    "id": "s001",
@@ -1608,6 +1608,47 @@
      }
     ]
    }
+  },
+  {
+   "id": "sOUT",
+   "start": 93.3,
+   "end": 103.3,
+   "line": "",
+   "scene": "outro",
+   "bars": "none",
+   "in": {
+    "type": "push",
+    "dur": 0.45
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "footstep",
+     "gain": -16
+    },
+    {
+     "at": 1.6,
+     "name": "pop",
+     "gain": -8
+    },
+    {
+     "at": 2.0,
+     "name": "ding",
+     "gain": -10
+    },
+    {
+     "at": 2.6,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "button",
+    "line": "New what if every day",
+    "slots": false
+   }
   }
  ],
  "music": [
@@ -1631,7 +1672,7 @@
   },
   {
    "start": 67.24,
-   "end": 93.3,
+   "end": 103.3,
    "mood": "hopeful",
    "intensity": 0.4
   }

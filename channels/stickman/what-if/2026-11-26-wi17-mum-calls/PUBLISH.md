@@ -1,0 +1,10 @@
+# Thu 26 Nov · publish sheet (Berlin times)
+Common: Not made for kids · Film & Animation · English · upload the .srt on the long-form · "An original animated story. All characters are fictional."
+| Time | File | Title | Pinned comment | Tags |
+|---|---|---|---|---|
+| 09:00 | shorts/2026-11-26-o23-borrow-day/final/o23-borrow-day-9x16.mp4 | In This World, You Can Borrow 1 Day From Your Brother | He borrowed 42 days. Then he gave one back. Who's given up days for YOU? 👇 | what if, shorts, brothers, siblings, sacrifice, family, stickman animation, animated story, between the ifs |
+| 13:00 | shorts/2026-11-26-o24-deleted-texts/final/o24-deleted-texts-9x16.mp4 | Every Text You Delete Is Read Aloud at Dinner | "So proud of you." He never sent it. What's in YOUR deleted messages? 👇 | what if, shorts, deleted texts, dad, daughter, family dinner, funny, stickman animation, animated story, between the ifs |
+| 17:00 | final/what-if-you-aged-1-year-every-time-you-ignored-mums-call-1080p.mp4 (+ .en.srt) | What If You Aged 1 Year Every Time You Ignored Mum's Call? | Five ignored calls made him 28. When did YOU last answer on the first ring? 👇 | what if, what if you aged every time you ignored mum, mum, phone calls, family, regret, what if animation, stickman animation, animated story, emotional animation, between the ifs |
+| 18:30 | final/wi17-short-1-9x16.mp4 | Every Call From Mum He Ignored Made Him 1 Year Older #shorts | Would you pick up next time? 👇 | what if, shorts, mum, ignored calls, getting older, stickman animation, animated story, between the ifs |
+| 20:30 | final/wi17-short-2-9x16.mp4 (CLIFFHANGER) | Mum Stopped Calling. Then He Called Her. #shorts | Voicemail. Full story on the channel 👇 | what if, shorts, mum, voicemail, cliffhanger, family, stickman animation, animated story, between the ifs |
+Long-form description: Every call from your mum that you ignore makes you one year older. On Monday you were 23. By Friday you're 28. Then the calls stop. When did you last answer on the first ring?

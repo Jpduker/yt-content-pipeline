@@ -1,6 +1,6 @@
 {
  "title": "He Had to Call His Brother. Who Was 8 Steps Away. #shorts",
- "duration": 28.478,
+ "duration": 31.878,
  "shots": [
   {
    "id": "s007",
@@ -443,12 +443,43 @@
     "name": "roomtone",
     "gain": -30
    }
+  },
+  {
+   "id": "sOUT",
+   "start": 28.478,
+   "end": 31.878,
+   "line": "",
+   "scene": "outro",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 3.0,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "iris",
+    "line": "See you between the ifs!",
+    "slots": false
+   }
   }
  ],
  "music": [
   {
    "start": 0.0,
-   "end": 28.478,
+   "end": 31.878,
    "mood": "mystery",
    "intensity": 0.32
   }

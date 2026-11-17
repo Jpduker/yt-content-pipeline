@@ -1,0 +1,672 @@
+{
+ "title": "My Dog Could Talk for 24 Hours. First: Complaints.",
+ "duration": 40.023,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 4.921,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "day": true,
+    "cam": [
+     [
+      960,
+      600,
+      1.35
+     ],
+     [
+      960,
+      600,
+      1.4700000000000002
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 760,
+      "pose": "holdFront",
+      "expr": "sleepy",
+      "f": 1
+     }
+    ],
+    "floaters": [
+     {
+      "k": "dog",
+      "x": 1080,
+      "y": 0,
+      "f": -1,
+      "rest": 0
+     }
+    ],
+    "liftAt": 999,
+    "motif": "num",
+    "hookText": "24 HOURS"
+   }
+  },
+  {
+   "id": "s002",
+   "start": 4.921,
+   "end": 7.7,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "day": true,
+    "cam": [
+     [
+      1000,
+      640,
+      1.25
+     ],
+     [
+      1000,
+      640,
+      1.35
+     ]
+    ],
+    "vx": 860,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 760,
+      "pose": "holdFront",
+      "expr": "shocked",
+      "f": 1
+     }
+    ],
+    "floaters": [
+     {
+      "k": "dog",
+      "x": 1080,
+      "y": 0,
+      "f": -1,
+      "rest": 0
+     }
+    ],
+    "liftAt": 999
+   }
+  },
+  {
+   "id": "s003",
+   "start": 7.7,
+   "end": 15.721,
+   "line": "",
+   "scene": "kt",
+   "bars": "none",
+   "in": {
+    "dur": 0.45,
+    "type": "iris",
+    "fill": "#FFD23F"
+   },
+   "sfx": [
+    {
+     "at": 0.965,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 2.865,
+     "name": "hit",
+     "gain": -7
+    },
+    {
+     "at": 3.765,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 6.255,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -16
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#FFD23F",
+    "items": [
+     {
+      "k": "rise",
+      "t": "EVERY DOG GETS TO TALK",
+      "at": 0.965,
+      "y": 0.26,
+      "sz": 68,
+      "c": "#111111"
+     },
+     {
+      "k": "slam",
+      "t": "ONCE",
+      "at": 2.865,
+      "y": 0.44,
+      "sz": 220,
+      "c": "#FF5A36"
+     },
+     {
+      "k": "rise",
+      "t": "FOR 24 HOURS",
+      "at": 3.765,
+      "y": 0.62,
+      "sz": 96,
+      "c": "#111111"
+     },
+     {
+      "k": "pop",
+      "t": "WAITING 11 YEARS",
+      "at": 6.255,
+      "x": 0.5,
+      "y": 0.78,
+      "sz": 64,
+      "disc": "#111111",
+      "c": "#FFD23F"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s005",
+   "start": 16.121,
+   "end": 17.717,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "day": true,
+    "cam": [
+     [
+      960,
+      600,
+      1.4
+     ],
+     [
+      960,
+      600,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 760,
+      "pose": "crossArms",
+      "expr": "smirk",
+      "f": 1
+     }
+    ],
+    "floaters": [
+     {
+      "k": "dog",
+      "x": 1080,
+      "y": 0,
+      "f": -1,
+      "rest": 0
+     }
+    ],
+    "liftAt": 999
+   }
+  },
+  {
+   "id": "s006",
+   "start": 17.717,
+   "end": 21.503,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.975,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "day": true,
+    "cam": [
+     [
+      1000,
+      640,
+      1.25
+     ],
+     [
+      1000,
+      640,
+      1.35
+     ]
+    ],
+    "vx": 860,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 760,
+      "pose": "crossArms",
+      "expr": "surprised",
+      "f": 1
+     }
+    ],
+    "floaters": [
+     {
+      "k": "dog",
+      "x": 1080,
+      "y": 0,
+      "f": -1,
+      "rest": 0
+     }
+    ],
+    "liftAt": 999,
+    "pops": [
+     {
+      "t": "CRIMINAL",
+      "at": 0.975,
+      "c": "red",
+      "x": 0.68,
+      "y": 0.26,
+      "sz": 110
+     }
+    ]
+   }
+  },
+  {
+   "id": "s007",
+   "start": 21.503,
+   "end": 25.316,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.965,
+     "name": "hit",
+     "gain": -6
+    },
+    {
+     "at": 1.965,
+     "name": "kick",
+     "gain": -9
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "day": true,
+    "cam": [
+     [
+      1000,
+      640,
+      1.25
+     ],
+     [
+      1000,
+      640,
+      1.35
+     ]
+    ],
+    "vx": 860,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 760,
+      "pose": "stand",
+      "expr": "confused",
+      "f": 1
+     }
+    ],
+    "floaters": [
+     {
+      "k": "dog",
+      "x": 1080,
+      "y": 0,
+      "f": -1,
+      "rest": 0
+     }
+    ],
+    "liftAt": 999,
+    "slam": {
+     "t": "MONSTER",
+     "at": 1.965,
+     "c": "gold",
+     "x": 0.66,
+     "y": 0.28,
+     "sz": 120,
+     "rot": -0.1
+    }
+   }
+  },
+  {
+   "id": "s008",
+   "start": 25.316,
+   "end": 26.576,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "day": true,
+    "cam": [
+     [
+      960,
+      600,
+      1.4
+     ],
+     [
+      960,
+      600,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 760,
+      "pose": "holdFront",
+      "expr": "happy",
+      "f": 1
+     }
+    ],
+    "floaters": [
+     {
+      "k": "dog",
+      "x": 1060,
+      "y": 0,
+      "f": -1,
+      "rest": 0
+     }
+    ],
+    "liftAt": 999
+   }
+  },
+  {
+   "id": "s009",
+   "start": 26.576,
+   "end": 30.845,
+   "line": "",
+   "scene": "kt",
+   "bars": "none",
+   "in": {
+    "dur": 0.45,
+    "type": "push"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "kick",
+     "gain": -9
+    },
+    {
+     "at": 0.15,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 1.215,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 1.215,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#F4EFE6",
+    "items": [
+     {
+      "k": "bignum",
+      "t": "11",
+      "at": 0.15,
+      "x": 0.62,
+      "y": 0.6,
+      "sz": 620,
+      "c": "#111111",
+      "a": 0.08
+     },
+     {
+      "k": "rise",
+      "t": "DRY FOOD.",
+      "at": 0.15,
+      "y": 0.32,
+      "sz": 120,
+      "c": "#111111"
+     },
+     {
+      "k": "marker",
+      "t": "AGAIN.",
+      "at": 1.215,
+      "mark": 1.215,
+      "y": 0.5,
+      "sz": 170,
+      "c": "#111111",
+      "mc": "#FFD23F"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s010",
+   "start": 30.845,
+   "end": 32.042,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "day": true,
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     820,
+     520,
+     1.5
+    ],
+    "expr": "laugh"
+   }
+  },
+  {
+   "id": "s011",
+   "start": 32.042,
+   "end": 36.623,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "day": true,
+    "cam": [
+     [
+      910,
+      640,
+      1.25
+     ],
+     [
+      910,
+      640,
+      1.35
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 760,
+      "pose": "point",
+      "expr": "laugh",
+      "f": 1
+     }
+    ],
+    "floaters": [
+     {
+      "k": "dog",
+      "x": 1060,
+      "y": 0,
+      "f": -1,
+      "rest": 0
+     }
+    ],
+    "liftAt": 999,
+    "ask": {
+     "text": "What would YOUR dog complain about?",
+     "at": 2.381
+    }
+   }
+  },
+  {
+   "id": "sOUT",
+   "start": 36.623,
+   "end": 40.023,
+   "line": "",
+   "scene": "outro",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 3.0,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "iris",
+    "line": "See you between the ifs!",
+    "slots": false
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 15.52,
+   "mood": "playful",
+   "intensity": 0.4
+  },
+  {
+   "start": 16.27,
+   "end": 40.023,
+   "mood": "playful",
+   "intensity": 0.42
+  }
+ ],
+ "sfx": []
+}

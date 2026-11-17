@@ -1,0 +1,72 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Theo walks out of the door. And a bell rings.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 4.7
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, a bell rings the last time you'll see someone.",
+  "sec": "hook",
+  "start": 4.84,
+  "end": 8.58
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Everyone hears it. Nobody knows what comes after.",
+  "sec": "hook",
+  "start": 8.755,
+  "end": 11.999
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You've heard bells before.",
+  "sec": "act1",
+  "start": 14.199,
+  "end": 15.699
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The old man at the bus stop. Ding. You never saw him again.",
+  "sec": "act1",
+  "start": 15.839,
+  "end": 19.904
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Kofi the barista. Ding. He moved to Lisbon.",
+  "sec": "act1",
+  "start": 20.043,
+  "end": 23.393
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You never cared. They were just bells.",
+  "sec": "act1",
+  "start": 23.534,
+  "end": 25.497
+ }
+]

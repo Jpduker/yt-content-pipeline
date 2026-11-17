@@ -1,0 +1,122 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Once in your life, you get twenty-four hours of perfect luck.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 4.45
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Oli got his on a Tuesday.",
+  "sec": "hook",
+  "start": 4.589,
+  "end": 6.343
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He found twenty euros on the pavement. Every light turned green.",
+  "sec": "act1",
+  "start": 6.944,
+  "end": 11.119
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The vending machine gave him two drinks.",
+  "sec": "act1",
+  "start": 11.302,
+  "end": 13.752
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then his sister Nina called him. Crying.",
+  "sec": "act1",
+  "start": 13.922,
+  "end": 16.492
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Her job interview was at three. She was sure she'd fail.",
+  "sec": "act1",
+  "start": 16.696,
+  "end": 20.471
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, luck can be given away. Once. With a hug.",
+  "sec": "act1",
+  "start": 20.611,
+  "end": 24.71
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "So Oli runs across the city.",
+  "sec": "act1",
+  "start": 24.851,
+  "end": 26.827
+ },
+ {
+  "id": "L009",
+  "tag": "OLI",
+  "thought": false,
+  "note": "",
+  "text": "Come here.",
+  "sec": "act1",
+  "start": 27.087,
+  "end": 27.758
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At three, Nina walks in. At four, she has the job.",
+  "sec": "act1",
+  "start": 28.158,
+  "end": 31.376
+ },
+ {
+  "id": "L011",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Oli trips on the way home. Twice.",
+  "sec": "act1",
+  "start": 31.516,
+  "end": 34.459
+ },
+ {
+  "id": "L012",
+  "tag": "OLI",
+  "thought": false,
+  "note": "",
+  "text": "Best Tuesday ever.",
+  "sec": "act1",
+  "start": 34.719,
+  "end": 35.838
+ }
+]

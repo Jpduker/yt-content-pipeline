@@ -1,0 +1,62 @@
+[
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "But that one was Theo's.",
+  "sec": "act2",
+  "start": 0.15,
+  "end": 1.875
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You run to the window. He's already gone.",
+  "sec": "act2",
+  "start": 2.014,
+  "end": 4.465
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You call him. No answer.",
+  "sec": "act2",
+  "start": 4.703,
+  "end": 6.928
+ },
+ {
+  "id": "L011",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The last thing you said to your brother was: shut the door properly.",
+  "sec": "act2",
+  "start": 7.067,
+  "end": 10.827
+ },
+ {
+  "id": "L012",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You run to the station.",
+  "sec": "act2",
+  "start": 11.036,
+  "end": 12.586
+ },
+ {
+  "id": "L013",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The train has gone. The platform is empty.",
+  "sec": "act2",
+  "start": 12.765,
+  "end": 15.537
+ }
+]

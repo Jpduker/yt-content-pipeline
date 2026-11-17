@@ -1,0 +1,1132 @@
+{
+ "title": "What If a Bell Rang the Last Time You'd See Someone?",
+ "duration": 80.28,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 4.69,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 3.424,
+     "name": "hit",
+     "gain": -6
+    },
+    {
+     "at": 3.424,
+     "name": "kick",
+     "gain": -9
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    },
+    {
+     "at": 3.424,
+     "name": "ding",
+     "gain": -8
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "bags": true
+    },
+    "day": true,
+    "clock": "SAT 08:00",
+    "cam": [
+     [
+      960,
+      600,
+      1.3
+     ],
+     [
+      960,
+      600,
+      1.4000000000000001
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 860,
+      "pose": "wave",
+      "expr": "smile",
+      "f": 1
+     },
+     {
+      "id": "THEO",
+      "x": 0,
+      "pose": "walk",
+      "expr": "happy",
+      "f": 1,
+      "walk": [
+       1040,
+       1400,
+       0.15,
+       0.9
+      ]
+     }
+    ],
+    "slam": {
+     "t": "DING",
+     "at": 3.424,
+     "c": "gold",
+     "x": 0.7,
+     "y": 0.28,
+     "sz": 110,
+     "rot": -0.1
+    },
+    "motif": "num"
+   }
+  },
+  {
+   "id": "s002",
+   "start": 4.69,
+   "end": 12.649,
+   "line": "",
+   "scene": "kt",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "iris",
+    "fill": "#FFD23F"
+   },
+   "sfx": [
+    {
+     "at": 1.016,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 1.816,
+     "name": "hit",
+     "gain": -7
+    },
+    {
+     "at": 2.64,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 5.489,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -16
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#FFD23F",
+    "items": [
+     {
+      "k": "rise",
+      "t": "A BELL RINGS",
+      "at": 1.016,
+      "y": 0.26,
+      "sz": 100,
+      "c": "#111111"
+     },
+     {
+      "k": "slam",
+      "t": "THE LAST TIME",
+      "at": 1.816,
+      "y": 0.42,
+      "sz": 150,
+      "c": "#FF5A36"
+     },
+     {
+      "k": "rise",
+      "t": "YOU'LL SEE SOMEONE",
+      "at": 2.64,
+      "y": 0.56,
+      "sz": 84,
+      "c": "#111111"
+     },
+     {
+      "k": "rise",
+      "t": "NOBODY KNOWS WHAT COMES AFTER",
+      "at": 5.489,
+      "y": 0.7,
+      "sz": 60,
+      "c": "#111111"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s003",
+   "start": 12.649,
+   "end": 15.689,
+   "line": "",
+   "scene": "title",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "flash",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "title",
+    "lines": [
+     "WHAT IF A BELL RANG THE LAST",
+     "TIME YOU'D SEE SOMEONE?"
+    ],
+    "set": "flat",
+    "so": {},
+    "bgCam": [
+     900,
+     520,
+     0.7
+    ]
+   }
+  },
+  {
+   "id": "s004",
+   "start": 15.689,
+   "end": 19.893,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 2.225,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 2.225,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "day": true,
+    "cam": [
+     [
+      960,
+      600,
+      1.3
+     ],
+     [
+      960,
+      600,
+      1.4000000000000001
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 840,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     },
+     {
+      "id": "GRANDPA",
+      "x": 1080,
+      "pose": "stand",
+      "expr": "smile",
+      "f": -1
+     }
+    ],
+    "pops": [
+     {
+      "t": "DING",
+      "at": 2.225,
+      "c": "gold",
+      "x": 0.7,
+      "y": 0.28,
+      "sz": 110,
+      "rot": -0.1
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s005",
+   "start": 19.893,
+   "end": 23.384,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 1.7,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 1.7,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "cafe",
+    "so": {
+     "variant": "am"
+    },
+    "day": true,
+    "cam": [
+     [
+      1000,
+      580,
+      1.4
+     ],
+     [
+      1000,
+      580,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 860,
+      "pose": "holdFront",
+      "expr": "neutral",
+      "f": 1
+     },
+     {
+      "id": "BARISTA",
+      "x": 1160,
+      "pose": "wave",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "pops": [
+     {
+      "t": "DING",
+      "at": 1.7,
+      "c": "gold",
+      "x": 0.7,
+      "y": 0.28,
+      "sz": 110,
+      "rot": -0.1
+     }
+    ]
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s006",
+   "start": 23.384,
+   "end": 27.247,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "cafe",
+    "so": {
+     "variant": "am"
+    },
+    "day": true,
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     860,
+     520,
+     1.5
+    ],
+    "expr": "flat"
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s007",
+   "start": 27.247,
+   "end": 29.111,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "bags": true
+    },
+    "day": true,
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     760,
+     520,
+     1.5
+    ],
+    "expr": "shocked",
+    "push": 0.16
+   }
+  },
+  {
+   "id": "s008",
+   "start": 29.111,
+   "end": 31.8,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "bags": true
+    },
+    "day": true,
+    "cam": [
+     [
+      1100,
+      600,
+      1.4
+     ],
+     [
+      1100,
+      600,
+      1.52
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 0,
+      "pose": "walk",
+      "expr": "scared",
+      "f": 1,
+      "walk": [
+       900,
+       1250,
+       0,
+       0.5
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "s009",
+   "start": 31.8,
+   "end": 34.164,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "flat",
+    "so": {
+     "bags": true
+    },
+    "day": true,
+    "ins": "callscreen",
+    "name": "Theo",
+    "clk": [
+     [
+      0,
+      "08:04"
+     ],
+     [
+      1.2,
+      "08:05"
+     ]
+    ],
+    "noHand": false
+   }
+  },
+  {
+   "id": "s010",
+   "start": 34.164,
+   "end": 38.133,
+   "line": "",
+   "scene": "kt",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "push"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 2.385,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 2.76,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 2.76,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#F4EFE6",
+    "items": [
+     {
+      "k": "rise",
+      "t": "LAST THING YOU SAID:",
+      "at": 0.15,
+      "y": 0.3,
+      "sz": 80,
+      "c": "#111111"
+     },
+     {
+      "k": "rise",
+      "t": "\"SHUT THE DOOR",
+      "at": 2.385,
+      "y": 0.44,
+      "sz": 88,
+      "c": "#111111"
+     },
+     {
+      "k": "marker",
+      "t": "PROPERLY\"",
+      "at": 2.76,
+      "mark": 2.76,
+      "y": 0.55,
+      "sz": 120,
+      "c": "#111111",
+      "mc": "#FF5A36"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s011",
+   "start": 38.133,
+   "end": 39.862,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "day": true,
+    "cam": [
+     [
+      800,
+      600,
+      1.25
+     ],
+     [
+      1120,
+      600,
+      1.3
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 0,
+      "pose": "walk",
+      "expr": "scared",
+      "f": 1,
+      "walk": [
+       760,
+       1160,
+       0,
+       1
+      ]
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s012",
+   "start": 39.862,
+   "end": 45.234,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "platform",
+    "so": {},
+    "clock": "08:21",
+    "cam": [
+     [
+      960,
+      600,
+      1.3
+     ],
+     [
+      960,
+      600,
+      1.44
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 960,
+      "pose": "stand",
+      "expr": "sad",
+      "f": 1
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -23
+   }
+  },
+  {
+   "id": "s013",
+   "start": 45.234,
+   "end": 50.477,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "platform",
+    "so": {},
+    "clock": "08:23",
+    "cam": [
+     [
+      960,
+      600,
+      1.3
+     ],
+     [
+      960,
+      600,
+      1.4000000000000001
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 880,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": 1
+     },
+     {
+      "id": "THEO",
+      "x": 1080,
+      "pose": "holdFront",
+      "expr": "confused",
+      "f": -1
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -23
+   }
+  },
+  {
+   "id": "s014",
+   "start": 50.477,
+   "end": 52.185,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "platform",
+    "so": {},
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     880,
+     520,
+     1.5
+    ],
+    "expr": "scared"
+   },
+   "amb": {
+    "name": "city",
+    "gain": -23
+   }
+  },
+  {
+   "id": "s015",
+   "start": 52.185,
+   "end": 57.111,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 3.416,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "platform",
+    "so": {},
+    "who": "THEO",
+    "side": -1,
+    "bgCam": [
+     1080,
+     520,
+     1.5
+    ],
+    "expr": "laugh",
+    "pops": [
+     {
+      "t": "2 STREETS AWAY",
+      "at": 3.416,
+      "c": "lime",
+      "x": 0.3,
+      "y": 0.24,
+      "sz": 100
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -23
+   }
+  },
+  {
+   "id": "s016",
+   "start": 57.111,
+   "end": 65.806,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 6.405,
+     "name": "flash",
+     "gain": -10
+    },
+    {
+     "at": 6.655,
+     "name": "ding",
+     "gain": -16
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "platform",
+    "so": {},
+    "clock": "08:26",
+    "cam": [
+     [
+      960,
+      600,
+      1.4
+     ],
+     [
+      960,
+      600,
+      1.52
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 880,
+      "pose": "holdFront",
+      "expr": "tearsmile",
+      "f": 1
+     },
+     {
+      "id": "THEO",
+      "x": 1060,
+      "pose": "holdFront",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "polaroid": {
+     "at": 6.405,
+     "caption": "AN ENDING. NOT GOODBYE.",
+     "ring": [
+      970,
+      430,
+      300
+     ]
+    }
+   },
+   "amb": {
+    "name": "city",
+    "gain": -23
+   }
+  },
+  {
+   "id": "s017",
+   "start": 65.806,
+   "end": 70.28,
+   "line": "",
+   "scene": "kt",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "iris",
+    "fill": "#14213D"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 0.425,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 0.6,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 0.9,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 1.025,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 1.15,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 1.375,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -16
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#14213D",
+    "items": [
+     {
+      "k": "word",
+      "t": "WHO",
+      "at": 0.15,
+      "x": 0.3,
+      "y": 0.26,
+      "sz": 100,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "WOULD",
+      "at": 0.3,
+      "x": 0.7,
+      "y": 0.26,
+      "sz": 100,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "YOU",
+      "at": 0.425,
+      "x": 0.3,
+      "y": 0.38,
+      "sz": 100,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "HUG",
+      "at": 0.6,
+      "x": 0.7,
+      "y": 0.38,
+      "sz": 100,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "IF",
+      "at": 0.9,
+      "x": 0.35,
+      "y": 0.5,
+      "sz": 100,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "YOU",
+      "at": 1.025,
+      "x": 0.65,
+      "y": 0.5,
+      "sz": 100,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "HEARD",
+      "at": 1.15,
+      "x": 0.5,
+      "y": 0.62,
+      "sz": 100,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "THE BELL?",
+      "at": 1.375,
+      "x": 0.5,
+      "y": 0.74,
+      "sz": 130,
+      "c": "#FFD23F"
+     }
+    ]
+   }
+  },
+  {
+   "id": "sOUT",
+   "start": 70.28,
+   "end": 80.28,
+   "line": "",
+   "scene": "outro",
+   "bars": "none",
+   "in": {
+    "type": "dipWhite",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -18
+    },
+    {
+     "at": 2.8,
+     "name": "ding",
+     "gain": -16
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "silent",
+    "line": null,
+    "slots": false
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 12.25,
+   "mood": "mystery",
+   "intensity": 0.3
+  },
+  {
+   "start": 14.2,
+   "end": 25.75,
+   "mood": "sad",
+   "intensity": 0.26
+  },
+  {
+   "start": 27.4,
+   "end": 43.03,
+   "mood": "tension",
+   "intensity": 0.32
+  },
+  {
+   "start": 45.38,
+   "end": 80.28,
+   "mood": "hopeful",
+   "intensity": 0.4
+  }
+ ],
+ "sfx": []
+}

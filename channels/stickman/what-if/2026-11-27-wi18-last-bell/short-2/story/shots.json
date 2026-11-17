@@ -1,0 +1,361 @@
+{
+ "title": "The Bell Rang for My Brother",
+ "duration": 22.587,
+ "shots": [
+  {
+   "id": "s007",
+   "start": 0.0,
+   "end": 1.864,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "bags": true
+    },
+    "day": true,
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     760,
+     520,
+     1.5
+    ],
+    "expr": "shocked",
+    "push": 0.16,
+    "motif": "num",
+    "hookText": "THE BELL RANG"
+   }
+  },
+  {
+   "id": "s008",
+   "start": 1.864,
+   "end": 4.553,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "bags": true
+    },
+    "day": true,
+    "cam": [
+     [
+      1100,
+      600,
+      1.4
+     ],
+     [
+      1100,
+      600,
+      1.52
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 0,
+      "pose": "walk",
+      "expr": "scared",
+      "f": 1,
+      "walk": [
+       900,
+       1250,
+       0,
+       0.5
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "s009",
+   "start": 4.553,
+   "end": 6.917,
+   "line": "",
+   "scene": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "flat",
+    "so": {
+     "bags": true
+    },
+    "day": true,
+    "ins": "callscreen",
+    "name": "Theo",
+    "clk": [
+     [
+      0,
+      "08:04"
+     ],
+     [
+      1.2,
+      "08:05"
+     ]
+    ],
+    "noHand": false
+   }
+  },
+  {
+   "id": "s010",
+   "start": 6.917,
+   "end": 10.886,
+   "line": "",
+   "scene": "kt",
+   "bars": "none",
+   "in": {
+    "dur": 0.45,
+    "type": "push"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 2.385,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 2.76,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 2.76,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#F4EFE6",
+    "items": [
+     {
+      "k": "rise",
+      "t": "LAST THING YOU SAID:",
+      "at": 0.15,
+      "y": 0.3,
+      "sz": 80,
+      "c": "#111111"
+     },
+     {
+      "k": "rise",
+      "t": "\"SHUT THE DOOR",
+      "at": 2.385,
+      "y": 0.44,
+      "sz": 88,
+      "c": "#111111"
+     },
+     {
+      "k": "marker",
+      "t": "PROPERLY\"",
+      "at": 2.76,
+      "mark": 2.76,
+      "y": 0.55,
+      "sz": 120,
+      "c": "#111111",
+      "mc": "#FF5A36"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s011",
+   "start": 10.886,
+   "end": 12.615,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "day": true,
+    "cam": [
+     [
+      800,
+      600,
+      1.25
+     ],
+     [
+      1120,
+      600,
+      1.3
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 0,
+      "pose": "walk",
+      "expr": "scared",
+      "f": 1,
+      "walk": [
+       760,
+       1160,
+       0,
+       1
+      ]
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s012",
+   "start": 12.615,
+   "end": 19.187,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "platform",
+    "so": {},
+    "cam": [
+     [
+      960,
+      600,
+      1.3
+     ],
+     [
+      960,
+      600,
+      1.44
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 960,
+      "pose": "stand",
+      "expr": "sad",
+      "f": 1
+     }
+    ],
+    "ask": {
+     "text": "Full story on the channel",
+     "at": 4.372
+    }
+   },
+   "amb": {
+    "name": "city",
+    "gain": -23
+   }
+  },
+  {
+   "id": "sOUT",
+   "start": 19.187,
+   "end": 22.587,
+   "line": "",
+   "scene": "outro",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 3.0,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "iris",
+    "line": "See you between the ifs!",
+    "slots": false
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.15,
+   "end": 22.587,
+   "mood": "tension",
+   "intensity": 0.32
+  }
+ ],
+ "sfx": []
+}

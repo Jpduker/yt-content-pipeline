@@ -1,6 +1,6 @@
 {
  "title": "Every Lie Froze the World. So He Lied All Day. #shorts",
- "duration": 43.357,
+ "duration": 46.757,
  "shots": [
   {
    "id": "s001",
@@ -623,6 +623,37 @@
      "at": 5.465
     }
    }
+  },
+  {
+   "id": "sOUT",
+   "start": 43.357,
+   "end": 46.757,
+   "line": "",
+   "scene": "outro",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 3.0,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "iris",
+    "line": "See you between the ifs!",
+    "slots": false
+   }
   }
  ],
  "music": [
@@ -634,7 +665,7 @@
   },
   {
    "start": 22.13,
-   "end": 43.357,
+   "end": 46.757,
    "mood": "playful",
    "intensity": 0.42
   }

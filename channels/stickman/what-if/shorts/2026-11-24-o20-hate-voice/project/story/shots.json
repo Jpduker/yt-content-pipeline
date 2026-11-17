@@ -1,6 +1,6 @@
 {
  "title": "Her Voice Disappeared After She Said \"I Hate You\"",
- "duration": 25.64,
+ "duration": 29.04,
  "shots": [
   {
    "id": "s001",
@@ -498,6 +498,37 @@
     "name": "city",
     "gain": -26
    }
+  },
+  {
+   "id": "sOUT",
+   "start": 25.64,
+   "end": 29.04,
+   "line": "",
+   "scene": "outro",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 3.0,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "iris",
+    "line": "See you between the ifs!",
+    "slots": false
+   }
   }
  ],
  "music": [
@@ -509,7 +540,7 @@
   },
   {
    "start": 17.38,
-   "end": 25.64,
+   "end": 29.04,
    "mood": "hopeful",
    "intensity": 0.36
   }

@@ -1,0 +1,92 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, you can borrow a day from your brother. He loses it. You get two.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 5.131
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Rafa borrows days all the time. Exams. Dates. A lie-in.",
+  "sec": "hook",
+  "start": 5.271,
+  "end": 10.167
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "His little brother Tom never says no.",
+  "sec": "act1",
+  "start": 10.767,
+  "end": 13.317
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Today, Rafa finds Tom's calendar.",
+  "sec": "act1",
+  "start": 13.457,
+  "end": 16.157
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Forty-two crossed-out squares.",
+  "sec": "act1",
+  "start": 16.403,
+  "end": 18.328
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "His school play. His birthday party. Sports day.",
+  "sec": "act1",
+  "start": 18.468,
+  "end": 22.243
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Rafa doesn't borrow a day. He gives one back.",
+  "sec": "act1",
+  "start": 22.383,
+  "end": 25.261
+ },
+ {
+  "id": "L008",
+  "tag": "TOM",
+  "thought": false,
+  "note": "",
+  "text": "Wait. You can do that?",
+  "sec": "act1",
+  "start": 25.521,
+  "end": 26.576
+ },
+ {
+  "id": "L009",
+  "tag": "RAFA",
+  "thought": false,
+  "note": "",
+  "text": "Apparently. Pick a day.",
+  "sec": "act1",
+  "start": 26.726,
+  "end": 28.084
+ }
+]

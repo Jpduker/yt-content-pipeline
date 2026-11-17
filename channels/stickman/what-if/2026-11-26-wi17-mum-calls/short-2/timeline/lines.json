@@ -1,0 +1,112 @@
+[
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It started small. A missed call in a meeting. Twenty-four.",
+  "sec": "act1",
+  "start": 0.15,
+  "end": 4.3
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "A call during football. Twenty-five.",
+  "sec": "act1",
+  "start": 4.44,
+  "end": 6.876
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Her birthday. You were busy. Three calls. Twenty-eight.",
+  "sec": "act1",
+  "start": 7.015,
+  "end": 10.795
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your knees click now. Your back hurts when you stand.",
+  "sec": "act1",
+  "start": 10.935,
+  "end": 14.011
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your friends think you've been working too hard.",
+  "sec": "act1",
+  "start": 14.219,
+  "end": 16.553
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then the calls stop.",
+  "sec": "act2",
+  "start": 18.453,
+  "end": 19.828
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "A whole week. Not one.",
+  "sec": "act2",
+  "start": 19.967,
+  "end": 21.567
+ },
+ {
+  "id": "L011",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You should feel relieved. You're not getting any older.",
+  "sec": "act2",
+  "start": 21.814,
+  "end": 24.924
+ },
+ {
+  "id": "L012",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "But your phone has never been this quiet.",
+  "sec": "act2",
+  "start": 25.137,
+  "end": 27.187
+ },
+ {
+  "id": "L013",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "So you call her. It rings. And rings.",
+  "sec": "act2",
+  "start": 27.416,
+  "end": 30.271
+ },
+ {
+  "id": "L014",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Voicemail.",
+  "sec": "act2",
+  "start": 30.411,
+  "end": 31.124
+ }
+]

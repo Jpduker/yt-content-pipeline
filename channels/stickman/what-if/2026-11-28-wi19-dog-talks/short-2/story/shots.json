@@ -1,0 +1,588 @@
+{
+ "title": "My Dog Told Me Something the Vet Knew",
+ "duration": 39.821,
+ "shots": [
+  {
+   "id": "s020",
+   "start": 0.0,
+   "end": 1.846,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "garden",
+    "so": {
+     "bench": 80
+    },
+    "day": true,
+    "cam": [
+     [
+      1040,
+      640,
+      1.25
+     ],
+     [
+      1040,
+      640,
+      1.35
+     ]
+    ],
+    "vx": 922,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 860,
+      "pose": "stand",
+      "expr": "worried",
+      "f": 1
+     }
+    ],
+    "floaters": [
+     {
+      "k": "dog",
+      "x": 1160,
+      "y": 0,
+      "f": -1,
+      "rest": 0
+     }
+    ],
+    "liftAt": 999,
+    "motif": "num",
+    "hookText": "WHILE I STILL CAN"
+   }
+  },
+  {
+   "id": "s021",
+   "start": 1.846,
+   "end": 5.832,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "garden",
+    "so": {
+     "bench": 80
+    },
+    "day": true,
+    "cam": [
+     [
+      1020,
+      600,
+      1.4
+     ],
+     [
+      1020,
+      600,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 880,
+      "pose": "sitHands",
+      "expr": "tender",
+      "f": 1
+     }
+    ],
+    "floaters": [
+     {
+      "k": "dog",
+      "x": 1160,
+      "y": 0,
+      "f": -1,
+      "rest": -110
+     }
+    ],
+    "liftAt": 999
+   }
+  },
+  {
+   "id": "s022",
+   "start": 5.832,
+   "end": 9.359,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "garden",
+    "so": {
+     "bench": 80
+    },
+    "day": true,
+    "cam": [
+     [
+      1060,
+      640,
+      1.25
+     ],
+     [
+      1060,
+      640,
+      1.35
+     ]
+    ],
+    "vx": 910,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 880,
+      "pose": "sitHands",
+      "expr": "neutral",
+      "f": 1
+     }
+    ],
+    "floaters": [
+     {
+      "k": "dog",
+      "x": 1160,
+      "y": 0,
+      "f": -1,
+      "rest": -110
+     }
+    ],
+    "liftAt": 999
+   }
+  },
+  {
+   "id": "s023",
+   "start": 9.359,
+   "end": 10.691,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "garden",
+    "so": {
+     "bench": 80
+    },
+    "day": true,
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     880,
+     520,
+     1.5
+    ],
+    "expr": "worried"
+   }
+  },
+  {
+   "id": "s024",
+   "start": 10.691,
+   "end": 17.98,
+   "line": "",
+   "scene": "kt",
+   "bars": "none",
+   "in": {
+    "dur": 0.45,
+    "type": "bands"
+   },
+   "sfx": [
+    {
+     "at": 0.525,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 1.13,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 2.945,
+     "name": "tick",
+     "gain": -16
+    },
+    {
+     "at": 4.629,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#14213D",
+    "items": [
+     {
+      "k": "rise",
+      "t": "AGE 7",
+      "at": 0.525,
+      "y": 0.26,
+      "sz": 110,
+      "c": "#FFD23F"
+     },
+     {
+      "k": "rise",
+      "t": "UNDER THE BED",
+      "at": 1.13,
+      "y": 0.4,
+      "sz": 90,
+      "c": "#fff"
+     },
+     {
+      "k": "typed",
+      "t": "every day. a month.",
+      "at": 2.945,
+      "y": 0.5,
+      "sz": 60,
+      "cps": 18
+     },
+     {
+      "k": "rise",
+      "t": "HE WAS THERE",
+      "at": 4.629,
+      "y": 0.62,
+      "sz": 110,
+      "c": "#fff"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s025",
+   "start": 17.98,
+   "end": 19.394,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "garden",
+    "so": {
+     "bench": 80
+    },
+    "day": true,
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     880,
+     520,
+     1.5
+    ],
+    "expr": "teary"
+   }
+  },
+  {
+   "id": "s026",
+   "start": 19.394,
+   "end": 20.309,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "garden",
+    "so": {
+     "bench": 80
+    },
+    "day": true,
+    "cam": [
+     [
+      1020,
+      640,
+      1.25
+     ],
+     [
+      1020,
+      640,
+      1.35
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 880,
+      "pose": "sitHands",
+      "expr": "teary",
+      "f": 1
+     }
+    ],
+    "floaters": [
+     {
+      "k": "dog",
+      "x": 1160,
+      "y": 0,
+      "f": -1,
+      "rest": -110
+     }
+    ],
+    "liftAt": 999
+   }
+  },
+  {
+   "id": "s027",
+   "start": 20.309,
+   "end": 28.137,
+   "line": "",
+   "scene": "kt",
+   "bars": "none",
+   "in": {
+    "dur": 0.45,
+    "type": "push"
+   },
+   "sfx": [
+    {
+     "at": 0.55,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 2.7,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 5.966,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 6.241,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#F4EFE6",
+    "items": [
+     {
+      "k": "pop",
+      "t": "DAD \u00b7 THE CAR",
+      "at": 0.55,
+      "x": 0.5,
+      "y": 0.34,
+      "sz": 72,
+      "disc": "#fff",
+      "c": "#111111"
+     },
+     {
+      "k": "pop",
+      "t": "MUM \u00b7 ALONE",
+      "at": 2.7,
+      "x": 0.5,
+      "y": 0.5,
+      "sz": 72,
+      "disc": "#fff",
+      "c": "#111111"
+     },
+     {
+      "k": "marker",
+      "t": "I DON'T MIND",
+      "at": 5.966,
+      "mark": 6.241,
+      "y": 0.72,
+      "sz": 130,
+      "c": "#111111",
+      "mc": "#FFD23F"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s028",
+   "start": 28.137,
+   "end": 30.507,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "push",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "garden",
+    "so": {
+     "bench": 80
+    },
+    "day": true,
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     880,
+     520,
+     1.5
+    ],
+    "expr": "worried",
+    "push": 0.14
+   }
+  },
+  {
+   "id": "s029",
+   "start": 30.507,
+   "end": 36.421,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 2.05,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "garden",
+    "so": {
+     "bench": 80
+    },
+    "day": true,
+    "cam": [
+     [
+      1060,
+      640,
+      1.25
+     ],
+     [
+      1060,
+      640,
+      1.35
+     ]
+    ],
+    "vx": 910,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 880,
+      "pose": "sitHands",
+      "expr": "shocked",
+      "f": 1
+     }
+    ],
+    "floaters": [
+     {
+      "k": "dog",
+      "x": 1160,
+      "y": 0,
+      "f": -1,
+      "rest": -110
+     }
+    ],
+    "liftAt": 999,
+    "pops": [
+     {
+      "t": "?!",
+      "at": 2.05,
+      "c": "red",
+      "x": 0.78,
+      "y": 0.24,
+      "sz": 140
+     }
+    ],
+    "ask": {
+     "text": "Full story on the channel",
+     "at": 3.714
+    }
+   }
+  },
+  {
+   "id": "sOUT",
+   "start": 36.421,
+   "end": 39.821,
+   "line": "",
+   "scene": "outro",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 3.0,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "iris",
+    "line": "See you between the ifs!",
+    "slots": false
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.15,
+   "end": 39.821,
+   "mood": "sad",
+   "intensity": 0.28
+  }
+ ],
+ "sfx": []
+}

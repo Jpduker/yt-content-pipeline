@@ -1,6 +1,6 @@
 {
  "title": "What If Every Lie Froze the World for 5 Seconds?",
- "duration": 104.02,
+ "duration": 114.02,
  "shots": [
   {
    "id": "s001",
@@ -1597,6 +1597,42 @@
      }
     ]
    }
+  },
+  {
+   "id": "sOUT",
+   "start": 104.02,
+   "end": 114.02,
+   "line": "",
+   "scene": "outro",
+   "bars": "none",
+   "in": {
+    "type": "bands",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "hit",
+     "gain": -8
+    },
+    {
+     "at": 0.65,
+     "name": "hit",
+     "gain": -9
+    },
+    {
+     "at": 1.2,
+     "name": "swish",
+     "gain": -16
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "ident",
+    "line": null,
+    "slots": false
+   }
   }
  ],
  "music": [
@@ -1620,7 +1656,7 @@
   },
   {
    "start": 72.8,
-   "end": 104.02,
+   "end": 114.02,
    "mood": "sad",
    "intensity": 0.3
   }

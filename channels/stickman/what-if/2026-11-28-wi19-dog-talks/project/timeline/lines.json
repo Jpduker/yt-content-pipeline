@@ -1,0 +1,422 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At seven in the morning, your dog looks you in the eye and says:",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 4.811
+ },
+ {
+  "id": "L002",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "We need to talk about the cat.",
+  "sec": "hook",
+  "start": 5.071,
+  "end": 7.05
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, every dog gets to talk. Once. For twenty-four hours.",
+  "sec": "hook",
+  "start": 7.85,
+  "end": 12.815
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And Biscuit has been waiting eleven years.",
+  "sec": "hook",
+  "start": 12.955,
+  "end": 15.271
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "First, the complaints.",
+  "sec": "act1",
+  "start": 16.271,
+  "end": 17.607
+ },
+ {
+  "id": "L006",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "The postman is a criminal. I've told you every single day.",
+  "sec": "act1",
+  "start": 17.867,
+  "end": 21.407
+ },
+ {
+  "id": "L007",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "And the vacuum. Why do you keep a monster in the cupboard?",
+  "sec": "act1",
+  "start": 21.653,
+  "end": 25.066
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then breakfast.",
+  "sec": "act1",
+  "start": 25.466,
+  "end": 26.466
+ },
+ {
+  "id": "L009",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "Dry food. Again. Eleven years of dry food.",
+  "sec": "act1",
+  "start": 26.726,
+  "end": 30.845
+ },
+ {
+  "id": "L010",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You eat socks!",
+  "sec": "act1",
+  "start": 30.995,
+  "end": 32.042
+ },
+ {
+  "id": "L011",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "Socks are a treat. There's a difference.",
+  "sec": "act1",
+  "start": 32.192,
+  "end": 34.873
+ },
+ {
+  "id": "L012",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By nine, Mum is laughing so hard she's crying.",
+  "sec": "act1",
+  "start": 35.573,
+  "end": 38.655
+ },
+ {
+  "id": "L013",
+  "tag": "MUM",
+  "thought": false,
+  "note": "",
+  "text": "Say something about Dad.",
+  "sec": "act1",
+  "start": 38.915,
+  "end": 40.339
+ },
+ {
+  "id": "L014",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "He sneaks me cheese. And he sings in the shower. Badly.",
+  "sec": "act1",
+  "start": 40.489,
+  "end": 44.132
+ },
+ {
+  "id": "L015",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Dad goes very red.",
+  "sec": "act1",
+  "start": 44.532,
+  "end": 45.982
+ },
+ {
+  "id": "L016",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You take Biscuit to the park. Every dog is talking.",
+  "sec": "act1",
+  "start": 46.522,
+  "end": 49.872
+ },
+ {
+  "id": "L017",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "A poodle is reviewing the benches. A husky won't stop shouting.",
+  "sec": "act1",
+  "start": 50.106,
+  "end": 54.391
+ },
+ {
+  "id": "L018",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Biscuit just walks next to you. Slowly.",
+  "sec": "act1",
+  "start": 54.531,
+  "end": 57.281
+ },
+ {
+  "id": "L019",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Slower than last year.",
+  "sec": "act1",
+  "start": 57.421,
+  "end": 58.753
+ },
+ {
+  "id": "L020",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "Can we sit down?",
+  "sec": "act2",
+  "start": 59.753,
+  "end": 61.199
+ },
+ {
+  "id": "L021",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You sit. He climbs up next to you. It takes him two tries.",
+  "sec": "act2",
+  "start": 61.599,
+  "end": 65.325
+ },
+ {
+  "id": "L022",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "I need to tell you some things. While I still can.",
+  "sec": "act2",
+  "start": 65.585,
+  "end": 68.712
+ },
+ {
+  "id": "L023",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The jokes stop.",
+  "sec": "act2",
+  "start": 69.112,
+  "end": 70.184
+ },
+ {
+  "id": "L024",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "When you were seven, you cried under the bed after school. Every day for a month.",
+  "sec": "act2",
+  "start": 70.444,
+  "end": 74.539
+ },
+ {
+  "id": "L025",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "I lay next to you. That was my job.",
+  "sec": "act2",
+  "start": 74.798,
+  "end": 77.583
+ },
+ {
+  "id": "L026",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I didn't think you knew.",
+  "sec": "act2",
+  "start": 77.733,
+  "end": 78.997
+ },
+ {
+  "id": "L027",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "I always know.",
+  "sec": "act2",
+  "start": 79.147,
+  "end": 79.922
+ },
+ {
+  "id": "L028",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "Your dad cries in the car sometimes. Your mum talks to me when nobody calls back.",
+  "sec": "act2",
+  "start": 80.062,
+  "end": 84.487
+ },
+ {
+  "id": "L029",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "I hold all of it. I don't mind.",
+  "sec": "act2",
+  "start": 84.738,
+  "end": 87.09
+ },
+ {
+  "id": "L030",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then he says the thing you weren't ready for.",
+  "sec": "act2",
+  "start": 87.89,
+  "end": 90.0
+ },
+ {
+  "id": "L031",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "My legs hurt now. The vet knows. You don't.",
+  "sec": "act2",
+  "start": 90.26,
+  "end": 93.174
+ },
+ {
+  "id": "L032",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "That evening, the whole family sits on the floor.",
+  "sec": "act3",
+  "start": 94.974,
+  "end": 98.149
+ },
+ {
+  "id": "L033",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Nobody watches TV. Nobody checks a phone.",
+  "sec": "act3",
+  "start": 98.289,
+  "end": 101.188
+ },
+ {
+  "id": "L034",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "Mum. Thank you for the blanket by the radiator.",
+  "sec": "act3",
+  "start": 101.448,
+  "end": 103.848
+ },
+ {
+  "id": "L035",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "Dad. Keep the cheese a secret.",
+  "sec": "act3",
+  "start": 103.988,
+  "end": 106.301
+ },
+ {
+  "id": "L036",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And then he looks at you.",
+  "sec": "act3",
+  "start": 106.701,
+  "end": 108.068
+ },
+ {
+  "id": "L037",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "You were my favourite job.",
+  "sec": "act3",
+  "start": 108.328,
+  "end": 110.346
+ },
+ {
+  "id": "L038",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At midnight, he stops talking.",
+  "sec": "act3",
+  "start": 111.146,
+  "end": 113.046
+ },
+ {
+  "id": "L039",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He just thumps his tail. Twice.",
+  "sec": "act3",
+  "start": 113.233,
+  "end": 115.593
+ },
+ {
+  "id": "L040",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You know exactly what it means.",
+  "sec": "act3",
+  "start": 115.732,
+  "end": 117.353
+ },
+ {
+  "id": "L041",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I love you too, Biscuit.",
+  "sec": "act3",
+  "start": 117.614,
+  "end": 118.896
+ },
+ {
+  "id": "L042",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "What would your dog say to you?",
+  "sec": "act3",
+  "start": 119.796,
+  "end": 121.312
+ }
+]

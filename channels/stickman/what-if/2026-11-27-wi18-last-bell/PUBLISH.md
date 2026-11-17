@@ -1,0 +1,10 @@
+# Fri 27 Nov · publish sheet (Berlin times)
+Common: Not made for kids · Film & Animation · English · upload the .srt on the long-form · "An original animated story. All characters are fictional."
+| Time | File | Title | Pinned comment | Tags |
+|---|---|---|---|---|
+| 09:00 | shorts/2026-11-27-o25-dad-kid/final/o25-dad-kid-9x16.mp4 | In This World, Dads Turn Into Kids When They Laugh | One football. One minute. The boy his dad used to be. What would make YOUR dad laugh? 👇 | what if, shorts, dad, father and son, laughter, family, wholesome, stickman animation, animated story, between the ifs |
+| 13:00 | shorts/2026-11-27-o26-three-rewinds/final/o26-three-rewinds-9x16.mp4 | Every Parent Gets 3 Rewinds a Year. Mum Used Hers on Me. | She didn't fix anything with the last one. What moment would YOU live twice? 👇 | what if, shorts, mum, rewind, leaving home, family, emotional, stickman animation, animated story, between the ifs |
+| 17:00 | final/what-if-a-bell-rang-the-last-time-youd-see-someone-1080p.mp4 (+ .en.srt) | What If a Bell Rang the Last Time You'd See Someone? | The bell rang for Theo. It wasn't what you thought. Who would YOU hug if you heard it? 👇 | what if, what if a bell rang the last time you'd see someone, brothers, siblings, goodbye, family, what if animation, stickman animation, animated story, emotional animation, between the ifs |
+| 18:30 | final/wi18-short-1-9x16.mp4 | A Bell Rings the Last Time You'll See Someone #shorts | Who would YOU hug if you heard the bell? 👇 | what if, shorts, bell, last time, goodbye, stickman animation, animated story, between the ifs |
+| 20:30 | final/wi18-short-2-9x16.mp4 (CLIFFHANGER) | The Bell Rang for My Brother #shorts | The platform was empty. Full story on the channel 👇 | what if, shorts, brother, bell, cliffhanger, family, stickman animation, animated story, between the ifs |
+Long-form description: In this world, a bell rings the last time you'll see someone. You've heard bells before: the old man at the bus stop, Kofi the barista. Then one rings as your little brother walks out the door. Who would you hug if you heard the bell?

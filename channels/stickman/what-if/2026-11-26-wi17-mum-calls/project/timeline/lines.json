@@ -1,0 +1,212 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "On Monday you were twenty-three. It's Friday, and you're twenty-eight.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 5.685
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Because you ignored five of Mum's calls.",
+  "sec": "hook",
+  "start": 5.897,
+  "end": 8.722
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, every call from your mum that you ignore makes you one year older.",
+  "sec": "hook",
+  "start": 8.863,
+  "end": 13.455
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It started small. A missed call in a meeting. Twenty-four.",
+  "sec": "act1",
+  "start": 15.654,
+  "end": 19.804
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "A call during football. Twenty-five.",
+  "sec": "act1",
+  "start": 19.944,
+  "end": 22.38
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Her birthday. You were busy. Three calls. Twenty-eight.",
+  "sec": "act1",
+  "start": 22.519,
+  "end": 26.299
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your knees click now. Your back hurts when you stand.",
+  "sec": "act1",
+  "start": 26.439,
+  "end": 29.515
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your friends think you've been working too hard.",
+  "sec": "act1",
+  "start": 29.723,
+  "end": 32.057
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then the calls stop.",
+  "sec": "act2",
+  "start": 33.957,
+  "end": 35.332
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "A whole week. Not one.",
+  "sec": "act2",
+  "start": 35.471,
+  "end": 37.071
+ },
+ {
+  "id": "L011",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You should feel relieved. You're not getting any older.",
+  "sec": "act2",
+  "start": 37.318,
+  "end": 40.428
+ },
+ {
+  "id": "L012",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "But your phone has never been this quiet.",
+  "sec": "act2",
+  "start": 40.641,
+  "end": 42.691
+ },
+ {
+  "id": "L013",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "So you call her. It rings. And rings.",
+  "sec": "act2",
+  "start": 42.92,
+  "end": 45.775
+ },
+ {
+  "id": "L014",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Voicemail.",
+  "sec": "act2",
+  "start": 45.915,
+  "end": 46.628
+ },
+ {
+  "id": "L015",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You take the first train home.",
+  "sec": "act3",
+  "start": 49.228,
+  "end": 51.128
+ },
+ {
+  "id": "L016",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Mum is in the garden. Her phone is in the kitchen. On silent.",
+  "sec": "act3",
+  "start": 51.268,
+  "end": 54.991
+ },
+ {
+  "id": "L017",
+  "tag": "MUM",
+  "thought": false,
+  "note": "",
+  "text": "Oh! I didn't want to bother you anymore.",
+  "sec": "act3",
+  "start": 55.251,
+  "end": 57.483
+ },
+ {
+  "id": "L018",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Bother me. Please. Every day.",
+  "sec": "act3",
+  "start": 57.633,
+  "end": 59.743
+ },
+ {
+  "id": "L019",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You don't get any younger. That's not how it works.",
+  "sec": "act3",
+  "start": 60.543,
+  "end": 63.468
+ },
+ {
+  "id": "L020",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "But from now on, you pick up on the first ring.",
+  "sec": "act3",
+  "start": 63.672,
+  "end": 66.662
+ },
+ {
+  "id": "L021",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "When did you last answer on the first ring?",
+  "sec": "act3",
+  "start": 66.801,
+  "end": 69.012
+ }
+]

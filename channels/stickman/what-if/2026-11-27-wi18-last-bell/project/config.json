@@ -1,0 +1,23 @@
+{
+ "title": "What If a Bell Rang the Last Time You'd See Someone?",
+ "aspect": "16:9",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "ifs",
+ "duration": 80.28,
+ "captions": false,
+ "bars": "wide",
+ "fadeIn": 0.6,
+ "fadeOut": 1.2,
+ "music": {
+  "enabled": true,
+  "gainDb": -19
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": 0
+ },
+ "loudness": -14,
+ "voiceover": "input/voiceover.wav",
+ "myCaptions": true
+}

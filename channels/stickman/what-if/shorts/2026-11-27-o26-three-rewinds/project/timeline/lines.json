@@ -1,0 +1,102 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, every parent gets three rewinds a year. Ten seconds each.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 5.415
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "This year, Mum used all three on me.",
+  "sec": "hook",
+  "start": 5.554,
+  "end": 8.077
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Rewind one. January. I drop her birthday cake.",
+  "sec": "act1",
+  "start": 8.678,
+  "end": 12.173
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Click. I catch it.",
+  "sec": "act1",
+  "start": 12.339,
+  "end": 13.549
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Rewind two. June. I shout that I hate her.",
+  "sec": "act1",
+  "start": 13.77,
+  "end": 16.915
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Click. I never said it.",
+  "sec": "act1",
+  "start": 17.097,
+  "end": 18.427
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Rewind three. September. I'm leaving for uni.",
+  "sec": "act1",
+  "start": 18.674,
+  "end": 22.349
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She hugs me goodbye. Then the world clicks back ten seconds.",
+  "sec": "act1",
+  "start": 22.488,
+  "end": 25.844
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And she hugs me again.",
+  "sec": "act1",
+  "start": 25.983,
+  "end": 27.05
+ },
+ {
+  "id": "L010",
+  "tag": "MUM",
+  "thought": false,
+  "note": "",
+  "text": "I didn't fix anything. I just wanted that one twice.",
+  "sec": "act1",
+  "start": 27.311,
+  "end": 30.469
+ }
+]

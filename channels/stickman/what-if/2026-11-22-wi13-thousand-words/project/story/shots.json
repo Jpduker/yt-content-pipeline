@@ -2370,7 +2370,7 @@
    "sfx": [
     {
      "at": 0.3,
-     "name": "step",
+     "name": "footstep",
      "gain": -16
     },
     {

@@ -1,6 +1,6 @@
 {
  "title": "In This World, Kids Can Pause Their Parents for 10 Seconds",
- "duration": 25.07,
+ "duration": 28.47,
  "shots": [
   {
    "id": "s001",
@@ -529,12 +529,43 @@
      "at": 2.854
     }
    }
+  },
+  {
+   "id": "sOUT",
+   "start": 25.07,
+   "end": 28.47,
+   "line": "",
+   "scene": "outro",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 3.0,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "iris",
+    "line": "See you between the ifs!",
+    "slots": false
+   }
   }
  ],
  "music": [
   {
    "start": 0,
-   "end": 25.07,
+   "end": 28.47,
    "mood": "playful",
    "intensity": 0.42
   }

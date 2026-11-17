@@ -1,0 +1,603 @@
+{
+ "title": "Every Text You Delete Is Read Aloud at Dinner",
+ "duration": 36.82,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 4.394,
+   "line": "",
+   "scene": "kt",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 2.39,
+     "name": "tick",
+     "gain": -16
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#14213D",
+    "items": [
+     {
+      "k": "rise",
+      "t": "DELETED \u00b7 DAD",
+      "at": 0.5,
+      "y": 0.2,
+      "sz": 60,
+      "c": "#9fb6ff"
+     },
+     {
+      "k": "typed",
+      "t": "who ate my yoghurt",
+      "at": 2.39,
+      "y": 0.3,
+      "sz": 54,
+      "cps": 26,
+      "bubble": "#3A86FF"
+     }
+    ],
+    "who": [
+     {
+      "id": "DAD",
+      "x": 0.5,
+      "y": 0.93,
+      "s": 2.4,
+      "expr": "flat"
+     }
+    ],
+    "motif": "num"
+   }
+  },
+  {
+   "id": "s002",
+   "start": 4.394,
+   "end": 9.024,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "push",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "kitchen",
+    "so": {
+     "drawing": false,
+     "night": true
+    },
+    "cam": [
+     [
+      960,
+      600,
+      1.15
+     ],
+     [
+      960,
+      600,
+      1.25
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "DAD",
+      "x": 760,
+      "pose": "sit",
+      "expr": "flat",
+      "f": 1
+     },
+     {
+      "id": "LILY",
+      "x": 960,
+      "pose": "stand",
+      "expr": "smirk",
+      "f": 1
+     },
+     {
+      "id": "MA",
+      "x": 1160,
+      "pose": "sit",
+      "expr": "laugh",
+      "f": -1
+     }
+    ],
+    "chairs": [
+     [
+      760,
+      1
+     ],
+     [
+      1160,
+      -1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "s003",
+   "start": 9.024,
+   "end": 13.602,
+   "line": "",
+   "scene": "kt",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "push"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 2.04,
+     "name": "tick",
+     "gain": -16
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#14213D",
+    "items": [
+     {
+      "k": "rise",
+      "t": "DELETED \u00b7 MUM",
+      "at": 0.15,
+      "y": 0.2,
+      "sz": 60,
+      "c": "#9fb6ff"
+     },
+     {
+      "k": "typed",
+      "t": "your father is snoring again",
+      "at": 2.04,
+      "y": 0.3,
+      "sz": 54,
+      "cps": 26,
+      "bubble": "#3A86FF"
+     }
+    ],
+    "who": [
+     {
+      "id": "MA",
+      "x": 0.5,
+      "y": 0.93,
+      "s": 2.4,
+      "expr": "smirk"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s004",
+   "start": 13.602,
+   "end": 15.226,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "push",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "kitchen",
+    "so": {
+     "drawing": false,
+     "night": true
+    },
+    "cam": [
+     [
+      960,
+      600,
+      1.15
+     ],
+     [
+      960,
+      600,
+      1.25
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "DAD",
+      "x": 760,
+      "pose": "sit",
+      "expr": "confused",
+      "f": 1
+     },
+     {
+      "id": "LILY",
+      "x": 960,
+      "pose": "stand",
+      "expr": "nervous",
+      "f": 1
+     },
+     {
+      "id": "MA",
+      "x": 1160,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": -1
+     }
+    ],
+    "chairs": [
+     [
+      760,
+      1
+     ],
+     [
+      1160,
+      -1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "s005",
+   "start": 15.226,
+   "end": 20.771,
+   "line": "",
+   "scene": "kt",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "push"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 2.145,
+     "name": "tick",
+     "gain": -16
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#14213D",
+    "items": [
+     {
+      "k": "rise",
+      "t": "DELETED \u00b7 LILY",
+      "at": 0.15,
+      "y": 0.2,
+      "sz": 60,
+      "c": "#9fb6ff"
+     },
+     {
+      "k": "typed",
+      "t": "I got into art school. please dont be mad",
+      "at": 2.145,
+      "y": 0.3,
+      "sz": 54,
+      "cps": 26,
+      "bubble": "#3A86FF"
+     }
+    ],
+    "who": [
+     {
+      "id": "LILY",
+      "x": 0.5,
+      "y": 0.93,
+      "s": 2.4,
+      "expr": "scared"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s006",
+   "start": 20.771,
+   "end": 21.793,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "push",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "kitchen",
+    "so": {
+     "drawing": false,
+     "night": true
+    },
+    "cam": [
+     [
+      960,
+      600,
+      1.1
+     ],
+     [
+      960,
+      600,
+      1.1400000000000001
+     ]
+    ],
+    "vx": 900,
+    "who": [
+     {
+      "id": "DAD",
+      "x": 760,
+      "pose": "sit",
+      "expr": "surprised",
+      "f": 1
+     },
+     {
+      "id": "LILY",
+      "x": 960,
+      "pose": "stand",
+      "expr": "scared",
+      "f": 1
+     },
+     {
+      "id": "MA",
+      "x": 1160,
+      "pose": "sit",
+      "expr": "surprised",
+      "f": -1
+     }
+    ],
+    "chairs": [
+     [
+      760,
+      1
+     ],
+     [
+      1160,
+      -1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "s007",
+   "start": 21.793,
+   "end": 23.343,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "kitchen",
+    "so": {
+     "drawing": false,
+     "night": true
+    },
+    "who": "DAD",
+    "expr": "tender",
+    "side": 1,
+    "bgCam": [
+     760,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s008",
+   "start": 23.343,
+   "end": 27.328,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "kitchen",
+    "so": {
+     "drawing": false,
+     "night": true
+    },
+    "cam": [
+     [
+      960,
+      600,
+      1.2
+     ],
+     [
+      960,
+      600,
+      1.3199999999999998
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "DAD",
+      "x": 860,
+      "pose": "holdFront",
+      "expr": "tearsmile",
+      "f": 1
+     },
+     {
+      "id": "LILY",
+      "x": 1040,
+      "pose": "holdFront",
+      "expr": "tearsmile",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s009",
+   "start": 27.328,
+   "end": 33.42,
+   "line": "",
+   "scene": "kt",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "push"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 2.065,
+     "name": "tick",
+     "gain": -16
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#14213D",
+    "items": [
+     {
+      "k": "rise",
+      "t": "DELETED \u00b7 DAD",
+      "at": 0.15,
+      "y": 0.2,
+      "sz": 60,
+      "c": "#9fb6ff"
+     },
+     {
+      "k": "typed",
+      "t": "so proud of you",
+      "at": 2.065,
+      "y": 0.3,
+      "sz": 54,
+      "cps": 26,
+      "bubble": "#2BB673"
+     }
+    ],
+    "who": [
+     {
+      "id": "DAD",
+      "x": 0.5,
+      "y": 0.93,
+      "s": 2.4,
+      "expr": "tearsmile"
+     }
+    ],
+    "ask": {
+     "text": "What's in YOUR deleted messages?",
+     "at": 3.788
+    }
+   }
+  },
+  {
+   "id": "sOUT",
+   "start": 33.42,
+   "end": 36.82,
+   "line": "",
+   "scene": "outro",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 3.0,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "iris",
+    "line": "See you between the ifs!",
+    "slots": false
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 15.37,
+   "mood": "playful",
+   "intensity": 0.4
+  },
+  {
+   "start": 15.38,
+   "end": 36.82,
+   "mood": "hopeful",
+   "intensity": 0.36
+  }
+ ],
+ "sfx": []
+}

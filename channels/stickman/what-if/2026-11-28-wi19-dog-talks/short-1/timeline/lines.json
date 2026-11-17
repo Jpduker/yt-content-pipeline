@@ -1,0 +1,112 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At seven in the morning, your dog looks you in the eye and says:",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 4.811
+ },
+ {
+  "id": "L002",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "We need to talk about the cat.",
+  "sec": "hook",
+  "start": 5.071,
+  "end": 7.05
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, every dog gets to talk. Once. For twenty-four hours.",
+  "sec": "hook",
+  "start": 7.85,
+  "end": 12.815
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And Biscuit has been waiting eleven years.",
+  "sec": "hook",
+  "start": 12.955,
+  "end": 15.271
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "First, the complaints.",
+  "sec": "act1",
+  "start": 16.271,
+  "end": 17.607
+ },
+ {
+  "id": "L006",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "The postman is a criminal. I've told you every single day.",
+  "sec": "act1",
+  "start": 17.867,
+  "end": 21.407
+ },
+ {
+  "id": "L007",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "And the vacuum. Why do you keep a monster in the cupboard?",
+  "sec": "act1",
+  "start": 21.653,
+  "end": 25.066
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then breakfast.",
+  "sec": "act1",
+  "start": 25.466,
+  "end": 26.466
+ },
+ {
+  "id": "L009",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "Dry food. Again. Eleven years of dry food.",
+  "sec": "act1",
+  "start": 26.726,
+  "end": 30.845
+ },
+ {
+  "id": "L010",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You eat socks!",
+  "sec": "act1",
+  "start": 30.995,
+  "end": 32.042
+ },
+ {
+  "id": "L011",
+  "tag": "DOG",
+  "thought": false,
+  "note": "",
+  "text": "Socks are a treat. There's a difference.",
+  "sec": "act1",
+  "start": 32.192,
+  "end": 34.873
+ }
+]
