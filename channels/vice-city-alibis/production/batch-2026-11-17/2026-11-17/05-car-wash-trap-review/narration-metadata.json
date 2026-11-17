@@ -1,0 +1,31 @@
+{
+  "episode_id": "vca-20261117-05-car-wash-trap",
+  "title": "Lucia Chose the Car Wash",
+  "script": "Lucia drove their stolen coupe into a car wash. Jason saw the exit shutter closing ahead. The Fixer followed in his black sedan. He wanted the diamonds tucked inside Jason's zipped jacket. Jason shouted for reverse. Lucia pointed sideways: the staff door stood beside a delivery scooter outside. She stopped beneath the brushes. Behind them, the Fixer drove forward until his bumper blocked the entrance. Lucia pulled Jason through the staff door. Wet brushes swallowed their empty coupe and hid the movement. Jason grabbed the scooter. Chained. Lucia pulled a four-wheel delivery trolley beside it. Same downhill route. They rolled the trolley downhill, crouched inside, and vanished behind a laundry wall before the Fixer found daylight. On the level runout, Jason checked the diamonds. Still zipped. Lucia grinned. He had paid for the deluxe wash.",
+  "script_sha256": "40d46c9bfe29ec5dfbda244c66473f7b42dfddff5574f1a42d9e0f6bfd3c47eb",
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "synthesis_request": {
+    "text": "Lucia drove their stolen coupe into a car wash. Jason saw the exit shutter closing ahead. The Fixer followed in his black sedan. He wanted the diamonds tucked inside Jason's zipped jacket. Jason shouted for reverse. Lucia pointed sideways: the staff door stood beside a delivery scooter outside. She stopped beneath the brushes. Behind them, the Fixer drove forward until his bumper blocked the entrance. Lucia pulled Jason through the staff door. Wet brushes swallowed their empty coupe and hid the movement. Jason grabbed the scooter. Chained. Lucia pulled a four-wheel delivery trolley beside it. Same downhill route. They rolled the trolley downhill, crouched inside, and vanished behind a laundry wall before the Fixer found daylight. On the level runout, Jason checked the diamonds. Still zipped. Lucia grinned. He had paid for the deluxe wash.",
+    "model_id": "eleven_v4",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "source_audio": "channels\\vice-city-alibis\\production\\batch-2026-11-17\\2026-11-17\\05-car-wash-trap-audio\\liam-private-preview.mp3",
+  "licensing": "free-plan private review; not commercially cleared"
+}

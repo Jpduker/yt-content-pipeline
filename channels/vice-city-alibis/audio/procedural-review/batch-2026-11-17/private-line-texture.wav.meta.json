@@ -1,0 +1,22 @@
+{
+  "type": "ORIGINAL_PROCEDURAL_DSP",
+  "generator": "tools/prepare_batch_audio.py",
+  "seed": 4109330473999599299,
+  "description": "private-line-texture; restrained synthesized mechanical/texture approximation, NOT field recorded",
+  "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+  "model": "none; deterministic numpy/scipy DSP",
+  "api_calls": 0,
+  "credits_used": 0,
+  "file": "audio\\procedural-review\\batch-2026-11-17\\private-line-texture.wav",
+  "sha256": "0d3e9c69cc4b89ce82a261aa4cac133f18ba742db0c01f02d1ce624e048e24a1",
+  "sample_rate": 48000,
+  "channels": 2,
+  "duration_seconds": 3.0,
+  "measured_sample_peak": 0.25201416015625,
+  "measured_sample_peak_dbfs": -11.971501128420691,
+  "measured_rms": 0.054167741139192156,
+  "estimated_true_peak_4x_dbfs": -11.965973753389623,
+  "peak_measurement_note": "4x polyphase oversampling diagnostic, not certified BS.1770 metering",
+  "clipping_samples": 0,
+  "status": "PRIVATE REVIEW; procedural preview, listening pending"
+}

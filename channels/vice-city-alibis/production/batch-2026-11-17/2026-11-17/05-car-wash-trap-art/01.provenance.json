@@ -1,0 +1,9 @@
+{
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e7a1-a01b-7fa0-9344-4baaa3010303\\exec-50814463-a284-4a19-92a7-eb4daffecee3.png",
+  "purpose": "Correct jacket, preserve rear-view seating; source recovered016",
+  "prompt": "Edit target only: keep exact portrait composition, rich painted neon rain, red TWO-DOOR coupe approaching wash and following black sedan seen FROM BEHIND, car geometry, Lucia on IMAGE LEFT driving at left-hand steering wheel and Jason IMAGE RIGHT front passenger. Critical wardrobe correction: Jason wears a BLACK LEATHER ZIP-UP JACKET over his olive camouflage tee, throughout this episode. Replace every visible olive-shirt shoulder/back patch with the black leather jacket, collar and sleeves appropriate in this rear-view shot. His jacket is zipped over the concealed diamonds. Preserve Lucia white tank, ponytail and gold hoops, faces, all hands, water and brushes. No text, no extra occupants, no extra car doors. No changes to camera or seating.",
+  "references": [
+    "production/batch-2026-11-17/out/art-inventory/016.png"
+  ]
+}

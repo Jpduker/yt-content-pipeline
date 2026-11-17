@@ -1,0 +1,158 @@
+# I Robbed The Same Jacket Twice
+
+20 November 2026 · 133 words · 56 seconds estimated · Assets PLANNED
+
+Original unofficial GTA VI fan fiction. Specific sets, events, dialogue and supporting character The Fixer are invented. No actual gameplay or story claims.
+
+## Script
+
+I robbed the same jacket twice. Jason nearly got us locked inside with it. Our diamonds were stitched into its lining. He had sent it for cleaning without checking. Through the shutter, I saw it traveling toward the overnight delivery chute. Then any van could have it. Jason reached for the emergency stop. A sign warned that button sealed every exit until reset. Then I noticed the inspection pedal beneath the rail. Its arrow pointed backward: inspect both sides. He squeezed under the half-closed shutter and held the pedal. The conveyor reversed. Our jacket came toward me. I caught its sleeve, stripped the hanger out, and pulled Jason free before the shutter closed. Outside, I cut the seam. Diamonds spilled into his palm. Next time, I told him, try doing the laundry yourself.
+
+## Format and voice
+
+Linear; First person Lucia throughout; Liam narrates Lucia first-person text as planned single-voice story; no claim of approved Lucia character casting.
+
+Liam / TX3LPaxmHKxFdv7VOQHJ / eleven_v4; stability .5, similarity .75, style .3, speaker boost true, speed 1.03. Single narrator; character casting not auditioned. No audio generated.
+
+## Story audit
+
+- **goal:** Retrieve jacket containing six stolen diamonds before overnight dispatch
+- **stakes:** Their entire score leaves in an unknown delivery van; shutter could trap Jason
+- **obstacle:** Moving rail, imminent dispatch, emergency stop seals exits
+- **planted clue:** Inspection pedal arrow points backward, showing rail reversal
+- **payoff:** Jason holds inspection pedal while Lucia catches returning jacket, then extracts him before shutter closes
+- **causal check:** Goal causes entry; friction forces observation; planted physical clue enables coordinated action; final consequence changes their position. No tracker, gratuitous betrayal or charitable escape.
+
+## Eight-scene production plan
+
+### Scene 1: 0–7 seconds
+
+**Narration:** I robbed the same jacket twice. Jason nearly got us locked inside with it.
+
+**Visual prompt:** 1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented after-hours neon dry-cleaner pickup bay, Vice City. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Lucia right crouched outside half-open industrial laundry shutter; Jason left holding dry-cleaning receipt; black jacket visible inside on rail. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. No vehicle in frame; no occupants. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.
+
+**Camera:** Portrait wide establishing, 35mm equivalent, slow 3% push; establish left/right positions
+
+**Sound:** {"music": "Two dry piano notes, sparse low bass; score planned 14–18 dB below speech, smooth ducking.", "ambience": "invented after-hours neon dry-cleaner pickup bay, Vice City; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.", "sfx": "At 2s, brief natural foley tied only to the visible prop movement: Lucia right crouched outside half-open industrial laundry shutter; Jason left holding dry-cleaning receipt; black jacket visible inside on rail; all cues planned, beneath centered voice."}
+
+**Continuity:** {"location": "invented after-hours neon dry-cleaner pickup bay, Vice City", "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior", "characters": ["Jason Duval", "Lucia Caminos"], "wardrobe": {"Jason": "J02-heist-charcoal", "Lucia": "L02-heist-hoodie"}, "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement", "props": "Black suit jacket with six rough diamonds sewn in lining; receipt; rail conveyor; inspection reverse foot pedal; emergency exit-seal button; timed shutter; snips", "beat_state": "Lucia right crouched outside half-open industrial laundry shutter; Jason left holding dry-cleaning receipt; black jacket visible inside on rail", "vehicle_occupants": "No vehicle in frame; no occupants", "photo_state": "No photographs", "source_asset_paths": ["characters/jason-duval/references/approved-v2-faces.png", "characters/lucia-caminos/references/approved-v2-faces.png", "characters/jason-duval/turnarounds/six-views.png", "characters/lucia-caminos/turnarounds/six-views.png", "characters/jason-duval/closet/four-outfits.png", "characters/lucia-caminos/closet/four-outfits.png", "world/references/environment-atlas.png"], "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."}
+
+**Text:** {"text": "FAN FICTION", "placement": "Upper safe area; subtitles lower fifth above platform controls", "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"}
+
+### Scene 2: 7–14 seconds
+
+**Narration:** Our diamonds were stitched into its lining. He had sent it for cleaning without checking.
+
+**Visual prompt:** 1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented after-hours neon dry-cleaner pickup bay, Vice City. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Close black jacket lining reference insert: stitched narrow diamond pouch still sealed; no loose stones, receipt in Jason hand. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. No vehicle in frame; no occupants. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.
+
+**Camera:** Eye-level medium, 50mm equivalent; gentle lateral slide following visible hand
+
+**Sound:** {"music": "Uneasy muted pulse; score planned 14–18 dB below speech, smooth ducking.", "ambience": "invented after-hours neon dry-cleaner pickup bay, Vice City; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.", "sfx": "At 9s, brief natural foley tied only to the visible prop movement: Close black jacket lining reference insert: stitched narrow diamond pouch still sealed; no loose stones, receipt in Jason hand; all cues planned, beneath centered voice."}
+
+**Continuity:** {"location": "invented after-hours neon dry-cleaner pickup bay, Vice City", "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior", "characters": ["Jason Duval", "Lucia Caminos"], "wardrobe": {"Jason": "J02-heist-charcoal", "Lucia": "L02-heist-hoodie"}, "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement", "props": "Black suit jacket with six rough diamonds sewn in lining; receipt; rail conveyor; inspection reverse foot pedal; emergency exit-seal button; timed shutter; snips", "beat_state": "Close black jacket lining reference insert: stitched narrow diamond pouch still sealed; no loose stones, receipt in Jason hand", "vehicle_occupants": "No vehicle in frame; no occupants", "photo_state": "No photographs", "source_asset_paths": ["characters/jason-duval/references/approved-v2-faces.png", "characters/lucia-caminos/references/approved-v2-faces.png", "characters/jason-duval/turnarounds/six-views.png", "characters/lucia-caminos/turnarounds/six-views.png", "characters/jason-duval/closet/four-outfits.png", "characters/lucia-caminos/closet/four-outfits.png", "world/references/environment-atlas.png"], "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."}
+
+**Text:** {"text": "", "placement": "Upper safe area; subtitles lower fifth above platform controls", "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"}
+
+### Scene 3: 14–21 seconds
+
+**Narration:** Through the shutter, I saw it traveling toward the overnight delivery chute. Then any van could have it.
+
+**Visual prompt:** 1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented after-hours neon dry-cleaner pickup bay, Vice City. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Conveyor rail leads from foreground pickup station to delivery chute in rear; black jacket six hangers before chute; no vans in frame. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. No vehicle in frame; no occupants. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.
+
+**Camera:** Macro detail, 85mm equivalent; rack focus from prop to connected hand
+
+**Sound:** {"music": "Pulse thins to expose clue; score planned 14–18 dB below speech, smooth ducking.", "ambience": "invented after-hours neon dry-cleaner pickup bay, Vice City; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.", "sfx": "At 16s, brief natural foley tied only to the visible prop movement: Conveyor rail leads from foreground pickup station to delivery chute in rear; black jacket six hangers before chute; no vans in frame; all cues planned, beneath centered voice."}
+
+**Continuity:** {"location": "invented after-hours neon dry-cleaner pickup bay, Vice City", "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior", "characters": ["Jason Duval", "Lucia Caminos"], "wardrobe": {"Jason": "J02-heist-charcoal", "Lucia": "L02-heist-hoodie"}, "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement", "props": "Black suit jacket with six rough diamonds sewn in lining; receipt; rail conveyor; inspection reverse foot pedal; emergency exit-seal button; timed shutter; snips", "beat_state": "Conveyor rail leads from foreground pickup station to delivery chute in rear; black jacket six hangers before chute; no vans in frame", "vehicle_occupants": "No vehicle in frame; no occupants", "photo_state": "No photographs", "source_asset_paths": ["characters/jason-duval/references/approved-v2-faces.png", "characters/lucia-caminos/references/approved-v2-faces.png", "characters/jason-duval/turnarounds/six-views.png", "characters/lucia-caminos/turnarounds/six-views.png", "characters/jason-duval/closet/four-outfits.png", "characters/lucia-caminos/closet/four-outfits.png", "world/references/environment-atlas.png"], "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."}
+
+**Text:** {"text": "", "placement": "Upper safe area; subtitles lower fifth above platform controls", "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"}
+
+### Scene 4: 21–28 seconds
+
+**Narration:** Jason reached for the emergency stop. A sign warned that button sealed every exit until reset.
+
+**Visual prompt:** 1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented after-hours neon dry-cleaner pickup bay, Vice City. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Jason fingers hovering over red emergency button; warning placard pictogram shows exit shutter locking; Lucia stops his hand. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. No vehicle in frame; no occupants. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.
+
+**Camera:** Over Jason shoulder toward Lucia, 50mm; hold sightline and axis
+
+**Sound:** {"music": "Close ticking percussion; score planned 14–18 dB below speech, smooth ducking.", "ambience": "invented after-hours neon dry-cleaner pickup bay, Vice City; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.", "sfx": "At 23s, brief natural foley tied only to the visible prop movement: Jason fingers hovering over red emergency button; warning placard pictogram shows exit shutter locking; Lucia stops his hand; all cues planned, beneath centered voice."}
+
+**Continuity:** {"location": "invented after-hours neon dry-cleaner pickup bay, Vice City", "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior", "characters": ["Jason Duval", "Lucia Caminos"], "wardrobe": {"Jason": "J02-heist-charcoal", "Lucia": "L02-heist-hoodie"}, "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement", "props": "Black suit jacket with six rough diamonds sewn in lining; receipt; rail conveyor; inspection reverse foot pedal; emergency exit-seal button; timed shutter; snips", "beat_state": "Jason fingers hovering over red emergency button; warning placard pictogram shows exit shutter locking; Lucia stops his hand", "vehicle_occupants": "No vehicle in frame; no occupants", "photo_state": "No photographs", "source_asset_paths": ["characters/jason-duval/references/approved-v2-faces.png", "characters/lucia-caminos/references/approved-v2-faces.png", "characters/jason-duval/turnarounds/six-views.png", "characters/lucia-caminos/turnarounds/six-views.png", "characters/jason-duval/closet/four-outfits.png", "characters/lucia-caminos/closet/four-outfits.png", "world/references/environment-atlas.png"], "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."}
+
+**Text:** {"text": "", "placement": "Upper safe area; subtitles lower fifth above platform controls", "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"}
+
+### Scene 5: 28–35 seconds
+
+**Narration:** Then I noticed the inspection pedal beneath the rail. Its arrow pointed backward: inspect both sides.
+
+**Visual prompt:** 1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented after-hours neon dry-cleaner pickup bay, Vice City. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Lucia points at grounded inspection foot pedal with backward arrow; rail loop and two-sided inspection mirror visible. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. No vehicle in frame; no occupants. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.
+
+**Camera:** Portrait medium low angle, 35mm; 4% push toward rising obstruction
+
+**Sound:** {"music": "Bass tightens, percussion rises; score planned 14–18 dB below speech, smooth ducking.", "ambience": "invented after-hours neon dry-cleaner pickup bay, Vice City; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.", "sfx": "At 30s, brief natural foley tied only to the visible prop movement: Lucia points at grounded inspection foot pedal with backward arrow; rail loop and two-sided inspection mirror visible; all cues planned, beneath centered voice."}
+
+**Continuity:** {"location": "invented after-hours neon dry-cleaner pickup bay, Vice City", "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior", "characters": ["Jason Duval", "Lucia Caminos"], "wardrobe": {"Jason": "J02-heist-charcoal", "Lucia": "L02-heist-hoodie"}, "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement", "props": "Black suit jacket with six rough diamonds sewn in lining; receipt; rail conveyor; inspection reverse foot pedal; emergency exit-seal button; timed shutter; snips", "beat_state": "Lucia points at grounded inspection foot pedal with backward arrow; rail loop and two-sided inspection mirror visible", "vehicle_occupants": "No vehicle in frame; no occupants", "photo_state": "No photographs", "source_asset_paths": ["characters/jason-duval/references/approved-v2-faces.png", "characters/lucia-caminos/references/approved-v2-faces.png", "characters/jason-duval/turnarounds/six-views.png", "characters/lucia-caminos/turnarounds/six-views.png", "characters/jason-duval/closet/four-outfits.png", "characters/lucia-caminos/closet/four-outfits.png", "world/references/environment-atlas.png"], "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."}
+
+**Text:** {"text": "", "placement": "Upper safe area; subtitles lower fifth above platform controls", "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"}
+
+### Scene 6: 35–42 seconds
+
+**Narration:** He squeezed under the half-closed shutter and held the pedal. The conveyor reversed. Our jacket came toward me.
+
+**Visual prompt:** 1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented after-hours neon dry-cleaner pickup bay, Vice City. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Jason slides under shutter at left, lying on side with boot depressing pedal; black jacket moves backward toward Lucia right. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. No vehicle in frame; no occupants. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.
+
+**Camera:** Over Lucia shoulder toward Jason, 50mm; maintain established geography
+
+**Sound:** {"music": "Percussion accelerates quietly; score planned 14–18 dB below speech, smooth ducking.", "ambience": "invented after-hours neon dry-cleaner pickup bay, Vice City; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.", "sfx": "At 37s, brief natural foley tied only to the visible prop movement: Jason slides under shutter at left, lying on side with boot depressing pedal; black jacket moves backward toward Lucia right; all cues planned, beneath centered voice."}
+
+**Continuity:** {"location": "invented after-hours neon dry-cleaner pickup bay, Vice City", "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior", "characters": ["Jason Duval", "Lucia Caminos"], "wardrobe": {"Jason": "J02-heist-charcoal", "Lucia": "L02-heist-hoodie"}, "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement", "props": "Black suit jacket with six rough diamonds sewn in lining; receipt; rail conveyor; inspection reverse foot pedal; emergency exit-seal button; timed shutter; snips", "beat_state": "Jason slides under shutter at left, lying on side with boot depressing pedal; black jacket moves backward toward Lucia right", "vehicle_occupants": "No vehicle in frame; no occupants", "photo_state": "No photographs", "source_asset_paths": ["characters/jason-duval/references/approved-v2-faces.png", "characters/lucia-caminos/references/approved-v2-faces.png", "characters/jason-duval/turnarounds/six-views.png", "characters/lucia-caminos/turnarounds/six-views.png", "characters/jason-duval/closet/four-outfits.png", "characters/lucia-caminos/closet/four-outfits.png", "world/references/environment-atlas.png"], "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."}
+
+**Text:** {"text": "", "placement": "Upper safe area; subtitles lower fifth above platform controls", "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"}
+
+### Scene 7: 42–49 seconds
+
+**Narration:** I caught its sleeve, stripped the hanger out, and pulled Jason free before the shutter closed.
+
+**Visual prompt:** 1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented after-hours neon dry-cleaner pickup bay, Vice City. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Lucia frees jacket from hanger with right hand then pulls Jason wrist naturally with left; shutter descends behind them. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. No vehicle in frame; no occupants. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.
+
+**Camera:** Tight action insert, 70mm; focus on the physical consequence
+
+**Sound:** {"music": "Brief harmonic release; no impact over speech; score planned 14–18 dB below speech, smooth ducking.", "ambience": "invented after-hours neon dry-cleaner pickup bay, Vice City; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.", "sfx": "At 44s, brief natural foley tied only to the visible prop movement: Lucia frees jacket from hanger with right hand then pulls Jason wrist naturally with left; shutter descends behind them; all cues planned, beneath centered voice."}
+
+**Continuity:** {"location": "invented after-hours neon dry-cleaner pickup bay, Vice City", "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior", "characters": ["Jason Duval", "Lucia Caminos"], "wardrobe": {"Jason": "J02-heist-charcoal", "Lucia": "L02-heist-hoodie"}, "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement", "props": "Black suit jacket with six rough diamonds sewn in lining; receipt; rail conveyor; inspection reverse foot pedal; emergency exit-seal button; timed shutter; snips", "beat_state": "Lucia frees jacket from hanger with right hand then pulls Jason wrist naturally with left; shutter descends behind them", "vehicle_occupants": "No vehicle in frame; no occupants", "photo_state": "No photographs", "source_asset_paths": ["characters/jason-duval/references/approved-v2-faces.png", "characters/lucia-caminos/references/approved-v2-faces.png", "characters/jason-duval/turnarounds/six-views.png", "characters/lucia-caminos/turnarounds/six-views.png", "characters/jason-duval/closet/four-outfits.png", "characters/lucia-caminos/closet/four-outfits.png", "world/references/environment-atlas.png"], "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."}
+
+**Text:** {"text": "", "placement": "Upper safe area; subtitles lower fifth above platform controls", "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"}
+
+### Scene 8: 49–56 seconds
+
+**Narration:** Outside, I cut the seam. Diamonds spilled into his palm. Next time, I told him, try doing the laundry yourself.
+
+**Visual prompt:** 1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented after-hours neon dry-cleaner pickup bay, Vice City. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Both safely outside shutter, closed now; Lucia opens lining seam with compact snips; six rough diamonds in Jason cupped palm. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. No vehicle in frame; no occupants. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.
+
+**Camera:** Portrait two-shot, 50mm; slow pullback revealing final prop state
+
+**Sound:** {"music": "Warm unresolved final chord; fade; score planned 14–18 dB below speech, smooth ducking.", "ambience": "invented after-hours neon dry-cleaner pickup bay, Vice City; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.", "sfx": "At 51s, brief natural foley tied only to the visible prop movement: Both safely outside shutter, closed now; Lucia opens lining seam with compact snips; six rough diamonds in Jason cupped palm; all cues planned, beneath centered voice."}
+
+**Continuity:** {"location": "invented after-hours neon dry-cleaner pickup bay, Vice City", "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior", "characters": ["Jason Duval", "Lucia Caminos"], "wardrobe": {"Jason": "J02-heist-charcoal", "Lucia": "L02-heist-hoodie"}, "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement", "props": "Black suit jacket with six rough diamonds sewn in lining; receipt; rail conveyor; inspection reverse foot pedal; emergency exit-seal button; timed shutter; snips", "beat_state": "Both safely outside shutter, closed now; Lucia opens lining seam with compact snips; six rough diamonds in Jason cupped palm", "vehicle_occupants": "No vehicle in frame; no occupants", "photo_state": "No photographs", "source_asset_paths": ["characters/jason-duval/references/approved-v2-faces.png", "characters/lucia-caminos/references/approved-v2-faces.png", "characters/jason-duval/turnarounds/six-views.png", "characters/lucia-caminos/turnarounds/six-views.png", "characters/jason-duval/closet/four-outfits.png", "characters/lucia-caminos/closet/four-outfits.png", "world/references/environment-atlas.png"], "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."}
+
+**Text:** {"text": "", "placement": "Upper safe area; subtitles lower fifth above platform controls", "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"}
+
+## Upload copy
+
+**Title:** Jason Sent Their Diamonds to the Dry Cleaner | GTA 6 Fan Story | 11.ai
+
+**Thumbnail headline:** WRONG JACKET. REAL DIAMONDS.
+
+**Description:**
+
+Jason sent the wrong jacket for cleaning: their stolen diamonds are sewn into its lining. Now it is riding a conveyor toward overnight delivery. Lucia has one closing shutter between her and their entire score.
+
+Unofficial GTA VI fan fiction: original events and dialogue, not gameplay or the official story. Voice: ElevenLabs / 11.ai.
+
+#GTA6 #FanFiction #Shorts
+
+**Tags:** GTA6, GTA VI, GTA 6 Fan Story, Vice City Alibis, Jason Duval, Lucia Caminos, fan fiction, crime short, diamond heist, dry cleaner, stolen diamonds, conveyor escape, Lucia confession, Shorts, 11.ai
+
+## Internal production notes
+
+All image, voice, sound, mix and video assets PLANNED. Narration timing awaits native Liam synthesis and measurement. Keep separate dry voice, score, music, ambience, SFX, mix stems. Free-plan attribution does not establish commercial clearance. No generation, upload or publishing performed.

@@ -1,0 +1,74 @@
+{
+  "episode": "05-car-wash-trap",
+  "artwork": "built-in image_gen corrected painted fan-art, not official game footage",
+  "frames": [
+    {
+      "shot": 1,
+      "path": "01.png",
+      "sha256": "861d6839e492aae78b710e65e576a27c05bf3fda59ac6cad8ba3125405fdcbd1",
+      "prompt_provenance": "01.provenance.json",
+      "full_size_visual_inspection": "performed"
+    },
+    {
+      "shot": 2,
+      "path": "02.png",
+      "sha256": "251bfec9c1dccaa84761e4933fb9c365732a942d2e9cb3022f08d33bf70ba602",
+      "prompt_provenance": "02.provenance.json",
+      "full_size_visual_inspection": "performed"
+    },
+    {
+      "shot": 3,
+      "path": "03.png",
+      "sha256": "791f221e9a898c3cb9c63f4c5bac2471dd1d61023daee7dc732b9e705060c142",
+      "prompt_provenance": "03.provenance.json",
+      "full_size_visual_inspection": "performed"
+    },
+    {
+      "shot": 4,
+      "path": "04.png",
+      "sha256": "1e82a32d957137fe12cb0f61fa82a6bf1974905654d1d960aee1630b8398fab7",
+      "prompt_provenance": "04.provenance.json",
+      "full_size_visual_inspection": "performed"
+    },
+    {
+      "shot": 5,
+      "path": "05.png",
+      "sha256": "a0085fe8f5d3f5ebec4d55c542e913017d8bd30aa4a15fef6905e9670c591bf1",
+      "prompt_provenance": "05.provenance.json",
+      "full_size_visual_inspection": "performed"
+    },
+    {
+      "shot": 6,
+      "path": "06.png",
+      "sha256": "4b56f55ee241526a9ee099b28a87ebabeac258f18e6b5f25fefa2e0000be9ffd",
+      "prompt_provenance": "06.provenance.json",
+      "full_size_visual_inspection": "performed"
+    },
+    {
+      "shot": 7,
+      "path": "07.png",
+      "sha256": "c376eab55c193b77102527260c5c352e54e3ce073288d5c4704d2841b0280e50",
+      "prompt_provenance": "07.provenance.json",
+      "full_size_visual_inspection": "performed"
+    },
+    {
+      "shot": 8,
+      "path": "08.png",
+      "sha256": "80f9a5bd5f2fec99063b3c70509c29356e392ab14a76d9efa6cc180fc853b7f0",
+      "prompt_provenance": "08.provenance.json",
+      "full_size_visual_inspection": "performed"
+    }
+  ],
+  "checks": [
+    "Jason black leather jacket over olive camo throughout; closed inner diamond pocket at payoff",
+    "Lucia white tank, ponytail, gold hoops, black boots consistent",
+    "Rear view Lucia image-left; front view Lucia image-right left-hand driver",
+    "Red coupe has two occupants until shot04, empty after exit05",
+    "Fixer alone in black sedan; same direction of travel established",
+    "Yellow scooter remains chained to fixed bollard",
+    "Same low gray flat four-caster trolley06\u201308; no orange rim or box sides",
+    "Trolley coasts straight shallow service yard, laundry wall concealment, flat runout, no corner steering or curb crash",
+    "Hands, grips and ground contact checked in full-size selected frames"
+  ],
+  "listening_and_user_review": "final human playback still required; automated checks do not imply aesthetic or commercial approval"
+}

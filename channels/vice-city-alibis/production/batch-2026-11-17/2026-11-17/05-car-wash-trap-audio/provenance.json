@@ -1,0 +1,24 @@
+{
+  "voice": "Liam",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "request": {
+    "text": "Lucia drove their stolen coupe into a car wash. Jason saw the exit shutter closing ahead. The Fixer followed in his black sedan. He wanted the diamonds tucked inside Jason's zipped jacket. Jason shouted for reverse. Lucia pointed sideways: the staff door stood beside a delivery scooter outside. She stopped beneath the brushes. Behind them, the Fixer drove forward until his bumper blocked the entrance. Lucia pulled Jason through the staff door. Wet brushes swallowed their empty coupe and hid the movement. Jason grabbed the scooter. Chained. Lucia pulled a four-wheel delivery trolley beside it. Same downhill route. They rolled the trolley downhill, crouched inside, and vanished behind a laundry wall before the Fixer found daylight. On the level runout, Jason checked the diamonds. Still zipped. Lucia grinned. He had paid for the deluxe wash.",
+    "model_id": "eleven_v4",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "response": {
+    "request-id": "wCHtiJCUfDSj4dgwixT4",
+    "history-item-id": "Mkyww83Hd0rgbm3xF09R",
+    "character-cost": "850"
+  },
+  "duration_seconds": 51.12,
+  "licensing": "free-plan private review; not commercially cleared",
+  "postprocessing": "none",
+  "status": "listen and retime before video edit"
+}

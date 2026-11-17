@@ -1,0 +1,552 @@
+{
+  "id": "vca-20261117-05-car-wash-trap",
+  "title": "Lucia Chose the Car Wash",
+  "date": "2026-11-17",
+  "duration_seconds": 56,
+  "status": "PLANNED",
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "hook": "Lucia drove their stolen coupe into a car wash. Jason saw the exit shutter closing ahead.",
+  "script": "Lucia drove their stolen coupe into a car wash. Jason saw the exit shutter closing ahead. The Fixer followed in his black sedan. He wanted the diamonds tucked inside Jason's zipped jacket. Jason shouted for reverse. Lucia pointed sideways: the staff door stood beside a delivery scooter outside. She stopped beneath the brushes. Behind them, the Fixer drove forward until his bumper blocked the entrance. Lucia pulled Jason through the staff door. Wet brushes swallowed their empty coupe and hid the movement. Jason grabbed the scooter. Chained. Lucia pulled a four-wheel delivery trolley beside it. Same downhill route. They rolled the trolley downhill, crouched inside, and vanished behind a laundry wall before the Fixer found daylight. On the level runout, Jason checked the diamonds. Still zipped. Lucia grinned. He had paid for the deluxe wash.",
+  "word_count": 135,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "narration": "Lucia drove their stolen coupe into a car wash. Jason saw the exit shutter closing ahead.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Red stolen coupe noses into lit wash tunnel from left; exit shutter down at far right; Jason right passenger looks ahead while Lucia left-hand driver grips wheel; black sedan one car length behind. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Wide side cutaway-like natural view Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Fast low chase pulse; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside and wash pumps inside; duck beneath speech and match visible perspective",
+        "sfx": "Tires hiss, shutter clatter; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Pelican Wash tunnel entrance",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Diamonds sealed in pouch inside Jason zipped jacket; coupe windows up; wash water ahead.",
+        "vehicle_occupancy": "Red coupe: Lucia driver left, Jason front right; black sedan Fixer driving alone.",
+        "entry_exit_and_geography": "Red stolen coupe noses into lit wash tunnel from left; exit shutter down at far right; Jason right passenger looks ahead while Lucia left-hand driver grips wheel; black sedan one car length behind.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "EXIT CLOSED"
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "narration": "The Fixer followed in his black sedan. He wanted the diamonds tucked inside Jason's zipped jacket.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Black sedan fills entrance behind red coupe; cream-suited original Fixer alone at left-hand wheel, focused forward; red coupe tail lights foreground with Jason jacket pouch outline visible through rear side window. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Compressed rear-facing angle Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Restrained bass climbs; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Enclosed engine and wash roar; duck beneath speech and match visible perspective",
+        "sfx": "Single accelerator rev; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Pelican Wash entry tunnel",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Diamond pouch still zipped inside Jason jacket; no weapons visible.",
+        "vehicle_occupancy": "One red coupe heroes, one black sedan Fixer only; no other cars.",
+        "entry_exit_and_geography": "Black sedan fills entrance behind red coupe; cream-suited original Fixer alone at left-hand wheel, focused forward; red coupe tail lights foreground with Jason jacket pouch outline visible through rear side window.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "HE WANTS THE DIAMONDS"
+    },
+    {
+      "start": 14,
+      "end": 21,
+      "narration": "Jason shouted for reverse. Lucia pointed sideways: the staff door stood beside a delivery scooter outside.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. From coupe interior looking left: Lucia points to unlocked staff door beside brushes; door window reveals yellow delivery scooter with empty four-wheel delivery trolley on straight gently sloping service yard with a level runout behind a laundry-screen wall; Jason looks toward it. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Interior eyeline to door window Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Brief gap in percussion; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Filtered rain, wash machinery; duck beneath speech and match visible perspective",
+        "sfx": "Indicator tick; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Pelican Wash middle tunnel",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Jacket zipped; staff door unlatched; scooter chained to bollard; separate four-wheel trolley downhill side; no keys available.",
+        "vehicle_occupancy": "Heroes remain seated coupe; Fixer sedan behind; scooter/four-wheel trolley outside unoccupied.",
+        "entry_exit_and_geography": "From coupe interior looking left: Lucia points to unlocked staff door beside brushes; door window reveals yellow delivery scooter with empty four-wheel delivery trolley on straight gently sloping service yard with a level runout behind a laundry-screen wall; Jason looks toward it.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "SIDE DOOR"
+    },
+    {
+      "start": 21,
+      "end": 28,
+      "narration": "She stopped beneath the brushes. Behind them, the Fixer drove forward until his bumper blocked the entrance.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Red coupe stops under spinning wet curtain brushes; rear side view shows black sedan bumper almost touching entry rail, leaving Fixer hemmed in by narrow lane; staff door left at coupe driver side. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Wide tunnel geography Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Pulse holds tightly; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Close brushes and splashing; duck beneath speech and match visible perspective",
+        "sfx": "Coupe brake, brush swish; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Pelican Wash brush bay",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "No collision or impossible tire placement; brushes block sedan view; diamonds with Jason.",
+        "vehicle_occupancy": "Coupe heroes still inside; Fixer alone sedan behind; scooter outside empty.",
+        "entry_exit_and_geography": "Red coupe stops under spinning wet curtain brushes; rear side view shows black sedan bumper almost touching entry rail, leaving Fixer hemmed in by narrow lane; staff door left at coupe driver side.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "NOW"
+    },
+    {
+      "start": 28,
+      "end": 35,
+      "narration": "Lucia pulled Jason through the staff door. Wet brushes swallowed their empty coupe and hid the movement.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Lucia and Jason emerge through left staff door into straight gently sloping service yard with a level runout behind a laundry-screen wall, door beginning to self-close behind; through glass red coupe front seats empty; wash brushes obscure Fixer line of sight. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Street-side medium two-shot Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Light urgent percussion; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Wash muffled as door closes, rain opens wide; duck beneath speech and match visible perspective",
+        "sfx": "Latch click; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Pelican Wash staff exit",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Jason carries diamonds in zipped jacket; coupe abandoned empty; staff door automatically latches; scooter chain visible.",
+        "vehicle_occupancy": "Both heroes now on foot; Fixer still sedan inside; both coupe seats empty.",
+        "entry_exit_and_geography": "Lucia and Jason emerge through left staff door into straight gently sloping service yard with a level runout behind a laundry-screen wall, door beginning to self-close behind; through glass red coupe front seats empty; wash brushes obscure Fixer line of sight.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "EMPTY CAR"
+    },
+    {
+      "start": 35,
+      "end": 42,
+      "narration": "Jason grabbed the scooter. Chained. Lucia pulled a four-wheel delivery trolley beside it. Same downhill route.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Jason grabs yellow scooter handlebar and finds chain to bollard; Lucia pulls a separate steel delivery trolley from beside the scooter, its four grounded wheels clearly visible; straight shallow yard slopes right behind laundry-screen wall to level runout, with bollards excluding full-size cars. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Low wheel and slope detail Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Quick plucked reversal motif; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain and distant wash; duck beneath speech and match visible perspective",
+        "sfx": "Chain rattle, caster swivel; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Pelican Wash delivery alley",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Scooter chained and stays put; four-wheel trolley unattached and free to roll; Jason jacket remains zipped.",
+        "vehicle_occupancy": "Heroes on foot, scooter empty, four-wheel trolley empty; sedan and coupe inside unseen.",
+        "entry_exit_and_geography": "Jason grabs yellow scooter handlebar and finds chain to bollard; Lucia pulls a separate steel delivery trolley from beside the scooter, its four grounded wheels clearly visible; straight shallow yard slopes right behind laundry-screen wall to level runout, with bollards excluding full-size cars.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "TAKE THE TROLLEY"
+    },
+    {
+      "start": 42,
+      "end": 49,
+      "narration": "They rolled the trolley downhill, crouched inside, and vanished behind a laundry wall before the Fixer found daylight.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Metal delivery trolley rolls downhill right on four wheels, Jason and Lucia crouched low inside stable box; Lucia hand on side rim of broad low cart rated for two adult loads; scooter stays chained at top; laundry-screen wall and bollards hide wash exit. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Wide downhill perspective, wheels supported Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Momentum bass resolves; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain and rolling rubber; duck beneath speech and match visible perspective",
+        "sfx": "Small wheel rumble; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Pelican Wash downhill alley",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Four-wheel trolley loaded with both heroes; diamonds remain zipped; do not invent scooter engine or steering wheel.",
+        "vehicle_occupancy": "Trolley two heroes; scooter empty at top; no vehicle teleportation.",
+        "entry_exit_and_geography": "Metal delivery trolley rolls downhill right on four wheels, Jason and Lucia crouched low inside stable box; Lucia hand on side rim of broad low cart rated for two adult loads; scooter stays chained at top; laundry-screen wall and bollards hide wash exit.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "FREE DELIVERY"
+    },
+    {
+      "start": 49,
+      "end": 56,
+      "narration": "On the level runout, Jason checked the diamonds. Still zipped. Lucia grinned. He had paid for the deluxe wash.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Trolley stopped naturally on the level runout beyond the shallow slope; Lucia and Jason stand beside it, Jason opens jacket to show sealed diamond pouch; distant wash sign up alley, no Fixer in frame. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Medium payoff with pouch foreground Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Sly warm ending; dip for final joke; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Soft rain, wash distant; duck beneath speech and match visible perspective",
+        "sfx": "Jacket zip, pouch tap; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Pelican Wash lower alley landing",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Diamonds intact and retained; four-wheel trolley stopped safely; red coupe and black sedan remain up at wash; no duplicate scooter.",
+        "vehicle_occupancy": "Heroes on foot beside empty four-wheel trolley; car interiors unseen.",
+        "entry_exit_and_geography": "Trolley stopped naturally on the level runout beyond the shallow slope; Lucia and Jason stand beside it, Jason opens jacket to show sealed diamond pouch; distant wash sign up alley, no Fixer in frame.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "DELUXE WASH"
+    }
+  ],
+  "timeline": "linear",
+  "pov": "third-person limited: Jason and Lucia",
+  "delivery": "narrator-led; Liam only; quoted dialogue is narrated quotation, not an approved character voice",
+  "description": "With stolen diamonds and the Fixer right behind them, Lucia turns into a car wash. Jason sees a closing shutter where their escape should be.\n\nOriginal GTA VI fan fiction featuring Jason Duval and Lucia Caminos; invented events, not official Rockstar story or gameplay. Voice narration: 11.ai.\n\n#GTA6 #FanFiction #Shorts",
+  "tags": [
+    "GTA6",
+    "GTA 6",
+    "GTA VI",
+    "Vice City Alibis",
+    "Jason Duval",
+    "Lucia Caminos",
+    "GTA 6 fan fiction",
+    "car wash chase",
+    "diamond heist",
+    "getaway coupe",
+    "Fixer pursuit",
+    "escape story"
+  ],
+  "title_options": [
+    "Lucia Chose the Car Wash | GTA 6 Fan Story | 11.ai",
+    "Jason and Lucia: Lucia Chose the Car Wash | GTA 6 Fan Story | 11.ai",
+    "Take The Trolley | GTA 6 Fan Story | 11.ai"
+  ],
+  "thumbnail_headline": "NO WAY OUT?",
+  "story_audit": {
+    "goal": "Escape the Fixer while keeping the stolen diamonds.",
+    "stakes": "The Fixer is close enough to take the pouch if they stay inside the blocked wash lane.",
+    "obstacle": "Closed exit shutter, pursuer behind and chained escape scooter.",
+    "planted_clue": "Staff-door window establishes the sloping service alley, scooter and separate four-wheel trolley before the escape.",
+    "payoff": "The car wash conceals an exit on foot; the unusable chained scooter makes Lucia choose the separate free-rolling four-wheel trolley and they retain the diamonds.",
+    "causal_check": "Wash machinery blocks sight, the self-latching staff door buys a short lead, alley bollards prevent a quick car pursuit. Gravity supplies the brief downhill ride; no unpowered scooter magically starts."
+  },
+  "production_notes": {
+    "timing": "Eight contiguous 7-second planning bins; 56 seconds is estimated, final speech must be synthesized and measured at 50–60 seconds without time-stretching.",
+    "visual_status": "shot plans only; no new imagery generated or approved",
+    "audio_status": "no API call or audio generated; preserve native Liam pitch/cadence; dry centered voice and separate music/ambience/SFX/final mix stems",
+    "canon": "Jason Duval and Lucia Caminos are GTA VI characters used in fan fiction. The Fixer is an original supporting character. All events, dialogue, vehicles and named micro-sets here are original inventions.",
+    "release": "PLANNED, not rendered, uploaded, approved or commercially cleared; 11.ai attribution retained for intended free-plan provenance, not a license claim."
+  },
+  "audio_cues": [
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 0,
+      "rms": 0.003,
+      "duration": 5.99,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Enclosed/sheltered rain low-passed for viewpoint",
+      "lowpass_hz": 1700
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 1,
+      "rms": 0.003,
+      "duration": 5.76,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Enclosed/sheltered rain low-passed for viewpoint",
+      "lowpass_hz": 1700
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 2,
+      "rms": 0.003,
+      "duration": 6.98,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Enclosed/sheltered rain low-passed for viewpoint",
+      "lowpass_hz": 1700
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 3,
+      "rms": 0.003,
+      "duration": 6.24,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Enclosed/sheltered rain low-passed for viewpoint",
+      "lowpass_hz": 1700
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 4,
+      "rms": 0.005,
+      "duration": 5.9,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Open exterior rain"
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 5,
+      "rms": 0.005,
+      "duration": 7.14,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Open exterior rain"
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 6,
+      "rms": 0.005,
+      "duration": 6.46,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Open exterior rain"
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 7,
+      "rms": 0.005,
+      "duration": 8.53,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Open exterior rain"
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/wet-brush.wav",
+      "scene_index": 0,
+      "rms": 0.005,
+      "duration": 5.99,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/wet-brush.wav.meta.json",
+      "purpose": "Wash machinery as coupe enters",
+      "lowpass_hz": 2800
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/petrol-car-pass.wav",
+      "scene_index": 1,
+      "rms": 0.006,
+      "duration": 2.0,
+      "loop": false,
+      "kind": "sfx",
+      "offset": 0.15,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/petrol-car-pass.wav.meta.json",
+      "purpose": "Following petrol sedan, enclosed wash perspective",
+      "lowpass_hz": 1400
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/wet-brush.wav",
+      "scene_index": 2,
+      "rms": 0.008,
+      "duration": 6.98,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/wet-brush.wav.meta.json",
+      "purpose": "Close wet car-wash brush friction; restrained procedural preview",
+      "lowpass_hz": 3800
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/wet-brush.wav",
+      "scene_index": 3,
+      "rms": 0.008,
+      "duration": 6.24,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/wet-brush.wav.meta.json",
+      "purpose": "Close wet car-wash brush friction; restrained procedural preview",
+      "lowpass_hz": 3800
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/wet-brush.wav",
+      "scene_index": 4,
+      "rms": 0.003,
+      "duration": 5.9,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/wet-brush.wav.meta.json",
+      "purpose": "Brush wash recedes/muffles as pair exits through staff door",
+      "lowpass_hz": 1100
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/metal-rattle.wav",
+      "scene_index": 5,
+      "rms": 0.005,
+      "duration": 0.75,
+      "loop": false,
+      "kind": "sfx",
+      "offset": 0.15,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/metal-rattle.wav.meta.json",
+      "purpose": "Scooter chain confirms it is locked"
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/caster-roll.wav",
+      "scene_index": 5,
+      "rms": 0.006,
+      "duration": 1.3,
+      "loop": false,
+      "kind": "sfx",
+      "offset": 1.0,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/caster-roll.wav.meta.json",
+      "purpose": "Delivery trolley moved beside locked scooter"
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/caster-roll.wav",
+      "scene_index": 6,
+      "rms": 0.008,
+      "duration": 6.46,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/caster-roll.wav.meta.json",
+      "purpose": "Grounded four-wheel trolley rolls downhill",
+      "lowpass_hz": 1000
+    },
+    {
+      "source": "audio/sfx/zipper.mp3",
+      "scene_index": 7,
+      "rms": 0.005,
+      "duration": 0.65,
+      "loop": false,
+      "kind": "sfx",
+      "offset": 0.15,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/zipper.mp3.meta.json",
+      "purpose": "Jason checks zipped jacket diamond pouch"
+    }
+  ],
+  "upload_title": "Lucia Drove Into a Car Wash During a Chase | GTA 6 | 11.ai"
+}

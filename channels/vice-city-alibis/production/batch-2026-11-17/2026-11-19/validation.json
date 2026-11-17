@@ -1,0 +1,81 @@
+{
+  "status": "PLANNED",
+  "date": "2026-11-19",
+  "stories": 7,
+  "scenes": 56,
+  "json_story_files": 7,
+  "markdown_story_files": 7,
+  "rendered_mp4_files": 0,
+  "episodes": [
+    {
+      "id": "04-the-victory-lap",
+      "status": "PLANNED",
+      "spoken_words": 134,
+      "shots": 8,
+      "duration_seconds": 56,
+      "tag_characters": 96,
+      "narration_matches_script": true,
+      "contiguous_timing": true
+    },
+    {
+      "id": "06-the-empty-cart",
+      "status": "PLANNED",
+      "spoken_words": 135,
+      "shots": 8,
+      "duration_seconds": 56,
+      "tag_characters": 108,
+      "narration_matches_script": true,
+      "contiguous_timing": true
+    },
+    {
+      "id": "02-the-brake-light",
+      "status": "PLANNED",
+      "spoken_words": 132,
+      "shots": 8,
+      "duration_seconds": 56,
+      "tag_characters": 111,
+      "narration_matches_script": true,
+      "contiguous_timing": true
+    },
+    {
+      "id": "01-the-late-bid",
+      "status": "PLANNED",
+      "spoken_words": 127,
+      "shots": 8,
+      "duration_seconds": 56,
+      "tag_characters": 111,
+      "narration_matches_script": true,
+      "contiguous_timing": true
+    },
+    {
+      "id": "03-the-second-toast",
+      "status": "PLANNED",
+      "spoken_words": 129,
+      "shots": 8,
+      "duration_seconds": 56,
+      "tag_characters": 109,
+      "narration_matches_script": true,
+      "contiguous_timing": true
+    },
+    {
+      "id": "05-the-dead-frequency",
+      "status": "PLANNED",
+      "spoken_words": 135,
+      "shots": 8,
+      "duration_seconds": 56,
+      "tag_characters": 111,
+      "narration_matches_script": true,
+      "contiguous_timing": true
+    },
+    {
+      "id": "07-the-last-seat",
+      "status": "PLANNED",
+      "spoken_words": 134,
+      "shots": 8,
+      "duration_seconds": 56,
+      "tag_characters": 105,
+      "narration_matches_script": true,
+      "contiguous_timing": true
+    }
+  ]
+}

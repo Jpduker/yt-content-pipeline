@@ -1,0 +1,426 @@
+{
+  "id": "VCA-B261117-20261120-E01",
+  "title": "The Elevator That Owed Them",
+  "date": "2026-11-20",
+  "duration_seconds": 56,
+  "timing_status": "PLANNED; 56 seconds estimated, measure native Liam delivery before final scene timing",
+  "spoken_word_count": 134,
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    },
+    "status": "PLANNED; Liam narrates quoted dialogue as single narrator; character casting not auditioned; no generated audio"
+  },
+  "hook": "The stolen safe was downstairs. Jason and Lucia were still trapped above it, arguing over the empty shaft.",
+  "script": "The stolen safe was downstairs. Jason and Lucia were still trapped above it, arguing over the empty shaft. Six minutes earlier, they entered a hotel to recover their passports before the building changed owners. Lucia found the safe beside a freight lift. Beside its call button, somebody had scratched a ladder. Jason loaded the safe. The platform dropped, leaving them facing a locked stairwell and approaching security lights. He grabbed a chair to smash through. Lucia caught his wrist. Broken glass would announce their floor. She followed the scratched symbol to a maintenance hatch. Behind it, a fixed service ladder descended. Jason climbed first. Lucia followed, reaching the grounded platform just as security unlocked the upstairs stairwell. She opened their safe and pocketed both passports. Next job, she said, you ride with the luggage.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "narration": "The stolen safe was downstairs. Jason and Lucia were still trapped above it, arguing over the empty shaft.",
+      "visual_prompt": "1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented condemned Bayside Hotel freight landing, Vice City. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Jason braces locked stair door left; Lucia looks down empty freight shaft right; safe alone on grounded platform below. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. No vehicle in frame; no occupants. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.",
+      "camera": "Portrait wide establishing, 35mm equivalent, slow 3% push; establish left/right positions",
+      "sound": {
+        "music": "Two dry piano notes, sparse low bass; score planned 14–18 dB below speech, smooth ducking.",
+        "ambience": "invented condemned Bayside Hotel freight landing, Vice City; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.",
+        "sfx": "At 2s, brief natural foley tied only to the visible prop movement: Jason braces locked stair door left; Lucia looks down empty freight shaft right; safe alone on grounded platform below; all cues planned, beneath centered voice."
+      },
+      "continuity": {
+        "location": "invented condemned Bayside Hotel freight landing, Vice City",
+        "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior",
+        "characters": [
+          "Jason Duval",
+          "Lucia Caminos"
+        ],
+        "wardrobe": {
+          "Jason": "J02-heist-charcoal",
+          "Lucia": "L02-heist-hoodie"
+        },
+        "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement",
+        "props": "Locked keypad gray safe (Lucia knows its code, opening deferred until safe landing) holds two passports; wheeled hand trolley for loaded safe, same on grounded platform; scratched ladder symbol; fixed service ladder in separate enclosed access shaft, existing hatch; chair stays upstairs",
+        "beat_state": "Jason braces locked stair door left; Lucia looks down empty freight shaft right; safe alone on grounded platform below",
+        "vehicle_occupants": "No vehicle in frame; no occupants",
+        "photo_state": "No photographs",
+        "source_asset_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png"
+        ],
+        "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."
+      },
+      "on_screen_text": {
+        "text": "FAN FICTION",
+        "placement": "Upper safe area; subtitles lower fifth above platform controls",
+        "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"
+      }
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "narration": "Six minutes earlier, they entered a hotel to recover their passports before the building changed owners.",
+      "visual_prompt": "1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented condemned Bayside Hotel freight landing, Vice City. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Earlier: pair enters hotel lobby beside upper freight landing; small locked keypad gray safe sits on wheeled hand trolley, safe closed, passport contents not visible. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. No vehicle in frame; no occupants. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.",
+      "camera": "Eye-level medium, 50mm equivalent; gentle lateral slide following visible hand",
+      "sound": {
+        "music": "Uneasy muted pulse; score planned 14–18 dB below speech, smooth ducking.",
+        "ambience": "invented condemned Bayside Hotel freight landing, Vice City; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.",
+        "sfx": "At 9s, brief natural foley tied only to the visible prop movement: Earlier: pair enters hotel lobby beside upper freight landing; small already-unlocked gray safe sits on wheeled hand trolley, two passports visible through open door; all cues planned, beneath centered voice."
+      },
+      "continuity": {
+        "location": "invented condemned Bayside Hotel freight landing, Vice City",
+        "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior",
+        "characters": [
+          "Jason Duval",
+          "Lucia Caminos"
+        ],
+        "wardrobe": {
+          "Jason": "J02-heist-charcoal",
+          "Lucia": "L02-heist-hoodie"
+        },
+        "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement",
+        "props": "Locked keypad gray safe (Lucia knows its code, opening deferred until safe landing) holds two passports; wheeled hand trolley for loaded safe, same on grounded platform; scratched ladder symbol; fixed service ladder in separate enclosed access shaft, existing hatch; chair stays upstairs",
+        "beat_state": "Earlier: pair enters hotel lobby beside upper freight landing; small locked keypad gray safe sits on wheeled hand trolley, safe closed, passport contents not visible",
+        "vehicle_occupants": "No vehicle in frame; no occupants",
+        "photo_state": "No photographs",
+        "source_asset_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png"
+        ],
+        "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."
+      },
+      "on_screen_text": {
+        "text": "",
+        "placement": "Upper safe area; subtitles lower fifth above platform controls",
+        "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"
+      }
+    },
+    {
+      "start": 14,
+      "end": 21,
+      "narration": "Lucia found the safe beside a freight lift. Beside its call button, somebody had scratched a ladder.",
+      "visual_prompt": "1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented condemned Bayside Hotel freight landing, Vice City. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Lucia studies scratched ladder symbol beside lift call button; safe now shut on trolley beside raised platform; fixed maintenance hatch two meters right. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. No vehicle in frame; no occupants. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.",
+      "camera": "Macro detail, 85mm equivalent; rack focus from prop to connected hand",
+      "sound": {
+        "music": "Pulse thins to expose clue; score planned 14–18 dB below speech, smooth ducking.",
+        "ambience": "invented condemned Bayside Hotel freight landing, Vice City; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.",
+        "sfx": "At 16s, brief natural foley tied only to the visible prop movement: Lucia studies scratched ladder symbol beside lift call button; safe now shut on trolley beside raised platform; fixed maintenance hatch two meters right; all cues planned, beneath centered voice."
+      },
+      "continuity": {
+        "location": "invented condemned Bayside Hotel freight landing, Vice City",
+        "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior",
+        "characters": [
+          "Jason Duval",
+          "Lucia Caminos"
+        ],
+        "wardrobe": {
+          "Jason": "J02-heist-charcoal",
+          "Lucia": "L02-heist-hoodie"
+        },
+        "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement",
+        "props": "Locked keypad gray safe (Lucia knows its code, opening deferred until safe landing) holds two passports; wheeled hand trolley for loaded safe, same on grounded platform; scratched ladder symbol; fixed service ladder in separate enclosed access shaft, existing hatch; chair stays upstairs",
+        "beat_state": "Lucia studies scratched ladder symbol beside lift call button; safe now shut on trolley beside raised platform; fixed maintenance hatch two meters right",
+        "vehicle_occupants": "No vehicle in frame; no occupants",
+        "photo_state": "No photographs",
+        "source_asset_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png"
+        ],
+        "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."
+      },
+      "on_screen_text": {
+        "text": "",
+        "placement": "Upper safe area; subtitles lower fifth above platform controls",
+        "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"
+      }
+    },
+    {
+      "start": 21,
+      "end": 28,
+      "narration": "Jason loaded the safe. The platform dropped, leaving them facing a locked stairwell and approaching security lights.",
+      "visual_prompt": "1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented condemned Bayside Hotel freight landing, Vice City. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Jason has rolled trolley and safe onto platform and stepped off; platform descends with both objects, pair stays upstairs; flashlight beams behind frosted stair door. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. No vehicle in frame; no occupants. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.",
+      "camera": "Over Jason shoulder toward Lucia, 50mm; hold sightline and axis",
+      "sound": {
+        "music": "Close ticking percussion; score planned 14–18 dB below speech, smooth ducking.",
+        "ambience": "invented condemned Bayside Hotel freight landing, Vice City; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.",
+        "sfx": "At 23s, brief natural foley tied only to the visible prop movement: Jason has rolled trolley and safe onto platform and stepped off; platform descends with both objects, pair stays upstairs; flashlight beams behind frosted stair door; all cues planned, beneath centered voice."
+      },
+      "continuity": {
+        "location": "invented condemned Bayside Hotel freight landing, Vice City",
+        "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior",
+        "characters": [
+          "Jason Duval",
+          "Lucia Caminos"
+        ],
+        "wardrobe": {
+          "Jason": "J02-heist-charcoal",
+          "Lucia": "L02-heist-hoodie"
+        },
+        "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement",
+        "props": "Locked keypad gray safe (Lucia knows its code, opening deferred until safe landing) holds two passports; wheeled hand trolley for loaded safe, same on grounded platform; scratched ladder symbol; fixed service ladder in separate enclosed access shaft, existing hatch; chair stays upstairs",
+        "beat_state": "Jason has rolled trolley and safe onto platform and stepped off; platform descends with both objects, pair stays upstairs; flashlight beams behind frosted stair door",
+        "vehicle_occupants": "No vehicle in frame; no occupants",
+        "photo_state": "No photographs",
+        "source_asset_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png"
+        ],
+        "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."
+      },
+      "on_screen_text": {
+        "text": "",
+        "placement": "Upper safe area; subtitles lower fifth above platform controls",
+        "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"
+      }
+    },
+    {
+      "start": 28,
+      "end": 35,
+      "narration": "He grabbed a chair to smash through. Lucia caught his wrist. Broken glass would announce their floor.",
+      "visual_prompt": "1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented condemned Bayside Hotel freight landing, Vice City. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Jason raises wooden chair toward stairwell glass; Lucia stops his wrist; intact glass behind them; chair stays upstairs. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. No vehicle in frame; no occupants. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.",
+      "camera": "Portrait medium low angle, 35mm; 4% push toward rising obstruction",
+      "sound": {
+        "music": "Bass tightens, percussion rises; score planned 14–18 dB below speech, smooth ducking.",
+        "ambience": "invented condemned Bayside Hotel freight landing, Vice City; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.",
+        "sfx": "At 30s, brief natural foley tied only to the visible prop movement: Jason raises wooden chair toward stairwell glass; Lucia stops his wrist; intact glass behind them; chair stays upstairs; all cues planned, beneath centered voice."
+      },
+      "continuity": {
+        "location": "invented condemned Bayside Hotel freight landing, Vice City",
+        "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior",
+        "characters": [
+          "Jason Duval",
+          "Lucia Caminos"
+        ],
+        "wardrobe": {
+          "Jason": "J02-heist-charcoal",
+          "Lucia": "L02-heist-hoodie"
+        },
+        "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement",
+        "props": "Locked keypad gray safe (Lucia knows its code, opening deferred until safe landing) holds two passports; wheeled hand trolley for loaded safe, same on grounded platform; scratched ladder symbol; fixed service ladder in separate enclosed access shaft, existing hatch; chair stays upstairs",
+        "beat_state": "Jason raises wooden chair toward stairwell glass; Lucia stops his wrist; intact glass behind them; chair stays upstairs",
+        "vehicle_occupants": "No vehicle in frame; no occupants",
+        "photo_state": "No photographs",
+        "source_asset_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png"
+        ],
+        "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."
+      },
+      "on_screen_text": {
+        "text": "",
+        "placement": "Upper safe area; subtitles lower fifth above platform controls",
+        "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"
+      }
+    },
+    {
+      "start": 35,
+      "end": 42,
+      "narration": "She followed the scratched symbol to a maintenance hatch. Behind it, a fixed service ladder descended.",
+      "visual_prompt": "1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented condemned Bayside Hotel freight landing, Vice City. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Lucia opens existing low service hatch marked by scratched ladder symbol; fixed ladder visible in enclosed shaft beside lift, separate from moving counterweight path. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. No vehicle in frame; no occupants. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.",
+      "camera": "Over Lucia shoulder toward Jason, 50mm; maintain established geography",
+      "sound": {
+        "music": "Percussion accelerates quietly; score planned 14–18 dB below speech, smooth ducking.",
+        "ambience": "invented condemned Bayside Hotel freight landing, Vice City; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.",
+        "sfx": "At 37s, brief natural foley tied only to the visible prop movement: Lucia opens existing low service hatch marked by scratched ladder symbol; fixed ladder visible in enclosed shaft beside lift, separate from moving counterweight path; all cues planned, beneath centered voice."
+      },
+      "continuity": {
+        "location": "invented condemned Bayside Hotel freight landing, Vice City",
+        "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior",
+        "characters": [
+          "Jason Duval",
+          "Lucia Caminos"
+        ],
+        "wardrobe": {
+          "Jason": "J02-heist-charcoal",
+          "Lucia": "L02-heist-hoodie"
+        },
+        "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement",
+        "props": "Locked keypad gray safe (Lucia knows its code, opening deferred until safe landing) holds two passports; wheeled hand trolley for loaded safe, same on grounded platform; scratched ladder symbol; fixed service ladder in separate enclosed access shaft, existing hatch; chair stays upstairs",
+        "beat_state": "Lucia opens existing low service hatch marked by scratched ladder symbol; fixed ladder visible in enclosed shaft beside lift, separate from moving counterweight path",
+        "vehicle_occupants": "No vehicle in frame; no occupants",
+        "photo_state": "No photographs",
+        "source_asset_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png"
+        ],
+        "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."
+      },
+      "on_screen_text": {
+        "text": "",
+        "placement": "Upper safe area; subtitles lower fifth above platform controls",
+        "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"
+      }
+    },
+    {
+      "start": 42,
+      "end": 49,
+      "narration": "Jason climbed first. Lucia followed, reaching the grounded platform just as security unlocked the upstairs stairwell.",
+      "visual_prompt": "1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented condemned Bayside Hotel freight landing, Vice City. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Both descend one at a time on fixed wall ladder to bottom service landing, platform grounded beside them, safe and trolley still there. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. No vehicle in frame; no occupants. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.",
+      "camera": "Tight action insert, 70mm; focus on the physical consequence",
+      "sound": {
+        "music": "Brief harmonic release; no impact over speech; score planned 14–18 dB below speech, smooth ducking.",
+        "ambience": "invented condemned Bayside Hotel freight landing, Vice City; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.",
+        "sfx": "At 44s, brief natural foley tied only to the visible prop movement: Both descend one at a time on fixed wall ladder to bottom service landing, platform grounded beside them, safe and trolley still there; all cues planned, beneath centered voice."
+      },
+      "continuity": {
+        "location": "invented condemned Bayside Hotel freight landing, Vice City",
+        "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior",
+        "characters": [
+          "Jason Duval",
+          "Lucia Caminos"
+        ],
+        "wardrobe": {
+          "Jason": "J02-heist-charcoal",
+          "Lucia": "L02-heist-hoodie"
+        },
+        "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement",
+        "props": "Locked keypad gray safe (Lucia knows its code, opening deferred until safe landing) holds two passports; wheeled hand trolley for loaded safe, same on grounded platform; scratched ladder symbol; fixed service ladder in separate enclosed access shaft, existing hatch; chair stays upstairs",
+        "beat_state": "Both descend one at a time on fixed wall ladder to bottom service landing, platform grounded beside them, safe and trolley still there",
+        "vehicle_occupants": "No vehicle in frame; no occupants",
+        "photo_state": "No photographs",
+        "source_asset_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png"
+        ],
+        "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."
+      },
+      "on_screen_text": {
+        "text": "",
+        "placement": "Upper safe area; subtitles lower fifth above platform controls",
+        "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"
+      }
+    },
+    {
+      "start": 49,
+      "end": 56,
+      "narration": "She opened their safe and pocketed both passports. Next job, she said, you ride with the luggage.",
+      "visual_prompt": "1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented condemned Bayside Hotel freight landing, Vice City. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. At grounded platform Lucia enters her known keypad code and opens safe and holds two passport booklets; Jason shuts empty safe on trolley; both on safe landing. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. No vehicle in frame; no occupants. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.",
+      "camera": "Portrait two-shot, 50mm; slow pullback revealing final prop state",
+      "sound": {
+        "music": "Warm unresolved final chord; fade; score planned 14–18 dB below speech, smooth ducking.",
+        "ambience": "invented condemned Bayside Hotel freight landing, Vice City; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.",
+        "sfx": "At 51s, brief natural foley tied only to the visible prop movement: At grounded platform Lucia opens unlocked safe and holds two passport booklets; Jason shuts empty safe on trolley; both on safe landing; all cues planned, beneath centered voice."
+      },
+      "continuity": {
+        "location": "invented condemned Bayside Hotel freight landing, Vice City",
+        "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior",
+        "characters": [
+          "Jason Duval",
+          "Lucia Caminos"
+        ],
+        "wardrobe": {
+          "Jason": "J02-heist-charcoal",
+          "Lucia": "L02-heist-hoodie"
+        },
+        "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement",
+        "props": "Locked keypad gray safe (Lucia knows its code, opening deferred until safe landing) holds two passports; wheeled hand trolley for loaded safe, same on grounded platform; scratched ladder symbol; fixed service ladder in separate enclosed access shaft, existing hatch; chair stays upstairs",
+        "beat_state": "At grounded platform Lucia enters her known keypad code and opens safe and holds two passport booklets; Jason shuts empty safe on trolley; both on safe landing",
+        "vehicle_occupants": "No vehicle in frame; no occupants",
+        "photo_state": "No photographs",
+        "source_asset_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png"
+        ],
+        "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."
+      },
+      "on_screen_text": {
+        "text": "",
+        "placement": "Upper safe area; subtitles lower fifth above platform controls",
+        "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"
+      }
+    }
+  ],
+  "timeline": "Nonlinear: open on trapped pair, explicit six-minute rewind, then linear resolution",
+  "pov": "Third person limited",
+  "delivery": "Narrator-led",
+  "description": "Jason and Lucia need their passports before a hotel changes owners. The freight lift takes their safe downstairs and leaves them facing a locked stairwell. Security lights are getting closer.\n\nUnofficial GTA VI fan fiction: original events and dialogue, not gameplay or the official story. Voice: ElevenLabs / 11.ai.\n\n#GTA6 #FanFiction #Shorts",
+  "tags": [
+    "GTA6",
+    "GTA VI",
+    "GTA 6 Fan Story",
+    "Vice City Alibis",
+    "Jason Duval",
+    "Lucia Caminos",
+    "fan fiction",
+    "crime short",
+    "hotel heist",
+    "freight elevator",
+    "locked stairwell",
+    "passport recovery",
+    "Shorts",
+    "11.ai"
+  ],
+  "title_options": [
+    "Their Safe Left Without Them | GTA 6 Fan Story | 11.ai",
+    "The Elevator That Owed Them | GTA 6 Fan Story | 11.ai"
+  ],
+  "cover_headline": "SAFE LEFT WITHOUT US",
+  "story_audit": {
+    "goal": "Recover their passports before ownership handover",
+    "stakes": "Their identities and ability to leave town; capture inside hotel",
+    "obstacle": "Freight lift separates safe from them; stairwell locks; security approaches",
+    "planted_clue": "Scratched service-ladder symbol beside call button identifies existing maintenance hatch",
+    "payoff": "They descend fixed service ladder in separate access shaft, reach grounded platform and retrieve passports",
+    "causal_check": "Safe already on wheeled hand trolley, no manual lifting. Jason rushes closed keypad safe onto lift as security approaches; safe descends alone. Scratched ladder mark points to existing hatch and fixed ladder separate from lift/counterweight path. Both reach bottom landing, then Lucia enters her known code and retrieves passports."
+  },
+  "canon_status": {
+    "canonical_characters": [
+      "Jason Duval",
+      "Lucia Caminos"
+    ],
+    "original": "All specific locations, events and dialogue are noncanon original fan fiction."
+  },
+  "asset_status": {
+    "script": "PLANNED — authored and editorially checked",
+    "storyboard": "PLANNED — eight shot plans, no artwork generated",
+    "audio": "PLANNED — no synthesis",
+    "video": "PLANNED — no render",
+    "release": "PLANNED — attribution does not establish commercial clearance"
+  },
+  "upload_title": "Their Safe Left Without Them | GTA 6 Fan Story | 11.ai",
+  "thumbnail_headline": "SAFE LEFT WITHOUT US"
+}

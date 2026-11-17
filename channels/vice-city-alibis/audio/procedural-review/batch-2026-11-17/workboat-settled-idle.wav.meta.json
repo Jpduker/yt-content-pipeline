@@ -1,0 +1,31 @@
+{
+  "type": "DERIVED_EXISTING_FREE_PLAN_SFX",
+  "source": "production\\week-01\\day-01\\w01-d01-e02-audio\\skiff.mp3",
+  "source_sha256": "418a79d0ae71580520724ed5c32397339e299a92c6497d25a50ab48265ec447d",
+  "source_metadata": "production\\week-01\\day-01\\w01-d01-e02-audio\\skiff.mp3.meta.json",
+  "operation": {
+    "trim_start_seconds": 3.35,
+    "trim_end_seconds": 4.95,
+    "dc_remove": true,
+    "rms_normalize": 0.055,
+    "edge_fade_seconds": 0.025,
+    "pitch_change": false,
+    "tempo_change": false
+  },
+  "description": "Settled outboard tail only, trimmed after startup; loops in renderer with crossfade. Fictional small workboat approximation, no repeated ignition.",
+  "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+  "api_calls": 0,
+  "credits_used": 0,
+  "file": "audio\\procedural-review\\batch-2026-11-17\\workboat-settled-idle.wav",
+  "sha256": "c98f60cf2ed4e12579d76b577dbceec69dbca7fdea49c1daedc908f1dd81f8ab",
+  "sample_rate": 48000,
+  "channels": 2,
+  "duration_seconds": 1.6,
+  "measured_sample_peak": 0.24407958984375,
+  "measured_sample_peak_dbfs": -12.249370703244303,
+  "measured_rms": 0.054344089403911125,
+  "estimated_true_peak_4x_dbfs": -12.243843328213233,
+  "peak_measurement_note": "4x polyphase oversampling diagnostic, not certified BS.1770 metering",
+  "clipping_samples": 0,
+  "status": "PRIVATE REVIEW; procedural preview, listening pending"
+}

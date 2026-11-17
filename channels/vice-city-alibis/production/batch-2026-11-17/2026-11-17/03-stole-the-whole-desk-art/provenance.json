@@ -1,0 +1,47 @@
+{
+  "generator": "built-in image_gen",
+  "review": "Eight source frames visually checked. Removed duplicated street desk, corrected left-hand driving and final lockup location. Full rendered playback/listening review pending.",
+  "identity_reference": "characters/jason-duval/references/approved-v2-faces.png",
+  "frames": [
+    {
+      "frame": 1,
+      "src": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-df4c701b-3acd-4d55-a9bc-c70c37636c3b.png",
+      "prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Jason left of steel desk, Lucia right; locked cash drawer center; office doorway behind left, barred street window right; small wall clock overhead; no owner visible. Rain-purple street below window. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame."
+    },
+    {
+      "frame": 2,
+      "src": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-f60ce84e-a6f9-473e-a431-777fe7b0e309.png",
+      "prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Low side angle shows bolted steel drawer fixed beneath desktop; Jason brings crowbar toward seam, Lucia crouches by visible red caster brake; freight lift beyond open office door. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame."
+    },
+    {
+      "frame": 3,
+      "src": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-e8f0f235-9316-41a4-999d-50e3e73ae1e9.png",
+      "prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Lucia toe presses single red brake release, Jason stabilizes desktop with joined wrist and plausible five-finger grip; inset desk wheel shifts off its previous wet footprint; no flashback needed. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame."
+    },
+    {
+      "frame": 4,
+      "src": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-50774f19-288a-4591-a73f-f0db4a9ceebf.png",
+      "prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Wide establishes straight corridor from office left to freight lift right; Lucia pulls narrow desk end, Jason pushes opposite end; doorway placard hooks onto protruding crowbar as desk passes. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame."
+    },
+    {
+      "frame": 5,
+      "src": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-3c7fca5f-a9d4-42df-a2d9-d3da3d70e966.png",
+      "prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Lift doorway fills frame; Jason wedges crowbar visibly between closing doors, Lucia hauls desk rear casters over threshold; placard lies on desktop; both heroes inside the lift boundary. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame."
+    },
+    {
+      "frame": 6,
+      "src": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-3dcf2755-35e3-45d5-b0b9-291c6145ba73.png",
+      "prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Ground-floor lift opens left to white panel van rear right, open rear doors; Lucia pivots desk narrow end first into van, Jason and Lucia visibly lift from beneath across the low rear sill, each sharing weight; wet van tires grounded. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame."
+    },
+    {
+      "frame": 7,
+      "src": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-2a090bf3-e4be-4385-bd4f-20f5a4be9a30.png",
+      "prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. View from upstairs office window down: owner only a distant anonymous silhouette at frame edge, white van pulls away below, Jason left-hand driver and Lucia right-front passenger visible through windshield; rear doors shut. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame."
+    },
+    {
+      "frame": 8,
+      "src": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-85358b9c-846c-4a93-bd65-726d68057c7e.png",
+      "prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Same white van parked rear open outside invented garage; desk grounded on four casters; drawer now open containing cash; Jason holds snagged EMPLOYEES ONLY placard upright, Lucia lifts one bundled stack; warm lamp and fading rain. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame."
+    }
+  ]
+}

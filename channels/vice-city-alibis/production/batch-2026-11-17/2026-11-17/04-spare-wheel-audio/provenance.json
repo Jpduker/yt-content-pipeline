@@ -1,0 +1,24 @@
+{
+  "voice": "Liam",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "request": {
+    "text": "Jason ripped open the courier bag. Newspaper. Outside, someone started dragging the warehouse shutter down. Lucia looked past the empty van. Mud covered every tire except the spotless spare underneath it. The Fixer had pointed at that bag too quickly. She shoved a dolly beneath the spare. Jason wanted the exit. Lucia cut the wheel loose. It landed heavily; folded bills bulged through a split. Then the shutter hit the dolly handle. Metal screamed. Their only doorway stopped two feet above concrete. Jason dropped flat and dragged the wheel under. Lucia followed, squeezing between the tire and that trembling shutter. The Fixer arrived holding the newspaper bag. Their getaway van outside was gone. His hidden fortune rolled away. At the lockup, Jason asked how she knew. Lucia tapped the clean rubber. Nobody washes the spare.",
+    "model_id": "eleven_v4",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "response": {
+    "request-id": "O9zSviJKHk4hFYwzlNeg",
+    "history-item-id": "ibePjsZ8JTPQ1fn9RLO5",
+    "character-cost": "831"
+  },
+  "duration_seconds": 52.48,
+  "licensing": "free-plan private review; not commercially cleared",
+  "postprocessing": "none",
+  "status": "listen and retime before video edit"
+}

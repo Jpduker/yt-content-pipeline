@@ -1,0 +1,336 @@
+{
+  "id": "vca-20261118-06-empty-armored-truck",
+  "title": "The Empty Truck Was the Score",
+  "date": "2026-11-18",
+  "duration_seconds": 56,
+  "status": "PLANNED",
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "hook": "Jason stole an armored truck. He opened the back and found nothing. Lucia started laughing.",
+  "script": "Jason stole an armored truck. He opened the back and found nothing. Lucia started laughing. The clipboard said collection, not delivery. Their empty truck was due at the Fixer's cash warehouse. Jason wanted another target. Lucia handed him the truck's collection helmet and pulled the passenger visor down. At the gate, the Fixer checked the route placard, then waved his masked collectors toward the loading cage. The first cash bag landed inside. Then he demanded their signature before releasing the second. Jason froze. Lucia pointed at the printed driver name and held out the clipboard. Jason copied it, visor still lowered. Both bags aboard, they left just as the real collection crew stepped from a taxi behind them. Jason finally understood. They hadn't stolen an empty truck. They had stolen its next stop.",
+  "word_count": 133,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "narration": "Jason stole an armored truck. He opened the back and found nothing. Lucia started laughing.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented criminal cash depot uses scheduled armored collections by helmeted crew. Grey armored truck has existing route placard, clipboard and two full-face collection helmets in cab. Depot entrance west, loading cage center, separate exit east, taxi arriving west later. At wet industrial layby, Jason opens grey armored truck rear doors to entirely empty cargo bay; Lucia looks at clipboard in cab doorway. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Wide empty cargo reveal Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Sly suspense pulse; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Industrial rain, diesel rumble filtered inside cab; cage metal sounds at depot; duck beneath speech and match visible perspective",
+        "sfx": "Rear door clank; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Bay Four cash collection depot",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Truck cargo empty; keys in Jason hand; clipboard and two helmets in cab; no cash yet.",
+        "vehicle_occupancy": "Both heroes outside truck; no original crew visible.",
+        "entry_exit_and_geography": "Invented criminal cash depot uses scheduled armored collections by helmeted crew. Grey armored truck has existing route placard, clipboard and two full-face collection helmets in cab. Depot entrance west, loading cage center, separate exit east, taxi arriving west later. At wet industrial layby, Jason opens grey armored truck rear doors to entirely empty cargo bay; Lucia looks at clipboard in cab doorway.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "EMPTY TRUCK"
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "narration": "The clipboard said collection, not delivery. Their empty truck was due at the Fixer's cash warehouse.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented criminal cash depot uses scheduled armored collections by helmeted crew. Grey armored truck has existing route placard, clipboard and two full-face collection helmets in cab. Depot entrance west, loading cage center, separate exit east, taxi arriving west later. Lucia raises clipboard with large editorial overlay COLLECTION; route line points to invented BayFour cash depot sketch, physical placard on dash matches bay marker. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Manifest-to-placard insert Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Curious bright motif; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Industrial rain, diesel rumble filtered inside cab; cage metal sounds at depot; duck beneath speech and match visible perspective",
+        "sfx": "Clipboard clip snaps; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Bay Four cash collection depot",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Collection manifest already inside stolen truck; no hacking or altered credentials.",
+        "vehicle_occupancy": "Truck parked empty cargo, heroes beside cab.",
+        "entry_exit_and_geography": "Invented criminal cash depot uses scheduled armored collections by helmeted crew. Grey armored truck has existing route placard, clipboard and two full-face collection helmets in cab. Depot entrance west, loading cage center, separate exit east, taxi arriving west later. Lucia raises clipboard with large editorial overlay COLLECTION; route line points to invented BayFour cash depot sketch, physical placard on dash matches bay marker.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "COLLECTION NOT DELIVERY"
+    },
+    {
+      "start": 14,
+      "end": 21,
+      "narration": "Jason wanted another target. Lucia handed him the truck's collection helmet and pulled the passenger visor down.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented criminal cash depot uses scheduled armored collections by helmeted crew. Grey armored truck has existing route placard, clipboard and two full-face collection helmets in cab. Depot entrance west, loading cage center, separate exit east, taxi arriving west later. Lucia hands black collection helmet to Jason and wears second full-face helmet; approved faces briefly visible before visors lowered, existing outfits unchanged beneath. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Medium costume-prop beat Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Rising bass; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Industrial rain, diesel rumble filtered inside cab; cage metal sounds at depot; duck beneath speech and match visible perspective",
+        "sfx": "Visor click; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Bay Four cash collection depot",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Two existing helmets now worn; clipboard Lucia; rear cargo doors closed empty.",
+        "vehicle_occupancy": "Jason left driver getting in, Lucia right passenger.",
+        "entry_exit_and_geography": "Invented criminal cash depot uses scheduled armored collections by helmeted crew. Grey armored truck has existing route placard, clipboard and two full-face collection helmets in cab. Depot entrance west, loading cage center, separate exit east, taxi arriving west later. Lucia hands black collection helmet to Jason and wears second full-face helmet; approved faces briefly visible before visors lowered, existing outfits unchanged beneath.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "TAKE ITS NEXT STOP"
+    },
+    {
+      "start": 21,
+      "end": 28,
+      "narration": "At the gate, the Fixer checked the route placard, then waved his masked collectors toward the loading cage.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented criminal cash depot uses scheduled armored collections by helmeted crew. Grey armored truck has existing route placard, clipboard and two full-face collection helmets in cab. Depot entrance west, loading cage center, separate exit east, taxi arriving west later. Depot west gate: Fixer examines original dashboard route placard without seeing covered faces; grey truck advances toward center loading cage. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Wide gate geography Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Taut restrained rhythm; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Industrial rain, diesel rumble filtered inside cab; cage metal sounds at depot; duck beneath speech and match visible perspective",
+        "sfx": "Gate motor, diesel idle; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Bay Four cash collection depot",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Placard unchanged; matching depot bay marker; both visors lowered; truck empty before loading.",
+        "vehicle_occupancy": "Jason driver left, Lucia right; Fixer on foot gate; no guards added.",
+        "entry_exit_and_geography": "Invented criminal cash depot uses scheduled armored collections by helmeted crew. Grey armored truck has existing route placard, clipboard and two full-face collection helmets in cab. Depot entrance west, loading cage center, separate exit east, taxi arriving west later. Depot west gate: Fixer examines original dashboard route placard without seeing covered faces; grey truck advances toward center loading cage.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "RIGHT TRUCK"
+    },
+    {
+      "start": 28,
+      "end": 35,
+      "narration": "The first cash bag landed inside. Then he demanded their signature before releasing the second. Jason froze.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented criminal cash depot uses scheduled armored collections by helmeted crew. Grey armored truck has existing route placard, clipboard and two full-face collection helmets in cab. Depot entrance west, loading cage center, separate exit east, taxi arriving west later. Loading cage: first sealed black cash bag inside rear cargo, second on cage shelf behind Fixer; Jason holds clipboard outside rear while Lucia watches from right passenger doorway. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Medium exchange Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Held bass; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Industrial rain, diesel rumble filtered inside cab; cage metal sounds at depot; duck beneath speech and match visible perspective",
+        "sfx": "Bag thud, pen click; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Bay Four cash collection depot",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "First bag loaded; second withheld; signature field blank beside printed driver name.",
+        "vehicle_occupancy": "Jason outside rear, Lucia passenger doorway, Fixer cage.",
+        "entry_exit_and_geography": "Invented criminal cash depot uses scheduled armored collections by helmeted crew. Grey armored truck has existing route placard, clipboard and two full-face collection helmets in cab. Depot entrance west, loading cage center, separate exit east, taxi arriving west later. Loading cage: first sealed black cash bag inside rear cargo, second on cage shelf behind Fixer; Jason holds clipboard outside rear while Lucia watches from right passenger doorway.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "SIGN FIRST"
+    },
+    {
+      "start": 35,
+      "end": 42,
+      "narration": "Lucia pointed at the printed driver name and held out the clipboard. Jason copied it, visor still lowered.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented criminal cash depot uses scheduled armored collections by helmeted crew. Grey armored truck has existing route placard, clipboard and two full-face collection helmets in cab. Depot entrance west, loading cage center, separate exit east, taxi arriving west later. Lucia points to manifest printed name without showing readable real personal data; helmeted Jason writes same fictional route-driver name in signature field. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Close hand-and-clipboard Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Small release note; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Industrial rain, diesel rumble filtered inside cab; cage metal sounds at depot; duck beneath speech and match visible perspective",
+        "sfx": "Pen scratch; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Bay Four cash collection depot",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Signature is imitation of printed name, not forged exact handwriting; no second secret credential required by fictional procedure.",
+        "vehicle_occupancy": "Both heroes outside rear, helmets down; Fixer looks at paper.",
+        "entry_exit_and_geography": "Invented criminal cash depot uses scheduled armored collections by helmeted crew. Grey armored truck has existing route placard, clipboard and two full-face collection helmets in cab. Depot entrance west, loading cage center, separate exit east, taxi arriving west later. Lucia points to manifest printed name without showing readable real personal data; helmeted Jason writes same fictional route-driver name in signature field.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "READ THE NAME"
+    },
+    {
+      "start": 42,
+      "end": 49,
+      "narration": "Both bags aboard, they left just as the real collection crew stepped from a taxi behind them.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented criminal cash depot uses scheduled armored collections by helmeted crew. Grey armored truck has existing route placard, clipboard and two full-face collection helmets in cab. Depot entrance west, loading cage center, separate exit east, taxi arriving west later. Grey truck clears separate east exit with both sealed bags visible through closing cargo door inset; west entrance behind shows taxi and two anonymous helmet-carrying collection workers arriving too late. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Wide east/west geography Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Confident release rhythm; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Industrial rain, diesel rumble filtered inside cab; cage metal sounds at depot; duck beneath speech and match visible perspective",
+        "sfx": "Diesel accelerates, taxi door distant; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Bay Four cash collection depot",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Both bags fully aboard; clipboard signed; no duplicate truck; real crew taxi stays west.",
+        "vehicle_occupancy": "Jason driver left, Lucia right, cargo two bags; anonymous real crew on foot west.",
+        "entry_exit_and_geography": "Invented criminal cash depot uses scheduled armored collections by helmeted crew. Grey armored truck has existing route placard, clipboard and two full-face collection helmets in cab. Depot entrance west, loading cage center, separate exit east, taxi arriving west later. Grey truck clears separate east exit with both sealed bags visible through closing cargo door inset; west entrance behind shows taxi and two anonymous helmet-carrying collection workers arriving too late.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "TOO LATE"
+    },
+    {
+      "start": 49,
+      "end": 56,
+      "narration": "Jason finally understood. They hadn't stolen an empty truck. They had stolen its next stop.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented criminal cash depot uses scheduled armored collections by helmeted crew. Grey armored truck has existing route placard, clipboard and two full-face collection helmets in cab. Depot entrance west, loading cage center, separate exit east, taxi arriving west later. Interior grey truck moving away: heroes lift visors only after depot out of view, Jason smiles at Lucia; two sealed money bags glimpsed behind security partition. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Interior two-shot Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Warm sly closing motif; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Industrial rain, diesel rumble filtered inside cab; cage metal sounds at depot; duck beneath speech and match visible perspective",
+        "sfx": "Filtered rain and steady engine; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Bay Four cash collection depot",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Both cash bags retained; collection helmets worn with visors raised; route clipboard dash; stolen truck retained.",
+        "vehicle_occupancy": "Jason driving left, Lucia right; exactly two occupants.",
+        "entry_exit_and_geography": "Invented criminal cash depot uses scheduled armored collections by helmeted crew. Grey armored truck has existing route placard, clipboard and two full-face collection helmets in cab. Depot entrance west, loading cage center, separate exit east, taxi arriving west later. Interior grey truck moving away: heroes lift visors only after depot out of view, Jason smiles at Lucia; two sealed money bags glimpsed behind security partition.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "THE NEXT STOP"
+    }
+  ],
+  "timeline": "linear",
+  "pov": "third-person limited: Jason and Lucia",
+  "delivery": "narrator-led; Liam only; quoted dialogue is narrated quotation, not an approved character voice",
+  "description": "Jason opens their stolen armored truck and finds nothing worth taking. Lucia reads the clipboard, and suddenly she wants to keep the truck exactly as it is.\n\nOriginal GTA VI fan fiction featuring Jason Duval and Lucia Caminos; invented events, not official Rockstar story or gameplay. Voice narration: 11.ai.\n\n#GTA6 #FanFiction #Shorts",
+  "tags": [
+    "GTA6",
+    "GTA 6",
+    "GTA VI",
+    "Vice City Alibis",
+    "Jason Duval",
+    "Lucia Caminos",
+    "GTA 6 fan fiction",
+    "empty armored truck",
+    "cash collection",
+    "collection clipboard",
+    "criminal disguise",
+    "armored truck heist"
+  ],
+  "title_options": [
+    "The Empty Truck Was the Score | GTA 6 Fan Story | 11.ai",
+    "Jason and Lucia: The Empty Truck Was the Score | GTA 6 Fan Story | 11.ai",
+    "Empty Was Perfect | GTA 6 Fan Story | 11.ai"
+  ],
+  "thumbnail_headline": "EMPTY WAS PERFECT",
+  "story_audit": {
+    "goal": "Turn an apparently worthless empty truck theft into a full cash score.",
+    "stakes": "Being recognized by the Fixer or reaching the depot after the real collection crew.",
+    "obstacle": "No cash aboard, identity concealment and a last-minute paperwork demand.",
+    "planted_clue": "The existing clipboard says collection, and matching helmets/route placard already belong to the stolen truck.",
+    "payoff": "They steal the scheduled pickup itself and leave with both cash bags before the real crew arrives.",
+    "causal_check": "A clearly fictional depot relies on vehicle placard, covered collection crew and a routine signed manifest. No invented hacking, perfect signature copy or disappearing guards. Entry and exit lanes are separate and the real crew arrives only after loading."
+  },
+  "production_notes": {
+    "timing": "Eight contiguous 7-second planning bins; 56 seconds is estimated, final speech must be synthesized and measured at 50–60 seconds without time-stretching.",
+    "visual_status": "shot plans only; no new imagery generated or approved",
+    "audio_status": "no API call or audio generated; preserve native Liam pitch/cadence; dry centered voice and separate music/ambience/SFX/final mix stems",
+    "canon": "Jason Duval and Lucia Caminos are GTA VI characters used in fan fiction. The Fixer is an original supporting character. All events, dialogue, vehicles and named micro-sets here are original inventions.",
+    "release": "PLANNED, not rendered, uploaded, approved or commercially cleared; 11.ai attribution retained for intended free-plan provenance, not a license claim."
+  },
+  "upload_title": "Jason Stole an Empty Armored Truck. Lucia Laughed. | GTA 6 | 11.ai"
+}

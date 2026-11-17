@@ -1,5 +1,7 @@
 # Narrative playbook
 
+Current story gate: see STORY_QUALITY_STANDARD.md. The user reports strong visuals but an underwhelming pilot plot to a GTA gamer. New production prioritizes concrete crime stakes, practical obstacle logic, character agency and planted payoffs; visual polish alone does not pass editorial review.
+
 A conversation between characters is a delivery choice, not a timeline or POV by itself. These axes can be combined.
 
 | Axis | Choices | Useful rule for Shorts |

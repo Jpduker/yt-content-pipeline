@@ -1,0 +1,21 @@
+{
+  "script": "current locked script matched",
+  "artwork": "eight inputs present; visual approval not inferred",
+  "audio": "native source matched text/voice provenance; normalized loudness only",
+  "mix": "rendered; human listening pending",
+  "video": "rendered; technical decode/geometry/duration checked",
+  "release": "PRIVATE REVIEW ONLY; commercial clearance not inferred",
+  "published": false,
+  "source_json": "C:\\Users\\Vivek Sai\\Downloads\\YouTube\\channels\\vice-city-alibis\\production\\batch-2026-11-17\\2026-11-17\\05-car-wash-trap.json",
+  "final_mix_gain": 1,
+  "source_frame_sha256": {
+    "01.png": "861d6839e492aae78b710e65e576a27c05bf3fda59ac6cad8ba3125405fdcbd1",
+    "02.png": "251bfec9c1dccaa84761e4933fb9c365732a942d2e9cb3022f08d33bf70ba602",
+    "03.png": "791f221e9a898c3cb9c63f4c5bac2471dd1d61023daee7dc732b9e705060c142",
+    "04.png": "1e82a32d957137fe12cb0f61fa82a6bf1974905654d1d960aee1630b8398fab7",
+    "05.png": "a0085fe8f5d3f5ebec4d55c542e913017d8bd30aa4a15fef6905e9670c591bf1",
+    "06.png": "4b56f55ee241526a9ee099b28a87ebabeac258f18e6b5f25fefa2e0000be9ffd",
+    "07.png": "c376eab55c193b77102527260c5c352e54e3ce073288d5c4704d2841b0280e50",
+    "08.png": "80f9a5bd5f2fec99063b3c70509c29356e392ab14a76d9efa6cc180fc853b7f0"
+  }
+}

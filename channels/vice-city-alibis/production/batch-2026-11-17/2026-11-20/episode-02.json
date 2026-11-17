@@ -1,0 +1,427 @@
+{
+  "id": "VCA-B261117-20261120-E02",
+  "title": "I Stole My Car Sideways",
+  "date": "2026-11-20",
+  "duration_seconds": 56,
+  "timing_status": "PLANNED; 56 seconds estimated, measure native Liam delivery before final scene timing",
+  "spoken_word_count": 127,
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    },
+    "status": "PLANNED; Liam narrates quoted dialogue as single narrator; character casting not auditioned; no generated audio"
+  },
+  "hook": "I had ninety seconds to steal my own car before the crusher made my last payment permanent.",
+  "script": "I had ninety seconds to steal my own car before the crusher made my last payment permanent. Lucia said we should leave it. Only that engine could clear our debt. The impound lane was blocked by two wrecks. My coupe sat on four little wheeled skates, facing concrete. I turned the ignition. Nothing. They had removed the battery, A forklift approached. Lucia pointed at the skates. Their wheels swiveled. We only needed to push. She released their brakes while I pulled the side gate open. The gap was narrower than the car. Narrower than its length, Lucia corrected. Together we rolled it sideways through the opening, engine cold. Outside, I touched the hood. She held out her hand. Half the sale, she said. Including your sentimental attachment.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "narration": "I had ninety seconds to steal my own car before the crusher made my last payment permanent.",
+      "visual_prompt": "1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented illegal impound behind a Vice City concrete yard. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Jason left gripping cold coupe hood; crusher jaws in background beyond empty concrete lane; Lucia right watching countdown clock. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. One silver coupe only, four wheel skates fully supporting four tires. Jason left driver seat only in scene4 then exits; all other scenes car empty. Distant forklift behind divider, operator never identifiable.. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.",
+      "camera": "Portrait wide establishing, 35mm equivalent, slow 3% push; establish left/right positions",
+      "sound": {
+        "music": "Two dry piano notes, sparse low bass; score planned 14–18 dB below speech, smooth ducking.",
+        "ambience": "invented illegal impound behind a Vice City concrete yard; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.",
+        "sfx": "At 2s, brief natural foley tied only to the visible prop movement: Jason left gripping cold coupe hood; crusher jaws in background beyond empty concrete lane; Lucia right watching countdown clock; all cues planned, beneath centered voice."
+      },
+      "continuity": {
+        "location": "invented illegal impound behind a Vice City concrete yard",
+        "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior",
+        "characters": [
+          "Jason Duval",
+          "Lucia Caminos"
+        ],
+        "wardrobe": {
+          "Jason": "J02-heist-charcoal",
+          "Lucia": "L02-heist-hoodie"
+        },
+        "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement",
+        "props": "Silver two-door coupe, battery absent; four load-rated swivel wheel skates with brakes; 2.2m side gate; coupe length 4.5m, width 1.9m",
+        "beat_state": "Jason left gripping cold coupe hood; crusher jaws in background beyond empty concrete lane; Lucia right watching countdown clock",
+        "vehicle_occupants": "One silver coupe only, four wheel skates fully supporting four tires. Jason left driver seat only in scene4 then exits; all other scenes car empty. Distant forklift behind divider, operator never identifiable.",
+        "photo_state": "No photographs",
+        "source_asset_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png"
+        ],
+        "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."
+      },
+      "on_screen_text": {
+        "text": "FAN FICTION",
+        "placement": "Upper safe area; subtitles lower fifth above platform controls",
+        "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"
+      }
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "narration": "Lucia said we should leave it. Only that engine could clear our debt.",
+      "visual_prompt": "1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented illegal impound behind a Vice City concrete yard. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Pair beside silver two-door coupe, hood closed, Jason points toward engine bay; no one in seats. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. One silver coupe only, four wheel skates fully supporting four tires. Jason left driver seat only in scene4 then exits; all other scenes car empty. Distant forklift behind divider, operator never identifiable.. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.",
+      "camera": "Eye-level medium, 50mm equivalent; gentle lateral slide following visible hand",
+      "sound": {
+        "music": "Uneasy muted pulse; score planned 14–18 dB below speech, smooth ducking.",
+        "ambience": "invented illegal impound behind a Vice City concrete yard; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.",
+        "sfx": "At 9s, brief natural foley tied only to the visible prop movement: Pair beside silver two-door coupe, hood closed, Jason points toward engine bay; no one in seats; all cues planned, beneath centered voice."
+      },
+      "continuity": {
+        "location": "invented illegal impound behind a Vice City concrete yard",
+        "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior",
+        "characters": [
+          "Jason Duval",
+          "Lucia Caminos"
+        ],
+        "wardrobe": {
+          "Jason": "J02-heist-charcoal",
+          "Lucia": "L02-heist-hoodie"
+        },
+        "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement",
+        "props": "Silver two-door coupe, battery absent; four load-rated swivel wheel skates with brakes; 2.2m side gate; coupe length 4.5m, width 1.9m",
+        "beat_state": "Pair beside silver two-door coupe, hood closed, Jason points toward engine bay; no one in seats",
+        "vehicle_occupants": "One silver coupe only, four wheel skates fully supporting four tires. Jason left driver seat only in scene4 then exits; all other scenes car empty. Distant forklift behind divider, operator never identifiable.",
+        "photo_state": "No photographs",
+        "source_asset_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png"
+        ],
+        "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."
+      },
+      "on_screen_text": {
+        "text": "",
+        "placement": "Upper safe area; subtitles lower fifth above platform controls",
+        "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"
+      }
+    },
+    {
+      "start": 14,
+      "end": 21,
+      "narration": "The impound lane was blocked by two wrecks. My coupe sat on four little wheeled skates, facing concrete.",
+      "visual_prompt": "1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented illegal impound behind a Vice City concrete yard. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Wide overhead geography: concrete ahead, wrecks behind, side sliding gate right; four wheel skates beneath coupe tires. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. One silver coupe only, four wheel skates fully supporting four tires. Jason left driver seat only in scene4 then exits; all other scenes car empty. Distant forklift behind divider, operator never identifiable.. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.",
+      "camera": "Macro detail, 85mm equivalent; rack focus from prop to connected hand",
+      "sound": {
+        "music": "Pulse thins to expose clue; score planned 14–18 dB below speech, smooth ducking.",
+        "ambience": "invented illegal impound behind a Vice City concrete yard; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.",
+        "sfx": "At 16s, brief natural foley tied only to the visible prop movement: Wide overhead geography: concrete ahead, wrecks behind, side sliding gate right; four wheel skates beneath coupe tires; all cues planned, beneath centered voice."
+      },
+      "continuity": {
+        "location": "invented illegal impound behind a Vice City concrete yard",
+        "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior",
+        "characters": [
+          "Jason Duval",
+          "Lucia Caminos"
+        ],
+        "wardrobe": {
+          "Jason": "J02-heist-charcoal",
+          "Lucia": "L02-heist-hoodie"
+        },
+        "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement",
+        "props": "Silver two-door coupe, battery absent; four load-rated swivel wheel skates with brakes; 2.2m side gate; coupe length 4.5m, width 1.9m",
+        "beat_state": "Wide overhead geography: concrete ahead, wrecks behind, side sliding gate right; four wheel skates beneath coupe tires",
+        "vehicle_occupants": "One silver coupe only, four wheel skates fully supporting four tires. Jason left driver seat only in scene4 then exits; all other scenes car empty. Distant forklift behind divider, operator never identifiable.",
+        "photo_state": "No photographs",
+        "source_asset_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png"
+        ],
+        "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."
+      },
+      "on_screen_text": {
+        "text": "",
+        "placement": "Upper safe area; subtitles lower fifth above platform controls",
+        "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"
+      }
+    },
+    {
+      "start": 21,
+      "end": 28,
+      "narration": "I turned the ignition. Nothing. They had removed the battery, A forklift approached.",
+      "visual_prompt": "1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented illegal impound behind a Vice City concrete yard. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Jason briefly in correct left driver seat turning key; Lucia outside right; distant unoccupied forklift headlights behind frosted divider. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. One silver coupe only, four wheel skates fully supporting four tires. Jason left driver seat only in scene4 then exits; all other scenes car empty. Distant forklift behind divider, operator never identifiable.. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.",
+      "camera": "Over Jason shoulder toward Lucia, 50mm; hold sightline and axis",
+      "sound": {
+        "music": "Close ticking percussion; score planned 14–18 dB below speech, smooth ducking.",
+        "ambience": "invented illegal impound behind a Vice City concrete yard; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.",
+        "sfx": "At 23s, brief natural foley tied only to the visible prop movement: Jason briefly in correct left driver seat turning key; Lucia outside right; distant unoccupied forklift headlights behind frosted divider; all cues planned, beneath centered voice."
+      },
+      "continuity": {
+        "location": "invented illegal impound behind a Vice City concrete yard",
+        "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior",
+        "characters": [
+          "Jason Duval",
+          "Lucia Caminos"
+        ],
+        "wardrobe": {
+          "Jason": "J02-heist-charcoal",
+          "Lucia": "L02-heist-hoodie"
+        },
+        "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement",
+        "props": "Silver two-door coupe, battery absent; four load-rated swivel wheel skates with brakes; 2.2m side gate; coupe length 4.5m, width 1.9m",
+        "beat_state": "Jason briefly in correct left driver seat turning key; Lucia outside right; distant unoccupied forklift headlights behind frosted divider",
+        "vehicle_occupants": "One silver coupe only, four wheel skates fully supporting four tires. Jason left driver seat only in scene4 then exits; all other scenes car empty. Distant forklift behind divider, operator never identifiable.",
+        "photo_state": "No photographs",
+        "source_asset_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png"
+        ],
+        "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."
+      },
+      "on_screen_text": {
+        "text": "",
+        "placement": "Upper safe area; subtitles lower fifth above platform controls",
+        "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"
+      }
+    },
+    {
+      "start": 28,
+      "end": 35,
+      "narration": "Lucia pointed at the skates. Their wheels swiveled. We only needed to push.",
+      "visual_prompt": "1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented illegal impound behind a Vice City concrete yard. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Lucia crouches right, points at swivel caster beneath right front tire; Jason exits and stands left. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. One silver coupe only, four wheel skates fully supporting four tires. Jason left driver seat only in scene4 then exits; all other scenes car empty. Distant forklift behind divider, operator never identifiable.. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.",
+      "camera": "Portrait medium low angle, 35mm; 4% push toward rising obstruction",
+      "sound": {
+        "music": "Bass tightens, percussion rises; score planned 14–18 dB below speech, smooth ducking.",
+        "ambience": "invented illegal impound behind a Vice City concrete yard; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.",
+        "sfx": "At 30s, brief natural foley tied only to the visible prop movement: Lucia crouches right, points at swivel caster beneath right front tire; Jason exits and stands left; all cues planned, beneath centered voice."
+      },
+      "continuity": {
+        "location": "invented illegal impound behind a Vice City concrete yard",
+        "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior",
+        "characters": [
+          "Jason Duval",
+          "Lucia Caminos"
+        ],
+        "wardrobe": {
+          "Jason": "J02-heist-charcoal",
+          "Lucia": "L02-heist-hoodie"
+        },
+        "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement",
+        "props": "Silver two-door coupe, battery absent; four load-rated swivel wheel skates with brakes; 2.2m side gate; coupe length 4.5m, width 1.9m",
+        "beat_state": "Lucia crouches right, points at swivel caster beneath right front tire; Jason exits and stands left",
+        "vehicle_occupants": "One silver coupe only, four wheel skates fully supporting four tires. Jason left driver seat only in scene4 then exits; all other scenes car empty. Distant forklift behind divider, operator never identifiable.",
+        "photo_state": "No photographs",
+        "source_asset_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png"
+        ],
+        "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."
+      },
+      "on_screen_text": {
+        "text": "",
+        "placement": "Upper safe area; subtitles lower fifth above platform controls",
+        "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"
+      }
+    },
+    {
+      "start": 35,
+      "end": 42,
+      "narration": "She released their brakes while I pulled the side gate open. The gap was narrower than the car.",
+      "visual_prompt": "1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented illegal impound behind a Vice City concrete yard. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Lucia releases skate brake levers while Jason pulls sliding gate; aperture 2.2m wide, coupe 4.5m long and 1.9m wide. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. One silver coupe only, four wheel skates fully supporting four tires. Jason left driver seat only in scene4 then exits; all other scenes car empty. Distant forklift behind divider, operator never identifiable.. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.",
+      "camera": "Over Lucia shoulder toward Jason, 50mm; maintain established geography",
+      "sound": {
+        "music": "Percussion accelerates quietly; score planned 14–18 dB below speech, smooth ducking.",
+        "ambience": "invented illegal impound behind a Vice City concrete yard; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.",
+        "sfx": "At 37s, brief natural foley tied only to the visible prop movement: Lucia releases skate brake levers while Jason pulls sliding gate; aperture 2.2m wide, coupe 4.5m long and 1.9m wide; all cues planned, beneath centered voice."
+      },
+      "continuity": {
+        "location": "invented illegal impound behind a Vice City concrete yard",
+        "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior",
+        "characters": [
+          "Jason Duval",
+          "Lucia Caminos"
+        ],
+        "wardrobe": {
+          "Jason": "J02-heist-charcoal",
+          "Lucia": "L02-heist-hoodie"
+        },
+        "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement",
+        "props": "Silver two-door coupe, battery absent; four load-rated swivel wheel skates with brakes; 2.2m side gate; coupe length 4.5m, width 1.9m",
+        "beat_state": "Lucia releases skate brake levers while Jason pulls sliding gate; aperture 2.2m wide, coupe 4.5m long and 1.9m wide",
+        "vehicle_occupants": "One silver coupe only, four wheel skates fully supporting four tires. Jason left driver seat only in scene4 then exits; all other scenes car empty. Distant forklift behind divider, operator never identifiable.",
+        "photo_state": "No photographs",
+        "source_asset_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png"
+        ],
+        "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."
+      },
+      "on_screen_text": {
+        "text": "",
+        "placement": "Upper safe area; subtitles lower fifth above platform controls",
+        "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"
+      }
+    },
+    {
+      "start": 42,
+      "end": 49,
+      "narration": "Narrower than its length, Lucia corrected. Together we rolled it sideways through the opening, engine cold.",
+      "visual_prompt": "1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented illegal impound behind a Vice City concrete yard. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Both outside coupe pushing body laterally right through 2.2m gate, all four grounded swivel skates visible; empty interior. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. One silver coupe only, four wheel skates fully supporting four tires. Jason left driver seat only in scene4 then exits; all other scenes car empty. Distant forklift behind divider, operator never identifiable.. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.",
+      "camera": "Tight action insert, 70mm; focus on the physical consequence",
+      "sound": {
+        "music": "Brief harmonic release; no impact over speech; score planned 14–18 dB below speech, smooth ducking.",
+        "ambience": "invented illegal impound behind a Vice City concrete yard; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.",
+        "sfx": "At 44s, brief natural foley tied only to the visible prop movement: Both outside coupe pushing body laterally right through 2.2m gate, all four grounded swivel skates visible; empty interior; all cues planned, beneath centered voice."
+      },
+      "continuity": {
+        "location": "invented illegal impound behind a Vice City concrete yard",
+        "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior",
+        "characters": [
+          "Jason Duval",
+          "Lucia Caminos"
+        ],
+        "wardrobe": {
+          "Jason": "J02-heist-charcoal",
+          "Lucia": "L02-heist-hoodie"
+        },
+        "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement",
+        "props": "Silver two-door coupe, battery absent; four load-rated swivel wheel skates with brakes; 2.2m side gate; coupe length 4.5m, width 1.9m",
+        "beat_state": "Both outside coupe pushing body laterally right through 2.2m gate, all four grounded swivel skates visible; empty interior",
+        "vehicle_occupants": "One silver coupe only, four wheel skates fully supporting four tires. Jason left driver seat only in scene4 then exits; all other scenes car empty. Distant forklift behind divider, operator never identifiable.",
+        "photo_state": "No photographs",
+        "source_asset_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png"
+        ],
+        "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."
+      },
+      "on_screen_text": {
+        "text": "",
+        "placement": "Upper safe area; subtitles lower fifth above platform controls",
+        "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"
+      }
+    },
+    {
+      "start": 49,
+      "end": 56,
+      "narration": "Outside, I touched the hood. She held out her hand. Half the sale, she said. Including your sentimental attachment.",
+      "visual_prompt": "1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented illegal impound behind a Vice City concrete yard. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Coupe parked outside behind closed side gate on skates; Jason palm on hood left, Lucia open palm right; both outside car. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. One silver coupe only, four wheel skates fully supporting four tires. Jason left driver seat only in scene4 then exits; all other scenes car empty. Distant forklift behind divider, operator never identifiable.. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.",
+      "camera": "Portrait two-shot, 50mm; slow pullback revealing final prop state",
+      "sound": {
+        "music": "Warm unresolved final chord; fade; score planned 14–18 dB below speech, smooth ducking.",
+        "ambience": "invented illegal impound behind a Vice City concrete yard; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.",
+        "sfx": "At 51s, brief natural foley tied only to the visible prop movement: Coupe parked outside behind closed side gate on skates; Jason palm on hood left, Lucia open palm right; both outside car; all cues planned, beneath centered voice."
+      },
+      "continuity": {
+        "location": "invented illegal impound behind a Vice City concrete yard",
+        "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior",
+        "characters": [
+          "Jason Duval",
+          "Lucia Caminos"
+        ],
+        "wardrobe": {
+          "Jason": "J02-heist-charcoal",
+          "Lucia": "L02-heist-hoodie"
+        },
+        "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement",
+        "props": "Silver two-door coupe, battery absent; four load-rated swivel wheel skates with brakes; 2.2m side gate; coupe length 4.5m, width 1.9m",
+        "beat_state": "Coupe parked outside behind closed side gate on skates; Jason palm on hood left, Lucia open palm right; both outside car",
+        "vehicle_occupants": "One silver coupe only, four wheel skates fully supporting four tires. Jason left driver seat only in scene4 then exits; all other scenes car empty. Distant forklift behind divider, operator never identifiable.",
+        "photo_state": "No photographs",
+        "source_asset_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png"
+        ],
+        "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."
+      },
+      "on_screen_text": {
+        "text": "",
+        "placement": "Upper safe area; subtitles lower fifth above platform controls",
+        "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"
+      }
+    }
+  ],
+  "timeline": "Linear",
+  "pov": "First person Jason throughout",
+  "delivery": "First-person confession with quoted Lucia retort",
+  "description": "Jason has ninety seconds to recover his car before the crusher gets it. Its battery is gone, wrecks block the lane, and a forklift is coming. Lucia spots something underneath it that he missed.\n\nUnofficial GTA VI fan fiction: original events and dialogue, not gameplay or the official story. Voice: ElevenLabs / 11.ai.\n\n#GTA6 #FanFiction #Shorts",
+  "tags": [
+    "GTA6",
+    "GTA VI",
+    "GTA 6 Fan Story",
+    "Vice City Alibis",
+    "Jason Duval",
+    "Lucia Caminos",
+    "fan fiction",
+    "crime short",
+    "impound escape",
+    "car crusher",
+    "stolen car recovery",
+    "getaway car",
+    "Jason confession",
+    "Shorts",
+    "11.ai"
+  ],
+  "title_options": [
+    "Their Getaway Car Had No Battery | GTA 6 Fan Story | 11.ai",
+    "I Stole My Car Sideways | GTA 6 Fan Story | 11.ai"
+  ],
+  "cover_headline": "NO BATTERY. NO EXIT.",
+  "story_audit": {
+    "goal": "Recover Jason car to sell its engine against their joint debt",
+    "stakes": "Crusher destroys their one saleable asset and leaves debt unpaid",
+    "obstacle": "Dead battery; blocked driving lane; approaching forklift; side gate appears too narrow",
+    "planted_clue": "Four swivel wheel skates beneath the tires",
+    "payoff": "They roll the car sideways through a gap wider than its width but shorter than its length",
+    "causal_check": "Goal causes entry; friction forces observation; planted physical clue enables coordinated action; final consequence changes their position. No tracker, gratuitous betrayal or charitable escape."
+  },
+  "canon_status": {
+    "canonical_characters": [
+      "Jason Duval",
+      "Lucia Caminos"
+    ],
+    "original": "All specific locations, events and dialogue are noncanon original fan fiction."
+  },
+  "asset_status": {
+    "script": "PLANNED — authored and editorially checked",
+    "storyboard": "PLANNED — eight shot plans, no artwork generated",
+    "audio": "PLANNED — no synthesis",
+    "video": "PLANNED — no render",
+    "release": "PLANNED — attribution does not establish commercial clearance"
+  },
+  "upload_title": "Their Getaway Car Had No Battery | GTA 6 Fan Story | 11.ai",
+  "thumbnail_headline": "NO BATTERY. NO EXIT."
+}

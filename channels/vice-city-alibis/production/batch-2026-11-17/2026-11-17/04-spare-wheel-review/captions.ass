@@ -1,0 +1,43 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,57,&H00D8F2FF,&H00D8F2FF,&H001D0916,&H80000000,-1,0,0,0,100,100,0,0,1,4,1,2,90,150,330,1
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.35,0:00:01.47,Default,,0,0,0,,Jason ripped open the
+Dialogue: 0,0:00:01.47,0:00:04.75,Default,,0,0,0,,courier bag.\NNewspaper. Outside,
+Dialogue: 0,0:00:04.83,0:00:05.87,Default,,0,0,0,,someone started dragging the
+Dialogue: 0,0:00:05.87,0:00:07.87,Default,,0,0,0,,warehouse shutter down. Lucia
+Dialogue: 0,0:00:07.87,0:00:08.75,Default,,0,0,0,,looked past the empty
+Dialogue: 0,0:00:08.75,0:00:10.75,Default,,0,0,0,,van. Mud covered every
+Dialogue: 0,0:00:10.75,0:00:12.19,Default,,0,0,0,,tire except the spotless
+Dialogue: 0,0:00:12.19,0:00:13.71,Default,,0,0,0,,spare underneath it. The
+Dialogue: 0,0:00:13.71,0:00:14.75,Default,,0,0,0,,Fixer had pointed at
+Dialogue: 0,0:00:14.75,0:00:15.95,Default,,0,0,0,,that bag too quickly.
+Dialogue: 0,0:00:16.27,0:00:17.15,Default,,0,0,0,,She shoved a dolly
+Dialogue: 0,0:00:17.15,0:00:18.75,Default,,0,0,0,,beneath the spare. Jason
+Dialogue: 0,0:00:18.75,0:00:20.59,Default,,0,0,0,,wanted the exit. Lucia
+Dialogue: 0,0:00:20.59,0:00:21.71,Default,,0,0,0,,cut the wheel loose.
+Dialogue: 0,0:00:21.79,0:00:23.63,Default,,0,0,0,,It landed heavily; folded
+Dialogue: 0,0:00:23.63,0:00:24.83,Default,,0,0,0,,bills bulged through a
+Dialogue: 0,0:00:24.83,0:00:26.35,Default,,0,0,0,,split. Then the shutter
+Dialogue: 0,0:00:26.35,0:00:27.59,Default,,0,0,0,,hit the dolly handle.
+Dialogue: 0,0:00:27.71,0:00:29.87,Default,,0,0,0,,Metal screamed. Their only
+Dialogue: 0,0:00:29.87,0:00:31.39,Default,,0,0,0,,doorway stopped two feet
+Dialogue: 0,0:00:31.39,0:00:33.31,Default,,0,0,0,,above concrete. Jason dropped
+Dialogue: 0,0:00:33.31,0:00:34.27,Default,,0,0,0,,flat and dragged the
+Dialogue: 0,0:00:34.27,0:00:36.27,Default,,0,0,0,,wheel under. Lucia followed,
+Dialogue: 0,0:00:36.27,0:00:37.55,Default,,0,0,0,,squeezing between the tire
+Dialogue: 0,0:00:37.55,0:00:38.83,Default,,0,0,0,,and that trembling shutter.
+Dialogue: 0,0:00:39.15,0:00:40.47,Default,,0,0,0,,The Fixer arrived holding
+Dialogue: 0,0:00:40.47,0:00:41.95,Default,,0,0,0,,the newspaper bag. Their
+Dialogue: 0,0:00:41.95,0:00:43.55,Default,,0,0,0,,getaway van outside was
+Dialogue: 0,0:00:43.55,0:00:45.39,Default,,0,0,0,,gone. His hidden fortune
+Dialogue: 0,0:00:45.39,0:00:46.83,Default,,0,0,0,,rolled away. At the
+Dialogue: 0,0:00:46.83,0:00:48.35,Default,,0,0,0,,lockup, Jason asked how
+Dialogue: 0,0:00:48.35,0:00:50.07,Default,,0,0,0,,she knew. Lucia tapped
+Dialogue: 0,0:00:50.07,0:00:51.71,Default,,0,0,0,,the clean rubber. Nobody
+Dialogue: 0,0:00:51.71,0:00:52.99,Default,,0,0,0,,washes the spare.

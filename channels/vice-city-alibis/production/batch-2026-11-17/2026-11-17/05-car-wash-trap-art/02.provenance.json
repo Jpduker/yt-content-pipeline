@@ -1,0 +1,8 @@
+{
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e7a1-a01b-7fa0-9344-4baaa3010303\\exec-8d3bc2a3-c0b5-4c80-aa02-336995c7e998.png",
+  "prompt": "Targeted background-only edit. Preserve existing Fixer bald face, cream suit/floral shirt, hand on wheel, black sedan windshield and every foreground car pixel/portrait composition. Correct geography: the CAMERA is inside the car wash looking BACK toward its ENTRANCE, so this following black sedan's FRONT approaches camera from the rainy street. Behind the sedan must be the OUTSIDE tropical street with wet dark palms and distant magenta/teal street lights. REMOVE ALL carwash brushes, arch, tunnel or shutter currently behind the car and replace with ordinary rainy palm-lined street. No other car or person. Keep premium painted neon crime style. Frame stays portrait, do not alter face or left-hand-driver seating IMAGE RIGHT.",
+  "references": [
+    "C:/Users/Vivek Sai/Downloads/YouTube/channels/vice-city-alibis/production/batch-2026-11-17/2026-11-17/05-car-wash-trap-art/02.png"
+  ]
+}

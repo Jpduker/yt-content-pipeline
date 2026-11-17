@@ -1,0 +1,8 @@
+{
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e7a1-a01b-7fa0-9344-4baaa3010303\\exec-ca7c7a11-a321-429e-bbf3-170837ffff5c.png",
+  "prompt": "Tiny precise background-only correction to this target image. Preserve Jason black leather jacket over olive camo tee, Lucia white tank and black boots, their faces/hands, chained YELLOW scooter with same bollard, open door, LOW GRAY four-wheel platform trolley exactly unchanged. Remove ONLY the black sedan facing the camera in the far UPPER RIGHT background, replacing its area with solid laundry brick wall/white hanging-laundry screen extending across that sightline. Keep red EMPTY coupe under wash brushes where it is, with rear facing camera. No new cars or occupants. Maintain all foreground pixels/composition; do not change trolley shape, wheel count, handle, scale or color. No text.",
+  "references": [
+    "C:/Users/Vivek Sai/Downloads/YouTube/channels/vice-city-alibis/production/batch-2026-11-17/2026-11-17/05-car-wash-trap-art/06.png"
+  ]
+}

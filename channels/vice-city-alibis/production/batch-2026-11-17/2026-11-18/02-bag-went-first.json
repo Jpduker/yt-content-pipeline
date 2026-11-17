@@ -1,0 +1,336 @@
+{
+  "id": "vca-20261118-02-bag-went-first",
+  "title": "The Money Went Down First",
+  "date": "2026-11-18",
+  "duration_seconds": 56,
+  "status": "PLANNED",
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "hook": "Jason threw their cash overboard. Lucia grabbed the strap before it cleared the roof railing.",
+  "script": "Jason threw their cash overboard. Lucia grabbed the strap before it cleared the roof railing. Below them, the fire escape ladder hung above street level. Their roof door shook under boots. Jason wanted to jump. Lucia pointed below: the ladder's top rung hung just beyond their reach. She hooked their bag strap around its top rung. Their entire score became a hanging weight. The ladder slid downward. Then the strap caught a rusty bolt, leaving the bottom rungs above the pavement. Lucia climbed onto the fixed platform and pulled the bag sideways. Jason held her belt until it freed. The ladder settled. Jason climbed down first, unhooked the money, then steadied the rungs while Lucia followed. They left with every dollar as the roof door burst open. Jason decided gravity could have a cut: nothing.",
+  "word_count": 135,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "narration": "Jason threw their cash overboard. Lucia grabbed the strap before it cleared the roof railing.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented flat hotel roof above fixed fire-escape platforms; lowest sliding ladder counterbalanced and held above alley. Heroes stand at roof edge above top of lowest flight due low rear annexe, no multi-storey jump. Roof door west; alley east. Jason starts swinging heavy black cash bag over railing; Lucia catches its long intact strap; roof door behind closed. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Medium immediate action Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Sharp low pulse; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain on roof, distant nightlife below, pursuer impacts behind closed roof door; duck beneath speech and match visible perspective",
+        "sfx": "Strap snaps taut, door thump; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Cobalt hotel rear fire escape",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Bag closed with full cash; strap intact; ladder raised below edge; no money dropped loose.",
+        "vehicle_occupancy": "Heroes roof on foot; no vehicles.",
+        "entry_exit_and_geography": "Invented flat hotel roof above fixed fire-escape platforms; lowest sliding ladder counterbalanced and held above alley. Heroes stand at roof edge above top of lowest flight due low rear annexe, no multi-storey jump. Roof door west; alley east. Jason starts swinging heavy black cash bag over railing; Lucia catches its long intact strap; roof door behind closed.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "CASH OVERBOARD"
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "narration": "Below them, the fire escape ladder hung above street level. Their roof door shook under boots.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented flat hotel roof above fixed fire-escape platforms; lowest sliding ladder counterbalanced and held above alley. Heroes stand at roof edge above top of lowest flight due low rear annexe, no multi-storey jump. Roof door west; alley east. Wide establishes low rear-annexe roof level with fixed lower fire platform, sliding ladder bottom still high above street; door shakes west. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Clear roof-to-alley geography Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Taut percussion; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain on roof, distant nightlife below, pursuer impacts behind closed roof door; duck beneath speech and match visible perspective",
+        "sfx": "Boot impacts, rain gutter; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Cobalt hotel rear fire escape",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Bag held by both heroes; no ladder movement yet.",
+        "vehicle_occupancy": "Two heroes; anonymous pursuer boots only behind roof door.",
+        "entry_exit_and_geography": "Invented flat hotel roof above fixed fire-escape platforms; lowest sliding ladder counterbalanced and held above alley. Heroes stand at roof edge above top of lowest flight due low rear annexe, no multi-storey jump. Roof door west; alley east. Wide establishes low rear-annexe roof level with fixed lower fire platform, sliding ladder bottom still high above street; door shakes west.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "NO WAY DOWN"
+    },
+    {
+      "start": 14,
+      "end": 21,
+      "narration": "Jason wanted to jump. Lucia pointed below: the ladder's top rung hung just beyond their reach.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented flat hotel roof above fixed fire-escape platforms; lowest sliding ladder counterbalanced and held above alley. Heroes stand at roof edge above top of lowest flight due low rear annexe, no multi-storey jump. Roof door west; alley east. Lucia points at visible counterweight on sliding ladder; Jason looks at wet pavement too far for safe jump. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Low counterweight insert Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Held bass; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain on roof, distant nightlife below, pursuer impacts behind closed roof door; duck beneath speech and match visible perspective",
+        "sfx": "Metal chain creak; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Cobalt hotel rear fire escape",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Counterweight and guide rails existing equipment; cash still bag; no release gadget invented.",
+        "vehicle_occupancy": "Heroes at railing.",
+        "entry_exit_and_geography": "Invented flat hotel roof above fixed fire-escape platforms; lowest sliding ladder counterbalanced and held above alley. Heroes stand at roof edge above top of lowest flight due low rear annexe, no multi-storey jump. Roof door west; alley east. Lucia points at visible counterweight on sliding ladder; Jason looks at wet pavement too far for safe jump.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "TOO HIGH"
+    },
+    {
+      "start": 21,
+      "end": 28,
+      "narration": "She hooked their bag strap around its top rung. Their entire score became a hanging weight.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented flat hotel roof above fixed fire-escape platforms; lowest sliding ladder counterbalanced and held above alley. Heroes stand at roof edge above top of lowest flight due low rear annexe, no multi-storey jump. Roof door west; alley east. Lucia hooks bag long strap around top rung below railing using long bag strap from adjacent fixed platform; Jason supports bag until hooked. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Side technical geography Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Rising plucked motif; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain on roof, distant nightlife below, pursuer impacts behind closed roof door; duck beneath speech and match visible perspective",
+        "sfx": "Strap rub on rung; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Cobalt hotel rear fire escape",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Bag becomes hanging weight; strap secure over rung; no loose currency.",
+        "vehicle_occupancy": "Lucia on fixed platform, Jason roof edge holding strap.",
+        "entry_exit_and_geography": "Invented flat hotel roof above fixed fire-escape platforms; lowest sliding ladder counterbalanced and held above alley. Heroes stand at roof edge above top of lowest flight due low rear annexe, no multi-storey jump. Roof door west; alley east. Lucia hooks bag long strap around top rung below railing using long bag strap from adjacent fixed platform; Jason supports bag until hooked.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "THE BAG FIRST"
+    },
+    {
+      "start": 28,
+      "end": 35,
+      "narration": "The ladder slid downward. Then the strap caught a rusty bolt, leaving the bottom rungs above the pavement.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented flat hotel roof above fixed fire-escape platforms; lowest sliding ladder counterbalanced and held above alley. Heroes stand at roof edge above top of lowest flight due low rear annexe, no multi-storey jump. Roof door west; alley east. Sliding ladder halfway down, bag strap snags protruding rusty bolt at platform side; bottom rungs still above alley, not occupied. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Wide with bolt inset Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Pulse pauses; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain on roof, distant nightlife below, pursuer impacts behind closed roof door; duck beneath speech and match visible perspective",
+        "sfx": "Metal slide stops, strap strain; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Cobalt hotel rear fire escape",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Counterweight lifting; bag trapped on bolt; ladder not yet grounded.",
+        "vehicle_occupancy": "Heroes stay roof/fixed platform; nobody jumps.",
+        "entry_exit_and_geography": "Invented flat hotel roof above fixed fire-escape platforms; lowest sliding ladder counterbalanced and held above alley. Heroes stand at roof edge above top of lowest flight due low rear annexe, no multi-storey jump. Roof door west; alley east. Sliding ladder halfway down, bag strap snags protruding rusty bolt at platform side; bottom rungs still above alley, not occupied.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "SNAGGED"
+    },
+    {
+      "start": 35,
+      "end": 42,
+      "narration": "Lucia climbed onto the fixed platform and pulled the bag sideways. Jason held her belt until it freed.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented flat hotel roof above fixed fire-escape platforms; lowest sliding ladder counterbalanced and held above alley. Heroes stand at roof edge above top of lowest flight due low rear annexe, no multi-storey jump. Roof door west; alley east. Lucia kneels on secure fixed platform and pulls hanging bag sideways clear of bolt; Jason holds back of her belt with both feet planted on roof. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Medium side view showing supports Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Urgent restrained rhythm; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain on roof, distant nightlife below, pursuer impacts behind closed roof door; duck beneath speech and match visible perspective",
+        "sfx": "Fabric release, metal slide; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Cobalt hotel rear fire escape",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Bag frees without tear; strap still on ladder rung; heroes supported; no airborne body.",
+        "vehicle_occupancy": "Two heroes only.",
+        "entry_exit_and_geography": "Invented flat hotel roof above fixed fire-escape platforms; lowest sliding ladder counterbalanced and held above alley. Heroes stand at roof edge above top of lowest flight due low rear annexe, no multi-storey jump. Roof door west; alley east. Lucia kneels on secure fixed platform and pulls hanging bag sideways clear of bolt; Jason holds back of her belt with both feet planted on roof.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "HOLD ME"
+    },
+    {
+      "start": 42,
+      "end": 49,
+      "narration": "The ladder settled. Jason climbed down first, unhooked the money, then steadied the rungs while Lucia followed.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented flat hotel roof above fixed fire-escape platforms; lowest sliding ladder counterbalanced and held above alley. Heroes stand at roof edge above top of lowest flight due low rear annexe, no multi-storey jump. Roof door west; alley east. Ladder fully lowered to pavement; Jason stands at its base removing bag strap from bottom-reachable rung while Lucia begins descending. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Alley upward angle Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Resolution chord; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain on roof, distant nightlife below, pursuer impacts behind closed roof door; duck beneath speech and match visible perspective",
+        "sfx": "Ladder foot clunk, bag lift; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Cobalt hotel rear fire escape",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Ladder down; bag unhooked and held by Jason; cash sealed; stop latch holds ladder down after weight removed.",
+        "vehicle_occupancy": "Jason alley, Lucia ladder; no vehicle.",
+        "entry_exit_and_geography": "Invented flat hotel roof above fixed fire-escape platforms; lowest sliding ladder counterbalanced and held above alley. Heroes stand at roof edge above top of lowest flight due low rear annexe, no multi-storey jump. Roof door west; alley east. Ladder fully lowered to pavement; Jason stands at its base removing bag strap from bottom-reachable rung while Lucia begins descending.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "ALL OF IT"
+    },
+    {
+      "start": 49,
+      "end": 56,
+      "narration": "They left with every dollar as the roof door burst open. Jason decided gravity could have a cut: nothing.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented flat hotel roof above fixed fire-escape platforms; lowest sliding ladder counterbalanced and held above alley. Heroes stand at roof edge above top of lowest flight due low rear annexe, no multi-storey jump. Roof door west; alley east. Jason and Lucia walk east down alley with full bag as roof door bursts west above, anonymous silhouettes only; ladder now empty behind. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Wide payoff with roof behind Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Warm dry ending; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain on roof, distant nightlife below, pursuer impacts behind closed roof door; duck beneath speech and match visible perspective",
+        "sfx": "Roof door impact distant, wet footsteps; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Cobalt hotel rear fire escape",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Cash retained; no money left as counterweight; ladder secured by normal deployed stop.",
+        "vehicle_occupancy": "Heroes on foot; distant anonymous pursuers roof only.",
+        "entry_exit_and_geography": "Invented flat hotel roof above fixed fire-escape platforms; lowest sliding ladder counterbalanced and held above alley. Heroes stand at roof edge above top of lowest flight due low rear annexe, no multi-storey jump. Roof door west; alley east. Jason and Lucia walk east down alley with full bag as roof door bursts west above, anonymous silhouettes only; ladder now empty behind.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "GRAVITY GETS NOTHING"
+    }
+  ],
+  "timeline": "linear",
+  "pov": "third-person limited: Jason and Lucia",
+  "delivery": "narrator-led; Liam only; quoted dialogue is narrated quotation, not an approved character voice",
+  "description": "The roof door is about to give way, and the fire escape will not reach the street. Jason is ready to jump, but Lucia has a different use for their stolen cash.\n\nOriginal GTA VI fan fiction featuring Jason Duval and Lucia Caminos; invented events, not official Rockstar story or gameplay. Voice narration: 11.ai.\n\n#GTA6 #FanFiction #Shorts",
+  "tags": [
+    "GTA6",
+    "GTA 6",
+    "GTA VI",
+    "Vice City Alibis",
+    "Jason Duval",
+    "Lucia Caminos",
+    "GTA 6 fan fiction",
+    "rooftop escape",
+    "cash bag",
+    "fire escape ladder",
+    "heist pursuit",
+    "Jason and Lucia escape"
+  ],
+  "title_options": [
+    "The Money Went Down First | GTA 6 Fan Story | 11.ai",
+    "Jason and Lucia: The Money Went Down First | GTA 6 Fan Story | 11.ai",
+    "The Bag First | GTA 6 Fan Story | 11.ai"
+  ],
+  "thumbnail_headline": "DON’T DROP IT",
+  "story_audit": {
+    "goal": "Escape a rooftop with their stolen cash before pursuers break through.",
+    "stakes": "Being cornered on the roof or losing the score in a desperate jump.",
+    "obstacle": "Raised counterbalanced ladder and a snagged bag strap.",
+    "planted_clue": "A low rear annexe places the heroes beside the reachable ladder head; counterweight and platform geometry are established first.",
+    "payoff": "They use the cash as temporary weight, free the snag together, deploy the normal ladder stop and reclaim every dollar.",
+    "causal_check": "No distant ladder is magically within reach. The fixed platform supports Lucia, Jason braces her, and the deployed stop keeps the ladder down after the bag is removed."
+  },
+  "production_notes": {
+    "timing": "Eight contiguous 7-second planning bins; 56 seconds is estimated, final speech must be synthesized and measured at 50–60 seconds without time-stretching.",
+    "visual_status": "shot plans only; no new imagery generated or approved",
+    "audio_status": "no API call or audio generated; preserve native Liam pitch/cadence; dry centered voice and separate music/ambience/SFX/final mix stems",
+    "canon": "Jason Duval and Lucia Caminos are GTA VI characters used in fan fiction. The Fixer is an original supporting character. All events, dialogue, vehicles and named micro-sets here are original inventions.",
+    "release": "PLANNED, not rendered, uploaded, approved or commercially cleared; 11.ai attribution retained for intended free-plan provenance, not a license claim."
+  },
+  "upload_title": "Jason Threw Their Cash Off the Roof | GTA 6 | 11.ai"
+}

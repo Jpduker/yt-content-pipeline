@@ -1,0 +1,165 @@
+{
+  "last_observed_balance": 507,
+  "balance_source": "ElevenLabs quota_exceeded response on request for 816-credit episode07",
+  "approved_model": "eleven_v4",
+  "episodes_with_matching_audio": 4,
+  "remaining_episodes": 22,
+  "remaining_script_characters": 17583,
+  "estimate": "Character count is a planning estimate; actual provider charges and retakes may differ. No plan purchase or model substitution authorized.",
+  "episodes": [
+    {
+      "id": "vca-20261117-07-his-own-voice",
+      "date": "2026-11-17",
+      "title": "The Fixer Opened His Own Trap",
+      "characters": 816,
+      "matching_audio_exists": false
+    },
+    {
+      "id": "vca-20261118-01-locker-number",
+      "date": "2026-11-18",
+      "title": "Lucia Read the Key Upside Down",
+      "characters": 823,
+      "matching_audio_exists": false
+    },
+    {
+      "id": "vca-20261118-02-bag-went-first",
+      "date": "2026-11-18",
+      "title": "The Money Went Down First",
+      "characters": 803,
+      "matching_audio_exists": false
+    },
+    {
+      "id": "vca-20261118-03-broken-clasp",
+      "date": "2026-11-18",
+      "title": "Lucia Recognized the Broken Clasp",
+      "characters": 802,
+      "matching_audio_exists": false
+    },
+    {
+      "id": "vca-20261118-04-counting-machine",
+      "date": "2026-11-18",
+      "title": "The Counting Machine Was Lying",
+      "characters": 830,
+      "matching_audio_exists": false
+    },
+    {
+      "id": "vca-20261118-05-valet-ticket",
+      "date": "2026-11-18",
+      "title": "Lucia Stole His Coat Instead",
+      "characters": 795,
+      "matching_audio_exists": false
+    },
+    {
+      "id": "vca-20261118-06-empty-armored-truck",
+      "date": "2026-11-18",
+      "title": "The Empty Truck Was the Score",
+      "characters": 816,
+      "matching_audio_exists": false
+    },
+    {
+      "id": "vca-20261118-07-shadow-drew-first",
+      "date": "2026-11-18",
+      "title": "His Shadow Drew First",
+      "characters": 753,
+      "matching_audio_exists": false
+    },
+    {
+      "id": "01-the-late-bid",
+      "date": "2026-11-19",
+      "title": "The Late Bid",
+      "characters": 792,
+      "matching_audio_exists": false
+    },
+    {
+      "id": "02-the-brake-light",
+      "date": "2026-11-19",
+      "title": "The Brake Light",
+      "characters": 786,
+      "matching_audio_exists": false
+    },
+    {
+      "id": "03-the-second-toast",
+      "date": "2026-11-19",
+      "title": "The Second Toast",
+      "characters": 767,
+      "matching_audio_exists": false
+    },
+    {
+      "id": "04-the-victory-lap",
+      "date": "2026-11-19",
+      "title": "The Victory Lap",
+      "characters": 803,
+      "matching_audio_exists": false
+    },
+    {
+      "id": "05-the-dead-frequency",
+      "date": "2026-11-19",
+      "title": "The Dead Frequency",
+      "characters": 843,
+      "matching_audio_exists": false
+    },
+    {
+      "id": "06-the-empty-cart",
+      "date": "2026-11-19",
+      "title": "The Empty Cart",
+      "characters": 766,
+      "matching_audio_exists": false
+    },
+    {
+      "id": "07-the-last-seat",
+      "date": "2026-11-19",
+      "title": "The Last Seat",
+      "characters": 795,
+      "matching_audio_exists": false
+    },
+    {
+      "id": "VCA-B261117-20261120-E01",
+      "date": "2026-11-20",
+      "title": "The Elevator That Owed Them",
+      "characters": 850,
+      "matching_audio_exists": false
+    },
+    {
+      "id": "VCA-B261117-20261120-E02",
+      "date": "2026-11-20",
+      "title": "I Stole My Car Sideways",
+      "characters": 747,
+      "matching_audio_exists": false
+    },
+    {
+      "id": "VCA-B261117-20261120-E03",
+      "date": "2026-11-20",
+      "title": "The Speaker With No Bass",
+      "characters": 791,
+      "matching_audio_exists": false
+    },
+    {
+      "id": "VCA-B261117-20261120-E04",
+      "date": "2026-11-20",
+      "title": "I Robbed The Same Jacket Twice",
+      "characters": 785,
+      "matching_audio_exists": false
+    },
+    {
+      "id": "VCA-B261117-20261120-E05",
+      "date": "2026-11-20",
+      "title": "We Stole The Dock Too",
+      "characters": 827,
+      "matching_audio_exists": false
+    },
+    {
+      "id": "VCA-B261117-20261120-E06",
+      "date": "2026-11-20",
+      "title": "The Fixer Bought The Wrong Silence",
+      "characters": 805,
+      "matching_audio_exists": false
+    },
+    {
+      "id": "VCA-B261117-20261120-E07",
+      "date": "2026-11-20",
+      "title": "The Exit Was In The Reflection",
+      "characters": 788,
+      "matching_audio_exists": false
+    }
+  ]
+}

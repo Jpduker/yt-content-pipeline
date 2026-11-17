@@ -1,0 +1,336 @@
+{
+  "id": "vca-20261118-07-shadow-drew-first",
+  "title": "His Shadow Drew First",
+  "date": "2026-11-18",
+  "duration_seconds": 56,
+  "status": "PLANNED",
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "hook": "The Fixer's shadow raised a gun. Jason saw it before the pistol cleared the table.",
+  "script": "The Fixer's shadow raised a gun. Jason saw it before the pistol cleared the table. Lucia stood opposite him. Their stolen diamonds sat beside his payment case. He wanted both. Jason dropped his lighter. Lucia followed his glance toward the wall and understood the warning. He ducked. She shoved the steel payment case into the Fixer's rising hand. One shot. The ceiling took it. Jason grabbed the falling pistol while Lucia kicked the table forward. Pinned behind his chair, the Fixer watched Jason take the diamonds and Lucia take their payment. They backed onto the dock, keeping him in sight until the boat engine caught. No chasing ghosts. Jason checked the cash beneath the deck lamp. Lucia kept the lighter. Next time, she wanted a louder warning.",
+  "word_count": 127,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "narration": "The Fixer's shadow raised a gun. Jason saw it before the pistol cleared the table.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented small dock office: wall north, table center, Fixer north-side chair, heroes south, bright low desk lamp southwest projects Fixer shadow onto north wall; dock exit east leads directly to heroes moored dark-green skiff. Empty ceiling, no bystanders. Fixer seated north, right hand raises pistol from below tabletop; north wall shadow shows gun shape first; Jason south-left sees shadow, Lucia south-right watches Fixer face. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Shadow-first insert then Jason eye reaction Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Tight low menace; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Close dock-office rain and water outside, engine only after boarding; one motivated gunshot; duck beneath speech and match visible perspective",
+        "sfx": "Chair leather creak; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Breakwater dock office",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Diamond pouch on table left, steel payment case right closed; Jason lighter in hand; Fixer pistol only gun initially.",
+        "vehicle_occupancy": "Heroes and Fixer inside; dark-green skiff outside empty.",
+        "entry_exit_and_geography": "Invented small dock office: wall north, table center, Fixer north-side chair, heroes south, bright low desk lamp southwest projects Fixer shadow onto north wall; dock exit east leads directly to heroes moored dark-green skiff. Empty ceiling, no bystanders. Fixer seated north, right hand raises pistol from below tabletop; north wall shadow shows gun shape first; Jason south-left sees shadow, Lucia south-right watches Fixer face.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "SHADOW DREW FIRST"
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "narration": "Lucia stood opposite him. Their stolen diamonds sat beside his payment case. He wanted both.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented small dock office: wall north, table center, Fixer north-side chair, heroes south, bright low desk lamp southwest projects Fixer shadow onto north wall; dock exit east leads directly to heroes moored dark-green skiff. Empty ceiling, no bystanders. Wide shows both prizes on table and east open dock door; Fixer gun still below tabletop but shadow rises clearly, heroes keep feet planted. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Wide geometry and lamp position Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Held bass; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Close dock-office rain and water outside, engine only after boarding; one motivated gunshot; duck beneath speech and match visible perspective",
+        "sfx": "Dock water, tiny metal shift; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Breakwater dock office",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Two prizes remain table; no cash duplication; gun in Fixer right hand.",
+        "vehicle_occupancy": "Same three people; skiff moored outside empty.",
+        "entry_exit_and_geography": "Invented small dock office: wall north, table center, Fixer north-side chair, heroes south, bright low desk lamp southwest projects Fixer shadow onto north wall; dock exit east leads directly to heroes moored dark-green skiff. Empty ceiling, no bystanders. Wide shows both prizes on table and east open dock door; Fixer gun still below tabletop but shadow rises clearly, heroes keep feet planted.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "HE WANTS BOTH"
+    },
+    {
+      "start": 14,
+      "end": 21,
+      "narration": "Jason dropped his lighter. Lucia followed his glance toward the wall and understood the warning.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented small dock office: wall north, table center, Fixer north-side chair, heroes south, bright low desk lamp southwest projects Fixer shadow onto north wall; dock exit east leads directly to heroes moored dark-green skiff. Empty ceiling, no bystanders. Jason releases brass lighter to floor beside his left shoe, eyes flick toward wall; Lucia catches glance and braces palm on steel case. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Medium silent coordination Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Pulse holds; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Close dock-office rain and water outside, engine only after boarding; one motivated gunshot; duck beneath speech and match visible perspective",
+        "sfx": "Lighter clinks; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Breakwater dock office",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Lighter falling; pistol rising; diamond pouch untouched; payment case within Lucia reach.",
+        "vehicle_occupancy": "Heroes south table, Fixer north.",
+        "entry_exit_and_geography": "Invented small dock office: wall north, table center, Fixer north-side chair, heroes south, bright low desk lamp southwest projects Fixer shadow onto north wall; dock exit east leads directly to heroes moored dark-green skiff. Empty ceiling, no bystanders. Jason releases brass lighter to floor beside his left shoe, eyes flick toward wall; Lucia catches glance and braces palm on steel case.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "DOWN"
+    },
+    {
+      "start": 21,
+      "end": 28,
+      "narration": "He ducked. She shoved the steel payment case into the Fixer's rising hand. One shot.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented small dock office: wall north, table center, Fixer north-side chair, heroes south, bright low desk lamp southwest projects Fixer shadow onto north wall; dock exit east leads directly to heroes moored dark-green skiff. Empty ceiling, no bystanders. Jason ducks south-left; Lucia shoves steel case north across table into rising wrist; one muzzle flash directed upward into empty ceiling, no gore or injury closeup. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Wide action with clear muzzle direction Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Music ducks for shot; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Close dock-office rain and water outside, engine only after boarding; one motivated gunshot; duck beneath speech and match visible perspective",
+        "sfx": "Single subdued gunshot and case impact; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Breakwater dock office",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "One shot only; case struck wrist; gun knocked loose; no straight muzzle toward camera or heroes.",
+        "vehicle_occupancy": "Jason crouched left, Lucia south-right, Fixer seated north.",
+        "entry_exit_and_geography": "Invented small dock office: wall north, table center, Fixer north-side chair, heroes south, bright low desk lamp southwest projects Fixer shadow onto north wall; dock exit east leads directly to heroes moored dark-green skiff. Empty ceiling, no bystanders. Jason ducks south-left; Lucia shoves steel case north across table into rising wrist; one muzzle flash directed upward into empty ceiling, no gore or injury closeup.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "ONE SHOT"
+    },
+    {
+      "start": 28,
+      "end": 35,
+      "narration": "The ceiling took it. Jason grabbed the falling pistol while Lucia kicked the table forward.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented small dock office: wall north, table center, Fixer north-side chair, heroes south, bright low desk lamp southwest projects Fixer shadow onto north wall; dock exit east leads directly to heroes moored dark-green skiff. Empty ceiling, no bystanders. Ceiling fresh small bullet hole above empty room; Jason catches dropped gun near table edge, Lucia drives table toward Fixer chair using both hands. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Medium follow-through Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Urgent low rhythm; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Close dock-office rain and water outside, engine only after boarding; one motivated gunshot; duck beneath speech and match visible perspective",
+        "sfx": "Table scrape, pistol catch; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Breakwater dock office",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Gun transfers Fixer to Jason; no second shot; table pins chair against wall temporarily; cash case remains tabletop.",
+        "vehicle_occupancy": "Fixer north chair, heroes south; no bystander.",
+        "entry_exit_and_geography": "Invented small dock office: wall north, table center, Fixer north-side chair, heroes south, bright low desk lamp southwest projects Fixer shadow onto north wall; dock exit east leads directly to heroes moored dark-green skiff. Empty ceiling, no bystanders. Ceiling fresh small bullet hole above empty room; Jason catches dropped gun near table edge, Lucia drives table toward Fixer chair using both hands.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "MISSED"
+    },
+    {
+      "start": 35,
+      "end": 42,
+      "narration": "Pinned behind his chair, the Fixer watched Jason take the diamonds and Lucia take their payment.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented small dock office: wall north, table center, Fixer north-side chair, heroes south, bright low desk lamp southwest projects Fixer shadow onto north wall; dock exit east leads directly to heroes moored dark-green skiff. Empty ceiling, no bystanders. Jason holds gun pointed low but controlling Fixer while lifting diamond pouch with free hand; Lucia grips closed steel cash case; Fixer held back by table/chair geometry. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Wide prize transfer Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Tense release; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Close dock-office rain and water outside, engine only after boarding; one motivated gunshot; duck beneath speech and match visible perspective",
+        "sfx": "Case handle click; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Breakwater dock office",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Diamond pouch Jason; payment case Lucia; gun Jason; lighter still floor beside exit path.",
+        "vehicle_occupancy": "Heroes retreat east, Fixer chair north.",
+        "entry_exit_and_geography": "Invented small dock office: wall north, table center, Fixer north-side chair, heroes south, bright low desk lamp southwest projects Fixer shadow onto north wall; dock exit east leads directly to heroes moored dark-green skiff. Empty ceiling, no bystanders. Jason holds gun pointed low but controlling Fixer while lifting diamond pouch with free hand; Lucia grips closed steel cash case; Fixer held back by table/chair geometry.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "BOTH BAGS"
+    },
+    {
+      "start": 42,
+      "end": 49,
+      "narration": "They backed onto the dock, keeping him in sight until the boat engine caught. No chasing ghosts.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented small dock office: wall north, table center, Fixer north-side chair, heroes south, bright low desk lamp southwest projects Fixer shadow onto north wall; dock exit east leads directly to heroes moored dark-green skiff. Empty ceiling, no bystanders. Heroes back through east door to skiff, Lucia picks lighter from floor on way and pockets it; Jason keeps Fixer visible through open office door until boarding. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Dock-side wide with sight line Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Momentum pulse; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Close dock-office rain and water outside, engine only after boarding; one motivated gunshot; duck beneath speech and match visible perspective",
+        "sfx": "Rope release, outboard starts; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Breakwater dock office",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Lighter now Lucia; gun Jason lowered; diamonds Jason pocket; case aboard skiff; mooring untied before engine start.",
+        "vehicle_occupancy": "Skiff Lucia at stern controls, Jason beside bow; Fixer stays office behind table.",
+        "entry_exit_and_geography": "Invented small dock office: wall north, table center, Fixer north-side chair, heroes south, bright low desk lamp southwest projects Fixer shadow onto north wall; dock exit east leads directly to heroes moored dark-green skiff. Empty ceiling, no bystanders. Heroes back through east door to skiff, Lucia picks lighter from floor on way and pockets it; Jason keeps Fixer visible through open office door until boarding.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "KEEP HIM IN SIGHT"
+    },
+    {
+      "start": 49,
+      "end": 56,
+      "narration": "Jason checked the cash beneath the deck lamp. Lucia kept the lighter. Next time, she wanted a louder warning.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented small dock office: wall north, table center, Fixer north-side chair, heroes south, bright low desk lamp southwest projects Fixer shadow onto north wall; dock exit east leads directly to heroes moored dark-green skiff. Empty ceiling, no bystanders. Skiff clear of dock, Jason opens case under fixed deck lamp showing real cash, Lucia lifts brass lighter from pocket with sly look; diamond pouch secure beside Jason. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Medium deck payoff Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Warm dry final chord; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Close dock-office rain and water outside, engine only after boarding; one motivated gunshot; duck beneath speech and match visible perspective",
+        "sfx": "Outboard and case latch, lighter flick without flame; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Breakwater dock office",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "All agreed cash plus original diamonds retained; gun stowed out of hands; lighter Lucia; boat now underway.",
+        "vehicle_occupancy": "Lucia at stern tiller, Jason forward; exactly two aboard.",
+        "entry_exit_and_geography": "Invented small dock office: wall north, table center, Fixer north-side chair, heroes south, bright low desk lamp southwest projects Fixer shadow onto north wall; dock exit east leads directly to heroes moored dark-green skiff. Empty ceiling, no bystanders. Skiff clear of dock, Jason opens case under fixed deck lamp showing real cash, Lucia lifts brass lighter from pocket with sly look; diamond pouch secure beside Jason.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "LOUDER NEXT TIME"
+    }
+  ],
+  "timeline": "linear",
+  "pov": "third-person limited: Jason and Lucia",
+  "delivery": "narrator-led; Liam only; quoted dialogue is narrated quotation, not an approved character voice",
+  "description": "Their diamonds and payment are on the table, but the Fixer is reaching for something else. Jason spots the warning on the wall and has one heartbeat to tell Lucia.\n\nOriginal GTA VI fan fiction featuring Jason Duval and Lucia Caminos; invented events, not official Rockstar story or gameplay. Voice narration: 11.ai.\n\n#GTA6 #FanFiction #Shorts",
+  "tags": [
+    "GTA6",
+    "GTA 6",
+    "GTA VI",
+    "Vice City Alibis",
+    "Jason Duval",
+    "Lucia Caminos",
+    "GTA 6 fan fiction",
+    "shadow warning",
+    "Fixer double cross",
+    "dock confrontation",
+    "diamond exchange",
+    "crime action"
+  ],
+  "title_options": [
+    "His Shadow Drew First | GTA 6 Fan Story | 11.ai",
+    "Jason and Lucia: His Shadow Drew First | GTA 6 Fan Story | 11.ai",
+    "His Shadow Drew First | GTA 6 Fan Story | 11.ai"
+  ],
+  "thumbnail_headline": "WATCH THE SHADOW",
+  "story_audit": {
+    "goal": "Survive the Fixer double-cross and leave with their diamonds and agreed cash.",
+    "stakes": "A concealed pistol is coming up before payment is complete.",
+    "obstacle": "Close-range armed betrayal across a small table.",
+    "planted_clue": "Low southwest lamp projects the rising gun shadow onto the north wall before the pistol clears the table.",
+    "payoff": "Jason nonverbal warning lets Lucia interrupt the draw; their coordinated movement wins both prizes and the lighter becomes a closing joke.",
+    "causal_check": "A single shot hits an established empty ceiling. Gun ownership transfers once to Jason; table and chair delay the Fixer for seconds while the heroes keep him in view and reach an already-moored escape boat. No unexplained third rescuer."
+  },
+  "production_notes": {
+    "timing": "Eight contiguous 7-second planning bins; 56 seconds is estimated, final speech must be synthesized and measured at 50–60 seconds without time-stretching.",
+    "visual_status": "shot plans only; no new imagery generated or approved",
+    "audio_status": "no API call or audio generated; preserve native Liam pitch/cadence; dry centered voice and separate music/ambience/SFX/final mix stems",
+    "canon": "Jason Duval and Lucia Caminos are GTA VI characters used in fan fiction. The Fixer is an original supporting character. All events, dialogue, vehicles and named micro-sets here are original inventions.",
+    "release": "PLANNED, not rendered, uploaded, approved or commercially cleared; 11.ai attribution retained for intended free-plan provenance, not a license claim."
+  },
+  "upload_title": "His Shadow Drew the Gun First | GTA 6 | 11.ai"
+}

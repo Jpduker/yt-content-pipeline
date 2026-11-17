@@ -1,0 +1,142 @@
+[
+  {
+    "id": "vca-20261117-03-stole-the-whole-desk",
+    "title": "They Stole the Whole Desk",
+    "date": "2026-11-17",
+    "path": "2026-11-17/03-stole-the-whole-desk.json",
+    "words": 131,
+    "shots": 8,
+    "planned_seconds": 56,
+    "media": {
+      "status": "VIDEO_PREVIEW_CHECKED",
+      "audio_exists": true,
+      "mp4_exists": true,
+      "audio_matches_current_script_and_voice": true,
+      "verification_checked": true,
+      "human_approved": false,
+      "published": false,
+      "measured_video_duration_seconds": 51.0,
+      "audio_duration_seconds": 48.4,
+      "media_issues": [],
+      "audio_paths": [
+        "03-stole-the-whole-desk-audio/liam-private-preview.mp3"
+      ],
+      "video_paths": [
+        "03-stole-the-whole-desk-review/review.mp4"
+      ],
+      "thumbnail_paths": []
+    },
+    "validation_issues": []
+  },
+  {
+    "id": "vca-20261117-04-spare-wheel",
+    "title": "The Money Was in the Spare Wheel",
+    "date": "2026-11-17",
+    "path": "2026-11-17/04-spare-wheel.json",
+    "words": 135,
+    "shots": 8,
+    "planned_seconds": 56,
+    "media": {
+      "status": "VIDEO_PREVIEW_CHECKED",
+      "audio_exists": true,
+      "mp4_exists": true,
+      "audio_matches_current_script_and_voice": true,
+      "verification_checked": true,
+      "human_approved": false,
+      "published": false,
+      "measured_video_duration_seconds": 55.0,
+      "audio_duration_seconds": 52.48,
+      "media_issues": [],
+      "audio_paths": [
+        "04-spare-wheel-audio/liam-private-preview.mp3"
+      ],
+      "video_paths": [
+        "04-spare-wheel-review/review.mp4"
+      ],
+      "thumbnail_paths": []
+    },
+    "validation_issues": []
+  },
+  {
+    "id": "vca-20261117-05-car-wash-trap",
+    "title": "Lucia Chose the Car Wash",
+    "date": "2026-11-17",
+    "path": "2026-11-17/05-car-wash-trap.json",
+    "words": 135,
+    "shots": 8,
+    "planned_seconds": 56,
+    "media": {
+      "status": "VIDEO_PREVIEW_CHECKED",
+      "audio_exists": true,
+      "mp4_exists": true,
+      "audio_matches_current_script_and_voice": true,
+      "verification_checked": true,
+      "human_approved": false,
+      "published": false,
+      "measured_video_duration_seconds": 53.0,
+      "audio_duration_seconds": 51.12,
+      "media_issues": [],
+      "audio_paths": [
+        "05-car-wash-trap-audio/liam-private-preview.mp3"
+      ],
+      "video_paths": [
+        "05-car-wash-trap-review/review.mp4"
+      ],
+      "thumbnail_paths": []
+    },
+    "validation_issues": []
+  },
+  {
+    "id": "vca-20261117-06-bridge-wouldnt-open",
+    "title": "The Bridge Would Not Open",
+    "date": "2026-11-17",
+    "path": "2026-11-17/06-bridge-wouldnt-open.json",
+    "words": 135,
+    "shots": 8,
+    "planned_seconds": 56,
+    "media": {
+      "status": "AUDIO_PREVIEW",
+      "audio_exists": true,
+      "mp4_exists": false,
+      "audio_matches_current_script_and_voice": true,
+      "verification_checked": false,
+      "human_approved": false,
+      "published": false,
+      "measured_video_duration_seconds": null,
+      "audio_duration_seconds": 48.48,
+      "media_issues": [],
+      "audio_paths": [
+        "06-bridge-wouldnt-open-audio/liam-private-preview.mp3"
+      ],
+      "video_paths": [],
+      "thumbnail_paths": []
+    },
+    "validation_issues": []
+  },
+  {
+    "id": "vca-20261117-07-his-own-voice",
+    "title": "The Fixer Opened His Own Trap",
+    "date": "2026-11-17",
+    "path": "2026-11-17/07-his-own-voice.json",
+    "words": 135,
+    "shots": 8,
+    "planned_seconds": 56,
+    "media": {
+      "status": "AUDIO_GENERATION_BLOCKED",
+      "audio_exists": false,
+      "mp4_exists": false,
+      "audio_matches_current_script_and_voice": false,
+      "verification_checked": false,
+      "human_approved": false,
+      "published": false,
+      "measured_video_duration_seconds": null,
+      "media_issues": [
+        "audio generation failed; see local generation-status.json"
+      ],
+      "audio_paths": [],
+      "video_paths": [],
+      "thumbnail_paths": []
+    },
+    "validation_issues": []
+  }
+]

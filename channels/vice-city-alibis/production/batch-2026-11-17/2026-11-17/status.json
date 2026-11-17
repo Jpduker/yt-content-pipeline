@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-17",
+  "episodes_present": 5,
+  "episodes_expected": 5,
+  "media_counts": {
+    "VIDEO_PREVIEW_CHECKED": 3,
+    "AUDIO_PREVIEW": 1,
+    "AUDIO_GENERATION_BLOCKED": 1
+  },
+  "issues": []
+}

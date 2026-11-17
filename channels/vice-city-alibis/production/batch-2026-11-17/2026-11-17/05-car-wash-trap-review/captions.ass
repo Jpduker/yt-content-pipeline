@@ -1,0 +1,43 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,57,&H00D8F2FF,&H00D8F2FF,&H001D0916,&H80000000,-1,0,0,0,100,100,0,0,1,4,1,2,90,150,330,1
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.35,0:00:01.71,Default,,0,0,0,,Lucia drove their stolen
+Dialogue: 0,0:00:01.71,0:00:02.75,Default,,0,0,0,,coupe into a car
+Dialogue: 0,0:00:02.75,0:00:04.27,Default,,0,0,0,,wash. Jason saw the
+Dialogue: 0,0:00:04.27,0:00:05.95,Default,,0,0,0,,exit shutter closing ahead.
+Dialogue: 0,0:00:06.11,0:00:07.15,Default,,0,0,0,,The Fixer followed in
+Dialogue: 0,0:00:07.15,0:00:08.67,Default,,0,0,0,,his black sedan. He
+Dialogue: 0,0:00:08.71,0:00:09.79,Default,,0,0,0,,wanted the diamonds tucked
+Dialogue: 0,0:00:09.91,0:00:11.71,Default,,0,0,0,,inside Jason's zipped jacket.
+Dialogue: 0,0:00:11.87,0:00:13.67,Default,,0,0,0,,Jason shouted for reverse.
+Dialogue: 0,0:00:13.79,0:00:15.79,Default,,0,0,0,,Lucia pointed sideways: the
+Dialogue: 0,0:00:15.87,0:00:16.95,Default,,0,0,0,,staff door stood beside
+Dialogue: 0,0:00:16.95,0:00:18.71,Default,,0,0,0,,a delivery scooter outside.
+Dialogue: 0,0:00:18.83,0:00:19.87,Default,,0,0,0,,She stopped beneath the
+Dialogue: 0,0:00:19.91,0:00:21.71,Default,,0,0,0,,brushes. Behind them, the
+Dialogue: 0,0:00:21.71,0:00:23.07,Default,,0,0,0,,Fixer drove forward until
+Dialogue: 0,0:00:23.11,0:00:24.11,Default,,0,0,0,,his bumper blocked the
+Dialogue: 0,0:00:24.15,0:00:26.19,Default,,0,0,0,,entrance. Lucia pulled Jason
+Dialogue: 0,0:00:26.19,0:00:27.55,Default,,0,0,0,,through the staff door.
+Dialogue: 0,0:00:27.55,0:00:28.99,Default,,0,0,0,,Wet brushes swallowed their
+Dialogue: 0,0:00:29.03,0:00:29.95,Default,,0,0,0,,empty coupe and hid
+Dialogue: 0,0:00:29.95,0:00:31.59,Default,,0,0,0,,the movement. Jason grabbed
+Dialogue: 0,0:00:31.59,0:00:34.00,Default,,0,0,0,,the scooter. Chained. Lucia
+Dialogue: 0,0:00:34.00,0:00:35.27,Default,,0,0,0,,pulled a four-wheel delivery
+Dialogue: 0,0:00:35.27,0:00:36.91,Default,,0,0,0,,trolley beside it. Same
+Dialogue: 0,0:00:36.91,0:00:38.47,Default,,0,0,0,,downhill route. They rolled
+Dialogue: 0,0:00:38.47,0:00:40.11,Default,,0,0,0,,the trolley\Ndownhill, crouched
+Dialogue: 0,0:00:40.11,0:00:41.83,Default,,0,0,0,,inside, and vanished behind
+Dialogue: 0,0:00:41.83,0:00:42.91,Default,,0,0,0,,a laundry wall before
+Dialogue: 0,0:00:42.91,0:00:44.51,Default,,0,0,0,,the Fixer found daylight.
+Dialogue: 0,0:00:44.51,0:00:45.63,Default,,0,0,0,,On the level runout,
+Dialogue: 0,0:00:45.63,0:00:47.23,Default,,0,0,0,,Jason checked the diamonds.
+Dialogue: 0,0:00:47.23,0:00:49.63,Default,,0,0,0,,Still zipped. Lucia grinned.
+Dialogue: 0,0:00:49.63,0:00:50.39,Default,,0,0,0,,He had paid for
+Dialogue: 0,0:00:50.39,0:00:51.63,Default,,0,0,0,,the deluxe wash.

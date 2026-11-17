@@ -1,0 +1,321 @@
+{
+  "id": "02-the-brake-light",
+  "title": "The Brake Light",
+  "hook": "The getaway car was braking without a driver.",
+  "timeline": "Nonlinear: consequence first, then explicit twenty-minute flashback, return at shot seven",
+  "pov": "First-person Jason confession, performed as narration rather than an auditioned character voice",
+  "delivery": "Liam only; terse first-person account, one beat of shame before tactical confidence",
+  "description": "Jason wants the engine. Lucia wants the tape hidden under its dashboard, but the impounded coupe keeps braking with nobody inside.\n\nOriginal GTA VI fan fiction | Narration: Liam via ElevenLabs / 11.ai\n#GTA6 #FanFiction #Shorts",
+  "tags": [
+    "GTA6",
+    "GTA 6",
+    "GTA VI",
+    "GTAVI",
+    "GTA6 fan fiction",
+    "Jason Duval",
+    "Lucia Caminos",
+    "empty getaway car",
+    "impound heist",
+    "brake light mystery",
+    "Vice City Alibis",
+    "11.ai"
+  ],
+  "title_options": [
+    "The Getaway Car Braked Alone | GTA 6 Fan Fiction | 11.ai",
+    "Jason Wanted the Engine. Lucia Saw the Trap. | GTA 6 Fan Fiction | 11.ai"
+  ],
+  "story_audit": {
+    "goal": "Retrieve a cassette containing Lucia's recorded confession from an impounded coupe.",
+    "stakes": "The recording incriminates Lucia; the retrieval is being filmed to identify its owner.",
+    "obstacle": "Jason wants the valuable engine while a cable trap guards the driver door.",
+    "planted_clue": "Brake lights activate while the car is empty; cable runs pedal to office.",
+    "payoff": "Controlling cable exposes camera; passenger-window access recovers tape. Camera setup clip identifies the original Fixer as installer.",
+    "causal_check": "Empty-car braking signals remote mechanical link; following cable reveals staging; chair pull exposes camera; holding tension keeps trip loop stable; recovered footage can identify trap builder, not establish miraculous legal immunity. Camera was left recording during installation; only its first clip reveals installer, not a magical confession from an unknown device."
+  },
+  "date": "2026-11-19",
+  "duration_seconds": 56,
+  "status": "PLANNED â€” scripts and shot plans only; no rendered MP4",
+  "canon_status": "Jason Duval and Lucia Caminos are GTA VI characters in fan-art adaptation. The Fixer is an original supporting character. All plots, jobs, props, businesses and scene-specific sets here are invented noncanon fan fiction.",
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "script": "Our getaway car braked without a driver. That was when Lucia stopped calling my plan stupid. Twenty minutes earlier, we'd entered impound to steal the coupe holding her recorded confession under its dashboard. She wanted the tape. I wanted the engine. We argued until its brake lights blinked again. Nobody inside. No keys. But a thin cable ran from the pedal into the inspection office. The recorder wasn't evidence storage. It was bait, wired to trap whoever opened the driver's door. I pulled the cable through the fence instead. The office chair rolled forward, dragging its hidden camera. Back at the blinking lights, Lucia lifted the tape through the passenger window while I held tension. We left the engine. We took the camera too. Its first clip showed the Fixer installing it.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "narration": "Our getaway car braked without a driver. That was when Lucia stopped calling my plan stupid.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Empty charcoal coupe beside fence, red brake lamps bright; Jason crouches behind bumper, Lucia turns toward him. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J02-heist-charcoal; L02-heist-hoodie from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented dock customs impound lane; midnight, drizzle, teal floodlight from left This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Tight portrait detail with subject grounded in wider setting",
+      "sound": {
+        "music": "Sparse muted bass motif",
+        "ambience": "Invented dock customs impound lane; midnight, drizzle, teal floodlight from left; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 1,
+        "location_time_weather": "Invented dock customs impound lane; midnight, drizzle, teal floodlight from left",
+        "outfits": "J02-heist-charcoal; L02-heist-hoodie",
+        "prop_state_and_blocking": "Coupe empty, stationary; driver door shut; passenger window lowered; cable already under tension offscreen.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png",
+          "characters/original-fixer/references/fixer.png",
+          "characters/original-fixer/closet/four-outfits.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": "The getaway car was braking without a driver."
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "narration": "Twenty minutes earlier, we'd entered impound to steal the coupe holding her recorded confession under its dashboard.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Explicit overlay TWENTY MINUTES EARLIER; Jason and Lucia enter impound pedestrian gap; same coupe visible under teal lamp. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J02-heist-charcoal; L02-heist-hoodie from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented dock customs impound lane; midnight, drizzle, teal floodlight from left This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Over-shoulder medium, establish spatial relationship",
+      "sound": {
+        "music": "Restrained ticking pulse",
+        "ambience": "Invented dock customs impound lane; midnight, drizzle, teal floodlight from left; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 2,
+        "location_time_weather": "Invented dock customs impound lane; midnight, drizzle, teal floodlight from left",
+        "outfits": "J02-heist-charcoal; L02-heist-hoodie",
+        "prop_state_and_blocking": "Flashback resets to before intervention; cable slack; both on foot, no other car.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png",
+          "characters/original-fixer/references/fixer.png",
+          "characters/original-fixer/closet/four-outfits.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 14,
+      "end": 21,
+      "narration": "She wanted the tape. I wanted the engine. We argued until its brake lights blinked again.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Lucia points through closed passenger window at cassette beneath dashboard lip; Jason gestures at engine hood; brake lights red in rain. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J02-heist-charcoal; L02-heist-hoodie from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented dock customs impound lane; midnight, drizzle, teal floodlight from left This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Low three-quarter medium, clear hand contact",
+      "sound": {
+        "music": "Low syncopated tension",
+        "ambience": "Invented dock customs impound lane; midnight, drizzle, teal floodlight from left; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 3,
+        "location_time_weather": "Invented dock customs impound lane; midnight, drizzle, teal floodlight from left",
+        "outfits": "J02-heist-charcoal; L02-heist-hoodie",
+        "prop_state_and_blocking": "Single cassette fixed below dash, no duplicated tape; neither enters vehicle.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png",
+          "characters/original-fixer/references/fixer.png",
+          "characters/original-fixer/closet/four-outfits.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 21,
+      "end": 28,
+      "narration": "Nobody inside. No keys. But a thin cable ran from the pedal into the inspection office.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Low view from empty driver seat through open exterior service gap: cable tied to pedal exits through door seal toward office. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J02-heist-charcoal; L02-heist-hoodie from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented dock customs impound lane; midnight, drizzle, teal floodlight from left This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Close detail on the planted physical clue",
+      "sound": {
+        "music": "Music thins for clue",
+        "ambience": "Invented dock customs impound lane; midnight, drizzle, teal floodlight from left; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 4,
+        "location_time_weather": "Invented dock customs impound lane; midnight, drizzle, teal floodlight from left",
+        "outfits": "J02-heist-charcoal; L02-heist-hoodie",
+        "prop_state_and_blocking": "One cable route pedal to office chair established; driver door remains shut.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png",
+          "characters/original-fixer/references/fixer.png",
+          "characters/original-fixer/closet/four-outfits.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 28,
+      "end": 35,
+      "narration": "The recorder wasn't evidence storage. It was bait, wired to trap whoever opened the driver's door.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Lucia inspects driver door trip loop without touching handle; Jason follows cable toward dark inspection-office window. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J02-heist-charcoal; L02-heist-hoodie from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented dock customs impound lane; midnight, drizzle, teal floodlight from left This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Eye-level two-shot, disagreement readable in faces",
+      "sound": {
+        "music": "Single low sustained note",
+        "ambience": "Invented dock customs impound lane; midnight, drizzle, teal floodlight from left; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 5,
+        "location_time_weather": "Invented dock customs impound lane; midnight, drizzle, teal floodlight from left",
+        "outfits": "J02-heist-charcoal; L02-heist-hoodie",
+        "prop_state_and_blocking": "Door loop visible; no explosion pictured or asserted; cassette remains dash.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png",
+          "characters/original-fixer/references/fixer.png",
+          "characters/original-fixer/closet/four-outfits.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 35,
+      "end": 42,
+      "narration": "I pulled the cable through the fence instead. The office chair rolled forward, dragging its hidden camera.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Jason pulls cable through existing mesh gap; through office window an empty wheeled chair rolls toward cable, camera strapped beneath seat. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J02-heist-charcoal; L02-heist-hoodie from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented dock customs impound lane; midnight, drizzle, teal floodlight from left This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Wider action composition with visible origin and destination",
+      "sound": {
+        "music": "Measured pulse accelerates",
+        "ambience": "Invented dock customs impound lane; midnight, drizzle, teal floodlight from left; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 6,
+        "location_time_weather": "Invented dock customs impound lane; midnight, drizzle, teal floodlight from left",
+        "outfits": "J02-heist-charcoal; L02-heist-hoodie",
+        "prop_state_and_blocking": "Cable transmits pull to chair; camera stays strapped beneath seat while chair moves; Jason outside fence.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png",
+          "characters/original-fixer/references/fixer.png",
+          "characters/original-fixer/closet/four-outfits.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 42,
+      "end": 49,
+      "narration": "Back at the blinking lights, Lucia lifted the tape through the passenger window while I held tension.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Overlay NOW; Jason braces cable at fence while Lucia reaches through preexisting lowered passenger window and grasps single cassette. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J02-heist-charcoal; L02-heist-hoodie from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented dock customs impound lane; midnight, drizzle, teal floodlight from left This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Controlled close insert on the irreversible choice",
+      "sound": {
+        "music": "Brief drop beneath decisive line",
+        "ambience": "Invented dock customs impound lane; midnight, drizzle, teal floodlight from left; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 7,
+        "location_time_weather": "Invented dock customs impound lane; midnight, drizzle, teal floodlight from left",
+        "outfits": "J02-heist-charcoal; L02-heist-hoodie",
+        "prop_state_and_blocking": "Return to opening: Jason keeps tension, Lucia removes cassette via passenger window; brake lamps on.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png",
+          "characters/original-fixer/references/fixer.png",
+          "characters/original-fixer/closet/four-outfits.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 49,
+      "end": 56,
+      "narration": "We left the engine. We took the camera too. Its first clip showed the Fixer installing it.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Lucia holds cassette; Jason holds recovered chair-mounted camera unstrapped from chair; coupe remains parked with hood closed. Camera playback screen depicts established Fixer cream suit and hands installing the same trap; no new identifiable character. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J02-heist-charcoal; L02-heist-hoodie from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented dock customs impound lane; midnight, drizzle, teal floodlight from left This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Portrait medium-wide payoff, hold final consequence",
+      "sound": {
+        "music": "Unresolved motif resolves on final noun",
+        "ambience": "Invented dock customs impound lane; midnight, drizzle, teal floodlight from left; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 8,
+        "location_time_weather": "Invented dock customs impound lane; midnight, drizzle, teal floodlight from left",
+        "outfits": "J02-heist-charcoal; L02-heist-hoodie",
+        "prop_state_and_blocking": "After release of controlled cable tension and office retrieval, camera in Jason hands, cassette Lucia; chair empty in doorway; coupe abandoned.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png",
+          "characters/original-fixer/references/fixer.png",
+          "characters/original-fixer/closet/four-outfits.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": "Original GTA VI fan fiction"
+    }
+  ],
+  "spoken_word_count": 132,
+  "thumbnail_headline": "NOBODY WAS DRIVING",
+  "upload_title": "Why Is the Empty Getaway Car Braking? | GTA6 Fan Fiction | 11.ai"
+}

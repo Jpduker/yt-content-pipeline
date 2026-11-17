@@ -1,0 +1,552 @@
+{
+  "id": "vca-20261117-04-spare-wheel",
+  "title": "The Money Was in the Spare Wheel",
+  "date": "2026-11-17",
+  "duration_seconds": 56,
+  "status": "PLANNED",
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "hook": "Jason ripped open the courier bag. Newspaper. Outside, someone started dragging the warehouse shutter down.",
+  "script": "Jason ripped open the courier bag. Newspaper. Outside, someone started dragging the warehouse shutter down. Lucia looked past the empty van. Mud covered every tire except the spotless spare underneath it. The Fixer had pointed at that bag too quickly. She shoved a dolly beneath the spare. Jason wanted the exit. Lucia cut the wheel loose. It landed heavily; folded bills bulged through a split. Then the shutter hit the dolly handle. Metal screamed. Their only doorway stopped two feet above concrete. Jason dropped flat and dragged the wheel under. Lucia followed, squeezing between the tire and that trembling shutter. The Fixer arrived holding the newspaper bag. Their getaway van outside was gone. His hidden fortune rolled away. At the lockup, Jason asked how she knew. Lucia tapped the clean rubber. Nobody washes the spare.",
+  "word_count": 135,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "narration": "Jason ripped open the courier bag. Newspaper. Outside, someone started dragging the warehouse shutter down.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Open courier bag on concrete foreground reveals only folded newspapers; Jason crouches left, Lucia watches white courier van center; shutter at right lowering with gloved anonymous hands visible outside only. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Low bag insert then shutter reveal Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Dry low pulse; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain beyond shutter, warehouse resonance; duck beneath speech and match visible perspective",
+        "sfx": "Paper crinkle, shutter chain; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Canal Nine warehouse bay",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Newspaper decoy bag open; white van muddy road tires; clean spare mounted beneath rear chassis; dolly against left wall.",
+        "vehicle_occupancy": "White courier van parked empty; heroes on foot; their dark getaway van parked outside unseen.",
+        "entry_exit_and_geography": "Open courier bag on concrete foreground reveals only folded newspapers; Jason crouches left, Lucia watches white courier van center; shutter at right lowering with gloved anonymous hands visible outside only.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "NEWSPAPER"
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "narration": "Lucia looked past the empty van. Mud covered every tire except the spotless spare underneath it.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Lucia kneels behind empty white courier van, comparing mud-caked rear road tire left to pristine underbody spare right; Jason looks toward shrinking doorway; no interior loot visible. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Close parallel tire comparison Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Curious single-note motif; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Shutter machinery and rain; duck beneath speech and match visible perspective",
+        "sfx": "Rubber rub, distant chain; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Canal Nine warehouse bay",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Spare still under van, clean rubber strongly separated from muddy road wheel; decoy bag stays floor.",
+        "vehicle_occupancy": "White courier van empty; getaway van outside empty.",
+        "entry_exit_and_geography": "Lucia kneels behind empty white courier van, comparing mud-caked rear road tire left to pristine underbody spare right; Jason looks toward shrinking doorway; no interior loot visible.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "WHY SO CLEAN?"
+    },
+    {
+      "start": 14,
+      "end": 21,
+      "narration": "The Fixer had pointed at that bag too quickly. She shoved a dolly beneath the spare.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Lucia rolls two-wheel tire dolly under mounted spare at rear bumper; Jason holds work light with plausible grip; wide reveals shutter to right and short straight path to street. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Three-quarter rear view Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Pulse quickens; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Metal roof rain; duck beneath speech and match visible perspective",
+        "sfx": "Dolly wheels on concrete; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Canal Nine warehouse bay",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Dolly moved from wall under spare; its long handle points toward doorway; decoy bag still left of van; spare remains mounted.",
+        "vehicle_occupancy": "Both vans empty; no Fixer visible in present shot.",
+        "entry_exit_and_geography": "Lucia rolls two-wheel tire dolly under mounted spare at rear bumper; Jason holds work light with plausible grip; wide reveals shutter to right and short straight path to street.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "NOT THE BAG"
+    },
+    {
+      "start": 21,
+      "end": 28,
+      "narration": "Jason wanted the exit. Lucia cut the wheel loose. It landed heavily; folded bills bulged through a split.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Spare now lands on supporting dolly cradle; Lucia holds cut retaining strap, Jason looks at wheel sidewall already split by drop, folded banknotes bulge from cavity; no cash magically appears on floor. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Wheel detail then Jason reaction Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Bass impact then percussion; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Enclosed rain and metal room; duck beneath speech and match visible perspective",
+        "sfx": "Heavy tire thud; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Canal Nine warehouse bay",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Original hidden cash remains inside wheel; cut carrier strap hangs beneath van; not a road wheel; van retains all four road tires.",
+        "vehicle_occupancy": "White courier van empty and undriveable only because keys absent, not missing wheels; getaway outside.",
+        "entry_exit_and_geography": "Spare now lands on supporting dolly cradle; Lucia holds cut retaining strap, Jason looks at wheel sidewall already split by drop, folded banknotes bulge from cavity; no cash magically appears on floor.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "THERE IT IS"
+    },
+    {
+      "start": 28,
+      "end": 35,
+      "narration": "Then the shutter hit the dolly handle. Metal screamed. Their only doorway stopped two feet above concrete.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Descending steel shutter jams on upright dolly handle; rim and cash-filled tire sit just inside opening; Lucia crouches behind, Jason drops belly-down toward street side; no bodies under unsupported panel. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Threshold-wide showing brace and gap Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Tight restrained percussion; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Exterior rain through low gap; duck beneath speech and match visible perspective",
+        "sfx": "Metal strain; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Canal Nine warehouse threshold",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Dolly handle visibly takes shutter contact; gap two feet; tire separated from cradle for sliding; cash still inside torn sidewall.",
+        "vehicle_occupancy": "Getaway van dark blue beyond opening, empty with side door open; courier van stays inside.",
+        "entry_exit_and_geography": "Descending steel shutter jams on upright dolly handle; rim and cash-filled tire sit just inside opening; Lucia crouches behind, Jason drops belly-down toward street side; no bodies under unsupported panel.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "TWO FEET"
+    },
+    {
+      "start": 35,
+      "end": 42,
+      "narration": "Jason dropped flat and dragged the wheel under. Lucia followed, squeezing between the tire and that trembling shutter.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Street-side view: Jason on ground pulling spare horizontally through gap by inner rim; Lucia lies behind wheel, crawling out; jammed dolly remains inside as brace; blue getaway van side door three paces right. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Ground-level lateral composition Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Fast bass then release; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Close wet pavement rain; duck beneath speech and match visible perspective",
+        "sfx": "Tire drags, fabric scrape; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Canal Nine warehouse street threshold",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Cash-filled spare now outside, dolly sacrificed as brace; newspaper bag remains inside; no loose bills left.",
+        "vehicle_occupancy": "Both heroes on foot; blue getaway empty; white courier van inside unseen.",
+        "entry_exit_and_geography": "Street-side view: Jason on ground pulling spare horizontally through gap by inner rim; Lucia lies behind wheel, crawling out; jammed dolly remains inside as brace; blue getaway van side door three paces right.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "PULL"
+    },
+    {
+      "start": 42,
+      "end": 49,
+      "narration": "The Fixer arrived holding the newspaper bag. Their getaway van outside was gone. His hidden fortune rolled away.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Original Fixer cream suit stands outside reopened shutter holding open newspaper bag, watching dark blue getaway van tail lamps recede right; no visible hero faces at distance. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Medium Fixer with distant van Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Sly two-note reversal; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain broad outdoors; duck beneath speech and match visible perspective",
+        "sfx": "Paper bag slap, engine recedes; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Canal Nine warehouse street",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Fixer retrieves newspaper decoy; wheel and its full cash contents inside getaway cargo; warehouse courier van remains.",
+        "vehicle_occupancy": "Single blue van: Jason driver left, Lucia front right; white courier van remains inside empty.",
+        "entry_exit_and_geography": "Original Fixer cream suit stands outside reopened shutter holding open newspaper bag, watching dark blue getaway van tail lamps recede right; no visible hero faces at distance.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "WRONG BAG"
+    },
+    {
+      "start": 49,
+      "end": 56,
+      "narration": "At the lockup, Jason asked how she knew. Lucia tapped the clean rubber. Nobody washes the spare.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Blue van parked cab empty; cash-filled spare flat on workbench with split sidewall facing camera; Jason counts recovered bundles while Lucia taps clean tread; dark rain outside open door. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Two-shot with tire foreground Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Warm crooked resolution, dip on final line; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Sheltered rain; duck beneath speech and match visible perspective",
+        "sfx": "Rubber tap, counted bills; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Borrowed lockup later that night",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "All money extracted onto bench or still visible in wheel; newspaper bag with Fixer elsewhere; dolly left warehouse; no duplicate tire.",
+        "vehicle_occupancy": "Blue getaway parked empty; Jason and Lucia at bench.",
+        "entry_exit_and_geography": "Blue van parked cab empty; cash-filled spare flat on workbench with split sidewall facing camera; Jason counts recovered bundles while Lucia taps clean tread; dark rain outside open door.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "ONLY THE SPARE"
+    }
+  ],
+  "timeline": "linear",
+  "pov": "third-person limited: Jason and Lucia",
+  "delivery": "narrator-led; Liam only; quoted dialogue is narrated quotation, not an approved character voice",
+  "description": "The courier bag is worthless, the warehouse shutter is dropping, and their score has vanished. Jason wants the exit, but Lucia spots something that does not belong.\n\nOriginal GTA VI fan fiction featuring Jason Duval and Lucia Caminos; invented events, not official Rockstar story or gameplay. Voice narration: 11.ai.\n\n#GTA6 #FanFiction #Shorts",
+  "tags": [
+    "GTA6",
+    "GTA 6",
+    "GTA VI",
+    "Vice City Alibis",
+    "Jason Duval",
+    "Lucia Caminos",
+    "GTA 6 fan fiction",
+    "courier bag",
+    "warehouse heist",
+    "cash decoy",
+    "shutter escape",
+    "Lucia clue"
+  ],
+  "title_options": [
+    "The Money Was in the Spare Wheel | GTA 6 Fan Story | 11.ai",
+    "Jason and Lucia: The Money Was in the Spare Wheel | GTA 6 Fan Story | 11.ai",
+    "Only The Spare | GTA 6 Fan Story | 11.ai"
+  ],
+  "thumbnail_headline": "WRONG BAG",
+  "story_audit": {
+    "goal": "Recover a hidden courier cash shipment before the shutter seals the warehouse.",
+    "stakes": "Leaving empty-handed or being trapped with the evidence.",
+    "obstacle": "Decoy bag, concealed spare-wheel stash and descending shutter.",
+    "planted_clue": "The spare alone is clean while every road tire is muddy; its abnormal weight confirms the suspicion.",
+    "payoff": "They take the real money in the wheel; the Fixer is left holding his newspaper decoy.",
+    "causal_check": "The dolly first carries the wheel, then its handle braces the shutter; Jason slides only the spare through the gap, with all road wheels staying on the courier van. Cash moves intact to the lockup."
+  },
+  "production_notes": {
+    "timing": "Eight contiguous 7-second planning bins; 56 seconds is estimated, final speech must be synthesized and measured at 50–60 seconds without time-stretching.",
+    "visual_status": "shot plans only; no new imagery generated or approved",
+    "audio_status": "no API call or audio generated; preserve native Liam pitch/cadence; dry centered voice and separate music/ambience/SFX/final mix stems",
+    "canon": "Jason Duval and Lucia Caminos are GTA VI characters used in fan fiction. The Fixer is an original supporting character. All events, dialogue, vehicles and named micro-sets here are original inventions.",
+    "release": "PLANNED, not rendered, uploaded, approved or commercially cleared; 11.ai attribution retained for intended free-plan provenance, not a license claim."
+  },
+  "audio_cues": [
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 0,
+      "rms": 0.003,
+      "duration": 7.27,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Enclosed/sheltered rain low-passed for viewpoint",
+      "lowpass_hz": 1700
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 1,
+      "rms": 0.003,
+      "duration": 6.18,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Enclosed/sheltered rain low-passed for viewpoint",
+      "lowpass_hz": 1700
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 2,
+      "rms": 0.003,
+      "duration": 4.7,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Enclosed/sheltered rain low-passed for viewpoint",
+      "lowpass_hz": 1700
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 3,
+      "rms": 0.003,
+      "duration": 7.3,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Enclosed/sheltered rain low-passed for viewpoint",
+      "lowpass_hz": 1700
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 4,
+      "rms": 0.003,
+      "duration": 6.94,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Enclosed/sheltered rain low-passed for viewpoint",
+      "lowpass_hz": 1700
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 5,
+      "rms": 0.005,
+      "duration": 6.56,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Open exterior rain"
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 6,
+      "rms": 0.005,
+      "duration": 7.6,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Open exterior rain"
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 7,
+      "rms": 0.003,
+      "duration": 8.45,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Enclosed/sheltered rain low-passed for viewpoint",
+      "lowpass_hz": 1700
+    },
+    {
+      "source": "audio/sfx/paper.mp3",
+      "scene_index": 0,
+      "rms": 0.006,
+      "duration": 0.65,
+      "loop": false,
+      "kind": "sfx",
+      "offset": 0.15,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/paper.mp3.meta.json",
+      "purpose": "Newspaper bag reveal"
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/shutter-roll.wav",
+      "scene_index": 0,
+      "rms": 0.005,
+      "duration": 7.27,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/shutter-roll.wav.meta.json",
+      "purpose": "Rolling warehouse shutter descending",
+      "lowpass_hz": 2400
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/shutter-roll.wav",
+      "scene_index": 1,
+      "rms": 0.005,
+      "duration": 6.18,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/shutter-roll.wav.meta.json",
+      "purpose": "Rolling warehouse shutter descending",
+      "lowpass_hz": 2400
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/caster-roll.wav",
+      "scene_index": 2,
+      "rms": 0.006,
+      "duration": 2.0,
+      "loop": false,
+      "kind": "sfx",
+      "offset": 0.15,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/caster-roll.wav.meta.json",
+      "purpose": "Tire dolly wheels on concrete"
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/metal-rattle.wav",
+      "scene_index": 3,
+      "rms": 0.007,
+      "duration": 0.55,
+      "loop": false,
+      "kind": "sfx",
+      "offset": 0.6,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/metal-rattle.wav.meta.json",
+      "purpose": "Loaded tire lands on metal dolly cradle",
+      "lowpass_hz": 900
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/metal-rattle.wav",
+      "scene_index": 4,
+      "rms": 0.009,
+      "duration": 1.25,
+      "loop": false,
+      "kind": "sfx",
+      "offset": 0.15,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/metal-rattle.wav.meta.json",
+      "purpose": "Shutter arrested by supported dolly handle"
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/drawer-slide.wav",
+      "scene_index": 5,
+      "rms": 0.005,
+      "duration": 1.3,
+      "loop": false,
+      "kind": "sfx",
+      "offset": 0.15,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/drawer-slide.wav.meta.json",
+      "purpose": "Low friction of tire/fabric dragging through gap",
+      "lowpass_hz": 850
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/petrol-van-steady.wav",
+      "scene_index": 6,
+      "rms": 0.006,
+      "duration": 3.0,
+      "loop": false,
+      "kind": "sfx",
+      "offset": 0.15,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/petrol-van-steady.wav.meta.json",
+      "purpose": "Departing blue getaway van, no boat sound"
+    },
+    {
+      "source": "audio/sfx/paper.mp3",
+      "scene_index": 7,
+      "rms": 0.004,
+      "duration": 0.7,
+      "loop": false,
+      "kind": "sfx",
+      "offset": 0.55,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/paper.mp3.meta.json",
+      "purpose": "Visible recovered banknotes counted"
+    }
+  ],
+  "upload_title": "The Bag Was Empty. Lucia Checked the Tires. | GTA 6 | 11.ai"
+}

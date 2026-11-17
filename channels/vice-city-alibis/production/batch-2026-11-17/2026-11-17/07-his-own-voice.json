@@ -1,0 +1,594 @@
+{
+  "id": "vca-20261117-07-his-own-voice",
+  "title": "The Fixer Opened His Own Trap",
+  "date": "2026-11-17",
+  "duration_seconds": 56,
+  "status": "PLANNED",
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "hook": "The warehouse gate slammed shut. Outside, armed guards blocked Jason and Lucia's van. The Fixer wanted everything.",
+  "script": "The warehouse gate slammed shut. Outside, armed guards blocked Jason and Lucia's van. The Fixer wanted everything. His gate-crew message gave the entry command: open the gate, let the van through. Lucia had saved it. Jason had laughed. Now the Fixer watched from an upstairs office behind smoked glass. He demanded their cash through Jason's private phone. Jason reached for his gun. Lucia held up her phone instead. She pressed its speaker against the gate microphone. The Fixer's own voice ordered the guards to open. One guard hesitated, looking upstairs. The office glass reflected neon; he could see no face behind it. The gate rolled back. Jason drove before the Fixer reached his office window to shout outside. Their cash stayed in the van. Jason asked why she saved every message. Lucia deleted his apology.",
+  "word_count": 135,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "narration": "The warehouse gate slammed shut. Outside, armed guards blocked Jason and Lucia's van. The Fixer wanted everything.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented enclosed warehouse yard; exit gate at east/right, yard PA microphone pedestal inside beside driver window; office has no PA transmit connection, Fixer uses a separate private phone call to Jason, smoked-glass office above west/left. Two anonymous one-scene guards stand outside east gate. Wet neon night. Dark blue cargo van stopped inside locked right gate; Jason left-hand driver, Lucia right passenger; two anonymous guards outside hold lowered long guns, no firing. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Wide geography Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Low threat pulse; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside; quiet interior room tone; duck beneath speech and match visible perspective",
+        "sfx": "Gate slam, idling engine; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Bay Twelve warehouse gate",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Two sealed black cash duffels visible in cargo; gate shut; phone with Lucia.",
+        "vehicle_occupancy": "Van Jason driving left, Lucia front right; Fixer upstairs alone, guards outside.",
+        "entry_exit_and_geography": "Invented enclosed warehouse yard; exit gate at east/right, yard PA microphone pedestal inside beside driver window; office has no PA transmit connection, Fixer uses a separate private phone call to Jason, smoked-glass office above west/left. Two anonymous one-scene guards stand outside east gate. Wet neon night. Dark blue cargo van stopped inside locked right gate; Jason left-hand driver, Lucia right passenger; two anonymous guards outside hold lowered long guns, no firing.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "GATE LOCKED"
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "narration": "His gate-crew message gave the entry command: open the gate, let the van through.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented enclosed warehouse yard; exit gate at east/right, yard PA microphone pedestal inside beside driver window; office has no PA transmit connection, Fixer uses a separate private phone call to Jason, smoked-glass office above west/left. Two anonymous one-scene guards stand outside east gate. Wet neon night. Explicit editorial earlier insert: Lucia phone in van passenger hand shows saved audio message waveform, not generated readable UI; gate then open beyond windshield. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Phone insert, overlay EARLIER Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Sparse single note; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside; quiet interior room tone; duck beneath speech and match visible perspective",
+        "sfx": "Brief phone playback texture beneath Liam; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Bay Twelve warehouse gate",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Earlier only: gate-crew entry-order voice message forwarded by Fixer and saved by Lucia; same two bags not yet loaded; no present-time duplication.",
+        "vehicle_occupancy": "Jason and Lucia inside same van earlier; Fixer not visible.",
+        "entry_exit_and_geography": "Invented enclosed warehouse yard; exit gate at east/right, yard PA microphone pedestal inside beside driver window; office has no PA transmit connection, Fixer uses a separate private phone call to Jason, smoked-glass office above west/left. Two anonymous one-scene guards stand outside east gate. Wet neon night. Explicit editorial earlier insert: Lucia phone in van passenger hand shows saved audio message waveform, not generated readable UI; gate then open beyond windshield.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "EARLIER"
+    },
+    {
+      "start": 14,
+      "end": 21,
+      "narration": "Lucia had saved it. Jason had laughed. Now the Fixer watched from an upstairs office behind smoked glass.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented enclosed warehouse yard; exit gate at east/right, yard PA microphone pedestal inside beside driver window; office has no PA transmit connection, Fixer uses a separate private phone call to Jason, smoked-glass office above west/left. Two anonymous one-scene guards stand outside east gate. Wet neon night. Back to present: Lucia raises phone; office smoked glass high left glows opaque, original Fixer silhouette inside; van remains nose to closed right gate. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Over-Lucia eyeline toward office Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Bass returns; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside; quiet interior room tone; duck beneath speech and match visible perspective",
+        "sfx": "Intercom hiss; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Bay Twelve warehouse gate",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Saved message still phone; two cash bags loaded; door locked; no new access key.",
+        "vehicle_occupancy": "Heroes van; Fixer upstairs; two guards outside.",
+        "entry_exit_and_geography": "Invented enclosed warehouse yard; exit gate at east/right, yard PA microphone pedestal inside beside driver window; office has no PA transmit connection, Fixer uses a separate private phone call to Jason, smoked-glass office above west/left. Two anonymous one-scene guards stand outside east gate. Wet neon night. Back to present: Lucia raises phone; office smoked glass high left glows opaque, original Fixer silhouette inside; van remains nose to closed right gate.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "SAVED MESSAGE"
+    },
+    {
+      "start": 21,
+      "end": 28,
+      "narration": "He demanded their cash through Jason's private phone. Jason reached for his gun. Lucia held up her phone instead.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented enclosed warehouse yard; exit gate at east/right, yard PA microphone pedestal inside beside driver window; office has no PA transmit connection, Fixer uses a separate private phone call to Jason, smoked-glass office above west/left. Two anonymous one-scene guards stand outside east gate. Wet neon night. Jason hand pauses above holstered gun at hip, his own phone on dashboard receiving private Fixer call; Lucia holds her separate phone between him and intercom pedestal; she leans across toward lowered driver window, safe joined wrists. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Tight two-shot Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Restrained ticking pulse; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside; quiet interior room tone; duck beneath speech and match visible perspective",
+        "sfx": "Cloth shift, intercom click; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Bay Twelve warehouse gate",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Gun remains holstered and unfired; Jason private call on dashboard phone cannot reach exterior PA; Lucia separate phone ready with saved gate-crew order; cash untouched.",
+        "vehicle_occupancy": "Jason left driver; Lucia leans from right passenger; no seat swap.",
+        "entry_exit_and_geography": "Invented enclosed warehouse yard; exit gate at east/right, yard PA microphone pedestal inside beside driver window; office has no PA transmit connection, Fixer uses a separate private phone call to Jason, smoked-glass office above west/left. Two anonymous one-scene guards stand outside east gate. Wet neon night. Jason hand pauses above holstered gun at hip, his own phone on dashboard receiving private Fixer call; Lucia holds her separate phone between him and intercom pedestal; she leans across toward lowered driver window, safe joined wrists.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "USE HIS VOICE"
+    },
+    {
+      "start": 28,
+      "end": 35,
+      "narration": "She pressed its speaker against the gate microphone. The Fixer's own voice ordered the guards to open.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented enclosed warehouse yard; exit gate at east/right, yard PA microphone pedestal inside beside driver window; office has no PA transmit connection, Fixer uses a separate private phone call to Jason, smoked-glass office above west/left. Two anonymous one-scene guards stand outside east gate. Wet neon night. Lucia holds phone speaker beside intercom microphone outside driver window; waveform on phone indicates playback; Jason keeps wheel and eyes on gate. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Close clear speaker-to-mic connection Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Music ducks for command; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside; quiet interior room tone; duck beneath speech and match visible perspective",
+        "sfx": "Short filtered playback as post cue, no extra voice generated; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Bay Twelve warehouse gate",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Saved command played, not a live new voice performance; intercom transmits outside; gate still closed.",
+        "vehicle_occupancy": "Both heroes seated van; guards outside unseen; Fixer upstairs.",
+        "entry_exit_and_geography": "Invented enclosed warehouse yard; exit gate at east/right, yard PA microphone pedestal inside beside driver window; office has no PA transmit connection, Fixer uses a separate private phone call to Jason, smoked-glass office above west/left. Two anonymous one-scene guards stand outside east gate. Wet neon night. Lucia holds phone speaker beside intercom microphone outside driver window; waveform on phone indicates playback; Jason keeps wheel and eyes on gate.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "OPEN THE GATE"
+    },
+    {
+      "start": 35,
+      "end": 42,
+      "narration": "One guard hesitated, looking upstairs. The office glass reflected neon; he could see no face behind it.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented enclosed warehouse yard; exit gate at east/right, yard PA microphone pedestal inside beside driver window; office has no PA transmit connection, Fixer uses a separate private phone call to Jason, smoked-glass office above west/left. Two anonymous one-scene guards stand outside east gate. Wet neon night. One anonymous guard outside gate looks up left toward opaque smoked-glass office, hand on gate release switch; second guard stays behind bollard, weapons lowered. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Guard-side reverse angle Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Held bass note; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside; quiet interior room tone; duck beneath speech and match visible perspective",
+        "sfx": "Release switch click; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Bay Twelve warehouse gate",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Guards cannot see Fixer through reflective glass; switch next to guard established; no phone hacking.",
+        "vehicle_occupancy": "Guards on foot; heroes remain van; Fixer upstairs unseen.",
+        "entry_exit_and_geography": "Invented enclosed warehouse yard; exit gate at east/right, yard PA microphone pedestal inside beside driver window; office has no PA transmit connection, Fixer uses a separate private phone call to Jason, smoked-glass office above west/left. Two anonymous one-scene guards stand outside east gate. Wet neon night. One anonymous guard outside gate looks up left toward opaque smoked-glass office, hand on gate release switch; second guard stays behind bollard, weapons lowered.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "HE CANNOT SEE HIM"
+    },
+    {
+      "start": 42,
+      "end": 49,
+      "narration": "The gate rolled back. Jason drove before the Fixer reached his office window to shout outside.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented enclosed warehouse yard; exit gate at east/right, yard PA microphone pedestal inside beside driver window; office has no PA transmit connection, Fixer uses a separate private phone call to Jason, smoked-glass office above west/left. Two anonymous one-scene guards stand outside east gate. Wet neon night. Gate slides open right; blue van passes through with both heroes and cash; upper office window begins opening behind as Fixer emerges too late. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Wide exit with office background Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Urgent percussion release; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside; quiet interior room tone; duck beneath speech and match visible perspective",
+        "sfx": "Gate motor and van acceleration; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Bay Twelve warehouse gate",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Gate gap wide enough for van; no gunshot, no collision; all money in cargo.",
+        "vehicle_occupancy": "Jason drives left, Lucia front right, Fixer upstairs, guards step aside.",
+        "entry_exit_and_geography": "Invented enclosed warehouse yard; exit gate at east/right, yard PA microphone pedestal inside beside driver window; office has no PA transmit connection, Fixer uses a separate private phone call to Jason, smoked-glass office above west/left. Two anonymous one-scene guards stand outside east gate. Wet neon night. Gate slides open right; blue van passes through with both heroes and cash; upper office window begins opening behind as Fixer emerges too late.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "TOO LATE"
+    },
+    {
+      "start": 49,
+      "end": 56,
+      "narration": "Their cash stayed in the van. Jason asked why she saved every message. Lucia deleted his apology.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented enclosed warehouse yard; exit gate at east/right, yard PA microphone pedestal inside beside driver window; office has no PA transmit connection, Fixer uses a separate private phone call to Jason, smoked-glass office above west/left. Two anonymous one-scene guards stand outside east gate. Wet neon night. Inside moving blue van, Jason glances at Lucia deleting a message; two zipped cash bags visible behind partition; wet city lights through windshield, gate gone. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Passenger-side two-shot, no mirrored dashboard Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Sly warm closing motif; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside; quiet interior room tone; duck beneath speech and match visible perspective",
+        "sfx": "Filtered interior rain, phone tap; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Bay Twelve warehouse gate",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Cash retained; phone deletion is Jason apology only, not the useful Fixer evidence; gun holstered.",
+        "vehicle_occupancy": "Jason driver left, Lucia passenger right; no other occupants.",
+        "entry_exit_and_geography": "Invented enclosed warehouse yard; exit gate at east/right, yard PA microphone pedestal inside beside driver window; office has no PA transmit connection, Fixer uses a separate private phone call to Jason, smoked-glass office above west/left. Two anonymous one-scene guards stand outside east gate. Wet neon night. Inside moving blue van, Jason glances at Lucia deleting a message; two zipped cash bags visible behind partition; wet city lights through windshield, gate gone.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "MESSAGE DELETED"
+    }
+  ],
+  "timeline": "present confrontation, one labeled earlier message insert, then continuous present",
+  "pov": "third-person limited: Jason and Lucia",
+  "delivery": "narrator-led; Liam only; quoted dialogue is narrated quotation, not an approved character voice",
+  "description": "Their cash van is trapped behind a locked gate, with armed guards waiting outside. Jason reaches for his gun while Lucia reaches for a message he once laughed at.\n\nOriginal GTA VI fan fiction featuring Jason Duval and Lucia Caminos; invented events, not official Rockstar story or gameplay. Voice narration: 11.ai.\n\n#GTA6 #FanFiction #Shorts",
+  "tags": [
+    "GTA6",
+    "GTA 6",
+    "GTA VI",
+    "Vice City Alibis",
+    "Jason Duval",
+    "Lucia Caminos",
+    "GTA 6 fan fiction",
+    "locked gate",
+    "warehouse trap",
+    "saved message",
+    "Fixer betrayal",
+    "cash van"
+  ],
+  "title_options": [
+    "The Fixer Opened His Own Trap | GTA 6 Fan Story | 11.ai",
+    "Jason and Lucia: The Fixer Opened His Own Trap | GTA 6 Fan Story | 11.ai",
+    "His Own Voice | GTA 6 Fan Story | 11.ai"
+  ],
+  "thumbnail_headline": "PRESS PLAY",
+  "story_audit": {
+    "goal": "Get their cash van out of the Fixer locked yard without a losing gunfight.",
+    "stakes": "Armed guards and a Fixer demanding the full score.",
+    "obstacle": "Closed gate, guarded release and Fixer watching from private office, speaking only on Jason private phone; outside gate crew hears a separate yard PA.",
+    "planted_clue": "A saved earlier entry-command message supplies the Fixer recognizable voice; smoked glass hides his reaction from his guards.",
+    "payoff": "His own recorded order opens his trap; they leave with all their money.",
+    "causal_check": "A brief labeled earlier insert supplies the recording rather than a miraculous voice clone. Lucia plays the existing command into a physical intercom. A guard chooses the normal gate switch; no remote hacking or instant forced lock."
+  },
+  "production_notes": {
+    "timing": "Eight contiguous 7-second planning bins; 56 seconds is estimated, final speech must be synthesized and measured at 50–60 seconds without time-stretching.",
+    "visual_status": "shot plans only; no new imagery generated or approved",
+    "audio_status": "no API call or audio generated; preserve native Liam pitch/cadence; dry centered voice and separate music/ambience/SFX/final mix stems",
+    "canon": "Jason Duval and Lucia Caminos are GTA VI characters used in fan fiction. The Fixer is an original supporting character. All events, dialogue, vehicles and named micro-sets here are original inventions.",
+    "release": "PLANNED, not rendered, uploaded, approved or commercially cleared; 11.ai attribution retained for intended free-plan provenance, not a license claim."
+  },
+  "audio_cues": [
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 0,
+      "rms": 0.0025,
+      "duration": 7,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Enclosed/sheltered rain low-passed for viewpoint",
+      "lowpass_hz": 1700
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 1,
+      "rms": 0.0025,
+      "duration": 7,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Enclosed/sheltered rain low-passed for viewpoint",
+      "lowpass_hz": 1700
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 2,
+      "rms": 0.0025,
+      "duration": 7,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Enclosed/sheltered rain low-passed for viewpoint",
+      "lowpass_hz": 1700
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 3,
+      "rms": 0.0025,
+      "duration": 7,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Enclosed/sheltered rain low-passed for viewpoint",
+      "lowpass_hz": 1700
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 4,
+      "rms": 0.0025,
+      "duration": 7,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Enclosed/sheltered rain low-passed for viewpoint",
+      "lowpass_hz": 1700
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 5,
+      "rms": 0.0025,
+      "duration": 7,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Enclosed/sheltered rain low-passed for viewpoint",
+      "lowpass_hz": 1700
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 6,
+      "rms": 0.0025,
+      "duration": 7,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Enclosed/sheltered rain low-passed for viewpoint",
+      "lowpass_hz": 1700
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 7,
+      "rms": 0.0025,
+      "duration": 7,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Enclosed/sheltered rain low-passed for viewpoint",
+      "lowpass_hz": 1700
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/metal-rattle.wav",
+      "scene_index": 0,
+      "rms": 0.007,
+      "duration": 0.6,
+      "loop": false,
+      "kind": "sfx",
+      "offset": 0.15,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/metal-rattle.wav.meta.json",
+      "purpose": "Gate closes on visible frame"
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/petrol-van-steady.wav",
+      "scene_index": 0,
+      "rms": 0.004,
+      "duration": 7,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/petrol-van-steady.wav.meta.json",
+      "purpose": "Inside van petrol idle/low travel; no boat or truck recording",
+      "lowpass_hz": 1300
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/petrol-van-steady.wav",
+      "scene_index": 2,
+      "rms": 0.004,
+      "duration": 7,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/petrol-van-steady.wav.meta.json",
+      "purpose": "Inside van petrol idle/low travel; no boat or truck recording",
+      "lowpass_hz": 1300
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/petrol-van-steady.wav",
+      "scene_index": 3,
+      "rms": 0.004,
+      "duration": 7,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/petrol-van-steady.wav.meta.json",
+      "purpose": "Inside van petrol idle/low travel; no boat or truck recording",
+      "lowpass_hz": 1300
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/petrol-van-steady.wav",
+      "scene_index": 4,
+      "rms": 0.004,
+      "duration": 7,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/petrol-van-steady.wav.meta.json",
+      "purpose": "Inside van petrol idle/low travel; no boat or truck recording",
+      "lowpass_hz": 1300
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/petrol-van-steady.wav",
+      "scene_index": 5,
+      "rms": 0.004,
+      "duration": 7,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/petrol-van-steady.wav.meta.json",
+      "purpose": "Inside van petrol idle/low travel; no boat or truck recording",
+      "lowpass_hz": 1300
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/petrol-van-steady.wav",
+      "scene_index": 6,
+      "rms": 0.004,
+      "duration": 7,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/petrol-van-steady.wav.meta.json",
+      "purpose": "Inside van petrol idle/low travel; no boat or truck recording",
+      "lowpass_hz": 1300
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/petrol-van-steady.wav",
+      "scene_index": 7,
+      "rms": 0.004,
+      "duration": 7,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/petrol-van-steady.wav.meta.json",
+      "purpose": "Inside van petrol idle/low travel; no boat or truck recording",
+      "lowpass_hz": 1300
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/private-line-texture.wav",
+      "scene_index": 3,
+      "rms": 0.0025,
+      "duration": 1.3,
+      "loop": false,
+      "kind": "sfx",
+      "offset": 0.15,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/private-line-texture.wav.meta.json",
+      "purpose": "Private phone line hiss only; no vibration/ringtone/extra voice"
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/pa-speaker-texture.wav",
+      "scene_index": 4,
+      "rms": 0.003,
+      "duration": 1.5,
+      "loop": false,
+      "kind": "sfx",
+      "offset": 0.15,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/pa-speaker-texture.wav.meta.json",
+      "purpose": "Short narrowband PA texture under narrated replay, no generated Fixer speech",
+      "lowpass_hz": 2800
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/metal-rattle.wav",
+      "scene_index": 5,
+      "rms": 0.003,
+      "duration": 0.2,
+      "loop": false,
+      "kind": "sfx",
+      "offset": 0.15,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/metal-rattle.wav.meta.json",
+      "purpose": "Guard visible gate-release switch click"
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/gate-motor.wav",
+      "scene_index": 6,
+      "rms": 0.007,
+      "duration": 3.5,
+      "loop": false,
+      "kind": "sfx",
+      "offset": 0.15,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/gate-motor.wav.meta.json",
+      "purpose": "Visible electric sliding-gate motor opens escape route"
+    }
+  ],
+  "upload_title": "Their Fixer Locked the Gate. Lucia Pressed Play. | GTA 6 | 11.ai"
+}

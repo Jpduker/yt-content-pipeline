@@ -1,0 +1,305 @@
+{
+  "id": "03-the-second-toast",
+  "title": "The Second Toast",
+  "hook": "Lucia made the poisoner drink twice.",
+  "timeline": "Linear; one continuous ten-minute encounter compressed into56 seconds",
+  "pov": "Third-person limited through Jason; Lucia's tactic becomes clear at payoff",
+  "delivery": "Liam narrator-led with tense pauses; no sung or acted character voice",
+  "description": "The Fixer offers Jason and Lucia a drink in exchange for a stolen ledger. Lucia catches Jason's wrist when she sees a blue ring on the only coaster.\n\nOriginal GTA VI fan fiction | Narration: Liam via ElevenLabs / 11.ai\n#GTA6 #FanFiction #Shorts",
+  "tags": [
+    "GTA6",
+    "GTA 6",
+    "GTA VI",
+    "GTAVI",
+    "GTA6 fan fiction",
+    "Jason Duval",
+    "Lucia Caminos",
+    "The Fixer",
+    "poisoned toast",
+    "stolen ledger",
+    "Vice City Alibis",
+    "11.ai"
+  ],
+  "title_options": [
+    "Lucia Asked for One More Toast | GTA 6 Fan Fiction | 11.ai",
+    "The Fixer Wouldn't Drink His Own Glass | GTA 6 Fan Fiction | 11.ai"
+  ],
+  "story_audit": {
+    "goal": "Trade stolen ledger for identity of the person who ordered their deaths.",
+    "stakes": "A second attempted killing occurs at the negotiation itself.",
+    "obstacle": "Fixer demands ledger before answering; Jason nearly drinks while Lucia has only circumstantial warning.",
+    "planted_clue": "Blue ring matches ledger ink, suggesting marked serving; pressure impressions beneath it show coaster used as a writing pad.",
+    "payoff": "Switching the glasses provokes an incriminating refusal; the spilled drink exposes an indented dock number on the coaster.",
+    "causal_check": "The glass swap is a test, not magical poison detection; host's fear confirms danger. Wet coaster reveals preexisting pressure writing. They retain leverage and gain a destination rather than falsely solving the killer's identity."
+  },
+  "date": "2026-11-19",
+  "duration_seconds": 56,
+  "status": "PLANNED â€” scripts and shot plans only; no rendered MP4",
+  "canon_status": "Jason Duval and Lucia Caminos are GTA VI characters in fan-art adaptation. The Fixer is an original supporting character. All plots, jobs, props, businesses and scene-specific sets here are invented noncanon fan fiction.",
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "script": "The Fixer offered Jason a toast, then slid Lucia the only glass with a paper coaster. They'd come to trade his stolen ledger for the name of whoever ordered their execution yesterday. Jason reached for his drink. Lucia caught his wrist. The coaster carried a faint blue ring. Same ink as the ledger's page numbers. Beneath it, writing pressed through from another page. The Fixer demanded proof they had it. Jason started reaching inside his jacket. Lucia ordered another toast. This time she switched the glasses. The Fixer knocked his over before it touched his mouth. Jason kept the ledger. Lucia took the wet coaster: beneath the ring was a private dock number. They hadn't discovered the killer's name. They'd found where their host was sending the next payment.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "narration": "The Fixer offered Jason a toast, then slid Lucia the only glass with a paper coaster.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Fixer F01 cream suit behind bar slides glass onto paper coaster before Lucia; Jason's bare-counter glass opposite, neither drinks. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J04-night-navy; L04-night-burgundy from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented waterfront private bar above marina; 10pm, rain streaking glass, amber counter light from right This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Tight portrait detail with subject grounded in wider setting",
+      "sound": {
+        "music": "Sparse muted bass motif",
+        "ambience": "Invented waterfront private bar above marina; 10pm, rain streaking glass, amber counter light from right; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 1,
+        "location_time_weather": "Invented waterfront private bar above marina; 10pm, rain streaking glass, amber counter light from right",
+        "outfits": "J04-night-navy; L04-night-burgundy",
+        "prop_state_and_blocking": "Glass A bare counter before Jason; glass B on one coaster before Lucia; Fixer empty-handed.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": "Lucia made the poisoner drink twice."
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "narration": "They'd come to trade his stolen ledger for the name of whoever ordered their execution yesterday.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Jason touches inside jacket where one small blue-numbered ledger sits; Lucia remains beside him facing Fixer. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J04-night-navy; L04-night-burgundy from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented waterfront private bar above marina; 10pm, rain streaking glass, amber counter light from right This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Over-shoulder medium, establish spatial relationship",
+      "sound": {
+        "music": "Restrained ticking pulse",
+        "ambience": "Invented waterfront private bar above marina; 10pm, rain streaking glass, amber counter light from right; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 2,
+        "location_time_weather": "Invented waterfront private bar above marina; 10pm, rain streaking glass, amber counter light from right",
+        "outfits": "J04-night-navy; L04-night-burgundy",
+        "prop_state_and_blocking": "Ledger single copy inside Jason jacket; glasses unmoved.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 14,
+      "end": 21,
+      "narration": "Jason reached for his drink. Lucia caught his wrist. The coaster carried a faint blue ring.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Lucia gently holds Jason wrist away from his glass; extreme detail on blue ink ring atop Lucia coaster. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J04-night-navy; L04-night-burgundy from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented waterfront private bar above marina; 10pm, rain streaking glass, amber counter light from right This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Low three-quarter medium, clear hand contact",
+      "sound": {
+        "music": "Low syncopated tension",
+        "ambience": "Invented waterfront private bar above marina; 10pm, rain streaking glass, amber counter light from right; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 3,
+        "location_time_weather": "Invented waterfront private bar above marina; 10pm, rain streaking glass, amber counter light from right",
+        "outfits": "J04-night-navy; L04-night-burgundy",
+        "prop_state_and_blocking": "Lucia left hand on Jason wrist, coaster flat; ring blue at top edge, no drink consumed.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 21,
+      "end": 28,
+      "narration": "Same ink as the ledger's page numbers. Beneath it, writing pressed through from another page.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Jason reveals blue-numbered ledger edge while Lucia tilts single coaster in raking amber light, showing shallow pressure impressions below blue ring; Fixer remains across counter. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J04-night-navy; L04-night-burgundy from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented waterfront private bar above marina; 10pm, rain streaking glass, amber counter light from right This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Close detail on the planted physical clue",
+      "sound": {
+        "music": "Music thins for clue",
+        "ambience": "Invented waterfront private bar above marina; 10pm, rain streaking glass, amber counter light from right; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 4,
+        "location_time_weather": "Invented waterfront private bar above marina; 10pm, rain streaking glass, amber counter light from right",
+        "outfits": "J04-night-navy; L04-night-burgundy",
+        "prop_state_and_blocking": "Ledger only edge exposed; ink color matches coaster but no supernatural reveal; Fixer blue fingers contextual evidence. Faint impressed writing planted now; water later darkens it, no new number appears from nowhere.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 28,
+      "end": 35,
+      "narration": "The Fixer demanded proof they had it. Jason started reaching inside his jacket. Lucia ordered another toast.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Fixer extends empty palm; Jason hand inside jacket, Lucia raises two fingers requesting second pour; original glasses stay bar. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J04-night-navy; L04-night-burgundy from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented waterfront private bar above marina; 10pm, rain streaking glass, amber counter light from right This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Eye-level two-shot, disagreement readable in faces",
+      "sound": {
+        "music": "Single low sustained note",
+        "ambience": "Invented waterfront private bar above marina; 10pm, rain streaking glass, amber counter light from right; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 5,
+        "location_time_weather": "Invented waterfront private bar above marina; 10pm, rain streaking glass, amber counter light from right",
+        "outfits": "J04-night-navy; L04-night-burgundy",
+        "prop_state_and_blocking": "No additional glasses introduced: second toast means refill same pair; both remain identifiable by rim chip on A.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 35,
+      "end": 42,
+      "narration": "This time she switched the glasses. The Fixer knocked his over before it touched his mouth.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Two glasses now swapped by Lucia across same counter; Fixer recoils and deliberately tips glass nearest him, liquid toward his side. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J04-night-navy; L04-night-burgundy from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented waterfront private bar above marina; 10pm, rain streaking glass, amber counter light from right This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Wider action composition with visible origin and destination",
+      "sound": {
+        "music": "Measured pulse accelerates",
+        "ambience": "Invented waterfront private bar above marina; 10pm, rain streaking glass, amber counter light from right; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 6,
+        "location_time_weather": "Invented waterfront private bar above marina; 10pm, rain streaking glass, amber counter light from right",
+        "outfits": "J04-night-navy; L04-night-burgundy",
+        "prop_state_and_blocking": "Lucia swaps A and B; Fixer tips B in front of himself; A now in front of Lucia; spill stays Fixer side.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 42,
+      "end": 49,
+      "narration": "Jason kept the ledger. Lucia took the wet coaster: beneath the ring was a private dock number.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Jason secures ledger fully inside jacket; Lucia lifts wet single coaster showing indented dock number added as post overlay. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J04-night-navy; L04-night-burgundy from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented waterfront private bar above marina; 10pm, rain streaking glass, amber counter light from right This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Controlled close insert on the irreversible choice",
+      "sound": {
+        "music": "Brief drop beneath decisive line",
+        "ambience": "Invented waterfront private bar above marina; 10pm, rain streaking glass, amber counter light from right; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 7,
+        "location_time_weather": "Invented waterfront private bar above marina; 10pm, rain streaking glass, amber counter light from right",
+        "outfits": "J04-night-navy; L04-night-burgundy",
+        "prop_state_and_blocking": "Ledger jacket; one wet coaster in Lucia right hand; pressure-written number now darkened by spill soaking edge.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 49,
+      "end": 56,
+      "narration": "They hadn't discovered the killer's name. They'd found where their host was sending the next payment.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Through rain glass, Lucia photographs coaster beside marina berth board; Jason watches Fixer, who is framed behind spilled glass. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J04-night-navy; L04-night-burgundy from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented waterfront private bar above marina; 10pm, rain streaking glass, amber counter light from right This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Portrait medium-wide payoff, hold final consequence",
+      "sound": {
+        "music": "Unresolved motif resolves on final noun",
+        "ambience": "Invented waterfront private bar above marina; 10pm, rain streaking glass, amber counter light from right; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 8,
+        "location_time_weather": "Invented waterfront private bar above marina; 10pm, rain streaking glass, amber counter light from right",
+        "outfits": "J04-night-navy; L04-night-burgundy",
+        "prop_state_and_blocking": "Coaster remains Lucia hand, phone in other; glasses and spill remain bar; heroes have not reached dock yet.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": "Original GTA VI fan fiction"
+    }
+  ],
+  "spoken_word_count": 129,
+  "thumbnail_headline": "DRINK YOUR OWN",
+  "upload_title": "The Fixer Offered Lucia the Wrong Glass | GTA6 Fan Fiction | 11.ai"
+}

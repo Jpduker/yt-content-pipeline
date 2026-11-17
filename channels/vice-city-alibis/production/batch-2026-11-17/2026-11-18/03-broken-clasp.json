@@ -1,0 +1,336 @@
+{
+  "id": "vca-20261118-03-broken-clasp",
+  "title": "Lucia Recognized the Broken Clasp",
+  "date": "2026-11-18",
+  "duration_seconds": 56,
+  "status": "PLANNED",
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "hook": "The auction necklace was fake. Lucia knew because she had bent the real clasp stealing it.",
+  "script": "The auction necklace was fake. Lucia knew because she had bent the real clasp stealing it. The Fixer smiled. Jason reached for the case. Lucia stopped him. Wrong prize. Beneath the Fixer's catalogue, one gold link caught the light. He kept the original for himself. Lucia demanded a closer look at the fake. He lifted it, leaving his catalogue unguarded. Jason pinned the catalogue with his palm. The Fixer grabbed his wrist. Every buyer turned toward the struggle. Lucia pulled the real necklace from beneath the paper and held up its bent clasp beside the perfect copy. The room erupted. Buyers blocked the Fixer, demanding their deposits back. Jason and Lucia took the terrace stairs. Outside, she pocketed their necklace. Jason asked about the damaged clasp. Lucia said it had just paid for itself.",
+  "word_count": 134,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "narration": "The auction necklace was fake. Lucia knew because she had bent the real clasp stealing it.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented private auction salon: Fixer at north sales table, anonymous one-scene buyers south, terrace door east and open stairs to street visible through it. One table lamp casts warm gold across catalogue and fake necklace. No named new cast. Lucia and Jason stand south of sales table; intact-clasp imitation necklace on black display pad; Fixer stands north with one hand on catalogue. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Close clasp then Lucia reaction Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Suspicion motif; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain at terrace; restrained private-auction crowd murmur, no music competing with narration; duck beneath speech and match visible perspective",
+        "sfx": "Jewelry clink, room murmur; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Coral Room private auction",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Fake necklace displayed; real necklace hidden beneath catalogue with one link protruding; no photo.",
+        "vehicle_occupancy": "No vehicles; heroes and Fixer standing; anonymous buyers seated south.",
+        "entry_exit_and_geography": "Invented private auction salon: Fixer at north sales table, anonymous one-scene buyers south, terrace door east and open stairs to street visible through it. One table lamp casts warm gold across catalogue and fake necklace. No named new cast. Lucia and Jason stand south of sales table; intact-clasp imitation necklace on black display pad; Fixer stands north with one hand on catalogue.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "WRONG CLASP"
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "narration": "The Fixer smiled. Jason reached for the case. Lucia stopped him. Wrong prize.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented private auction salon: Fixer at north sales table, anonymous one-scene buyers south, terrace door east and open stairs to street visible through it. One table lamp casts warm gold across catalogue and fake necklace. No named new cast. Jason reaches toward closed transparent display case over fake; Lucia catches his sleeve, Fixer smiles north; terrace exit east visible. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Medium character-friction two-shot Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Low held pulse; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain at terrace; restrained private-auction crowd murmur, no music competing with narration; duck beneath speech and match visible perspective",
+        "sfx": "Sleeve rustle; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Coral Room private auction",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Fake inside lift-off case; catalogue untouched over real; no weapon.",
+        "vehicle_occupancy": "Heroes at table south, Fixer north, buyers behind heroes.",
+        "entry_exit_and_geography": "Invented private auction salon: Fixer at north sales table, anonymous one-scene buyers south, terrace door east and open stairs to street visible through it. One table lamp casts warm gold across catalogue and fake necklace. No named new cast. Jason reaches toward closed transparent display case over fake; Lucia catches his sleeve, Fixer smiles north; terrace exit east visible.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "WRONG PRIZE"
+    },
+    {
+      "start": 14,
+      "end": 21,
+      "narration": "Beneath the Fixer's catalogue, one gold link caught the light. He kept the original for himself.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented private auction salon: Fixer at north sales table, anonymous one-scene buyers south, terrace door east and open stairs to street visible through it. One table lamp casts warm gold across catalogue and fake necklace. No named new cast. Low table-level angle: gold link protrudes from beneath catalogue beside Fixer hand; Lucia gaze leads to it, Jason follows. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Table insert Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Single revealing pluck; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain at terrace; restrained private-auction crowd murmur, no music competing with narration; duck beneath speech and match visible perspective",
+        "sfx": "Catalogue paper shift; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Coral Room private auction",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Real necklace bent clasp hidden under catalogue; fake remains pad under case.",
+        "vehicle_occupancy": "Same positions; no extra hands.",
+        "entry_exit_and_geography": "Invented private auction salon: Fixer at north sales table, anonymous one-scene buyers south, terrace door east and open stairs to street visible through it. One table lamp casts warm gold across catalogue and fake necklace. No named new cast. Low table-level angle: gold link protrudes from beneath catalogue beside Fixer hand; Lucia gaze leads to it, Jason follows.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "UNDER THE PAPER"
+    },
+    {
+      "start": 21,
+      "end": 28,
+      "narration": "Lucia demanded a closer look at the fake. He lifted it, leaving his catalogue unguarded.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented private auction salon: Fixer at north sales table, anonymous one-scene buyers south, terrace door east and open stairs to street visible through it. One table lamp casts warm gold across catalogue and fake necklace. No named new cast. Lucia gestures to fake; Fixer lifts imitation out of case with both hands for inspection, leaving catalogue flat on table. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Medium inspection Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Pulse quickens; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain at terrace; restrained private-auction crowd murmur, no music competing with narration; duck beneath speech and match visible perspective",
+        "sfx": "Glass case lift, chain rattle; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Coral Room private auction",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Fake now Fixer hands; real under catalogue; case empty but still on table.",
+        "vehicle_occupancy": "Heroes south, Fixer north; buyers watch.",
+        "entry_exit_and_geography": "Invented private auction salon: Fixer at north sales table, anonymous one-scene buyers south, terrace door east and open stairs to street visible through it. One table lamp casts warm gold across catalogue and fake necklace. No named new cast. Lucia gestures to fake; Fixer lifts imitation out of case with both hands for inspection, leaving catalogue flat on table.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "SHOW THEM"
+    },
+    {
+      "start": 28,
+      "end": 35,
+      "narration": "Jason pinned the catalogue with his palm. The Fixer grabbed his wrist. Every buyer turned toward the struggle.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented private auction salon: Fixer at north sales table, anonymous one-scene buyers south, terrace door east and open stairs to street visible through it. One table lamp casts warm gold across catalogue and fake necklace. No named new cast. Jason presses palm flat on catalogue, Fixer grips Jason other wrist across table; buyers turn; Lucia free at table corner. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Tight hand continuity shot Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Restrained impact; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain at terrace; restrained private-auction crowd murmur, no music competing with narration; duck beneath speech and match visible perspective",
+        "sfx": "Palm thud, chair scrape; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Coral Room private auction",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Catalogue pinned; real necklace trapped visibly beneath edge; fake dangling from Fixer free hand.",
+        "vehicle_occupancy": "No weapon or new participant in struggle.",
+        "entry_exit_and_geography": "Invented private auction salon: Fixer at north sales table, anonymous one-scene buyers south, terrace door east and open stairs to street visible through it. One table lamp casts warm gold across catalogue and fake necklace. No named new cast. Jason presses palm flat on catalogue, Fixer grips Jason other wrist across table; buyers turn; Lucia free at table corner.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "ONE SECOND"
+    },
+    {
+      "start": 35,
+      "end": 42,
+      "narration": "Lucia pulled the real necklace from beneath the paper and held up its bent clasp beside the perfect copy.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented private auction salon: Fixer at north sales table, anonymous one-scene buyers south, terrace door east and open stairs to street visible through it. One table lamp casts warm gold across catalogue and fake necklace. No named new cast. Lucia draws real necklace from open catalogue edge with bent clasp raised beside intact-clasp fake in Fixer hand; distinct two chains never duplicated. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Close comparative evidence Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Music drops for reveal; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain at terrace; restrained private-auction crowd murmur, no music competing with narration; duck beneath speech and match visible perspective",
+        "sfx": "Two chains softly chime; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Coral Room private auction",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Real now Lucia hand; fake still Fixer; catalogue stays table; bent clasp plainly unique.",
+        "vehicle_occupancy": "All same table positions; buyers rising.",
+        "entry_exit_and_geography": "Invented private auction salon: Fixer at north sales table, anonymous one-scene buyers south, terrace door east and open stairs to street visible through it. One table lamp casts warm gold across catalogue and fake necklace. No named new cast. Lucia draws real necklace from open catalogue edge with bent clasp raised beside intact-clasp fake in Fixer hand; distinct two chains never duplicated.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "ONE REAL ONE FAKE"
+    },
+    {
+      "start": 42,
+      "end": 49,
+      "narration": "The room erupted. Buyers blocked the Fixer, demanding their deposits back. Jason and Lucia took the terrace stairs.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented private auction salon: Fixer at north sales table, anonymous one-scene buyers south, terrace door east and open stairs to street visible through it. One table lamp casts warm gold across catalogue and fake necklace. No named new cast. Wide: anonymous buyers crowd north table demanding refunds, Fixer blocked from east; heroes already through east terrace door toward clear stairs. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Wide establishes crowd barrier Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Quick release rhythm; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain at terrace; restrained private-auction crowd murmur, no music competing with narration; duck beneath speech and match visible perspective",
+        "sfx": "Chairs and upset room murmur; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Coral Room private auction",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Lucia holds real necklace; Fixer retains fake; no cash theft added.",
+        "vehicle_occupancy": "Heroes east terrace; Fixer and buyers salon; no chase teleport.",
+        "entry_exit_and_geography": "Invented private auction salon: Fixer at north sales table, anonymous one-scene buyers south, terrace door east and open stairs to street visible through it. One table lamp casts warm gold across catalogue and fake necklace. No named new cast. Wide: anonymous buyers crowd north table demanding refunds, Fixer blocked from east; heroes already through east terrace door toward clear stairs.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "DEPOSITS BACK"
+    },
+    {
+      "start": 49,
+      "end": 56,
+      "narration": "Outside, she pocketed their necklace. Jason asked about the damaged clasp. Lucia said it had just paid for itself.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented private auction salon: Fixer at north sales table, anonymous one-scene buyers south, terrace door east and open stairs to street visible through it. One table lamp casts warm gold across catalogue and fake necklace. No named new cast. Under awning at base of terrace stairs, Lucia places real necklace into secure inner pocket while Jason points at bent clasp; warm salon window above. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Medium payoff Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Sly warm ending; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain at terrace; restrained private-auction crowd murmur, no music competing with narration; duck beneath speech and match visible perspective",
+        "sfx": "Pocket cloth, light chain tap; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Coral Room private auction",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Original necklace retained with bent clasp; imitation left at auction; empty case/table remain upstairs.",
+        "vehicle_occupancy": "Heroes on foot outside; no vehicle.",
+        "entry_exit_and_geography": "Invented private auction salon: Fixer at north sales table, anonymous one-scene buyers south, terrace door east and open stairs to street visible through it. One table lamp casts warm gold across catalogue and fake necklace. No named new cast. Under awning at base of terrace stairs, Lucia places real necklace into secure inner pocket while Jason points at bent clasp; warm salon window above.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "THE CLASP PAID"
+    }
+  ],
+  "timeline": "linear",
+  "pov": "third-person limited: Jason and Lucia",
+  "delivery": "narrator-led; Liam only; quoted dialogue is narrated quotation, not an approved character voice",
+  "description": "The Fixer is selling a necklace Lucia knows better than anyone in the room. One tiny detail turns an ordinary auction into a very dangerous inspection.\n\nOriginal GTA VI fan fiction featuring Jason Duval and Lucia Caminos; invented events, not official Rockstar story or gameplay. Voice narration: 11.ai.\n\n#GTA6 #FanFiction #Shorts",
+  "tags": [
+    "GTA6",
+    "GTA 6",
+    "GTA VI",
+    "Vice City Alibis",
+    "Jason Duval",
+    "Lucia Caminos",
+    "GTA 6 fan fiction",
+    "necklace auction",
+    "fake necklace",
+    "bent clasp",
+    "Fixer scam",
+    "jewelry heist"
+  ],
+  "title_options": [
+    "Lucia Recognized the Broken Clasp | GTA 6 Fan Story | 11.ai",
+    "Jason and Lucia: Lucia Recognized the Broken Clasp | GTA 6 Fan Story | 11.ai",
+    "Wrong Clasp | GTA 6 Fan Story | 11.ai"
+  ],
+  "thumbnail_headline": "WRONG CLASP",
+  "story_audit": {
+    "goal": "Recover their real stolen necklace before the Fixer sells a copy and keeps the original.",
+    "stakes": "Losing the original and being exposed as thieves in a room of criminal buyers.",
+    "obstacle": "Fake display piece, concealed original and Fixer physical resistance.",
+    "planted_clue": "Lucia bent the original clasp during its theft; a protruding link reveals the hidden original before Jason acts.",
+    "payoff": "The visible mismatch proves the Fixer scam to his own buyers, whose refund demands block pursuit while the heroes keep their original.",
+    "causal_check": "There are exactly two necklaces, each tracked from introduction to final owner. Buyers react to proof of fraud, not unexplained loyalty to heroes. East terrace stairs are shown before escape."
+  },
+  "production_notes": {
+    "timing": "Eight contiguous 7-second planning bins; 56 seconds is estimated, final speech must be synthesized and measured at 50–60 seconds without time-stretching.",
+    "visual_status": "shot plans only; no new imagery generated or approved",
+    "audio_status": "no API call or audio generated; preserve native Liam pitch/cadence; dry centered voice and separate music/ambience/SFX/final mix stems",
+    "canon": "Jason Duval and Lucia Caminos are GTA VI characters used in fan fiction. The Fixer is an original supporting character. All events, dialogue, vehicles and named micro-sets here are original inventions.",
+    "release": "PLANNED, not rendered, uploaded, approved or commercially cleared; 11.ai attribution retained for intended free-plan provenance, not a license claim."
+  },
+  "upload_title": "Lucia Spotted One Tiny Mistake at the Auction | GTA 6 | 11.ai"
+}

@@ -1,0 +1,13 @@
+{
+  "generator": "built-in image_gen",
+  "selected_anchor": "01.png",
+  "selected_provenance": "01.provenance.json",
+  "reason": "Corrected zipped black leather jacket and verified rear-view USA seating",
+  "superseded_original_provenance": {
+    "generator": "built-in image_gen",
+    "id": "05",
+    "stem": "05-car-wash-trap",
+    "src": "C:\\Users\\Vivek Sai\\.codex\\generated_images\\01a1e632-5cde-7690-9196-7104c414cf5d\\exec-55e70dcb-6d15-4a6f-bd5b-0ce457227586.png",
+    "prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Red stolen coupe noses into lit wash tunnel from left; exit shutter down at far right; Jason right passenger looks ahead while Lucia left-hand driver grips wheel; black sedan one car length behind. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame."
+  }
+}

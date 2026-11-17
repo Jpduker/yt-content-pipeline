@@ -1,0 +1,427 @@
+{
+  "id": "VCA-B261117-20261120-E07",
+  "title": "The Exit Was In The Reflection",
+  "date": "2026-11-20",
+  "duration_seconds": 56,
+  "timing_status": "PLANNED; 56 seconds estimated, measure native Liam delivery before final scene timing",
+  "spoken_word_count": 134,
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    },
+    "status": "PLANNED; Liam narrates quoted dialogue as single narrator; character casting not auditioned; no generated audio"
+  },
+  "hook": "Jason had the emerald. Lucia had the key. Neither could see the exit.",
+  "script": "Jason had the emerald. Lucia had the key. Neither could see the exit. The panic shutter divided the showroom. Jason was trapped beside the vault, Lucia beside the security desk. He wanted to break the divider. She pointed at the red alarm wire around its edge. Below sat a labeled release panel. Her side had no keyhole. She passed the key through a slot. Jason checked his side. Four keyholes. No labels. A tilted mirror reflected the switches. Lucia read the panel: third from left. In the mirror, that meant second. Jason reached wrong anyway. She tapped the glass twice. He counted from her reflection, turned the second keyhole, and the service door opened. Jason slipped through with the emerald. Lucia took his hand. Next time, she said, steal something that comes with directions.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "narration": "Jason had the emerald. Lucia had the key. Neither could see the exit.",
+      "visual_prompt": "1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented shuttered emerald showroom with glass partition and two-sided release panel, Vice City. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Jason left behind glass divider holding emerald in velvet pouch; Lucia right security desk with brass key; exit hidden by panic shutter. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. No vehicle in frame; no occupants. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.",
+      "camera": "Portrait wide establishing, 35mm equivalent, slow 3% push; establish left/right positions",
+      "sound": {
+        "music": "Two dry piano notes, sparse low bass; score planned 14–18 dB below speech, smooth ducking.",
+        "ambience": "invented shuttered emerald showroom with glass partition and two-sided release panel, Vice City; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.",
+        "sfx": "At 2s, brief natural foley tied only to the visible prop movement: Jason left behind glass divider holding emerald in velvet pouch; Lucia right security desk with brass key; exit hidden by panic shutter; all cues planned, beneath centered voice."
+      },
+      "continuity": {
+        "location": "invented shuttered emerald showroom with glass partition and two-sided release panel, Vice City",
+        "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior",
+        "characters": [
+          "Jason Duval",
+          "Lucia Caminos"
+        ],
+        "wardrobe": {
+          "Jason": "J02-heist-charcoal",
+          "Lucia": "L02-heist-hoodie"
+        },
+        "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement",
+        "props": "Single emerald in velvet pouch; single brass release key transferred through document slot before turn; four paired mechanical release housings labeled only desk side; angled mirror; red alarm wire; panic shutter",
+        "beat_state": "Jason left behind glass divider holding emerald in velvet pouch; Lucia right security desk with brass key; exit hidden by panic shutter",
+        "vehicle_occupants": "No vehicle in frame; no occupants",
+        "photo_state": "No photographs",
+        "source_asset_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png"
+        ],
+        "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."
+      },
+      "on_screen_text": {
+        "text": "FAN FICTION",
+        "placement": "Upper safe area; subtitles lower fifth above platform controls",
+        "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"
+      }
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "narration": "The panic shutter divided the showroom. Jason was trapped beside the vault, Lucia beside the security desk.",
+      "visual_prompt": "1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented shuttered emerald showroom with glass partition and two-sided release panel, Vice City. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Wide overhead shows two divided zones: vault side Jason, security desk side Lucia; glass divider and service door on Jason side. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. No vehicle in frame; no occupants. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.",
+      "camera": "Eye-level medium, 50mm equivalent; gentle lateral slide following visible hand",
+      "sound": {
+        "music": "Uneasy muted pulse; score planned 14–18 dB below speech, smooth ducking.",
+        "ambience": "invented shuttered emerald showroom with glass partition and two-sided release panel, Vice City; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.",
+        "sfx": "At 9s, brief natural foley tied only to the visible prop movement: Wide overhead shows two divided zones: vault side Jason, security desk side Lucia; glass divider and service door on Jason side; all cues planned, beneath centered voice."
+      },
+      "continuity": {
+        "location": "invented shuttered emerald showroom with glass partition and two-sided release panel, Vice City",
+        "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior",
+        "characters": [
+          "Jason Duval",
+          "Lucia Caminos"
+        ],
+        "wardrobe": {
+          "Jason": "J02-heist-charcoal",
+          "Lucia": "L02-heist-hoodie"
+        },
+        "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement",
+        "props": "Single emerald in velvet pouch; single brass release key transferred through document slot before turn; four paired mechanical release housings labeled only desk side; angled mirror; red alarm wire; panic shutter",
+        "beat_state": "Wide overhead shows two divided zones: vault side Jason, security desk side Lucia; glass divider and service door on Jason side",
+        "vehicle_occupants": "No vehicle in frame; no occupants",
+        "photo_state": "No photographs",
+        "source_asset_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png"
+        ],
+        "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."
+      },
+      "on_screen_text": {
+        "text": "",
+        "placement": "Upper safe area; subtitles lower fifth above platform controls",
+        "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"
+      }
+    },
+    {
+      "start": 14,
+      "end": 21,
+      "narration": "He wanted to break the divider. She pointed at the red alarm wire around its edge.",
+      "visual_prompt": "1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented shuttered emerald showroom with glass partition and two-sided release panel, Vice City. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Jason hand near glass; Lucia points to red perimeter alarm wire embedded along divider edge; glass intact. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. No vehicle in frame; no occupants. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.",
+      "camera": "Macro detail, 85mm equivalent; rack focus from prop to connected hand",
+      "sound": {
+        "music": "Pulse thins to expose clue; score planned 14–18 dB below speech, smooth ducking.",
+        "ambience": "invented shuttered emerald showroom with glass partition and two-sided release panel, Vice City; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.",
+        "sfx": "At 16s, brief natural foley tied only to the visible prop movement: Jason hand near glass; Lucia points to red perimeter alarm wire embedded along divider edge; glass intact; all cues planned, beneath centered voice."
+      },
+      "continuity": {
+        "location": "invented shuttered emerald showroom with glass partition and two-sided release panel, Vice City",
+        "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior",
+        "characters": [
+          "Jason Duval",
+          "Lucia Caminos"
+        ],
+        "wardrobe": {
+          "Jason": "J02-heist-charcoal",
+          "Lucia": "L02-heist-hoodie"
+        },
+        "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement",
+        "props": "Single emerald in velvet pouch; single brass release key transferred through document slot before turn; four paired mechanical release housings labeled only desk side; angled mirror; red alarm wire; panic shutter",
+        "beat_state": "Jason hand near glass; Lucia points to red perimeter alarm wire embedded along divider edge; glass intact",
+        "vehicle_occupants": "No vehicle in frame; no occupants",
+        "photo_state": "No photographs",
+        "source_asset_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png"
+        ],
+        "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."
+      },
+      "on_screen_text": {
+        "text": "",
+        "placement": "Upper safe area; subtitles lower fifth above platform controls",
+        "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"
+      }
+    },
+    {
+      "start": 21,
+      "end": 28,
+      "narration": "Below sat a labeled release panel. Her side had no keyhole. She passed the key through a slot.",
+      "visual_prompt": "1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented shuttered emerald showroom with glass partition and two-sided release panel, Vice City. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Lucia low beside desk, front of four labeled switch housings visible but no keyholes; Lucia passes brass key through existing desk document slot to Jason left; he receives it naturally with right hand. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. No vehicle in frame; no occupants. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.",
+      "camera": "Over Jason shoulder toward Lucia, 50mm; hold sightline and axis",
+      "sound": {
+        "music": "Close ticking percussion; score planned 14–18 dB below speech, smooth ducking.",
+        "ambience": "invented shuttered emerald showroom with glass partition and two-sided release panel, Vice City; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.",
+        "sfx": "At 23s, brief natural foley tied only to the visible prop movement: Lucia low beside desk, front of four labeled switch housings visible but no keyholes; brass key in right hand; all cues planned, beneath centered voice."
+      },
+      "continuity": {
+        "location": "invented shuttered emerald showroom with glass partition and two-sided release panel, Vice City",
+        "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior",
+        "characters": [
+          "Jason Duval",
+          "Lucia Caminos"
+        ],
+        "wardrobe": {
+          "Jason": "J02-heist-charcoal",
+          "Lucia": "L02-heist-hoodie"
+        },
+        "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement",
+        "props": "Single emerald in velvet pouch; single brass release key transferred through document slot before turn; four paired mechanical release housings labeled only desk side; angled mirror; red alarm wire; panic shutter",
+        "beat_state": "Lucia low beside desk, front of four labeled switch housings visible but no keyholes; brass key transferred through desk slot to Jason right hand",
+        "vehicle_occupants": "No vehicle in frame; no occupants",
+        "photo_state": "No photographs",
+        "source_asset_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png"
+        ],
+        "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."
+      },
+      "on_screen_text": {
+        "text": "",
+        "placement": "Upper safe area; subtitles lower fifth above platform controls",
+        "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"
+      }
+    },
+    {
+      "start": 28,
+      "end": 35,
+      "narration": "Jason checked his side. Four keyholes. No labels. A tilted mirror reflected the switches.",
+      "visual_prompt": "1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented shuttered emerald showroom with glass partition and two-sided release panel, Vice City. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Jason opposite side sees four unlabeled keyhole housings; angled overhead showroom mirror reflects back side of panel and Lucia labels. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. No vehicle in frame; no occupants. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.",
+      "camera": "Portrait medium low angle, 35mm; 4% push toward rising obstruction",
+      "sound": {
+        "music": "Bass tightens, percussion rises; score planned 14–18 dB below speech, smooth ducking.",
+        "ambience": "invented shuttered emerald showroom with glass partition and two-sided release panel, Vice City; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.",
+        "sfx": "At 30s, brief natural foley tied only to the visible prop movement: Jason opposite side sees four unlabeled keyhole housings; angled overhead showroom mirror reflects back side of panel and Lucia labels; all cues planned, beneath centered voice."
+      },
+      "continuity": {
+        "location": "invented shuttered emerald showroom with glass partition and two-sided release panel, Vice City",
+        "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior",
+        "characters": [
+          "Jason Duval",
+          "Lucia Caminos"
+        ],
+        "wardrobe": {
+          "Jason": "J02-heist-charcoal",
+          "Lucia": "L02-heist-hoodie"
+        },
+        "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement",
+        "props": "Single emerald in velvet pouch; single brass release key transferred through document slot before turn; four paired mechanical release housings labeled only desk side; angled mirror; red alarm wire; panic shutter",
+        "beat_state": "Jason opposite side sees four unlabeled keyhole housings; angled overhead showroom mirror reflects back side of panel and Lucia labels",
+        "vehicle_occupants": "No vehicle in frame; no occupants",
+        "photo_state": "No photographs",
+        "source_asset_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png"
+        ],
+        "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."
+      },
+      "on_screen_text": {
+        "text": "",
+        "placement": "Upper safe area; subtitles lower fifth above platform controls",
+        "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"
+      }
+    },
+    {
+      "start": 35,
+      "end": 42,
+      "narration": "Lucia read the panel: third from left. In the mirror, that meant second. Jason reached wrong anyway.",
+      "visual_prompt": "1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented shuttered emerald showroom with glass partition and two-sided release panel, Vice City. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Lucia points to third labeled housing from her left; reflected arrangement reversed; Jason reaches leftmost wrong housing, Jason holds brass key already received through existing desk document slot in scene4. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. No vehicle in frame; no occupants. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.",
+      "camera": "Over Lucia shoulder toward Jason, 50mm; maintain established geography",
+      "sound": {
+        "music": "Percussion accelerates quietly; score planned 14–18 dB below speech, smooth ducking.",
+        "ambience": "invented shuttered emerald showroom with glass partition and two-sided release panel, Vice City; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.",
+        "sfx": "At 37s, brief natural foley tied only to the visible prop movement: Lucia points to third labeled housing from her left; reflected arrangement reversed; Jason reaches leftmost wrong housing, key now passed via existing desk document slot; all cues planned, beneath centered voice."
+      },
+      "continuity": {
+        "location": "invented shuttered emerald showroom with glass partition and two-sided release panel, Vice City",
+        "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior",
+        "characters": [
+          "Jason Duval",
+          "Lucia Caminos"
+        ],
+        "wardrobe": {
+          "Jason": "J02-heist-charcoal",
+          "Lucia": "L02-heist-hoodie"
+        },
+        "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement",
+        "props": "Single emerald in velvet pouch; single brass release key transferred through document slot before turn; four paired mechanical release housings labeled only desk side; angled mirror; red alarm wire; panic shutter",
+        "beat_state": "Lucia points to third labeled housing from her left; reflected arrangement reversed; Jason reaches leftmost wrong housing, Jason holds brass key already received in scene4",
+        "vehicle_occupants": "No vehicle in frame; no occupants",
+        "photo_state": "No photographs",
+        "source_asset_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png"
+        ],
+        "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."
+      },
+      "on_screen_text": {
+        "text": "",
+        "placement": "Upper safe area; subtitles lower fifth above platform controls",
+        "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"
+      }
+    },
+    {
+      "start": 42,
+      "end": 49,
+      "narration": "She tapped the glass twice. He counted from her reflection, turned the second keyhole, and the service door opened.",
+      "visual_prompt": "1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented shuttered emerald showroom with glass partition and two-sided release panel, Vice City. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Lucia taps glass twice; Jason redirects to second housing from his left, inserts transferred key and turns; service door bolt retracts. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. No vehicle in frame; no occupants. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.",
+      "camera": "Tight action insert, 70mm; focus on the physical consequence",
+      "sound": {
+        "music": "Brief harmonic release; no impact over speech; score planned 14–18 dB below speech, smooth ducking.",
+        "ambience": "invented shuttered emerald showroom with glass partition and two-sided release panel, Vice City; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.",
+        "sfx": "At 44s, brief natural foley tied only to the visible prop movement: Lucia taps glass twice; Jason redirects to second housing from his left, inserts transferred key and turns; service door bolt retracts; all cues planned, beneath centered voice."
+      },
+      "continuity": {
+        "location": "invented shuttered emerald showroom with glass partition and two-sided release panel, Vice City",
+        "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior",
+        "characters": [
+          "Jason Duval",
+          "Lucia Caminos"
+        ],
+        "wardrobe": {
+          "Jason": "J02-heist-charcoal",
+          "Lucia": "L02-heist-hoodie"
+        },
+        "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement",
+        "props": "Single emerald in velvet pouch; single brass release key transferred through document slot before turn; four paired mechanical release housings labeled only desk side; angled mirror; red alarm wire; panic shutter",
+        "beat_state": "Lucia taps glass twice; Jason redirects to second housing from his left, inserts transferred key and turns; service door bolt retracts",
+        "vehicle_occupants": "No vehicle in frame; no occupants",
+        "photo_state": "No photographs",
+        "source_asset_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png"
+        ],
+        "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."
+      },
+      "on_screen_text": {
+        "text": "",
+        "placement": "Upper safe area; subtitles lower fifth above platform controls",
+        "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"
+      }
+    },
+    {
+      "start": 49,
+      "end": 56,
+      "narration": "Jason slipped through with the emerald. Lucia took his hand. Next time, she said, steal something that comes with directions.",
+      "visual_prompt": "1080x1920 portrait 9:16 premium richly painted neon crime comic, teal and magenta reflected rain, amber skin and practical lamps, tactile brushwork, cinematic depth. Original noncanon set: invented shuttered emerald showroom with glass partition and two-sided release panel, Vice City. Midnight, light rain outside, key amber light from frame left throughout. Use existing approved-v2 Jason and Lucia faces; short brown hair/light stubble/muscular Jason; dark ponytail/gold hoops/athletic Lucia. Jason J02-heist-charcoal and Lucia L02-heist-hoodie from existing closet; no costume changes. Jason steps through service doorway into desk zone, emerald sealed in pouch left hand; Lucia takes his right hand; key remains in released panel. Keep anatomy and connected wrists realistic, natural five-finger grips where visible; props retain orientation. Jason screen left and Lucia screen right unless explicit movement is specified. No vehicle in frame; no occupants. No unnamed identifiable faces, no new recurring cast, no additional occupants, no generated captions, no game HUD. Keep essential clues center-safe with lower fifth clear for subtitles.",
+      "camera": "Portrait two-shot, 50mm; slow pullback revealing final prop state",
+      "sound": {
+        "music": "Warm unresolved final chord; fade; score planned 14–18 dB below speech, smooth ducking.",
+        "ambience": "invented shuttered emerald showroom with glass partition and two-sided release panel, Vice City; rain outside, enclosed rain filtered, quiet room/industrial tone appropriate to visible set; no police sirens.",
+        "sfx": "At 51s, brief natural foley tied only to the visible prop movement: Jason steps through service doorway into desk zone, emerald sealed in pouch left hand; Lucia takes his right hand; key remains in released panel; all cues planned, beneath centered voice."
+      },
+      "continuity": {
+        "location": "invented shuttered emerald showroom with glass partition and two-sided release panel, Vice City",
+        "time_weather": "Midnight; light rain outside; persistent amber key from left, teal/magenta exterior",
+        "characters": [
+          "Jason Duval",
+          "Lucia Caminos"
+        ],
+        "wardrobe": {
+          "Jason": "J02-heist-charcoal",
+          "Lucia": "L02-heist-hoodie"
+        },
+        "blocking": "Jason left/Lucia right, keep axis; explicit shot action controls movement",
+        "props": "Single emerald in velvet pouch; single brass release key transferred through document slot before turn; four paired mechanical release housings labeled only desk side; angled mirror; red alarm wire; panic shutter",
+        "beat_state": "Jason steps through service doorway into desk zone, emerald sealed in pouch left hand; Lucia takes his right hand; key remains in released panel",
+        "vehicle_occupants": "No vehicle in frame; no occupants",
+        "photo_state": "No photographs",
+        "source_asset_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/turnarounds/six-views.png",
+          "characters/lucia-caminos/turnarounds/six-views.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png"
+        ],
+        "review": "Reference boards are existing proposals; verify identity against approved-v2 faces. Check anatomy, prop state, geography and vehicle contact at artwork review."
+      },
+      "on_screen_text": {
+        "text": "",
+        "placement": "Upper safe area; subtitles lower fifth above platform controls",
+        "caption_plan": "2–5-word groups aligned to final speech, maximum two lines; timing estimated until audio exists"
+      }
+    }
+  ],
+  "timeline": "Linear",
+  "pov": "Third person limited",
+  "delivery": "Hybrid narrator-led spatial puzzle with brief character exchange",
+  "description": "Jason has the emerald and Lucia has the key, but a panic shutter has split the showroom. The glass divider is alarmed, and the release labels face away from the keyholes. One wrong choice could turn a clean heist into a trap.\n\nUnofficial GTA VI fan fiction: original events and dialogue, not gameplay or the official story. Voice: ElevenLabs / 11.ai.\n\n#GTA6 #FanFiction #Shorts",
+  "tags": [
+    "GTA6",
+    "GTA VI",
+    "GTA 6 Fan Story",
+    "Vice City Alibis",
+    "Jason Duval",
+    "Lucia Caminos",
+    "fan fiction",
+    "crime short",
+    "emerald heist",
+    "jewelry robbery",
+    "mirror puzzle",
+    "panic shutter",
+    "escape mystery",
+    "Shorts",
+    "11.ai"
+  ],
+  "title_options": [
+    "The Key Was on the Wrong Side | GTA 6 Fan Story | 11.ai",
+    "The Exit Was In The Reflection | GTA 6 Fan Story | 11.ai"
+  ],
+  "cover_headline": "RIGHT KEY. WRONG SIDE.",
+  "story_audit": {
+    "goal": "Escape jeweler with stolen emerald before armed response",
+    "stakes": "Trapped Jason will be caught with the stone; Lucia refuses leaving him",
+    "obstacle": "Alarmed divider prevents breaking through; keyholes and labels are on opposite sides",
+    "planted_clue": "Tilted mirror reverses left/right between labeled panel and keyholes",
+    "payoff": "Lucia catches reflection reversal before Jason triggers wrong release; second keyhole opens service door",
+    "causal_check": "Goal causes entry; friction forces observation; planted physical clue enables coordinated action; final consequence changes their position. No tracker, gratuitous betrayal or charitable escape."
+  },
+  "canon_status": {
+    "canonical_characters": [
+      "Jason Duval",
+      "Lucia Caminos"
+    ],
+    "original": "All specific locations, events and dialogue are noncanon original fan fiction."
+  },
+  "asset_status": {
+    "script": "PLANNED — authored and editorially checked",
+    "storyboard": "PLANNED — eight shot plans, no artwork generated",
+    "audio": "PLANNED — no synthesis",
+    "video": "PLANNED — no render",
+    "release": "PLANNED — attribution does not establish commercial clearance"
+  },
+  "upload_title": "The Key Was on the Wrong Side | GTA 6 Fan Story | 11.ai",
+  "thumbnail_headline": "RIGHT KEY. WRONG SIDE."
+}

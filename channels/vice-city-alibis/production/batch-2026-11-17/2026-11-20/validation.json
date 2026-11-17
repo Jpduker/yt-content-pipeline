@@ -1,0 +1,88 @@
+{
+  "episodes": 7,
+  "scenes": 56,
+  "json_md_pairs": 7,
+  "asset_status": "PLANNED",
+  "checks": [
+    {
+      "id": "VCA-B261117-20261120-E01",
+      "words": 134,
+      "scenes": 8,
+      "title_characters": 53,
+      "tags_characters": 116,
+      "description_characters": 254,
+      "status": "PLANNED",
+      "causal_physics_review": "Manual editorial pass: existing props, supported loads, transferred key, real-world cassette tab interlock, no magical props. Final artwork remains ungenerated and unverified."
+    },
+    {
+      "id": "VCA-B261117-20261120-E02",
+      "words": 127,
+      "scenes": 8,
+      "title_characters": 49,
+      "tags_characters": 116,
+      "description_characters": 250,
+      "status": "PLANNED",
+      "causal_physics_review": "Manual editorial pass: existing props, supported loads, transferred key, real-world cassette tab interlock, no magical props. Final artwork remains ungenerated and unverified."
+    },
+    {
+      "id": "VCA-B261117-20261120-E03",
+      "words": 133,
+      "scenes": 8,
+      "title_characters": 50,
+      "tags_characters": 116,
+      "description_characters": 251,
+      "status": "PLANNED",
+      "causal_physics_review": "Manual editorial pass: existing props, supported loads, transferred key, real-world cassette tab interlock, no magical props. Final artwork remains ungenerated and unverified."
+    },
+    {
+      "id": "VCA-B261117-20261120-E04",
+      "words": 133,
+      "scenes": 8,
+      "title_characters": 56,
+      "tags_characters": 116,
+      "description_characters": 257,
+      "status": "PLANNED",
+      "causal_physics_review": "Manual editorial pass: existing props, supported loads, transferred key, real-world cassette tab interlock, no magical props. Final artwork remains ungenerated and unverified."
+    },
+    {
+      "id": "VCA-B261117-20261120-E05",
+      "words": 133,
+      "scenes": 8,
+      "title_characters": 47,
+      "tags_characters": 116,
+      "description_characters": 248,
+      "status": "PLANNED",
+      "causal_physics_review": "Manual editorial pass: existing props, supported loads, transferred key, real-world cassette tab interlock, no magical props. Final artwork remains ungenerated and unverified."
+    },
+    {
+      "id": "VCA-B261117-20261120-E06",
+      "words": 130,
+      "scenes": 8,
+      "title_characters": 60,
+      "tags_characters": 116,
+      "description_characters": 261,
+      "status": "PLANNED",
+      "causal_physics_review": "Manual editorial pass: existing props, supported loads, transferred key, real-world cassette tab interlock, no magical props. Final artwork remains ungenerated and unverified."
+    },
+    {
+      "id": "VCA-B261117-20261120-E07",
+      "words": 134,
+      "scenes": 8,
+      "title_characters": 56,
+      "tags_characters": 116,
+      "description_characters": 257,
+      "status": "PLANNED",
+      "causal_physics_review": "Manual editorial pass: existing props, supported loads, transferred key, real-world cassette tab interlock, no magical props. Final artwork remains ungenerated and unverified."
+    }
+  ],
+  "payoff_uniqueness": [
+    "Fixed maintenance ladder retrieves grounded safe/passports",
+    "Four swivel skates allow sideways extraction of batteryless car",
+    "Dead speaker identified by still paper umbrella hides safe",
+    "Reverse inspection pedal retrieves diamond-lined jacket",
+    "Rotten mooring segment tears free instead of stronger chain",
+    "Cassette missing safety tabs defeats attempted erasure, preserves leverage",
+    "Opposite-side label/mirror reversal selects correct service-door keyhole"
+  ],
+  "limitations": "56 seconds estimated; no synthesized voice, final artwork, mix or video reviewed."
+}

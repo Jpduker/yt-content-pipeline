@@ -1,0 +1,22 @@
+{
+  "type": "ORIGINAL_PROCEDURAL_DSP",
+  "generator": "tools/prepare_batch_audio.py",
+  "seed": 11289456289887867534,
+  "description": "petrol-van-steady; restrained synthesized mechanical/texture approximation, NOT field recorded",
+  "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+  "model": "none; deterministic numpy/scipy DSP",
+  "api_calls": 0,
+  "credits_used": 0,
+  "file": "audio\\procedural-review\\batch-2026-11-17\\petrol-van-steady.wav",
+  "sha256": "2248257be9dd139454f61cf24473e5d47f888804cc25dcfc60a45331229b3794",
+  "sample_rate": 48000,
+  "channels": 2,
+  "duration_seconds": 7.0,
+  "measured_sample_peak": 0.1123046875,
+  "measured_sample_peak_dbfs": -18.992042325724007,
+  "measured_rms": 0.05416624724622836,
+  "estimated_true_peak_4x_dbfs": -18.986514950692936,
+  "peak_measurement_note": "4x polyphase oversampling diagnostic, not certified BS.1770 metering",
+  "clipping_samples": 0,
+  "status": "PRIVATE REVIEW; procedural preview, listening pending"
+}

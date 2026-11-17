@@ -1,0 +1,333 @@
+{
+  "id": "vca-20261118-01-stole-the-whole-desk",
+  "title": "They Stole the Whole Desk",
+  "date": "2026-11-18",
+  "duration_seconds": 56,
+  "status": "PLANNED",
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "hook": "The cash drawer jammed. Jason had twenty seconds before the nightclub owner came back upstairs.",
+  "script": "The cash drawer jammed. Jason had twenty seconds before the nightclub owner came back upstairs. Lucia found the drawer bolted inside a steel desk. Jason reached for his crowbar. Too slow. She kicked the wheel brake. Earlier, the desk had rolled when Jason leaned against its edge. He stared at her. She pointed toward the freight lift. They were stealing the whole desk. The lift doors started closing. Jason shoved the crowbar between them while Lucia dragged their prize inside. Below, their van door caught the desktop. Jason swore. Lucia turned it sideways; the narrow end cleared. The owner reached his window just as his own office furniture disappeared into the van below. An hour later, the drawer finally opened. Cash everywhere. Jason kept one souvenir: the sign saying employees only.",
+  "word_count": 131,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "narration": "The cash drawer jammed. Jason had twenty seconds before the nightclub owner came back upstairs.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Jason left of steel desk, Lucia right; locked cash drawer center; office doorway behind left, barred street window right; small wall clock overhead; no owner visible. Rain-purple street below window. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Tight drawer-to-Jason reaction Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Ticking muted bass; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Muffled nightclub bass through floor, rain at glass; duck beneath speech and match visible perspective",
+        "sfx": "Drawer rattle; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Crescent Club upstairs office",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Steel desk with attached locked cash drawer, caster wheels, crowbar in Jason hand, EMPLOYEES ONLY placard mounted at office doorway; drawer shut.",
+        "vehicle_occupancy": "No vehicle visible; both heroes upstairs.",
+        "entry_exit_and_geography": "Jason left of steel desk, Lucia right; locked cash drawer center; office doorway behind left, barred street window right; small wall clock overhead; no owner visible. Rain-purple street below window.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "DRAWER JAMMED"
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "narration": "Lucia found the drawer bolted inside a steel desk. Jason reached for his crowbar. Too slow.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Low side angle shows bolted steel drawer fixed beneath desktop; Jason brings crowbar toward seam, Lucia crouches by visible red caster brake; freight lift beyond open office door. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Low three-quarter insert Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Tight clocklike percussion; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Club music muffled; duck beneath speech and match visible perspective",
+        "sfx": "Crowbar touches steel; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Crescent Club upstairs office",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Drawer remains bolted and shut; crowbar raised but no cut or forced seam; desk on four real casters.",
+        "vehicle_occupancy": "No vehicle visible.",
+        "entry_exit_and_geography": "Low side angle shows bolted steel drawer fixed beneath desktop; Jason brings crowbar toward seam, Lucia crouches by visible red caster brake; freight lift beyond open office door.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "TWENTY SECONDS"
+    },
+    {
+      "start": 14,
+      "end": 21,
+      "narration": "She kicked the wheel brake. Earlier, the desk had rolled when Jason leaned against its edge.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Lucia toe presses single red brake release, Jason stabilizes desktop with joined wrist and plausible five-finger grip; inset desk wheel shifts off its previous wet footprint; no flashback needed. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Wheel insert then small upward pan Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Pulse gains one plucked note; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Floor hum; duck beneath speech and match visible perspective",
+        "sfx": "Caster click and short roll; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Crescent Club upstairs office",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "All casters unlocked; desk moves intact; locked drawer unchanged; placard still beside office doorway.",
+        "vehicle_occupancy": "No vehicle visible.",
+        "entry_exit_and_geography": "Lucia toe presses single red brake release, Jason stabilizes desktop with joined wrist and plausible five-finger grip; inset desk wheel shifts off its previous wet footprint; no flashback needed.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "IT HAS WHEELS"
+    },
+    {
+      "start": 21,
+      "end": 28,
+      "narration": "He stared at her. She pointed toward the freight lift. They were stealing the whole desk.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Wide establishes straight corridor from office left to freight lift right; Lucia pulls narrow desk end, Jason pushes opposite end; doorway placard hooks onto protruding crowbar as desk passes. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Corridor-wide with clear left-to-right movement Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Rising syncopated bass; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Elevator motor behind doors; duck beneath speech and match visible perspective",
+        "sfx": "Four caster rumble; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Crescent Club office corridor",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Whole desk and locked drawer rolling; crowbar rests across desktop carrying snagged placard; lift doors open ahead.",
+        "vehicle_occupancy": "White panel van awaits below out of frame; no people added.",
+        "entry_exit_and_geography": "Wide establishes straight corridor from office left to freight lift right; Lucia pulls narrow desk end, Jason pushes opposite end; doorway placard hooks onto protruding crowbar as desk passes.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "TAKE THE DESK"
+    },
+    {
+      "start": 28,
+      "end": 35,
+      "narration": "The lift doors started closing. Jason shoved the crowbar between them while Lucia dragged their prize inside.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Lift doorway fills frame; Jason wedges crowbar visibly between closing doors, Lucia hauls desk rear casters over threshold; placard lies on desktop; both heroes inside the lift boundary. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Medium threshold view Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Percussion tightens then drops; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Close lift motor; duck beneath speech and match visible perspective",
+        "sfx": "Door strain, wheel clunk; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Crescent Club freight lift",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Crowbar bracing doors; drawer locked; desk and placard now in lift; no crushed hands.",
+        "vehicle_occupancy": "Van remains on loading bay below, unseen and empty.",
+        "entry_exit_and_geography": "Lift doorway fills frame; Jason wedges crowbar visibly between closing doors, Lucia hauls desk rear casters over threshold; placard lies on desktop; both heroes inside the lift boundary.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "HOLD THE DOOR"
+    },
+    {
+      "start": 35,
+      "end": 42,
+      "narration": "Below, their van door caught the desktop. Jason swore. Lucia turned it sideways; the narrow end cleared.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Ground-floor lift opens left to white panel van rear right, open rear doors; Lucia pivots desk narrow end first into van, Jason lifts its near end from beneath; wet van tires grounded. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Wide loading geography then detail cut-in Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Release with urgent bass; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Exterior bright rain; duck beneath speech and match visible perspective",
+        "sfx": "Metal desktop scrapes rubber seal; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Crescent Club loading bay",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Desk rotated 90 degrees for rear opening; locked drawer intact; crowbar and placard on desktop; loading is visibly supported.",
+        "vehicle_occupancy": "White panel van empty cab, both heroes outside at rear; no duplicate van.",
+        "entry_exit_and_geography": "Ground-floor lift opens left to white panel van rear right, open rear doors; Lucia pivots desk narrow end first into van, Jason lifts its near end from beneath; wet van tires grounded.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "TURN IT"
+    },
+    {
+      "start": 42,
+      "end": 49,
+      "narration": "The owner reached his window just as his own office furniture disappeared into the van below.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. View from upstairs office window down: owner only a distant anonymous silhouette at frame edge, white van pulls away below, Jason left-hand driver and Lucia right-front passenger visible through windshield; rear doors shut. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "High angle, tiny perspective-safe push Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Dry triumphant rhythm; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside, engine below; duck beneath speech and match visible perspective",
+        "sfx": "Van engine recedes; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Crescent Club street loading bay",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Desk inside van and not duplicated upstairs; drawer still closed; placard and crowbar in cargo.",
+        "vehicle_occupancy": "Single white panel van: Jason driving left, Lucia front right; desk in cargo; anonymous owner stays in office.",
+        "entry_exit_and_geography": "View from upstairs office window down: owner only a distant anonymous silhouette at frame edge, white van pulls away below, Jason left-hand driver and Lucia right-front passenger visible through windshield; rear doors shut.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "OFFICE CLOSED"
+    },
+    {
+      "start": 49,
+      "end": 56,
+      "narration": "An hour later, the drawer finally opened. Cash everywhere. Jason kept one souvenir: the sign saying employees only.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Same white van parked rear open outside invented garage; desk grounded on four casters; drawer now open containing cash; Jason holds snagged EMPLOYEES ONLY placard upright, Lucia lifts one bundled stack; warm lamp and fading rain. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Medium two-shot with open drawer foreground Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Sly warm resolution; dip for last line; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Sheltered rain and quiet garage hum; duck beneath speech and match visible perspective",
+        "sfx": "Drawer slides, paper bundle tap; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Borrowed lockup one hour later",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "One-hour explicit time jump; drawer opened offscreen during that hour; all stolen cash retained; crowbar on desktop; sign is Jason souvenir.",
+        "vehicle_occupancy": "Van engine off and cab empty; Jason and Lucia beside desk outside rear.",
+        "entry_exit_and_geography": "Same white van parked rear open outside invented garage; desk grounded on four casters; drawer now open containing cash; Jason holds snagged EMPLOYEES ONLY placard upright, Lucia lifts one bundled stack; warm lamp and fading rain.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "EMPLOYEES ONLY"
+    }
+  ],
+  "timeline": "linear",
+  "pov": "third-person limited: Jason and Lucia",
+  "delivery": "narrator-led; Liam only; quoted dialogue is narrated quotation, not an approved character voice",
+  "description": "They Stole the Whole Desk. Jason Duval and Lucia Caminos in an original Vice City Alibis crime short. GTA VI fan fiction; invented events, dialogue and locations, not official story or gameplay. Planned Liam narration; audio and commercial release clearance pending. #GTA6 #FanFiction #Shorts",
+  "tags": [
+    "GTA 6",
+    "GTA VI",
+    "GTA 6 fan story",
+    "Vice City Alibis",
+    "Jason Duval",
+    "Lucia Caminos",
+    "crime short",
+    "heist story",
+    "gaming fan fiction",
+    "Shorts"
+  ],
+  "title_options": [
+    "They Stole the Whole Desk | GTA 6 Fan Story | 11.ai",
+    "Jason and Lucia: They Stole the Whole Desk | GTA 6 Fan Story | 11.ai",
+    "Take The Desk | GTA 6 Fan Story | 11.ai"
+  ],
+  "thumbnail_headline": "TAKE THE DESK",
+  "story_audit": {
+    "goal": "Steal the nightclub cash drawer before the owner returns.",
+    "stakes": "Being caught inside the office with stolen cash and no time to force the drawer.",
+    "obstacle": "Bolted jammed drawer, closing freight lift and van doorway narrower than desktop.",
+    "planted_clue": "Desk rolls under Jason weight; caster brake receives its own readable insert before escape.",
+    "payoff": "They remove the whole rolling desk, rotate it to fit the van, then open it safely later and keep the money.",
+    "causal_check": "The desk stays intact from office to lift to van to lockup. Wheels solve weight, crowbar buys lift access, rotation solves width. One-hour end jump covers slow drawer opening rather than a magical lock bypass."
+  },
+  "production_notes": {
+    "timing": "Eight contiguous 7-second planning bins; 56 seconds is estimated, final speech must be synthesized and measured at 50–60 seconds without time-stretching.",
+    "visual_status": "shot plans only; no new imagery generated or approved",
+    "audio_status": "no API call or audio generated; preserve native Liam pitch/cadence; dry centered voice and separate music/ambience/SFX/final mix stems",
+    "canon": "Jason Duval and Lucia Caminos are GTA VI characters used in fan fiction. The Fixer is an original supporting character. All events, dialogue, vehicles and named micro-sets here are original inventions.",
+    "release": "PLANNED, not rendered, uploaded, approved or commercially cleared; 11.ai attribution retained for intended free-plan provenance, not a license claim."
+  }
+}

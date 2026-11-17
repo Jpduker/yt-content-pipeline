@@ -1,0 +1,305 @@
+{
+  "id": "04-the-victory-lap",
+  "title": "The Victory Lap",
+  "hook": "Jason had to lose to steal the prize.",
+  "timeline": "Hybrid: opening final-lap hook; shots 2â€“3 explicitly return to registration, shot 4 returns to final lap, then linear payoff",
+  "pov": "Second-person address to Jason by external narrator",
+  "delivery": "Liam only; race excitement folds into sly heist narration",
+  "description": "Jason is one lap from winning the title to Lucia's seized coupe. Lucia spots a rule at registration that makes crossing the line first their worst possible move.\n\nOriginal GTA VI fan fiction | Narration: Liam via ElevenLabs / 11.ai\n#GTA6 #FanFiction #Shorts",
+  "tags": [
+    "GTA6",
+    "GTA 6",
+    "GTA VI",
+    "GTAVI",
+    "GTA6 fan fiction",
+    "Jason Duval",
+    "Lucia Caminos",
+    "street race",
+    "seized coupe",
+    "race heist",
+    "Vice City Alibis",
+    "11.ai"
+  ],
+  "title_options": [
+    "Jason Had to Lose This Race | GTA 6 Fan Fiction | 11.ai",
+    "Lucia Found the Loser's Way In | GTA 6 Fan Fiction | 11.ai"
+  ],
+  "story_audit": {
+    "goal": "Recover Lucia's seized red coupe and physical title.",
+    "stakes": "Winning brings a search and loss of copied key, extending the promoter's hold on her car.",
+    "obstacle": "Jason wants victory; truck blocks forcing an exit.",
+    "planted_clue": "Separate search and deposit routes; refundable round token on registration receipt.",
+    "payoff": "Losing enables key transfer during refund, token opens gate, winner's search distracts upstairs staff.",
+    "causal_check": "Key planted before race; token established before refund; booth and car separate but connected by stairs. Physical title retrieval removes promoter leverage, not instant legal ownership transfer."
+  },
+  "date": "2026-11-19",
+  "duration_seconds": 56,
+  "status": "PLANNED â€” scripts and shot plans only; no rendered MP4",
+  "canon_status": "Jason Duval and Lucia Caminos are GTA VI characters in fan-art adaptation. The Fixer is an original supporting character. All plots, jobs, props, businesses and scene-specific sets here are invented noncanon fan fiction.",
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "script": "You're winning, Jason. That's the problem. The prize is the title to Lucia's seized red coupe. She spotted the catch: winners get searched upstairs. Losers collect their deposits beside the impound gate. Your copied booth key is inside your helmet lining. Win, and security takes your only way in. You say you can outrun them. She points at the recovery truck blocking the exit behind the finish. So you lift off. One rival passes. The crowd boos the easiest victory you've ever thrown. Downstairs, you surrender your helmet as collateral. Lucia palms the key while the clerk counts your refund. She opens the booth during the winner's search. You use your refunded impound token to release her coupe. The trophy goes upstairs. The title comes down. Losing finally gets you both something worth keeping.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "narration": "You're winning, Jason. That's the problem. The prize is the title to Lucia's seized red coupe.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Jason sits in charcoal race coupe at start; Lucia beside barrier sees red coupe behind impound fence. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J02-heist-charcoal; L02-heist-hoodie from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented dock race loop and two-level prize booth; midnight, wet asphalt, magenta right-side lamps This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Tight portrait detail with subject grounded in wider setting",
+      "sound": {
+        "music": "Sparse muted bass motif",
+        "ambience": "Invented dock race loop and two-level prize booth; midnight, wet asphalt, magenta right-side lamps; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 1,
+        "location_time_weather": "Invented dock race loop and two-level prize booth; midnight, wet asphalt, magenta right-side lamps",
+        "outfits": "J02-heist-charcoal; L02-heist-hoodie",
+        "prop_state_and_blocking": "Charcoal car Jason driver only; red target impounded, Lucia on foot.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": "Jason had to lose to steal the prize."
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "narration": "She spotted the catch: winners get searched upstairs. Losers collect their deposits beside the impound gate.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Overlay BEFORE THE RACE; Before race, Lucia studies registration signs: winner search upstairs, deposits beside gate; title behind booth window. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J02-heist-charcoal; L02-heist-hoodie from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented dock race loop and two-level prize booth; midnight, wet asphalt, magenta right-side lamps This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Over-shoulder medium, establish spatial relationship",
+      "sound": {
+        "music": "Restrained ticking pulse",
+        "ambience": "Invented dock race loop and two-level prize booth; midnight, wet asphalt, magenta right-side lamps; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 2,
+        "location_time_weather": "Invented dock race loop and two-level prize booth; midnight, wet asphalt, magenta right-side lamps",
+        "outfits": "J02-heist-charcoal; L02-heist-hoodie",
+        "prop_state_and_blocking": "Before race; title booth, token pictured on deposit receipt as refundable, key with Jason.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 14,
+      "end": 21,
+      "narration": "Your copied booth key is inside your helmet lining. Win, and security takes your only way in.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Jason plants single brass copied key in helmet lining before putting helmet on; Lucia witnesses. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J02-heist-charcoal; L02-heist-hoodie from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented dock race loop and two-level prize booth; midnight, wet asphalt, magenta right-side lamps This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Low three-quarter medium, clear hand contact",
+      "sound": {
+        "music": "Low syncopated tension",
+        "ambience": "Invented dock race loop and two-level prize booth; midnight, wet asphalt, magenta right-side lamps; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 3,
+        "location_time_weather": "Invented dock race loop and two-level prize booth; midnight, wet asphalt, magenta right-side lamps",
+        "outfits": "J02-heist-charcoal; L02-heist-hoodie",
+        "prop_state_and_blocking": "One key in helmet seam; red car unchanged.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 21,
+      "end": 28,
+      "narration": "You say you can outrun them. She points at the recovery truck blocking the exit behind the finish.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Overlay FINAL LAP; On final lap Jason drives charcoal coupe toward finish; Lucia points to recovery truck blocking exit beyond line. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J02-heist-charcoal; L02-heist-hoodie from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented dock race loop and two-level prize booth; midnight, wet asphalt, magenta right-side lamps This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Close detail on the planted physical clue",
+      "sound": {
+        "music": "Music thins for clue",
+        "ambience": "Invented dock race loop and two-level prize booth; midnight, wet asphalt, magenta right-side lamps; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 4,
+        "location_time_weather": "Invented dock race loop and two-level prize booth; midnight, wet asphalt, magenta right-side lamps",
+        "outfits": "J02-heist-charcoal; L02-heist-hoodie",
+        "prop_state_and_blocking": "Race time; key in worn helmet, recovery truck stationary.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 28,
+      "end": 35,
+      "narration": "So you lift off. One rival passes. The crowd boos the easiest victory you've ever thrown.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Charcoal coupe slows in lane; distinct blue rival passes with anonymous helmeted driver, believable tire contact. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J02-heist-charcoal; L02-heist-hoodie from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented dock race loop and two-level prize booth; midnight, wet asphalt, magenta right-side lamps This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Eye-level two-shot, disagreement readable in faces",
+      "sound": {
+        "music": "Single low sustained note",
+        "ambience": "Invented dock race loop and two-level prize booth; midnight, wet asphalt, magenta right-side lamps; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 5,
+        "location_time_weather": "Invented dock race loop and two-level prize booth; midnight, wet asphalt, magenta right-side lamps",
+        "outfits": "J02-heist-charcoal; L02-heist-hoodie",
+        "prop_state_and_blocking": "Blue rival passes charcoal, no collision; red target stays impounded.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 35,
+      "end": 42,
+      "narration": "Downstairs, you surrender your helmet as collateral. Lucia palms the key while the clerk counts your refund.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Charcoal coupe parked beside deposit counter; Jason places helmet on counter, Lucia palms key; clerk silhouette counts notes and round token. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J02-heist-charcoal; L02-heist-hoodie from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented dock race loop and two-level prize booth; midnight, wet asphalt, magenta right-side lamps This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Wider action composition with visible origin and destination",
+      "sound": {
+        "music": "Measured pulse accelerates",
+        "ambience": "Invented dock race loop and two-level prize booth; midnight, wet asphalt, magenta right-side lamps; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 6,
+        "location_time_weather": "Invented dock race loop and two-level prize booth; midnight, wet asphalt, magenta right-side lamps",
+        "outfits": "J02-heist-charcoal; L02-heist-hoodie",
+        "prop_state_and_blocking": "Key helmet to Lucia palm, helmet counter, token clerk to Jason; charcoal stays parked.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 42,
+      "end": 49,
+      "narration": "She opens the booth during the winner's search. You use your refunded impound token to release her coupe.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Lucia opens upstairs booth using brass key; below Jason inserts round token in impound gate release beside red coupe. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J02-heist-charcoal; L02-heist-hoodie from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented dock race loop and two-level prize booth; midnight, wet asphalt, magenta right-side lamps This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Controlled close insert on the irreversible choice",
+      "sound": {
+        "music": "Brief drop beneath decisive line",
+        "ambience": "Invented dock race loop and two-level prize booth; midnight, wet asphalt, magenta right-side lamps; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 7,
+        "location_time_weather": "Invented dock race loop and two-level prize booth; midnight, wet asphalt, magenta right-side lamps",
+        "outfits": "J02-heist-charcoal; L02-heist-hoodie",
+        "prop_state_and_blocking": "Key unlocks booth, token releases gate; different locations connected by established stairs.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 49,
+      "end": 56,
+      "narration": "The trophy goes upstairs. The title comes down. Losing finally gets you both something worth keeping.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Lucia drops single title sheet through booth hatch toward Jason beside red coupe; staircase visible for descent, trophy carried upstairs by anonymous silhouette. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J02-heist-charcoal; L02-heist-hoodie from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented dock race loop and two-level prize booth; midnight, wet asphalt, magenta right-side lamps This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Portrait medium-wide payoff, hold final consequence",
+      "sound": {
+        "music": "Unresolved motif resolves on final noun",
+        "ambience": "Invented dock race loop and two-level prize booth; midnight, wet asphalt, magenta right-side lamps; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 8,
+        "location_time_weather": "Invented dock race loop and two-level prize booth; midnight, wet asphalt, magenta right-side lamps",
+        "outfits": "J02-heist-charcoal; L02-heist-hoodie",
+        "prop_state_and_blocking": "Title Lucia to Jason; Lucia then descends stairs, red car Jason driver Lucia passenger; charcoal left at counter.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": "Original GTA VI fan fiction"
+    }
+  ],
+  "spoken_word_count": 134,
+  "thumbnail_headline": "LOSE TO WIN",
+  "upload_title": "Jason's About to Win the Wrong Race | GTA6 Fan Fiction | 11.ai"
+}

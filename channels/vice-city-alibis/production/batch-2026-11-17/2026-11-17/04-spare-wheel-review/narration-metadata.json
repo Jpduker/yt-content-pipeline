@@ -1,0 +1,31 @@
+{
+  "episode_id": "vca-20261117-04-spare-wheel",
+  "title": "The Money Was in the Spare Wheel",
+  "script": "Jason ripped open the courier bag. Newspaper. Outside, someone started dragging the warehouse shutter down. Lucia looked past the empty van. Mud covered every tire except the spotless spare underneath it. The Fixer had pointed at that bag too quickly. She shoved a dolly beneath the spare. Jason wanted the exit. Lucia cut the wheel loose. It landed heavily; folded bills bulged through a split. Then the shutter hit the dolly handle. Metal screamed. Their only doorway stopped two feet above concrete. Jason dropped flat and dragged the wheel under. Lucia followed, squeezing between the tire and that trembling shutter. The Fixer arrived holding the newspaper bag. Their getaway van outside was gone. His hidden fortune rolled away. At the lockup, Jason asked how she knew. Lucia tapped the clean rubber. Nobody washes the spare.",
+  "script_sha256": "396ed113e840005f61585b2b6adc6ff9719163243f6d3409c1246e4df859b3e8",
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "synthesis_request": {
+    "text": "Jason ripped open the courier bag. Newspaper. Outside, someone started dragging the warehouse shutter down. Lucia looked past the empty van. Mud covered every tire except the spotless spare underneath it. The Fixer had pointed at that bag too quickly. She shoved a dolly beneath the spare. Jason wanted the exit. Lucia cut the wheel loose. It landed heavily; folded bills bulged through a split. Then the shutter hit the dolly handle. Metal screamed. Their only doorway stopped two feet above concrete. Jason dropped flat and dragged the wheel under. Lucia followed, squeezing between the tire and that trembling shutter. The Fixer arrived holding the newspaper bag. Their getaway van outside was gone. His hidden fortune rolled away. At the lockup, Jason asked how she knew. Lucia tapped the clean rubber. Nobody washes the spare.",
+    "model_id": "eleven_v4",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "source_audio": "channels\\vice-city-alibis\\production\\batch-2026-11-17\\2026-11-17\\04-spare-wheel-audio\\liam-private-preview.mp3",
+  "licensing": "free-plan private review; not commercially cleared"
+}

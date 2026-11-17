@@ -1,0 +1,22 @@
+{
+  "type": "ORIGINAL_PROCEDURAL_DSP",
+  "generator": "tools/prepare_batch_audio.py",
+  "seed": 18280171264506242104,
+  "description": "caster-roll; restrained synthesized mechanical/texture approximation, NOT field recorded",
+  "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+  "model": "none; deterministic numpy/scipy DSP",
+  "api_calls": 0,
+  "credits_used": 0,
+  "file": "audio\\procedural-review\\batch-2026-11-17\\caster-roll.wav",
+  "sha256": "112a4c7336390b5656895f3e0f8196389f05883566fe0f17bfbe2d02490e0cf6",
+  "sample_rate": 48000,
+  "channels": 2,
+  "duration_seconds": 6.0,
+  "measured_sample_peak": 0.25506591796875,
+  "measured_sample_peak_dbfs": -11.866951363042215,
+  "measured_rms": 0.05416787111147835,
+  "estimated_true_peak_4x_dbfs": -11.861423988011149,
+  "peak_measurement_note": "4x polyphase oversampling diagnostic, not certified BS.1770 metering",
+  "clipping_samples": 0,
+  "status": "PRIVATE REVIEW; procedural preview, listening pending"
+}

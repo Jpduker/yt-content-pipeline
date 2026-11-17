@@ -1,0 +1,684 @@
+{
+  "id": "vca-20261117-06-bridge-wouldnt-open",
+  "title": "The Bridge Would Not Open",
+  "date": "2026-11-17",
+  "duration_seconds": 56,
+  "status": "PLANNED",
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "hook": "The bridge stayed down. Jason looked from their workboat to the cash beneath its light mast.",
+  "script": "The bridge stayed down. Jason looked from their workboat to the cash beneath its light mast. Behind them, the Fixer's cabin cruiser rounded the bend. Lucia had refused that faster boat at the dock. Jason grabbed the wheel. Too shallow to turn. Lucia pointed at the light mast hinge beside his foot. He understood. Their boat could fold flat. The cruiser behind them had a welded roof. Jason released the brace while Lucia slowed the engine. The short light mast dropped toward their cash bags. He caught it across his shoulder. Lucia held their line. Bridge concrete scraped inches above his knuckles. They cleared the span. Behind them, the Fixer reversed; his cabin could never fit beneath it. Jason lowered the light mast. Every bag survived. Next time, he said, she could pick the boat.",
+  "word_count": 135,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "narration": "The bridge stayed down. Jason looked from their workboat to the cash beneath its light mast.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented narrow canal flows left-to-right under low concrete bridge; muddy banks prevent turning. Single small teal shallow-draft workboat has visibly hinged light mast and stern engine, pursuing white tall cabin cruiser behind left. Same wet night. Teal boat approaches bridge with vertical light mast too tall; Jason center at helm, Lucia beside hinge, two sealed black cash bags at light mast base. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Wide establishes span and light mast Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Low urgent bass; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside; quiet interior room tone; duck beneath speech and match visible perspective",
+        "sfx": "Boat engine low, water slap; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Tin Hook canal bridge",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Mast upright; hinge visible; two cash bags closed.",
+        "vehicle_occupancy": "Teal boat Jason and Lucia; white cruiser offscreen Fixer alone.",
+        "entry_exit_and_geography": "Invented narrow canal flows left-to-right under low concrete bridge; muddy banks prevent turning. Single small teal shallow-draft workboat has visibly hinged light mast and stern engine, pursuing white tall cabin cruiser behind left. Same wet night. Teal boat approaches bridge with vertical light mast too tall; Jason center at helm, Lucia beside hinge, two sealed black cash bags at light mast base.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "BRIDGE CLOSED"
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "narration": "Behind them, the Fixer's cabin cruiser rounded the bend. Lucia had refused that faster boat at the dock.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented narrow canal flows left-to-right under low concrete bridge; muddy banks prevent turning. Single small teal shallow-draft workboat has visibly hinged light mast and stern engine, pursuing white tall cabin cruiser behind left. Same wet night. White cruiser rounds bend left, tall fixed roof clearly higher than low bridge; foreground teal boat continues right. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Compressed pursuit wide Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Percussion enters; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside; quiet interior room tone; duck beneath speech and match visible perspective",
+        "sfx": "Second engine approaches; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Tin Hook canal bridge",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Cash bags still teal boat; no cargo transfer.",
+        "vehicle_occupancy": "Fixer alone at cruiser helm; heroes teal boat.",
+        "entry_exit_and_geography": "Invented narrow canal flows left-to-right under low concrete bridge; muddy banks prevent turning. Single small teal shallow-draft workboat has visibly hinged light mast and stern engine, pursuing white tall cabin cruiser behind left. Same wet night. White cruiser rounds bend left, tall fixed roof clearly higher than low bridge; foreground teal boat continues right.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "WRONG BOAT?"
+    },
+    {
+      "start": 14,
+      "end": 21,
+      "narration": "Jason grabbed the wheel. Too shallow to turn. Lucia pointed at the light mast hinge beside his foot.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented narrow canal flows left-to-right under low concrete bridge; muddy banks prevent turning. Single small teal shallow-draft workboat has visibly hinged light mast and stern engine, pursuing white tall cabin cruiser behind left. Same wet night. Jason grips wheel but glances at mud beside hull; Lucia points down at substantial hinged light mast fitting and release brace already mounted. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Low light mast-base insert Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Pulse tightens; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside; quiet interior room tone; duck beneath speech and match visible perspective",
+        "sfx": "Brace taps metal; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Tin Hook canal bridge",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Hinge still secured; no invented folding roof or hidden gadget.",
+        "vehicle_occupancy": "Heroes aboard teal boat, Fixer behind.",
+        "entry_exit_and_geography": "Invented narrow canal flows left-to-right under low concrete bridge; muddy banks prevent turning. Single small teal shallow-draft workboat has visibly hinged light mast and stern engine, pursuing white tall cabin cruiser behind left. Same wet night. Jason grips wheel but glances at mud beside hull; Lucia points down at substantial hinged light mast fitting and release brace already mounted.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "NO ROOM TO TURN"
+    },
+    {
+      "start": 21,
+      "end": 28,
+      "narration": "He understood. Their boat could fold flat. The cruiser behind them had a welded roof.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented narrow canal flows left-to-right under low concrete bridge; muddy banks prevent turning. Single small teal shallow-draft workboat has visibly hinged light mast and stern engine, pursuing white tall cabin cruiser behind left. Same wet night. Side view contrasts teal hinged light mast foreground with distant welded cabin silhouette; Lucia guides Jason hand to brace, no movement yet. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Medium decision two-shot Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Single bright motif; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside; quiet interior room tone; duck beneath speech and match visible perspective",
+        "sfx": "Engine reduced; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Tin Hook canal bridge",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Brace still closed; two cash bags below light mast path; cradle visible aft.",
+        "vehicle_occupancy": "Two on teal boat; one on cruiser.",
+        "entry_exit_and_geography": "Invented narrow canal flows left-to-right under low concrete bridge; muddy banks prevent turning. Single small teal shallow-draft workboat has visibly hinged light mast and stern engine, pursuing white tall cabin cruiser behind left. Same wet night. Side view contrasts teal hinged light mast foreground with distant welded cabin silhouette; Lucia guides Jason hand to brace, no movement yet.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "FOLD THE MAST"
+    },
+    {
+      "start": 28,
+      "end": 35,
+      "narration": "Jason released the brace while Lucia slowed the engine. The short light mast dropped toward their cash bags.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented narrow canal flows left-to-right under low concrete bridge; muddy banks prevent turning. Single small teal shallow-draft workboat has visibly hinged light mast and stern engine, pursuing white tall cabin cruiser behind left. Same wet night. Jason releases brace with both hands joined to wrists; Lucia one hand helm one throttle; light mast begins controlled rearward descent over bags. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Three-quarter action view Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Taut low percussion; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside; quiet interior room tone; duck beneath speech and match visible perspective",
+        "sfx": "Metal hinge creak; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Tin Hook canal bridge",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Brace open; light mast tilts rearward; single short light mast, no sail or rigging; bags sealed.",
+        "vehicle_occupancy": "Jason standing by light mast, Lucia sole helm; Fixer cruiser behind.",
+        "entry_exit_and_geography": "Invented narrow canal flows left-to-right under low concrete bridge; muddy banks prevent turning. Single small teal shallow-draft workboat has visibly hinged light mast and stern engine, pursuing white tall cabin cruiser behind left. Same wet night. Jason releases brace with both hands joined to wrists; Lucia one hand helm one throttle; light mast begins controlled rearward descent over bags.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "WATCH THE CASH"
+    },
+    {
+      "start": 35,
+      "end": 42,
+      "narration": "He caught it across his shoulder. Lucia held their line. Bridge concrete scraped inches above his knuckles.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented narrow canal flows left-to-right under low concrete bridge; muddy banks prevent turning. Single small teal shallow-draft workboat has visibly hinged light mast and stern engine, pursuing white tall cabin cruiser behind left. Same wet night. Under bridge, Jason shoulders light mast above bags with bent knees; Lucia steers right; hull fully water-supported, concrete ceiling close above hands. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Low interior-span view Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Music drops for tension; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside; quiet interior room tone; duck beneath speech and match visible perspective",
+        "sfx": "Hull water, brief light mast scrape; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Tin Hook canal bridge",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Mast supported across Jason shoulder and aft cradle; cash bags clear; no crushed fingers.",
+        "vehicle_occupancy": "Both heroes still teal boat; no extra passengers.",
+        "entry_exit_and_geography": "Invented narrow canal flows left-to-right under low concrete bridge; muddy banks prevent turning. Single small teal shallow-draft workboat has visibly hinged light mast and stern engine, pursuing white tall cabin cruiser behind left. Same wet night. Under bridge, Jason shoulders light mast above bags with bent knees; Lucia steers right; hull fully water-supported, concrete ceiling close above hands.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "KEEP IT LOW"
+    },
+    {
+      "start": 42,
+      "end": 49,
+      "narration": "They cleared the span. Behind them, the Fixer reversed; his cabin could never fit beneath it.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented narrow canal flows left-to-right under low concrete bridge; muddy banks prevent turning. Single small teal shallow-draft workboat has visibly hinged light mast and stern engine, pursuing white tall cabin cruiser behind left. Same wet night. Teal boat clears right of span, light mast lowered; white cruiser throws engine into reverse left of span with fixed roof visibly too tall and no alternate channel. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Wide two-boat geography Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Warm reversal chord; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside; quiet interior room tone; duck beneath speech and match visible perspective",
+        "sfx": "Cruiser reverse churn; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Tin Hook canal bridge",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Cash remains aboard teal boat; light mast down; cruiser does not collide or teleport.",
+        "vehicle_occupancy": "Lucia helm, Jason light mast; Fixer lone cruiser driver.",
+        "entry_exit_and_geography": "Invented narrow canal flows left-to-right under low concrete bridge; muddy banks prevent turning. Single small teal shallow-draft workboat has visibly hinged light mast and stern engine, pursuing white tall cabin cruiser behind left. Same wet night. Teal boat clears right of span, light mast lowered; white cruiser throws engine into reverse left of span with fixed roof visibly too tall and no alternate channel.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "TOO TALL"
+    },
+    {
+      "start": 49,
+      "end": 56,
+      "narration": "Jason lowered the light mast. Every bag survived. Next time, he said, she could pick the boat.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented narrow canal flows left-to-right under low concrete bridge; muddy banks prevent turning. Single small teal shallow-draft workboat has visibly hinged light mast and stern engine, pursuing white tall cabin cruiser behind left. Same wet night. Teal boat beyond bridge, light mast secured flat in aft cradle; Jason rests hand beside two intact money bags, Lucia smiles at helm; bridge and stalled cruiser distant left. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Medium payoff with distant span Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Sly restrained resolution; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside; quiet interior room tone; duck beneath speech and match visible perspective",
+        "sfx": "Engine steadies, bag tap; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Tin Hook canal bridge",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Mast now cradled, brace stowed, both cash bags intact; no money abandoned.",
+        "vehicle_occupancy": "Heroes on one teal boat; Fixer remains beyond bridge.",
+        "entry_exit_and_geography": "Invented narrow canal flows left-to-right under low concrete bridge; muddy banks prevent turning. Single small teal shallow-draft workboat has visibly hinged light mast and stern engine, pursuing white tall cabin cruiser behind left. Same wet night. Teal boat beyond bridge, light mast secured flat in aft cradle; Jason rests hand beside two intact money bags, Lucia smiles at helm; bridge and stalled cruiser distant left.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "SHE PICKS THE BOAT"
+    }
+  ],
+  "timeline": "linear",
+  "pov": "third-person limited: Jason and Lucia",
+  "delivery": "narrator-led; Liam only; quoted dialogue is narrated quotation, not an approved character voice",
+  "description": "A low bridge blocks their stolen workboat while a faster cruiser closes in. Jason is running out of canal, and Lucia is running out of time to prove why she chose this boat.\n\nOriginal GTA VI fan fiction featuring Jason Duval and Lucia Caminos; invented events, not official Rockstar story or gameplay. Voice narration: 11.ai.\n\n#GTA6 #FanFiction #Shorts",
+  "tags": [
+    "GTA6",
+    "GTA 6",
+    "GTA VI",
+    "Vice City Alibis",
+    "Jason Duval",
+    "Lucia Caminos",
+    "GTA 6 fan fiction",
+    "boat chase",
+    "low bridge",
+    "canal getaway",
+    "stolen workboat",
+    "cash heist"
+  ],
+  "title_options": [
+    "The Bridge Would Not Open | GTA 6 Fan Story | 11.ai",
+    "Jason and Lucia: The Bridge Would Not Open | GTA 6 Fan Story | 11.ai",
+    "Too Tall | GTA 6 Fan Story | 11.ai"
+  ],
+  "thumbnail_headline": "TOO LOW",
+  "story_audit": {
+    "goal": "Carry stolen cash through the canal before the Fixer catches them.",
+    "stakes": "Losing the score at a low bridge with no turning room.",
+    "obstacle": "Bridge fails to open, shallow banks block a turn, lowering light mast threatens the money.",
+    "planted_clue": "Lucia chooses a slower shallow-draft workboat; hinge, brace and aft cradle are established before use.",
+    "payoff": "Their folding light mast clears the span while the pursuer fixed cabin cannot; all cash survives.",
+    "causal_check": "No unexplained drawbridge control or impossible boat transformation. The shallow-draft workboat has an established hinged light mast; engine is slowed before lowering; the pursuing cruiser roof remains rigid."
+  },
+  "production_notes": {
+    "timing": "Eight contiguous 7-second planning bins; 56 seconds is estimated, final speech must be synthesized and measured at 50–60 seconds without time-stretching.",
+    "visual_status": "shot plans only; no new imagery generated or approved",
+    "audio_status": "no API call or audio generated; preserve native Liam pitch/cadence; dry centered voice and separate music/ambience/SFX/final mix stems",
+    "canon": "Jason Duval and Lucia Caminos are GTA VI characters used in fan fiction. The Fixer is an original supporting character. All events, dialogue, vehicles and named micro-sets here are original inventions.",
+    "release": "PLANNED, not rendered, uploaded, approved or commercially cleared; 11.ai attribution retained for intended free-plan provenance, not a license claim."
+  },
+  "audio_cues": [
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 0,
+      "rms": 0.004,
+      "duration": 6.21,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Open exterior rain"
+    },
+    {
+      "source": "production/week-01/day-01/w01-d01-e02-audio/water.mp3",
+      "scene_index": 0,
+      "rms": 0.0045,
+      "duration": 6.21,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "production/week-01/day-01/w01-d01-e02-audio/water.mp3.meta.json",
+      "purpose": "Small workboat hull water at slow travel"
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/workboat-settled-idle.wav",
+      "scene_index": 0,
+      "rms": 0.006,
+      "duration": 6.21,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/workboat-settled-idle.wav.meta.json",
+      "purpose": "Steady small outboard, trim excludes ignition, continuous loop only",
+      "lowpass_hz": 2600
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 1,
+      "rms": 0.004,
+      "duration": 6.26,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Open exterior rain"
+    },
+    {
+      "source": "production/week-01/day-01/w01-d01-e02-audio/water.mp3",
+      "scene_index": 1,
+      "rms": 0.0045,
+      "duration": 6.26,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "production/week-01/day-01/w01-d01-e02-audio/water.mp3.meta.json",
+      "purpose": "Small workboat hull water at slow travel"
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/workboat-settled-idle.wav",
+      "scene_index": 1,
+      "rms": 0.006,
+      "duration": 6.26,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/workboat-settled-idle.wav.meta.json",
+      "purpose": "Steady small outboard, trim excludes ignition, continuous loop only",
+      "lowpass_hz": 2600
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 2,
+      "rms": 0.004,
+      "duration": 6.38,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Open exterior rain"
+    },
+    {
+      "source": "production/week-01/day-01/w01-d01-e02-audio/water.mp3",
+      "scene_index": 2,
+      "rms": 0.0045,
+      "duration": 6.38,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "production/week-01/day-01/w01-d01-e02-audio/water.mp3.meta.json",
+      "purpose": "Small workboat hull water at slow travel"
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/workboat-settled-idle.wav",
+      "scene_index": 2,
+      "rms": 0.006,
+      "duration": 6.38,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/workboat-settled-idle.wav.meta.json",
+      "purpose": "Steady small outboard, trim excludes ignition, continuous loop only",
+      "lowpass_hz": 2600
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 3,
+      "rms": 0.004,
+      "duration": 5.38,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Open exterior rain"
+    },
+    {
+      "source": "production/week-01/day-01/w01-d01-e02-audio/water.mp3",
+      "scene_index": 3,
+      "rms": 0.0045,
+      "duration": 5.38,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "production/week-01/day-01/w01-d01-e02-audio/water.mp3.meta.json",
+      "purpose": "Small workboat hull water at slow travel"
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/workboat-settled-idle.wav",
+      "scene_index": 3,
+      "rms": 0.005,
+      "duration": 5.38,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/workboat-settled-idle.wav.meta.json",
+      "purpose": "Steady small outboard, trim excludes ignition, continuous loop only",
+      "lowpass_hz": 2600
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 4,
+      "rms": 0.004,
+      "duration": 6.0,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Open exterior rain"
+    },
+    {
+      "source": "production/week-01/day-01/w01-d01-e02-audio/water.mp3",
+      "scene_index": 4,
+      "rms": 0.0045,
+      "duration": 6.0,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "production/week-01/day-01/w01-d01-e02-audio/water.mp3.meta.json",
+      "purpose": "Small workboat hull water at slow travel"
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/workboat-settled-idle.wav",
+      "scene_index": 4,
+      "rms": 0.005,
+      "duration": 6.0,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/workboat-settled-idle.wav.meta.json",
+      "purpose": "Steady small outboard, trim excludes ignition, continuous loop only",
+      "lowpass_hz": 2600
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 5,
+      "rms": 0.0025,
+      "duration": 6.4,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Open exterior rain"
+    },
+    {
+      "source": "production/week-01/day-01/w01-d01-e02-audio/water.mp3",
+      "scene_index": 5,
+      "rms": 0.0035,
+      "duration": 6.4,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "production/week-01/day-01/w01-d01-e02-audio/water.mp3.meta.json",
+      "purpose": "Canal hull water; bridge shelter/dark reflection in scene6",
+      "lowpass_hz": 1500
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/workboat-settled-idle.wav",
+      "scene_index": 5,
+      "rms": 0.005,
+      "duration": 6.4,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/workboat-settled-idle.wav.meta.json",
+      "purpose": "Steady small outboard, trim excludes ignition, continuous loop only",
+      "lowpass_hz": 1700
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 6,
+      "rms": 0.004,
+      "duration": 5.68,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Open exterior rain"
+    },
+    {
+      "source": "production/week-01/day-01/w01-d01-e02-audio/water.mp3",
+      "scene_index": 6,
+      "rms": 0.0045,
+      "duration": 5.68,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "production/week-01/day-01/w01-d01-e02-audio/water.mp3.meta.json",
+      "purpose": "Small workboat hull water at slow travel"
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/workboat-settled-idle.wav",
+      "scene_index": 6,
+      "rms": 0.006,
+      "duration": 5.68,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/workboat-settled-idle.wav.meta.json",
+      "purpose": "Steady small outboard, trim excludes ignition, continuous loop only",
+      "lowpass_hz": 2600
+    },
+    {
+      "source": "audio/sfx/rain.mp3",
+      "scene_index": 7,
+      "rms": 0.004,
+      "duration": 8.69,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/sfx/rain.mp3.meta.json",
+      "purpose": "Open exterior rain"
+    },
+    {
+      "source": "production/week-01/day-01/w01-d01-e02-audio/water.mp3",
+      "scene_index": 7,
+      "rms": 0.0045,
+      "duration": 8.69,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "production/week-01/day-01/w01-d01-e02-audio/water.mp3.meta.json",
+      "purpose": "Small workboat hull water at slow travel"
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/workboat-settled-idle.wav",
+      "scene_index": 7,
+      "rms": 0.006,
+      "duration": 8.69,
+      "loop": true,
+      "kind": "ambience",
+      "offset": 0,
+      "licensing": "Existing ElevenLabs free-plan generated review asset or derivative; retain source provenance and attribution. Commercial clearance not established.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/workboat-settled-idle.wav.meta.json",
+      "purpose": "Steady small outboard, trim excludes ignition, continuous loop only",
+      "lowpass_hz": 2600
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/metal-rattle.wav",
+      "scene_index": 2,
+      "rms": 0.004,
+      "duration": 0.45,
+      "loop": false,
+      "kind": "sfx",
+      "offset": 0.15,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/metal-rattle.wav.meta.json",
+      "purpose": "Visible brace tapped by foot/hand"
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/light-mast-hinge.wav",
+      "scene_index": 4,
+      "rms": 0.006,
+      "duration": 1.6,
+      "loop": false,
+      "kind": "sfx",
+      "offset": 0.3,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/light-mast-hinge.wav.meta.json",
+      "purpose": "Brace release and controlled short mast lowering"
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/light-mast-hinge.wav",
+      "scene_index": 5,
+      "rms": 0.004,
+      "duration": 0.6,
+      "loop": false,
+      "kind": "sfx",
+      "offset": 1.0,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/light-mast-hinge.wav.meta.json",
+      "purpose": "Brief light mast contact, no crushing cabin effect",
+      "lowpass_hz": 1800
+    },
+    {
+      "source": "audio/procedural-review/batch-2026-11-17/light-mast-hinge.wav",
+      "scene_index": 7,
+      "rms": 0.004,
+      "duration": 0.75,
+      "loop": false,
+      "kind": "sfx",
+      "offset": 0.15,
+      "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+      "source_provenance": "audio/procedural-review/batch-2026-11-17/light-mast-hinge.wav.meta.json",
+      "purpose": "Light mast seats in aft cradle"
+    }
+  ],
+  "upload_title": "One Low Bridge Trapped Their Getaway | GTA 6 | 11.ai"
+}

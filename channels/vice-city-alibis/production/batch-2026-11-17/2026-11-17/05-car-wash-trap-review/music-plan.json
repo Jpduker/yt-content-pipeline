@@ -1,0 +1,123 @@
+{
+  "composition": "original deterministic synthesis, not Eleven Music",
+  "episode_theme": {
+    "seed": 5021188510075376936,
+    "transpose": 2,
+    "tempo": 94,
+    "motif_rotation": 1
+  },
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start": 0,
+      "end": 5.989999999999999,
+      "description": "Fast low chase pulse; original cue planned, duck 14\u201318 dB below speech",
+      "mood": "action",
+      "theme": {
+        "seed": 5021188510075376936,
+        "transpose": 2,
+        "tempo": 94,
+        "motif_rotation": 1
+      },
+      "step_seconds": 0.3191489361702128
+    },
+    {
+      "scene_index": 1,
+      "start": 5.989999999999999,
+      "end": 11.749999999999998,
+      "description": "Restrained bass climbs; original cue planned, duck 14\u201318 dB below speech",
+      "mood": "curiosity",
+      "theme": {
+        "seed": 5021188510075376936,
+        "transpose": 2,
+        "tempo": 94,
+        "motif_rotation": 1
+      },
+      "step_seconds": 1.2765957446808511
+    },
+    {
+      "scene_index": 2,
+      "start": 11.749999999999998,
+      "end": 18.730000000000004,
+      "description": "Brief gap in percussion; original cue planned, duck 14\u201318 dB below speech",
+      "mood": "curiosity",
+      "theme": {
+        "seed": 5021188510075376936,
+        "transpose": 2,
+        "tempo": 94,
+        "motif_rotation": 1
+      },
+      "step_seconds": 1.2765957446808511
+    },
+    {
+      "scene_index": 3,
+      "start": 18.730000000000004,
+      "end": 24.97,
+      "description": "Pulse holds tightly; original cue planned, duck 14\u201318 dB below speech",
+      "mood": "tension",
+      "theme": {
+        "seed": 5021188510075376936,
+        "transpose": 2,
+        "tempo": 94,
+        "motif_rotation": 1
+      },
+      "step_seconds": 0.6382978723404256
+    },
+    {
+      "scene_index": 4,
+      "start": 24.97,
+      "end": 30.87,
+      "description": "Light urgent percussion; original cue planned, duck 14\u201318 dB below speech",
+      "mood": "curiosity",
+      "theme": {
+        "seed": 5021188510075376936,
+        "transpose": 2,
+        "tempo": 94,
+        "motif_rotation": 1
+      },
+      "step_seconds": 1.2765957446808511
+    },
+    {
+      "scene_index": 5,
+      "start": 30.87,
+      "end": 38.01,
+      "description": "Quick plucked reversal motif; original cue planned, duck 14\u201318 dB below speech",
+      "mood": "curiosity",
+      "theme": {
+        "seed": 5021188510075376936,
+        "transpose": 2,
+        "tempo": 94,
+        "motif_rotation": 1
+      },
+      "step_seconds": 1.2765957446808511
+    },
+    {
+      "scene_index": 6,
+      "start": 38.01,
+      "end": 44.47,
+      "description": "Momentum bass resolves; original cue planned, duck 14\u201318 dB below speech",
+      "mood": "curiosity",
+      "theme": {
+        "seed": 5021188510075376936,
+        "transpose": 2,
+        "tempo": 94,
+        "motif_rotation": 1
+      },
+      "step_seconds": 1.2765957446808511
+    },
+    {
+      "scene_index": 7,
+      "start": 44.47,
+      "end": 53,
+      "description": "Sly warm ending; dip for final joke; original cue planned, duck 14\u201318 dB below speech",
+      "mood": "resolution",
+      "theme": {
+        "seed": 5021188510075376936,
+        "transpose": 2,
+        "tempo": 94,
+        "motif_rotation": 1
+      },
+      "step_seconds": 1.2765957446808511
+    }
+  ]
+}

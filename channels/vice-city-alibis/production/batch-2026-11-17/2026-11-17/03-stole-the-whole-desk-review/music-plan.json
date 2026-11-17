@@ -1,0 +1,123 @@
+{
+  "composition": "original deterministic synthesis, not Eleven Music",
+  "episode_theme": {
+    "seed": 16804662546372126199,
+    "transpose": 3,
+    "tempo": 93,
+    "motif_rotation": 0
+  },
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start": 0,
+      "end": 5.909999999999999,
+      "description": "Ticking muted bass; original cue planned, duck 14\u201318 dB below speech",
+      "mood": "curiosity",
+      "theme": {
+        "seed": 16804662546372126199,
+        "transpose": 3,
+        "tempo": 93,
+        "motif_rotation": 0
+      },
+      "step_seconds": 1.2903225806451613
+    },
+    {
+      "scene_index": 1,
+      "start": 5.909999999999999,
+      "end": 12.09,
+      "description": "Tight clocklike percussion; original cue planned, duck 14\u201318 dB below speech",
+      "mood": "curiosity",
+      "theme": {
+        "seed": 16804662546372126199,
+        "transpose": 3,
+        "tempo": 93,
+        "motif_rotation": 0
+      },
+      "step_seconds": 1.2903225806451613
+    },
+    {
+      "scene_index": 2,
+      "start": 12.09,
+      "end": 16.97,
+      "description": "Pulse gains one plucked note; original cue planned, duck 14\u201318 dB below speech",
+      "mood": "tension",
+      "theme": {
+        "seed": 16804662546372126199,
+        "transpose": 3,
+        "tempo": 93,
+        "motif_rotation": 0
+      },
+      "step_seconds": 0.6451612903225806
+    },
+    {
+      "scene_index": 3,
+      "start": 16.97,
+      "end": 22.05,
+      "description": "Rising syncopated bass; original cue planned, duck 14\u201318 dB below speech",
+      "mood": "tension",
+      "theme": {
+        "seed": 16804662546372126199,
+        "transpose": 3,
+        "tempo": 93,
+        "motif_rotation": 0
+      },
+      "step_seconds": 0.6451612903225806
+    },
+    {
+      "scene_index": 4,
+      "start": 22.05,
+      "end": 28.130000000000003,
+      "description": "Percussion tightens then drops; original cue planned, duck 14\u201318 dB below speech",
+      "mood": "tension",
+      "theme": {
+        "seed": 16804662546372126199,
+        "transpose": 3,
+        "tempo": 93,
+        "motif_rotation": 0
+      },
+      "step_seconds": 0.6451612903225806
+    },
+    {
+      "scene_index": 5,
+      "start": 28.130000000000003,
+      "end": 35.089999999999996,
+      "description": "Release with urgent bass; original cue planned, duck 14\u201318 dB below speech",
+      "mood": "resolution",
+      "theme": {
+        "seed": 16804662546372126199,
+        "transpose": 3,
+        "tempo": 93,
+        "motif_rotation": 0
+      },
+      "step_seconds": 1.2903225806451613
+    },
+    {
+      "scene_index": 6,
+      "start": 35.089999999999996,
+      "end": 40.07,
+      "description": "Dry triumphant rhythm; original cue planned, duck 14\u201318 dB below speech",
+      "mood": "curiosity",
+      "theme": {
+        "seed": 16804662546372126199,
+        "transpose": 3,
+        "tempo": 93,
+        "motif_rotation": 0
+      },
+      "step_seconds": 1.2903225806451613
+    },
+    {
+      "scene_index": 7,
+      "start": 40.07,
+      "end": 51,
+      "description": "Sly warm resolution; dip for last line; original cue planned, duck 14\u201318 dB below speech",
+      "mood": "resolution",
+      "theme": {
+        "seed": 16804662546372126199,
+        "transpose": 3,
+        "tempo": 93,
+        "motif_rotation": 0
+      },
+      "step_seconds": 1.2903225806451613
+    }
+  ]
+}

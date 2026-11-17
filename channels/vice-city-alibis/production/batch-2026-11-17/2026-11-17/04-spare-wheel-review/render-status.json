@@ -1,0 +1,21 @@
+{
+  "script": "current locked script matched",
+  "artwork": "eight inputs present; visual approval not inferred",
+  "audio": "native source matched text/voice provenance; normalized loudness only",
+  "mix": "rendered; human listening pending",
+  "video": "rendered; technical decode/geometry/duration checked",
+  "release": "PRIVATE REVIEW ONLY; commercial clearance not inferred",
+  "published": false,
+  "source_json": "C:\\Users\\Vivek Sai\\Downloads\\YouTube\\channels\\vice-city-alibis\\production\\batch-2026-11-17\\2026-11-17\\04-spare-wheel.json",
+  "final_mix_gain": 1,
+  "source_frame_sha256": {
+    "01.png": "f8c64b591f07b8d082ec604e4336bcd352bb8d905f2a001f934ed54a5ef45642",
+    "02.png": "47a14b4cbc24efe486833452e69394e359a42adb8757c064f70202508606c94f",
+    "03.png": "e2e65907cb8e7378d1cd42b9be2b0013640811fd4bb1d3e73928c157309a06e4",
+    "04.png": "6baba872008d7d44114f61bf37d7ec3c5f23c45455258755043e2e58c9c3b67d",
+    "05.png": "d20db838f460388809e0559cd7f48f3117448fbd17eab587381c1e1c15093eb5",
+    "06.png": "812910d2946e071cf45bd9b8eba40e46cce4b3971ebd1d112b150df2ce203816",
+    "07.png": "8f816fa57b755101cddecd88b8edef962afb0c01f97024a44592a95279f8ae8c",
+    "08.png": "2dda9ba13243f1dacc7b5f0eb2bb369b9b8dff04c83385fdb9b57024887c10b1"
+  }
+}

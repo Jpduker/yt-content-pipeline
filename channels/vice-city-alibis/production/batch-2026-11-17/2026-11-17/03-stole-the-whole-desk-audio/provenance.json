@@ -1,0 +1,24 @@
+{
+  "voice": "Liam",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "request": {
+    "text": "The cash drawer jammed. Jason had twenty seconds before the nightclub owner came back upstairs. Lucia found the drawer bolted inside a steel desk. Jason reached for his crowbar. Too slow. She kicked the wheel brake. Earlier, the desk had rolled when Jason leaned against its edge. He stared at her. She pointed toward the freight lift. They were stealing the whole desk. The lift doors started closing. Jason shoved the crowbar between them while Lucia dragged their prize inside. Below, their van door caught the desktop. Jason swore. Lucia turned it sideways; the narrow end cleared. The owner reached his window just as his own office furniture disappeared into the van below. An hour later, the drawer finally opened. Cash everywhere. Jason kept one souvenir: the sign saying employees only.",
+    "model_id": "eleven_v4",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "response": {
+    "request-id": "JDNLy7kUdv5nTugf1yoB",
+    "history-item-id": "VOQjfA3NquyeJC4vanB8",
+    "character-cost": "795"
+  },
+  "duration_seconds": 48.4,
+  "licensing": "free-plan private review; not commercially cleared",
+  "postprocessing": "none",
+  "status": "listen and retime before video edit"
+}

@@ -1,0 +1,24 @@
+{
+  "voice": "Liam",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "request": {
+    "text": "The bridge stayed down. Jason looked from their workboat to the cash beneath its light mast. Behind them, the Fixer's cabin cruiser rounded the bend. Lucia had refused that faster boat at the dock. Jason grabbed the wheel. Too shallow to turn. Lucia pointed at the light mast hinge beside his foot. He understood. Their boat could fold flat. The cruiser behind them had a welded roof. Jason released the brace while Lucia slowed the engine. The short light mast dropped toward their cash bags. He caught it across his shoulder. Lucia held their line. Bridge concrete scraped inches above his knuckles. They cleared the span. Behind them, the Fixer reversed; his cabin could never fit beneath it. Jason lowered the light mast. Every bag survived. Next time, he said, she could pick the boat.",
+    "model_id": "eleven_v4",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "response": {
+    "request-id": "oIjh5MZDwLDglq5t32AK",
+    "history-item-id": "fVjdKwHTU6Y1lLIn4EDG",
+    "character-cost": "790"
+  },
+  "duration_seconds": 48.48,
+  "licensing": "free-plan private review; not commercially cleared",
+  "postprocessing": "none",
+  "status": "listen and retime before video edit"
+}

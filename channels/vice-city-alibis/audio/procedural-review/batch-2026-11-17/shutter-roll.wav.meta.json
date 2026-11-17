@@ -1,0 +1,22 @@
+{
+  "type": "ORIGINAL_PROCEDURAL_DSP",
+  "generator": "tools/prepare_batch_audio.py",
+  "seed": 9865170008126643040,
+  "description": "shutter-roll; restrained synthesized mechanical/texture approximation, NOT field recorded",
+  "licensing": "Original DSP composition/synthesis for private review; no external recording, model or API. Procedural approximation, NOT a field recording. Release suitability pending listening review.",
+  "model": "none; deterministic numpy/scipy DSP",
+  "api_calls": 0,
+  "credits_used": 0,
+  "file": "audio\\procedural-review\\batch-2026-11-17\\shutter-roll.wav",
+  "sha256": "6a7a178a333c5297364908c4676cd382171f3dc5ba6deedd769ccbfbb76fa31b",
+  "sample_rate": 48000,
+  "channels": 2,
+  "duration_seconds": 5.0,
+  "measured_sample_peak": 0.204742431640625,
+  "measured_sample_peak_dbfs": -13.775842861676972,
+  "measured_rms": 0.05416708356979792,
+  "estimated_true_peak_4x_dbfs": -13.760750639516257,
+  "peak_measurement_note": "4x polyphase oversampling diagnostic, not certified BS.1770 metering",
+  "clipping_samples": 0,
+  "status": "PRIVATE REVIEW; procedural preview, listening pending"
+}

@@ -1,5 +1,8 @@
 # Decision record — 16 November 2026
 
+## Production request — 17 November 2026
+User reports first two videos posted around 04:00–05:00 Europe/Berlin on 17 November. User wants another 5–8 today and the next 3–4 days produced together, organized by date with upload.md containing title, description, hashtags and tags. Working batch target: five more for17November plus seven per day18–20November (26 new episodes). Friend/former GTA player's pilot feedback: visuals great, story underwhelming. New quality gate is docs/STORY_QUALITY_STANDARD.md. Preserve the first two published cuts; do not rewrite them retroactively. Publishing and pushing remain with the user.
+
 ## Channel created; launch cuts approved
 User confirms the channel is created with the approved logo, banner, name and description. User approves The Motel Money and Paid to Burn the Evidence for tonight's upload and requests thumbnails, titles, descriptions and tags. Keep 11.ai attribution in titles for the existing free-plan audio; approval does not change the commercial licensing status. Remaining week video generation is deferred by user until tomorrow, 17 November 2026, Europe/Berlin. All YouTube working-tree changes are to be committed locally; pushing always belongs to the user. Preserve the repository's existing exclusions for rendered media, audio, archives and local secrets.
 

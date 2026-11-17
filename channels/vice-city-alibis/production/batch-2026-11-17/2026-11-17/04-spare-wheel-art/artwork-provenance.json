@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen; no external image API called",
+  "model": "not exposed by built-in tool; not inferred",
+  "status": "generated and continuity checked by assistant; user visual approval not inferred",
+  "source_recovery_index": "../../art-recovery-index.json",
+  "frames": [
+    {
+      "shot": 1,
+      "file": "01.png",
+      "size": [
+        941,
+        1672
+      ],
+      "sha256": "f8c64b591f07b8d082ec604e4336bcd352bb8d905f2a001f934ed54a5ef45642"
+    },
+    {
+      "shot": 2,
+      "file": "02.png",
+      "size": [
+        941,
+        1672
+      ],
+      "sha256": "47a14b4cbc24efe486833452e69394e359a42adb8757c064f70202508606c94f"
+    },
+    {
+      "shot": 3,
+      "file": "03.png",
+      "size": [
+        941,
+        1671
+      ],
+      "sha256": "e2e65907cb8e7378d1cd42b9be2b0013640811fd4bb1d3e73928c157309a06e4"
+    },
+    {
+      "shot": 4,
+      "file": "04.png",
+      "size": [
+        941,
+        1672
+      ],
+      "sha256": "6baba872008d7d44114f61bf37d7ec3c5f23c45455258755043e2e58c9c3b67d"
+    },
+    {
+      "shot": 5,
+      "file": "05.png",
+      "size": [
+        941,
+        1670
+      ],
+      "sha256": "d20db838f460388809e0559cd7f48f3117448fbd17eab587381c1e1c15093eb5"
+    },
+    {
+      "shot": 6,
+      "file": "06.png",
+      "size": [
+        941,
+        1672
+      ],
+      "sha256": "812910d2946e071cf45bd9b8eba40e46cce4b3971ebd1d112b150df2ce203816"
+    },
+    {
+      "shot": 7,
+      "file": "07.png",
+      "size": [
+        941,
+        1672
+      ],
+      "sha256": "8f816fa57b755101cddecd88b8edef962afb0c01f97024a44592a95279f8ae8c"
+    },
+    {
+      "shot": 8,
+      "file": "08.png",
+      "size": [
+        941,
+        1672
+      ],
+      "sha256": "2dda9ba13243f1dacc7b5f0eb2bb369b9b8dff04c83385fdb9b57024887c10b1"
+    }
+  ],
+  "continuity_check": [
+    "01-03 clean spare remains strapped to white courier van",
+    "03 empty dolly positioned before removal",
+    "04 single cut spare containing cash on dolly; carrier empty",
+    "05 single spare off dolly, shutter edge contacts low U-handle; white courier stays inside",
+    "06 Jason outside pulling cash tire, Lucia belly-down behind, blue getaway outside",
+    "07 Fixer alone with newspapers; heroes and cash tire gone in blue getaway",
+    "08 private lockup has blue van only; dolly left at warehouse"
+  ],
+  "licensing": "Original generated fan-fiction illustrations; no claim of Rockstar licensing or user release approval"
+}

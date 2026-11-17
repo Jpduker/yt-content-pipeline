@@ -1,0 +1,336 @@
+{
+  "id": "vca-20261118-01-locker-number",
+  "title": "Lucia Read the Key Upside Down",
+  "date": "2026-11-18",
+  "duration_seconds": 56,
+  "status": "PLANNED",
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "hook": "Jason opened locker sixty-nine. Empty. Footsteps hammered behind the showers. Their stolen diamonds were missing.",
+  "script": "Jason opened locker sixty-nine. Empty. Footsteps hammered behind the showers. Their stolen diamonds were missing. The Fixer had handed them one key, then vanished. Lucia studied the numbers beneath a swinging light. A line sat above them. She turned the tag. Ninety-six. Jason had followed it upside down. They reached the other aisle. A cleaning cart blocked the door, and the key refused to turn. Jason pulled harder. Lucia stopped him. The cart wheel was pressing the locker door against its latch. She kicked the cart clear. The lock turned. Inside sat their blue pouch, still sealed with red thread. They slipped through the shower exit as the Fixer reached the wrong aisle, following their open locker. On the seawall, Jason counted every diamond. Lucia hung the key upright around his neck. Numbers mattered tonight.",
+  "word_count": 135,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "narration": "Jason opened locker sixty-nine. Empty. Footsteps hammered behind the showers. Their stolen diamonds were missing.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented marina locker building has two parallel aisles: locker 69 west, locker 96 east, rear shower exit north toward seawall. Rainy night; anonymous footsteps only, no new recurring face. Jason at open empty locker 69 west; Lucia beside him, brass key in Jason hand; shower exit distant north. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Tight empty-locker reveal Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Dark ticking pulse; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside; quiet interior room tone; duck beneath speech and match visible perspective",
+        "sfx": "Locker clang, footsteps; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Marina service lockers",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Locker69 open empty; key tag reads69 upside down; blue pouch absent.",
+        "vehicle_occupancy": "No vehicles; two heroes on foot.",
+        "entry_exit_and_geography": "Invented marina locker building has two parallel aisles: locker 69 west, locker 96 east, rear shower exit north toward seawall. Rainy night; anonymous footsteps only, no new recurring face. Jason at open empty locker 69 west; Lucia beside him, brass key in Jason hand; shower exit distant north.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "EMPTY"
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "narration": "The Fixer had handed them one key, then vanished. Lucia studied the numbers beneath a swinging light.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented marina locker building has two parallel aisles: locker 69 west, locker 96 east, rear shower exit north toward seawall. Rainy night; anonymous footsteps only, no new recurring face. Lucia takes brass key under single swinging utility lamp, Jason watches west entrance. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Key close-up Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Sparse investigative pluck; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside; quiet interior room tone; duck beneath speech and match visible perspective",
+        "sfx": "Key jingle; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Marina service lockers",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Key transfers Jason to Lucia; orientation line visible above digits, not yet corrected.",
+        "vehicle_occupancy": "Heroes only; Fixer not visible.",
+        "entry_exit_and_geography": "Invented marina locker building has two parallel aisles: locker 69 west, locker 96 east, rear shower exit north toward seawall. Rainy night; anonymous footsteps only, no new recurring face. Lucia takes brass key under single swinging utility lamp, Jason watches west entrance.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "ONE KEY"
+    },
+    {
+      "start": 14,
+      "end": 21,
+      "narration": "A line sat above them. She turned the tag. Ninety-six. Jason had followed it upside down.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented marina locker building has two parallel aisles: locker 69 west, locker 96 east, rear shower exit north toward seawall. Rainy night; anonymous footsteps only, no new recurring face. Lucia rotates physical tag to upright96 with orientation underline now below; two locker aisles visible behind. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Macro insert with hands intact Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Bright recognition note; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside; quiet interior room tone; duck beneath speech and match visible perspective",
+        "sfx": "Brass tag tap; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Marina service lockers",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Tag correctly reads96; no digital change to engraving.",
+        "vehicle_occupancy": "Heroes only.",
+        "entry_exit_and_geography": "Invented marina locker building has two parallel aisles: locker 69 west, locker 96 east, rear shower exit north toward seawall. Rainy night; anonymous footsteps only, no new recurring face. Lucia rotates physical tag to upright96 with orientation underline now below; two locker aisles visible behind.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "NINETY-SIX"
+    },
+    {
+      "start": 21,
+      "end": 28,
+      "narration": "They reached the other aisle. A cleaning cart blocked the door, and the key refused to turn.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented marina locker building has two parallel aisles: locker 69 west, locker 96 east, rear shower exit north toward seawall. Rainy night; anonymous footsteps only, no new recurring face. East aisle: steel cleaning cart wheel presses right edge of locker96; Jason inserts key, Lucia braces door. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Medium geometry Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Percussion tightens; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside; quiet interior room tone; duck beneath speech and match visible perspective",
+        "sfx": "Key strain, cart creak; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Marina service lockers",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Locker96 shut, key inserted; cart blocks door release; pouch unseen inside.",
+        "vehicle_occupancy": "Heroes on foot; no vehicle.",
+        "entry_exit_and_geography": "Invented marina locker building has two parallel aisles: locker 69 west, locker 96 east, rear shower exit north toward seawall. Rainy night; anonymous footsteps only, no new recurring face. East aisle: steel cleaning cart wheel presses right edge of locker96; Jason inserts key, Lucia braces door.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "IT WILL NOT TURN"
+    },
+    {
+      "start": 28,
+      "end": 35,
+      "narration": "Jason pulled harder. Lucia stopped him. The cart wheel was pressing the locker door against its latch.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented marina locker building has two parallel aisles: locker 69 west, locker 96 east, rear shower exit north toward seawall. Rainy night; anonymous footsteps only, no new recurring face. Low angle shows cart caster forcing locker door inward against latch while Jason pauses on key; Lucia points at caster. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Low latch-and-wheel insert Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Held bass; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside; quiet interior room tone; duck beneath speech and match visible perspective",
+        "sfx": "Locker metal squeak; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Marina service lockers",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "No snapped key; cart still presses door; no magic lock picking.",
+        "vehicle_occupancy": "Both heroes east aisle.",
+        "entry_exit_and_geography": "Invented marina locker building has two parallel aisles: locker 69 west, locker 96 east, rear shower exit north toward seawall. Rainy night; anonymous footsteps only, no new recurring face. Low angle shows cart caster forcing locker door inward against latch while Jason pauses on key; Lucia points at caster.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "MOVE THE CART"
+    },
+    {
+      "start": 35,
+      "end": 42,
+      "narration": "She kicked the cart clear. The lock turned. Inside sat their blue pouch, still sealed with red thread.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented marina locker building has two parallel aisles: locker 69 west, locker 96 east, rear shower exit north toward seawall. Rainy night; anonymous footsteps only, no new recurring face. Cart moved left clear; Lucia turns key and opens locker96; Jason lifts sealed blue pouch with red thread from shelf. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Medium money-proof reveal Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Pulse releases; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside; quiet interior room tone; duck beneath speech and match visible perspective",
+        "sfx": "Lock click, pouch cloth; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Marina service lockers",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Locker96 open; pouch transfers to Jason; key returns Lucia hand; cart aside.",
+        "vehicle_occupancy": "Heroes only.",
+        "entry_exit_and_geography": "Invented marina locker building has two parallel aisles: locker 69 west, locker 96 east, rear shower exit north toward seawall. Rainy night; anonymous footsteps only, no new recurring face. Cart moved left clear; Lucia turns key and opens locker96; Jason lifts sealed blue pouch with red thread from shelf.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "STILL SEALED"
+    },
+    {
+      "start": 42,
+      "end": 49,
+      "narration": "They slipped through the shower exit as the Fixer reached the wrong aisle, following their open locker.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented marina locker building has two parallel aisles: locker 69 west, locker 96 east, rear shower exit north toward seawall. Rainy night; anonymous footsteps only, no new recurring face. North shower door: heroes leave right toward seawall; distant Fixer cream suit enters west aisle beside open69, facing away from their exit. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Wide separates exit and wrong aisle Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Light escape rhythm; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside; quiet interior room tone; duck beneath speech and match visible perspective",
+        "sfx": "Door hinge, far footsteps; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Marina service lockers",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Jason has blue pouch; Lucia key;69 remains open decoy;96 door shut.",
+        "vehicle_occupancy": "Heroes outside doorway; Fixer alone west aisle.",
+        "entry_exit_and_geography": "Invented marina locker building has two parallel aisles: locker 69 west, locker 96 east, rear shower exit north toward seawall. Rainy night; anonymous footsteps only, no new recurring face. North shower door: heroes leave right toward seawall; distant Fixer cream suit enters west aisle beside open69, facing away from their exit.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "WRONG AISLE"
+    },
+    {
+      "start": 49,
+      "end": 56,
+      "narration": "On the seawall, Jason counted every diamond. Lucia hung the key upright around his neck. Numbers mattered tonight.",
+      "visual_prompt": "Portrait 9:16, premium painted crime graphic novel, approved magenta/teal rainy tropical neon, amber skin, realistic anatomy and physically supported objects; 1080x1920 composition with central action and clear lower caption space. No photorealism, no generated captions or logos. Invented marina locker building has two parallel aisles: locker 69 west, locker 96 east, rear shower exit north toward seawall. Rainy night; anonymous footsteps only, no new recurring face. Seawall outside north exit: Jason opens blue pouch and counts diamonds on folded cloth; Lucia hangs brass96 key upright on cord around his neck. Match approved v2 Jason/Lucia faces before consulting boards; Jason J01-default-olive, Lucia L01-default-white-tank throughout; original Fixer F01-cream-suit only when listed. Do not add people, vehicles or props beyond the stated frame.",
+      "camera": "Medium payoff and key insert Use a still-image-safe 3–5% move; no fake vehicle or hand animation.",
+      "sound": {
+        "music": "Warm sly resolution; original cue planned, duck 14–18 dB below speech",
+        "ambience": "Rain outside; quiet interior room tone; duck beneath speech and match visible perspective",
+        "sfx": "Gem clink, key tap; brief, action-synced, never obscure narration"
+      },
+      "continuity": {
+        "location": "Marina service lockers",
+        "location_status": "original fan-fiction set within the GTA VI-inspired Vice City world; not a claimed game map location",
+        "time_weather": "same rainy tropical night unless explicitly advanced in shot",
+        "wardrobe": {
+          "Jason": "J01-default-olive",
+          "Lucia": "L01-default-white-tank",
+          "Fixer_if_visible": "F01-cream-suit"
+        },
+        "prop_state": "Red thread broken only now; all diamonds retained; tag upright96; no loose gems on wet ground.",
+        "vehicle_occupancy": "No vehicle; both heroes under awning.",
+        "entry_exit_and_geography": "Invented marina locker building has two parallel aisles: locker 69 west, locker 96 east, rear shower exit north toward seawall. Rainy night; anonymous footsteps only, no new recurring face. Seawall outside north exit: Jason opens blue pouch and counts diamonds on folded cloth; Lucia hangs brass96 key upright on cord around his neck.",
+        "photo_state": "no photographic print in this episode",
+        "reference_paths": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/original-fixer/references/fixer.png",
+          "world/references/environment-atlas.png"
+        ],
+        "frame_review": "Check full-size hands/wrists, prop orientation, occupied/empty seats, matching rims and tire support; preserve stated geography and object state."
+      },
+      "on_screen_text": "READ THE LINE"
+    }
+  ],
+  "timeline": "linear",
+  "pov": "third-person limited: Jason and Lucia",
+  "delivery": "narrator-led; Liam only; quoted dialogue is narrated quotation, not an approved character voice",
+  "description": "Their diamond stash is gone, and footsteps are closing in through the marina. Jason has the right key, but Lucia is no longer sure he has the right door.\n\nOriginal GTA VI fan fiction featuring Jason Duval and Lucia Caminos; invented events, not official Rockstar story or gameplay. Voice narration: 11.ai.\n\n#GTA6 #FanFiction #Shorts",
+  "tags": [
+    "GTA6",
+    "GTA 6",
+    "GTA VI",
+    "Vice City Alibis",
+    "Jason Duval",
+    "Lucia Caminos",
+    "GTA 6 fan fiction",
+    "marina lockers",
+    "missing diamonds",
+    "brass key",
+    "heist mystery",
+    "Fixer pursuit"
+  ],
+  "title_options": [
+    "Lucia Read the Key Upside Down | GTA 6 Fan Story | 11.ai",
+    "Jason and Lucia: Lucia Read the Key Upside Down | GTA 6 Fan Story | 11.ai",
+    "Read It Again | GTA 6 Fan Story | 11.ai"
+  ],
+  "thumbnail_headline": "WRONG LOCKER",
+  "story_audit": {
+    "goal": "Recover their diamond stash from the marina locker before the Fixer catches them.",
+    "stakes": "Losing the score or being cornered in the locker aisles.",
+    "obstacle": "Inverted tag number and a door jammed by a cleaning cart.",
+    "planted_clue": "A small engraving line fixes the physical tag orientation; cart pressure is shown before the key resists.",
+    "payoff": "The right locker holds every diamond and the first open wrong locker misdirects the Fixer long enough to escape.",
+    "causal_check": "The key never changes engraving and opens only96. Cart pressure explains the binding latch. Separate aisles and rear shower exit are established before the escape."
+  },
+  "production_notes": {
+    "timing": "Eight contiguous 7-second planning bins; 56 seconds is estimated, final speech must be synthesized and measured at 50–60 seconds without time-stretching.",
+    "visual_status": "shot plans only; no new imagery generated or approved",
+    "audio_status": "no API call or audio generated; preserve native Liam pitch/cadence; dry centered voice and separate music/ambience/SFX/final mix stems",
+    "canon": "Jason Duval and Lucia Caminos are GTA VI characters used in fan fiction. The Fixer is an original supporting character. All events, dialogue, vehicles and named micro-sets here are original inventions.",
+    "release": "PLANNED, not rendered, uploaded, approved or commercially cleared; 11.ai attribution retained for intended free-plan provenance, not a license claim."
+  },
+  "upload_title": "The Locker Was Empty. Lucia Looked Again. | GTA 6 | 11.ai"
+}

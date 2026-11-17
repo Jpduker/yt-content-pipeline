@@ -1,0 +1,305 @@
+{
+  "id": "07-the-last-seat",
+  "title": "The Last Seat",
+  "hook": "There was one seat on the getaway boat.",
+  "timeline": "Hybrid: one-seat consequence opens, brief explicit earlier setup, then causal return",
+  "pov": "Third-person limited through Jason; Lucia's plan initially withheld",
+  "delivery": "Liam only; betrayal suspicion, sharp recognition, earned partnership payoff",
+  "description": "Jason drags the Fixer's payroll chest onto their getaway skiff while men close the road behind them. Lucia starts removing the passenger seat, and Jason takes it personally.\n\nOriginal GTA VI fan fiction | Narration: Liam via ElevenLabs / 11.ai\n#GTA6 #FanFiction #Shorts",
+  "tags": [
+    "GTA6",
+    "GTA 6",
+    "GTA VI",
+    "GTAVI",
+    "GTA6 fan fiction",
+    "Jason Duval",
+    "Lucia Caminos",
+    "The Fixer payroll",
+    "getaway boat",
+    "boathouse heist",
+    "Vice City Alibis",
+    "11.ai"
+  ],
+  "title_options": [
+    "There Was One Seat on the Getaway Boat | GTA 6 Fan Fiction | 11.ai",
+    "Jason Thought Lucia Was Leaving Him | GTA 6 Fan Fiction | 11.ai"
+  ],
+  "story_audit": {
+    "goal": "Steal Fixer's payroll and escape by the established two-person skiff.",
+    "stakes": "Road closure forces water escape; Jason interprets missing passenger seat as abandonment, damaging trust.",
+    "obstacle": "Chest contains anchor chain tethered to boathouse floor; new lock conceals empty bait chest.",
+    "planted_clue": "Fresh brass filings under new padlock, old loose hinge pins, chain emerging beneath chest; missing bench conceals useful storage access.",
+    "payoff": "Jason bypasses lock via old hinges, Lucia retrieves cutters; they sacrifice fake score and reinstall both seats before leaving together.",
+    "causal_check": "Chain stays visible through loading and never teleports; cutter-sized thin link and inaccessible coil explain why lid must open; chest shifted by loading rail. Bench removal permits storage hatch access. All tools and boat established, no magic second boat or standing escape without seat. Chain is attached to chest interior lug via thin joining link; the external thick links and welded floor ring cannot be cut with onboard cutters."
+  },
+  "date": "2026-11-19",
+  "duration_seconds": 56,
+  "status": "PLANNED â€” scripts and shot plans only; no rendered MP4",
+  "canon_status": "Jason Duval and Lucia Caminos are GTA VI characters in fan-art adaptation. The Fixer is an original supporting character. All plots, jobs, props, businesses and scene-specific sets here are invented noncanon fan fiction.",
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "script": "There was one seat on the getaway boat. Jason thought Lucia had finally decided what he was worth. Earlier, they'd stolen the Fixer's payroll chest. His men were closing the road. Lucia stripped the skiff's passenger bench while Jason hauled the chest aboard. He called her plan betrayal. Then he noticed fresh brass filings under the chest. Its padlock was new. Its hinges were not. The Fixer hadn't protected his payroll. He'd locked an anchor chain inside, threaded through the boathouse floor. Jason drove the loose hinge pins out. Lucia pulled the bench free, exposing their skiff's bolt cutters. They cut its thin joining link inside the chest, leaving the heavy chain and empty box behind. Lucia bolted the bench back. Two seats. No score. Jason sat down before she could change her mind.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "narration": "There was one seat on the getaway boat. Jason thought Lucia had finally decided what he was worth.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Twin-person skiff tied bow-first to fuel jetty, passenger bench removed, driver bench fixed; Jason stands aboard beside chest, Lucia at open passenger-bench mounting points. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J03-keys-linen; L03-keys-blue-shirt from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented dock boathouse with twin-person skiff and fixed fuel jetty; dawn, light drizzle, pale teal harbor light from left This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Tight portrait detail with subject grounded in wider setting",
+      "sound": {
+        "music": "Sparse muted bass motif",
+        "ambience": "Invented dock boathouse with twin-person skiff and fixed fuel jetty; dawn, light drizzle, pale teal harbor light from left; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 1,
+        "location_time_weather": "Invented dock boathouse with twin-person skiff and fixed fuel jetty; dawn, light drizzle, pale teal harbor light from left",
+        "outfits": "J03-keys-linen; L03-keys-blue-shirt",
+        "prop_state_and_blocking": "Opening consequence: skiff stationary, one removable seat absent; fixed driver bench present. Chest in skiff; Lucia tools at hand.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": "There was one seat on the getaway boat."
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "narration": "Earlier, they'd stolen the Fixer's payroll chest. His men were closing the road.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Overlay EARLIER; Jason and Lucia at boathouse loading rail prepare one sealed payroll chest; same skiff moored below, road headlights far beyond closed gate. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J03-keys-linen; L03-keys-blue-shirt from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented dock boathouse with twin-person skiff and fixed fuel jetty; dawn, light drizzle, pale teal harbor light from left This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Over-shoulder medium, establish spatial relationship",
+      "sound": {
+        "music": "Restrained ticking pulse",
+        "ambience": "Invented dock boathouse with twin-person skiff and fixed fuel jetty; dawn, light drizzle, pale teal harbor light from left; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 2,
+        "location_time_weather": "Invented dock boathouse with twin-person skiff and fixed fuel jetty; dawn, light drizzle, pale teal harbor light from left",
+        "outfits": "J03-keys-linen; L03-keys-blue-shirt",
+        "prop_state_and_blocking": "Explicit earlier reset: bench fitted, chest rail, chain paid out from floor ring through chest underside, boat still moored.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 14,
+      "end": 21,
+      "narration": "Lucia stripped the skiff's passenger bench while Jason hauled the chest aboard. He called her plan betrayal.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Lucia unbolts removable passenger bench with socket wrench and places bench flat on jetty; Jason slides chest from rail into skiff without breaking mooring. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J03-keys-linen; L03-keys-blue-shirt from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented dock boathouse with twin-person skiff and fixed fuel jetty; dawn, light drizzle, pale teal harbor light from left This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Low three-quarter medium, clear hand contact",
+      "sound": {
+        "music": "Low syncopated tension",
+        "ambience": "Invented dock boathouse with twin-person skiff and fixed fuel jetty; dawn, light drizzle, pale teal harbor light from left; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 3,
+        "location_time_weather": "Invented dock boathouse with twin-person skiff and fixed fuel jetty; dawn, light drizzle, pale teal harbor light from left",
+        "outfits": "J03-keys-linen; L03-keys-blue-shirt",
+        "prop_state_and_blocking": "Bench unbolted and laid on jetty within arm reach; chest slid along loading rail; flexible chain follows visibly, attached to fixed floor ring.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 21,
+      "end": 28,
+      "narration": "Then he noticed fresh brass filings under the chest. Its padlock was new. Its hinges were not.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Jason kneels by chest aboard moored skiff; brass filings beside lock and visibly loose old hinge pins, thick hardened chain exits chest underside and leads back through boathouse floor ring. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J03-keys-linen; L03-keys-blue-shirt from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented dock boathouse with twin-person skiff and fixed fuel jetty; dawn, light drizzle, pale teal harbor light from left This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Close detail on the planted physical clue",
+      "sound": {
+        "music": "Music thins for clue",
+        "ambience": "Invented dock boathouse with twin-person skiff and fixed fuel jetty; dawn, light drizzle, pale teal harbor light from left; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 4,
+        "location_time_weather": "Invented dock boathouse with twin-person skiff and fixed fuel jetty; dawn, light drizzle, pale teal harbor light from left",
+        "outfits": "J03-keys-linen; L03-keys-blue-shirt",
+        "prop_state_and_blocking": "New lock old hinges; chain connection visible before solution; chest cannot leave boathouse reach.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 28,
+      "end": 35,
+      "narration": "The Fixer hadn't protected his payroll. He'd locked an anchor chain inside, threaded through the boathouse floor.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Close detail through loose hinge gap: heavy chain attaches to inner chest lug with one thin joining link. Chain passes underside to fixed boathouse floor ring; no cash. Show only what hinge gap permits, not an x-ray. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J03-keys-linen; L03-keys-blue-shirt from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented dock boathouse with twin-person skiff and fixed fuel jetty; dawn, light drizzle, pale teal harbor light from left This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Eye-level two-shot, disagreement readable in faces",
+      "sound": {
+        "music": "Single low sustained note",
+        "ambience": "Invented dock boathouse with twin-person skiff and fixed fuel jetty; dawn, light drizzle, pale teal harbor light from left; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 5,
+        "location_time_weather": "Invented dock boathouse with twin-person skiff and fixed fuel jetty; dawn, light drizzle, pale teal harbor light from left",
+        "outfits": "J03-keys-linen; L03-keys-blue-shirt",
+        "prop_state_and_blocking": "Heavy chain fixed to thick floor ring runs through chest underside; inside, chain attaches to chest interior lug through one thin joining link. Thick external links exceed cutter capacity. Lid still locked, hinges loose.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 35,
+      "end": 42,
+      "narration": "Jason drove the loose hinge pins out. Lucia pulled the bench free, exposing their skiff's bolt cutters.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Jason taps loose hinge pins using socket extension and mallet from open skiff toolkit; Lucia opens underbench storage, retrieves long bolt cutters, bench stays jetty. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J03-keys-linen; L03-keys-blue-shirt from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented dock boathouse with twin-person skiff and fixed fuel jetty; dawn, light drizzle, pale teal harbor light from left This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Wider action composition with visible origin and destination",
+      "sound": {
+        "music": "Measured pulse accelerates",
+        "ambience": "Invented dock boathouse with twin-person skiff and fixed fuel jetty; dawn, light drizzle, pale teal harbor light from left; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 6,
+        "location_time_weather": "Invented dock boathouse with twin-person skiff and fixed fuel jetty; dawn, light drizzle, pale teal harbor light from left",
+        "outfits": "J03-keys-linen; L03-keys-blue-shirt",
+        "prop_state_and_blocking": "Socket extension and mallet already in ordinary skiff toolkit; pins removed, lid lifted. Underbench hatch holds bolt cutters; bench removed for access, not abandonment.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 42,
+      "end": 49,
+      "narration": "They cut its thin joining link inside the chest, leaving the heavy chain and empty box behind.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Chest lid off; Lucia cuts thin internal joining link using two-hand bolt cutters, Jason steadies chest without touching jaws. Thick external chain cannot be cut by these cutters and remains fixed to floor ring. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J03-keys-linen; L03-keys-blue-shirt from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented dock boathouse with twin-person skiff and fixed fuel jetty; dawn, light drizzle, pale teal harbor light from left This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Controlled close insert on the irreversible choice",
+      "sound": {
+        "music": "Brief drop beneath decisive line",
+        "ambience": "Invented dock boathouse with twin-person skiff and fixed fuel jetty; dawn, light drizzle, pale teal harbor light from left; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 7,
+        "location_time_weather": "Invented dock boathouse with twin-person skiff and fixed fuel jetty; dawn, light drizzle, pale teal harbor light from left",
+        "outfits": "J03-keys-linen; L03-keys-blue-shirt",
+        "prop_state_and_blocking": "Only thin internal joining link severed. Thick hardened external links and thick welded floor ring exceed cutter capacity; opening lid is required to access weak link. Skiff still moored, empty chest aboard.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 49,
+      "end": 56,
+      "narration": "Lucia bolted the bench back. Two seats. No score. Jason sat down before she could change her mind.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. After chest returned to adjacent jetty, Lucia replaces bench using same socket wrench; Jason seated passenger, Lucia driver, tools stowed, bow line visibly untied before skiff moves into harbor. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J03-keys-linen; L03-keys-blue-shirt from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented dock boathouse with twin-person skiff and fixed fuel jetty; dawn, light drizzle, pale teal harbor light from left This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Portrait medium-wide payoff, hold final consequence",
+      "sound": {
+        "music": "Unresolved motif resolves on final noun",
+        "ambience": "Invented dock boathouse with twin-person skiff and fixed fuel jetty; dawn, light drizzle, pale teal harbor light from left; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 8,
+        "location_time_weather": "Invented dock boathouse with twin-person skiff and fixed fuel jetty; dawn, light drizzle, pale teal harbor light from left",
+        "outfits": "J03-keys-linen; L03-keys-blue-shirt",
+        "prop_state_and_blocking": "Chest and coil placed jetty using loading rail; bench rebolted to same mounts with all bolts; Jason passenger Lucia driver. Both aboard before untying bow line; no floating chest or duplicate boat.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": "Original GTA VI fan fiction"
+    }
+  ],
+  "spoken_word_count": 134,
+  "thumbnail_headline": "ONLY ONE SEAT",
+  "upload_title": "Did Lucia Leave Jason a Seat? | GTA6 Fan Fiction | 11.ai"
+}

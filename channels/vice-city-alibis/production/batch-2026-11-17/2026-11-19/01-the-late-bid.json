@@ -1,0 +1,305 @@
+{
+  "id": "01-the-late-bid",
+  "title": "The Late Bid",
+  "hook": "Their buyer bid against himself.",
+  "timeline": "Linear, single night",
+  "pov": "Third-person limited through Lucia",
+  "delivery": "Liam narrator-led; dry amusement becomes suspicion, then controlled triumph",
+  "description": "Lucia steals an auction paddle while Jason eyes a painting that could clear their debt. Then she notices tomorrow's date on tonight's bid sheet.\n\nOriginal GTA VI fan fiction | Narration: Liam via ElevenLabs / 11.ai\n#GTA6 #FanFiction #Shorts",
+  "tags": [
+    "GTA6",
+    "GTA 6",
+    "GTA VI",
+    "GTAVI",
+    "GTA6 fan fiction",
+    "Jason Duval",
+    "Lucia Caminos",
+    "rigged auction",
+    "stolen painting",
+    "The Fixer",
+    "Vice City Alibis",
+    "11.ai"
+  ],
+  "title_options": [
+    "Their Buyer Bid Against Himself | GTA 6 Fan Fiction | 11.ai",
+    "Lucia Raised the Price of Their Freedom | GTA 6 Fan Fiction | 11.ai"
+  ],
+  "story_audit": {
+    "goal": "Recover the real stolen canvas as leverage to cancel the Fixer's debt.",
+    "stakes": "Their fingerprints and Jason's address will turn them into disposable suspects.",
+    "obstacle": "The auction is a staged frame-up; Jason wants to destroy the apparent prize.",
+    "planted_clue": "Tomorrow's date in fresh ink on the bid sheet; painting addressed to Jason.",
+    "payoff": "An impossible high bid provokes the buyer to reach behind his chair, revealing where he concealed the original.",
+    "causal_check": "Date creates suspicion; shipping label proves target; false bid threatens buyer's control; reflex exposes real prize; original buys debt cancellation, demand sent rather than magically accepted."
+  },
+  "date": "2026-11-19",
+  "duration_seconds": 56,
+  "status": "PLANNED â€” scripts and shot plans only; no rendered MP4",
+  "canon_status": "Jason Duval and Lucia Caminos are GTA VI characters in fan-art adaptation. The Fixer is an original supporting character. All plots, jobs, props, businesses and scene-specific sets here are invented noncanon fan fiction.",
+  "voice": {
+    "name": "Liam",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.03
+    }
+  },
+  "script": "Lucia stole the auction paddle because stealing the painting would get Jason killed before sunrise. The Fixer owned their debt. Tonight, his secret buyer was collecting a stolen canvas as payment. Jason wanted to slash it. Lucia noticed wet ink on the buyer's bid sheet: tomorrow's date. The auction had already happened. Tonight was a rehearsal, with their fingerprints supplying the missing thieves. Jason called her paranoid. Then she turned the canvas over: its shipping label named his apartment. Lucia took the paddle into the glass booth and raised the buyer's ceiling by two million. He panicked, reached for the emergency cancellation key, and exposed the original painting behind his chair. They left the fake, took the original, and sent the Fixer one offer: their debt, cancelled.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "narration": "Lucia stole the auction paddle because stealing the painting would get Jason killed before sunrise.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Lucia lifts one numbered paddle from desk, Jason beside closed booth door; framed canvas leans face toward wall. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J01-default-olive; L01-default-white-tank from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented waterfront auction service room and adjoining glass bidding booth; 11pm, steady rain, amber desk lamp on frame right This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Tight portrait detail with subject grounded in wider setting",
+      "sound": {
+        "music": "Sparse muted bass motif",
+        "ambience": "Invented waterfront auction service room and adjoining glass bidding booth; 11pm, steady rain, amber desk lamp on frame right; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 1,
+        "location_time_weather": "Invented waterfront auction service room and adjoining glass bidding booth; 11pm, steady rain, amber desk lamp on frame right",
+        "outfits": "J01-default-olive; L01-default-white-tank",
+        "prop_state_and_blocking": "Paddle moves desk to Lucia right hand; canvas A against desk, canvas B hidden behind booth chair.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": "Their buyer bid against himself."
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "narration": "The Fixer owned their debt. Tonight, his secret buyer was collecting a stolen canvas as payment.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. The Fixer stands across desk in established F01 cream suit, gold chain, floral shirt; one debt ledger open before him. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J01-default-olive; L01-default-white-tank from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented waterfront auction service room and adjoining glass bidding booth; 11pm, steady rain, amber desk lamp on frame right This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Over-shoulder medium, establish spatial relationship",
+      "sound": {
+        "music": "Restrained ticking pulse",
+        "ambience": "Invented waterfront auction service room and adjoining glass bidding booth; 11pm, steady rain, amber desk lamp on frame right; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 2,
+        "location_time_weather": "Invented waterfront auction service room and adjoining glass bidding booth; 11pm, steady rain, amber desk lamp on frame right",
+        "outfits": "J01-default-olive; L01-default-white-tank",
+        "prop_state_and_blocking": "Paddle stays with Lucia; Fixer at desk, ledger stays open; frames unmoved.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 14,
+      "end": 21,
+      "narration": "Jason wanted to slash it. Lucia noticed wet ink on the buyer's bid sheet: tomorrow's date.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Jason holds small closed utility knife at thigh; Lucia studies one bid sheet under desk lamp; date must be post overlay. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J01-default-olive; L01-default-white-tank from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented waterfront auction service room and adjoining glass bidding booth; 11pm, steady rain, amber desk lamp on frame right This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Low three-quarter medium, clear hand contact",
+      "sound": {
+        "music": "Low syncopated tension",
+        "ambience": "Invented waterfront auction service room and adjoining glass bidding booth; 11pm, steady rain, amber desk lamp on frame right; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 3,
+        "location_time_weather": "Invented waterfront auction service room and adjoining glass bidding booth; 11pm, steady rain, amber desk lamp on frame right",
+        "outfits": "J01-default-olive; L01-default-white-tank",
+        "prop_state_and_blocking": "Knife stays closed in Jason hand; bid sheet goes desk to Lucia left hand.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 21,
+      "end": 28,
+      "narration": "The auction had already happened. Tonight was a rehearsal, with their fingerprints supplying the missing thieves.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Lucia tilts that same sheet toward booth window; her own reflected hand visually overlays inked print box. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J01-default-olive; L01-default-white-tank from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented waterfront auction service room and adjoining glass bidding booth; 11pm, steady rain, amber desk lamp on frame right This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Close detail on the planted physical clue",
+      "sound": {
+        "music": "Music thins for clue",
+        "ambience": "Invented waterfront auction service room and adjoining glass bidding booth; 11pm, steady rain, amber desk lamp on frame right; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 4,
+        "location_time_weather": "Invented waterfront auction service room and adjoining glass bidding booth; 11pm, steady rain, amber desk lamp on frame right",
+        "outfits": "J01-default-olive; L01-default-white-tank",
+        "prop_state_and_blocking": "Sheet stays same orientation, tomorrow date consistent; paddle remains Lucia right hand.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 28,
+      "end": 35,
+      "narration": "Jason called her paranoid. Then she turned the canvas over: its shipping label named his apartment.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Jason steadies the same frame while Lucia rotates it; apartment shipping label on rear lower corner, no readable private address. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J01-default-olive; L01-default-white-tank from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented waterfront auction service room and adjoining glass bidding booth; 11pm, steady rain, amber desk lamp on frame right This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Eye-level two-shot, disagreement readable in faces",
+      "sound": {
+        "music": "Single low sustained note",
+        "ambience": "Invented waterfront auction service room and adjoining glass bidding booth; 11pm, steady rain, amber desk lamp on frame right; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 5,
+        "location_time_weather": "Invented waterfront auction service room and adjoining glass bidding booth; 11pm, steady rain, amber desk lamp on frame right",
+        "outfits": "J01-default-olive; L01-default-white-tank",
+        "prop_state_and_blocking": "Knife pocketed before Jason grips frame A; frame A rotates only, frame B still hidden.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 35,
+      "end": 42,
+      "narration": "Lucia took the paddle into the glass booth and raised the buyer's ceiling by two million.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Lucia now inside booth with paddle raised, Jason at doorway; anonymous buyer silhouette seated with chair concealing wall recess. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J01-default-olive; L01-default-white-tank from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented waterfront auction service room and adjoining glass bidding booth; 11pm, steady rain, amber desk lamp on frame right This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Wider action composition with visible origin and destination",
+      "sound": {
+        "music": "Measured pulse accelerates",
+        "ambience": "Invented waterfront auction service room and adjoining glass bidding booth; 11pm, steady rain, amber desk lamp on frame right; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 6,
+        "location_time_weather": "Invented waterfront auction service room and adjoining glass bidding booth; 11pm, steady rain, amber desk lamp on frame right",
+        "outfits": "J01-default-olive; L01-default-white-tank",
+        "prop_state_and_blocking": "Frame A returned beside desk; paddle travels visibly with Lucia into booth; Jason at threshold.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 42,
+      "end": 49,
+      "narration": "He panicked, reached for the emergency cancellation key, and exposed the original painting behind his chair.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Buyer silhouette leans toward wall cancellation key, chair rotates aside revealing second framed canvas in shallow recess. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J01-default-olive; L01-default-white-tank from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented waterfront auction service room and adjoining glass bidding booth; 11pm, steady rain, amber desk lamp on frame right This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Controlled close insert on the irreversible choice",
+      "sound": {
+        "music": "Brief drop beneath decisive line",
+        "ambience": "Invented waterfront auction service room and adjoining glass bidding booth; 11pm, steady rain, amber desk lamp on frame right; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 7,
+        "location_time_weather": "Invented waterfront auction service room and adjoining glass bidding booth; 11pm, steady rain, amber desk lamp on frame right",
+        "outfits": "J01-default-olive; L01-default-white-tank",
+        "prop_state_and_blocking": "One chair shifts left; canvas B exposed, not newly materialized; buyer hand on cancellation key.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": ""
+    },
+    {
+      "start": 49,
+      "end": 56,
+      "narration": "They left the fake, took the original, and sent the Fixer one offer: their debt, cancelled.",
+      "visual_prompt": "Portrait 9:16 premium painted crime graphic novel, rich teal/magenta neon, warm amber skin, rainy tropical depth. Jason carries original frame through service door; fake rests against original desk; Lucia shows debt cancellation demand on her phone. Match Jason short brown hair, stubble, muscular adult build and Lucia dark ponytail, strong brows, tan skin, gold hoops, athletic adult build precisely to approved v2 face references. Use J01-default-olive; L01-default-white-tank from existing closet boards; these wardrobe boards remain proposals pending visual review. No new identifiable recurring faces; background figures only indistinct silhouettes. Invented waterfront auction service room and adjoining glass bidding booth; 11pm, steady rain, amber desk lamp on frame right This is a noncanon invented fan-fiction set, not an exact game reconstruction. Physically plausible hands, connected wrists, stable object scale; no duplicate props, no teleports, correct readable text added in post only.",
+      "camera": "Portrait medium-wide payoff, hold final consequence",
+      "sound": {
+        "music": "Unresolved motif resolves on final noun",
+        "ambience": "Invented waterfront auction service room and adjoining glass bidding booth; 11pm, steady rain, amber desk lamp on frame right; soft rain and location-appropriate room/yard tone, filtered indoors",
+        "sfx": "One quiet, scene-synchronous prop contact; no stock gunfire or whoosh"
+      },
+      "continuity": {
+        "scene": 8,
+        "location_time_weather": "Invented waterfront auction service room and adjoining glass bidding booth; 11pm, steady rain, amber desk lamp on frame right",
+        "outfits": "J01-default-olive; L01-default-white-tank",
+        "prop_state_and_blocking": "Jason has lifted canvas B from recess and exits to left; frame A stays desk; paddle on booth chair, phone now Lucia hand.",
+        "characters_and_occupants": "Only named subjects in prompt. No extra passengers; no visible faces for incidental figures.",
+        "references": [
+          "characters/jason-duval/references/approved-v2-faces.png",
+          "characters/lucia-caminos/references/approved-v2-faces.png",
+          "characters/jason-duval/closet/four-outfits.png",
+          "characters/lucia-caminos/closet/four-outfits.png",
+          "world/references/environment-atlas.png",
+          "world/references/01-opening.png",
+          "world/references/05-tow.png",
+          "world/references/07-payoff.png"
+        ],
+        "qa": "Check grip, prop count, paper orientation, vehicle wheel contact and all entry/exit positions against previous scene; nonlinear time jumps labeled explicitly."
+      },
+      "on_screen_text": "Original GTA VI fan fiction"
+    }
+  ],
+  "spoken_word_count": 127,
+  "thumbnail_headline": "BID AGAINST HIMSELF",
+  "upload_title": "The Buyer Was Bidding Against Himself | GTA6 Fan Fiction | 11.ai"
+}

@@ -1,0 +1,22 @@
+{
+  "scope": "New dated batch only; excludes earlier posted videos and original 49-story week",
+  "episodes_present": 26,
+  "episodes_expected": 26,
+  "per_date": {
+    "2026-11-17": 5,
+    "2026-11-18": 7,
+    "2026-11-19": 7,
+    "2026-11-20": 7
+  },
+  "all_26_plans_present": true,
+  "structural_validation_passed": true,
+  "issues": [],
+  "media_counts": {
+    "VIDEO_PREVIEW_CHECKED": 3,
+    "AUDIO_PREVIEW": 1,
+    "AUDIO_GENERATION_BLOCKED": 1,
+    "PLANNED": 21
+  },
+  "finished_or_published_claimed": 0,
+  "updated_utc": "2026-11-17T14:27:05.369048+00:00"
+}

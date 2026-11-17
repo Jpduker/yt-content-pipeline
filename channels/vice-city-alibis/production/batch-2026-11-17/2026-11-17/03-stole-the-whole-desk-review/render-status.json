@@ -1,0 +1,23 @@
+{
+  "script": "current locked script matched",
+  "artwork": "eight current inputs present; visual approval not inferred",
+  "audio": "current source matches assembly dry original, script and voice provenance; native cadence unchanged",
+  "mix": "rendered; human listening pending",
+  "video": "rendered; full decode/geometry/frame count/duration/true peak checked",
+  "release": "PRIVATE REVIEW ONLY; commercial clearance not inferred",
+  "published": false,
+  "source_json": "C:\\Users\\Vivek Sai\\Downloads\\YouTube\\channels\\vice-city-alibis\\production\\batch-2026-11-17\\2026-11-17\\03-stole-the-whole-desk.json",
+  "final_mix_gain": null,
+  "final_mix_gain_note": "Not inferred by post-assembly verifier; existing mix.wav preserved",
+  "source_frame_sha256": {
+    "01.png": "1d72be30bb49ec234cb008e4dd870c1de88bf95da2dc200ffe32229ff831ce13",
+    "02.png": "dd2f5f9ffea976ed41d790bc1006fe5799a5dc20a0c5843f1dd2b09accb78407",
+    "03.png": "2376a6a57e2d60180cbe1e6817d3f1c393f9fbfcf681f8dda671ee0183a2e4f1",
+    "04.png": "11bacc74e010a66c1d911be01a89612f30da960ba5780df8ed93e36c2be46c22",
+    "05.png": "a4f6b3b11733e85456448fcaac7336e10cc1296d5b3f65f4b44a74187e171cd7",
+    "06.png": "d20e2c14645797223eae429afb076943c1675a343a301e088c38170034d0dd40",
+    "07.png": "83073cf8146bf8e9301ce04890be27c314e5a13f163279f7a113736188ff0b53",
+    "08.png": "9f4654425f15daf815df809dc7fc7f8702b4da793b535f9bf062b37a4a4a01ea"
+  },
+  "resume_note": "Interrupted assembly preserved when promoting verified complete assembly; no causal claim about interruption"
+}
