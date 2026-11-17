@@ -44,6 +44,10 @@ export const CAST = {
   KID:      { top: 'tshirt', color: '#f29ac0', head: 'none' },          // toddler / child extra
   X1: { top: 'none', head: 'none' }, X2: { top: 'none', head: 'cap', headColor: '#2a2430' }, X3: { top: 'none', head: 'curly' },
   X4: { top: 'none', head: 'bun' }, X5: { top: 'none', head: 'beanie', headColor: '#2a2430' },
+  // v3.2 wardrobe archetypes (Gemini model sheets) — reuse for new cast: copy one and change the colours
+  DETECTIVE: { top: 'trench', color: '#8a7660', head: 'none' }, CHEF: { top: 'chef', color: '#f2f0ec', head: 'none', pants: '#80808a' },
+  SCI:       { top: 'lab', color: '#eeeef2', head: 'none' }, PUFFER: { top: 'puffer', color: '#4a4852', head: 'none' },
+  TRACK:     { top: 'track', color: '#3a3a44', head: 'none' }, TEE: { top: 'tshirt', color: '#4a4858', head: 'none', pants: '#5a5272' },
 };
 // thought-thread colour per thinker
 export const THREAD = { THEO: '#4a8fe8', DEV: '#e8743b', PIA: '#d8504a', DAD: '#c8a070', MIRA: YELLOW, MIRA_EVE: YELLOW, BARISTA: ORANGE, BOSS: '#6ea0e0', COLL: '#b48cf0', TRAIN: PINK };

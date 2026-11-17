@@ -77,7 +77,7 @@
   "text": "Then the group chat starts a war about pineapple on pizza.",
   "sec": "act1",
   "start": 24.609,
-  "end": 28.259
+  "end": 28.334
  },
  {
   "id": "L009",
@@ -86,47 +86,417 @@
   "note": "",
   "text": "Six hundred words later, you win.",
   "sec": "act1",
-  "start": 28.399,
-  "end": 30.599
+  "start": 28.474,
+  "end": 30.749
  },
  {
   "id": "L010",
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "By lunch, you have forty-one.",
+  "text": "At work, your boss asks for a quick update.",
   "sec": "act1",
-  "start": 31.103,
-  "end": 33.153
+  "start": 31.189,
+  "end": 33.901
  },
  {
   "id": "L011",
-  "tag": "N",
+  "tag": "BOSS",
   "thought": false,
   "note": "",
-  "text": "By dinner, fourteen.",
+  "text": "Quick. Just the headlines.",
   "sec": "act1",
-  "start": 33.292,
-  "end": 34.654
+  "start": 34.161,
+  "end": 35.962
  },
  {
   "id": "L012",
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "And then Theo knocks on your door.",
+  "text": "It is not quick.",
   "sec": "act1",
-  "start": 35.495,
-  "end": 37.438
+  "start": 36.362,
+  "end": 37.597
  },
  {
   "id": "L013",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At the caf\u00e9, the barista asks how your weekend was.",
+  "sec": "act1",
+  "start": 39.137,
+  "end": 42.462
+ },
+ {
+  "id": "L014",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You tell him. All of it.",
+  "sec": "act1",
+  "start": 42.602,
+  "end": 44.149
+ },
+ {
+  "id": "L015",
+  "tag": "BARISTA",
+  "thought": false,
+  "note": "",
+  "text": "Cool. Oat milk?",
+  "sec": "act1",
+  "start": 44.409,
+  "end": 45.294
+ },
+ {
+  "id": "L016",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By lunch, you have forty-one.",
+  "sec": "act1",
+  "start": 45.994,
+  "end": 47.669
+ },
+ {
+  "id": "L017",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By dinner, fourteen.",
+  "sec": "act1",
+  "start": 47.809,
+  "end": 49.076
+ },
+ {
+  "id": "L018",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And then Theo knocks on your door.",
+  "sec": "act1",
+  "start": 49.916,
+  "end": 51.859
+ },
+ {
+  "id": "L019",
   "tag": "THEO",
   "thought": false,
   "note": "",
   "text": "Can I tell you something? Something real?",
   "sec": "act1",
-  "start": 37.698,
-  "end": 39.769
+  "start": 52.119,
+  "end": 54.19
+ },
+ {
+  "id": "L020",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Theo has nine hundred and ninety-three words. He saved them all day.",
+  "sec": "act2",
+  "start": 56.089,
+  "end": 60.585
+ },
+ {
+  "id": "L021",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "I quit the football team. I didn't tell Mum.",
+  "sec": "act2",
+  "start": 60.845,
+  "end": 63.05
+ },
+ {
+  "id": "L022",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Everyone thinks I'm lazy. I'm not. I just hate being bad at it.",
+  "sec": "act2",
+  "start": 63.19,
+  "end": 66.975
+ },
+ {
+  "id": "L023",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Coach said I was the slowest one there. Everyone laughed.",
+  "sec": "act2",
+  "start": 67.116,
+  "end": 69.656
+ },
+ {
+  "id": "L024",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "So I stopped going. Three weeks ago.",
+  "sec": "act2",
+  "start": 69.902,
+  "end": 71.824
+ },
+ {
+  "id": "L025",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Three weeks. You didn't notice.",
+  "sec": "act2",
+  "start": 72.224,
+  "end": 74.359
+ },
+ {
+  "id": "L026",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You were busy spending words on people you'll never meet.",
+  "sec": "act2",
+  "start": 74.498,
+  "end": 77.649
+ },
+ {
+  "id": "L027",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Every sentence you want to say is longer than fourteen words.",
+  "sec": "act2",
+  "start": 77.832,
+  "end": 81.657
+ },
+ {
+  "id": "L028",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "So you don't say any of them.",
+  "sec": "act2",
+  "start": 81.873,
+  "end": 83.523
+ },
+ {
+  "id": "L029",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You nod. Nods are free.",
+  "sec": "act2",
+  "start": 84.064,
+  "end": 86.046
+ },
+ {
+  "id": "L030",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "You think I'm a quitter.",
+  "sec": "act2",
+  "start": 86.305,
+  "end": 87.566
+ },
+ {
+  "id": "L031",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You shake your head. Also free.",
+  "sec": "act2",
+  "start": 87.966,
+  "end": 90.142
+ },
+ {
+  "id": "L032",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then your phone buzzes. It's Mum.",
+  "sec": "act2",
+  "start": 90.982,
+  "end": 93.392
+ },
+ {
+  "id": "L033",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Is Theo okay? she writes. He's been so quiet.",
+  "sec": "act2",
+  "start": 93.533,
+  "end": 97.032
+ },
+ {
+  "id": "L034",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Typing counts. One reply could cost you everything you have left.",
+  "sec": "act2",
+  "start": 97.224,
+  "end": 101.639
+ },
+ {
+  "id": "L035",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You can answer her. Or you can answer him.",
+  "sec": "act2",
+  "start": 101.778,
+  "end": 104.204
+ },
+ {
+  "id": "L036",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You turn the phone face down.",
+  "sec": "act3",
+  "start": 106.104,
+  "end": 107.679
+ },
+ {
+  "id": "L037",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And you spend six words. Slowly.",
+  "sec": "act3",
+  "start": 107.917,
+  "end": 110.241
+ },
+ {
+  "id": "L038",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You're not bad. You're just new.",
+  "sec": "act3",
+  "start": 110.501,
+  "end": 112.128
+ },
+ {
+  "id": "L039",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Eight left.",
+  "sec": "act3",
+  "start": 112.528,
+  "end": 113.337
+ },
+ {
+  "id": "L040",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "That's it?",
+  "sec": "act3",
+  "start": 113.597,
+  "end": 114.214
+ },
+ {
+  "id": "L041",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "That's enough.",
+  "sec": "act3",
+  "start": 114.364,
+  "end": 115.286
+ },
+ {
+  "id": "L042",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Six.",
+  "sec": "act3",
+  "start": 115.686,
+  "end": 116.036
+ },
+ {
+  "id": "L043",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You grab a pen. Pictures are free.",
+  "sec": "act3",
+  "start": 116.574,
+  "end": 118.919
+ },
+ {
+  "id": "L044",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "A tiny football. A tiny Theo. And a giant trophy.",
+  "sec": "act3",
+  "start": 119.059,
+  "end": 122.562
+ },
+ {
+  "id": "L045",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "That's not even a real trophy.",
+  "sec": "act3",
+  "start": 122.822,
+  "end": 124.509
+ },
+ {
+  "id": "L046",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "But he's smiling.",
+  "sec": "act3",
+  "start": 124.909,
+  "end": 126.184
+ },
+ {
+  "id": "L047",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He talks until his counter runs out. You listen until midnight.",
+  "sec": "act3",
+  "start": 126.724,
+  "end": 130.724
+ },
+ {
+  "id": "L048",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At twelve, your counter clicks back to a thousand.",
+  "sec": "act3",
+  "start": 130.865,
+  "end": 133.636
+ },
+ {
+  "id": "L049",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Okay. Now tell me everything.",
+  "sec": "act3",
+  "start": 133.896,
+  "end": 135.711
+ },
+ {
+  "id": "L050",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "What would you say with fourteen words?",
+  "sec": "act3",
+  "start": 136.611,
+  "end": 138.554
  }
 ]

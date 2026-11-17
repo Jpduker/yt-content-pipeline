@@ -104,6 +104,19 @@ export const HAIR = {
   peaked: { front(g, x, y, r, back, o) { const c = o.color || '#1f8a8a'; g.save(); g.beginPath(); g.rect(x - r * 1.4, y - r * 1.6, r * 2.8, r * 1.02); g.clip(); circle(g, x, y - r * .05, r * 1.08, c); g.restore();
       rr(g, x - r * 1.08, y - r * .66, r * 2.16, r * .2, r * .06); g.fillStyle = shade(c, -.4); g.fill(); seg(g, [[x - back * r * .3, y - r * .5], [x - back * r * 1.3, y - r * .4]], r * .17, '#15151c');
       circle(g, x - back * r * .1, y - r * .95, r * .1, '#ffd47e'); } },
+  // v3.2 wardrobe accessories (Gemini sheets): fedora, chef hat, safety goggles, beanie+puffer hood
+  fedora: { front(g, x, y, r, back, o) { const c = o.color || '#8a7660', d = shade(c, -.3), ink = '#1a1114';
+      g.lineJoin = 'round'; g.fillStyle = c; g.strokeStyle = ink; g.lineWidth = r * .07;
+      g.beginPath(); g.ellipse(x, y - r * .62, r * 1.45, r * .26, -back * .06, 0, 7); g.fill(); g.stroke();
+      g.beginPath(); g.moveTo(x - r * .78, y - r * .66); g.quadraticCurveTo(x - r * .8, y - r * 1.38, x - r * .2, y - r * 1.32); g.quadraticCurveTo(x, y - r * 1.2, x + r * .2, y - r * 1.32); g.quadraticCurveTo(x + r * .8, y - r * 1.38, x + r * .78, y - r * .66); g.closePath(); g.fill(); g.stroke();
+      g.fillStyle = d; g.fillRect(x - r * .78, y - r * .86, r * 1.56, r * .18); } },
+  chefhat: { front(g, x, y, r, back, o) { const ink = '#1a1114'; g.fillStyle = '#f6f4f0'; g.strokeStyle = ink; g.lineWidth = r * .07;
+      g.beginPath(); g.rect(x - r * .62, y - r * 1.25, r * 1.24, r * .55); g.fill(); g.stroke();
+      for (const [dx, dy, rr0] of [[-.5, -1.45, .42], [0, -1.62, .48], [.5, -1.45, .42]]) { g.beginPath(); g.arc(x + dx * r, y + dy * r, rr0 * r, 0, 7); g.fill(); g.stroke(); }
+      g.fillRect(x - r * .58, y - r * 1.3, r * 1.16, r * .2); } },
+  goggles: { front(g, x, y, r, back, o) { const ink = '#1a1114', cx = x + (o.front ? 0 : -back * r * .3); g.strokeStyle = ink; g.lineWidth = r * .08;
+      g.beginPath(); g.moveTo(x - r, y - r * .22); g.lineTo(x + r, y - r * .22); g.stroke(); g.fillStyle = 'rgba(200,225,240,.45)';
+      rr(g, cx - r * .62, y - r * .4, r * 1.24, r * .38, r * .14); g.fill(); g.stroke(); } },
   // v3.1 accessories (drawn in the head's frame; neck at y + r)
   headphonesNeck: { front(g, x, y, r, back, o) { const c = o.color || '#4a8fe8', ny = y + r * (o.front ? 1.12 : 1.02);
       g.strokeStyle = shade(c, -.35); g.lineWidth = r * .1; g.beginPath(); g.ellipse(x, ny - r * .02, r * .78, r * .28, 0, Math.PI * .05, Math.PI * .95); g.stroke();
@@ -128,6 +141,7 @@ export const HEAD = {
   DRIVER: { hair: 'peaked', color: '#1f8a8a' }, LIFT: { hair: 'curly', lashes: true }, YOU_REF: {},
   THEO: { hair: 'headphonesNeck', color: '#4a8fe8' }, DEV: { hair: 'scarf', color: '#e8743b' }, PIA: { hair: 'clipBun', color: '#d8504a', lashes: true },
   DAD: { hair: 'stache', color: '#b8b4b0', glasses: true }, INTERN: { hair: 'lanyard', color: '#1f8a8a' }, KID: { hair: 'bun', lashes: true }, SAMI: { hair: 'cap', color: '#3a6ea5' }, OMAR: {}, PIP: { hair: 'bun', lashes: true }, CLEANER: { hair: 'beanie', color: '#3a6ea5' }, GUS: { hair: 'stache' }, INES: { hair: 'curly', lashes: true }, RAJ: {}, TIA: { hair: 'clipBun', color: '#3fb950', lashes: true }, LEO: {}, DAVE: { glasses: true }, NADIA: { hair: 'bunTop', lashes: true }, ROSA: { hair: 'bun', lashes: true }, JO: { hair: 'cap', color: '#3a6ea5' }, SAM: { hair: 'curly', lashes: true }, WALT: { hair: 'flatcap', color: '#6a6a74' }, ZOE: { hair: 'bunTop', lashes: true }, ELI: {}, JAY: { hair: 'curly' }, GRANDPA: { hair: 'flatcap', color: '#5a4a3a', glasses: true }, NEW: { hair: 'lanyard', color: '#e05a9a', lashes: true }, LILA: { hair: 'bunTop', lashes: true }, MA: { hair: 'curly', lashes: true }, BRO: { hair: 'beanie', color: '#e8743b' },
+  DETECTIVE: { hair: 'fedora', color: '#8a7660' }, CHEF: { hair: 'chefhat' }, SCI: { hair: 'goggles' }, PUFFER: { hair: 'beanie', color: '#4a4852' }, TRACK: {}, TEE: {},
   X1: {}, X2: { hair: 'cap', color: '#2a2430' }, X3: { hair: 'curly' }, X4: { hair: 'bun', lashes: true }, X5: { hair: 'beanie', color: '#3a3040' },
 };
 

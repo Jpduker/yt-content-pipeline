@@ -237,7 +237,8 @@ function scene(g, t, info) {
   if (!frozen) { cam.x += Math.sin(t * .7 + (p.seed || 0)) * 3 / cam.z; cam.y += Math.sin(t * .9 + 1) * 2 / cam.z; }
   const dof = p.dof ?? (cam.z >= 1.45 ? Math.min(5, (cam.z - 1.2) * 4) : 0);
   const [thL, thAmt] = frozen ? [null, 0] : thoughtEnv(gt); let S0;
-  const drawSet = g => { S0 = SETS[p.set](g, frozen ? (p.ft ?? 0) : t, cam, { ...(p.so || {}), frozen, counterAt1: p.set === 'cafe' }); };
+  const drawSet = g => { const f0 = g.filter; g.filter = (f0 && f0 !== 'none' ? f0 + ' ' : '') + 'saturate(1.28) brightness(1.06)';   // v3.2: no dull rooms
+    S0 = SETS[p.set](g, frozen ? (p.ft ?? 0) : t, cam, { ...(p.so || {}), frozen, counterAt1: p.set === 'cafe' }); g.filter = f0; };
   if (thAmt > .03 || dof > .5) vblur(g, Math.max(7 * thAmt, dof), drawSet); else drawSet(g);
   const { GY, CX, M } = S0, rim = { color: (S0.MI || M).rim, dir: p.rimDir || [0, -1], w: 4 }, figs = {};
   layer(g, cam, 1, g => {

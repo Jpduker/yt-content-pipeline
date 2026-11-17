@@ -55,22 +55,33 @@
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "Then the group chat starts a war about pineapple on pizza. Six hundred words later, you win. By lunch, you have forty-one. By dinner, fourteen.",
+  "text": "Then the group chat starts a war about pineapple on pizza. Six hundred words later, you win. At work, your boss asks for a quick update.",
   "voice": "am_michael",
   "speed": 1.03,
   "ids": [
    "L008",
    "L009",
-   "L010",
-   "L011"
+   "L010"
   ]
  },
  {
   "id": "G006",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "Quick. Just the headlines.",
+  "voice": "bm_george",
+  "speed": 1.04,
+  "ids": [
+   "L011"
+  ]
+ },
+ {
+  "id": "G007",
   "tag": "N",
   "thought": false,
   "note": "",
-  "text": "And then Theo knocks on your door.",
+  "text": "It is not quick.",
   "voice": "am_michael",
   "speed": 1.03,
   "ids": [
@@ -78,7 +89,57 @@
   ]
  },
  {
-  "id": "G007",
+  "id": "G008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At the caf\u00e9, the barista asks how your weekend was. You tell him. All of it.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L013",
+   "L014"
+  ]
+ },
+ {
+  "id": "G009",
+  "tag": "BARISTA",
+  "thought": false,
+  "note": "",
+  "text": "Cool. Oat milk?",
+  "voice": "am_puck",
+  "speed": 1.06,
+  "ids": [
+   "L015"
+  ]
+ },
+ {
+  "id": "G010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By lunch, you have forty-one. By dinner, fourteen.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L016",
+   "L017"
+  ]
+ },
+ {
+  "id": "G011",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And then Theo knocks on your door.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L018"
+  ]
+ },
+ {
+  "id": "G012",
   "tag": "THEO",
   "thought": false,
   "note": "",
@@ -86,7 +147,214 @@
   "voice": "am_liam",
   "speed": 1.1,
   "ids": [
-   "L013"
+   "L019"
+  ]
+ },
+ {
+  "id": "G013",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Theo has nine hundred and ninety-three words. He saved them all day.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L020"
+  ]
+ },
+ {
+  "id": "G014",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "I quit the football team. I didn't tell Mum. Everyone thinks I'm lazy. I'm not. I just hate being bad at it. Coach said I was the slowest one there. Everyone laughed. So I stopped going. Three weeks ago.",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L021",
+   "L022",
+   "L023",
+   "L024"
+  ]
+ },
+ {
+  "id": "G015",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Three weeks. You didn't notice. You were busy spending words on people you'll never meet. Every sentence you want to say is longer than fourteen words. So you don't say any of them. You nod. Nods are free.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L025",
+   "L026",
+   "L027",
+   "L028",
+   "L029"
+  ]
+ },
+ {
+  "id": "G016",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "You think I'm a quitter.",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L030"
+  ]
+ },
+ {
+  "id": "G017",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You shake your head. Also free.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L031"
+  ]
+ },
+ {
+  "id": "G018",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then your phone buzzes. It's Mum. Is Theo okay? she writes. He's been so quiet. Typing counts. One reply could cost you everything you have left. You can answer her. Or you can answer him.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L032",
+   "L033",
+   "L034",
+   "L035"
+  ]
+ },
+ {
+  "id": "G019",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You turn the phone face down. And you spend six words. Slowly.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L036",
+   "L037"
+  ]
+ },
+ {
+  "id": "G020",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You're not bad. You're just new.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L038"
+  ]
+ },
+ {
+  "id": "G021",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Eight left.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L039"
+  ]
+ },
+ {
+  "id": "G022",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "That's it?",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L040"
+  ]
+ },
+ {
+  "id": "G023",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "That's enough.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L041"
+  ]
+ },
+ {
+  "id": "G024",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Six. You grab a pen. Pictures are free. A tiny football. A tiny Theo. And a giant trophy.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L042",
+   "L043",
+   "L044"
+  ]
+ },
+ {
+  "id": "G025",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "That's not even a real trophy.",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L045"
+  ]
+ },
+ {
+  "id": "G026",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "But he's smiling. He talks until his counter runs out. You listen until midnight. At twelve, your counter clicks back to a thousand.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L046",
+   "L047",
+   "L048"
+  ]
+ },
+ {
+  "id": "G027",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Okay. Now tell me everything.",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L049"
+  ]
+ },
+ {
+  "id": "G028",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "What would you say with fourteen words?",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L050"
   ]
  }
 ]

@@ -34,3 +34,11 @@ R15 The vertical camera frames cats/dogs as subjects, frames lying/tilted figure
 R16 Group opacity: faded figures (`fade`) are composited as one layer (`alphaGroup` in chars.js), so bodies never show through faces.
 R17 Call screen: name + timer at the top of the phone (m:ss). Chest-ring labels and badges stay inside the frame. Contacts rows fade above the caption band in 9:16. `scroll` insert takes `sfrom`, `sub`, `inOnly`.
 R18 story_lib converts every `...At` key (dropAt, liftAt, ...) and from/to from line anchors.
+
+## v3.2 (2026-11-17) — Between the Ifs look (approved by Vivek on KT_Test.mp4)
+- Characters = Vivek's Gemini sheets (`channels/stickman/characters/Gemini_Generated_Image_{cj2b,tvt3,bsv2}*.jfif`): flat MATTE black head (no shading, no gloss), glowing white features only (eyes never use ink lids/cheek circles), chunky clothes with ONE outer outline (no inner lines between sleeve/body/hand), one flat shadow tone, thin stick limbs, ball hands, soft warm edge glow on body+head only (never on legs). Front-on bodies. Wardrobe archetypes in cast.js: hoodie, suit, tshirt+pants, puffer+beanie, track(+shorts), trench+fedora, chef+hat, lab+goggles.
+- Style `ifs` (kit styles.js): no haze, no lift on day shots (`day=True`), sets drawn with saturate(1.28).
+- Kinetic typography (`kt` shot, huashu-art-motion y5): slam · rise · pop(disc) · typed · marker(+key zoom) · bignum · word stagger · fast exits; transitions push · bands · iris(zoom-through) · whip. Mix them by story beat; never all in one video.
+- RULE (Vivek 2026-11-17): never show the same information twice in one frame (e.g. a "1,000" slam and a "1000" counter at the same time). Pick ONE carrier per fact per frame: either the counter badge or the big text.
+- World shots in 9:16: cam z ≤ 1.2 so the whole body and set read; KT pages carry the big text.
+- Sound: every KT move has its SFX (story_lib KSFX).
