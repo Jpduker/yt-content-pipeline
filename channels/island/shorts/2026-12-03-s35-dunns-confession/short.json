@@ -170,5 +170,11 @@
  ],
  "thumb": "a harbour master in a red muffler with his head in his hands at a desk, a locket and an old contract in front of him",
  "thumbText": "HE TOOK THE MONEY",
- "label": "THE KEEPER'S ISLAND · 35"
+ "label": "THE KEEPER'S ISLAND · 35",
+ "next": {
+  "part": 36,
+  "title": "The council sides with Crane",
+  "when": "TONIGHT"
+ },
+ "outro": "log"
 }

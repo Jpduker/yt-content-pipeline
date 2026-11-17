@@ -178,5 +178,11 @@
    "lead": 0.6,
    "tail": 1.0
   }
- ]
+ ],
+ "next": {
+  "part": 7,
+  "title": "The door in the rock",
+  "when": "TOMORROW"
+ },
+ "outro": "lamp"
 }

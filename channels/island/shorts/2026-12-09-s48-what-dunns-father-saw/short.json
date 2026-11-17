@@ -186,5 +186,11 @@
  ],
  "thumb": "a harbour master in a black peaked cap and red muffler holding out an old black diary on a sunny quay, an old keeper in sea-green reading over his shoulder",
  "thumbText": "MY FATHER SAW",
- "label": "THE KEEPER'S ISLAND · 48"
+ "label": "THE KEEPER'S ISLAND · 48",
+ "next": {
+  "part": 49,
+  "title": "The empty wall",
+  "when": "TOMORROW"
+ },
+ "outro": "lamp"
 }

@@ -202,5 +202,11 @@
    "lead": 0.6,
    "tail": 1.0
   }
- ]
+ ],
+ "next": {
+  "part": 4,
+  "title": "Pip saw someone on the rocks",
+  "when": "TONIGHT"
+ },
+ "outro": "lamp"
 }

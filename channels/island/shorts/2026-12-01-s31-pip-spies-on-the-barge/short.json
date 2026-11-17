@@ -168,5 +168,11 @@
  ],
  "thumb": "a white seagull perched on a barge wheelhouse beside an old green-brass foghorn, harbour in daylight",
  "thumbText": "THE SAME HORN",
- "label": "THE KEEPER'S ISLAND · 31"
+ "label": "THE KEEPER'S ISLAND · 31",
+ "next": {
+  "part": 32,
+  "title": "Wren’s drawing from 1926",
+  "when": "TONIGHT"
+ },
+ "outro": "mabel"
 }

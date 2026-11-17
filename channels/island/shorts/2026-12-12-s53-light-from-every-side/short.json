@@ -186,5 +186,11 @@
  ],
  "thumb": "dusk on a headland, villagers placing lanterns in a wide circle around a lighthouse, an old keeper standing in the centre holding his lantern",
  "thumbText": "THE BAIT",
- "label": "THE KEEPER'S ISLAND · 53"
+ "label": "THE KEEPER'S ISLAND · 53",
+ "next": {
+  "part": 54,
+  "title": "Nowhere to fall",
+  "when": "TONIGHT"
+ },
+ "outro": "log"
 }

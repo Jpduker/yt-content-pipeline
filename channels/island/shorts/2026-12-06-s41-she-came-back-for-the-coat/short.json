@@ -190,5 +190,11 @@
  ],
  "thumb": "in a green-lit sea cave, a figure in a yellow hooded coat seen from behind burning a paper in a small lamp flame, a pale man in a cream suit recoiling",
  "thumbText": "PAID IN FULL",
- "label": "THE KEEPER'S ISLAND · 41"
+ "label": "THE KEEPER'S ISLAND · 41",
+ "next": {
+  "part": 42,
+  "title": "A shadow at dawn",
+  "when": "TONIGHT"
+ },
+ "outro": "log"
 }

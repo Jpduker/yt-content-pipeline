@@ -2,7 +2,7 @@
  "code": "S33",
  "title": "Through the crack by sea",
  "label": "THE KEEPER'S ISLAND \u00b7 33",
- "DUR": 35.162,
+ "DUR": 39.762,
  "shots": [
   {
    "id": "jetty",
@@ -171,7 +171,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 23.21,
-   "b": 35.162,
+   "b": 39.762,
    "vo": [
     {
      "id": "n5",
@@ -193,8 +193,16 @@
  "hook": "There is a second way into the cave. Only a ferry pilot would know it.",
  "hookEnd": 2.3,
  "ask": "Fresh fin-prints, after the stranger was gone. Who else swims into that cave?",
- "askAt": 31.962,
+ "askAt": 31.762,
  "music": {
   "mood": "tense"
+ },
+ "tags": true,
+ "outroAt": 34.962,
+ "outro": "lamp",
+ "next": {
+  "part": 34,
+  "title": "The contract in the sand",
+  "when": "TONIGHT"
  }
 }

@@ -1,7 +1,7 @@
 ﻿# The Keeper's Island · render the whole week of Shorts on THIS Windows PC's GPU (GTX 1650), 1080x1920 @ 30 fps.
 # Double-click render-week.bat (weeks 1-3) or render-weekN.bat (one later week). Or: powershell -ExecutionPolicy Bypass -File render-week.ps1 -From yyyy-mm-dd -To yyyy-mm-dd. Leave the window open; it logs to render-week.log.
 # Already-finished Shorts (final\*.mp4 newer than timeline.json) are skipped, so you can stop and re-run any time.
-param([string]$Size = "1080x1920", [int]$Fps = 30, [int]$Workers = 2, [string]$SS = "1", [string]$Only = "", [string]$From = "", [string]$To = "", [switch]$Force)
+param([string]$Size = "1080x1920", [int]$Fps = 30, [int]$Workers = 2, [string]$SS = "1", [string]$Only = "", [string]$From = "", [string]$To = "", [switch]$Force, [switch]$NoWait)
 $ErrorActionPreference = "Continue"   # node/ffmpeg write progress to stderr; "Stop" would abort on it
 $Shorts = $PSScriptRoot
 $Root = (Resolve-Path "$Shorts\..\..\..").Path
@@ -49,4 +49,4 @@ foreach ($d in $dirs) {
   $fails = 0; if (Test-Path $final) { Say "$Name OK in $mins min -> final\$Name.mp4" } else { Say "$Name MUX-FAIL" }
 }
 Say "ALL DONE"
-Read-Host "Finished. Press Enter to close"
+if (-not $NoWait) { Read-Host "Finished. Press Enter to close" }

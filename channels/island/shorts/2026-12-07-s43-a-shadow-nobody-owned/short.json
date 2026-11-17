@@ -200,5 +200,11 @@
  ],
  "thumb": "noon on a small stone quay, a tall pitch-black silhouette of a man in a bowler hat standing upright on its own with a faint pale smile, villagers not noticing, an old keeper in a sea-green coat staring",
  "thumbText": "NO OWNER",
- "label": "THE KEEPER'S ISLAND · 43"
+ "label": "THE KEEPER'S ISLAND · 43",
+ "next": {
+  "part": 44,
+  "title": "The end of Wren’s story",
+  "when": "TONIGHT"
+ },
+ "outro": "mabel"
 }

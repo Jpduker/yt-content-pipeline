@@ -2,7 +2,7 @@
  "code": "S39",
  "title": "The plan",
  "label": "THE KEEPER'S ISLAND \u00b7 39",
- "DUR": 42.258,
+ "DUR": 46.858,
  "shots": [
   {
    "id": "board",
@@ -213,7 +213,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 31.471,
-   "b": 42.258,
+   "b": 46.858,
    "vo": [
     {
      "id": "n5",
@@ -235,8 +235,16 @@
  "hook": "Two lights wreck a ship. Two lights can also bring one home.",
  "hookEnd": 2.3,
  "ask": "Would you trust a lamp you didn\u2019t light yourself?",
- "askAt": 38.658,
+ "askAt": 38.458,
  "music": {
   "mood": "day"
+ },
+ "tags": true,
+ "outroAt": 42.058,
+ "outro": "lamp",
+ "next": {
+  "part": 40,
+  "title": "Twelve seconds and no lamp",
+  "when": "TONIGHT"
  }
 }

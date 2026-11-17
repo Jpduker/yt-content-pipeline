@@ -178,5 +178,11 @@
  ],
  "thumb": "a grey cat sitting on an open ledger in a ship wheelhouse at night, three ship names crossed out, the fourth not",
  "thumbText": "THE FOURTH NAME",
- "label": "THE KEEPER'S ISLAND · 37"
+ "label": "THE KEEPER'S ISLAND · 37",
+ "next": {
+  "part": 38,
+  "title": "The stolen key",
+  "when": "TONIGHT"
+ },
+ "outro": "mabel"
 }

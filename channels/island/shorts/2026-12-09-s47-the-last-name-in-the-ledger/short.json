@@ -192,5 +192,11 @@
  ],
  "thumb": "an old leather ledger open on a garden table in daylight, an old woman pointing at the last entry dated 1926, an old keeper with his hand over his mouth",
  "thumbText": "1926",
- "label": "THE KEEPER'S ISLAND · 47"
+ "label": "THE KEEPER'S ISLAND · 47",
+ "next": {
+  "part": 48,
+  "title": "What Dunn’s father saw",
+  "when": "TONIGHT"
+ },
+ "outro": "log"
 }

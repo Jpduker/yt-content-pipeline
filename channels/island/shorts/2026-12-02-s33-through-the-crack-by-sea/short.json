@@ -177,5 +177,11 @@
  ],
  "thumb": "a small rowing boat slipping through a narrow crack in a sea cliff into a glowing green cave, a ferry pilot in an orange knit cap at the oars",
  "thumbText": "THE SECRET WAY IN",
- "label": "THE KEEPER'S ISLAND · 33"
+ "label": "THE KEEPER'S ISLAND · 33",
+ "next": {
+  "part": 34,
+  "title": "The contract in the sand",
+  "when": "TONIGHT"
+ },
+ "outro": "lamp"
 }

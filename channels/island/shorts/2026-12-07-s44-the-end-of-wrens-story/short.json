@@ -195,5 +195,11 @@
  ],
  "thumb": "an old woman in a violet shawl and round spectacles blowing out a candle in a cosy post office at dusk, an old keeper leaning in to listen",
  "thumbText": "SAY THE NAME",
- "label": "THE KEEPER'S ISLAND · 44"
+ "label": "THE KEEPER'S ISLAND · 44",
+ "next": {
+  "part": 45,
+  "title": "The lights went out one by one",
+  "when": "TOMORROW"
+ },
+ "outro": "log"
 }

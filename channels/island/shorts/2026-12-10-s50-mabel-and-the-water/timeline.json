@@ -2,7 +2,7 @@
  "code": "S50",
  "title": "Mabel and the water",
  "label": "THE KEEPER'S ISLAND \u00b7 50",
- "DUR": 41.932,
+ "DUR": 46.532,
  "shots": [
   {
    "id": "pool",
@@ -195,7 +195,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 24.689,
-   "b": 41.932,
+   "b": 46.532,
    "vo": [
     {
      "id": "n5",
@@ -217,8 +217,16 @@
  "hook": "Mabel has never touched sea water. Today she jumped in.",
  "hookEnd": 2.3,
  "ask": "It wanted the lantern, not Gus. What does a shadow want with light?",
- "askAt": 38.332,
+ "askAt": 38.132,
  "music": {
   "mood": "dread"
+ },
+ "tags": true,
+ "outroAt": 41.732,
+ "outro": "log",
+ "next": {
+  "part": 51,
+  "title": "One shadow too many",
+  "when": "TOMORROW"
  }
 }

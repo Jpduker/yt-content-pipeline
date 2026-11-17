@@ -2,7 +2,7 @@
  "code": "S18",
  "title": "The wreckers\u2019 light",
  "label": "THE KEEPER'S ISLAND \u00b7 18",
- "DUR": 33.249,
+ "DUR": 37.849,
  "shots": [
   {
    "id": "post",
@@ -166,7 +166,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 20.082,
-   "b": 33.249,
+   "b": 37.849,
    "vo": [
     {
      "id": "n2",
@@ -188,8 +188,16 @@
  "hook": "A hundred years ago, this island lived on shipwrecks.",
  "hookEnd": 2.3,
  "ask": "Whose name would you expect in a wrecker\u2019s ledger?",
- "askAt": 30.049,
+ "askAt": 29.849,
  "music": {
   "mood": "dusk"
+ },
+ "tags": true,
+ "outroAt": 33.049,
+ "outro": "lamp",
+ "next": {
+  "part": 19,
+  "title": "Waiting in the dark harbour",
+  "when": "TOMORROW"
  }
 }

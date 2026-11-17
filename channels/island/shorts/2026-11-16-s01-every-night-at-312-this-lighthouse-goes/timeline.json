@@ -2,7 +2,7 @@
  "code": "S01",
  "title": "Every night at 3:12, this lighthouse goes dark",
  "label": "THE KEEPER'S ISLAND \u00b7 1",
- "DUR": 34.961,
+ "DUR": 39.561,
  "shots": [
   {
    "id": "map",
@@ -164,7 +164,7 @@
    "lead": 0.8,
    "tail": 1.0,
    "a": 21.216,
-   "b": 34.961,
+   "b": 39.561,
    "vo": [
     {
      "id": "n5",
@@ -186,8 +186,16 @@
  "hook": "Every night at 3:12, the lamp goes dark. For exactly twelve seconds.",
  "hookEnd": 2.3,
  "ask": "Who is turning the lamp off\u2026 if the keeper never leaves it?",
- "askAt": 31.761,
+ "askAt": 31.561,
  "music": {
   "mood": "mystery"
+ },
+ "tags": true,
+ "outroAt": 34.761,
+ "outro": "mabel",
+ "next": {
+  "part": 2,
+  "title": "The boat on the north rocks",
+  "when": "TONIGHT"
  }
 }

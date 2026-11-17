@@ -175,5 +175,11 @@
    "tail": 1.0
   }
  ],
- "label": "THE KEEPER'S ISLAND · 21"
+ "label": "THE KEEPER'S ISLAND · 21",
+ "next": {
+  "part": 22,
+  "title": "Marlo saw two lights",
+  "when": "TONIGHT"
+ },
+ "outro": "lamp"
 }

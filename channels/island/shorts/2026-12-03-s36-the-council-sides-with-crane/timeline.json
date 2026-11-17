@@ -2,7 +2,7 @@
  "code": "S36",
  "title": "The council sides with Crane",
  "label": "THE KEEPER'S ISLAND \u00b7 36",
- "DUR": 36.039,
+ "DUR": 40.639,
  "shots": [
   {
    "id": "quay",
@@ -189,7 +189,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 20.569,
-   "b": 36.039,
+   "b": 40.639,
    "vo": [
     {
      "id": "n3",
@@ -211,8 +211,16 @@
  "hook": "Crane brought a paper to the council. The council loves paper.",
  "hookEnd": 2.3,
  "ask": "Mabel never wanders off. So where is she?",
- "askAt": 32.839,
+ "askAt": 32.639,
  "music": {
   "mood": "dusk"
+ },
+ "tags": true,
+ "outroAt": 35.839,
+ "outro": "lamp",
+ "next": {
+  "part": 37,
+  "title": "Mabel on the barge",
+  "when": "TOMORROW"
  }
 }

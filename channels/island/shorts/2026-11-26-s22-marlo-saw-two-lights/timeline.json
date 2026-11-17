@@ -2,7 +2,7 @@
  "code": "S22",
  "title": "Marlo saw two lights",
  "label": "THE KEEPER'S ISLAND \u00b7 22",
- "DUR": 34.333,
+ "DUR": 38.933,
  "shots": [
   {
    "id": "jetty",
@@ -162,7 +162,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 23.923,
-   "b": 34.333,
+   "b": 38.933,
    "vo": [
     {
      "id": "n2",
@@ -177,8 +177,16 @@
  "hook": "The ferry pilot saw the wreck happen. Nobody asked her.",
  "hookEnd": 2.3,
  "ask": "Which light was lying? The high one, or the low one?",
- "askAt": 31.133,
+ "askAt": 30.933,
  "music": {
   "mood": "dusk"
+ },
+ "tags": true,
+ "outroAt": 34.133,
+ "outro": "mabel",
+ "next": {
+  "part": 23,
+  "title": "Leading lights",
+  "when": "TOMORROW"
  }
 }

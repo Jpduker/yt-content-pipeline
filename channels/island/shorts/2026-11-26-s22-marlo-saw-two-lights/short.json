@@ -165,5 +165,11 @@
    "tail": 1.0
   }
  ],
- "label": "THE KEEPER'S ISLAND · 22"
+ "label": "THE KEEPER'S ISLAND · 22",
+ "next": {
+  "part": 23,
+  "title": "Leading lights",
+  "when": "TOMORROW"
+ },
+ "outro": "mabel"
 }

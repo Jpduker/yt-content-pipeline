@@ -2,7 +2,7 @@
  "code": "S02",
  "title": "The boat on the north rocks",
  "label": "THE KEEPER'S ISLAND \u00b7 2",
- "DUR": 38.602,
+ "DUR": 43.202,
  "shots": [
   {
    "id": "rocks",
@@ -186,7 +186,7 @@
    "lead": 0.8,
    "tail": 1.0,
    "a": 25.716,
-   "b": 38.602,
+   "b": 43.202,
    "vo": [
     {
      "id": "n4",
@@ -208,8 +208,16 @@
  "hook": "By morning, there was a boat on the north rocks.",
  "hookEnd": 2.3,
  "ask": "Three days to prove it wasn\u2019t him. Where would you start?",
- "askAt": 35.402,
+ "askAt": 35.202,
  "music": {
   "mood": "day"
+ },
+ "tags": true,
+ "outroAt": 38.402,
+ "outro": "log",
+ "next": {
+  "part": 3,
+  "title": "The lamp-room clock is twelve seconds slow",
+  "when": "TOMORROW"
  }
 }

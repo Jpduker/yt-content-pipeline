@@ -192,5 +192,11 @@
    "tail": 1.2
   }
  ],
- "label": "THE KEEPER'S ISLAND · 26"
+ "label": "THE KEEPER'S ISLAND · 26",
+ "next": {
+  "part": 27,
+  "title": "The keeper and the stranger",
+  "when": "TOMORROW"
+ },
+ "outro": "log"
 }

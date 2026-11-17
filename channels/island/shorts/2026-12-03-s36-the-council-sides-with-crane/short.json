@@ -199,5 +199,11 @@
  ],
  "thumb": "dusk on a quay, a pale man in a cream suit addressing villagers with a raised paper, an old keeper alone at the edge",
  "thumbText": "OUTVOTED",
- "label": "THE KEEPER'S ISLAND · 36"
+ "label": "THE KEEPER'S ISLAND · 36",
+ "next": {
+  "part": 37,
+  "title": "Mabel on the barge",
+  "when": "TOMORROW"
+ },
+ "outro": "lamp"
 }

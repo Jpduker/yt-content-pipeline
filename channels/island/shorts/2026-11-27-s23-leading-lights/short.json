@@ -150,5 +150,11 @@
    "tail": 1.0
   }
  ],
- "label": "THE KEEPER'S ISLAND · 23"
+ "label": "THE KEEPER'S ISLAND · 23",
+ "next": {
+  "part": 24,
+  "title": "The second key",
+  "when": "TONIGHT"
+ },
+ "outro": "log"
 }

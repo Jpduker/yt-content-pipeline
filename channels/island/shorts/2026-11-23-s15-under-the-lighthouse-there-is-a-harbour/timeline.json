@@ -2,7 +2,7 @@
  "code": "S15",
  "title": "Under the lighthouse there is a harbour",
  "label": "THE KEEPER'S ISLAND \u00b7 15",
- "DUR": 37.74,
+ "DUR": 42.34,
  "shots": [
   {
    "id": "hatch",
@@ -190,7 +190,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 22.442,
-   "b": 37.74,
+   "b": 42.34,
    "vo": [
     {
      "id": "n5",
@@ -212,8 +212,16 @@
  "hook": "Gus walked into the dark. The stairs kept going down.",
  "hookEnd": 2.3,
  "ask": "A harbour no map shows. Who has been sailing in here?",
- "askAt": 34.54,
+ "askAt": 34.34,
  "music": {
   "mood": "dread"
+ },
+ "tags": true,
+ "outroAt": 37.54,
+ "outro": "lamp",
+ "next": {
+  "part": 16,
+  "title": "A second lamp under the first",
+  "when": "TONIGHT"
  }
 }

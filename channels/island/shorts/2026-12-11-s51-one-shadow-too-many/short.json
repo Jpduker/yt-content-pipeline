@@ -185,5 +185,11 @@
  ],
  "thumb": "noon on a green cliff path, an old keeper in a sea-green coat walking with two shadows on the grass, one of them wearing a bowler hat, a seagull staring from above",
  "thumbText": "ONE TOO MANY",
- "label": "THE KEEPER'S ISLAND · 51"
+ "label": "THE KEEPER'S ISLAND · 51",
+ "next": {
+  "part": 52,
+  "title": "She came back to the jetty",
+  "when": "TONIGHT"
+ },
+ "outro": "lamp"
 }

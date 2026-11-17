@@ -179,5 +179,11 @@
  ],
  "thumb": "night on a cliff path, village lights going dark one by one toward a small cottage, an old keeper holding up a lantern, a black silhouette with a faint smile at the edge of the light",
  "thumbText": "IT'S COMING",
- "label": "THE KEEPER'S ISLAND · 45"
+ "label": "THE KEEPER'S ISLAND · 45",
+ "next": {
+  "part": 46,
+  "title": "A ring of lanterns",
+  "when": "TONIGHT"
+ },
+ "outro": "lamp"
 }

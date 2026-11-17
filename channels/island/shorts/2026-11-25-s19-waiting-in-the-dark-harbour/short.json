@@ -186,5 +186,11 @@
    "tail": 1.0
   }
  ],
- "label": "THE KEEPER'S ISLAND · 19"
+ "label": "THE KEEPER'S ISLAND · 19",
+ "next": {
+  "part": 20,
+  "title": "Rollo sneezes",
+  "when": "TONIGHT"
+ },
+ "outro": "mabel"
 }

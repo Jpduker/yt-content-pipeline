@@ -2,7 +2,7 @@
  "code": "S20",
  "title": "Rollo sneezes",
  "label": "THE KEEPER'S ISLAND \u00b7 20",
- "DUR": 45.817,
+ "DUR": 50.417,
  "shots": [
   {
    "id": "wait",
@@ -181,7 +181,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 25.178,
-   "b": 45.817,
+   "b": 50.417,
    "vo": [
     {
      "id": "n5",
@@ -210,8 +210,16 @@
  "hook": "Twelve seconds of silence. Rollo lasted nine.",
  "hookEnd": 2.3,
  "ask": "A locket with Gus\u2019s face\u2026 as a baby. Who keeps that?",
- "askAt": 42.617,
+ "askAt": 42.417,
  "music": {
   "mood": "tense"
+ },
+ "tags": true,
+ "outroAt": 45.617,
+ "outro": "log",
+ "next": {
+  "part": 21,
+  "title": "The boat that belonged to nobody",
+  "when": "TOMORROW"
  }
 }

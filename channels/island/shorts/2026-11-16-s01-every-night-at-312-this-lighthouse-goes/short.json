@@ -170,5 +170,11 @@
    "lead": 0.8,
    "tail": 1.0
   }
- ]
+ ],
+ "next": {
+  "part": 2,
+  "title": "The boat on the north rocks",
+  "when": "TONIGHT"
+ },
+ "outro": "mabel"
 }

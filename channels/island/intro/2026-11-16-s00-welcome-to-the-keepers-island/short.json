@@ -231,5 +231,11 @@
  ],
  "thumb": "a tiny island at night seen from above, a white lighthouse beam sweeping, a village, a harbour, a keeper with a lantern and a grey cat at the lighthouse door",
  "thumbText": "MEET THE ISLAND",
- "label": "THE KEEPER'S ISLAND"
+ "label": "THE KEEPER'S ISLAND",
+ "next": {
+  "part": 1,
+  "title": "Every night at 3:12, this lighthouse goes dark",
+  "when": "TONIGHT"
+ },
+ "outro": "lamp"
 }

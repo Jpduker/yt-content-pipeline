@@ -2,7 +2,7 @@
  "code": "S54",
  "title": "Nowhere to fall",
  "label": "THE KEEPER'S ISLAND \u00b7 54",
- "DUR": 41.034,
+ "DUR": 45.634,
  "shots": [
   {
    "id": "island",
@@ -183,7 +183,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 26.932,
-   "b": 41.034,
+   "b": 45.634,
    "vo": [
     {
      "id": "n5",
@@ -205,8 +205,16 @@
  "hook": "Three twelve. The old hour. Every light on the island was already burning.",
  "hookEnd": 2.3,
  "ask": "A shadow with nowhere to fall. What happens to it?",
- "askAt": 37.834,
+ "askAt": 37.634,
  "music": {
   "mood": "dread"
+ },
+ "tags": true,
+ "outroAt": 40.834,
+ "outro": "lamp",
+ "next": {
+  "part": 55,
+  "title": "The keeper\u2019s cap",
+  "when": "TOMORROW"
  }
 }

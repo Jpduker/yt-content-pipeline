@@ -2,7 +2,7 @@
  "code": "S06",
  "title": "Three cables, one cut",
  "label": "THE KEEPER'S ISLAND \u00b7 6",
- "DUR": 39.085,
+ "DUR": 43.685,
  "shots": [
   {
    "id": "tower",
@@ -177,7 +177,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 26.817,
-   "b": 39.085,
+   "b": 43.685,
    "vo": [
     {
      "id": "n5",
@@ -192,8 +192,16 @@
  "hook": "Three cables. One cut. The cut one was dry.",
  "hookEnd": 2.3,
  "ask": "Which way did the cutter leave? Stairs, or window?",
- "askAt": 35.485,
+ "askAt": 35.285,
  "music": {
   "mood": "tense"
+ },
+ "tags": true,
+ "outroAt": 38.885,
+ "outro": "lamp",
+ "next": {
+  "part": 7,
+  "title": "The door in the rock",
+  "when": "TOMORROW"
  }
 }

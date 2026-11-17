@@ -190,5 +190,11 @@
  ],
  "thumb": "a lighthouse at night surrounded by a ring of lanterns, a black smiling silhouette trapped in the circle of light facing an old keeper",
  "thumbText": "3:12",
- "label": "THE KEEPER'S ISLAND · 54"
+ "label": "THE KEEPER'S ISLAND · 54",
+ "next": {
+  "part": 55,
+  "title": "The keeper’s cap",
+  "when": "TOMORROW"
+ },
+ "outro": "lamp"
 }

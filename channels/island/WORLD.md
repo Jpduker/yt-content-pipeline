@@ -57,6 +57,7 @@ QA rules: a named clue/character must be visible in its shot; on the rocks, stan
 ## 6. Episode index
 | Week | Chapter | Shorts | Long-form |
 |---|---|---|---|
+| 16 Nov | 0 · Welcome (intro) | S00 (0:38) | CH00 (2:38): places + cast, spoiler-free; channel trailer |
 | 16–22 Nov | 1 · Twelve Seconds of Dark | S01–S14 | CH01 (9:17) |
 | 23–29 Nov | 2 · The Tunnel | S15–S28 | CH02 (9:38) |
 | 30 Nov–6 Dec | 3 · The Fourth Ship | S29–S42 | CH03 (8:57) |
@@ -66,3 +67,4 @@ QA rules: a named clue/character must be visible in its shot; on the rocks, stan
 - 2026-11-15: narration speed 1.0 not .84 ("sleepy"); Mabel sunk in floor → fixed; wants day scenes, more characters over time, cinematic angles.
 - 2026-11-16 QA of week 1: yellow coat hidden behind the wreck (S04, S11), named clues not visible (S03 prints, S05 second lantern, S06 cables, S10 tunnel), blown windows at dusk/dawn, near-black night dives, 3 nights at the same hatch framing. Fixed in engine + rules (QA-2026-11-16-week1.md).
 - 2026-11-16 (Vivek): fix the foundation before upload — all week-1/2/3 QA fixes re-applied and the three weeks re-rendered; week 4 built as the workflow test (kept on separate render-week4.bat). Still waiting for Vivek's watch feedback (favourite characters, twists, boredom points).
+- 2026-11-16 (Vivek, after S01–S03): "who's Mabel?" — viewers need the world and cast introduced → intro S00 + CH00 (welcome film, channel trailer), and automatic name tags ("MABEL · his cat · the real detective") the first time anyone appears in every video from now on.

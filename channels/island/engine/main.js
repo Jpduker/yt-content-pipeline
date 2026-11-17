@@ -3,6 +3,7 @@ import * as THREE from 'three';
 import { makePost } from '/styles/hd-2d/demo/post_ts.js';
 import { buildWorld } from './world.js';
 import { drawOverlay, overlayReady } from './ui.js';
+import { makeMabel } from './cast.js'; window.__makeMabel = makeMabel;
 
 const W = innerWidth || 1080, H = innerHeight || 1920, Q = new URLSearchParams(location.search), aspect = W / H;
 const ov = document.getElementById('ov'); ov.width = W; ov.height = H;

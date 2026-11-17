@@ -194,5 +194,11 @@
    "tail": 1.0
   }
  ],
- "label": "THE KEEPER'S ISLAND · 15"
+ "label": "THE KEEPER'S ISLAND · 15",
+ "next": {
+  "part": 16,
+  "title": "A second lamp under the first",
+  "when": "TONIGHT"
+ },
+ "outro": "lamp"
 }

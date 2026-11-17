@@ -2,7 +2,7 @@
  "code": "S35",
  "title": "Dunn\u2019s confession",
  "label": "THE KEEPER'S ISLAND \u00b7 35",
- "DUR": 38.411,
+ "DUR": 43.011,
  "shots": [
   {
    "id": "office",
@@ -160,7 +160,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 23.135,
-   "b": 38.411,
+   "b": 43.011,
    "vo": [
     {
      "id": "n2",
@@ -182,8 +182,16 @@
  "hook": "Dunn hid the boat\u2019s name for a reason. Today he told it.",
  "hookEnd": 2.3,
  "ask": "Which ship is the fourth? Look at who is sailing this weekend.",
- "askAt": 35.211,
+ "askAt": 35.011,
  "music": {
   "mood": "mystery"
+ },
+ "tags": true,
+ "outroAt": 38.211,
+ "outro": "log",
+ "next": {
+  "part": 36,
+  "title": "The council sides with Crane",
+  "when": "TONIGHT"
  }
 }

@@ -2,7 +2,7 @@
  "code": "S32",
  "title": "Wren\u2019s drawing from 1926",
  "label": "THE KEEPER'S ISLAND \u00b7 32",
- "DUR": 33.761,
+ "DUR": 38.361,
  "shots": [
   {
    "id": "post",
@@ -166,7 +166,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 21.069,
-   "b": 33.761,
+   "b": 38.361,
    "vo": [
     {
      "id": "n2",
@@ -188,8 +188,16 @@
  "hook": "Wren keeps a drawing of the man who bought a shadow. It is a hundred years old.",
  "hookEnd": 2.3,
  "ask": "Same suit, same face, a hundred years apart. What is Silas Crane?",
- "askAt": 30.561,
+ "askAt": 30.361,
  "music": {
   "mood": "dusk"
+ },
+ "tags": true,
+ "outroAt": 33.561,
+ "outro": "log",
+ "next": {
+  "part": 33,
+  "title": "Through the crack by sea",
+  "when": "TOMORROW"
  }
 }

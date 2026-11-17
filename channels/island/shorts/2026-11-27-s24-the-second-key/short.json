@@ -170,5 +170,11 @@
    "tail": 1.0
   }
  ],
- "label": "THE KEEPER'S ISLAND · 24"
+ "label": "THE KEEPER'S ISLAND · 24",
+ "next": {
+  "part": 25,
+  "title": "Wren’s promise",
+  "when": "TOMORROW"
+ },
+ "outro": "lamp"
 }

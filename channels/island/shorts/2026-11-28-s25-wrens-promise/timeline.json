@@ -2,7 +2,7 @@
  "code": "S25",
  "title": "Wren\u2019s promise",
  "label": "THE KEEPER'S ISLAND \u00b7 25",
- "DUR": 35.94,
+ "DUR": 40.54,
  "shots": [
   {
    "id": "garden",
@@ -170,7 +170,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 21.304,
-   "b": 35.94,
+   "b": 40.54,
    "vo": [
     {
      "id": "n2",
@@ -192,8 +192,16 @@
  "hook": "Wren kept one secret for sixty years. Today she broke her promise.",
  "hookEnd": 2.3,
  "ask": "If your mother were alive, and lighting false lamps\u2026 what would you do?",
- "askAt": 32.14,
+ "askAt": 31.94,
  "music": {
   "mood": "dusk"
+ },
+ "tags": true,
+ "outroAt": 35.74,
+ "outro": "mabel",
+ "next": {
+  "part": 26,
+  "title": "A ship in the storm",
+  "when": "TONIGHT"
  }
 }

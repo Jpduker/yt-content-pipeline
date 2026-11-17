@@ -2,7 +2,7 @@
  "code": "S41",
  "title": "She came back for the coat",
  "label": "THE KEEPER'S ISLAND \u00b7 41",
- "DUR": 42.388,
+ "DUR": 46.988,
  "shots": [
   {
    "id": "crane",
@@ -182,7 +182,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 25.921,
-   "b": 42.388,
+   "b": 46.988,
    "vo": [
     {
      "id": "n4",
@@ -204,8 +204,16 @@
  "hook": "Under the island, Crane had his hand on the lamp. Then someone else came out of the sea.",
  "hookEnd": 2.3,
  "ask": "Crane fell into the dark. Why did his shadow stay on the wall?",
- "askAt": 38.788,
+ "askAt": 38.588,
  "music": {
   "mood": "dread"
+ },
+ "tags": true,
+ "outroAt": 42.188,
+ "outro": "log",
+ "next": {
+  "part": 42,
+  "title": "A shadow at dawn",
+  "when": "TONIGHT"
  }
 }

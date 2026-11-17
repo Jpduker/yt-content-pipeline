@@ -174,5 +174,11 @@
    "tail": 1.0
   }
  ],
- "label": "THE KEEPER'S ISLAND · 18"
+ "label": "THE KEEPER'S ISLAND · 18",
+ "next": {
+  "part": 19,
+  "title": "Waiting in the dark harbour",
+  "when": "TOMORROW"
+ },
+ "outro": "lamp"
 }

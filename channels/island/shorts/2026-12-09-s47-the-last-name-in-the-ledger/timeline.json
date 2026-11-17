@@ -2,7 +2,7 @@
  "code": "S47",
  "title": "The last name in the ledger",
  "label": "THE KEEPER'S ISLAND \u00b7 47",
- "DUR": 43.405,
+ "DUR": 48.005,
  "shots": [
   {
    "id": "garden",
@@ -177,7 +177,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 25.057,
-   "b": 43.405,
+   "b": 48.005,
    "vo": [
     {
      "id": "n3",
@@ -206,8 +206,16 @@
  "hook": "In daylight, Wren said the name. Gus had to sit down.",
  "hookEnd": 2.3,
  "ask": "If a shadow comes home to the family, who is left in the family but Gus?",
- "askAt": 39.605,
+ "askAt": 39.405,
  "music": {
   "mood": "day"
+ },
+ "tags": true,
+ "outroAt": 43.205,
+ "outro": "log",
+ "next": {
+  "part": 48,
+  "title": "What Dunn\u2019s father saw",
+  "when": "TONIGHT"
  }
 }

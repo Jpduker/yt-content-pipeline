@@ -174,5 +174,11 @@
  ],
  "thumb": "a broken cottage window at night, a drawer pulled out, an empty velvet slot where a brass key lay",
  "thumbText": "THE KEY IS GONE",
- "label": "THE KEEPER'S ISLAND · 38"
+ "label": "THE KEEPER'S ISLAND · 38",
+ "next": {
+  "part": 39,
+  "title": "The plan",
+  "when": "TOMORROW"
+ },
+ "outro": "log"
 }

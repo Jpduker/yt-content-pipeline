@@ -2,7 +2,7 @@
  "code": "S00",
  "title": "Welcome to the Keeper\u2019s Island",
  "label": "THE KEEPER'S ISLAND",
- "DUR": 38.332,
+ "DUR": 42.932,
  "shots": [
   {
    "id": "map",
@@ -229,7 +229,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 29.529,
-   "b": 38.332,
+   "b": 42.932,
    "vo": [
     {
      "id": "n5",
@@ -244,9 +244,16 @@
  "hook": "One island. One lamp. And the people who live in its light.",
  "hookEnd": 2.3,
  "ask": "Starting tonight: who is the woman in the yellow coat?",
- "askAt": 34.732,
+ "askAt": 34.532,
  "music": {
   "mood": "mystery"
  },
- "tags": true
+ "tags": true,
+ "outroAt": 38.132,
+ "outro": "lamp",
+ "next": {
+  "part": 1,
+  "title": "Every night at 3:12, this lighthouse goes dark",
+  "when": "TONIGHT"
+ }
 }

@@ -191,5 +191,11 @@
    "tail": 1.0
   }
  ],
- "label": "THE KEEPER'S ISLAND · 20"
+ "label": "THE KEEPER'S ISLAND · 20",
+ "next": {
+  "part": 21,
+  "title": "The boat that belonged to nobody",
+  "when": "TOMORROW"
+ },
+ "outro": "log"
 }

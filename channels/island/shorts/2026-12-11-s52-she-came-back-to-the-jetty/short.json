@@ -191,5 +191,11 @@
  ],
  "thumb": "midnight at the end of a wooden jetty, a woman in a yellow hooded coat seen from behind facing the black sea, an old keeper with a lantern behind her",
  "thumbText": "NOWHERE TO FALL",
- "label": "THE KEEPER'S ISLAND · 52"
+ "label": "THE KEEPER'S ISLAND · 52",
+ "next": {
+  "part": 53,
+  "title": "Light from every side",
+  "when": "TOMORROW"
+ },
+ "outro": "mabel"
 }

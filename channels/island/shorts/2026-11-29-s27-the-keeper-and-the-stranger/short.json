@@ -187,5 +187,11 @@
    "tail": 1.2
   }
  ],
- "label": "THE KEEPER'S ISLAND · 27"
+ "label": "THE KEEPER'S ISLAND · 27",
+ "next": {
+  "part": 28,
+  "title": "The coat on the rocks",
+  "when": "TONIGHT"
+ },
+ "outro": "lamp"
 }

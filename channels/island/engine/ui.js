@@ -124,12 +124,84 @@ function titleShot(t, s) {
   g.globalAlpha = ss(seg(lt, 1.6, 2.4)) * out; g.font = 'italic 500 50px "Cormorant Garamond"'; g.fillStyle = '#f3ead6'; g.fillText(T.tag, W / 2, H / 2 + 70);
   g.globalAlpha = ss(seg(lt, 2.6, 3.4)) * out * .7; g.font = '500 24px "Cormorant Garamond"'; g.fillStyle = '#cfc6b2'; g.fillText(T.credit || '', W / 2, H - 70);
   g.restore();
+  if (T.buttons !== false) { g.save(); g.globalAlpha = ss(seg(lt, 2.4, 2.9)) * out; buttons(t, s.a, H / 2 + (portrait ? 250 : 200), [3.0, 3.35, 3.7], null); g.restore(); }   // like · subscribe · bell on every end title
 }
 function blackout(t) {
   let a = 0;
   for (const s of TL.shots.slice(1)) { const c = s.a; if (t < c && t > c - .3) a = Math.max(a, ss((t - (c - .3)) / .3)); if (t >= c && t < c + .45) a = Math.max(a, 1 - ss((t - c) / .45)); }
   a = Math.max(a, ss(seg(t, TL.DUR - .7, TL.DUR - .05)), 1 - ss(seg(t, 0, .5)));
   if (a > 0) { g.fillStyle = `rgba(0,0,0,${a})`; g.fillRect(0, 0, W, H); }
+}
+// —— OUTRO (Shorts): after the question, the music resolves and the episode closes with "next part" + like / subscribe / bell.
+// Styles: 'lamp' (the lighthouse beam sweeps the frame and lights the buttons), 'mabel' (Mabel walks in and paws Subscribe), 'log' (the keeper's logbook + a red ink stamp).
+// Hit times (seconds after outroAt) must match OUTRO_HITS in tools/mix.py.
+const ICON = {
+  thumb: ['....##....', '...###....', '...###....', '..####....', '#########.', '##########', '#########.', '##########', '#########.', '########..'],
+  bell: ['....##....', '...####...', '..######..', '..######..', '..######..', '.########.', '.########.', '##########', '..........', '....##....'],
+};
+function pix(rows, x, y, k, col, a = 1) { g.save(); g.globalAlpha *= a; g.fillStyle = col; rows.forEach((r, j) => { for (let i = 0; i < r.length; i++) if (r[i] === '#') g.fillRect(x + i * k, y + j * k, k, k); }); g.restore(); }
+function pill(x, y, w, h, col, text, tcol, a = 1, sc = 1) {
+  g.save(); g.globalAlpha *= a; g.translate(x + w / 2, y + h / 2); g.scale(sc, sc); g.translate(-w / 2, -h / 2);
+  const r = h / 2; g.beginPath(); g.moveTo(r, 0); g.arcTo(w, 0, w, h, r); g.arcTo(w, h, 0, h, r); g.arcTo(0, h, 0, 0, r); g.arcTo(0, 0, w, 0, r); g.closePath();
+  g.fillStyle = col; g.shadowColor = 'rgba(0,0,0,.6)'; g.shadowBlur = 14; g.fill(); g.shadowBlur = 0;
+  g.font = `700 ${Math.round(h * .42)}px Cinzel`; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillStyle = tcol; g.fillText(text, w / 2, h / 2 + 2); g.restore();
+}
+const pop = (t, at) => { const u = clamp((t - at) / .35); return u <= 0 ? 0 : 1 + .22 * Math.sin(u * Math.PI) * (1 - u * .4); };
+function buttons(t, o, cy, hits, pressed) {   // thumb · SUBSCRIBE · bell, each lights at its hit time
+  const k = portrait ? 9 : 8, bw = portrait ? 400 : 380, bh = portrait ? 104 : 92, gap = portrait ? 46 : 44, iw = 10 * k;
+  const total = iw + gap + bw + gap + iw, x0 = W / 2 - total / 2;
+  const on = i => clamp((t - (o + hits[i])) / .25), col = i => on(i) > 0 ? '#ffe7a6' : 'rgba(243,234,214,.55)';
+  const p0 = pop(t, o + hits[0]) || 1, p2 = pop(t, o + hits[2]) || 1;
+  g.save(); g.translate(x0 + iw / 2, cy); g.scale(p0, p0); pix(ICON.thumb, -iw / 2, -iw / 2, k, col(0)); g.restore();
+  const sub = on(1) > 0 && pressed !== false ? (pressed === true ? ['#5a5a5a', 'SUBSCRIBED ✓'] : ['#d8352a', 'SUBSCRIBE']) : ['rgba(216,53,42,.55)', 'SUBSCRIBE'];
+  pill(x0 + iw + gap, cy - bh / 2, bw, bh, sub[0], sub[1], '#fff8ec', 1, pop(t, o + hits[1]) || 1);
+  const wob = on(2) > 0 ? Math.sin((t - o - hits[2]) * 22) * Math.exp(-(t - o - hits[2]) * 3) * .35 : 0;
+  g.save(); g.translate(x0 + iw + gap + bw + gap + iw / 2, cy - iw / 2); g.rotate(wob); g.scale(p2, p2); pix(ICON.bell, -iw / 2, 0, k, col(2)); g.restore();
+}
+function nextLine(t, o, cy, a) {
+  const n = TL.next; if (!n) return;
+  g.save(); g.globalAlpha = a; g.textAlign = 'center'; g.shadowColor = 'rgba(0,0,0,.85)'; g.shadowBlur = 12;
+  g.font = `600 ${portrait ? 36 : 30}px Cinzel`; g.fillStyle = '#e8cf8f'; g.fillText(`NEXT · PART ${n.part} · ${n.when}`, W / 2, cy);
+  let fs = portrait ? 54 : 46; g.font = `italic 500 ${fs}px "Cormorant Garamond"`; while (g.measureText(n.title).width > W * .86 && fs > 30) { fs -= 2; g.font = `italic 500 ${fs}px "Cormorant Garamond"`; }
+  g.fillStyle = '#fff8ec'; g.fillText(n.title, W / 2, cy + (portrait ? 64 : 54)); g.restore();
+}
+let MAB = null;
+function mabelSprite() { if (MAB) return MAB; try { MAB = window.__makeMabel ? window.__makeMabel().atlas : null; } catch (e) { MAB = null; } return MAB; }
+function outro(t) {
+  const o = TL.outroAt; if (o == null || t < o) return; const st = TL.outro || 'lamp', u = t - o, fade = 1 - ss(seg(t, TL.DUR - .7, TL.DUR - .1));
+  const veil = ss(seg(u, 0, .8)) * .55; g.fillStyle = `rgba(4,6,14,${veil})`; g.fillRect(0, 0, W, H);
+  const cy = portrait ? H * .64 : H * .70;
+  if (st === 'lamp') {
+    const p = clamp((u - .2) / 1.7), bx = -W * .5 + p * W * 2.0;   // the lighthouse beam: a warm diagonal band sweeping left -> right
+    if (p > 0 && p < 1) { g.save(); g.globalCompositeOperation = 'lighter'; const gr = g.createLinearGradient(bx - 260, 0, bx + 260, 0); gr.addColorStop(0, 'rgba(255,214,140,0)'); gr.addColorStop(.5, `rgba(255,214,140,${.42 * Math.sin(p * Math.PI)})`); gr.addColorStop(1, 'rgba(255,214,140,0)');
+      g.translate(bx, H / 2); g.rotate(-.18); g.translate(-bx, -H / 2); g.fillStyle = gr; g.fillRect(bx - 260, -H, 520, H * 3); g.restore(); }
+    nextLine(t, o, cy - (portrait ? 190 : 150), ss(seg(u, .5, 1.0)) * fade);
+    g.save(); g.globalAlpha = fade * ss(seg(u, .7, 1.0)); buttons(t, o, cy, [1.0, 1.35, 1.7], null); g.restore();
+  } else if (st === 'mabel') {
+    nextLine(t, o, cy - (portrait ? 290 : 230), ss(seg(u, .3, .8)) * fade);   // higher: Mabel sits on the button
+    g.save(); g.globalAlpha = fade * ss(seg(u, .2, .6)); buttons(t, o, cy, [99, 2.5, 2.95], u > 2.5 ? true : null); g.restore();
+    const A = mabelSprite(); if (A) {   // Mabel walks in from the right, sits by the button, paws it at 2.5 s
+      const k = portrait ? 9 : 8, FW = 20, FH = 14, sx = W / 2 + (portrait ? 20 : 10), walkIn = ss(clamp((u - .3) / 1.6)), x = W + 40 - (W + 40 - sx) * walkIn;
+      const tap = u > 2.2 && u < 2.7 ? Math.sin((u - 2.2) / .5 * Math.PI) : 0;
+      const fr = walkIn < 1 ? ['w0', 'w1', 'w2', 'w3'][Math.floor(u * 11) % 4] : (u > 3.6 && u < 3.75 ? 'sitBlink' : 'sit0'), i = A.names.indexOf(fr);
+      g.save(); g.globalAlpha = fade; g.imageSmoothingEnabled = false; g.translate(x - tap * 30, cy - (portrait ? 52 : 46) - FH * k + 10 + tap * 14); g.scale(-1, 1);
+      g.drawImage(A.canvas, i * FW, 0, FW, FH, -FW * k, 0, FW * k, FH * k); g.restore(); }
+  } else if (st === 'log') {   // the keeper's logbook page slides up; the next entry writes itself; a red ink SUBSCRIBE stamp lands
+    const up = ss(seg(u, .1, .7)), pw = portrait ? 860 : 900, ph = portrait ? 520 : 400, px = W / 2 - pw / 2, py = cy - ph / 2 - (portrait ? 110 : 70) + (1 - up) * 120;
+    g.save(); g.globalAlpha = fade * up; g.translate(px + pw / 2, py + ph / 2); g.rotate(-.02); g.translate(-pw / 2, -ph / 2);
+    g.fillStyle = '#e9dcbc'; g.shadowColor = 'rgba(0,0,0,.6)'; g.shadowBlur = 30; g.fillRect(0, 0, pw, ph); g.shadowBlur = 0;
+    g.strokeStyle = 'rgba(120,90,50,.25)'; g.lineWidth = 2; for (let y = 120; y < ph - 30; y += 58) { g.beginPath(); g.moveTo(40, y); g.lineTo(pw - 40, y); g.stroke(); }
+    g.fillStyle = '#7a2e22'; g.font = `600 ${portrait ? 34 : 30}px Cinzel`; g.textAlign = 'left'; g.fillText("KEEPER'S LOG", 44, 70);
+    const n = TL.next || { part: '?', title: '', when: '' }, line1 = `Next entry: Part ${n.part}, ${n.when.toLowerCase()}.`, line2 = n.title;
+    const w = clamp((u - .7) / 1.2); let lf = portrait ? 46 : 40; g.font = `italic 500 ${lf}px "Cormorant Garamond"`; while (Math.max(g.measureText(line1).width, g.measureText(line2).width) > pw - 88 && lf > 28) { lf -= 2; g.font = `italic 500 ${lf}px "Cormorant Garamond"`; } g.fillStyle = '#2a2018';
+    g.fillText(line1.slice(0, Math.round(line1.length * clamp(w * 1.6))), 44, 150); g.fillText(line2.slice(0, Math.round(line2.length * clamp(w * 1.6 - .6))), 44, 210);
+    g.restore();
+    const sa = clamp((u - 2.25) / .18), sc = sa > 0 ? 1.7 - .7 * ss(sa) : 0;
+    if (sa > 0) { g.save(); g.globalAlpha = fade * .92; g.translate(W / 2 + (portrait ? 120 : 220), py + ph - (portrait ? 110 : 90)); g.rotate(-.14); g.scale(sc, sc);
+      g.strokeStyle = '#c0281e'; g.lineWidth = 8; g.strokeRect(-220, -52, 440, 104); g.font = '700 58px Cinzel'; g.fillStyle = '#c0281e'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText('SUBSCRIBE', 0, 4); g.restore(); }
+    const k = portrait ? 8 : 7, ba = clamp((u - 2.75) / .2);
+    if (ba > 0) { const wob = Math.sin((u - 2.75) * 22) * Math.exp(-(u - 2.75) * 3) * .35; g.save(); g.globalAlpha = fade; g.translate(W / 2 - (portrait ? 300 : 360), py + ph - (portrait ? 140 : 120)); g.rotate(wob); pix(ICON.bell, -40, 0, k, '#7a2e22'); g.restore(); }
+  }
 }
 export function drawOverlay(t, shot) {
   g.setTransform(1, 0, 0, 1, 0, 0); g.clearRect(0, 0, cv.width, cv.height); g.setTransform(cv.width / W, 0, 0, cv.height / H, 0, 0);
@@ -141,5 +213,6 @@ export function drawOverlay(t, shot) {
   if (cur.card) { cardShot(t, cur); return; }
   if (TL.hook) plate(TL.hook, portrait ? 330 : 150, ss(seg(t, .25, .75)) * (1 - ss(seg(t, TL.hookEnd - .5, TL.hookEnd))), { label: TL.label });
   if (TL.ask) plate(TL.ask, portrait ? 330 : 150, ss(seg(t, TL.askAt, TL.askAt + .6)) * (1 - ss(seg(t, TL.DUR - .6, TL.DUR - .1))), { size: portrait ? 56 : 50 });
+  outro(t);
   blackout(t);
 }

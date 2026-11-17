@@ -2,7 +2,7 @@
  "code": "S07",
  "title": "The door in the rock",
  "label": "THE KEEPER'S ISLAND \u00b7 7",
- "DUR": 39.577,
+ "DUR": 44.177,
  "shots": [
   {
    "id": "walk",
@@ -187,7 +187,7 @@
    "lead": 0.5,
    "tail": 1.0,
    "a": 27.754,
-   "b": 39.577,
+   "b": 44.177,
    "vo": [
     {
      "id": "n6",
@@ -202,8 +202,16 @@
  "hook": "Thirty years on this island. Gus had never seen this door.",
  "hookEnd": 2.3,
  "ask": "Four marks. Who on the island would know them?",
- "askAt": 36.377,
+ "askAt": 36.177,
  "music": {
   "mood": "mystery"
+ },
+ "tags": true,
+ "outroAt": 39.377,
+ "outro": "mabel",
+ "next": {
+  "part": 8,
+  "title": "Old Wren knows the marks",
+  "when": "TONIGHT"
  }
 }

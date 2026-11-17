@@ -189,5 +189,11 @@
  ],
  "thumb": "a black silhouette kneeling in a ring of lantern light at the foot of a lighthouse, its outline wearing a flat keeper's cap, an old keeper reaching out",
  "thumbText": "GRANDAD?",
- "label": "THE KEEPER'S ISLAND · 55"
+ "label": "THE KEEPER'S ISLAND · 55",
+ "next": {
+  "part": 56,
+  "title": "Still writing",
+  "when": "TONIGHT"
+ },
+ "outro": "mabel"
 }

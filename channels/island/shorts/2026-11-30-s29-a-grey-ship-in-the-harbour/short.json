@@ -184,5 +184,11 @@
  ],
  "thumb": "a grey salvage barge with no flag tied up at a small stone quay at morning; a tall thin man in a pale cream suit, black bowler hat and silver cane stepping off it",
  "thumbText": "WHO CALLED HIM?",
- "label": "THE KEEPER'S ISLAND · 29"
+ "label": "THE KEEPER'S ISLAND · 29",
+ "next": {
+  "part": 30,
+  "title": "The man in the pale suit",
+  "when": "TONIGHT"
+ },
+ "outro": "log"
 }

@@ -183,5 +183,11 @@
    "lead": 0.8,
    "tail": 1.2
   }
- ]
+ ],
+ "next": {
+  "part": 15,
+  "title": "Under the lighthouse there is a harbour",
+  "when": "TOMORROW"
+ },
+ "outro": "log"
 }

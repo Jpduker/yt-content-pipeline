@@ -2,7 +2,7 @@
  "code": "S08",
  "title": "Old Wren knows the marks",
  "label": "THE KEEPER'S ISLAND \u00b7 8",
- "DUR": 39.521,
+ "DUR": 44.121,
  "shots": [
   {
    "id": "post",
@@ -193,7 +193,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 24.686,
-   "b": 39.521,
+   "b": 44.121,
    "vo": [
     {
      "id": "n3",
@@ -215,8 +215,16 @@
  "hook": "Only one person on the island still tells the old tales.",
  "hookEnd": 2.3,
  "ask": "A mark that was never drawn\u2026 only burned. Burned into what?",
- "askAt": 35.921,
+ "askAt": 35.721,
  "music": {
   "mood": "dusk"
+ },
+ "tags": true,
+ "outroAt": 39.321,
+ "outro": "log",
+ "next": {
+  "part": 9,
+  "title": "The lock opens on the third try",
+  "when": "TOMORROW"
  }
 }

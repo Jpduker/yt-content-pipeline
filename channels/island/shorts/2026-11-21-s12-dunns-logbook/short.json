@@ -203,5 +203,11 @@
    "lead": 0.6,
    "tail": 1.0
   }
- ]
+ ],
+ "next": {
+  "part": 13,
+  "title": "The horn comes from under the island",
+  "when": "TOMORROW"
+ },
+ "outro": "lamp"
 }

@@ -18,8 +18,12 @@ for i, sh in enumerate(S['shots']):
     if i == len(S['shots']) - 1 and S.get('ask'): tail = max(tail, S.get('askLen', 3.2) + .5)
     b = max(a + sh.get('min', 3.0), cur + tail)
     out = dict(sh); out.pop('lines', None); out.update({ 'a': round(a, 3), 'b': round(b, 3), 'vo': vo }); shots.append(out); t = b
+# The outro (Shorts): the question holds ~2.6 s, then a 4.8 s ending: music resolves, "next part" + like / subscribe / bell.
+OUT = S.get('outroLen', 4.8) if S.get('ask') else 0; outro_at = round(t - .2, 3) if OUT else None
+if OUT: t += OUT - .2; shots[-1]['b'] = round(t, 3)
 TL = { 'code': S['code'], 'title': S['title'], 'label': S.get('label', "THE KEEPER'S ISLAND"), 'DUR': round(t, 3), 'shots': shots,
-       'hook': S.get('hook'), 'hookEnd': hook_end, 'ask': S.get('ask'), 'askAt': round(t - S.get('askLen', 3.2), 3) if S.get('ask') else None, 'music': S.get('music', {}), 'tags': S.get('tags', True) }
+       'hook': S.get('hook'), 'hookEnd': hook_end, 'ask': S.get('ask'), 'askAt': round((outro_at if OUT else t) - S.get('askLen', 3.2), 3) if S.get('ask') else None, 'music': S.get('music', {}), 'tags': S.get('tags', True),
+       'outroAt': outro_at, 'outro': S.get('outro', os.environ.get('OUTRO', 'lamp')) if OUT else None, 'next': S.get('next') }
 json.dump(TL, open(os.path.join(D, 'timeline.json'), 'w'), indent=1)
 print(f"{S['code']} {t:.1f}s  shots {[round(s['b']-s['a'],1) for s in shots]}  lines {sum(len(s['vo']) for s in shots)}")
 if t > 59.5: print('WARN: over 59.5 s'); sys.exit(2)

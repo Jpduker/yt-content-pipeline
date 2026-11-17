@@ -2,7 +2,7 @@
  "code": "S05",
  "title": "The stake-out",
  "label": "THE KEEPER'S ISLAND \u00b7 5",
- "DUR": 40.353,
+ "DUR": 44.953,
  "shots": [
   {
    "id": "cottage",
@@ -193,7 +193,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 23.803,
-   "b": 40.353,
+   "b": 44.953,
    "vo": [
     {
      "id": "n5",
@@ -222,8 +222,16 @@
  "hook": "They waited all night for 3:12. Rollo ate the sandwiches.",
  "hookEnd": 2.3,
  "ask": "Whose lantern was on the path\u2026 while Gus held his?",
- "askAt": 37.153,
+ "askAt": 36.953,
  "music": {
   "mood": "dusk"
+ },
+ "tags": true,
+ "outroAt": 40.153,
+ "outro": "log",
+ "next": {
+  "part": 6,
+  "title": "Three cables, one cut",
+  "when": "TONIGHT"
  }
 }

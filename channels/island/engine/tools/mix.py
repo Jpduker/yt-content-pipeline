@@ -135,7 +135,7 @@ def mood_at(t): s = next((s for s in shots if s['a'] <= t < s['b']), shots[-1]);
 mood = MOOD0
 CH = [['A2', 'E3', 'A3', 'C4', 'E4'], ['F2', 'C3', 'F3', 'A3', 'C4'], ['D2', 'A2', 'D3', 'F3', 'A3'], ['E2', 'B2', 'E3', 'G#3', 'B3']]
 ev = []; bar = 0; t = .2
-while t < DUR - .5:
+while t < (TL.get('outroAt') or DUR) - .5:
     mood = mood_at(t + .1); ch = CH[bar % 4]; top = ch[2:]
     ev.append((t, 'cellos', ch[0], 4.2, .42 if mood != 'day' else .3, .15))
     if mood in ('mystery', 'dread', 'dusk'):
@@ -152,7 +152,16 @@ while t < DUR - .5:
         if bar % 2 == 1: ev.append((t + 2.0, 'timpani', 'A1', 1.5, .3, 0))
     t += 4.0; bar += 1
 if not os.environ.get('NODING'): ev.append((.25, 'glockenspiel', 'A5', 1.6, .35, 0)); ev.append((.25, 'harp', 'A4', 1.6, .4, -.2))   # the hook ding
-if TL.get('askAt'): ev.append((TL['askAt'], 'timpani', 'A1', 2.0, .45, 0)); ev.append((TL['askAt'], 'violins_trem', 'E4', DUR - TL['askAt'], .3, .2)); ev.append((TL['askAt'] + .02, 'cellos', 'A2', DUR - TL['askAt'], .4, -.1))
+OA = TL.get('outroAt') or DUR   # the question's held chord ends where the outro starts
+if TL.get('askAt'): ev.append((TL['askAt'], 'timpani', 'A1', 2.0, .45, 0)); ev.append((TL['askAt'], 'violins_trem', 'E4', OA - TL['askAt'] + .3, .3, .2)); ev.append((TL['askAt'] + .02, 'cellos', 'A2', OA - TL['askAt'] + .3, .4, -.1))
+OUTRO_HITS = { 'lamp': [(1.0, 'E6'), (1.35, 'A5'), (1.7, 'C#6')], 'mabel': [(2.5, 'A5'), (2.95, 'E6')], 'log': [(2.25, 'stamp'), (2.75, 'E6')] }
+if TL.get('outroAt'):   # the resolution: A minor question -> A major answer (harp arpeggio, warm strings), glock pings on each button, a soft low horn at the end
+    o = OA; R = DUR - o
+    for k, p in enumerate(['A3', 'C#4', 'E4', 'A4', 'C#5']): ev.append((o + .08 + k * .11, 'harp', p, R, .38, -.3 + k * .15))
+    ev.append((o, 'cellos', 'A2', R, .34, -.1)); ev.append((o, 'violas', 'C#4', R, .22, .1)); ev.append((o, 'violins', 'E4', R, .2, .25)); ev.append((o + .05, 'timpani', 'A1', 2.0, .3, 0))
+    for dt, p in OUTRO_HITS.get(TL.get('outro'), []):
+        if p == 'stamp': ev.append((o + dt, 'timpani', 'E1', 1.4, .6, 0))
+        else: ev.append((o + dt, 'glockenspiel', p, 1.4, .34, .15))
 mus = S.render(ev, dur=DUR + .5)[:N]
 mus = S.room(mus, size=.45, mix=.16)[:N]
 # the music stops dead when the lamp dies, and creeps back after 2.4 s on the cello alone

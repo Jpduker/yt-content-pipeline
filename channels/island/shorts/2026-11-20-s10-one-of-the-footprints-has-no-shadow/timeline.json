@@ -2,7 +2,7 @@
  "code": "S10",
  "title": "One of the footprints has no shadow",
  "label": "THE KEEPER'S ISLAND \u00b7 10",
- "DUR": 36.837,
+ "DUR": 41.437,
  "shots": [
   {
    "id": "tunnel",
@@ -216,7 +216,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 22.49,
-   "b": 36.837,
+   "b": 41.437,
    "vo": [
     {
      "id": "n5",
@@ -238,8 +238,16 @@
  "hook": "Two sets of footprints in the wet sand. Only one of them cast a shadow.",
  "hookEnd": 2.3,
  "ask": "Not the lamp. His lantern. What puts out a flame without wind?",
- "askAt": 33.237,
+ "askAt": 33.037,
  "music": {
   "mood": "dread"
+ },
+ "tags": true,
+ "outroAt": 36.637,
+ "outro": "mabel",
+ "next": {
+  "part": 11,
+  "title": "The lamp went dark at noon",
+  "when": "TOMORROW"
  }
 }

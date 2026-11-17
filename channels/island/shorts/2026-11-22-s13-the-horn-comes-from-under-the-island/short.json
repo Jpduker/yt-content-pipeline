@@ -196,5 +196,11 @@
    "lead": 0.6,
    "tail": 1.0
   }
- ]
+ ],
+ "next": {
+  "part": 14,
+  "title": "Three days are up",
+  "when": "TONIGHT"
+ },
+ "outro": "mabel"
 }

@@ -158,5 +158,11 @@
    "tail": 1.0
   }
  ],
- "label": "THE KEEPER'S ISLAND · 16"
+ "label": "THE KEEPER'S ISLAND · 16",
+ "next": {
+  "part": 17,
+  "title": "Pip finds the slit in the cliff",
+  "when": "TOMORROW"
+ },
+ "outro": "mabel"
 }

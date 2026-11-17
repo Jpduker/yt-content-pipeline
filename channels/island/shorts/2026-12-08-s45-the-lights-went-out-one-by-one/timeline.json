@@ -2,7 +2,7 @@
  "code": "S45",
  "title": "The lights went out one by one",
  "label": "THE KEEPER'S ISLAND \u00b7 45",
- "DUR": 41.256,
+ "DUR": 45.856,
  "shots": [
   {
    "id": "village",
@@ -172,7 +172,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 26.283,
-   "b": 41.256,
+   "b": 45.856,
    "vo": [
     {
      "id": "n5",
@@ -194,8 +194,16 @@
  "hook": "Tuesday night, the lights of the village went out. One by one. Coming closer.",
  "hookEnd": 2.3,
  "ask": "It is waiting at the edge of your light. What do you do?",
- "askAt": 37.656,
+ "askAt": 37.456,
  "music": {
   "mood": "dread"
+ },
+ "tags": true,
+ "outroAt": 41.056,
+ "outro": "lamp",
+ "next": {
+  "part": 46,
+  "title": "A ring of lanterns",
+  "when": "TONIGHT"
  }
 }

@@ -2,7 +2,7 @@
  "code": "S19",
  "title": "Waiting in the dark harbour",
  "label": "THE KEEPER'S ISLAND \u00b7 19",
- "DUR": 39.508,
+ "DUR": 44.108,
  "shots": [
   {
    "id": "hide",
@@ -181,7 +181,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 27.977,
-   "b": 39.508,
+   "b": 44.108,
    "vo": [
     {
      "id": "n5",
@@ -203,8 +203,16 @@
  "hook": "This time, they would be waiting when the lamp went out.",
  "hookEnd": 2.3,
  "ask": "Someone just walked out of the sea. Would you stay hidden?",
- "askAt": 36.308,
+ "askAt": 36.108,
  "music": {
   "mood": "tense"
+ },
+ "tags": true,
+ "outroAt": 39.308,
+ "outro": "mabel",
+ "next": {
+  "part": 20,
+  "title": "Rollo sneezes",
+  "when": "TONIGHT"
  }
 }

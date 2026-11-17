@@ -213,5 +213,11 @@
  ],
  "thumb": "a ring of twelve glowing lanterns on the grass around a small stone cottage at night, darkness pressing in at the edge, a smiling black silhouette outside the ring",
  "thumbText": "DON'T LET THEM GO OUT",
- "label": "THE KEEPER'S ISLAND · 46"
+ "label": "THE KEEPER'S ISLAND · 46",
+ "next": {
+  "part": 47,
+  "title": "The last name in the ledger",
+  "when": "TOMORROW"
+ },
+ "outro": "mabel"
 }

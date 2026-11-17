@@ -181,5 +181,11 @@
    "lead": 0.6,
    "tail": 1.0
   }
- ]
+ ],
+ "next": {
+  "part": 12,
+  "title": "Dunn’s logbook",
+  "when": "TONIGHT"
+ },
+ "outro": "log"
 }

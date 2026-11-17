@@ -2,7 +2,7 @@
  "code": "S04",
  "title": "Pip saw someone on the rocks",
  "label": "THE KEEPER'S ISLAND \u00b7 4",
- "DUR": 35.326,
+ "DUR": 39.926,
  "shots": [
   {
    "id": "fly",
@@ -163,7 +163,7 @@
    "lead": 0.7,
    "tail": 1.0,
    "a": 20.33,
-   "b": 35.326,
+   "b": 39.926,
    "vo": [
     {
      "id": "n4",
@@ -192,8 +192,16 @@
  "hook": "Pip sees everything from up there. This time, he wished he hadn\u2019t.",
  "hookEnd": 2.3,
  "ask": "Would you tell the keeper what you saw\u2026 if nobody believed you?",
- "askAt": 32.126,
+ "askAt": 31.926,
  "music": {
   "mood": "day"
+ },
+ "tags": true,
+ "outroAt": 35.126,
+ "outro": "mabel",
+ "next": {
+  "part": 5,
+  "title": "The stake-out",
+  "when": "TOMORROW"
  }
 }

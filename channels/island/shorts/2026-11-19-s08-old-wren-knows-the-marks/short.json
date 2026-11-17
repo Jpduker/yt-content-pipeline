@@ -200,5 +200,11 @@
    "lead": 0.6,
    "tail": 1.0
   }
- ]
+ ],
+ "next": {
+  "part": 9,
+  "title": "The lock opens on the third try",
+  "when": "TOMORROW"
+ },
+ "outro": "log"
 }

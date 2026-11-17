@@ -2,7 +2,7 @@
  "code": "S42",
  "title": "A shadow at dawn",
  "label": "THE KEEPER'S ISLAND \u00b7 42",
- "DUR": 45.08,
+ "DUR": 49.68,
  "shots": [
   {
    "id": "ferry",
@@ -173,7 +173,7 @@
    "lead": 0.8,
    "tail": 1.2,
    "a": 27.303,
-   "b": 45.08,
+   "b": 49.68,
    "vo": [
     {
      "id": "n5",
@@ -195,8 +195,16 @@
  "hook": "The ferry came home. And on the north rocks, a woman stood in the sunrise.",
  "hookEnd": 2.3,
  "ask": "Crane\u2019s shadow is still in the cave. What does a shadow do without its owner?",
- "askAt": 41.28,
+ "askAt": 41.08,
  "music": {
   "mood": "dusk"
+ },
+ "tags": true,
+ "outroAt": 44.88,
+ "outro": "lamp",
+ "next": {
+  "part": 43,
+  "title": "A shadow nobody owned",
+  "when": "TOMORROW"
  }
 }

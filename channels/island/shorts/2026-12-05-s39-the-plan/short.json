@@ -221,5 +221,11 @@
  ],
  "thumb": "noon on a cliff path, a keeper, a ferry pilot, an old woman, a harbour master, a gull, a cat and a mouse gathered over a drawn map",
  "thumbText": "THE PLAN",
- "label": "THE KEEPER'S ISLAND · 39"
+ "label": "THE KEEPER'S ISLAND · 39",
+ "next": {
+  "part": 40,
+  "title": "Twelve seconds and no lamp",
+  "when": "TONIGHT"
+ },
+ "outro": "lamp"
 }

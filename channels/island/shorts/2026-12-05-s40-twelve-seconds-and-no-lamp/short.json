@@ -186,5 +186,11 @@
  ],
  "thumb": "storm at night, a ferry full of lit windows near black rocks, an old keeper on a cliff edge holding up a lantern with a tiny ember",
  "thumbText": "12 SECONDS",
- "label": "THE KEEPER'S ISLAND · 40"
+ "label": "THE KEEPER'S ISLAND · 40",
+ "next": {
+  "part": 41,
+  "title": "She came back for the coat",
+  "when": "TOMORROW"
+ },
+ "outro": "mabel"
 }

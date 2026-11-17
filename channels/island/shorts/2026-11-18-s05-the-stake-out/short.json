@@ -203,5 +203,11 @@
    "lead": 0.6,
    "tail": 1.0
   }
- ]
+ ],
+ "next": {
+  "part": 6,
+  "title": "Three cables, one cut",
+  "when": "TONIGHT"
+ },
+ "outro": "log"
 }

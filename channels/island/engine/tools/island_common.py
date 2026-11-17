@@ -30,7 +30,7 @@ CAM = {
 }
 # AVOID (QA): 'top' cameras (blur/empty), stage az 150–170 at the quay or cliff (inside walls), people next to the cave foghorn (-97.5,-93.5).
 def write_week(S, THUMB, root):
-    for s in S: s['thumb'], s['thumbText'] = THUMB[s['code']]
+    for s in S: s['thumb'], s['thumbText'] = THUMB[s['code']]; s['outro'] = ['lamp', 'mabel', 'log'][int(s['code'][1:]) % 3]   # endings rotate (Vivek 2026-11-17)
     for s in S:
         slug = s['title'].lower()
         for ch in '’…,.:"?\'': slug = slug.replace(ch, '')

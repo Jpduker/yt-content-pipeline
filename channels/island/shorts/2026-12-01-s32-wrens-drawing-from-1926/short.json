@@ -176,5 +176,11 @@
  ],
  "thumb": "an old woman in a violet shawl turning over a framed pencil drawing of a smiling man in a bowler hat, candlelight",
  "thumbText": "1926",
- "label": "THE KEEPER'S ISLAND · 32"
+ "label": "THE KEEPER'S ISLAND · 32",
+ "next": {
+  "part": 33,
+  "title": "Through the crack by sea",
+  "when": "TOMORROW"
+ },
+ "outro": "log"
 }

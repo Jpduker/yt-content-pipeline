@@ -2,7 +2,7 @@
  "code": "S13",
  "title": "The horn comes from under the island",
  "label": "THE KEEPER'S ISLAND \u00b7 13",
- "DUR": 30.533,
+ "DUR": 35.133,
  "shots": [
   {
    "id": "map",
@@ -189,7 +189,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 17.887,
-   "b": 30.533,
+   "b": 35.133,
    "vo": [
     {
      "id": "n4",
@@ -211,8 +211,16 @@
  "hook": "The horn sounded again that night. There was no ship.",
  "hookEnd": 2.3,
  "ask": "A ship\u2019s horn, from under the island. What is down there?",
- "askAt": 27.333,
+ "askAt": 27.133,
  "music": {
   "mood": "dread"
+ },
+ "tags": true,
+ "outroAt": 30.333,
+ "outro": "mabel",
+ "next": {
+  "part": 14,
+  "title": "Three days are up",
+  "when": "TONIGHT"
  }
 }

@@ -2,7 +2,7 @@
  "code": "S12",
  "title": "Dunn\u2019s logbook",
  "label": "THE KEEPER'S ISLAND \u00b7 12",
- "DUR": 32.735,
+ "DUR": 37.335,
  "shots": [
   {
    "id": "office",
@@ -197,7 +197,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 21.919,
-   "b": 32.735,
+   "b": 37.335,
    "vo": [
     {
      "id": "n3",
@@ -219,8 +219,16 @@
  "hook": "Dunn\u2019s logbook goes back sixty years. The lamp has failed before. Once.",
  "hookEnd": 2.3,
  "ask": "Twelve seconds, the night Gus was born. Coincidence?",
- "askAt": 29.535,
+ "askAt": 29.335,
  "music": {
   "mood": "mystery"
+ },
+ "tags": true,
+ "outroAt": 32.535,
+ "outro": "lamp",
+ "next": {
+  "part": 13,
+  "title": "The horn comes from under the island",
+  "when": "TOMORROW"
  }
 }

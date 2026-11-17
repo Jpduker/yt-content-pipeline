@@ -2,7 +2,7 @@
  "code": "S16",
  "title": "A second lamp under the first",
  "label": "THE KEEPER'S ISLAND \u00b7 16",
- "DUR": 36.835,
+ "DUR": 41.435,
  "shots": [
   {
    "id": "plinth",
@@ -155,7 +155,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 23.054,
-   "b": 36.835,
+   "b": 41.435,
    "vo": [
     {
      "id": "n6",
@@ -177,8 +177,16 @@
  "hook": "Someone built a lighthouse under the lighthouse.",
  "hookEnd": 2.3,
  "ask": "Why would anyone need a second lamp\u2026 pointed at the rocks?",
- "askAt": 33.635,
+ "askAt": 33.435,
  "music": {
   "mood": "mystery"
+ },
+ "tags": true,
+ "outroAt": 36.635,
+ "outro": "mabel",
+ "next": {
+  "part": 17,
+  "title": "Pip finds the slit in the cliff",
+  "when": "TOMORROW"
  }
 }

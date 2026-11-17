@@ -2,7 +2,7 @@
  "code": "S52",
  "title": "She came back to the jetty",
  "label": "THE KEEPER'S ISLAND \u00b7 52",
- "DUR": 42.655,
+ "DUR": 47.255,
  "shots": [
   {
    "id": "jetty",
@@ -181,7 +181,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 28.0,
-   "b": 42.655,
+   "b": 47.255,
    "vo": [
     {
      "id": "n3",
@@ -203,8 +203,16 @@
  "hook": "At midnight, the woman in the yellow coat came back. She had one thing to say.",
  "hookEnd": 2.3,
  "ask": "A shadow has to fall away from a light. How do you give it nowhere to fall?",
- "askAt": 38.855,
+ "askAt": 38.655,
  "music": {
   "mood": "mystery"
+ },
+ "tags": true,
+ "outroAt": 42.455,
+ "outro": "mabel",
+ "next": {
+  "part": 53,
+  "title": "Light from every side",
+  "when": "TOMORROW"
  }
 }

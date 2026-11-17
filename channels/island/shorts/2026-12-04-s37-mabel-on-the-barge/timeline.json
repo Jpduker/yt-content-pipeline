@@ -2,7 +2,7 @@
  "code": "S37",
  "title": "Mabel on the barge",
  "label": "THE KEEPER'S ISLAND \u00b7 37",
- "DUR": 35.608,
+ "DUR": 40.208,
  "shots": [
   {
    "id": "fly",
@@ -169,7 +169,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 20.068,
-   "b": 35.608,
+   "b": 40.208,
    "vo": [
     {
      "id": "n4",
@@ -191,8 +191,16 @@
  "hook": "Pip found Mabel. She was not lost. She was working.",
  "hookEnd": 2.3,
  "ask": "Three names crossed out. Will the fourth be?",
- "askAt": 32.408,
+ "askAt": 32.208,
  "music": {
   "mood": "tense"
+ },
+ "tags": true,
+ "outroAt": 35.408,
+ "outro": "mabel",
+ "next": {
+  "part": 38,
+  "title": "The stolen key",
+  "when": "TONIGHT"
  }
 }

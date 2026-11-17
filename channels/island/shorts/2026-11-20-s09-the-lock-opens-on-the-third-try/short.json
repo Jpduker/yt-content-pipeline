@@ -193,5 +193,11 @@
    "lead": 0.6,
    "tail": 1.0
   }
- ]
+ ],
+ "next": {
+  "part": 10,
+  "title": "One of the footprints has no shadow",
+  "when": "TONIGHT"
+ },
+ "outro": "lamp"
 }

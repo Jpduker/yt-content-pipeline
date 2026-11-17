@@ -2,7 +2,7 @@
  "code": "S11",
  "title": "The lamp went dark at noon",
  "label": "THE KEEPER'S ISLAND \u00b7 11",
- "DUR": 36.228,
+ "DUR": 40.828,
  "shots": [
   {
    "id": "village",
@@ -173,7 +173,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 20.175,
-   "b": 36.228,
+   "b": 40.828,
    "vo": [
     {
      "id": "n4",
@@ -195,8 +195,16 @@
  "hook": "The lamp went dark at noon. In broad daylight. With the whole village watching.",
  "hookEnd": 2.3,
  "ask": "He wasn\u2019t looking at the lighthouse. He was looking at Gus. Why?",
- "askAt": 32.628,
+ "askAt": 32.428,
  "music": {
   "mood": "tense"
+ },
+ "tags": true,
+ "outroAt": 36.028,
+ "outro": "log",
+ "next": {
+  "part": 12,
+  "title": "Dunn\u2019s logbook",
+  "when": "TONIGHT"
  }
 }

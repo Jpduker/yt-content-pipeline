@@ -222,5 +222,11 @@
    "lead": 0.6,
    "tail": 1.0
   }
- ]
+ ],
+ "next": {
+  "part": 11,
+  "title": "The lamp went dark at noon",
+  "when": "TOMORROW"
+ },
+ "outro": "mabel"
 }

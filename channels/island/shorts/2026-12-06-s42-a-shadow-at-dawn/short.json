@@ -181,5 +181,11 @@
  ],
  "thumb": "sunrise on black sea rocks, a woman in a yellow coat seen from behind with a long shadow on the wet stone, an old keeper watching",
  "thumbText": "HER SHADOW",
- "label": "THE KEEPER'S ISLAND · 42"
+ "label": "THE KEEPER'S ISLAND · 42",
+ "next": {
+  "part": 43,
+  "title": "A shadow nobody owned",
+  "when": "TOMORROW"
+ },
+ "outro": "lamp"
 }

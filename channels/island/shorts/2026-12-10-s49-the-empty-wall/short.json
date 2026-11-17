@@ -169,5 +169,11 @@
  ],
  "thumb": "inside a green glowing sea cave, a tiny mouse beside a dent in the sand shaped like a bowler hat, a dark stain trailing into black water",
  "thumbText": "IT LEFT THE HAT",
- "label": "THE KEEPER'S ISLAND · 49"
+ "label": "THE KEEPER'S ISLAND · 49",
+ "next": {
+  "part": 50,
+  "title": "Mabel and the water",
+  "when": "TONIGHT"
+ },
+ "outro": "mabel"
 }

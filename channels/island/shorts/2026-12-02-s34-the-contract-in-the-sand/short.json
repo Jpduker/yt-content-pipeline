@@ -166,5 +166,11 @@
  ],
  "thumb": "in a glowing sea cave, a tiny mouse holding a torn salt-stained paper contract, an old keeper reading it by lantern",
  "thumbText": "PAYABLE TO THE BEARER",
- "label": "THE KEEPER'S ISLAND · 34"
+ "label": "THE KEEPER'S ISLAND · 34",
+ "next": {
+  "part": 35,
+  "title": "Dunn’s confession",
+  "when": "TOMORROW"
+ },
+ "outro": "mabel"
 }

@@ -2,7 +2,7 @@
  "code": "S30",
  "title": "The man in the pale suit",
  "label": "THE KEEPER'S ISLAND \u00b7 30",
- "DUR": 31.66,
+ "DUR": 36.26,
  "shots": [
   {
    "id": "meet",
@@ -186,7 +186,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 19.008,
-   "b": 31.66,
+   "b": 36.26,
    "vo": [
     {
      "id": "n2",
@@ -208,8 +208,16 @@
  "hook": "Silas Crane made Gus an offer. He already knew the answer.",
  "hookEnd": 2.3,
  "ask": "\"Your mother\u2019s debt.\" Who told him?",
- "askAt": 28.46,
+ "askAt": 28.26,
  "music": {
   "mood": "tense"
+ },
+ "tags": true,
+ "outroAt": 31.46,
+ "outro": "lamp",
+ "next": {
+  "part": 31,
+  "title": "Pip spies on the barge",
+  "when": "TOMORROW"
  }
 }

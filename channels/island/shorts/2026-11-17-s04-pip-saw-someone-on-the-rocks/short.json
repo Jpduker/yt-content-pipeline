@@ -175,5 +175,11 @@
    "lead": 0.7,
    "tail": 1.0
   }
- ]
+ ],
+ "next": {
+  "part": 5,
+  "title": "The stake-out",
+  "when": "TOMORROW"
+ },
+ "outro": "mabel"
 }

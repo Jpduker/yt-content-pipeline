@@ -2,7 +2,7 @@
  "code": "S55",
  "title": "The keeper\u2019s cap",
  "label": "THE KEEPER'S ISLAND \u00b7 55",
- "DUR": 42.643,
+ "DUR": 47.243,
  "shots": [
   {
    "id": "shape",
@@ -182,7 +182,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 24.504,
-   "b": 42.643,
+   "b": 47.243,
    "vo": [
     {
      "id": "n5",
@@ -204,8 +204,16 @@
  "hook": "Cornered in the light, the shadow changed shape. Gus knew that shape.",
  "hookEnd": 2.3,
  "ask": "It was his grandfather all along. So who did Crane\u2019s own shadow go to?",
- "askAt": 38.843,
+ "askAt": 38.643,
  "music": {
   "mood": "dusk"
+ },
+ "tags": true,
+ "outroAt": 42.443,
+ "outro": "mabel",
+ "next": {
+  "part": 56,
+  "title": "Still writing",
+  "when": "TONIGHT"
  }
 }

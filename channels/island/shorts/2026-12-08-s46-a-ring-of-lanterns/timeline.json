@@ -2,7 +2,7 @@
  "code": "S46",
  "title": "A ring of lanterns",
  "label": "THE KEEPER'S ISLAND \u00b7 46",
- "DUR": 39.004,
+ "DUR": 43.604,
  "shots": [
   {
    "id": "ring",
@@ -205,7 +205,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 25.085,
-   "b": 39.004,
+   "b": 43.604,
    "vo": [
     {
      "id": "n5",
@@ -227,8 +227,16 @@
  "hook": "It could not cross the light. So Gus built a wall of it.",
  "hookEnd": 2.3,
  "ask": "Twelve lanterns burn until four. Sunrise is at eight. Then what?",
- "askAt": 35.404,
+ "askAt": 35.204,
  "music": {
   "mood": "tense"
+ },
+ "tags": true,
+ "outroAt": 38.804,
+ "outro": "mabel",
+ "next": {
+  "part": 47,
+  "title": "The last name in the ledger",
+  "when": "TOMORROW"
  }
 }

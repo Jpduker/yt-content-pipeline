@@ -2,7 +2,7 @@
  "code": "S29",
  "title": "A grey ship in the harbour",
  "label": "THE KEEPER'S ISLAND \u00b7 29",
- "DUR": 34.999,
+ "DUR": 39.599,
  "shots": [
   {
    "id": "rocks",
@@ -176,7 +176,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 24.496,
-   "b": 34.999,
+   "b": 39.599,
    "vo": [
     {
      "id": "d1",
@@ -198,8 +198,16 @@
  "hook": "The morning after the storm, a ship nobody had called sailed into the harbour.",
  "hookEnd": 2.3,
  "ask": "How does a stranger know about a mark burned in a rock last night?",
- "askAt": 31.799,
+ "askAt": 31.599,
  "music": {
   "mood": "mystery"
+ },
+ "tags": true,
+ "outroAt": 34.799,
+ "outro": "log",
+ "next": {
+  "part": 30,
+  "title": "The man in the pale suit",
+  "when": "TONIGHT"
  }
 }

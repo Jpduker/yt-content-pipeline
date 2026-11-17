@@ -2,7 +2,7 @@
  "code": "S31",
  "title": "Pip spies on the barge",
  "label": "THE KEEPER'S ISLAND \u00b7 31",
- "DUR": 31.728,
+ "DUR": 36.328,
  "shots": [
   {
    "id": "fly",
@@ -166,7 +166,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 22.056,
-   "b": 31.728,
+   "b": 36.328,
    "vo": [
     {
      "id": "n5",
@@ -181,8 +181,16 @@
  "hook": "Gulls are not allowed on the barge. Pip took that personally.",
  "hookEnd": 2.3,
  "ask": "The same horn, above the water and below it. Who has been calling whom?",
- "askAt": 28.528,
+ "askAt": 28.328,
  "music": {
   "mood": "day"
+ },
+ "tags": true,
+ "outroAt": 31.528,
+ "outro": "mabel",
+ "next": {
+  "part": 32,
+  "title": "Wren\u2019s drawing from 1926",
+  "when": "TONIGHT"
  }
 }

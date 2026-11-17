@@ -2,7 +2,7 @@
  "code": "S40",
  "title": "Twelve seconds and no lamp",
  "label": "THE KEEPER'S ISLAND \u00b7 40",
- "DUR": 29.039,
+ "DUR": 33.639,
  "shots": [
   {
    "id": "ship",
@@ -184,7 +184,7 @@
    "lead": 0.6,
    "tail": 1.4,
    "a": 20.104,
-   "b": 29.039,
+   "b": 33.639,
    "vo": [
     {
      "id": "n5",
@@ -199,8 +199,16 @@
  "hook": "Three eleven. The ferry\u2019s lights in the rain. Gus at the cliff edge.",
  "hookEnd": 2.3,
  "ask": "Twelve seconds. One lantern. Is it enough?",
- "askAt": 25.839,
+ "askAt": 25.639,
  "music": {
   "mood": "tense"
+ },
+ "tags": true,
+ "outroAt": 28.839,
+ "outro": "mabel",
+ "next": {
+  "part": 41,
+  "title": "She came back for the coat",
+  "when": "TOMORROW"
  }
 }

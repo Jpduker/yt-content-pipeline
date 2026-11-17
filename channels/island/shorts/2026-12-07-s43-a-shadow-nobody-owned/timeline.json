@@ -2,7 +2,7 @@
  "code": "S43",
  "title": "A shadow nobody owned",
  "label": "THE KEEPER'S ISLAND \u00b7 43",
- "DUR": 39.026,
+ "DUR": 43.626,
  "shots": [
   {
    "id": "quay",
@@ -192,7 +192,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 23.889,
-   "b": 39.026,
+   "b": 43.626,
    "vo": [
     {
      "id": "n5",
@@ -214,8 +214,16 @@
  "hook": "Noon on the quay. Seven people. Eight shadows.",
  "hookEnd": 2.3,
  "ask": "A shadow with no owner. Where does it go when the sun goes down?",
- "askAt": 35.426,
+ "askAt": 35.226,
  "music": {
   "mood": "mystery"
+ },
+ "tags": true,
+ "outroAt": 38.826,
+ "outro": "mabel",
+ "next": {
+  "part": 44,
+  "title": "The end of Wren\u2019s story",
+  "when": "TONIGHT"
  }
 }

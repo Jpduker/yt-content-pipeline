@@ -2,7 +2,7 @@
  "code": "S23",
  "title": "Leading lights",
  "label": "THE KEEPER'S ISLAND \u00b7 23",
- "DUR": 40.807,
+ "DUR": 45.407,
  "shots": [
   {
    "id": "board",
@@ -149,7 +149,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 31.275,
-   "b": 40.807,
+   "b": 45.407,
    "vo": [
     {
      "id": "n5",
@@ -164,8 +164,16 @@
  "hook": "Sailors have trusted this trick for three hundred years. Someone turned it into a trap.",
  "hookEnd": 2.3,
  "ask": "Now you know how. But who would wreck a ship named for her own family?",
- "askAt": 37.007,
+ "askAt": 36.807,
  "music": {
   "mood": "mystery"
+ },
+ "tags": true,
+ "outroAt": 40.607,
+ "outro": "log",
+ "next": {
+  "part": 24,
+  "title": "The second key",
+  "when": "TONIGHT"
  }
 }

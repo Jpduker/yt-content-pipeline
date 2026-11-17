@@ -203,5 +203,11 @@
  ],
  "thumb": "a grey cat leaping toward a dark glowing pool in a sea cave to grab an old keeper by the collar, a shadowy hand reaching up from the water toward his lantern",
  "thumbText": "SHE JUMPED",
- "label": "THE KEEPER'S ISLAND · 50"
+ "label": "THE KEEPER'S ISLAND · 50",
+ "next": {
+  "part": 51,
+  "title": "One shadow too many",
+  "when": "TOMORROW"
+ },
+ "outro": "log"
 }

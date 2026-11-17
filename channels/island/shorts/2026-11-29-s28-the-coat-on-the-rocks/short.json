@@ -171,5 +171,11 @@
    "tail": 1.2
   }
  ],
- "label": "THE KEEPER'S ISLAND · 28"
+ "label": "THE KEEPER'S ISLAND · 28",
+ "next": {
+  "part": 29,
+  "title": "A grey ship in the harbour",
+  "when": "TOMORROW"
+ },
+ "outro": "mabel"
 }

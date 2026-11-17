@@ -2,7 +2,7 @@
  "code": "S38",
  "title": "The stolen key",
  "label": "THE KEEPER'S ISLAND \u00b7 38",
- "DUR": 31.169,
+ "DUR": 35.769,
  "shots": [
   {
    "id": "jetty",
@@ -165,7 +165,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 21.63,
-   "b": 31.169,
+   "b": 35.769,
    "vo": [
     {
      "id": "n3",
@@ -187,8 +187,16 @@
  "hook": "Marlo would not cancel the ferry. And the key was gone.",
  "hookEnd": 2.3,
  "ask": "Crane has both keys now. How do you stop a light you cannot reach?",
- "askAt": 27.369,
+ "askAt": 27.169,
  "music": {
   "mood": "dread"
+ },
+ "tags": true,
+ "outroAt": 30.969,
+ "outro": "log",
+ "next": {
+  "part": 39,
+  "title": "The plan",
+  "when": "TOMORROW"
  }
 }

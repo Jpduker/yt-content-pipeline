@@ -201,5 +201,11 @@
  ],
  "thumb": "dawn on a stone quay, an empty grey barge towed in, inside its wheelhouse a ledger open at a fresh page with wet ink reading The Keeper's Island",
  "thumbText": "STILL WRITING",
- "label": "THE KEEPER'S ISLAND · 56"
+ "label": "THE KEEPER'S ISLAND · 56",
+ "next": {
+  "part": 57,
+  "title": "A new chapter begins",
+  "when": "MONDAY"
+ },
+ "outro": "log"
 }

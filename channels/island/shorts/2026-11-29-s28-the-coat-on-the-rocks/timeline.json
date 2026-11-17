@@ -2,7 +2,7 @@
  "code": "S28",
  "title": "The coat on the rocks",
  "label": "THE KEEPER'S ISLAND \u00b7 28",
- "DUR": 40.498,
+ "DUR": 45.098,
  "shots": [
   {
    "id": "ferry",
@@ -165,7 +165,7 @@
    "lead": 0.8,
    "tail": 1.2,
    "a": 27.268,
-   "b": 40.498,
+   "b": 45.098,
    "vo": [
     {
      "id": "n5",
@@ -187,8 +187,16 @@
  "hook": "The ferry made it home. By morning, the stranger was gone.",
  "hookEnd": 2.3,
  "ask": "Four marks, four ships. One is still owed. Who pays it?",
- "askAt": 36.898,
+ "askAt": 36.698,
  "music": {
   "mood": "dusk"
+ },
+ "tags": true,
+ "outroAt": 40.298,
+ "outro": "mabel",
+ "next": {
+  "part": 29,
+  "title": "A grey ship in the harbour",
+  "when": "TOMORROW"
  }
 }

@@ -2,7 +2,7 @@
  "code": "S48",
  "title": "What Dunn\u2019s father saw",
  "label": "THE KEEPER'S ISLAND \u00b7 48",
- "DUR": 38.49,
+ "DUR": 43.09,
  "shots": [
   {
    "id": "office",
@@ -174,7 +174,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 24.251,
-   "b": 38.49,
+   "b": 43.09,
    "vo": [
     {
      "id": "n2",
@@ -196,8 +196,16 @@
  "hook": "Dunn\u2019s father was harbour master in 1926. He kept a diary. Dunn kept it locked.",
  "hookEnd": 2.3,
  "ask": "Crane wore a stolen shadow for a hundred years. So where is his own?",
- "askAt": 34.69,
+ "askAt": 34.49,
  "music": {
   "mood": "mystery"
+ },
+ "tags": true,
+ "outroAt": 38.29,
+ "outro": "lamp",
+ "next": {
+  "part": 49,
+  "title": "The empty wall",
+  "when": "TOMORROW"
  }
 }

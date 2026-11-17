@@ -185,5 +185,11 @@
    "lead": 0.5,
    "tail": 1.0
   }
- ]
+ ],
+ "next": {
+  "part": 8,
+  "title": "Old Wren knows the marks",
+  "when": "TONIGHT"
+ },
+ "outro": "mabel"
 }

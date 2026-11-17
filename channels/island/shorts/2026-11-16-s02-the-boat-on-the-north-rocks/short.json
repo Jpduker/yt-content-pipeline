@@ -190,5 +190,11 @@
    "lead": 0.8,
    "tail": 1.0
   }
- ]
+ ],
+ "next": {
+  "part": 3,
+  "title": "The lamp-room clock is twelve seconds slow",
+  "when": "TOMORROW"
+ },
+ "outro": "log"
 }

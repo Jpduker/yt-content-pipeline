@@ -2,7 +2,7 @@
  "code": "S26",
  "title": "A ship in the storm",
  "label": "THE KEEPER'S ISLAND \u00b7 26",
- "DUR": 30.64,
+ "DUR": 35.24,
  "shots": [
   {
    "id": "ship",
@@ -191,7 +191,7 @@
    "lead": 0.6,
    "tail": 1.2,
    "a": 24.209,
-   "b": 30.64,
+   "b": 35.24,
    "vo": [
     {
      "id": "n5",
@@ -206,8 +206,16 @@
  "hook": "Storm. Three o\u2019clock. A real ship this time, with people on it.",
  "hookEnd": 2.3,
  "ask": "Douse the false light, or relight the true one? He can only reach one in time.",
- "askAt": 26.84,
+ "askAt": 26.64,
  "music": {
   "mood": "tense"
+ },
+ "tags": true,
+ "outroAt": 30.44,
+ "outro": "log",
+ "next": {
+  "part": 27,
+  "title": "The keeper and the stranger",
+  "when": "TOMORROW"
  }
 }

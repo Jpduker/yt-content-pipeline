@@ -2,7 +2,7 @@
  "code": "S14",
  "title": "Three days are up",
  "label": "THE KEEPER'S ISLAND \u00b7 14",
- "DUR": 31.742,
+ "DUR": 36.342,
  "shots": [
   {
    "id": "quay",
@@ -174,7 +174,7 @@
    "lead": 0.8,
    "tail": 1.2,
    "a": 17.796,
-   "b": 31.742,
+   "b": 36.342,
    "vo": [
     {
      "id": "n3",
@@ -196,8 +196,16 @@
  "hook": "Three days were up. Gus gave Dunn the key himself.",
  "hookEnd": 2.3,
  "ask": "Chapter two begins where the light doesn\u2019t reach. Are you coming down?",
- "askAt": 27.942,
+ "askAt": 27.742,
  "music": {
   "mood": "dusk"
+ },
+ "tags": true,
+ "outroAt": 31.542,
+ "outro": "log",
+ "next": {
+  "part": 15,
+  "title": "Under the lighthouse there is a harbour",
+  "when": "TOMORROW"
  }
 }

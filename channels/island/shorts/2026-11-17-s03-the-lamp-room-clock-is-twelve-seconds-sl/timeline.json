@@ -2,7 +2,7 @@
  "code": "S03",
  "title": "The lamp-room clock is twelve seconds slow",
  "label": "THE KEEPER'S ISLAND \u00b7 3",
- "DUR": 39.494,
+ "DUR": 44.094,
  "shots": [
   {
    "id": "tower",
@@ -192,7 +192,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 23.755,
-   "b": 39.494,
+   "b": 44.094,
    "vo": [
     {
      "id": "n5",
@@ -221,8 +221,16 @@
  "hook": "The lamp-room clock was twelve seconds slow. Nobody had touched it.",
  "hookEnd": 2.3,
  "ask": "Who climbs a lighthouse\u2026 from the sea?",
- "askAt": 36.294,
+ "askAt": 36.094,
  "music": {
   "mood": "mystery"
+ },
+ "tags": true,
+ "outroAt": 39.294,
+ "outro": "lamp",
+ "next": {
+  "part": 4,
+  "title": "Pip saw someone on the rocks",
+  "when": "TONIGHT"
  }
 }

@@ -2,7 +2,7 @@
  "code": "S51",
  "title": "One shadow too many",
  "label": "THE KEEPER'S ISLAND \u00b7 51",
- "DUR": 41.063,
+ "DUR": 45.663,
  "shots": [
   {
    "id": "fly",
@@ -178,7 +178,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 26.99,
-   "b": 41.063,
+   "b": 45.663,
    "vo": [
     {
      "id": "n5",
@@ -200,8 +200,16 @@
  "hook": "Pip counted every shadow on the island at noon. There was one too many.",
  "hookEnd": 2.3,
  "ask": "Two shadows. Which one is really his?",
- "askAt": 37.863,
+ "askAt": 37.663,
  "music": {
   "mood": "day"
+ },
+ "tags": true,
+ "outroAt": 40.863,
+ "outro": "lamp",
+ "next": {
+  "part": 52,
+  "title": "She came back to the jetty",
+  "when": "TONIGHT"
  }
 }

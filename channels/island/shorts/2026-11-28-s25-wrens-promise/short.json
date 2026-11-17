@@ -179,5 +179,11 @@
    "tail": 1.0
   }
  ],
- "label": "THE KEEPER'S ISLAND · 25"
+ "label": "THE KEEPER'S ISLAND · 25",
+ "next": {
+  "part": 26,
+  "title": "A ship in the storm",
+  "when": "TONIGHT"
+ },
+ "outro": "mabel"
 }

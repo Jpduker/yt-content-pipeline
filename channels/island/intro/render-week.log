@@ -11,3 +11,21 @@
 22:47 checking headless Chrome for playwright-core (downloads once, ~100 MB)
 22:47 start week render · 1080x1920 @ 30 fps · workers 2 · ss=1 · ANGLE=d3d11
 22:47 2026-11-16-s00-welcome-to-the-keepers-island picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\intro\2026-11-16-s00-welcome-to-the-keepers-island\out\render.log)
+15:48 checking headless Chrome for playwright-core (downloads once, ~100 MB)
+15:48 start week render · 1080x1920 @ 30 fps · workers 2 · ss=1 · ANGLE=d3d11
+15:48 2026-11-16-s00-welcome-to-the-keepers-island picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\intro\2026-11-16-s00-welcome-to-the-keepers-island\out\render.log)
+15:52 2026-11-16-s00-welcome-to-the-keepers-island OK in 4.6 min -> final\2026-11-16-s00-welcome-to-the-keepers-island.mp4
+15:52 ALL DONE
+15:52 checking headless Chrome for playwright-core (downloads once, ~100 MB)
+15:52 start week render · 1920x1080 @ 30 fps · workers 2 · ss=1 · ANGLE=d3d11
+15:52 2026-11-16-ch00-welcome-to-the-keepers-island picture... (progress: C:\Users\Vivek Sai\Downloads\YouTube\channels\island\intro\2026-11-16-ch00-welcome-to-the-keepers-island\out\render.log)
+16:11 2026-11-16-ch00-welcome-to-the-keepers-island OK in 18.8 min -> final\2026-11-16-ch00-welcome-to-the-keepers-island.mp4
+16:11 ALL DONE
+16:12 checking headless Chrome for playwright-core (downloads once, ~100 MB)
+16:12 start week render · 1080x1920 @ 30 fps · workers 2 · ss=1 · ANGLE=d3d11
+16:12 2026-11-16-s00-welcome-to-the-keepers-island skip (done)
+16:12 ALL DONE
+16:12 checking headless Chrome for playwright-core (downloads once, ~100 MB)
+16:12 start week render · 1920x1080 @ 30 fps · workers 2 · ss=1 · ANGLE=d3d11
+16:12 2026-11-16-ch00-welcome-to-the-keepers-island skip (done)
+16:12 ALL DONE

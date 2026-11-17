@@ -2,7 +2,7 @@
  "code": "S17",
  "title": "Pip finds the slit in the cliff",
  "label": "THE KEEPER'S ISLAND \u00b7 17",
- "DUR": 39.825,
+ "DUR": 44.425,
  "shots": [
   {
    "id": "fly",
@@ -169,7 +169,7 @@
    "lead": 0.6,
    "tail": 1.0,
    "a": 26.25,
-   "b": 39.825,
+   "b": 44.425,
    "vo": [
     {
      "id": "n5",
@@ -191,8 +191,16 @@
  "hook": "From the sea, the cliff has an eye. Only gulls had ever seen it.",
  "hookEnd": 2.3,
  "ask": "Two lights, one high, one low. Which one would you steer by?",
- "askAt": 36.625,
+ "askAt": 36.425,
  "music": {
   "mood": "day"
+ },
+ "tags": true,
+ "outroAt": 39.625,
+ "outro": "log",
+ "next": {
+  "part": 18,
+  "title": "The wreckers\u2019 light",
+  "when": "TONIGHT"
  }
 }

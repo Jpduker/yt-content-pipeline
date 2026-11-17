@@ -196,5 +196,11 @@
  ],
  "thumb": "on a quay, a pale man in a cream suit and bowler hat holding out a paper to an old keeper in a sea-green coat; a grey cat sitting bolt upright",
  "thumbText": "HE KNOWS",
- "label": "THE KEEPER'S ISLAND · 30"
+ "label": "THE KEEPER'S ISLAND · 30",
+ "next": {
+  "part": 31,
+  "title": "Pip spies on the barge",
+  "when": "TOMORROW"
+ },
+ "outro": "lamp"
 }
