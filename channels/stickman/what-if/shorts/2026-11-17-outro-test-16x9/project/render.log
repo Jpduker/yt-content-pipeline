@@ -1,0 +1,17 @@
+Rendering frames 0-490 (20.4 s) with 2 worker(s)…
+  48/490 frames  2.07 fps  elapsed 0m23s  eta 3m34s
+  96/490 frames  2.06 fps  elapsed 0m47s  eta 3m12s
+  144/490 frames  2.03 fps  elapsed 1m11s  eta 2m50s
+  192/490 frames  2.09 fps  elapsed 1m32s  eta 2m22s
+  240/490 frames  2.11 fps  elapsed 1m54s  eta 1m58s
+  288/490 frames  2.17 fps  elapsed 2m12s  eta 1m33s
+  336/490 frames  2.29 fps  elapsed 2m26s  eta 1m07s
+  384/490 frames  2.41 fps  elapsed 2m39s  eta 0m44s
+  432/490 frames  2.44 fps  elapsed 2m57s  eta 0m24s
+  480/490 frames  2.24 fps  elapsed 3m34s  eta 0m04s
+
+Done: /home/claude/yt/channels/stickman/what-if/shorts/2026-11-17-outro-test-16x9/project/build/video_silent.mp4  (3m42s)
+generating music: 1 section(s) — playful@0.4
+sfx: 2 cue(s), ambience on 0 shot(s)
+wrote /home/claude/yt/channels/stickman/what-if/shorts/2026-11-17-outro-test-16x9/project/build/mix.wav  (20.4s, target -14 LUFS)
+FINAL VIDEO: /home/claude/yt/channels/stickman/what-if/shorts/2026-11-17-outro-test-16x9/project/out/Outro_Test_16x9.mp4

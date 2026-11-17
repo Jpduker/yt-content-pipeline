@@ -1,0 +1,106 @@
+{
+ "title": "Outro Test",
+ "duration": 20.38,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 5.177,
+   "line": "",
+   "scene": "outro",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "iris",
+    "tag": "A  1930s CARTOON IRIS-OUT",
+    "line": "See you between the ifs!",
+    "motif": "num"
+   }
+  },
+  {
+   "id": "s002",
+   "start": 5.177,
+   "end": 9.523,
+   "line": "",
+   "scene": "outro",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "dipWhite"
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "silent",
+    "tag": "B  SILENT-FILM CARD"
+   }
+  },
+  {
+   "id": "s003",
+   "start": 9.523,
+   "end": 14.443,
+   "line": "",
+   "scene": "outro",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "push"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "button",
+    "tag": "C  HERO PRESSES SUBSCRIBE",
+    "line": "New what if every day"
+   }
+  },
+  {
+   "id": "s004",
+   "start": 14.443,
+   "end": 20.38,
+   "line": "",
+   "scene": "outro",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "bands"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "ident",
+    "tag": "D  CHANNEL IDENT + END SCREEN"
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 20.38,
+   "mood": "playful",
+   "intensity": 0.4
+  }
+ ],
+ "sfx": []
+}

@@ -1,0 +1,54 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "If this one hit home, you know what to do.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "gain": -1.0,
+  "sec": "hook",
+  "pause": 0.0,
+  "group": "G001"
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "See you between the ifs.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "gain": -1.0,
+  "sec": "hook",
+  "pause": 2.4,
+  "group": "G002"
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Subscribe, so you never miss the next what if.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "gain": -1.0,
+  "sec": "hook",
+  "pause": 2.6,
+  "group": "G003"
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "New what if every day. See you tomorrow.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "gain": -1.0,
+  "sec": "hook",
+  "pause": 2.0,
+  "group": "G004"
+ }
+]
