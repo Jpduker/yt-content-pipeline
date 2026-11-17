@@ -1,0 +1,54 @@
+[
+ {
+  "id": "G001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, you get one thousand words a day. Spoken. Or typed. Run out, and you're silent until midnight.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L001",
+   "L002",
+   "L003"
+  ]
+ },
+ {
+  "id": "G002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You waste six hundred on a pizza argument. By dinner, you have fourteen left. Then your little brother knocks.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L004",
+   "L005",
+   "L006"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Can I tell you something?",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L007"
+  ]
+ },
+ {
+  "id": "G004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "What would you say with fourteen words?",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L008"
+  ]
+ }
+]

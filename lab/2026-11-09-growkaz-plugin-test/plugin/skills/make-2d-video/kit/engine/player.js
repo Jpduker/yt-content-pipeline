@@ -88,7 +88,7 @@ const barVal = (s) => (typeof (s?.bars ?? E.cfg.bars) === 'number' ? (s.bars ?? 
 window.renderFrame = function (f) {
   const t = f / E.fps, i = shotIndexAt(t), shot = E.shots[i], lt = t - shot.start;
   drawShot(bufA, shot, lt);
-  const tr = shot.in || { type: 'cut' }, tdur = tr.dur ?? (tr.type === 'whip' ? 0.35 : 0.5);
+  const tr = shot.in || { type: 'cut' }, tdur = tr.dur ?? (tr.type === 'whip' ? 0.35 : tr.type === 'iris' ? 0.45 : 0.5);
   const W = main.width, H = main.height; mg.setTransform(1, 0, 0, 1, 0, 0); mg.globalAlpha = 1; mg.globalCompositeOperation = 'source-over';
   const grade = E.style.grade; mg.filter = grade.filter && grade.filter !== 'none' ? grade.filter : 'none';
   if (tr.type !== 'cut' && i > 0 && lt < tdur) {
@@ -97,6 +97,13 @@ window.renderFrame = function (f) {
     else if (tr.type === 'dip' || tr.type === 'dipWhite') { const c = tr.type === 'dip' ? '#000' : '#fff'; mg.drawImage(k < 0.5 ? bufB : bufA, 0, 0); mg.filter = 'none'; mg.globalAlpha = k < 0.5 ? k * 2 : (1 - k) * 2; mg.fillStyle = c; mg.fillRect(0, 0, W, H); }
     else if (tr.type === 'flash') { mg.drawImage(bufA, 0, 0); mg.filter = 'none'; mg.globalAlpha = (1 - lt / tdur) ** 2; mg.fillStyle = '#fff'; mg.fillRect(0, 0, W, H); }
     else if (tr.type === 'whip') { const dir = tr.dir || 1; for (let s = 0; s < 4; s++) { mg.globalAlpha = 0.3; mg.drawImage(bufB, -dir * k * W * 1.1 - dir * s * W * 0.02, 0); mg.drawImage(bufA, dir * (1 - k) * W * 1.1 + dir * s * W * 0.02, 0); } }
+    else if (tr.type === 'push') { const q = ease.inOut(lt / tdur), dir = tr.dir || 1; mg.drawImage(bufB, -dir * q * W, 0); mg.drawImage(bufA, dir * (1 - q) * W, 0); }
+    else if (tr.type === 'bands') { const q = ease.inOut(lt / tdur), cols = tr.cols || ['#FFD23F', '#ffffff', '#14213D'], R = -W * .5 + q * W * 1.9, bw = W * .14, sl = H * .18;
+      mg.drawImage(bufB, 0, 0); mg.save(); mg.beginPath(); mg.moveTo(-W, 0); mg.lineTo(R - bw * 3, 0); mg.lineTo(R - bw * 3 - sl, H); mg.lineTo(-W, H); mg.closePath(); mg.clip(); mg.drawImage(bufA, 0, 0); mg.restore();
+      cols.forEach((c, i) => { const x0 = R - bw * (3 - i); mg.fillStyle = c; mg.beginPath(); mg.moveTo(x0, 0); mg.lineTo(x0 + bw, 0); mg.lineTo(x0 + bw - sl, H); mg.lineTo(x0 - sl, H); mg.closePath(); mg.fill(); }); }
+    else if (tr.type === 'iris') { const q = lt / tdur, cx = (tr.cx ?? .5) * W, cy = (tr.cy ?? .5) * H, Rm = Math.hypot(W, H);
+      mg.drawImage(bufB, 0, 0); if (q < .55) { const r = Rm * (2 ** (10 * q / .55 - 10)); mg.fillStyle = tr.fill || '#FF5A36'; mg.beginPath(); mg.arc(cx, cy, r, 0, 7); mg.fill(); }
+      else { mg.fillStyle = tr.fill || '#FF5A36'; mg.fillRect(0, 0, W, H); const k2 = ease.out((q - .55) / .45), s2 = 1.25 - .25 * k2; mg.save(); mg.globalAlpha = Math.min(1, k2 * 2); mg.translate(W / 2, H / 2); mg.scale(s2, s2); mg.drawImage(bufA, -W / 2, -H / 2); mg.restore(); } }
     else if (tr.type === 'zoom') { mg.drawImage(bufB, 0, 0); const s = 1.15 - 0.15 * k; mg.globalAlpha = k; mg.translate(W / 2, H / 2); mg.scale(s, s); mg.drawImage(bufA, -W / 2, -H / 2); mg.setTransform(1, 0, 0, 1, 0, 0); }
     else mg.drawImage(bufA, 0, 0);
   } else mg.drawImage(bufA, 0, 0);

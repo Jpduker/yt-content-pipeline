@@ -29,7 +29,7 @@ def main(P):
     lib = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../project/scenes')
     cast_src = open(f'{lib}/cast.js').read()
     cast = set(re.findall(r'^\s{2}([A-Z][A-Z_0-9]*)\s*:', cast_src, re.M))
-    kinds = {'charsheet', 'faces', 'scene', 'face', 'insert', 'blueprint', 'topdown', 'title', 'end', 'shortEnd', '3d'}
+    kinds = {'charsheet', 'faces', 'scene', 'face', 'insert', 'blueprint', 'topdown', 'title', 'end', 'shortEnd', '3d', 'kt'}
     E, W = [], []
     LINES = json.load(open(f'{P}/timeline/lines.json'))
     TAGOF = {'YOU_TEE': 'YOU', 'MIRA_EVE': 'MIRA', 'MIRA_HOME': 'MIRA', 'ROSA': 'LADY'}

@@ -596,7 +596,47 @@ function shortEnd(g, t, info) {   // last 2 s of a Short: drawn straight in 9:16
   text(g, 'ON THE CHANNEL', E.W / 2, E.H * .635, { size: 64, font: FONTS.ui, weight: 900, color: '#f4ecdf', alpha: prog(t, .35, .65), spacing: 4 });
   (info.lines || []).forEach((ln, i) => text(g, ln, E.W / 2, E.H * .72 + i * 54, { size: 40, font: 'Nunito', weight: 800, italic: true, color: 'rgba(244,236,223,.85)', alpha: prog(t, .5, .8) }));
 }
+
+// ---------- v3.2 KT page: kinetic typography (huashu-art-motion y5 grammar), drawn straight in the frame (16:9 or 9:16) ----------
+// p.bg page colour · p.dots moving dot grid · p.tag small chip (top-left) · p.who figures [{id,x,y,s,pose,expr,f,badge}] (x,y fractions, feet at y)
+// p.items: {k:'slam'|'rise'|'pop'|'typed'|'marker'|'bignum'|'word', t, at, out, x, y, sz, c, ...}
+const KTE = { expoOut: x => x >= 1 ? 1 : 1 - 2 ** (-10 * clamp(x)), expoIn: x => x <= 0 ? 0 : 2 ** (10 * clamp(x) - 10), spring: (t, f = 2.2, d = 10) => t <= 0 ? 0 : 1 - Math.exp(-d * t) * Math.cos(2 * Math.PI * f * t),
+  backOut: (x, k = 2.8) => { x = clamp(x); return 1 + (k + 1) * (x - 1) ** 3 + k * (x - 1) ** 2; } };
+function ktText(g, str, x, y, sz, col, o = {}) { g.save(); g.translate(x, y); if (o.rot) g.rotate(o.rot); if (o.sc != null) g.scale(o.sc, o.sc); g.globalAlpha *= o.a ?? 1;
+  g.font = `${o.w || 700} ${sz}px ${o.font || 'Fredoka'}`; g.textAlign = o.align || 'center'; g.textBaseline = 'middle'; g.fillStyle = col; g.fillText(str, 0, 0); g.restore(); }
+function kt(g, t, p) {
+  const W = E.W, H = E.H, dur = p.dur, X = v => v <= 1 ? v * W : v, Y = v => v <= 1 ? v * H : v;
+  let bump = 1; for (const it of p.items || []) if (it.k === 'slam' || it.k === 'bignum') { const d = t - (it.at ?? 0); if (d >= 0 && d < .5) bump = Math.max(bump, 1 + .035 * Math.exp(-14 * d)); }
+  g.save(); g.fillStyle = p.bg || '#FFD23F'; g.fillRect(0, 0, W, H);
+  const cx = W / 2 + Math.sin(t / 7 * 6.28) * 5, cy = H / 2 + Math.sin(t / 2.7 * 6.28) * 4; g.translate(cx, cy); g.scale(bump, bump); g.rotate(Math.sin(t / 9 * 6.28) * .006); g.translate(-W / 2, -H / 2);
+  if (p.dots !== false) { g.fillStyle = 'rgba(0,0,0,.08)'; const o = (t * 36) % 64; for (let x = -64; x < W + 64; x += 64) for (let y = -64; y < H + 64; y += 64) { g.beginPath(); g.arc(x + o, y + o, 4, 0, 7); g.fill(); } }
+  for (const it of (p.items || []).filter(i => i.k === 'bignum')) { const d = t - (it.at ?? 0); if (d < 0) continue; const sc = 1.35 - .35 * KTE.spring(d, 2, 8);
+    ktText(g, it.t, X(it.x ?? .62) + d * 14, Y(it.y ?? .7) + d * 10, it.sz ?? 900, it.c || '#000', { sc, a: it.a ?? .1, w: 700 }); }
+  for (const w of p.who || []) { const fig = { x: X(w.x), y: Y(w.y), s: w.s ?? 2, facing: w.f ?? 1, pose: POSES[seqVal(w.pose, t / dur) || 'stand'], expr: seqVal(w.expr, t / dur) || 'neutral', ex: exAt(w.expr, t, dur),
+      talk: talkFor(w.id, p.globalT), blink: (t + 1.3) % 3.1 > 2.95, look: w.look || [0, 0] };
+    const [hx, hy, hr] = drawChar(g, w.id, fig, t); if (w.badge) badge(g, hx, hy, hr, w.badge, t, t / dur); }
+  for (const it of p.items || []) {
+    if (it.k === 'bignum') continue; const a0 = it.at ?? 0, d = t - a0; if (d < 0) continue;
+    let ex = 1, exY = 0, exA = 1; if (it.out != null && t > it.out) { const q = KTE.expoIn((t - it.out) / .18); ex = 1 - .4 * q; exY = 60 * q; exA = 1 - q; if (exA <= 0) continue; }
+    const x = X(it.x ?? .5), y = Y(it.y ?? .4) + exY, sz = it.sz ?? 160, c = it.c || '#111111';
+    if (it.k === 'slam') { const sp = KTE.spring(d); ktText(g, it.t, x, y, sz, c, { sc: (1.7 - .7 * sp) * ex, rot: (it.rot ?? -.14) * (1 - sp), a: clamp(d / .06) * exA }); }
+    else if (it.k === 'rise') { const q = KTE.expoOut(d / .33); g.save(); g.beginPath(); g.rect(0, y - sz * .62, W, sz * 1.24); g.clip(); ktText(g, it.t, x, y + sz * 1.2 * (1 - q), sz, c, { sc: ex, a: exA, w: it.w || 600 }); g.restore(); }
+    else if (it.k === 'pop') { const q = KTE.backOut(d / .38); if (it.disc) { g.save(); g.globalAlpha *= exA; g.fillStyle = it.disc; g.beginPath(); g.arc(x, y, sz * .78 * q * ex, 0, 7); g.fill(); g.restore(); } ktText(g, it.t, x, y, sz, c, { sc: q * ex, a: exA }); }
+    else if (it.k === 'typed') { const n = Math.min(it.t.length, Math.floor(d * (it.cps ?? 22))), str = it.t.slice(0, n), fs = sz, bw = it.bw ?? W * .78;
+      g.save(); g.globalAlpha *= exA; const q = KTE.backOut(d / .3, 1.6); g.translate(x, y); g.scale(q * ex, q * ex); rr(g, -bw / 2, -fs * 1.1, bw, fs * 2.2, 30); g.fillStyle = it.bubble || '#3A86FF'; g.fill();
+      ktText(g, str + ((d * 2) % 1 < .5 ? '|' : ''), -bw / 2 + 40, 0, fs, it.c || '#fff', { align: 'left', w: 600 }); g.restore(); }
+    else if (it.k === 'marker') { const mk = it.mark ?? a0 + .4, q = KTE.expoOut((t - mk) / .3), key = t > mk + .25 ? 1 + .25 * KTE.spring(t - mk - .25, 2.5, 9) : 1;
+      g.save(); g.font = `700 ${sz}px Fredoka`; const tw = g.measureText(it.t).width; g.restore();
+      if (t > mk) { g.save(); g.translate(x, y); g.scale(key * ex, key * ex); g.globalAlpha *= exA; g.fillStyle = it.mc || '#FFD23F'; g.beginPath(); const L = -tw / 2 - 20, R = L + (tw + 40) * q; g.moveTo(L, sz * .42); g.lineTo(R, sz * .42 - (R - L) * .0); g.lineTo(R + sz * .18, -sz * .38); g.lineTo(L + sz * .18, -sz * .38); g.closePath(); g.fill(); g.restore(); }
+      const qi = KTE.expoOut(d / .33); g.save(); g.beginPath(); g.rect(0, y - sz * key * .75, W, sz * key * 1.5); g.clip(); ktText(g, it.t, x, y + sz * 1.2 * (1 - qi), sz, c, { sc: key * ex, a: exA }); g.restore(); }
+    else if (it.k === 'word') { const sp = KTE.backOut(d / .3, 2); ktText(g, it.t, x, y, sz, c, { sc: sp * ex, a: clamp(d / .05) * exA }); }
+  }
+  g.restore();
+  if (p.tag) { const fs = E.vertical ? 34 : 28; g.save(); g.font = `700 ${fs}px Fredoka`; const w = g.measureText(p.tag).width + fs * 1.2; rr(g, 40, 40, w, fs * 1.7, fs * .85); g.fillStyle = 'rgba(17,17,17,.82)'; g.fill(); g.restore(); ktText(g, p.tag, 40 + w / 2, 40 + fs * .85, fs, '#fff', { w: 700 }); }
+  if (p.caps) cap(g, p.globalT);
+}
 const B0 = { charsheet, faces, scene, face, insert, blueprint, topdown, title, end }, B = { shortEnd };
+B.kt = kt;
 for (const k in B0) B[k] = (g, t, info) => { if (!E.vertical) return B0[k](g, t, info);
   const W0 = E.W, H0 = E.H, kk = H0 / 1080, vis = W0 / kk, left = clamp(panFor(info, t) - vis / 2, 0, 1920 - vis);
   E.W = 1920; E.H = 1080; E.vertical = false; VERT = { left, k: kk }; GQ.length = 0; g.save(); g.scale(kk, kk); g.translate(-left, 0);
@@ -652,5 +692,6 @@ for (const s of E.shots || []) {
     if (info.polaroid && t >= (info.polaroid.at ?? 0)) { fxPolaroid(g, t, { ...info, id: s.id }, f); return; }
     const shk = slamShake(info, t); if (shk) { g.save(); g.translate(shk[0], shk[1]); }
     f(g, t, info); if (shk) g.restore();
-    fxPops(g, t, info); fxSlam(g, t, info); } });
+    fxPops(g, t, info); fxSlam(g, t, info);
+    if (info.tag && info.k !== 'kt') { const fs = E.vertical ? 34 : 28; g.save(); g.font = `700 ${fs}px Fredoka`; const w = g.measureText(info.tag).width + fs * 1.2; rr(g, 40, 40, w, fs * 1.7, fs * .85); g.fillStyle = 'rgba(17,17,17,.82)'; g.fill(); g.restore(); ktText(g, info.tag, 40 + w / 2, 40 + fs * .85, fs, '#fff', { w: 700 }); } } });
 }

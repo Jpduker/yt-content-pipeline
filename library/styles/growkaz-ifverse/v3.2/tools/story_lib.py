@@ -74,6 +74,12 @@ def finish(title, music, cues=(), motif='echo', tail=2.6):
             if isinstance(b, dict) and 'atA' in b: b['at'] = round(max(0, at(b.pop('atA')) - st), 3)
             for kk in ('wipe', 'fade'):
                 if isinstance(b, dict) and kk + 'A' in b: b[kk + 'At'] = round(at(b.pop(kk + 'A')) - st, 3)
+        KSFX = {'slam': ('hit', -7), 'pop': ('pop', -10), 'word': ('pop', -13), 'rise': ('swish', -18), 'marker': ('swish', -14), 'bignum': ('kick', -9), 'typed': ('tick', -16)}
+        for it in p.get('items') or []:
+            for kk in ('at', 'out', 'mark'):
+                if isinstance(it.get(kk), str): it[kk] = round(max(0, at(it[kk]) - st), 3)
+            if it.get('k') in KSFX: sfx.append((it.get('at', 0), *KSFX[it['k']]))
+            if it.get('k') == 'marker': sfx.append((it.get('mark', it.get('at', 0) + .4), 'swish', -12))
         for fx in (p.get('pops') or []) + ([p['slam']] if isinstance(p.get('slam'), dict) else []) + ([p['polaroid']] if isinstance(p.get('polaroid'), dict) else []):   # v3.2 word-timed overlays
             if isinstance(fx.get('at'), str): fx['at'] = round(max(0, at(fx['at']) - st), 3)
             if isinstance(fx.get('to'), str): fx['to'] = round(at(fx['to']) - st, 3)
@@ -82,12 +88,14 @@ def finish(title, music, cues=(), motif='echo', tail=2.6):
         if isinstance(p.get('polaroid'), dict): sfx += [(p['polaroid'].get('at', 0), 'flash', -10), (p['polaroid'].get('at', 0) + .25, 'ding', -16)]
         if i == 0: p['motif'] = motif
         out.append(dict(id=sid or f's{i + 1:03d}', start=round(st, 3), end=round(en, 3), line='', scene=k, bars=s['bars'],
-                        **{'in': {'type': s['tr'], 'dur': .4 if s['tr'] != 'cut' else 0}}, sfx=[{'at': a, 'name': n, 'gain': g} for a, n, g in sfx], captions=s['cap'], params=dict(k=k, **p)))
+                        **{'in': (dict({'dur': .45}, **s['tr']) if isinstance(s['tr'], dict) else {'type': s['tr'], 'dur': .4 if s['tr'] != 'cut' else 0})}, sfx=[{'at': a, 'name': n, 'gain': g} for a, n, g in sfx], captions=s['cap'], params=dict(k=k, **p)))
     def shot_at(t): return next((o for o in out if o['start'] <= t < o['end']), out[-1])
     for o in out:
         p = o['params']; st = p.get('set')
         if st in AMB: o['amb'] = {'name': AMB[st][0], 'gain': AMB[st][1]}
         tr = o['in']['type']
+        if tr in ('push', 'bands'): o['sfx'].append({'at': 0, 'name': 'whoosh', 'gain': -11})
+        if tr == 'iris': o['sfx'].append({'at': 0, 'name': 'riser', 'gain': -16})
         if tr == 'whip': o['sfx'].append({'at': 0, 'name': 'whoosh', 'gain': -10})
         if tr == 'flash': o['sfx'].append({'at': 0, 'name': 'flash', 'gain': -12})
         if p.get('clock'): o['sfx'].append({'at': .15, 'name': 'blip', 'gain': -18})

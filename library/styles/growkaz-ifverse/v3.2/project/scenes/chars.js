@@ -36,13 +36,14 @@ export function face(g, x, y, r, o = {}) {
   eyes.forEach(([ex0, sx, out], i) => {
     const w = r * .088 * sx * P.ew, h = r * .17 * P.eh, px = ex0 + lk[0] * r * .035, py = ey + lk[1] * r * .03;
     const lt = o.blink ? 1 : P.lt;
+    // v3.2 eyes (Gemini sheets): only glowing white shapes on the black head — never ink lids or cheek circles.
     if (lt >= .95) { g.strokeStyle = col; g.lineWidth = lw * .9; g.beginPath(); g.moveTo(px - w * 1.25, py + h * .25); g.quadraticCurveTo(px, py + h * (.25 + .3 * (P.mc < 0 ? 1 : -.6)), px + w * 1.25, py + h * .25); g.stroke(); }
+    else if (P.lb > .45) { g.strokeStyle = col; g.lineWidth = lw * 1.05; g.beginPath(); g.moveTo(px - w * 1.35, py + h * .35); g.quadraticCurveTo(px, py - h * .75, px + w * 1.35, py + h * .35); g.stroke(); }   // happy: ^ arcs
     else {
-      g.fillStyle = col; g.beginPath(); g.ellipse(px, py, w, h, 0, 0, Math.PI * 2); g.fill();
-      g.fillStyle = ink;
-      if (lt > .01) { const tl = P.bt * h * .5 * out; g.beginPath(); g.moveTo(px - w * 1.5, py - h * 1.2); g.lineTo(px + w * 1.5, py - h * 1.2); g.lineTo(px + w * 1.5, py - h + 2 * h * lt + tl); g.lineTo(px - w * 1.5, py - h + 2 * h * lt - tl); g.closePath(); g.fill(); }
-      if (P.lb > .01) { const R = w * 1.9; g.beginPath(); g.arc(px, py + h - 2 * h * P.lb * .78 + R, R, 0, Math.PI * 2); g.fill(); }
-      if (P.tw > .05) { g.strokeStyle = `rgba(150,205,255,${.95 * P.tw})`; g.lineWidth = lw * .7; g.beginPath(); g.ellipse(px, py, w * .82, h * .86, 0, Math.PI * .15, Math.PI * .85); g.stroke(); }
+      const top = py - h + 2 * h * lt, bot = py + h - 2 * h * P.lb * .78, tl = P.bt * h * .5 * out;
+      g.save(); g.shadowBlur = 0; g.beginPath(); g.moveTo(px - w * 2, top - tl); g.lineTo(px + w * 2, top + tl); g.lineTo(px + w * 2, bot); g.lineTo(px - w * 2, bot); g.closePath(); g.clip();
+      g.fillStyle = col; g.beginPath(); g.ellipse(px, py, w, h, 0, 0, Math.PI * 2); g.fill(); g.restore();
+      if (P.tw > .05) { g.fillStyle = `rgba(150,205,255,${.9 * P.tw})`; g.beginPath(); g.ellipse(px, py + h * .55, w * .75, h * .3, 0, 0, Math.PI * 2); g.fill(); }
     }
     if (o.lashes && lt < .95 && P.lb < .6) seg(g, [[px + out * w * .95, py - h * .5], [px + out * w * 1.6, py - h * .72]], lw * .5, col);
     if (o.glasses) { g.strokeStyle = alpha(col, .9); g.lineWidth = lw * .45; g.beginPath(); g.arc(ex0, ey, r * .2 * sx, 0, Math.PI * 2); g.stroke(); }
@@ -154,27 +155,29 @@ function torso(g, p, top) {   // outline path of the upper garment
     g.quadraticCurveTo(hx + W + 3, (sy + bot) / 2, hx + Wb, bot); g.quadraticCurveTo(hx, bot + 4, hx - Wb, bot); g.quadraticCurveTo(hx - W - 3, (sy + bot) / 2, sx - W, sy + 12); g.closePath(); };
 }
 function sleeveEnd(a, b, k) { return [lerp(a[0], b[0], k), lerp(a[1], b[1], k)]; }
-function puppetParts(g, id, o, p0, sil) {
-  SILP = !!sil;
+function puppetParts(g, id, o, p0, sil, mode = 'fill') {
+  SILP = !!sil || mode === 'fill'; const OUT = !sil && mode === 'out';
   // front-on body (as in the sheets): spread the side-view rig's arms to the two shoulders and the legs to the two hips
   const sh = (pt, dx) => [pt[0] + dx, pt[1]], AX = 33, LX = 10;
-  const p = { ...p0, eB: sh(p0.eB, -AX), hB: sh(p0.hB, -AX), eF: sh(p0.eF, AX), hF: sh(p0.hF, AX), kB: sh(p0.kB, -LX), fB: sh(p0.fB, -LX - 2), kF: sh(p0.kF, LX), fF: sh(p0.fF, LX + 2), shB: sh(p0.sh, -AX + 8), shF: sh(p0.sh, AX - 8), hipB: sh(p0.hip, -LX), hipF: sh(p0.hip, LX) };
+  const hang = (h) => Math.abs(h[0] - p0.sh[0]) < 16 && h[1] > p0.sh[1] + 30, aB = hang(p0.hB) ? AX : AX * .4, aF = hang(p0.hF) ? AX : AX * .4;
+  const p = { ...p0, eB: sh(p0.eB, -aB), hB: sh(p0.hB, -aB), eF: sh(p0.eF, aF), hF: sh(p0.hF, aF), kB: sh(p0.kB, -LX), fB: sh(p0.fB, -LX - 2), kF: sh(p0.kF, LX), fF: sh(p0.fF, LX + 2), shB: sh(p0.sh, -Math.min(aB, AX - 8)), shF: sh(p0.sh, Math.min(aF, AX - 8)), hipB: sh(p0.hip, -LX), hipF: sh(p0.hip, LX) };
   const of = CAST[id] || {}, { top, col, pants, shorts } = wear(id, of), C = c => sil || c, K = sil || INK, dk = shade(col, -.28);
   const longSl = !['tshirt'].includes(top), slW = top === 'puffer' ? 21 : 16;
-  const T = (pts, w, c) => sil ? seg(g, pts, w + OL * 2, sil) : tube(g, pts, w, c);
-  const B = (path, c) => sil ? (g.fillStyle = sil, path(), g.fill(), g.strokeStyle = sil, g.lineWidth = OL * 2, path(), g.stroke()) : blob(g, path, c);
+  const T = (pts, w, c) => sil ? seg(g, pts, w + OL * 2, sil) : OUT ? seg(g, pts, w + OL * 2, INK) : seg(g, pts, w, c);
+  const B = (path, c) => { const cc = sil || (OUT ? INK : c); g.fillStyle = cc; path(); g.fill(); if (sil || OUT) { g.strokeStyle = cc; g.lineWidth = OL * 2; g.lineJoin = 'round'; path(); g.stroke(); } };
   // ---- legs (far, then near)
   const leg = (h, k, ft, far) => {
-    if (pants && !shorts) { T([h, k, ft], 15, C(far ? shade(pants, -.2) : pants)); B(() => { g.beginPath(); g.ellipse(ft[0] + 5, ft[1] - 3, 10, 5, 0, 0, 7); }, K); return; }
+    if (pants && !shorts) { T([h, k, ft], 15, C(far ? shade(pants, -.2) : pants)); B(() => { g.beginPath(); g.ellipse(ft[0] + 5, ft[1] - 3, 10, 5, 0, 0, 7); }, INK); return; }
     if (shorts) { const kn = sleeveEnd(h, k, .75); T([h, kn], 17, C(far ? shade(pants, -.2) : pants)); stickLimb(g, [kn, k, ft], K); }
-    else stickLimb(g, [h, k, ft], K);
-    if (!sil) seg(g, [[ft[0] - 2, ft[1] - 1.5], [ft[0] + 10, ft[1] - 1.5]], 5.5, K);
+    else if (OUT) seg(g, [h, k, ft], STICK, INK);
+    if (OUT) seg(g, [[ft[0] - 2, ft[1] - 1.5], [ft[0] + 10, ft[1] - 1.5]], 5.5, K);
   };
   leg(p.hipB, p.kB, p.fB, true);
   // ---- far arm
   const arm = (e, h, far) => { const sc = far ? dk : col, wr = sleeveEnd(e, h, .8), S0 = far ? p.shB : p.shF;
-    if (longSl) T([S0, e, wr], slW, C(sc)); else { T([S0, sleeveEnd(S0, e, .55)], 17, C(sc)); stickLimb(g, [sleeveEnd(S0, e, .5), e, h], K); }
-    circle(g, h[0], h[1], 7.5, K); };
+    if (!longSl && OUT) seg(g, [sleeveEnd(S0, e, .5), e, h], STICK, INK);
+    if (longSl) T([S0, e, wr], slW, C(sc)); else T([S0, sleeveEnd(S0, e, .55)], 17, C(sc));
+    circle(g, h[0], h[1], 7.5 + (sil || OUT ? OL : 0), sil || INK); };
   arm(p.eB, p.hB, true);
   leg(p.hipF, p.kF, p.fF, false);
   // ---- hood roll behind the neck
@@ -182,7 +185,7 @@ function puppetParts(g, id, o, p0, sil) {
   if (top === 'puffer') B(() => { g.beginPath(); g.ellipse(p.sh[0], p.sh[1] - 8, 26, 12, 0, 0, 7); }, C('#a8a6ae'));
   // ---- torso
   const path = torso(g, p, top); B(path, C(col));
-  if (!sil) {
+  if (!sil && !OUT) {
     g.save(); path(); g.clip();
     g.fillStyle = dk; g.globalAlpha = .55; g.fillRect(p.sh[0] - 60, p.sh[1] - 30, 44, 220); g.globalAlpha = 1;      // one flat shadow tone on the back side
     const [sx, sy] = p.sh, [hx, hy] = p.hip;
@@ -202,12 +205,12 @@ function puppetParts(g, id, o, p0, sil) {
     g.restore();
   }
   // ---- hood collar sits on the shoulders, under the head
-  if (top === 'hoodie') { B(() => { g.beginPath(); g.ellipse(p.sh[0], p.sh[1] - 7, 29, 13, 0, 0, 7); }, C(shade(col, -.14))); if (!sil) { g.fillStyle = INK; g.beginPath(); g.moveTo(p.sh[0] - 7, p.sh[1] - 2); g.lineTo(p.sh[0] + 7, p.sh[1] - 2); g.lineTo(p.sh[0], p.sh[1] + 9); g.closePath(); g.fill(); } }
+  if (top === 'hoodie') { B(() => { g.beginPath(); g.ellipse(p.sh[0], p.sh[1] - 7, 29, 13, 0, 0, 7); }, C(shade(col, -.14))); if (!sil && !OUT) { g.fillStyle = INK; g.beginPath(); g.moveTo(p.sh[0] - 7, p.sh[1] - 2); g.lineTo(p.sh[0] + 7, p.sh[1] - 2); g.lineTo(p.sh[0], p.sh[1] + 9); g.closePath(); g.fill(); } }
   // ---- near arm, neck, head
   arm(p.eF, p.hF, false);
-  if (top === 'track') { const e = p.eF; seg(g, [[p.sh[0] + 4, p.sh[1]], sleeveEnd(e, p.hF, .75)], 1.6, sil || '#e8e6ee'); }
+  if (top === 'track' && !sil && !OUT) { const e = p.eF; seg(g, [[p.sh[0] + 4, p.sh[1]], sleeveEnd(e, p.hF, .75)], 1.6, '#e8e6ee'); }
   const hx = p.head[0], hy = p.head[1] + PHEADY;
-  circle(g, hx, hy, PHEAD + OL * .8, K); if (!sil) circle(g, hx, hy, PHEAD, HEADC);
+  if (sil || OUT) circle(g, hx, hy, PHEAD + OL, sil || INK); else circle(g, hx, hy, PHEAD, HEADC);
 }
 export function puppetHead(o) { const p = o.pose || POSES.stand, s = o.s ?? 1, f = o.facing ?? 1; let x = p.head[0], y = p.head[1] + PHEADY;
   if (o.rot) { const [hx, hy] = p.hip, c = Math.cos(o.rot), sn = Math.sin(o.rot); [x, y] = [hx + (x - hx) * c - (y - hy) * sn, hy + (x - hx) * sn + (y - hy) * c]; }
@@ -219,7 +222,7 @@ export function drawPuppet(g, id, o) {
   if (o.shadow !== false && !o.rot) { g.fillStyle = 'rgba(10,4,12,.22)'; g.beginPath(); g.ellipse(o.x, o.y + 2, 38 * s, 6 * s, 0, 0, 7); g.fill(); }
   g.save(); g.filter = `blur(${3.2 * s}px)`; tf(3.6 * s, -3 * s); puppetParts(g, id, o, p, alpha(GLOW, .7)); g.restore();     // soft peach glow behind the silhouette (top-right)
   g.save(); tf(1.7 * s, -1.5 * s); puppetParts(g, id, o, p, EDGE); g.restore();                                                 // thin warm edge line (as in the sheets)
-  g.save(); tf(0, 0); puppetParts(g, id, o, p, null); g.restore();
+  g.save(); tf(0, 0); puppetParts(g, id, o, p, null, 'out'); puppetParts(g, id, o, p, null, 'fill'); g.restore();
   g.restore();
 }
 // ---------- full figure: kit body + our head ----------
