@@ -1,0 +1,88 @@
+[
+ {
+  "id": "G001",
+  "tag": "LIA",
+  "thought": false,
+  "note": "",
+  "text": "You think my haircut looks like a mushroom.",
+  "voice": "af_nova",
+  "speed": 1.1,
+  "ids": [
+   "L001"
+  ]
+ },
+ {
+  "id": "G002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Ben's sister can hear his thoughts. One minute a day. She always picks the worst minute.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L002",
+   "L003"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Tonight, she picks dinner. Ben is thinking about the job he didn't get.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L004",
+   "L005"
+  ]
+ },
+ {
+  "id": "G004",
+  "tag": "LIA",
+  "thought": false,
+  "note": "",
+  "text": "You didn't tell Mum.",
+  "voice": "af_nova",
+  "speed": 1.1,
+  "ids": [
+   "L006"
+  ]
+ },
+ {
+  "id": "G005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He waits for the jokes.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L007"
+  ]
+ },
+ {
+  "id": "G006",
+  "tag": "LIA",
+  "thought": false,
+  "note": "",
+  "text": "Mum, guess what Ben thinks about my hair.",
+  "voice": "af_nova",
+  "speed": 1.1,
+  "ids": [
+   "L008"
+  ]
+ },
+ {
+  "id": "G007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She takes the heat. So he doesn't have to.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L009"
+  ]
+ }
+]

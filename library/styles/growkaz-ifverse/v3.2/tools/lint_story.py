@@ -28,7 +28,7 @@ def main(P):
     S = json.load(open(f'{P}/story/shots.json'))['shots']
     lib = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../project/scenes')
     cast_src = open(f'{lib}/cast.js').read()
-    cast = set(re.findall(r'^\s{2}([A-Z][A-Z_0-9]*)\s*:', cast_src, re.M))
+    cast = set(re.findall(r'\b([A-Z][A-Z_0-9]*)\s*:\s*\{', cast_src))   # v3.2: several entries per line
     kinds = {'charsheet', 'faces', 'scene', 'face', 'insert', 'blueprint', 'topdown', 'title', 'end', 'shortEnd', '3d', 'kt'}
     E, W = [], []
     LINES = json.load(open(f'{P}/timeline/lines.json'))
@@ -80,6 +80,11 @@ def main(P):
                     if inside: seen[w['id']] = True
                     if spk is w and not inside: bad_spk.add(w['id'])
             for wid in bad_spk: E.append(f'{sid}: {wid} speaks but is outside the 9:16 crop')
+            named = {TAGOF.get(w['id'], w['id']): w['id'] for w in main}   # v3.2: a character the narration names in this shot must be in the crop at some point
+            for l in LINES:
+                if l['start'] < s['end'] and l['end'] > s['start'] and l['tag'] == 'N':
+                    for nm, wid in named.items():
+                        if wid in seen and not seen[wid] and (nm.lower() in l['text'].lower() or (nm == 'THEO' and 'brother' in l['text'].lower())): E.append(f'{sid}: narration names {nm} but {wid} is outside the 9:16 crop')
             for wid, ok in seen.items():
                 if not ok and wid not in bad_spk: (E if wid.startswith('_') else W).append(f'{sid}: {wid.lstrip("_")} never inside the 9:16 crop' + ('' if wid.startswith('_') else ' (intended?)'))
     if vert:

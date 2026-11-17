@@ -1,0 +1,6 @@
+# project | dest (relative to what-if/)
+2026-11-22-wi13-thousand-words/project | 2026-11-22-wi13-thousand-words/final/what-if-you-only-had-1000-words-a-day-1080p.mp4
+2026-11-22-wi13-thousand-words/short-1 | 2026-11-22-wi13-thousand-words/final/wi13-short-1-9x16.mp4
+2026-11-22-wi13-thousand-words/short-2 | 2026-11-22-wi13-thousand-words/final/wi13-short-2-9x16.mp4
+shorts/2026-11-22-o15-grandma-hug/project | shorts/2026-11-22-o15-grandma-hug/final/o15-grandma-hug-9x16.mp4
+shorts/2026-11-22-o16-sister-thoughts/project | shorts/2026-11-22-o16-sister-thoughts/final/o16-sister-thoughts-9x16.mp4

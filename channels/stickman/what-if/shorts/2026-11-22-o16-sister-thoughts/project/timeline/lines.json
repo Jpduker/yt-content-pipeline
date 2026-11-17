@@ -1,0 +1,92 @@
+[
+ {
+  "id": "L001",
+  "tag": "LIA",
+  "thought": false,
+  "note": "",
+  "text": "You think my haircut looks like a mushroom.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 3.062
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Ben's sister can hear his thoughts. One minute a day.",
+  "sec": "hook",
+  "start": 3.462,
+  "end": 6.912
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She always picks the worst minute.",
+  "sec": "hook",
+  "start": 7.052,
+  "end": 8.726
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Tonight, she picks dinner.",
+  "sec": "act1",
+  "start": 9.327,
+  "end": 10.992
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Ben is thinking about the job he didn't get.",
+  "sec": "act1",
+  "start": 11.131,
+  "end": 13.386
+ },
+ {
+  "id": "L006",
+  "tag": "LIA",
+  "thought": false,
+  "note": "",
+  "text": "You didn't tell Mum.",
+  "sec": "act1",
+  "start": 13.647,
+  "end": 15.249
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He waits for the jokes.",
+  "sec": "act1",
+  "start": 15.649,
+  "end": 16.999
+ },
+ {
+  "id": "L008",
+  "tag": "LIA",
+  "thought": false,
+  "note": "",
+  "text": "Mum, guess what Ben thinks about my hair.",
+  "sec": "act1",
+  "start": 17.259,
+  "end": 19.835
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She takes the heat. So he doesn't have to.",
+  "sec": "act1",
+  "start": 20.235,
+  "end": 22.77
+ }
+]

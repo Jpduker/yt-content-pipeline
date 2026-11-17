@@ -1,0 +1,840 @@
+{
+ "title": "His Brother Needed Him. He Had 14 Words Left. #shorts",
+ "duration": 56.788,
+ "shots": [
+  {
+   "id": "s016",
+   "start": 0.0,
+   "end": 2.203,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "cam": [
+     [
+      960,
+      600,
+      1.2
+     ],
+     [
+      960,
+      600,
+      1.3
+     ]
+    ],
+    "vx": 930,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 760,
+      "pose": "sitHands",
+      "expr": [
+       [
+        0,
+        "sad"
+       ],
+       [
+        0.32955061280072867,
+        "surprised"
+       ]
+      ],
+      "f": 1,
+      "badge": {
+       "k": "words",
+       "v": 14,
+       "at": 0
+      }
+     },
+     {
+      "id": "THEO",
+      "x": 0,
+      "pose": "walk",
+      "expr": "teary",
+      "f": -1,
+      "walk": [
+       1500,
+       1080,
+       0,
+       0.6
+      ]
+     }
+    ],
+    "motif": "num",
+    "hookText": "HIS BROTHER NEEDS HIM"
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s017",
+   "start": 2.203,
+   "end": 6.173,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "THEO",
+    "side": -1,
+    "bgCam": [
+     1150,
+     520,
+     1.5
+    ],
+    "expr": "teary",
+    "badge": {
+     "k": "words",
+     "v": 1000,
+     "at": 0
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s018",
+   "start": 6.173,
+   "end": 10.929,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "cam": [
+     [
+      860,
+      600,
+      1.35
+     ],
+     [
+      860,
+      600,
+      1.4500000000000002
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 760,
+      "pose": "sitHands",
+      "expr": "neutral",
+      "f": 1,
+      "badge": {
+       "k": "words",
+       "v": 14,
+       "at": 0
+      }
+     },
+     {
+      "id": "THEO",
+      "x": 960,
+      "pose": "sitHands",
+      "expr": "sad",
+      "f": -1,
+      "badge": {
+       "k": "words",
+       "v": 993,
+       "at": 0
+      }
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s019",
+   "start": 10.929,
+   "end": 17.2,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "THEO",
+    "side": -1,
+    "bgCam": [
+     1100,
+     520,
+     1.5
+    ],
+    "expr": [
+     [
+      0,
+      "sad"
+     ],
+     [
+      0.3500239196300435,
+      "hurt"
+     ]
+    ],
+    "badge": {
+     "k": "words",
+     "v": [
+      [
+       0,
+       993
+      ],
+      [
+       0.38351140169031994,
+       984
+      ],
+      [
+       0.999,
+       971
+      ],
+      [
+       0.999,
+       962
+      ],
+      [
+       0.999,
+       956
+      ]
+     ],
+     "at": 0
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s020",
+   "start": 17.2,
+   "end": 22.308,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "THEO",
+    "side": -1,
+    "bgCam": [
+     1100,
+     520,
+     1.5
+    ],
+    "expr": [
+     [
+      0,
+      "hurt"
+     ],
+     [
+      0.5160532498042302,
+      "sad"
+     ]
+    ],
+    "badge": {
+     "k": "words",
+     "v": [
+      [
+       0,
+       993
+      ],
+      [
+       0,
+       984
+      ],
+      [
+       0.011550509005481099,
+       971
+      ],
+      [
+       0.5364134690681298,
+       962
+      ],
+      [
+       0.9608457321848076,
+       956
+      ]
+     ],
+     "at": 0
+    },
+    "push": 0.12
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s021",
+   "start": 22.308,
+   "end": 27.916,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     760,
+     520,
+     1.5
+    ],
+    "expr": "guilty",
+    "badge": {
+     "k": "words",
+     "v": 14,
+     "at": 0
+    },
+    "push": 0.12
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s022",
+   "start": 27.916,
+   "end": 34.148,
+   "line": "",
+   "scene": "kt",
+   "bars": "none",
+   "in": {
+    "dur": 0.45,
+    "type": "bands"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 1.8,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 2.65,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 4.191,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#F4EFE6",
+    "items": [
+     {
+      "k": "rise",
+      "t": "EVERY SENTENCE",
+      "at": 0.15,
+      "y": 0.3,
+      "sz": 96,
+      "c": "#111111"
+     },
+     {
+      "k": "marker",
+      "t": "> 14 WORDS",
+      "at": 1.8,
+      "mark": 2.65,
+      "y": 0.48,
+      "sz": 170,
+      "c": "#111111",
+      "mc": "#FF5A36"
+     },
+     {
+      "k": "word",
+      "t": "SO YOU DON'T.",
+      "at": 4.191,
+      "y": 0.68,
+      "sz": 110,
+      "c": "#111111"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s023",
+   "start": 34.148,
+   "end": 36.389,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "dur": 0.45,
+    "type": "push"
+   },
+   "sfx": [
+    {
+     "at": 1.05,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "cam": [
+     [
+      860,
+      600,
+      1.45
+     ],
+     [
+      860,
+      600,
+      1.55
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 760,
+      "pose": "sitHands",
+      "expr": "tender",
+      "f": 1,
+      "badge": {
+       "k": "words",
+       "v": 14,
+       "at": 0
+      }
+     },
+     {
+      "id": "THEO",
+      "x": 960,
+      "pose": "sitHands",
+      "expr": "sad",
+      "f": -1,
+      "badge": {
+       "k": "words",
+       "v": 956,
+       "at": 0
+      }
+     }
+    ],
+    "pops": [
+     {
+      "t": "FREE",
+      "at": 1.05,
+      "c": "lime",
+      "x": 0.3,
+      "y": 0.3,
+      "sz": 110
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s024",
+   "start": 36.389,
+   "end": 38.05,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "THEO",
+    "side": -1,
+    "bgCam": [
+     1100,
+     520,
+     1.5
+    ],
+    "expr": "hurt",
+    "badge": {
+     "k": "words",
+     "v": [
+      [
+       0,
+       956
+      ],
+      [
+       0.8795906080674352,
+       951
+      ]
+     ],
+     "at": 0
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s025",
+   "start": 38.05,
+   "end": 41.066,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     760,
+     520,
+     1.5
+    ],
+    "expr": "determined",
+    "badge": {
+     "k": "words",
+     "v": 14,
+     "at": 0
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s026",
+   "start": 41.066,
+   "end": 43.617,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "cam": [
+     [
+      860,
+      600,
+      1.6
+     ],
+     [
+      860,
+      600,
+      1.7200000000000002
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 760,
+      "pose": "phone",
+      "expr": [
+       [
+        0,
+        "neutral"
+       ],
+       [
+        0.5233241865934954,
+        "surprised"
+       ]
+      ],
+      "f": 1,
+      "badge": {
+       "k": "words",
+       "v": 14,
+       "at": 0
+      }
+     },
+     {
+      "id": "THEO",
+      "x": 960,
+      "pose": "sitHands",
+      "expr": "sad",
+      "f": -1,
+      "badge": {
+       "k": "words",
+       "v": 951,
+       "at": 0
+      }
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s027",
+   "start": 43.617,
+   "end": 47.308,
+   "line": "",
+   "scene": "kt",
+   "bars": "none",
+   "in": {
+    "dur": 0.45,
+    "type": "push"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 0.15,
+     "name": "tick",
+     "gain": -16
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#14213D",
+    "items": [
+     {
+      "k": "rise",
+      "t": "MUM",
+      "at": 0.15,
+      "y": 0.24,
+      "sz": 80,
+      "c": "#9fb6ff"
+     },
+     {
+      "k": "typed",
+      "t": "Is Theo okay? He's so quiet",
+      "at": 0.15,
+      "y": 0.38,
+      "sz": 58,
+      "cps": 22
+     }
+    ]
+   }
+  },
+  {
+   "id": "s028",
+   "start": 47.308,
+   "end": 51.862,
+   "line": "",
+   "scene": "kt",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "hit",
+     "gain": -7
+    },
+    {
+     "at": 3.14,
+     "name": "swish",
+     "gain": -18
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#FF5A36",
+    "items": [
+     {
+      "k": "slam",
+      "t": "TYPING COUNTS",
+      "at": 0.15,
+      "y": 0.4,
+      "sz": 120,
+      "c": "#fff"
+     },
+     {
+      "k": "rise",
+      "t": "14 LEFT",
+      "at": 3.14,
+      "y": 0.56,
+      "sz": 90,
+      "c": "#111111"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s029",
+   "start": 51.862,
+   "end": 56.788,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "dur": 0.45,
+    "type": "push"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     760,
+     520,
+     1.5
+    ],
+    "expr": "worried",
+    "badge": {
+     "k": "words",
+     "v": 14,
+     "at": 0
+    },
+    "push": 0.16,
+    "ask": {
+     "text": "Full story on the channel",
+     "at": 2.726
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.15,
+   "end": 56.788,
+   "mood": "sad",
+   "intensity": 0.28
+  }
+ ],
+ "sfx": []
+}

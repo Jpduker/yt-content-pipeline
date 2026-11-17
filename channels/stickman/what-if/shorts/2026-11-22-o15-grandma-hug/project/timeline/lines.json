@@ -1,0 +1,102 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, every hug adds one minute to your life.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 4.15
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Kai's grandma has had three hugs this year.",
+  "sec": "hook",
+  "start": 4.29,
+  "end": 6.921
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Kai does the maths on the bus.",
+  "sec": "act1",
+  "start": 7.521,
+  "end": 9.646
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "One hug a day for a year. That's six extra hours.",
+  "sec": "act1",
+  "start": 9.785,
+  "end": 13.335
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "So he moves in for a week.",
+  "sec": "act1",
+  "start": 13.476,
+  "end": 15.013
+ },
+ {
+  "id": "L006",
+  "tag": "GRAN",
+  "thought": false,
+  "note": "",
+  "text": "Kai, what on earth are you doing?",
+  "sec": "act1",
+  "start": 15.273,
+  "end": 16.954
+ },
+ {
+  "id": "L007",
+  "tag": "KAI",
+  "thought": false,
+  "note": "",
+  "text": "Hug number forty-two.",
+  "sec": "act1",
+  "start": 17.104,
+  "end": 18.244
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By Sunday, it's a hundred and twelve.",
+  "sec": "act1",
+  "start": 18.644,
+  "end": 20.953
+ },
+ {
+  "id": "L009",
+  "tag": "GRAN",
+  "thought": false,
+  "note": "",
+  "text": "I was never short of minutes, love.",
+  "sec": "act1",
+  "start": 21.213,
+  "end": 23.158
+ },
+ {
+  "id": "L010",
+  "tag": "GRAN",
+  "thought": false,
+  "note": "",
+  "text": "I was short of visitors.",
+  "sec": "act1",
+  "start": 23.298,
+  "end": 24.522
+ }
+]

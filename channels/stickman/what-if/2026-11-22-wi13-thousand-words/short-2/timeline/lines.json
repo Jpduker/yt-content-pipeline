@@ -1,0 +1,182 @@
+[
+ {
+  "id": "L018",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And then Theo knocks on your door.",
+  "sec": "act1",
+  "start": 0.15,
+  "end": 2.093
+ },
+ {
+  "id": "L019",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Can I tell you something? Something real?",
+  "sec": "act1",
+  "start": 2.353,
+  "end": 4.424
+ },
+ {
+  "id": "L020",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Theo has nine hundred and ninety-three words. He saved them all day.",
+  "sec": "act2",
+  "start": 6.323,
+  "end": 10.819
+ },
+ {
+  "id": "L021",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "I quit the football team. I didn't tell Mum.",
+  "sec": "act2",
+  "start": 11.079,
+  "end": 13.284
+ },
+ {
+  "id": "L022",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Everyone thinks I'm lazy. I'm not. I just hate being bad at it.",
+  "sec": "act2",
+  "start": 13.424,
+  "end": 17.209
+ },
+ {
+  "id": "L023",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Coach said I was the slowest one there. Everyone laughed.",
+  "sec": "act2",
+  "start": 17.35,
+  "end": 19.89
+ },
+ {
+  "id": "L024",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "So I stopped going. Three weeks ago.",
+  "sec": "act2",
+  "start": 20.136,
+  "end": 22.058
+ },
+ {
+  "id": "L025",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Three weeks. You didn't notice.",
+  "sec": "act2",
+  "start": 22.458,
+  "end": 24.593
+ },
+ {
+  "id": "L026",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You were busy spending words on people you'll never meet.",
+  "sec": "act2",
+  "start": 24.732,
+  "end": 27.883
+ },
+ {
+  "id": "L027",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Every sentence you want to say is longer than fourteen words.",
+  "sec": "act2",
+  "start": 28.066,
+  "end": 31.891
+ },
+ {
+  "id": "L028",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "So you don't say any of them.",
+  "sec": "act2",
+  "start": 32.107,
+  "end": 33.757
+ },
+ {
+  "id": "L029",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You nod. Nods are free.",
+  "sec": "act2",
+  "start": 34.298,
+  "end": 36.28
+ },
+ {
+  "id": "L030",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "You think I'm a quitter.",
+  "sec": "act2",
+  "start": 36.539,
+  "end": 37.8
+ },
+ {
+  "id": "L031",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You shake your head. Also free.",
+  "sec": "act2",
+  "start": 38.2,
+  "end": 40.376
+ },
+ {
+  "id": "L032",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then your phone buzzes. It's Mum.",
+  "sec": "act2",
+  "start": 41.216,
+  "end": 43.626
+ },
+ {
+  "id": "L033",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Is Theo okay? she writes. He's been so quiet.",
+  "sec": "act2",
+  "start": 43.767,
+  "end": 47.266
+ },
+ {
+  "id": "L034",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Typing counts. One reply could cost you everything you have left.",
+  "sec": "act2",
+  "start": 47.458,
+  "end": 51.873
+ },
+ {
+  "id": "L035",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You can answer her. Or you can answer him.",
+  "sec": "act2",
+  "start": 52.012,
+  "end": 54.438
+ }
+]

@@ -9,7 +9,7 @@ F = lambda who='YOU', side=1, bg=(760, 520, 1.5), **k: dict(who=who, side=side, 
 P = lambda t, at, c='lime', **k: dict(t=t, at=at, c=c, **k)
 TH = [[0, 993], ['L021+0.05', 984], ['L022+0.05', 971], ['L023+0.05', 962], ['L024+0.05', 956]]
 # ---- HOOK
-sh('L001', 'scene', 'fade', **FN, clock='TUE 21:40', cam=push([820, 600, 1.3], .14), who=[who('THEO', 640, 'sitHands', 'teary', s=1.45), Y(1000, 'stand', 'worried', f=-1, badge=W(14))])
+sh('L001', 'scene', 'fade', **FN, clock='TUE 21:40', cam=push([800, 600, 1.3], .14), vx=955, who=[who('THEO', 690, 'sitHands', 'teary', s=1.45), Y(890, 'stand', 'worried', f=-1, badge=W(14))])
 sh('L002', 'face', **FN, **F(expr=[[0, 'worried'], ['L002:3', 'scared']], badge=W(14), push=.14))
 sh('L003', 'kt', {'type': 'iris', 'fill': YEL}, cap=False, bg=YEL, items=[dict(k='slam', t='1,000', at='L003:6', y=.3, sz=300, c=INK), dict(k='rise', t='WORDS A DAY', at='L003:7', y=.47, sz=110, c=INK),
    dict(k='pop', t='SPOKEN', at='L003:10', x=.3, y=.66, sz=80, disc='#fff', c=INK), dict(k='pop', t='TYPED', at='L003:12', x=.7, y=.66, sz=80, disc='#fff', c=INK)])
@@ -28,7 +28,7 @@ sh('L013', 'scene', 'whip', **CA, clock='TUE 12:30', cam=push([1000, 580, 1.4], 
 sh('L015', 'face', **CA, **F('BARISTA', -1, (1160, 520, 1.5), expr='flat'))
 sh('L016', 'kt', {'type': 'push'}, cap=False, bg=NAVY, items=[dict(k='rise', t='BY LUNCH', at='L016:0', y=.3, sz=90, c='#fff'), dict(k='slam', t='41', at='L016:4', y=.5, sz=260, c=YEL, out='L017-0.1')])
 sh('L017', 'kt', cap=False, bg=CORAL, items=[dict(k='rise', t='BY DINNER', at='L017:0', y=.3, sz=90, c='#fff'), dict(k='slam', t='14', at='L017:2', y=.5, sz=320, c='#fff')])
-sh('L018', 'scene', 'whip', **BN, clock='TUE 21:30', cam=push([960, 600, 1.2], .1), who=[Y(760, 'sitHands', [[0, 'sad'], ['L018:3', 'surprised']], badge=W(14)), who('THEO', 0, 'walk', 'teary', f=-1, walk=[1500, 1080, 0, .6])])
+sh('L018', 'scene', 'whip', **BN, clock='TUE 21:30', cam=push([960, 600, 1.2], .1), vx=930, who=[Y(760, 'sitHands', [[0, 'sad'], ['L018:3', 'surprised']], badge=W(14)), who('THEO', 0, 'walk', 'teary', f=-1, walk=[1500, 1080, 0, .6])])
 sh('L019', 'face', **BN, **F('THEO', -1, (1150, 520, 1.5), expr='teary', badge=W(1000)))
 # ---- ACT 2: Theo talks
 sh('L020', 'scene', **BN, cam=push([860, 600, 1.35], .1), who=[Y(760, 'sitHands', 'neutral', badge=W(14)), who('THEO', 960, 'sitHands', 'sad', f=-1, badge=W(993))])

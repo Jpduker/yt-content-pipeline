@@ -29,5 +29,6 @@ Approved (Vivek 17 Nov): KT_Test look (characters + kinetic typography), lineup 
 
 ## Progress (17 Nov 20:50)
 - DONE: v3.2 wardrobe (8 archetypes in cast.js), sets saturate pass, render/render-week.ps1, tools/prep_week.sh, WI13 full script (2:20) + voice + shot list (QA'd sheets: seating fixed, Mum message = KT typed page, drawing = KT pops).
-- NEXT: WI13 cut Shorts (make_short.py; cut-2 cliffhanger) → originals O15/O16 → PUBLISH.md + THUMBNAILS.md for Sun → then Mon–Sat the same way → week-2026-11-22.txt → prep_week.sh → look at every sheet → pack_week.sh (write it: tar projects without out/ check/ build/*.mp4) + render-week-2026-11-22.bat (`powershell -ExecutionPolicy Bypass -File "%~dp0render-week.ps1" -List week-2026-11-22.txt`).
+- DONE Sun 22: WI13 (long + cut-1 + cut-2 cliffhanger), O15, O16 scripts, voices, shot lists, QA sheets, PUBLISH.md, THUMBNAILS.md; listed in week-2026-11-22.txt.
+- NEXT: Mon 23 (WI14 lie-freeze + O17 dad-later + O18 pause-parents) ... Sat 28, same steps; then prep_week.sh, look at sheets, pack_week.sh + render-week-2026-11-22.bat, ship, commit.
 - Note: the phone insert ('phone') and 'drawing' insert carry old content (Mira text / horse); use KT pages for messages and drawings instead.

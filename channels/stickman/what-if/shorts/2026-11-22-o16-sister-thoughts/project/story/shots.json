@@ -1,0 +1,488 @@
+{
+ "title": "His Sister Could Hear His Thoughts for 1 Minute a Day",
+ "duration": 24.97,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 3.312,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "hall",
+    "so": {},
+    "who": "LIA",
+    "expr": "smirk",
+    "side": -1,
+    "bgCam": [
+     1060,
+     520,
+     1.5
+    ],
+    "hookText": "SHE HEARS HIS THOUGHTS",
+    "motif": "num"
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s002",
+   "start": 3.312,
+   "end": 6.902,
+   "line": "",
+   "scene": "kt",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "push"
+   },
+   "sfx": [
+    {
+     "at": 1.275,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 2.375,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 2.875,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#F4EFE6",
+    "items": [
+     {
+      "k": "rise",
+      "t": "HIS THOUGHTS",
+      "at": 1.275,
+      "y": 0.22,
+      "sz": 96,
+      "c": "#111111"
+     },
+     {
+      "k": "marker",
+      "t": "1 MIN / DAY",
+      "at": 2.375,
+      "mark": 2.875,
+      "y": 0.36,
+      "sz": 130,
+      "c": "#111111",
+      "mc": "#FFD23F"
+     }
+    ],
+    "who": [
+     {
+      "id": "BEN",
+      "x": 0.36,
+      "y": 0.93,
+      "s": 2.4,
+      "expr": "nervous"
+     },
+     {
+      "id": "LIA",
+      "x": 0.66,
+      "y": 0.93,
+      "s": 2.4,
+      "expr": "smirk",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s003",
+   "start": 6.902,
+   "end": 9.177,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "hall",
+    "so": {},
+    "cam": [
+     [
+      960,
+      600,
+      1.15
+     ],
+     [
+      960,
+      600,
+      1.25
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "BEN",
+      "x": 860,
+      "pose": "crossArms",
+      "expr": "angry",
+      "f": 1
+     },
+     {
+      "id": "LIA",
+      "x": 1060,
+      "pose": "point",
+      "expr": "laugh",
+      "f": -1
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s004",
+   "start": 9.177,
+   "end": 10.981,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "kitchen",
+    "so": {
+     "drawing": false,
+     "night": true
+    },
+    "clock": "19:00",
+    "cam": [
+     [
+      960,
+      600,
+      1.15
+     ],
+     [
+      960,
+      600,
+      1.25
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "BEN",
+      "x": 860,
+      "pose": "sit",
+      "expr": "sad",
+      "f": 1
+     },
+     {
+      "id": "LIA",
+      "x": 1060,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": -1
+     }
+    ],
+    "chairs": [
+     [
+      860,
+      1
+     ],
+     [
+      1060,
+      -1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "s005",
+   "start": 10.981,
+   "end": 13.497,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.276,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "kitchen",
+    "so": {
+     "drawing": false,
+     "night": true
+    },
+    "who": "BEN",
+    "expr": "guilty",
+    "side": 1,
+    "bgCam": [
+     860,
+     520,
+     1.5
+    ],
+    "pops": [
+     {
+      "t": "NO JOB",
+      "at": 1.276,
+      "c": "red",
+      "x": 0.5,
+      "y": 0.16,
+      "sz": 110
+     }
+    ]
+   }
+  },
+  {
+   "id": "s006",
+   "start": 13.497,
+   "end": 15.499,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "kitchen",
+    "so": {
+     "drawing": false,
+     "night": true
+    },
+    "who": "LIA",
+    "expr": "surprised",
+    "side": -1,
+    "bgCam": [
+     1060,
+     520,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "s007",
+   "start": 15.499,
+   "end": 17.109,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "kitchen",
+    "so": {
+     "drawing": false,
+     "night": true
+    },
+    "who": "BEN",
+    "expr": "wince",
+    "side": 1,
+    "bgCam": [
+     860,
+     520,
+     1.5
+    ],
+    "push": 0.14
+   }
+  },
+  {
+   "id": "s008",
+   "start": 17.109,
+   "end": 20.085,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "kitchen",
+    "so": {
+     "drawing": false,
+     "night": true
+    },
+    "cam": [
+     [
+      960,
+      600,
+      1.15
+     ],
+     [
+      960,
+      600,
+      1.25
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "BEN",
+      "x": 860,
+      "pose": "sit",
+      "expr": "confused",
+      "f": 1
+     },
+     {
+      "id": "LIA",
+      "x": 1060,
+      "pose": "sit",
+      "expr": "laugh",
+      "f": -1
+     }
+    ],
+    "chairs": [
+     [
+      860,
+      1
+     ],
+     [
+      1060,
+      -1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "s009",
+   "start": 20.085,
+   "end": 24.97,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "kitchen",
+    "so": {
+     "drawing": false,
+     "night": true
+    },
+    "cam": [
+     [
+      960,
+      600,
+      1.2
+     ],
+     [
+      960,
+      600,
+      1.3199999999999998
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "BEN",
+      "x": 860,
+      "pose": "sit",
+      "expr": "tearsmile",
+      "f": 1
+     },
+     {
+      "id": "LIA",
+      "x": 1060,
+      "pose": "sit",
+      "expr": "smile",
+      "f": -1
+     }
+    ],
+    "chairs": [
+     [
+      860,
+      1
+     ],
+     [
+      1060,
+      -1
+     ]
+    ],
+    "ask": {
+     "text": "Would you let your sibling hear your thoughts?",
+     "at": 2.785
+    }
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 8.98,
+   "mood": "playful",
+   "intensity": 0.4
+  },
+  {
+   "start": 9.33,
+   "end": 24.97,
+   "mood": "hopeful",
+   "intensity": 0.34
+  }
+ ],
+ "sfx": []
+}

@@ -1,0 +1,78 @@
+[
+ {
+  "id": "G001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, every hug adds one minute to your life. Kai's grandma has had three hugs this year.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L001",
+   "L002"
+  ]
+ },
+ {
+  "id": "G002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Kai does the maths on the bus. One hug a day for a year. That's six extra hours. So he moves in for a week.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L003",
+   "L004",
+   "L005"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "GRAN",
+  "thought": false,
+  "note": "",
+  "text": "Kai, what on earth are you doing?",
+  "voice": "bf_emma",
+  "speed": 0.98,
+  "ids": [
+   "L006"
+  ]
+ },
+ {
+  "id": "G004",
+  "tag": "KAI",
+  "thought": false,
+  "note": "",
+  "text": "Hug number forty-two.",
+  "voice": "am_puck",
+  "speed": 1.1,
+  "ids": [
+   "L007"
+  ]
+ },
+ {
+  "id": "G005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By Sunday, it's a hundred and twelve.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L008"
+  ]
+ },
+ {
+  "id": "G006",
+  "tag": "GRAN",
+  "thought": false,
+  "note": "",
+  "text": "I was never short of minutes, love. I was short of visitors.",
+  "voice": "bf_emma",
+  "speed": 0.98,
+  "ids": [
+   "L009",
+   "L010"
+  ]
+ }
+]

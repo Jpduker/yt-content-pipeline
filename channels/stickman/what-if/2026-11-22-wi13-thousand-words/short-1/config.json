@@ -1,0 +1,23 @@
+{
+ "title": "You Get 1,000 Words a Day. He Wasted 986 by Dinner. #shorts",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "ifs",
+ "duration": 42.334,
+ "captions": false,
+ "bars": "none",
+ "fadeIn": 0.15,
+ "fadeOut": 0.3,
+ "music": {
+  "enabled": true,
+  "gainDb": -19
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": 0
+ },
+ "loudness": -14,
+ "voiceover": "input/voiceover.wav",
+ "myCaptions": true
+}

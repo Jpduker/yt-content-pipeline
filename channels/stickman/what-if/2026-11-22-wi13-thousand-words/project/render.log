@@ -1,0 +1,3 @@
+Rendering frames 0-1056 (44.0 s) with 2 worker(s)…
+  48/1056 frames  3.21 fps  elapsed 0m15s  eta 5m14s
+RENDER FAILED: page.evaluate: Target page, context or browser has been closed
