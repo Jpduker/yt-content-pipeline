@@ -1,0 +1,132 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your little brother is crying on the sofa.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 3.9
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And you have fourteen words left.",
+  "sec": "hook",
+  "start": 4.04,
+  "end": 5.772
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, everyone gets a thousand words a day. Spoken or typed.",
+  "sec": "hook",
+  "start": 6.613,
+  "end": 11.693
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Use them up, and you're silent until midnight.",
+  "sec": "hook",
+  "start": 11.833,
+  "end": 14.738
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "This morning, you had a thousand.",
+  "sec": "hook",
+  "start": 15.277,
+  "end": 17.156
+ },
+ {
+  "id": "L006",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Morning!",
+  "sec": "act1",
+  "start": 20.457,
+  "end": 21.162
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Nine hundred and ninety-nine.",
+  "sec": "act1",
+  "start": 21.562,
+  "end": 23.369
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then the group chat starts a war about pineapple on pizza.",
+  "sec": "act1",
+  "start": 24.609,
+  "end": 28.259
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Six hundred words later, you win.",
+  "sec": "act1",
+  "start": 28.399,
+  "end": 30.599
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By lunch, you have forty-one.",
+  "sec": "act1",
+  "start": 31.103,
+  "end": 33.153
+ },
+ {
+  "id": "L011",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By dinner, fourteen.",
+  "sec": "act1",
+  "start": 33.292,
+  "end": 34.654
+ },
+ {
+  "id": "L012",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And then Theo knocks on your door.",
+  "sec": "act1",
+  "start": 35.495,
+  "end": 37.438
+ },
+ {
+  "id": "L013",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Can I tell you something? Something real?",
+  "sec": "act1",
+  "start": 37.698,
+  "end": 39.769
+ }
+]

@@ -1,0 +1,92 @@
+[
+ {
+  "id": "G001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your little brother is crying on the sofa. And you have fourteen words left.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L001",
+   "L002"
+  ]
+ },
+ {
+  "id": "G002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, everyone gets a thousand words a day. Spoken or typed. Use them up, and you're silent until midnight. This morning, you had a thousand.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L003",
+   "L004",
+   "L005"
+  ]
+ },
+ {
+  "id": "G003",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Morning!",
+  "voice": "am_michael",
+  "speed": 1.09,
+  "ids": [
+   "L006"
+  ]
+ },
+ {
+  "id": "G004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Nine hundred and ninety-nine.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L007"
+  ]
+ },
+ {
+  "id": "G005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then the group chat starts a war about pineapple on pizza. Six hundred words later, you win. By lunch, you have forty-one. By dinner, fourteen.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L008",
+   "L009",
+   "L010",
+   "L011"
+  ]
+ },
+ {
+  "id": "G006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And then Theo knocks on your door.",
+  "voice": "am_michael",
+  "speed": 1.03,
+  "ids": [
+   "L012"
+  ]
+ },
+ {
+  "id": "G007",
+  "tag": "THEO",
+  "thought": false,
+  "note": "",
+  "text": "Can I tell you something? Something real?",
+  "voice": "am_liam",
+  "speed": 1.1,
+  "ids": [
+   "L013"
+  ]
+ }
+]

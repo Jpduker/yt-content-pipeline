@@ -1,0 +1,948 @@
+{
+ "title": "What If You Only Had 1,000 Words a Day?",
+ "duration": 43.97,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 3.89,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "clock": "TUE 21:40",
+    "cam": [
+     [
+      820,
+      600,
+      1.15
+     ],
+     [
+      820,
+      600,
+      1.3099999999999998
+     ]
+    ],
+    "who": [
+     {
+      "id": "THEO",
+      "x": 620,
+      "pose": "sitHands",
+      "expr": "teary",
+      "f": 1,
+      "s": 1.45
+     },
+     {
+      "id": "YOU",
+      "x": 1000,
+      "pose": "stand",
+      "expr": "worried",
+      "f": -1,
+      "badge": {
+       "k": "words",
+       "v": 14,
+       "at": 0
+      }
+     }
+    ],
+    "motif": "num"
+   }
+  },
+  {
+   "id": "s002",
+   "start": 3.89,
+   "end": 6.463,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.65,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "worried"
+     ],
+     [
+      0.13602798289933932,
+      "scared"
+     ]
+    ],
+    "badge": {
+     "k": "words",
+     "v": 14,
+     "at": 0
+    },
+    "side": 1,
+    "bgCam": [
+     760,
+     520,
+     1.5
+    ],
+    "push": 0.14,
+    "pops": [
+     {
+      "t": "14 WORDS LEFT",
+      "at": 0.65,
+      "c": "red",
+      "x": 0.78,
+      "y": 0.22,
+      "sz": 92
+     }
+    ]
+   }
+  },
+  {
+   "id": "s003",
+   "start": 6.463,
+   "end": 11.683,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 1.88,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 3.58,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 4.405,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "day": true,
+    "cam": [
+     [
+      960,
+      560,
+      0.9
+     ],
+     [
+      960,
+      560,
+      1.0
+     ]
+    ],
+    "who": [
+     {
+      "id": "X4",
+      "x": 560,
+      "pose": "talk",
+      "expr": "happy",
+      "f": 1,
+      "badge": {
+       "k": "words",
+       "v": 812,
+       "at": 0
+      }
+     },
+     {
+      "id": "YOU",
+      "x": 900,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "badge": {
+       "k": "words",
+       "v": 1000,
+       "at": 0
+      }
+     },
+     {
+      "id": "X2",
+      "x": 1260,
+      "pose": "phone",
+      "expr": "neutral",
+      "f": -1,
+      "seed": 2,
+      "badge": {
+       "k": "words",
+       "v": 437,
+       "at": 0
+      }
+     }
+    ],
+    "pops": [
+     {
+      "t": "1,000 WORDS",
+      "at": 1.88,
+      "c": "lime",
+      "x": 0.5,
+      "y": 0.2,
+      "sz": 118
+     },
+     {
+      "t": "SPOKEN",
+      "at": 3.58,
+      "c": "cream",
+      "x": 0.24,
+      "y": 0.36,
+      "sz": 78
+     },
+     {
+      "t": "OR TYPED",
+      "at": 4.405,
+      "c": "cream",
+      "x": 0.77,
+      "y": 0.36,
+      "sz": 78
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s004",
+   "start": 11.683,
+   "end": 15.127,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 2.155,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 1.255,
+     "name": "hit",
+     "gain": -6
+    },
+    {
+     "at": 1.255,
+     "name": "kick",
+     "gain": -9
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "day": true,
+    "who": "X4",
+    "expr": [
+     [
+      0,
+      "angry"
+     ],
+     [
+      0.2047038327526133,
+      "sad"
+     ]
+    ],
+    "side": -1,
+    "badge": {
+     "k": "words",
+     "v": 0,
+     "at": 0
+    },
+    "bgCam": [
+     1000,
+     520,
+     1.5
+    ],
+    "slam": {
+     "t": "SILENT",
+     "at": 1.255,
+     "x": 0.27,
+     "y": 0.4
+    },
+    "pops": [
+     {
+      "t": "UNTIL MIDNIGHT",
+      "at": 2.155,
+      "c": "cream",
+      "x": 0.27,
+      "y": 0.66,
+      "sz": 70
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s005",
+   "start": 15.127,
+   "end": 20.307,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 1.375,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "flash",
+     "gain": -12
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "day": true,
+    "clock": "TUE 07:30",
+    "cam": [
+     [
+      960,
+      600,
+      1.0
+     ],
+     [
+      960,
+      600,
+      1.12
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 880,
+      "pose": "stand",
+      "expr": "sleepy",
+      "f": 1,
+      "badge": {
+       "k": "words",
+       "v": 1000,
+       "at": 0
+      }
+     }
+    ],
+    "pops": [
+     {
+      "t": "1,000",
+      "at": 1.375,
+      "c": "gold",
+      "x": 0.7,
+      "y": 0.28,
+      "sz": 130
+     }
+    ]
+   }
+  },
+  {
+   "id": "s006",
+   "start": 20.307,
+   "end": 24.459,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 2.205,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "day": true,
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "happy"
+     ],
+     [
+      0.23000963391136756,
+      "surprised"
+     ]
+    ],
+    "badge": {
+     "k": "words",
+     "v": [
+      [
+       0,
+       1000
+      ],
+      [
+       0.21796724470134812,
+       999
+      ]
+     ],
+     "at": 0
+    },
+    "side": 1,
+    "bgCam": [
+     880,
+     520,
+     1.5
+    ],
+    "pops": [
+     {
+      "t": "999",
+      "at": 2.205,
+      "c": "gold",
+      "x": 0.74,
+      "y": 0.32,
+      "sz": 140
+     }
+    ]
+   }
+  },
+  {
+   "id": "s007",
+   "start": 24.459,
+   "end": 30.953,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 4.59,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 5.49,
+     "name": "hit",
+     "gain": -6
+    },
+    {
+     "at": 5.49,
+     "name": "kick",
+     "gain": -9
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "day": true,
+    "ins": "comments",
+    "count": [
+     999,
+     399
+    ],
+    "ctitle": "Pizza Wars",
+    "csub": "2,318 comments",
+    "me": "@you",
+    "names": [
+     "@you",
+     "@crust_king",
+     "@you",
+     "@pine_lover",
+     "@you",
+     "@m4rg"
+    ],
+    "said": [
+     "PINEAPPLE IS FRUIT. FRUIT IS FOOD.",
+     "not on pizza it isnt",
+     "Hawaii called. It agrees with me.",
+     "Hawaii is not a person",
+     "Ham + pineapple = balance.",
+     "ok fine you win"
+    ],
+    "pops": [
+     {
+      "t": "-600 WORDS",
+      "at": 4.59,
+      "c": "red",
+      "x": 0.22,
+      "y": 0.3,
+      "sz": 96
+     }
+    ],
+    "slam": {
+     "t": "YOU WIN",
+     "at": 5.49,
+     "c": "gold",
+     "x": 0.76,
+     "y": 0.62,
+     "sz": 96
+    }
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s008",
+   "start": 30.953,
+   "end": 33.142,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "day": true,
+    "clock": "TUE 13:00",
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "neutral"
+     ],
+     [
+      0.41114664230241893,
+      "worried"
+     ]
+    ],
+    "badge": {
+     "k": "words",
+     "v": [
+      [
+       0,
+       399
+      ],
+      [
+       0.3,
+       41
+      ]
+     ],
+     "at": 0
+    },
+    "side": 1,
+    "bgCam": [
+     900,
+     520,
+     1.5
+    ],
+    "pops": [
+     {
+      "t": "41",
+      "at": 1.2,
+      "c": "cream",
+      "x": 0.74,
+      "y": 0.32,
+      "sz": 150
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s009",
+   "start": 33.142,
+   "end": 35.345,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.85,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "clock": "TUE 19:00",
+    "cam": [
+     [
+      900,
+      600,
+      1.2
+     ],
+     [
+      900,
+      600,
+      1.3399999999999999
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 820,
+      "pose": "sitHands",
+      "expr": "sad",
+      "f": 1,
+      "badge": {
+       "k": "words",
+       "v": 14,
+       "at": 0
+      }
+     }
+    ],
+    "pops": [
+     {
+      "t": "14",
+      "at": 0.85,
+      "c": "red",
+      "x": 0.7,
+      "y": 0.3,
+      "sz": 160
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s010",
+   "start": 35.345,
+   "end": 37.548,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "cam": [
+     [
+      960,
+      600,
+      1.1
+     ],
+     [
+      960,
+      600,
+      1.2200000000000002
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 820,
+      "pose": "sitHands",
+      "expr": [
+       [
+        0,
+        "sad"
+       ],
+       [
+        0.32955061280072867,
+        "surprised"
+       ]
+      ],
+      "f": 1,
+      "badge": {
+       "k": "words",
+       "v": 14,
+       "at": 0
+      }
+     },
+     {
+      "id": "THEO",
+      "x": 0,
+      "pose": "walk",
+      "expr": "teary",
+      "f": -1,
+      "s": 1.45,
+      "walk": [
+       1500,
+       1180,
+       0,
+       0.6
+      ],
+      "badge": {
+       "k": "words",
+       "v": 986,
+       "at": 0
+      }
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s011",
+   "start": 37.548,
+   "end": 39.919,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "THEO",
+    "expr": "teary",
+    "side": -1,
+    "badge": {
+     "k": "words",
+     "v": [
+      [
+       0,
+       986
+      ],
+      [
+       0.20033741037537006,
+       984
+      ],
+      [
+       0.3479544495993241,
+       982
+      ],
+      [
+       0.7380851961197822,
+       979
+      ]
+     ],
+     "at": 0
+    },
+    "bgCam": [
+     1100,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s012",
+   "start": 39.919,
+   "end": 43.97,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.75,
+     "name": "flash",
+     "gain": -10
+    },
+    {
+     "at": 1.0,
+     "name": "ding",
+     "gain": -16
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "who": "YOU",
+    "expr": [
+     [
+      0,
+      "worried"
+     ],
+     [
+      0.4,
+      "tender"
+     ]
+    ],
+    "badge": {
+     "k": "words",
+     "v": 14,
+     "at": 0
+    },
+    "side": 1,
+    "bgCam": [
+     760,
+     520,
+     1.5
+    ],
+    "push": 0.12,
+    "polaroid": {
+     "at": 0.75,
+     "caption": "14 WORDS. ONE BROTHER.",
+     "ring": [
+      900,
+      450,
+      300
+     ]
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 6.02,
+   "mood": "tension",
+   "intensity": 0.3
+  },
+  {
+   "start": 6.61,
+   "end": 30.85,
+   "mood": "playful",
+   "intensity": 0.42
+  },
+  {
+   "start": 31.1,
+   "end": 43.97,
+   "mood": "sad",
+   "intensity": 0.3
+  }
+ ],
+ "sfx": []
+}
