@@ -1,0 +1,362 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Dinner. Mum is mid-sentence. Theo is mid-chew. The gravy is mid-air.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 6.485
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Because you just lied.",
+  "sec": "hook",
+  "start": 6.625,
+  "end": 8.175
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, every lie freezes everyone except the liar. For five seconds.",
+  "sec": "hook",
+  "start": 8.715,
+  "end": 14.18
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You told Theo you didn't eat his chocolate.",
+  "sec": "hook",
+  "start": 14.319,
+  "end": 16.87
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Five seconds is plenty of time to hide the wrapper.",
+  "sec": "hook",
+  "start": 17.01,
+  "end": 19.826
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At work, it gets even better.",
+  "sec": "act1",
+  "start": 22.126,
+  "end": 23.814
+ },
+ {
+  "id": "L007",
+  "tag": "BOSS",
+  "thought": false,
+  "note": "",
+  "text": "Did you finish the report?",
+  "sec": "act1",
+  "start": 24.074,
+  "end": 25.826
+ },
+ {
+  "id": "L008",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Yep.",
+  "sec": "act1",
+  "start": 25.976,
+  "end": 26.465
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Freeze. You don't finish the report. You do eat his biscuit.",
+  "sec": "act1",
+  "start": 26.865,
+  "end": 30.277
+ },
+ {
+  "id": "L010",
+  "tag": "BARISTA",
+  "thought": false,
+  "note": "",
+  "text": "Is this one yours?",
+  "sec": "act1",
+  "start": 31.437,
+  "end": 32.446
+ },
+ {
+  "id": "L011",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Yes.",
+  "sec": "act1",
+  "start": 32.596,
+  "end": 33.128
+ },
+ {
+  "id": "L012",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "It's not yours. It's bigger.",
+  "sec": "act1",
+  "start": 33.528,
+  "end": 35.403
+ },
+ {
+  "id": "L013",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Lying isn't a sin anymore. It's a superpower.",
+  "sec": "act1",
+  "start": 35.842,
+  "end": 38.858
+ },
+ {
+  "id": "L014",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Five seconds at a time.",
+  "sec": "act1",
+  "start": 38.998,
+  "end": 40.407
+ },
+ {
+  "id": "L015",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then Mira calls. Her course is going badly.",
+  "sec": "act2",
+  "start": 42.307,
+  "end": 45.316
+ },
+ {
+  "id": "L016",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Be honest. Was moving away a mistake?",
+  "sec": "act2",
+  "start": 45.576,
+  "end": 47.767
+ },
+ {
+  "id": "L017",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "No. You're doing amazing.",
+  "sec": "act2",
+  "start": 47.917,
+  "end": 49.259
+ },
+ {
+  "id": "L018",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And this time, something is wrong.",
+  "sec": "act2",
+  "start": 49.959,
+  "end": 51.984
+ },
+ {
+  "id": "L019",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Mira is still moving. She's waving at the screen.",
+  "sec": "act2",
+  "start": 52.23,
+  "end": 55.14
+ },
+ {
+  "id": "L020",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You can't move at all.",
+  "sec": "act2",
+  "start": 55.28,
+  "end": 56.518
+ },
+ {
+  "id": "L021",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Hello? You froze. Did you lie to be nice?",
+  "sec": "act2",
+  "start": 56.778,
+  "end": 59.316
+ },
+ {
+  "id": "L022",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "A kind lie freezes the liar. And only the liar doesn't notice.",
+  "sec": "act2",
+  "start": 60.116,
+  "end": 64.926
+ },
+ {
+  "id": "L023",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Which means everyone who ever lied to protect you froze in front of you.",
+  "sec": "act2",
+  "start": 65.066,
+  "end": 69.316
+ },
+ {
+  "id": "L024",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You just never saw it.",
+  "sec": "act2",
+  "start": 69.457,
+  "end": 70.698
+ },
+ {
+  "id": "L025",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "On Sunday, you visit Mum.",
+  "sec": "act3",
+  "start": 72.797,
+  "end": 74.672
+ },
+ {
+  "id": "L026",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You ask the question you never asked.",
+  "sec": "act3",
+  "start": 74.813,
+  "end": 76.811
+ },
+ {
+  "id": "L027",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Were you really okay, when I moved out?",
+  "sec": "act3",
+  "start": 77.07,
+  "end": 79.187
+ },
+ {
+  "id": "L028",
+  "tag": "MUM",
+  "thought": false,
+  "note": "",
+  "text": "Of course, love. Never better.",
+  "sec": "act3",
+  "start": 79.337,
+  "end": 81.216
+ },
+ {
+  "id": "L029",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And Mum freezes. Mid-smile.",
+  "sec": "act3",
+  "start": 81.916,
+  "end": 84.191
+ },
+ {
+  "id": "L030",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You count all five seconds.",
+  "sec": "act3",
+  "start": 84.331,
+  "end": 85.831
+ },
+ {
+  "id": "L031",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "One. Two. Three. Four. Five.",
+  "sec": "act3",
+  "start": 86.048,
+  "end": 88.353
+ },
+ {
+  "id": "L032",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She's been freezing for years. Every phone call. Every goodbye.",
+  "sec": "act3",
+  "start": 88.97,
+  "end": 92.891
+ },
+ {
+  "id": "L033",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "You don't have to be fine, Mum.",
+  "sec": "act3",
+  "start": 93.151,
+  "end": 94.799
+ },
+ {
+  "id": "L034",
+  "tag": "MUM",
+  "thought": false,
+  "note": "",
+  "text": "...I missed you. A lot.",
+  "sec": "act3",
+  "start": 94.949,
+  "end": 96.446
+ },
+ {
+  "id": "L035",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Nobody freezes.",
+  "sec": "act3",
+  "start": 96.846,
+  "end": 97.929
+ },
+ {
+  "id": "L036",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Would you rather hear a kind lie, or the truth?",
+  "sec": "act3",
+  "start": 98.769,
+  "end": 101.416
+ }
+]

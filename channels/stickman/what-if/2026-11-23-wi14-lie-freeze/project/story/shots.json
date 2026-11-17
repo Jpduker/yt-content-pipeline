@@ -1,0 +1,1629 @@
+{
+ "title": "What If Every Lie Froze the World for 5 Seconds?",
+ "duration": 104.02,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 8.565,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "kitchen",
+    "so": {
+     "drawing": false,
+     "night": true
+    },
+    "freeze": true,
+    "hero": "YOU",
+    "fring": [
+     0,
+     8.775
+    ],
+    "cam": [
+     [
+      960,
+      600,
+      1.2
+     ],
+     [
+      960,
+      600,
+      1.3
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "MUM",
+      "x": 760,
+      "pose": "talk",
+      "expr": "happy",
+      "f": 1
+     },
+     {
+      "id": "YOU",
+      "x": 960,
+      "pose": "stand",
+      "expr": "smirk",
+      "f": 1
+     },
+     {
+      "id": "THEO",
+      "x": 1160,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": -1
+     }
+    ],
+    "chairs": [
+     [
+      1160,
+      -1
+     ]
+    ],
+    "motif": "num"
+   }
+  },
+  {
+   "id": "s002",
+   "start": 8.565,
+   "end": 14.169,
+   "line": "",
+   "scene": "kt",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "iris",
+    "fill": "#14213D"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "kick",
+     "gain": -9
+    },
+    {
+     "at": 1.365,
+     "name": "hit",
+     "gain": -7
+    },
+    {
+     "at": 1.764,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 2.764,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -16
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#14213D",
+    "items": [
+     {
+      "k": "bignum",
+      "t": "5",
+      "at": 0.15,
+      "x": 0.7,
+      "y": 0.62,
+      "sz": 900,
+      "c": "#fff",
+      "a": 0.08
+     },
+     {
+      "k": "slam",
+      "t": "EVERY LIE",
+      "at": 1.365,
+      "y": 0.3,
+      "sz": 200,
+      "c": "#FFD23F"
+     },
+     {
+      "k": "rise",
+      "t": "FREEZES EVERYONE",
+      "at": 1.764,
+      "y": 0.46,
+      "sz": 90,
+      "c": "#fff"
+     },
+     {
+      "k": "rise",
+      "t": "BUT THE LIAR",
+      "at": 2.764,
+      "y": 0.58,
+      "sz": 90,
+      "c": "#fff"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s003",
+   "start": 14.169,
+   "end": 20.376,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "push"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "kitchen",
+    "so": {
+     "drawing": false,
+     "night": true
+    },
+    "freeze": true,
+    "hero": "YOU",
+    "fring": [
+     0,
+     6.257
+    ],
+    "cam": [
+     [
+      960,
+      600,
+      1.3
+     ],
+     [
+      960,
+      600,
+      1.4000000000000001
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "THEO",
+      "x": 860,
+      "pose": "crossArms",
+      "expr": "angry",
+      "f": 1
+     },
+     {
+      "id": "YOU",
+      "x": 0,
+      "pose": "walk",
+      "expr": "smirk",
+      "f": 1,
+      "walk": [
+       1080,
+       1180,
+       0.3,
+       0.9
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "s004",
+   "start": 20.376,
+   "end": 21.976,
+   "line": "",
+   "scene": "title",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "flash",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "title",
+    "lines": [
+     "WHAT IF EVERY LIE",
+     "FROZE THE WORLD FOR 5 SECONDS?"
+    ],
+    "set": "kitchen",
+    "so": {
+     "drawing": false
+    },
+    "bgCam": [
+     900,
+     520,
+     0.7
+    ]
+   }
+  },
+  {
+   "id": "s005",
+   "start": 21.976,
+   "end": 23.924,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "clock": "MON 09:30",
+    "cam": [
+     [
+      1060,
+      580,
+      1.4
+     ],
+     [
+      1060,
+      580,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 900,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1
+     },
+     {
+      "id": "BOSS",
+      "x": 1220,
+      "pose": "crossArms",
+      "expr": "flat",
+      "f": -1
+     }
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s006",
+   "start": 23.924,
+   "end": 25.826,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "office",
+    "who": "BOSS",
+    "side": -1,
+    "bgCam": [
+     1200,
+     520,
+     1.5
+    ],
+    "expr": "flat"
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s007",
+   "start": 25.826,
+   "end": 26.715,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "office",
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     760,
+     520,
+     1.5
+    ],
+    "expr": "smirk"
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s008",
+   "start": 26.715,
+   "end": 31.287,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 2.775,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "freeze": true,
+    "hero": "YOU",
+    "fring": [
+     0,
+     3.962
+    ],
+    "cam": [
+     [
+      1060,
+      580,
+      1.4
+     ],
+     [
+      1060,
+      580,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 0,
+      "pose": "reach",
+      "expr": "joy",
+      "f": 1,
+      "walk": [
+       900,
+       1100,
+       0,
+       0.5
+      ]
+     },
+     {
+      "id": "BOSS",
+      "x": 1220,
+      "pose": "crossArms",
+      "expr": "flat",
+      "f": -1
+     }
+    ],
+    "pops": [
+     {
+      "t": "BISCUIT",
+      "at": 2.775,
+      "c": "gold",
+      "x": 0.72,
+      "y": 0.26,
+      "sz": 110
+     }
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s009",
+   "start": 31.287,
+   "end": 32.446,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "cafe",
+    "so": {
+     "variant": "am"
+    },
+    "day": true,
+    "clock": "MON 12:30",
+    "cam": [
+     [
+      1000,
+      580,
+      1.4
+     ],
+     [
+      1000,
+      580,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 860,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     },
+     {
+      "id": "BARISTA",
+      "x": 1160,
+      "pose": "holdFront",
+      "expr": "neutral",
+      "f": -1
+     }
+    ]
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s010",
+   "start": 32.446,
+   "end": 35.692,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "cafe",
+    "so": {
+     "variant": "am"
+    },
+    "day": true,
+    "freeze": true,
+    "hero": "YOU",
+    "fring": [
+     0,
+     3.457
+    ],
+    "cam": [
+     [
+      1000,
+      580,
+      1.5
+     ],
+     [
+      1000,
+      580,
+      1.6
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 860,
+      "pose": "holdFront",
+      "expr": "smirk",
+      "f": 1
+     },
+     {
+      "id": "BARISTA",
+      "x": 1160,
+      "pose": "point",
+      "expr": "neutral",
+      "f": -1
+     }
+    ]
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s011",
+   "start": 35.692,
+   "end": 42.157,
+   "line": "",
+   "scene": "kt",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "bands"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 1.915,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 2.216,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 3.306,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#F4EFE6",
+    "items": [
+     {
+      "k": "rise",
+      "t": "LYING IS A",
+      "at": 0.15,
+      "y": 0.3,
+      "sz": 96,
+      "c": "#111111"
+     },
+     {
+      "k": "marker",
+      "t": "SUPERPOWER",
+      "at": 1.915,
+      "mark": 2.216,
+      "y": 0.47,
+      "sz": 200,
+      "c": "#111111",
+      "mc": "#FFD23F"
+     },
+     {
+      "k": "rise",
+      "t": "5 SECONDS AT A TIME",
+      "at": 3.306,
+      "y": 0.65,
+      "sz": 80,
+      "c": "#111111"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s012",
+   "start": 42.157,
+   "end": 45.426,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "clock": "MON 21:00",
+    "cam": [
+     [
+      900,
+      600,
+      1.4
+     ],
+     [
+      900,
+      600,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 860,
+      "pose": "phone",
+      "expr": "happy",
+      "f": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s013",
+   "start": 45.426,
+   "end": 47.767,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "ins": "call",
+    "who": "MIRA_HOME",
+    "name": "Mira",
+    "expr": "sad",
+    "t0": 12
+   }
+  },
+  {
+   "id": "s014",
+   "start": 47.767,
+   "end": 49.809,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     760,
+     520,
+     1.5
+    ],
+    "expr": "smile"
+   }
+  },
+  {
+   "id": "s015",
+   "start": 49.809,
+   "end": 52.08,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "freeze": true,
+    "fring": [
+     0,
+     9.907
+    ],
+    "cam": [
+     [
+      900,
+      600,
+      1.5
+     ],
+     [
+      900,
+      600,
+      1.6400000000000001
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 860,
+      "pose": "phone",
+      "expr": "smile",
+      "f": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s016",
+   "start": 52.08,
+   "end": 55.13,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "ins": "call",
+    "who": "MIRA_HOME",
+    "name": "Mira",
+    "expr": "confused",
+    "t0": 40
+   }
+  },
+  {
+   "id": "s017",
+   "start": 55.13,
+   "end": 56.628,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     760,
+     520,
+     1.5
+    ],
+    "expr": "smile",
+    "push": 0.16,
+    "freeze": true
+   }
+  },
+  {
+   "id": "s018",
+   "start": 56.628,
+   "end": 59.966,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "ins": "call",
+    "who": "MIRA_HOME",
+    "name": "Mira",
+    "expr": "smirk",
+    "t0": 48
+   }
+  },
+  {
+   "id": "s019",
+   "start": 59.966,
+   "end": 64.916,
+   "line": "",
+   "scene": "kt",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "iris",
+    "fill": "#FF5A36"
+   },
+   "sfx": [
+    {
+     "at": 0.275,
+     "name": "hit",
+     "gain": -7
+    },
+    {
+     "at": 1.05,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 2.76,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -16
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#FF5A36",
+    "items": [
+     {
+      "k": "slam",
+      "t": "A KIND LIE",
+      "at": 0.275,
+      "y": 0.3,
+      "sz": 190,
+      "c": "#fff"
+     },
+     {
+      "k": "rise",
+      "t": "FREEZES THE LIAR",
+      "at": 1.05,
+      "y": 0.46,
+      "sz": 100,
+      "c": "#111111"
+     },
+     {
+      "k": "rise",
+      "t": "AND THEY DON'T KNOW",
+      "at": 2.76,
+      "y": 0.6,
+      "sz": 80,
+      "c": "#fff"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s020",
+   "start": 64.916,
+   "end": 72.647,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "push"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     760,
+     520,
+     1.5
+    ],
+    "expr": "awe",
+    "push": 0.14
+   }
+  },
+  {
+   "id": "s021",
+   "start": 72.647,
+   "end": 76.92,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "hall",
+    "so": {},
+    "clock": "SUN 15:00",
+    "cam": [
+     [
+      960,
+      600,
+      1.3
+     ],
+     [
+      960,
+      600,
+      1.4000000000000001
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 0,
+      "pose": "walk",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       600,
+       860,
+       0,
+       0.6
+      ]
+     },
+     {
+      "id": "MUM",
+      "x": 1080,
+      "pose": "wave",
+      "expr": "happy",
+      "f": -1
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s022",
+   "start": 76.92,
+   "end": 79.187,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "hall",
+    "so": {},
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     860,
+     520,
+     1.5
+    ],
+    "expr": "worried"
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s023",
+   "start": 79.187,
+   "end": 81.766,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "hall",
+    "so": {},
+    "who": "MUM",
+    "side": -1,
+    "bgCam": [
+     1080,
+     520,
+     1.5
+    ],
+    "expr": "smile"
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s024",
+   "start": 81.766,
+   "end": 85.898,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "hall",
+    "so": {},
+    "freeze": true,
+    "hero": "YOU",
+    "fring": [
+     0,
+     6.887
+    ],
+    "cam": [
+     [
+      960,
+      600,
+      1.45
+     ],
+     [
+      960,
+      600,
+      1.5699999999999998
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 860,
+      "pose": "stand",
+      "expr": "sad",
+      "f": 1
+     },
+     {
+      "id": "MUM",
+      "x": 1080,
+      "pose": "stand",
+      "expr": "smile",
+      "f": -1
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s025",
+   "start": 85.898,
+   "end": 88.82,
+   "line": "",
+   "scene": "kt",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 0.73,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 1.08,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 1.505,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 1.955,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#14213D",
+    "items": [
+     {
+      "k": "word",
+      "t": "ONE",
+      "at": 0.15,
+      "x": 0.5,
+      "y": 0.25,
+      "sz": 110,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "TWO",
+      "at": 0.73,
+      "x": 0.5,
+      "y": 0.37,
+      "sz": 110,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "THREE",
+      "at": 1.08,
+      "x": 0.5,
+      "y": 0.49,
+      "sz": 110,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "FOUR",
+      "at": 1.505,
+      "x": 0.5,
+      "y": 0.61,
+      "sz": 110,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "FIVE",
+      "at": 1.955,
+      "x": 0.5,
+      "y": 0.73,
+      "sz": 110,
+      "c": "#FFD23F"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s026",
+   "start": 88.82,
+   "end": 93.001,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "push"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "hall",
+    "so": {},
+    "who": "MUM",
+    "side": -1,
+    "bgCam": [
+     1080,
+     520,
+     1.5
+    ],
+    "expr": "smile",
+    "freeze": true
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s027",
+   "start": 93.001,
+   "end": 94.799,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "hall",
+    "so": {},
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     860,
+     520,
+     1.5
+    ],
+    "expr": "tender"
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s028",
+   "start": 94.799,
+   "end": 96.696,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "hall",
+    "so": {},
+    "who": "MUM",
+    "side": -1,
+    "bgCam": [
+     1080,
+     520,
+     1.5
+    ],
+    "expr": "tearsmile"
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s029",
+   "start": 96.696,
+   "end": 98.619,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.733,
+     "name": "flash",
+     "gain": -10
+    },
+    {
+     "at": 1.983,
+     "name": "ding",
+     "gain": -16
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "hall",
+    "so": {},
+    "cam": [
+     [
+      960,
+      600,
+      1.4
+     ],
+     [
+      960,
+      600,
+      1.52
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 880,
+      "pose": "holdFront",
+      "expr": "tender",
+      "f": 1
+     },
+     {
+      "id": "MUM",
+      "x": 1060,
+      "pose": "holdFront",
+      "expr": "tearsmile",
+      "f": -1
+     }
+    ],
+    "polaroid": {
+     "at": 1.733,
+     "caption": "NOBODY FROZE.",
+     "ring": [
+      970,
+      430,
+      300
+     ]
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s030",
+   "start": 98.619,
+   "end": 104.02,
+   "line": "",
+   "scene": "kt",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "iris",
+    "fill": "#14213D"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 0.425,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 0.75,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 0.925,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 1.05,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 1.475,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 2.025,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -16
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#14213D",
+    "items": [
+     {
+      "k": "word",
+      "t": "WOULD",
+      "at": 0.15,
+      "x": 0.3,
+      "y": 0.22,
+      "sz": 100,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "YOU",
+      "at": 0.3,
+      "x": 0.7,
+      "y": 0.22,
+      "sz": 100,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "RATHER",
+      "at": 0.425,
+      "x": 0.5,
+      "y": 0.32,
+      "sz": 100,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "HEAR",
+      "at": 0.75,
+      "x": 0.35,
+      "y": 0.42,
+      "sz": 100,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "A",
+      "at": 0.925,
+      "x": 0.65,
+      "y": 0.42,
+      "sz": 100,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "KIND LIE",
+      "at": 1.05,
+      "x": 0.5,
+      "y": 0.54,
+      "sz": 130,
+      "c": "#FFD23F"
+     },
+     {
+      "k": "word",
+      "t": "OR THE",
+      "at": 1.475,
+      "x": 0.5,
+      "y": 0.66,
+      "sz": 100,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "TRUTH?",
+      "at": 2.025,
+      "x": 0.5,
+      "y": 0.78,
+      "sz": 130,
+      "c": "#FFD23F"
+     }
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 20.08,
+   "mood": "tension",
+   "intensity": 0.3
+  },
+  {
+   "start": 22.13,
+   "end": 40.66,
+   "mood": "playful",
+   "intensity": 0.42
+  },
+  {
+   "start": 42.31,
+   "end": 70.95,
+   "mood": "mystery",
+   "intensity": 0.3
+  },
+  {
+   "start": 72.8,
+   "end": 104.02,
+   "mood": "sad",
+   "intensity": 0.3
+  }
+ ],
+ "sfx": []
+}

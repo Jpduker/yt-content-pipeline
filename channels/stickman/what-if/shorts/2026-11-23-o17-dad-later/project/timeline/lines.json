@@ -1,0 +1,122 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, every time you tell your dad later, you lose one hour together.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 5.775
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Noah's dad has three hundred and twelve hours left.",
+  "sec": "hook",
+  "start": 5.915,
+  "end": 8.922
+ },
+ {
+  "id": "L003",
+  "tag": "DAD",
+  "thought": false,
+  "note": "",
+  "text": "Football?",
+  "sec": "act1",
+  "start": 9.522,
+  "end": 10.16
+ },
+ {
+  "id": "L004",
+  "tag": "NOAH",
+  "thought": false,
+  "note": "",
+  "text": "Later.",
+  "sec": "act1",
+  "start": 10.31,
+  "end": 10.985
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Three hundred and eleven.",
+  "sec": "act1",
+  "start": 11.385,
+  "end": 13.026
+ },
+ {
+  "id": "L006",
+  "tag": "DAD",
+  "thought": false,
+  "note": "",
+  "text": "Fix the bike with me?",
+  "sec": "act1",
+  "start": 13.286,
+  "end": 14.564
+ },
+ {
+  "id": "L007",
+  "tag": "NOAH",
+  "thought": false,
+  "note": "",
+  "text": "Later.",
+  "sec": "act1",
+  "start": 14.714,
+  "end": 15.389
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Three hundred and ten.",
+  "sec": "act1",
+  "start": 15.789,
+  "end": 17.339
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "That night, Noah does the maths.",
+  "sec": "act1",
+  "start": 17.879,
+  "end": 19.754
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Three hundred hours. About one year of Saturdays.",
+  "sec": "act1",
+  "start": 19.894,
+  "end": 22.858
+ },
+ {
+  "id": "L011",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The next time Dad asks, Noah is already holding the ball.",
+  "sec": "act1",
+  "start": 23.698,
+  "end": 27.287
+ },
+ {
+  "id": "L012",
+  "tag": "NOAH",
+  "thought": false,
+  "note": "",
+  "text": "Now.",
+  "sec": "act1",
+  "start": 27.547,
+  "end": 28.247
+ }
+]

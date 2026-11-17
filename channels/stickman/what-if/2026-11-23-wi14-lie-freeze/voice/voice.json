@@ -1,0 +1,45 @@
+{
+ "voices": {
+  "N": [
+   "am_michael",
+   1.03,
+   -1.0
+  ],
+  "YOU": [
+   "am_michael",
+   1.09,
+   0.5
+  ],
+  "MUM": [
+   "af_sarah",
+   1.02,
+   0.5
+  ],
+  "MIRA": [
+   "af_heart",
+   1.1,
+   0.5
+  ],
+  "BOSS": [
+   "bm_george",
+   1.04,
+   0
+  ],
+  "BARISTA": [
+   "am_puck",
+   1.06,
+   0
+  ]
+ },
+ "thought_speed": 1.0,
+ "beats": {
+  "act1": 1.4,
+  "act2": 1.0,
+  "act3": 1.2
+ },
+ "nat": [
+  0.14,
+  0.5,
+  0.85
+ ]
+}

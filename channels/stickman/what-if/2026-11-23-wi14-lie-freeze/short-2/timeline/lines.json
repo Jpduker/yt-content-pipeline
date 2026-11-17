@@ -1,0 +1,142 @@
+[
+ {
+  "id": "L015",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then Mira calls. Her course is going badly.",
+  "sec": "act2",
+  "start": 0.15,
+  "end": 3.159
+ },
+ {
+  "id": "L016",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Be honest. Was moving away a mistake?",
+  "sec": "act2",
+  "start": 3.419,
+  "end": 5.61
+ },
+ {
+  "id": "L017",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "No. You're doing amazing.",
+  "sec": "act2",
+  "start": 5.76,
+  "end": 7.102
+ },
+ {
+  "id": "L018",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And this time, something is wrong.",
+  "sec": "act2",
+  "start": 7.802,
+  "end": 9.827
+ },
+ {
+  "id": "L019",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Mira is still moving. She's waving at the screen.",
+  "sec": "act2",
+  "start": 10.073,
+  "end": 12.983
+ },
+ {
+  "id": "L020",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You can't move at all.",
+  "sec": "act2",
+  "start": 13.123,
+  "end": 14.361
+ },
+ {
+  "id": "L021",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Hello? You froze. Did you lie to be nice?",
+  "sec": "act2",
+  "start": 14.621,
+  "end": 17.159
+ },
+ {
+  "id": "L022",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "A kind lie freezes the liar. And only the liar doesn't notice.",
+  "sec": "act2",
+  "start": 17.959,
+  "end": 22.769
+ },
+ {
+  "id": "L023",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Which means everyone who ever lied to protect you froze in front of you.",
+  "sec": "act2",
+  "start": 22.909,
+  "end": 27.159
+ },
+ {
+  "id": "L024",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You just never saw it.",
+  "sec": "act2",
+  "start": 27.3,
+  "end": 28.541
+ },
+ {
+  "id": "L025",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "On Sunday, you visit Mum.",
+  "sec": "act3",
+  "start": 30.64,
+  "end": 32.515
+ },
+ {
+  "id": "L026",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You ask the question you never asked.",
+  "sec": "act3",
+  "start": 32.656,
+  "end": 34.654
+ },
+ {
+  "id": "L027",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Were you really okay, when I moved out?",
+  "sec": "act3",
+  "start": 34.913,
+  "end": 37.03
+ },
+ {
+  "id": "L028",
+  "tag": "MUM",
+  "thought": false,
+  "note": "",
+  "text": "Of course, love. Never better.",
+  "sec": "act3",
+  "start": 37.18,
+  "end": 39.059
+ }
+]

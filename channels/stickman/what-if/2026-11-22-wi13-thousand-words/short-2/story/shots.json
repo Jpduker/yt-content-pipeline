@@ -1,6 +1,6 @@
 {
  "title": "His Brother Needed Him. He Had 14 Words Left. #shorts",
- "duration": 56.788,
+ "duration": 59.8,
  "shots": [
   {
    "id": "s016",
@@ -826,12 +826,43 @@
     "name": "roomtone",
     "gain": -30
    }
+  },
+  {
+   "id": "sOUT",
+   "start": 56.788,
+   "end": 59.8,
+   "line": "",
+   "scene": "outro",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 3.0,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "iris",
+    "line": "See you between the ifs!",
+    "slots": false
+   }
   }
  ],
  "music": [
   {
    "start": 0.15,
-   "end": 56.788,
+   "end": 59.8,
    "mood": "sad",
    "intensity": 0.28
   }

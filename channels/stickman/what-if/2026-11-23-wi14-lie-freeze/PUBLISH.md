@@ -1,0 +1,10 @@
+# Mon 23 Nov · publish sheet (Berlin times)
+Common: Not made for kids · Film & Animation · English · upload the .srt on the long-form · "An original animated story. All characters are fictional."
+| Time | File | Title | Pinned comment | Tags |
+|---|---|---|---|---|
+| 09:00 | shorts/2026-11-23-o17-dad-later/final/o17-dad-later-9x16.mp4 | Every Time You Say "Later", You Lose 1 Hour With Dad | Noah had 310 hours left with his dad. How many "laters" did you say this week? 👇 | what if, shorts, dad, father son, family, time, regret, stickman animation, animated story, between the ifs |
+| 13:00 | shorts/2026-11-23-o18-pause-parents/final/o18-pause-parents-9x16.mp4 | In This World, Kids Can Pause Their Parents for 10 Seconds | Turns out parents get a pause too. What would YOU do with 10 seconds? 👇 | what if, shorts, parents, pause, kids, funny, family, stickman animation, animated story, between the ifs |
+| 17:00 | final/what-if-every-lie-froze-the-world-for-5-seconds-1080p.mp4 (+ .en.srt) | What If Every Lie Froze the World for 5 Seconds? | Would you rather hear a kind lie, or the truth? 👇 | what if, what if every lie froze the world, lies, kind lies, mum, honesty, family, what if animation, stickman animation, animated story, emotional animation, between the ifs |
+| 18:30 | final/wi14-short-1-9x16.mp4 | Every Lie Froze the World. So He Lied All Day. #shorts | He used five seconds to steal a biscuit. Would you lie if the world froze? 👇 | what if, shorts, lies, freeze time, funny, superpower, stickman animation, animated story, between the ifs |
+| 20:30 | final/wi14-short-2-9x16.mp4 (CLIFFHANGER) | He Asked His Mum One Question. Then She Froze. #shorts | "Never better," she said. Was she lying? The full story is on the channel 👇 | what if, shorts, mum, kind lies, family, cliffhanger, stickman animation, animated story, between the ifs |
+Long-form description: In this world, every lie freezes everyone except the liar, for five seconds. You use it for biscuits and coffee cups. Then a kind lie freezes YOU, and you realise everyone who ever lied to protect you froze right in front of you. Would you rather hear a kind lie, or the truth?

@@ -1,0 +1,92 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Zara just paused her mum. Mid-shout.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 3.275
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Every kid gets one pause a day. Ten seconds.",
+  "sec": "hook",
+  "start": 3.458,
+  "end": 6.451
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Today, she uses it to hide a broken vase.",
+  "sec": "act1",
+  "start": 7.051,
+  "end": 9.826
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Nine. Eight. Seven.",
+  "sec": "act1",
+  "start": 9.966,
+  "end": 11.716
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Perfect.",
+  "sec": "act1",
+  "start": 11.907,
+  "end": 12.882
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then her dad pauses her.",
+  "sec": "act1",
+  "start": 13.365,
+  "end": 15.115
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Turns out parents get one too. They just never use it.",
+  "sec": "act1",
+  "start": 15.34,
+  "end": 18.391
+ },
+ {
+  "id": "L008",
+  "tag": "DAD",
+  "thought": false,
+  "note": "",
+  "text": "Until today.",
+  "sec": "act1",
+  "start": 18.651,
+  "end": 19.669
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He glues the vase back together. And winks.",
+  "sec": "act1",
+  "start": 20.069,
+  "end": 22.673
+ }
+]

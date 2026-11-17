@@ -1,6 +1,6 @@
 {
  "title": "In This World, Every Hug Adds 1 Minute to Grandma's Life",
- "duration": 26.72,
+ "duration": 30.12,
  "shots": [
   {
    "id": "s001",
@@ -544,6 +544,37 @@
     "name": "roomtone",
     "gain": -29
    }
+  },
+  {
+   "id": "sOUT",
+   "start": 26.72,
+   "end": 30.12,
+   "line": "",
+   "scene": "outro",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 3.0,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "iris",
+    "line": "See you between the ifs!",
+    "slots": false
+   }
   }
  ],
  "music": [
@@ -555,7 +586,7 @@
   },
   {
    "start": 21.21,
-   "end": 26.72,
+   "end": 30.12,
    "mood": "hopeful",
    "intensity": 0.36
   }

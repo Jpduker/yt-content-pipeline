@@ -1,6 +1,6 @@
 {
  "title": "You Get 1,000 Words a Day. He Wasted 986 by Dinner. #shorts",
- "duration": 42.334,
+ "duration": 45.734,
  "shots": [
   {
    "id": "s001",
@@ -670,6 +670,37 @@
     "name": "roomtone",
     "gain": -30
    }
+  },
+  {
+   "id": "sOUT",
+   "start": 42.334,
+   "end": 45.734,
+   "line": "",
+   "scene": "outro",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 3.0,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "iris",
+    "line": "See you between the ifs!",
+    "slots": false
+   }
   }
  ],
  "music": [
@@ -693,7 +724,7 @@
   },
   {
    "start": 35.12,
-   "end": 42.334,
+   "end": 45.734,
    "mood": "sad",
    "intensity": 0.28
   }

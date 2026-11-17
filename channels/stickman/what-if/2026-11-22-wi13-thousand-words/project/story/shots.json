@@ -1,6 +1,6 @@
 {
  "title": "What If You Only Had 1,000 Words a Day?",
- "duration": 141.55,
+ "duration": 151.55,
  "shots": [
   {
    "id": "s001",
@@ -2355,6 +2355,47 @@
      }
     ]
    }
+  },
+  {
+   "id": "sOUT",
+   "start": 141.55,
+   "end": 151.55,
+   "line": "",
+   "scene": "outro",
+   "bars": "none",
+   "in": {
+    "type": "push",
+    "dur": 0.45
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "step",
+     "gain": -16
+    },
+    {
+     "at": 1.6,
+     "name": "pop",
+     "gain": -8
+    },
+    {
+     "at": 2.0,
+     "name": "ding",
+     "gain": -10
+    },
+    {
+     "at": 2.6,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "outro",
+    "v": "button",
+    "line": "New what if every day",
+    "slots": false
+   }
   }
  ],
  "music": [
@@ -2378,7 +2419,7 @@
   },
   {
    "start": 106.1,
-   "end": 141.55,
+   "end": 151.55,
    "mood": "hopeful",
    "intensity": 0.4
   }

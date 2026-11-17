@@ -1,0 +1,585 @@
+{
+ "title": "Every Time You Say \"Later\", You Lose 1 Hour With Dad",
+ "duration": 30.65,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 5.765,
+   "line": "",
+   "scene": "kt",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 2.975,
+     "name": "hit",
+     "gain": -7
+    },
+    {
+     "at": 3.875,
+     "name": "swish",
+     "gain": -18
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#FF5A36",
+    "items": [
+     {
+      "k": "slam",
+      "t": "\"LATER\"",
+      "at": 2.975,
+      "y": 0.2,
+      "sz": 170,
+      "c": "#fff"
+     },
+     {
+      "k": "rise",
+      "t": "= -1 HOUR WITH DAD",
+      "at": 3.875,
+      "y": 0.31,
+      "sz": 72,
+      "c": "#111111"
+     }
+    ],
+    "who": [
+     {
+      "id": "NOAH",
+      "x": 0.34,
+      "y": 0.93,
+      "s": 2.4,
+      "pose": "phone",
+      "expr": "flat"
+     },
+     {
+      "id": "DAD",
+      "x": 0.68,
+      "y": 0.93,
+      "s": 2.4,
+      "expr": "smile",
+      "f": -1
+     }
+    ],
+    "motif": "num"
+   }
+  },
+  {
+   "id": "s002",
+   "start": 5.765,
+   "end": 9.372,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "push",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "garden",
+    "so": {},
+    "day": true,
+    "cam": [
+     [
+      960,
+      600,
+      1.15
+     ],
+     [
+      960,
+      600,
+      1.25
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "DAD",
+      "x": 960,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1,
+      "badge": {
+       "k": "num",
+       "v": 312,
+       "hot": 0,
+       "at": 0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "s003",
+   "start": 9.372,
+   "end": 11.235,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "garden",
+    "so": {},
+    "day": true,
+    "cam": [
+     [
+      960,
+      600,
+      1.15
+     ],
+     [
+      960,
+      600,
+      1.23
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "NOAH",
+      "x": 840,
+      "pose": "phone",
+      "expr": "flat",
+      "f": 1
+     },
+     {
+      "id": "DAD",
+      "x": 1080,
+      "pose": "holdFront",
+      "expr": "happy",
+      "f": -1,
+      "badge": {
+       "k": "num",
+       "v": [
+        [
+         0,
+         312
+        ],
+        [
+         0.892646269457864,
+         311
+        ]
+       ],
+       "hot": 0,
+       "at": 0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "s004",
+   "start": 11.235,
+   "end": 13.136,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "garden",
+    "so": {},
+    "day": true,
+    "who": "DAD",
+    "expr": "sad",
+    "side": -1,
+    "bgCam": [
+     1080,
+     520,
+     1.5
+    ],
+    "badge": {
+     "k": "num",
+     "v": 311,
+     "hot": 0,
+     "at": 0
+    }
+   }
+  },
+  {
+   "id": "s005",
+   "start": 13.136,
+   "end": 15.639,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "pm"
+    },
+    "cam": [
+     [
+      960,
+      600,
+      1.15
+     ],
+     [
+      960,
+      600,
+      1.23
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "NOAH",
+      "x": 840,
+      "pose": "phone",
+      "expr": "flat",
+      "f": 1
+     },
+     {
+      "id": "DAD",
+      "x": 1080,
+      "pose": "point",
+      "expr": "smile",
+      "f": -1,
+      "badge": {
+       "k": "num",
+       "v": [
+        [
+         0,
+         311
+        ],
+        [
+         0.9200958849380746,
+         310
+        ]
+       ],
+       "hot": 0,
+       "at": 0
+      }
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s006",
+   "start": 15.639,
+   "end": 17.729,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "pm"
+    },
+    "who": "DAD",
+    "expr": "hurt",
+    "side": -1,
+    "bgCam": [
+     1080,
+     520,
+     1.5
+    ],
+    "badge": {
+     "k": "num",
+     "v": 310,
+     "hot": 0,
+     "at": 0
+    }
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s007",
+   "start": 17.729,
+   "end": 19.744,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "cam": [
+     [
+      900,
+      600,
+      1.15
+     ],
+     [
+      900,
+      600,
+      1.25
+     ]
+    ],
+    "vx": 900,
+    "who": [
+     {
+      "id": "NOAH",
+      "x": 860,
+      "pose": "sitHands",
+      "expr": "thinking",
+      "f": 1
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s008",
+   "start": 19.744,
+   "end": 23.548,
+   "line": "",
+   "scene": "kt",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "push"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "tick",
+     "gain": -16
+    },
+    {
+     "at": 1.855,
+     "name": "hit",
+     "gain": -7
+    },
+    {
+     "at": 2.28,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#14213D",
+    "items": [
+     {
+      "k": "typed",
+      "t": "310 hours = ?",
+      "at": 0.15,
+      "y": 0.25,
+      "sz": 58,
+      "cps": 20
+     },
+     {
+      "k": "slam",
+      "t": "1 YEAR",
+      "at": 1.855,
+      "y": 0.42,
+      "sz": 180,
+      "c": "#FFD23F"
+     },
+     {
+      "k": "rise",
+      "t": "OF SATURDAYS",
+      "at": 2.28,
+      "y": 0.55,
+      "sz": 84,
+      "c": "#fff"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s009",
+   "start": 23.548,
+   "end": 27.397,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "garden",
+    "so": {},
+    "day": true,
+    "cam": [
+     [
+      960,
+      600,
+      1.15
+     ],
+     [
+      960,
+      600,
+      1.23
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "NOAH",
+      "x": 840,
+      "pose": "holdFront",
+      "expr": "determined",
+      "f": 1
+     },
+     {
+      "id": "DAD",
+      "x": 1080,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": -1,
+      "badge": {
+       "k": "num",
+       "v": 310,
+       "hot": 0,
+       "at": 0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "s010",
+   "start": 27.397,
+   "end": 30.65,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "garden",
+    "so": {},
+    "day": true,
+    "cam": [
+     [
+      960,
+      600,
+      1.2
+     ],
+     [
+      960,
+      600,
+      1.3199999999999998
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "NOAH",
+      "x": 840,
+      "pose": "kick",
+      "expr": "joy",
+      "f": 1
+     },
+     {
+      "id": "DAD",
+      "x": 1080,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1,
+      "badge": {
+       "k": "num",
+       "v": 310,
+       "hot": 0,
+       "at": 0
+      }
+     }
+    ],
+    "ask": {
+     "text": "How many 'laters' did you say this week?",
+     "at": 1.05
+    }
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 17.59,
+   "mood": "sad",
+   "intensity": 0.3
+  },
+  {
+   "start": 17.88,
+   "end": 30.65,
+   "mood": "hopeful",
+   "intensity": 0.4
+  }
+ ],
+ "sfx": []
+}

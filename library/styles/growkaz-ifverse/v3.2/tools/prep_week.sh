@@ -8,6 +8,7 @@ FORCE=0; [ "$1" = --force ] && { FORCE=1; shift; }; W=$(cd "$1" && pwd); L=$2; L
 grep -v '^#' "$L" | while IFS='|' read -r proj dest; do
   P="$W/$(echo $proj | xargs)"; [ -d "$P" ] || { echo "MISSING $proj" >> "$LOG"; continue; }
   if [ $FORCE = 0 ] && [ -f "$P/build/mix.flac" ] && [ "$P/build/mix.flac" -nt "$P/story/shots.json" ]; then echo "skip $proj" >> "$LOG"; continue; fi
+  grep -q '"sOUT"' "$P/story/shots.json" || python3 "$T/add_outro.py" "$P" >> "$LOG"   # every video ends with the sign-off (A on Shorts, B/C/D on long-forms)
   if ! python3 "$T/lint_story.py" "$P" >> "$LOG" 2>&1; then echo "LINT-FAIL $proj" >> "$LOG"; continue; fi
   rm -rf "$P/scenes" && cp -r "$LIBS" "$P/scenes"
   (cd "$K" && python3 audio/mix.py --project "$P" > "$P/mix.log" 2>&1) && ffmpeg -v error -y -i "$P/build/mix.wav" -c:a flac "$P/build/mix.flac" && rm -f "$P/build/mix.wav" || { echo "MIX-FAIL $proj" >> "$LOG"; continue; }
