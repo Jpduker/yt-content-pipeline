@@ -1,0 +1,10 @@
+# Tue 24 Nov · publish sheet (Berlin times)
+Common: Not made for kids · Film & Animation · English · upload the .srt on the long-form · "An original animated story. All characters are fictional."
+| Time | File | Title | Pinned comment | Tags |
+|---|---|---|---|---|
+| 09:00 | shorts/2026-11-24-o19-fight-shrinks/final/o19-fight-shrinks-9x16.mp4 | In This World, Every Sibling Fight Shrinks the House | By Friday they shared one tiny room. Would YOUR house still fit? 👇 | what if, shorts, siblings, brother sister, fights, funny, family, stickman animation, animated story, between the ifs |
+| 13:00 | shorts/2026-11-24-o20-hate-voice/final/o20-hate-voice-9x16.mp4 | Her Voice Disappeared After She Said "I Hate You" | Three words took her voice. One name gave it back. Have you ever said it and not meant it? 👇 | what if, shorts, siblings, brother, i hate you, apology, family, stickman animation, animated story, between the ifs |
+| 17:00 | final/what-if-your-phone-deleted-whoever-you-ignored-longest-1080p.mp4 (+ .en.srt) | What If Your Phone Deleted Whoever You Ignored Longest? | His brother was eight steps away and still at the top of the list. Who haven't YOU called in a while? 👇 | what if, what if your phone deleted contacts, midnight, phone call, little brother, siblings, what if animation, stickman animation, animated story, emotional animation, between the ifs |
+| 18:30 | final/wi15-short-1-9x16.mp4 | His Phone Deletes Whoever He Ignored Longest. Tonight: His Brother. #shorts | Who's at the top of YOUR list? 👇 | what if, shorts, contacts, midnight, phone, brother, stickman animation, animated story, between the ifs |
+| 20:30 | final/wi15-short-2-9x16.mp4 (CLIFFHANGER) | He Had to Call His Brother. Who Was 8 Steps Away. #shorts | His phone was on silent at 23:58. Did he make it? Full story on the channel 👇 | what if, shorts, brother, phone call, midnight, cliffhanger, stickman animation, animated story, between the ifs |
+Long-form description: Every midnight, your phone deletes the contact you haven't called the longest. Forever. Tonight it's your little brother, who lives in the next room. Who haven't YOU called in a while?

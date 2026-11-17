@@ -1,0 +1,102 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your wrist has forty-one strings tied to it this morning.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 5.175
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And one of them just snapped.",
+  "sec": "hook",
+  "start": 5.426,
+  "end": 7.126
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, every promise you make becomes a string.",
+  "sec": "hook",
+  "start": 7.665,
+  "end": 10.955
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Keep it, and it turns gold and fades away.",
+  "sec": "hook",
+  "start": 11.113,
+  "end": 13.938
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Break it, and it snaps. Everybody hears it.",
+  "sec": "hook",
+  "start": 14.078,
+  "end": 16.882
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You promise your boss the report by Friday.",
+  "sec": "act1",
+  "start": 19.082,
+  "end": 21.857
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You promise Theo you'll fix his bike.",
+  "sec": "act1",
+  "start": 22.061,
+  "end": 24.336
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Mira texts. She's moving flats on Sunday. You promise to help.",
+  "sec": "act1",
+  "start": 24.476,
+  "end": 29.116
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And Mum. You promised Mum you'd visit on Sunday. Three weeks ago.",
+  "sec": "act1",
+  "start": 29.256,
+  "end": 33.981
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "That one's the thickest. It hums when you walk past her photo.",
+  "sec": "act1",
+  "start": 34.12,
+  "end": 37.817
+ }
+]

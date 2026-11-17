@@ -1,0 +1,1640 @@
+{
+ "title": "What If Every Promise You Made Was a String?",
+ "duration": 93.3,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 5.276,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "day": true,
+    "cam": [
+     [
+      960,
+      600,
+      1.2
+     ],
+     [
+      960,
+      600,
+      1.3
+     ]
+    ],
+    "vx": 900,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 860,
+      "pose": "reach",
+      "expr": "awe",
+      "f": 1
+     }
+    ],
+    "strings": [
+     {
+      "a": "YOU",
+      "b": [
+       1100,
+       300
+      ],
+      "w": 0.7
+     },
+     {
+      "a": "YOU",
+      "b": [
+       1220,
+       360
+      ],
+      "w": 0.7
+     },
+     {
+      "a": "YOU",
+      "b": [
+       1340,
+       420
+      ],
+      "w": 0.7
+     },
+     {
+      "a": "YOU",
+      "b": [
+       1460,
+       300
+      ],
+      "w": 0.7
+     },
+     {
+      "a": "YOU",
+      "b": [
+       1580,
+       360
+      ],
+      "w": 0.7
+     },
+     {
+      "a": "YOU",
+      "b": [
+       1700,
+       420
+      ],
+      "w": 0.7
+     },
+     {
+      "a": "YOU",
+      "b": [
+       1820,
+       300
+      ],
+      "w": 0.7
+     }
+    ],
+    "motif": "num"
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s002",
+   "start": 5.276,
+   "end": 7.515,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.7,
+     "name": "hit",
+     "gain": -6
+    },
+    {
+     "at": 0.7,
+     "name": "kick",
+     "gain": -9
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "day": true,
+    "cam": [
+     [
+      960,
+      600,
+      1.35
+     ],
+     [
+      960,
+      600,
+      1.4700000000000002
+     ]
+    ],
+    "vx": 900,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 860,
+      "pose": "reach",
+      "expr": "shocked",
+      "f": 1
+     }
+    ],
+    "strings": [
+     {
+      "a": "YOU",
+      "b": [
+       1100,
+       300
+      ],
+      "w": 0.7
+     },
+     {
+      "a": "YOU",
+      "b": [
+       1220,
+       360
+      ],
+      "w": 0.7
+     },
+     {
+      "a": "YOU",
+      "b": [
+       1340,
+       420
+      ],
+      "w": 0.7
+     },
+     {
+      "a": "YOU",
+      "b": [
+       1460,
+       300
+      ],
+      "w": 0.7,
+      "snapAt": 0.7
+     },
+     {
+      "a": "YOU",
+      "b": [
+       1580,
+       360
+      ],
+      "w": 0.7
+     },
+     {
+      "a": "YOU",
+      "b": [
+       1700,
+       420
+      ],
+      "w": 0.7
+     },
+     {
+      "a": "YOU",
+      "b": [
+       1820,
+       300
+      ],
+      "w": 0.7
+     }
+    ],
+    "slam": {
+     "t": "SNAP",
+     "at": 0.7,
+     "x": 0.7,
+     "y": 0.3,
+     "c": "red",
+     "sz": 100
+    }
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s003",
+   "start": 7.515,
+   "end": 17.932,
+   "line": "",
+   "scene": "kt",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "iris",
+    "fill": "#FFD23F"
+   },
+   "sfx": [
+    {
+     "at": 0.99,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 2.14,
+     "name": "hit",
+     "gain": -7
+    },
+    {
+     "at": 3.598,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 6.563,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -16
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#FFD23F",
+    "items": [
+     {
+      "k": "rise",
+      "t": "EVERY PROMISE",
+      "at": 0.99,
+      "y": 0.24,
+      "sz": 96,
+      "c": "#111111"
+     },
+     {
+      "k": "slam",
+      "t": "= A STRING",
+      "at": 2.14,
+      "y": 0.38,
+      "sz": 170,
+      "c": "#111111"
+     },
+     {
+      "k": "pop",
+      "t": "KEEP IT: GOLD",
+      "at": 3.598,
+      "x": 0.3,
+      "y": 0.58,
+      "sz": 58,
+      "disc": "#fff",
+      "c": "#111111"
+     },
+     {
+      "k": "pop",
+      "t": "BREAK IT: SNAP",
+      "at": 6.563,
+      "x": 0.7,
+      "y": 0.58,
+      "sz": 58,
+      "disc": "#FF5A36",
+      "c": "#fff"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s004",
+   "start": 17.932,
+   "end": 18.932,
+   "line": "",
+   "scene": "title",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "flash",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "title",
+    "lines": [
+     "WHAT IF EVERY PROMISE",
+     "YOU MADE WAS A STRING?"
+    ],
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "bgCam": [
+     900,
+     520,
+     0.7
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s005",
+   "start": 18.932,
+   "end": 21.911,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "clock": "MON 09:00",
+    "cam": [
+     [
+      1060,
+      580,
+      1.4
+     ],
+     [
+      1060,
+      580,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 900,
+      "pose": "explain",
+      "expr": "smile",
+      "f": 1
+     },
+     {
+      "id": "BOSS",
+      "x": 1200,
+      "pose": "crossArms",
+      "expr": "flat",
+      "f": -1
+     }
+    ],
+    "strings": [
+     {
+      "a": "YOU",
+      "b": "BOSS",
+      "w": 0.8,
+      "tieAt": 0.275
+     }
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s006",
+   "start": 21.911,
+   "end": 24.326,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "cam": [
+     [
+      900,
+      600,
+      1.4
+     ],
+     [
+      900,
+      600,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 800,
+      "pose": "explain",
+      "expr": "smile",
+      "f": 1
+     },
+     {
+      "id": "THEO",
+      "x": 1060,
+      "pose": "stand",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "strings": [
+     {
+      "a": "YOU",
+      "b": "THEO",
+      "w": 0.9,
+      "tieAt": 0.275
+     }
+    ]
+   }
+  },
+  {
+   "id": "s007",
+   "start": 24.326,
+   "end": 29.106,
+   "line": "",
+   "scene": "kt",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "push"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 0.15,
+     "name": "tick",
+     "gain": -16
+    },
+    {
+     "at": 3.764,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#14213D",
+    "items": [
+     {
+      "k": "rise",
+      "t": "MIRA",
+      "at": 0.15,
+      "y": 0.24,
+      "sz": 80,
+      "c": "#9fb6ff"
+     },
+     {
+      "k": "typed",
+      "t": "moving sunday. help?? \ud83e\udd7a",
+      "at": 0.15,
+      "y": 0.38,
+      "sz": 58,
+      "cps": 22
+     },
+     {
+      "k": "pop",
+      "t": "PROMISE",
+      "at": 3.764,
+      "x": 0.7,
+      "y": 0.56,
+      "sz": 70,
+      "disc": "#FFD23F",
+      "c": "#111111"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s008",
+   "start": 29.106,
+   "end": 33.97,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 3.675,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "cam": [
+     [
+      900,
+      600,
+      1.45
+     ],
+     [
+      900,
+      600,
+      1.5699999999999998
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 860,
+      "pose": "stand",
+      "expr": "guilty",
+      "f": 1
+     }
+    ],
+    "strings": [
+     {
+      "a": "YOU",
+      "b": [
+       1500,
+       360
+      ],
+      "w": 2.4,
+      "col": "#ffd47e"
+     }
+    ],
+    "pops": [
+     {
+      "t": "3 WEEKS AGO",
+      "at": 3.675,
+      "c": "cream",
+      "x": 0.68,
+      "y": 0.24,
+      "sz": 90
+     }
+    ]
+   }
+  },
+  {
+   "id": "s009",
+   "start": 33.97,
+   "end": 39.567,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     760,
+     520,
+     1.5
+    ],
+    "expr": "guilty",
+    "push": 0.12
+   }
+  },
+  {
+   "id": "s010",
+   "start": 39.567,
+   "end": 43.842,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "office",
+    "clock": "FRI 18:00",
+    "cam": [
+     [
+      1060,
+      580,
+      1.4
+     ],
+     [
+      1060,
+      580,
+      1.5
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 900,
+      "pose": "stand",
+      "expr": "nervous",
+      "f": 1
+     },
+     {
+      "id": "BOSS",
+      "x": 1200,
+      "pose": "crossArms",
+      "expr": "flat",
+      "f": -1
+     }
+    ],
+    "strings": [
+     {
+      "a": "YOU",
+      "b": "BOSS",
+      "w": 0.8,
+      "snapAt": 1.525
+     }
+    ]
+   },
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s011",
+   "start": 43.842,
+   "end": 48.707,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "clock": "SAT 11:00",
+    "cam": [
+     [
+      900,
+      600,
+      1.45
+     ],
+     [
+      900,
+      600,
+      1.55
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 800,
+      "pose": "phone",
+      "expr": "neutral",
+      "f": 1
+     },
+     {
+      "id": "THEO",
+      "x": 1060,
+      "pose": "stand",
+      "expr": "sad",
+      "f": -1
+     }
+    ],
+    "strings": [
+     {
+      "a": "YOU",
+      "b": "THEO",
+      "w": 0.9,
+      "snapAt": 1.8
+     }
+    ]
+   }
+  },
+  {
+   "id": "s012",
+   "start": 48.707,
+   "end": 53.297,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "day": true,
+    "clock": "SUNDAY",
+    "cam": [
+     [
+      960,
+      600,
+      1.3
+     ],
+     [
+      960,
+      600,
+      1.4000000000000001
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 960,
+      "pose": "stand",
+      "expr": "worried",
+      "f": 1
+     }
+    ],
+    "strings": [
+     {
+      "a": "YOU",
+      "b": [
+       300,
+       420
+      ],
+      "w": 2.4,
+      "col": "#ffd47e"
+     },
+     {
+      "a": "YOU",
+      "b": [
+       1620,
+       420
+      ],
+      "w": 1.4,
+      "col": "#ffd47e"
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s013",
+   "start": 53.297,
+   "end": 60.718,
+   "line": "",
+   "scene": "kt",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "push"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "hit",
+     "gain": -7
+    },
+    {
+     "at": 1.875,
+     "name": "hit",
+     "gain": -7
+    },
+    {
+     "at": 4.98,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#F4EFE6",
+    "items": [
+     {
+      "k": "slam",
+      "t": "\u2190 MUM",
+      "at": 0.15,
+      "x": 0.5,
+      "y": 0.32,
+      "sz": 130,
+      "c": "#111111"
+     },
+     {
+      "k": "slam",
+      "t": "MIRA \u2192",
+      "at": 1.875,
+      "x": 0.5,
+      "y": 0.46,
+      "sz": 130,
+      "c": "#FF5A36"
+     },
+     {
+      "k": "rise",
+      "t": "ONE WILL BREAK",
+      "at": 4.98,
+      "y": 0.6,
+      "sz": 90,
+      "c": "#111111"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s014",
+   "start": 60.718,
+   "end": 61.979,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "day": true,
+    "cam": [
+     [
+      960,
+      600,
+      1.4
+     ],
+     [
+      960,
+      600,
+      1.52
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 940,
+      "pose": "phone",
+      "expr": "guilty",
+      "f": 1
+     }
+    ],
+    "strings": [
+     {
+      "a": "YOU",
+      "b": [
+       300,
+       420
+      ],
+      "w": 2.4,
+      "col": "#ffd47e"
+     },
+     {
+      "a": "YOU",
+      "b": [
+       1620,
+       420
+      ],
+      "w": 1.4,
+      "col": "#ffd47e"
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s015",
+   "start": 61.979,
+   "end": 63.58,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "day": true,
+    "ins": "call",
+    "who": "MIRA_HOME",
+    "name": "Mira",
+    "expr": "smirk",
+    "t0": 8
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s016",
+   "start": 63.58,
+   "end": 65.96,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "day": true,
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     940,
+     520,
+     1.5
+    ],
+    "expr": "guilty"
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s017",
+   "start": 65.96,
+   "end": 67.091,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "day": true,
+    "ins": "call",
+    "who": "MIRA_HOME",
+    "name": "Mira",
+    "expr": "tender",
+    "t0": 14
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s018",
+   "start": 67.091,
+   "end": 74.047,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 5.05,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "bags": true
+    },
+    "day": true,
+    "cam": [
+     [
+      960,
+      600,
+      1.4
+     ],
+     [
+      960,
+      600,
+      1.52
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "MIRA_HOME",
+      "x": 960,
+      "pose": "holdFront",
+      "expr": "tender",
+      "f": -1
+     }
+    ],
+    "strings": [
+     {
+      "a": "MIRA_HOME",
+      "b": [
+       300,
+       420
+      ],
+      "w": 1.4,
+      "col": "#ffd47e",
+      "snapAt": 3.4
+     }
+    ],
+    "pops": [
+     {
+      "t": "CUT, NOT SNAPPED",
+      "at": 5.05,
+      "c": "gold",
+      "x": 0.5,
+      "y": 0.24,
+      "sz": 90
+     }
+    ]
+   }
+  },
+  {
+   "id": "s019",
+   "start": 74.047,
+   "end": 76.695,
+   "line": "",
+   "scene": "insert",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "street",
+    "so": {
+     "variant": "am"
+    },
+    "day": true,
+    "ins": "call",
+    "who": "MIRA_HOME",
+    "name": "Mira",
+    "expr": "smile",
+    "t0": 22
+   },
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s020",
+   "start": 76.695,
+   "end": 80.365,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 2.525,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "hall",
+    "so": {},
+    "clock": "SUN 15:00",
+    "cam": [
+     [
+      960,
+      600,
+      1.35
+     ],
+     [
+      960,
+      600,
+      1.4700000000000002
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 860,
+      "pose": "holdFront",
+      "expr": "happy",
+      "f": 1
+     },
+     {
+      "id": "MUM",
+      "x": 1080,
+      "pose": "holdFront",
+      "expr": "joy",
+      "f": -1
+     }
+    ],
+    "strings": [
+     {
+      "a": "YOU",
+      "b": "MUM",
+      "w": 2.4,
+      "col": "#ffd47e"
+     }
+    ],
+    "pops": [
+     {
+      "t": "GOLD",
+      "at": 2.525,
+      "c": "gold",
+      "x": 0.5,
+      "y": 0.22,
+      "sz": 120
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s021",
+   "start": 80.365,
+   "end": 83.48,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "bags": true
+    },
+    "day": true,
+    "clock": "MON 19:00",
+    "cam": [
+     [
+      960,
+      600,
+      1.35
+     ],
+     [
+      960,
+      600,
+      1.4500000000000002
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 860,
+      "pose": "holdFront",
+      "expr": "smile",
+      "f": 1
+     },
+     {
+      "id": "MIRA_HOME",
+      "x": 1080,
+      "pose": "crossArms",
+      "expr": "smirk",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s022",
+   "start": 83.48,
+   "end": 86.411,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "bags": true
+    },
+    "day": true,
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     860,
+     520,
+     1.5
+    ],
+    "expr": "tender"
+   }
+  },
+  {
+   "id": "s023",
+   "start": 86.411,
+   "end": 88.626,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 2.725,
+     "name": "flash",
+     "gain": -10
+    },
+    {
+     "at": 2.975,
+     "name": "ding",
+     "gain": -16
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "bags": true
+    },
+    "day": true,
+    "cam": [
+     [
+      960,
+      600,
+      1.4
+     ],
+     [
+      960,
+      600,
+      1.52
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "YOU",
+      "x": 860,
+      "pose": "holdFront",
+      "expr": "joy",
+      "f": 1
+     },
+     {
+      "id": "MIRA_HOME",
+      "x": 1080,
+      "pose": "holdFront",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "strings": [
+     {
+      "a": "MIRA_HOME",
+      "b": "YOU",
+      "w": 1.2,
+      "tieAt": 0.3
+     }
+    ],
+    "polaroid": {
+     "at": 2.725,
+     "caption": "TIED BY HER.",
+     "ring": [
+      970,
+      430,
+      300
+     ]
+    }
+   }
+  },
+  {
+   "id": "s024",
+   "start": 88.626,
+   "end": 93.3,
+   "line": "",
+   "scene": "kt",
+   "bars": null,
+   "in": {
+    "dur": 0.45,
+    "type": "iris",
+    "fill": "#14213D"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 0.7,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 0.875,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 1.325,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 1.7,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 1.85,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -16
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#14213D",
+    "items": [
+     {
+      "k": "word",
+      "t": "WHO",
+      "at": 0.15,
+      "x": 0.32,
+      "y": 0.28,
+      "sz": 100,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "HOLDS",
+      "at": 0.3,
+      "x": 0.68,
+      "y": 0.28,
+      "sz": 100,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "THE",
+      "at": 0.7,
+      "x": 0.5,
+      "y": 0.4,
+      "sz": 100,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "THICKEST",
+      "at": 0.875,
+      "x": 0.5,
+      "y": 0.52,
+      "sz": 130,
+      "c": "#FFD23F"
+     },
+     {
+      "k": "word",
+      "t": "STRING",
+      "at": 1.325,
+      "x": 0.5,
+      "y": 0.64,
+      "sz": 100,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "TO",
+      "at": 1.7,
+      "x": 0.4,
+      "y": 0.76,
+      "sz": 100,
+      "c": "#fff"
+     },
+     {
+      "k": "word",
+      "t": "YOU?",
+      "at": 1.85,
+      "x": 0.6,
+      "y": 0.76,
+      "sz": 100,
+      "c": "#fff"
+     }
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 17.13,
+   "mood": "mystery",
+   "intensity": 0.3
+  },
+  {
+   "start": 19.08,
+   "end": 48.67,
+   "mood": "playful",
+   "intensity": 0.4
+  },
+  {
+   "start": 48.86,
+   "end": 67.09,
+   "mood": "tension",
+   "intensity": 0.3
+  },
+  {
+   "start": 67.24,
+   "end": 93.3,
+   "mood": "hopeful",
+   "intensity": 0.4
+  }
+ ],
+ "sfx": []
+}

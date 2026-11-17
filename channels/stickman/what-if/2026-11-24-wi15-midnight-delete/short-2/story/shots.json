@@ -1,0 +1,457 @@
+{
+ "title": "He Had to Call His Brother. Who Was 8 Steps Away. #shorts",
+ "duration": 28.478,
+ "shots": [
+  {
+   "id": "s007",
+   "start": 0.0,
+   "end": 3.541,
+   "line": "",
+   "scene": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "ins": "contacts",
+    "rows": [
+     [
+      "THEO",
+      "30 days"
+     ],
+     [
+      "MIRA",
+      "6 days"
+     ],
+     [
+      "MUM",
+      "3 days"
+     ],
+     [
+      "BOSS",
+      "1 day"
+     ],
+     [
+      "KOFI",
+      "today"
+     ]
+    ],
+    "clk": [
+     [
+      0,
+      "23:40"
+     ]
+    ],
+    "noHand": true,
+    "low": true,
+    "motif": "num",
+    "hookText": "HE'S IN THE NEXT ROOM"
+   }
+  },
+  {
+   "id": "s008",
+   "start": 3.541,
+   "end": 6.731,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "push",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "cam": [
+     [
+      900,
+      600,
+      1.35
+     ],
+     [
+      900,
+      600,
+      1.4500000000000002
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 860,
+      "pose": "phone",
+      "expr": "confused",
+      "f": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s009",
+   "start": 6.731,
+   "end": 10.748,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "cam": [
+     [
+      860,
+      600,
+      1.75
+     ],
+     [
+      860,
+      600,
+      1.85
+     ]
+    ],
+    "who": [
+     {
+      "id": "THEO",
+      "x": 860,
+      "pose": "sitHands",
+      "expr": "happy",
+      "f": 1,
+      "s": 1.3
+     }
+    ],
+    "pops": [
+     {
+      "t": "8 STEPS AWAY",
+      "at": 0.9,
+      "c": "gold",
+      "x": 0.5,
+      "y": 0.24,
+      "sz": 100
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s010",
+   "start": 10.748,
+   "end": 13.308,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 1.42,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "cam": [
+     [
+      900,
+      600,
+      1.35
+     ],
+     [
+      900,
+      600,
+      1.4500000000000002
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 860,
+      "pose": "phone",
+      "expr": "neutral",
+      "f": 1
+     }
+    ],
+    "pops": [
+     {
+      "t": "DOESN'T COUNT",
+      "at": 1.42,
+      "c": "red",
+      "x": 0.5,
+      "y": 0.24,
+      "sz": 90
+     }
+    ]
+   }
+  },
+  {
+   "id": "s011",
+   "start": 13.308,
+   "end": 16.034,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "cam": [
+     [
+      860,
+      600,
+      1.75
+     ],
+     [
+      860,
+      600,
+      1.85
+     ]
+    ],
+    "who": [
+     {
+      "id": "THEO",
+      "x": 860,
+      "pose": "sitHands",
+      "expr": "happy",
+      "f": 1,
+      "s": 1.3
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s012",
+   "start": 16.034,
+   "end": 22.349,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     760,
+     520,
+     1.5
+    ],
+    "expr": "worried",
+    "push": 0.14
+   }
+  },
+  {
+   "id": "s013",
+   "start": 22.349,
+   "end": 23.439,
+   "line": "",
+   "scene": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "ins": "callscreen",
+    "name": "Theo",
+    "clk": [
+     [
+      0,
+      "23:58:41"
+     ],
+     [
+      1.0,
+      "23:58:42"
+     ]
+    ],
+    "noHand": false
+   }
+  },
+  {
+   "id": "s014",
+   "start": 23.439,
+   "end": 28.478,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 1.925,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "cam": [
+     [
+      860,
+      600,
+      1.75
+     ],
+     [
+      860,
+      600,
+      1.85
+     ]
+    ],
+    "who": [
+     {
+      "id": "THEO",
+      "x": 860,
+      "pose": "sitHands",
+      "expr": "happy",
+      "f": 1,
+      "s": 1.3
+     }
+    ],
+    "pops": [
+     {
+      "t": "SILENT",
+      "at": 1.925,
+      "c": "red",
+      "x": 0.5,
+      "y": 0.24,
+      "sz": 110
+     }
+    ],
+    "ask": {
+     "text": "Full story on the channel",
+     "at": 2.839
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 28.478,
+   "mood": "mystery",
+   "intensity": 0.32
+  }
+ ],
+ "sfx": []
+}

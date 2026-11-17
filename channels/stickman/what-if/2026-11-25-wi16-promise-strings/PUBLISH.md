@@ -1,0 +1,10 @@
+# Wed 25 Nov · publish sheet (Berlin times)
+Common: Not made for kids · Film & Animation · English · upload the .srt on the long-form · "An original animated story. All characters are fictional."
+| Time | File | Title | Pinned comment | Tags |
+|---|---|---|---|---|
+| 09:00 | shorts/2026-11-25-o21-future-call/final/o21-future-call-9x16.mp4 | Every Birthday, You Get 1 Call From Your Future Self | Same three words every year, until she listened. What would YOUR future self tell you? 👇 | what if, shorts, future self, grandad, birthday, family, regret, stickman animation, animated story, between the ifs |
+| 13:00 | shorts/2026-11-25-o22-grandparents-glow/final/o22-grandparents-glow-9x16.mp4 | In This World, Lonely People Glow | Two hours of biscuits turned her window dark. Whose window is glowing near you? 👇 | what if, shorts, loneliness, grandma, visit, kindness, family, stickman animation, animated story, between the ifs |
+| 17:00 | final/what-if-every-promise-you-made-was-a-string-1080p.mp4 (+ .en.srt) | What If Every Promise You Made Was a String? | Mum or Mira: one string had to break. Who holds the thickest string to YOU? 👇 | what if, what if every promise was a string, promises, broken promise, mum, best friend, what if animation, stickman animation, animated story, emotional animation, between the ifs |
+| 18:30 | final/wi16-short-1-9x16.mp4 | Every Promise He Made Became a String. One Just Snapped. #shorts | Which promise would YOU break first? 👇 | what if, shorts, promises, strings, snapped, stickman animation, animated story, between the ifs |
+| 20:30 | final/wi16-short-2-9x16.mp4 (CLIFFHANGER) | Two Promises. Same Sunday. One Has to Break. #shorts | Mum or his best friend? Full story on the channel 👇 | what if, shorts, promises, choice, mum, best friend, cliffhanger, stickman animation, animated story, between the ifs |
+Long-form description: Every promise you make becomes a glowing string. Keep it and it turns gold; break it and it snaps for everyone to hear. Then two promises land on the same Sunday. Who holds the thickest string to YOU?

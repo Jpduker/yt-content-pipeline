@@ -1,0 +1,282 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Your wrist has forty-one strings tied to it this morning.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 5.175
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And one of them just snapped.",
+  "sec": "hook",
+  "start": 5.426,
+  "end": 7.126
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, every promise you make becomes a string.",
+  "sec": "hook",
+  "start": 7.665,
+  "end": 10.955
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Keep it, and it turns gold and fades away.",
+  "sec": "hook",
+  "start": 11.113,
+  "end": 13.938
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Break it, and it snaps. Everybody hears it.",
+  "sec": "hook",
+  "start": 14.078,
+  "end": 16.882
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You promise your boss the report by Friday.",
+  "sec": "act1",
+  "start": 19.082,
+  "end": 21.857
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You promise Theo you'll fix his bike.",
+  "sec": "act1",
+  "start": 22.061,
+  "end": 24.336
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Mira texts. She's moving flats on Sunday. You promise to help.",
+  "sec": "act1",
+  "start": 24.476,
+  "end": 29.116
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And Mum. You promised Mum you'd visit on Sunday. Three weeks ago.",
+  "sec": "act1",
+  "start": 29.256,
+  "end": 33.981
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "That one's the thickest. It hums when you walk past her photo.",
+  "sec": "act1",
+  "start": 34.12,
+  "end": 37.817
+ },
+ {
+  "id": "L011",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Friday, the report string snaps. Your boss doesn't even look up.",
+  "sec": "act2",
+  "start": 39.717,
+  "end": 43.852
+ },
+ {
+  "id": "L012",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Saturday, Theo's bike string snaps. He looks up for a long time.",
+  "sec": "act2",
+  "start": 43.992,
+  "end": 48.417
+ },
+ {
+  "id": "L013",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Then Sunday comes.",
+  "sec": "act2",
+  "start": 48.857,
+  "end": 50.257
+ },
+ {
+  "id": "L014",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Two strings. Pulling in opposite directions.",
+  "sec": "act2",
+  "start": 50.396,
+  "end": 53.306
+ },
+ {
+  "id": "L015",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Mum's house is east. Mira's flat is west.",
+  "sec": "act2",
+  "start": 53.447,
+  "end": 56.772
+ },
+ {
+  "id": "L016",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Whichever way you walk, one of them breaks.",
+  "sec": "act2",
+  "start": 56.912,
+  "end": 59.168
+ },
+ {
+  "id": "L017",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You call Mira.",
+  "sec": "act3",
+  "start": 60.868,
+  "end": 61.869
+ },
+ {
+  "id": "L018",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Let me guess. Your mum.",
+  "sec": "act3",
+  "start": 62.129,
+  "end": 63.58
+ },
+ {
+  "id": "L019",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "I'm sorry. I promised her first.",
+  "sec": "act3",
+  "start": 63.73,
+  "end": 65.96
+ },
+ {
+  "id": "L020",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "Then go.",
+  "sec": "act3",
+  "start": 66.11,
+  "end": 66.841
+ },
+ {
+  "id": "L021",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "And Mira does something you didn't know was possible.",
+  "sec": "act3",
+  "start": 67.241,
+  "end": 70.141
+ },
+ {
+  "id": "L022",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She cuts her own string. Gently. So it doesn't snap.",
+  "sec": "act3",
+  "start": 70.366,
+  "end": 73.937
+ },
+ {
+  "id": "L023",
+  "tag": "MIRA",
+  "thought": false,
+  "note": "phone",
+  "text": "There. Now you didn't break anything.",
+  "sec": "act3",
+  "start": 74.197,
+  "end": 76.045
+ },
+ {
+  "id": "L024",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You spend Sunday with Mum. Her string turns gold.",
+  "sec": "act3",
+  "start": 76.845,
+  "end": 80.32
+ },
+ {
+  "id": "L025",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "On Monday, you knock on Mira's door with pizza.",
+  "sec": "act3",
+  "start": 80.515,
+  "end": 83.37
+ },
+ {
+  "id": "L026",
+  "tag": "YOU",
+  "thought": false,
+  "note": "",
+  "text": "Next Saturday. Boxes. Promise.",
+  "sec": "act3",
+  "start": 83.63,
+  "end": 86.161
+ },
+ {
+  "id": "L027",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "She ties the new string herself.",
+  "sec": "act3",
+  "start": 86.561,
+  "end": 88.636
+ },
+ {
+  "id": "L028",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Who holds the thickest string to you?",
+  "sec": "act3",
+  "start": 88.776,
+  "end": 90.703
+ }
+]

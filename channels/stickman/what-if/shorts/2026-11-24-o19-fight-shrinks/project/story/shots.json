@@ -1,0 +1,474 @@
+{
+ "title": "In This World, Every Sibling Fight Shrinks the House",
+ "duration": 26.33,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 6.808,
+   "line": "",
+   "scene": "kt",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 1.285,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 3.36,
+     "name": "hit",
+     "gain": -7
+    },
+    {
+     "at": 3.66,
+     "name": "swish",
+     "gain": -18
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#FFD23F",
+    "items": [
+     {
+      "k": "rise",
+      "t": "EVERY SIBLING FIGHT",
+      "at": 1.285,
+      "y": 0.2,
+      "sz": 78,
+      "c": "#111111"
+     },
+     {
+      "k": "slam",
+      "t": "SHRINKS",
+      "at": 3.36,
+      "y": 0.31,
+      "sz": 170,
+      "c": "#FF5A36"
+     },
+     {
+      "k": "rise",
+      "t": "THE HOUSE",
+      "at": 3.66,
+      "y": 0.41,
+      "sz": 90,
+      "c": "#111111"
+     }
+    ],
+    "who": [
+     {
+      "id": "LEO",
+      "x": 0.34,
+      "y": 0.93,
+      "s": 2.4,
+      "pose": "crossArms",
+      "expr": "angry"
+     },
+     {
+      "id": "MAYA",
+      "x": 0.68,
+      "y": 0.93,
+      "s": 2.4,
+      "pose": "point",
+      "expr": "angry",
+      "f": -1
+     }
+    ],
+    "motif": "num"
+   }
+  },
+  {
+   "id": "s002",
+   "start": 6.808,
+   "end": 8.194,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "push",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "hall",
+    "so": {},
+    "cam": [
+     [
+      960,
+      600,
+      1.15
+     ],
+     [
+      960,
+      600,
+      1.23
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "LEO",
+      "x": 850,
+      "pose": "crossArms",
+      "expr": "angry",
+      "f": 1,
+      "s": 1.0
+     },
+     {
+      "id": "MAYA",
+      "x": 1080,
+      "pose": "point",
+      "expr": "angry",
+      "f": -1,
+      "s": 1.0
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s003",
+   "start": 8.194,
+   "end": 9.77,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "hall",
+    "so": {},
+    "cam": [
+     [
+      960,
+      600,
+      1.15
+     ],
+     [
+      960,
+      600,
+      1.23
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "LEO",
+      "x": 850,
+      "pose": "point",
+      "expr": "angry",
+      "f": 1,
+      "s": 1.0
+     },
+     {
+      "id": "MAYA",
+      "x": 1080,
+      "pose": "crossArms",
+      "expr": "angry",
+      "f": -1,
+      "s": 1.0
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s004",
+   "start": 9.77,
+   "end": 11.685,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [
+    {
+     "at": 0.775,
+     "name": "hit",
+     "gain": -6
+    },
+    {
+     "at": 0.775,
+     "name": "kick",
+     "gain": -9
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "hall",
+    "so": {},
+    "cam": [
+     [
+      960,
+      600,
+      1.15
+     ],
+     [
+      960,
+      600,
+      1.3
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "LEO",
+      "x": 870,
+      "pose": "crossArms",
+      "expr": "angry",
+      "f": 1,
+      "s": 1.45
+     },
+     {
+      "id": "MAYA",
+      "x": 1060,
+      "pose": "crossArms",
+      "expr": "angry",
+      "f": -1,
+      "s": 1.45
+     }
+    ],
+    "slam": {
+     "t": "-1 METRE",
+     "at": 0.775,
+     "x": 0.5,
+     "y": 0.3,
+     "c": "red",
+     "sz": 80
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s005",
+   "start": 11.685,
+   "end": 17.422,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "hall",
+    "so": {},
+    "clock": "FRIDAY",
+    "cam": [
+     [
+      960,
+      560,
+      1.15
+     ],
+     [
+      960,
+      560,
+      1.21
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "LEO",
+      "x": 820,
+      "pose": "stand",
+      "expr": "sad",
+      "f": 1,
+      "s": 1.85
+     },
+     {
+      "id": "MAYA",
+      "x": 1100,
+      "pose": "stand",
+      "expr": "sad",
+      "f": -1,
+      "s": 1.85
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s006",
+   "start": 17.422,
+   "end": 19.022,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "hall",
+    "so": {},
+    "who": "LEO",
+    "expr": "guilty",
+    "side": 1,
+    "bgCam": [
+     880,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s007",
+   "start": 19.022,
+   "end": 20.722,
+   "line": "",
+   "scene": "face",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "hall",
+    "so": {},
+    "who": "MAYA",
+    "expr": "tender",
+    "side": -1,
+    "bgCam": [
+     1050,
+     520,
+     1.5
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  },
+  {
+   "id": "s008",
+   "start": 20.722,
+   "end": 26.33,
+   "line": "",
+   "scene": "scene",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "hall",
+    "so": {},
+    "cam": [
+     [
+      960,
+      600,
+      1.15
+     ],
+     [
+      960,
+      600,
+      1.0
+     ]
+    ],
+    "vx": 960,
+    "who": [
+     {
+      "id": "LEO",
+      "x": 880,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "id": "MAYA",
+      "x": 1050,
+      "pose": "stand",
+      "expr": "smile",
+      "f": -1,
+      "s": 1.4
+     }
+    ],
+    "ask": {
+     "text": "Would YOUR house still fit?",
+     "at": 3.311
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 17.56,
+   "mood": "playful",
+   "intensity": 0.42
+  },
+  {
+   "start": 17.57,
+   "end": 26.33,
+   "mood": "hopeful",
+   "intensity": 0.36
+  }
+ ],
+ "sfx": []
+}

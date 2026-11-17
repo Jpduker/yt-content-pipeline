@@ -1,0 +1,102 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, every time siblings fight, the house shrinks a little.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 4.385
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Leo and Maya fight a lot.",
+  "sec": "hook",
+  "start": 4.525,
+  "end": 6.358
+ },
+ {
+  "id": "L003",
+  "tag": "MAYA",
+  "thought": false,
+  "note": "",
+  "text": "That's my charger!",
+  "sec": "act1",
+  "start": 6.958,
+  "end": 8.194
+ },
+ {
+  "id": "L004",
+  "tag": "LEO",
+  "thought": false,
+  "note": "",
+  "text": "You stole it first!",
+  "sec": "act1",
+  "start": 8.344,
+  "end": 9.52
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The hallway loses a metre.",
+  "sec": "act1",
+  "start": 9.92,
+  "end": 11.695
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "By Friday, they share one tiny room.",
+  "sec": "act1",
+  "start": 11.835,
+  "end": 14.335
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Their knees touch. Their heads touch the ceiling.",
+  "sec": "act1",
+  "start": 14.475,
+  "end": 17.312
+ },
+ {
+  "id": "L008",
+  "tag": "LEO",
+  "thought": false,
+  "note": "",
+  "text": "Sorry about the charger.",
+  "sec": "act1",
+  "start": 17.572,
+  "end": 19.022
+ },
+ {
+  "id": "L009",
+  "tag": "MAYA",
+  "thought": false,
+  "note": "",
+  "text": "Sorry about your hoodie.",
+  "sec": "act1",
+  "start": 19.172,
+  "end": 20.472
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "The house sighs. And grows back. Just a little.",
+  "sec": "act1",
+  "start": 20.872,
+  "end": 23.933
+ }
+]

@@ -1,0 +1,92 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Two seconds to midnight. Your phone is about to delete your little brother.",
+  "sec": "hook",
+  "start": 1.4,
+  "end": 5.65
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, every midnight, your phone deletes the contact you haven't called the longest.",
+  "sec": "hook",
+  "start": 6.59,
+  "end": 11.925
+ },
+ {
+  "id": "L003",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Gone for good. You can't save it again.",
+  "sec": "hook",
+  "start": 12.065,
+  "end": 14.89
+ },
+ {
+  "id": "L004",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Texts don't count. Only a call, answered before midnight.",
+  "sec": "hook",
+  "start": 15.03,
+  "end": 18.95
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Last month it took Coach Ray. Then your old friend Sam.",
+  "sec": "act1",
+  "start": 21.049,
+  "end": 24.649
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You didn't even notice.",
+  "sec": "act1",
+  "start": 24.789,
+  "end": 26.264
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Tonight, the name at the top is Theo. Thirty days.",
+  "sec": "act1",
+  "start": 26.515,
+  "end": 29.81
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Which is strange. Theo lives in your flat.",
+  "sec": "act1",
+  "start": 30.056,
+  "end": 33.106
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He's in the next room. Right now.",
+  "sec": "act1",
+  "start": 33.246,
+  "end": 35.363
+ }
+]

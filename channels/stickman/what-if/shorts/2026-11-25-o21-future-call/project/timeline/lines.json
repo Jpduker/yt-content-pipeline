@@ -1,0 +1,92 @@
+[
+ {
+  "id": "L001",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In this world, on every birthday, you get one call from your future self.",
+  "sec": "hook",
+  "start": 0.5,
+  "end": 5.235
+ },
+ {
+  "id": "L002",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Ava's future self always says the same three words.",
+  "sec": "hook",
+  "start": 5.375,
+  "end": 8.662
+ },
+ {
+  "id": "L003",
+  "tag": "FUTURE",
+  "thought": false,
+  "note": "phone",
+  "text": "Call Grandad more.",
+  "sec": "hook",
+  "start": 8.922,
+  "end": 10.082
+ },
+ {
+  "id": "L004",
+  "tag": "AVA",
+  "thought": false,
+  "note": "",
+  "text": "Why? He's fine.",
+  "sec": "act1",
+  "start": 10.682,
+  "end": 11.652
+ },
+ {
+  "id": "L005",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Every year. Same three words.",
+  "sec": "act1",
+  "start": 12.052,
+  "end": 14.527
+ },
+ {
+  "id": "L006",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At twenty, she finally listens. She calls him every Sunday.",
+  "sec": "act1",
+  "start": 14.667,
+  "end": 18.541
+ },
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "At twenty-five, the call comes again.",
+  "sec": "act1",
+  "start": 18.682,
+  "end": 20.677
+ },
+ {
+  "id": "L008",
+  "tag": "FUTURE",
+  "thought": false,
+  "note": "phone",
+  "text": "Hi. I've got nothing to tell you this year.",
+  "sec": "act1",
+  "start": 20.937,
+  "end": 23.352
+ },
+ {
+  "id": "L009",
+  "tag": "FUTURE",
+  "thought": false,
+  "note": "phone",
+  "text": "You already did it.",
+  "sec": "act1",
+  "start": 23.492,
+  "end": 24.339
+ }
+]

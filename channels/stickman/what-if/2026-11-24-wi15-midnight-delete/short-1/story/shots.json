@@ -1,0 +1,509 @@
+{
+ "title": "His Phone Deletes Whoever He Ignored Longest. Tonight: His Brother. #shorts",
+ "duration": 38.313,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 6.44,
+   "line": "",
+   "scene": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "ins": "contacts",
+    "rows": [
+     [
+      "THEO",
+      "30 days"
+     ],
+     [
+      "MIRA",
+      "6 days"
+     ],
+     [
+      "MUM",
+      "3 days"
+     ],
+     [
+      "BOSS",
+      "1 day"
+     ],
+     [
+      "KOFI",
+      "today"
+     ]
+    ],
+    "clk": [
+     [
+      0,
+      "23:59:58"
+     ]
+    ],
+    "noHand": true,
+    "low": true,
+    "motif": "num",
+    "hookText": "MIDNIGHT DELETES ONE PERSON"
+   }
+  },
+  {
+   "id": "s002",
+   "start": 6.44,
+   "end": 14.88,
+   "line": "",
+   "scene": "kt",
+   "bars": "none",
+   "in": {
+    "dur": 0.45,
+    "type": "iris",
+    "fill": "#14213D"
+   },
+   "sfx": [
+    {
+     "at": 0.97,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 2.085,
+     "name": "hit",
+     "gain": -7
+    },
+    {
+     "at": 2.96,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 5.625,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -16
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#14213D",
+    "items": [
+     {
+      "k": "rise",
+      "t": "EVERY MIDNIGHT",
+      "at": 0.97,
+      "y": 0.26,
+      "sz": 90,
+      "c": "#fff"
+     },
+     {
+      "k": "slam",
+      "t": "DELETED",
+      "at": 2.085,
+      "y": 0.42,
+      "sz": 210,
+      "c": "#FF5A36"
+     },
+     {
+      "k": "rise",
+      "t": "WHOEVER YOU CALLED LEAST",
+      "at": 2.96,
+      "y": 0.58,
+      "sz": 72,
+      "c": "#fff"
+     },
+     {
+      "k": "rise",
+      "t": "FOREVER",
+      "at": 5.625,
+      "y": 0.7,
+      "sz": 90,
+      "c": "#FFD23F"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s003",
+   "start": 14.88,
+   "end": 19.4,
+   "line": "",
+   "scene": "kt",
+   "bars": "none",
+   "in": {
+    "dur": 0.45,
+    "type": "push"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 0.575,
+     "name": "hit",
+     "gain": -7
+    },
+    {
+     "at": 2.225,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 2.774,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 3.201,
+     "name": "swish",
+     "gain": -18
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    }
+   ],
+   "captions": false,
+   "params": {
+    "k": "kt",
+    "bg": "#F4EFE6",
+    "items": [
+     {
+      "k": "pop",
+      "t": "TEXTS",
+      "at": 0.15,
+      "x": 0.3,
+      "y": 0.32,
+      "sz": 100,
+      "disc": "#fff",
+      "c": "#111111"
+     },
+     {
+      "k": "slam",
+      "t": "X",
+      "at": 0.575,
+      "x": 0.3,
+      "y": 0.32,
+      "sz": 170,
+      "c": "#FF5A36"
+     },
+     {
+      "k": "marker",
+      "t": "A CALL",
+      "at": 2.225,
+      "mark": 2.774,
+      "x": 0.68,
+      "y": 0.32,
+      "sz": 120,
+      "c": "#111111",
+      "mc": "#FFD23F"
+     },
+     {
+      "k": "rise",
+      "t": "ANSWERED BEFORE 00:00",
+      "at": 3.201,
+      "y": 0.6,
+      "sz": 72,
+      "c": "#111111"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s005",
+   "start": 20.899,
+   "end": 24.639,
+   "line": "",
+   "scene": "insert",
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "ins": "contacts",
+    "rows": [
+     [
+      "COACH RAY",
+      "62 days"
+     ],
+     [
+      "SAM",
+      "48 days"
+     ],
+     [
+      "THEO",
+      "2 days"
+     ]
+    ],
+    "delAt": 1.6,
+    "clk": [
+     [
+      0,
+      "23:59:59"
+     ],
+     [
+      1.6,
+      "00:00:00"
+     ]
+    ],
+    "noHand": true,
+    "low": true
+   }
+  },
+  {
+   "id": "s006",
+   "start": 24.639,
+   "end": 26.365,
+   "line": "",
+   "scene": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "face",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "who": "YOU",
+    "side": 1,
+    "bgCam": [
+     760,
+     520,
+     1.5
+    ],
+    "expr": "flat"
+   }
+  },
+  {
+   "id": "s007",
+   "start": 26.365,
+   "end": 29.906,
+   "line": "",
+   "scene": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "k": "insert",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "ins": "contacts",
+    "rows": [
+     [
+      "THEO",
+      "30 days"
+     ],
+     [
+      "MIRA",
+      "6 days"
+     ],
+     [
+      "MUM",
+      "3 days"
+     ],
+     [
+      "BOSS",
+      "1 day"
+     ],
+     [
+      "KOFI",
+      "today"
+     ]
+    ],
+    "clk": [
+     [
+      0,
+      "23:40"
+     ]
+    ],
+    "noHand": true,
+    "low": true
+   }
+  },
+  {
+   "id": "s008",
+   "start": 29.906,
+   "end": 33.096,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "push",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -11
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -18
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "flat",
+    "so": {
+     "night": true,
+     "bags": true
+    },
+    "cam": [
+     [
+      900,
+      600,
+      1.35
+     ],
+     [
+      900,
+      600,
+      1.4500000000000002
+     ]
+    ],
+    "who": [
+     {
+      "id": "YOU",
+      "x": 860,
+      "pose": "phone",
+      "expr": "confused",
+      "f": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s009",
+   "start": 33.096,
+   "end": 38.313,
+   "line": "",
+   "scene": "scene",
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "k": "scene",
+    "set": "bedroom",
+    "so": {
+     "night": true
+    },
+    "cam": [
+     [
+      860,
+      600,
+      1.75
+     ],
+     [
+      860,
+      600,
+      1.85
+     ]
+    ],
+    "who": [
+     {
+      "id": "THEO",
+      "x": 860,
+      "pose": "sitHands",
+      "expr": "happy",
+      "f": 1,
+      "s": 1.3
+     }
+    ],
+    "pops": [
+     {
+      "t": "8 STEPS AWAY",
+      "at": 0.9,
+      "c": "gold",
+      "x": 0.5,
+      "y": 0.24,
+      "sz": 100
+     }
+    ],
+    "ask": {
+     "text": "Who's at the top of YOUR list?",
+     "at": 3.017
+    }
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 19.2,
+   "mood": "tension",
+   "intensity": 0.3
+  },
+  {
+   "start": 21.05,
+   "end": 38.313,
+   "mood": "mystery",
+   "intensity": 0.32
+  }
+ ],
+ "sfx": []
+}

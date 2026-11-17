@@ -9,3 +9,13 @@ shorts/2026-11-22-o16-sister-thoughts/project | shorts/2026-11-22-o16-sister-tho
 2026-11-23-wi14-lie-freeze/short-2 | 2026-11-23-wi14-lie-freeze/final/wi14-short-2-9x16.mp4
 shorts/2026-11-23-o17-dad-later/project | shorts/2026-11-23-o17-dad-later/final/o17-dad-later-9x16.mp4
 shorts/2026-11-23-o18-pause-parents/project | shorts/2026-11-23-o18-pause-parents/final/o18-pause-parents-9x16.mp4
+2026-11-24-wi15-midnight-delete/project | 2026-11-24-wi15-midnight-delete/final/what-if-your-phone-deleted-whoever-you-ignored-longest-1080p.mp4
+2026-11-24-wi15-midnight-delete/short-1 | 2026-11-24-wi15-midnight-delete/final/wi15-short-1-9x16.mp4
+2026-11-24-wi15-midnight-delete/short-2 | 2026-11-24-wi15-midnight-delete/final/wi15-short-2-9x16.mp4
+shorts/2026-11-24-o19-fight-shrinks/project | shorts/2026-11-24-o19-fight-shrinks/final/o19-fight-shrinks-9x16.mp4
+shorts/2026-11-24-o20-hate-voice/project | shorts/2026-11-24-o20-hate-voice/final/o20-hate-voice-9x16.mp4
+2026-11-25-wi16-promise-strings/project | 2026-11-25-wi16-promise-strings/final/what-if-every-promise-you-made-was-a-string-1080p.mp4
+2026-11-25-wi16-promise-strings/short-1 | 2026-11-25-wi16-promise-strings/final/wi16-short-1-9x16.mp4
+2026-11-25-wi16-promise-strings/short-2 | 2026-11-25-wi16-promise-strings/final/wi16-short-2-9x16.mp4
+shorts/2026-11-25-o21-future-call/project | shorts/2026-11-25-o21-future-call/final/o21-future-call-9x16.mp4
+shorts/2026-11-25-o22-grandparents-glow/project | shorts/2026-11-25-o22-grandparents-glow/final/o22-grandparents-glow-9x16.mp4

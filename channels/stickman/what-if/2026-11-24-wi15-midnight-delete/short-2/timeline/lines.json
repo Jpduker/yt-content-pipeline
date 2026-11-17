@@ -1,0 +1,92 @@
+[
+ {
+  "id": "L007",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Tonight, the name at the top is Theo. Thirty days.",
+  "sec": "act1",
+  "start": 0.15,
+  "end": 3.445
+ },
+ {
+  "id": "L008",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Which is strange. Theo lives in your flat.",
+  "sec": "act1",
+  "start": 3.691,
+  "end": 6.741
+ },
+ {
+  "id": "L009",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "He's in the next room. Right now.",
+  "sec": "act1",
+  "start": 6.881,
+  "end": 8.998
+ },
+ {
+  "id": "L010",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You text him a meme. Texts don't count.",
+  "sec": "act2",
+  "start": 10.898,
+  "end": 13.318
+ },
+ {
+  "id": "L011",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You knock. He has his headphones on.",
+  "sec": "act2",
+  "start": 13.458,
+  "end": 15.933
+ },
+ {
+  "id": "L012",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "Twenty-three fifty-eight. There's only one way left.",
+  "sec": "act2",
+  "start": 16.184,
+  "end": 19.294
+ },
+ {
+  "id": "L013",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You have to call your brother. Who is eight steps away.",
+  "sec": "act2",
+  "start": 19.434,
+  "end": 22.359
+ },
+ {
+  "id": "L014",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "You press call.",
+  "sec": "act2",
+  "start": 22.499,
+  "end": 23.449
+ },
+ {
+  "id": "L015",
+  "tag": "N",
+  "thought": false,
+  "note": "",
+  "text": "In the next room, his phone is on silent.",
+  "sec": "act2",
+  "start": 23.589,
+  "end": 26.328
+ }
+]
