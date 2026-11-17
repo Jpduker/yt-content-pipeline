@@ -2,7 +2,7 @@
 // HERO RULE (Vivek, 2026-11-10, strict): the hero matches the channel image (Gemini_Generated_Image_g8xao4g8xao4g8xa.jfif):
 // smooth round black head, no hair, no cap; tall white oval eyes; short thin brows; small curved smile; green hoodie, hood down around the neck,
 // drawstrings; warm amber rim light. Never change it per shot.
-import { E, S, circle, seg, rr, poly, glow, alpha, shade, mix } from '/engine/core.js';
+import { E, S, circle, seg, rr, poly, glow, alpha, shade, mix, lerp } from '/engine/core.js';
 import { drawFigure, headPos, POSES } from '/engine/rig2d.js';
 import { CAST } from './cast.js';
 
@@ -32,7 +32,7 @@ export function face(g, x, y, r, o = {}) {
   const ey = cy - r * .12, sep = front ? r * .30 : r * .25;
   const eyes = front ? [[cx - sep, 1, -1], [cx + sep, 1, 1]] : [[cx - f * r * .2, .78, -f], [cx + f * r * .26, 1, f]];   // [x, scale, outer side]
   const lw = r * .085, col = FEAT;
-  g.save(); g.lineCap = 'round'; g.lineJoin = 'round';
+  g.save(); g.lineCap = 'round'; g.lineJoin = 'round'; g.shadowColor = 'rgba(255,252,245,.75)'; g.shadowBlur = r * .16;   // v3.2: features glow softly
   eyes.forEach(([ex0, sx, out], i) => {
     const w = r * .088 * sx * P.ew, h = r * .17 * P.eh, px = ex0 + lk[0] * r * .035, py = ey + lk[1] * r * .03;
     const lt = o.blink ? 1 : P.lt;
@@ -130,6 +130,98 @@ export const HEAD = {
   X1: {}, X2: { hair: 'cap', color: '#2a2430' }, X3: { hair: 'curly' }, X4: { hair: 'bun', lashes: true }, X5: { hair: 'beanie', color: '#3a3040' },
 };
 
+
+// ---------- v3.2 puppet (2026-11-17) — matches Vivek's Gemini model sheets (characters/Gemini_Generated_Image_{cj2b,tvt3,bsv2}*.jfif):
+// flat MATTE black head (no shading), glowing white features, chunky outlined garments with one flat shadow tone, THIN stick limbs,
+// black ball hands, and a soft peach glow just behind the whole silhouette (top-right). Same pose skeleton as the kit rig (feet y=0, ~240 tall).
+export const INK = '#1a1114', OL = 2.2, HEADC = '#120a0d', GLOW = '#ffb08a', EDGE = 'rgba(240,140,95,.8)';
+export const PHEAD = 37, PHEADY = -2;
+const SKIN = {};
+function tube(g, pts, w, col) { seg(g, pts, w + OL * 2, INK); seg(g, pts, w, col); }
+function blob(g, path, col, ol = OL) { g.fillStyle = col; path(); g.fill(); g.strokeStyle = INK; g.lineWidth = ol * 2; g.lineJoin = 'round'; path(); g.stroke(); }
+const STICK = 4.2;
+let SILP = false; function stickLimb(g, pts, c) { if (!SILP) seg(g, pts, STICK, c); }   // no glow on the thin limbs (as in the sheets)
+function wear(id, of) {
+  const top = !of.top || of.top === 'none' ? 'sweater' : of.top;
+  const col = !of.top || of.top === 'none' ? (of.headColor ? shade(of.headColor, -.25) : '#4a4452') : (of.color || '#4a4452');
+  const pants = of.pants ?? ({ suit: col, tshirt: '#5a5272', chef: '#80808a', track: shade(col, -.05), sweater: null }[top] ?? null);
+  return { top, col, pants, shorts: top === 'track' };
+}
+function torso(g, p, top) {   // outline path of the upper garment
+  const [sx, sy] = p.sh, [hx, hy] = p.hip, W = top === 'puffer' ? 36 : top === 'hoodie' ? 31 : top === 'tshirt' ? 28 : 27;
+  const bot = hy + ({ trench: 52, lab: 50, hoodie: 6, puffer: 4, suit: 14, chef: 12 }[top] ?? 2), Wb = top === 'trench' || top === 'lab' ? W + 9 : top === 'hoodie' ? W + 1 : W - 1;
+  return () => { g.beginPath(); g.moveTo(sx - W, sy + 12); g.quadraticCurveTo(sx - W + 1, sy - 8, sx - 9, sy - 10); g.lineTo(sx + 9, sy - 10); g.quadraticCurveTo(sx + W - 1, sy - 8, sx + W, sy + 12);
+    g.quadraticCurveTo(hx + W + 3, (sy + bot) / 2, hx + Wb, bot); g.quadraticCurveTo(hx, bot + 4, hx - Wb, bot); g.quadraticCurveTo(hx - W - 3, (sy + bot) / 2, sx - W, sy + 12); g.closePath(); };
+}
+function sleeveEnd(a, b, k) { return [lerp(a[0], b[0], k), lerp(a[1], b[1], k)]; }
+function puppetParts(g, id, o, p0, sil) {
+  SILP = !!sil;
+  // front-on body (as in the sheets): spread the side-view rig's arms to the two shoulders and the legs to the two hips
+  const sh = (pt, dx) => [pt[0] + dx, pt[1]], AX = 33, LX = 10;
+  const p = { ...p0, eB: sh(p0.eB, -AX), hB: sh(p0.hB, -AX), eF: sh(p0.eF, AX), hF: sh(p0.hF, AX), kB: sh(p0.kB, -LX), fB: sh(p0.fB, -LX - 2), kF: sh(p0.kF, LX), fF: sh(p0.fF, LX + 2), shB: sh(p0.sh, -AX + 8), shF: sh(p0.sh, AX - 8), hipB: sh(p0.hip, -LX), hipF: sh(p0.hip, LX) };
+  const of = CAST[id] || {}, { top, col, pants, shorts } = wear(id, of), C = c => sil || c, K = sil || INK, dk = shade(col, -.28);
+  const longSl = !['tshirt'].includes(top), slW = top === 'puffer' ? 21 : 16;
+  const T = (pts, w, c) => sil ? seg(g, pts, w + OL * 2, sil) : tube(g, pts, w, c);
+  const B = (path, c) => sil ? (g.fillStyle = sil, path(), g.fill(), g.strokeStyle = sil, g.lineWidth = OL * 2, path(), g.stroke()) : blob(g, path, c);
+  // ---- legs (far, then near)
+  const leg = (h, k, ft, far) => {
+    if (pants && !shorts) { T([h, k, ft], 15, C(far ? shade(pants, -.2) : pants)); B(() => { g.beginPath(); g.ellipse(ft[0] + 5, ft[1] - 3, 10, 5, 0, 0, 7); }, K); return; }
+    if (shorts) { const kn = sleeveEnd(h, k, .75); T([h, kn], 17, C(far ? shade(pants, -.2) : pants)); stickLimb(g, [kn, k, ft], K); }
+    else stickLimb(g, [h, k, ft], K);
+    if (!sil) seg(g, [[ft[0] - 2, ft[1] - 1.5], [ft[0] + 10, ft[1] - 1.5]], 5.5, K);
+  };
+  leg(p.hipB, p.kB, p.fB, true);
+  // ---- far arm
+  const arm = (e, h, far) => { const sc = far ? dk : col, wr = sleeveEnd(e, h, .8), S0 = far ? p.shB : p.shF;
+    if (longSl) T([S0, e, wr], slW, C(sc)); else { T([S0, sleeveEnd(S0, e, .55)], 17, C(sc)); stickLimb(g, [sleeveEnd(S0, e, .5), e, h], K); }
+    circle(g, h[0], h[1], 7.5, K); };
+  arm(p.eB, p.hB, true);
+  leg(p.hipF, p.kF, p.fF, false);
+  // ---- hood roll behind the neck
+  if (top === 'hoodie') B(() => { g.beginPath(); g.ellipse(p.sh[0] - 3, p.sh[1] - 8, 24, 11, -.08, 0, 7); }, C(dk));
+  if (top === 'puffer') B(() => { g.beginPath(); g.ellipse(p.sh[0], p.sh[1] - 8, 26, 12, 0, 0, 7); }, C('#a8a6ae'));
+  // ---- torso
+  const path = torso(g, p, top); B(path, C(col));
+  if (!sil) {
+    g.save(); path(); g.clip();
+    g.fillStyle = dk; g.globalAlpha = .55; g.fillRect(p.sh[0] - 60, p.sh[1] - 30, 44, 220); g.globalAlpha = 1;      // one flat shadow tone on the back side
+    const [sx, sy] = p.sh, [hx, hy] = p.hip;
+    if (top === 'hoodie') {
+      seg(g, [[sx + 1, sy - 2], [sx + 1, sy + 26]], 1.6, '#f4efe8'); seg(g, [[sx + 9, sy - 2], [sx + 9, sy + 24]], 1.6, '#f4efe8');
+      seg(g, [[sx + 1, sy + 26], [sx + 1, sy + 30]], 2.6, '#f4efe8'); seg(g, [[sx + 9, sy + 24], [sx + 9, sy + 28]], 2.6, '#f4efe8');
+      g.fillStyle = shade(col, -.08); g.strokeStyle = INK; g.lineWidth = 2.2; g.beginPath(); g.moveTo(hx - 24, hy + 6); g.lineTo(hx - 15, hy - 18); g.quadraticCurveTo(hx, hy - 21, hx + 15, hy - 18); g.lineTo(hx + 24, hy + 6); g.fill(); g.stroke();   // kangaroo pocket
+    }
+    if (top === 'suit') { poly(g, [[sx - 6, sy - 10], [sx + 10, sy - 10], [sx + 2, sy + 30]], '#f2eef2'); poly(g, [[sx, sy - 8], [sx + 5, sy - 8], [sx + 6, sy + 22], [sx + 2.5, sy + 28], [sx - 1, sy + 22]], of.color2 || '#3a6ea5');
+      g.strokeStyle = INK; g.lineWidth = 1.8; g.beginPath(); g.moveTo(sx - 9, sy - 9); g.lineTo(sx + 2, sy + 34); g.lineTo(sx + 13, sy - 9); g.stroke(); g.beginPath(); g.moveTo(sx + 2, sy + 34); g.lineTo(hx + 2, hy + 14); g.stroke(); }
+    if (top === 'tshirt') { g.fillStyle = INK; g.beginPath(); g.ellipse(sx + 2, sy - 10, 10, 6, 0, 0, Math.PI); g.fill(); }
+    if (top === 'trench' || top === 'lab') { seg(g, [[sx + 3, sy - 6], [hx + 5, hy + 50]], 1.8, INK); poly(g, [[sx - 6, sy - 10], [sx + 3, sy + 18], [sx + 12, sy - 10]], top === 'lab' ? '#3a3a42' : shade(col, -.35));
+      if (top === 'trench') { g.fillStyle = shade(col, -.3); g.fillRect(hx - 40, hy - 6, 80, 6); } }
+    if (top === 'puffer') for (let k = 1; k < 4; k++) seg(g, [[sx - 40, sy + k * 22 - 4], [sx + 40, sy + k * 22 - 4]], 1.6, alpha(INK, .7));
+    if (top === 'track') { seg(g, [[sx + 2, sy - 8], [hx + 2, hy + 2]], 1.6, '#e8e6ee'); }
+    if (top === 'chef') { for (const yy of [8, 22, 36]) { circle(g, sx - 6, sy + yy, 1.8, INK); circle(g, sx + 10, sy + yy, 1.8, INK); } g.fillStyle = '#3a3a44'; g.fillRect(hx - 30, hy - 8, 60, 48); }
+    g.restore();
+  }
+  // ---- hood collar sits on the shoulders, under the head
+  if (top === 'hoodie') { B(() => { g.beginPath(); g.ellipse(p.sh[0], p.sh[1] - 7, 29, 13, 0, 0, 7); }, C(shade(col, -.14))); if (!sil) { g.fillStyle = INK; g.beginPath(); g.moveTo(p.sh[0] - 7, p.sh[1] - 2); g.lineTo(p.sh[0] + 7, p.sh[1] - 2); g.lineTo(p.sh[0], p.sh[1] + 9); g.closePath(); g.fill(); } }
+  // ---- near arm, neck, head
+  arm(p.eF, p.hF, false);
+  if (top === 'track') { const e = p.eF; seg(g, [[p.sh[0] + 4, p.sh[1]], sleeveEnd(e, p.hF, .75)], 1.6, sil || '#e8e6ee'); }
+  const hx = p.head[0], hy = p.head[1] + PHEADY;
+  circle(g, hx, hy, PHEAD + OL * .8, K); if (!sil) circle(g, hx, hy, PHEAD, HEADC);
+}
+export function puppetHead(o) { const p = o.pose || POSES.stand, s = o.s ?? 1, f = o.facing ?? 1; let x = p.head[0], y = p.head[1] + PHEADY;
+  if (o.rot) { const [hx, hy] = p.hip, c = Math.cos(o.rot), sn = Math.sin(o.rot); [x, y] = [hx + (x - hx) * c - (y - hy) * sn, hy + (x - hx) * sn + (y - hy) * c]; }
+  return [o.x + x * f * s, o.y + y * s, PHEAD * s]; }
+export function drawPuppet(g, id, o) {
+  const p = o.pose || POSES.stand, s = o.s ?? 1, f = o.facing ?? 1;
+  const tf = (dx, dy) => { g.translate(o.x + dx, o.y + dy); g.scale(f * s, s); if (o.rot) { g.translate(p.hip[0], p.hip[1]); g.rotate(o.rot); g.translate(-p.hip[0], -p.hip[1]); } };
+  g.save();
+  if (o.shadow !== false && !o.rot) { g.fillStyle = 'rgba(10,4,12,.22)'; g.beginPath(); g.ellipse(o.x, o.y + 2, 38 * s, 6 * s, 0, 0, 7); g.fill(); }
+  g.save(); g.filter = `blur(${3.2 * s}px)`; tf(3.6 * s, -3 * s); puppetParts(g, id, o, p, alpha(GLOW, .7)); g.restore();     // soft peach glow behind the silhouette (top-right)
+  g.save(); tf(1.7 * s, -1.5 * s); puppetParts(g, id, o, p, EDGE); g.restore();                                                 // thin warm edge line (as in the sheets)
+  g.save(); tf(0, 0); puppetParts(g, id, o, p, null); g.restore();
+  g.restore();
+}
 // ---------- full figure: kit body + our head ----------
 // v3.1: group opacity. Drawing a figure part-by-part with globalAlpha < 1 lets the neck, body and
 // headphones show through the face (WI11 fading people). Draw opaque into a scratch layer, then composite once.
@@ -149,13 +241,12 @@ export function drawChar(g, id, fig, t = 0) {
   if (fig.alpha != null && fig.alpha < .999) return alphaGroup(g, fig.alpha, L => drawChar(L, id, { ...fig, alpha: null }, t));
   const H = HEAD[id] || {}, of = { ...CAST[id], head: 'none' }, f = fig.facing ?? 1;
   const o = { ...fig, outfit: of, expr: 'neutral', face: { brows: null } };
-  const [hx, hy, hr] = headPos(o), rim = fig.rim, rw = (rim?.w ?? 4);
+  const PUP = !fig.kit; const [hx, hy, hr] = PUP ? puppetHead(o) : headPos(o), rim = fig.rim, rw = (rim?.w ?? 4);
   const rimOff = rim ? [rim.dir[0] * rw * 1.2, rim.dir[1] * rw * 1.2] : null;
   const hair = H.hair && HAIR[H.hair];
   g.save(); if (fig.alpha != null) g.globalAlpha *= fig.alpha;
   if (hair?.behind) hair.behind(g, hx, hy, hr, -f, { t, rim: rimOff, rimCol: rim?.color, ...H });
-  drawFigure(g, o);
-  circle(g, hx, hy, hr * .995, S().ink);                                   // wipe the kit face
+  if (PUP) drawPuppet(g, id, { ...o, rimColor: rim?.color }); else { drawFigure(g, o); circle(g, hx, hy, hr * .995, S().ink); }
   const droop = exP(fig.ex || fig.expr).dr, hrot = droop * .16 * f;
   g.save(); if (fig.rot) { g.translate(hx, hy); g.rotate(fig.rot); g.translate(-hx, -hy); }   // v3.1: body rotation turns the face about the head centre (it used to swing off the head)
   if (hrot) { g.translate(hx, hy + hr); g.rotate(hrot); g.translate(-hx, -hy - hr); }
@@ -167,7 +258,7 @@ export function drawChar(g, id, fig, t = 0) {
 
 // ---------- close-up bust (matches the channel image) ----------
 export function bust(g, cx, cy, r, id, o = {}) {
-  const H = HEAD[id] || {}, C = CAST[id] || {}, ink = S().ink, side = o.rimSide ?? 1, rc = o.rimColor || '#ffb45a', hairSide = o.hairSide ?? -side;
+  const H = HEAD[id] || {}, C = CAST[id] || {}, ink = S().ink, side = o.rimSide ?? 1, rc = GLOW, hairSide = o.hairSide ?? -side;
   const DR = exP(o.ex || o.expr).dr;
   g.save(); g.translate(cx, cy + DR * r * .07); g.rotate((o.tilt || 0) + DR * .07 * side);
   const sy = r * (1.02 + DR * .05), shW = r * (1.45 - DR * .06);
@@ -178,10 +269,11 @@ export function bust(g, cx, cy, r, id, o = {}) {
   const hair = H.hair && HAIR[H.hair];
   if (hair?.behind) hair.behind(g, 0, 0, r, hairSide, { t: o.t, rim: [side * r * .05, -r * .02], rimCol: rc, ...H });
   // rim behind body + head
-  g.save(); g.translate(side * r * .055, -r * .02); torso(rc); circle(g, 0, 0, r, rc); g.restore();
+  g.save(); g.filter = `blur(${r * .03}px)`; g.translate(side * r * .05, -r * .04); torso(alpha(GLOW, .85)); circle(g, 0, 0, r * 1.02, alpha(GLOW, .85)); g.restore();
   g.fillStyle = ink; g.fillRect(-r * .22, r * .6, r * .44, sy - r * .45);
+  torso(INK, r * .05);   // v3.2 ink outline
   if (top === 'hoodie') {
-    torso(col);
+    torso(col); g.save(); g.beginPath(); g.rect(side > 0 ? -r * 3 : r * .55, -r, r * 2.45, r * 5); g.clip(); torso(alpha(shade(col, -.3), .5)); g.restore();
     g.fillStyle = shade(col, -.32); g.beginPath(); g.ellipse(0, sy + r * .05, r * .95, r * .34, 0, 0, Math.PI * 2); g.fill();       // hood bunched round the neck
     g.fillStyle = col; g.beginPath(); g.ellipse(0, sy + r * .18, r * .78, r * .26, 0, 0, Math.PI * 2); g.fill();
     g.strokeStyle = shade(col, -.45); g.lineWidth = r * .045; g.lineCap = 'round';
@@ -196,7 +288,7 @@ export function bust(g, cx, cy, r, id, o = {}) {
   } else if (top === 'tshirt') {
     torso(col); g.fillStyle = ink; g.beginPath(); g.ellipse(0, sy + r * .02, r * .44, r * .2, 0, 0, Math.PI); g.fill();
   } else torso(ink);
-  circle(g, 0, 0, r, ink);
+  circle(g, 0, 0, r * 1.03, INK); circle(g, 0, 0, r, HEADC);
   face(g, 0, 0, r, { front: true, expr: o.expr, ex: o.ex, talk: o.talk, blink: o.blink, look: o.look, lashes: H.lashes, glasses: H.glasses, tear: o.tear, t: o.t });
   if (hair?.front) hair.front(g, 0, 0, r, hairSide, { ...H, front: true, t: o.t });
   g.restore();

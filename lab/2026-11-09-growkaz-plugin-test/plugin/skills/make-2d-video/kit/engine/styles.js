@@ -55,6 +55,18 @@ export const STYLES = {
       interiorWarm: { rim: '#9af2ff', wall: '#2e4a58', practical: '#e0faff' },
     },
   },
+  ifs: {   // Between the Ifs v3.2 (2026-11-17): clean saturated night-purple + warm amber, ink outlines, no haze (ref Gemini_Generated_Image_d2u1ytd2u1ytd2u1.jpg)
+    name: 'Between the Ifs', desc: 'Saturated violet nights, warm amber interiors, crisp ink, clean daylight.',
+    ink: '#1c1216', inkFar: '#3a2a40', feature: '#fff8f0', rimWidth: 5,
+    ui: { ...UI, card: 'rgba(28,18,40,.92)', cardLine: 'rgba(255,170,90,.45)', text: '#ffe4c8', sub: '#c8a8d8', accent: '#ff9a4a', gold: '#ffc65a', blueprint: '#ffd0a0', bpBg: '#1a1228', good: '#9be27a' },
+    grade: { contrast: 1.04, sat: 1.1, lift: [0, 0, 0], gamma: [1.0, 1.0, 1.0], gain: [1.0, 1.0, 1.0], vignette: 0.16, grain: 0.015, bloom: 0.2 },
+    moods: {
+      dusk: { sky: ['#241a52', '#6a4a9a', '#f0906a', '#ffd6a8'], key: '#ffd09a', rim: '#ff9a4a', wall: '#4a3a6a', floor: '#5a3a2c', dark: '#1a1230', practical: '#ffd090', fog: '#8a70b8' },
+      night: { sky: ['#0e0a24', '#231a52', '#3e3088'], rim: '#b9a0ff', practical: '#ffc070' },
+      golden: { sky: ['#4f9fe6', '#94cff4', '#eaf6ff'], rim: '#ffd08a' },
+      interiorWarm: { rim: '#ff9a4a', wall: '#4a3a68' },
+    },
+  },
   sakura: {
     name: 'Sakura Bloom', desc: 'Dreamy rose-and-peach world: plum shadows, soft pink sky, warm peach key, glowing rose rim light, gentle haze.',
     ink: '#1a0c16', inkFar: '#4a2a40', feature: '#fff4f6', rimWidth: 5,

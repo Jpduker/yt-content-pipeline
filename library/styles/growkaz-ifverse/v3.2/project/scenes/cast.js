@@ -1,11 +1,11 @@
 // WI02 cast (DIRECTION.md cast bible). One signature colour item each; extras plain ink.
-export const GREEN = '#3fb950', YELLOW = '#f2c21a', ORANGE = '#e8743b', BLUE = '#3a6ea5', PURPLE = '#8a5ad6', PINK = '#f29ac0';
+export const GREEN = '#3e9c4c', YELLOW = '#f2c21a', ORANGE = '#e8743b', BLUE = '#3a6ea5', PURPLE = '#8a5ad6', PINK = '#f29ac0';
 export const CAST = {
   YOU:      { top: 'hoodie', color: GREEN, head: 'none' },              // = channel image: bald round head, green hoodie (STRICT)
   MIRA:     { top: 'trench', color: YELLOW, head: 'ponytail' },         // yellow jacket
   MIRA_EVE: { top: 'tshirt', color: '#3a3040', head: 'ponytail' },      // evening: no jacket
   BARISTA:  { top: 'none', head: 'capBack', headColor: ORANGE },
-  BOSS:     { top: 'suit', color: '#2a2a36', color2: BLUE, head: 'none' },
+  BOSS:     { top: 'suit', color: '#3e3c46', color2: BLUE, head: 'none' },   // v3.2: charcoal suit (Gemini sheet)
   COLL:     { top: 'none', head: 'headband', headColor: PURPLE },
   TRAIN:    { top: 'none', head: 'beanie', headColor: PINK },
   MIRA_HOME: { top: 'tshirt', color: '#c9a227', head: 'ponytail' },     // at home: mustard tee (yellow stays her colour)

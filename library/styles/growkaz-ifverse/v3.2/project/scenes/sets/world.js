@@ -360,5 +360,12 @@ export function flat(g, t, cam, o = {}) {   // the hero's flat: sofa, TV + conso
   });
   return { GY, CX, M, spots: { sofa: CX - 260, tv: CX + 470 } };
 }
-export const SETS = { cafe, bedroom, office, canteen, train, street, hall, platform, lift, kitchen, stage, garden, flat };
+
+// v3.2 model-sheet backdrop (light grey, like Vivek's Gemini character sheets) — for look-dev and character cards
+export function studio(g, t, cam, o = {}) {
+  const GY = GYf(), CX = E.W / 2;
+  layer(g, cam, .6, g => { g.fillStyle = o.bg || '#dcdbe0'; g.fillRect(-E.W * 2, -E.H * 2, E.W * 5, E.H * 5); });
+  return { GY, CX, M: mood('golden'), spots: {} };
+}
+export const SETS = { studio, cafe, bedroom, office, canteen, train, street, hall, platform, lift, kitchen, stage, garden, flat };
 

@@ -279,7 +279,7 @@ function scene(g, t, info) {
   if (p._ghost) ghostBubble(g, p._ghost[0], p._ghost[1], p._ghost[2], gt, { noTail: p._ghost[3], up: p._ghost[3] ? 0 : 40, scr: !p._ghost[3] });
   if (p.rain) { FX.rain(g, t, { count: 160, color: 'rgba(190,215,255,.55)' }); veil(g, '#1a2236', .18); }
   if (frozen) { FX.drops(g, t, { count: 34, color: '#d8e4ff', rMax: 6, drift: 1.5 }); freezeTint(g); }
-  FX.dust(g, frozen ? 0 : t, { count: 36, color: '#ffe2bd', a: .3 });
+  if (!p.day) FX.dust(g, frozen ? 0 : t, { count: 36, color: '#ffe2bd', a: .3 });
   if (p.streak) FX.lensStreak(g, E.W / 2, E.H * .32, E.W * 1.2, '#ffe0b0', .16);
   if (p.fg) fgBlur(g, p.fg, t, p.fgSide ?? -1, p.fgCol);
   listenVignette(g, thAmt);
@@ -294,7 +294,7 @@ function recall(g, t, p) {
     text(g, '“' + l.text + '”', E.W / 2, y0 + i * V(78, 96), { size: V(44, 50), font: FONTS.ui, weight: 800, italic: true, color: i === 0 && p.hiFirst ? '#fff6e6' : IVORY, alpha: a, stroke: 6, strokeColor: 'rgba(16,8,18,.7)' }); });
 }
 function overlays(g, t, p) {
-  if (p.day) { g.save(); g.globalCompositeOperation = 'screen'; g.fillStyle = 'rgba(255,236,214,.16)'; g.fillRect(0, 0, E.W, E.H); g.restore(); } else grade(g, p);   // v3.2: daylight shots skip the night vignette and lift if (p.label) { const a = Math.min(ease.out(prog(t, .15, .5)), 1 - prog(t, p.dur - .4, p.dur)); text(g, p.label, V(96, 80), E.H - V(150, 260), { size: V(34, 40), font: FONTS.ui, weight: 900, color: '#f4ecdf', align: 'left', alpha: a, stroke: 6, strokeColor: 'rgba(10,6,12,.6)', spacing: 3 }); }
+  if (!p.day) grade(g, p);   // v3.2: daylight shots skip the night vignette (no lift: the black heads must stay black) if (p.label) { const a = Math.min(ease.out(prog(t, .15, .5)), 1 - prog(t, p.dur - .4, p.dur)); text(g, p.label, V(96, 80), E.H - V(150, 260), { size: V(34, 40), font: FONTS.ui, weight: 900, color: '#f4ecdf', align: 'left', alpha: a, stroke: 6, strokeColor: 'rgba(10,6,12,.6)', spacing: 3 }); }
   if (!VERT) { cap(g, p.globalT); vOverlay(g, t, p); }
   if (p.clock && !VERT) clockBadge(g, p.clock, t);
   if (p.rules) { const [a, b] = Array.isArray(p.rules) ? p.rules : [p.rules, p.rules]; const n = Math.round(lerp(a, b, ease.inOut(prog(t, .2, p.dur * .8)))); rulesBadge(g, n, t, n >= 20); }
