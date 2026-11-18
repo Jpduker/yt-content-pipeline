@@ -16,17 +16,17 @@ function buildTags() {
   TAGS = []; if (TL.tags === false) return; const seen = new Set();
   TL.shots.forEach((s, i) => {
     const t0 = s.a + (i === 0 && TL.hook ? Math.max(.6, (TL.hookEnd || 0) + .2) : .7);
-    if (s.tags) { s.tags.forEach((g, j) => TAGS.push({ t: s.a + (g.t ?? (.7 + j * 1.2)), d: g.d || 3.4, name: g.name, role: g.role, big: g.big, slot: j })); (s.tagsSeen || []).forEach(k => seen.add(k)); return; }
-    let j = 0; for (const k in (s.cast || {})) { if (!ROLES[k] || seen.has(k) || s.cast[k].tag === false) continue; seen.add(k); TAGS.push({ t: t0 + j * 1.1, d: 3.2 + Math.max(0, 2.2 - j * 1.1), name: ROLES[k][0], role: ROLES[k][1], slot: j }); j++; }
+    if (s.tags) { s.tags.forEach((g, j) => TAGS.push({ t: s.a + (g.t ?? (.7 + j * 1.2)), d: Math.min(g.d || 3.4, s.b - s.a - (g.t ?? (.7 + j * 1.2)) - .5), name: g.name, role: g.role, big: g.big, slot: j })); (s.tagsSeen || []).forEach(k => seen.add(k)); return; }
+    let j = 0; for (const k in (s.cast || {})) { if (!ROLES[k] || seen.has(k) || s.cast[k].tag === false) continue; seen.add(k); const tt = t0 + j * 1.1, end = s.cam && s.cam.punch ? Math.min(s.b, s.a + s.cam.punch.t - .05) : s.b, dd = Math.min(3.2 + Math.max(0, 2.2 - j * 1.1), end - tt - .5); if (dd > 1.0) { TAGS.push({ t: tt, d: dd, name: ROLES[k][0], role: ROLES[k][1], slot: j, who: k }); j++; } else seen.delete(k); }   // a name card never outlives its shot (else it sits over the next one) }
   });
 }
 function nameTag(t, v) {
   const a = ss(seg(t, v.t, v.t + .45)) * (1 - ss(seg(t, v.t + v.d, v.t + v.d + .5))); if (a <= 0) return;
-  const k = v.big ? 1.45 : 1, slot = v.slot || 0;
-  const x = (portrait ? 64 : 84) - (1 - a) * 40, y = (portrait ? 540 : 110) + slot * 118 * k;
+  const k = v.big ? 1.45 : 1, slot = v.slot || 0; window.__tagWho = v.who;
+  const x = (portrait ? 84 : 84) - (1 - a) * 20, y = (portrait ? 600 : 110) + slot * 118 * k;
   g.save(); g.globalAlpha = a; g.textBaseline = 'alphabetic'; g.textAlign = 'left';
   g.font = `600 ${Math.round(40 * k)}px Cinzel`; const nw = g.measureText(v.name).width; g.font = `italic 500 ${Math.round(34 * k)}px "Cormorant Garamond"`; const rw = g.measureText(v.role).width;
-  const bw = Math.max(nw, rw) + 60 * k, bh = 100 * k, gr = g.createLinearGradient(x, 0, x + bw, 0); gr.addColorStop(0, 'rgba(6,8,18,.86)'); gr.addColorStop(1, 'rgba(6,8,18,0)');
+  const bw = Math.max(nw, rw) + 60 * k, bh = 100 * k, _r = (box('tag', x, y, Math.max(nw, rw) + 60 * k, 100 * k), UIR[UIR.length - 1].n = v.name), gr = g.createLinearGradient(x, 0, x + bw, 0); gr.addColorStop(0, 'rgba(6,8,18,.94)'); gr.addColorStop(.7, 'rgba(6,8,18,.78)'); gr.addColorStop(1, 'rgba(6,8,18,0)');
   g.fillStyle = gr; g.fillRect(x, y, bw + 60, bh); g.fillStyle = '#e2c989'; g.fillRect(x, y + 8, 4, bh - 16);
   g.shadowColor = 'rgba(0,0,0,.8)'; g.shadowBlur = 8; g.font = `600 ${Math.round(40 * k)}px Cinzel`; g.fillStyle = '#e8cf8f'; g.fillText(v.name, x + 24 * k, y + 46 * k);
   g.font = `italic 500 ${Math.round(34 * k)}px "Cormorant Garamond"`; g.fillStyle = '#f3ead6'; g.fillText(v.role, x + 24 * k, y + 84 * k); g.restore();
@@ -50,8 +50,8 @@ function plate(text, y, a, o = {}) {
   if (a <= 0) return;
   g.save(); g.globalAlpha = a; g.textAlign = 'center'; g.textBaseline = 'middle';
   const fs = o.size || (portrait ? 60 : 54); g.font = `italic 500 ${fs}px "Cormorant Garamond"`;
-  const maxW = (portrait ? 900 : 1100), lines = wrap(text, maxW - 80), lh = fs * 1.12, bh = lines.length * lh + 64 + (o.label ? 36 : 0), bw = Math.min(maxW, Math.max(...lines.map(l => g.measureText(l).width)) + 110);
-  const x = W / 2 - bw / 2, yy = y - bh / 2 + (1 - a) * 12;
+  const maxW = (portrait ? 840 : 1100), lines = wrap(text, maxW - 80), lh = fs * 1.12, bh = lines.length * lh + 64 + (o.label ? 36 : 0), bw = Math.min(maxW, Math.max(...lines.map(l => g.measureText(l).width)) + 110);
+  const x = (portrait ? (SAFE.x0 + SAFE.x1) / 2 : W / 2) - bw / 2, yy = y - bh / 2 + (1 - a) * 12; if (a > .05) box(o.k || 'plate', x, yy, bw, bh);
   const gr = g.createLinearGradient(0, yy, 0, yy + bh); gr.addColorStop(0, 'rgba(14,18,34,.88)'); gr.addColorStop(1, 'rgba(6,8,18,.92)');
   g.fillStyle = gr; g.fillRect(x, yy, bw, bh); g.strokeStyle = 'rgba(214,190,130,.9)'; g.lineWidth = 2; g.strokeRect(x + 1, yy + 1, bw - 2, bh - 2); g.strokeStyle = 'rgba(214,190,130,.35)'; g.lineWidth = 1; g.strokeRect(x + 7, yy + 7, bw - 14, bh - 14);
   g.fillStyle = '#e2c989'; for (const [px, py] of [[x, yy], [x + bw, yy], [x, yy + bh], [x + bw, yy + bh]]) { g.beginPath(); g.moveTo(px, py - 6); g.lineTo(px + 6, py); g.lineTo(px, py + 6); g.lineTo(px - 6, py); g.closePath(); g.fill(); }
@@ -61,24 +61,38 @@ function plate(text, y, a, o = {}) {
   for (const l of lines) { g.fillText(l, W / 2, ty); ty += lh; }
   g.restore();
 }
-function subtitle(t, v) {
-  const d = v.d || 3, a = ss(seg(t, v.t - .35, v.t + .05)) * (1 - ss(seg(t, v.t + d + .45, v.t + d + .8)));
-  if (a <= 0) return;
-  g.save(); g.globalAlpha = a; g.textAlign = 'center'; g.textBaseline = 'alphabetic';
-  const fs = portrait ? 56 : 50; g.font = `italic 500 ${fs}px "Cormorant Garamond"`;
-  const lines = wrap(v.sub, portrait ? 940 : 1500), lh = fs * 1.15, y0 = (portrait ? H - 430 : H - 88) - (lines.length - 1) * lh;
-  const tw = Math.max(...lines.map(l => g.measureText(l).width));
-  const sh = g.createLinearGradient(0, y0 - 70, 0, y0 + (lines.length - 1) * lh + 40); sh.addColorStop(0, 'rgba(0,0,0,0)'); sh.addColorStop(.5, 'rgba(0,0,0,.42)'); sh.addColorStop(1, 'rgba(0,0,0,0)');
-  g.fillStyle = sh; g.fillRect(W / 2 - tw / 2 - 160, y0 - 70, tw + 320, (lines.length - 1) * lh + 110);
-  g.shadowColor = 'rgba(0,0,0,.9)'; g.shadowBlur = 10; g.shadowOffsetY = 2; g.fillStyle = '#f6f0e2';
-  lines.forEach((l, i) => g.fillText(l, W / 2, y0 + i * lh));
+// —— CAPTIONS v2 (2026-11-18): built from forced-alignment word times (tools/words.py). A caption is a phrase of ≤ 4 words / ≤ 24 chars that
+// never crosses a sentence end; it appears on its first word and leaves on its last (+.25 s, or earlier when the next phrase starts), so two
+// captions are never on screen together. The spoken word is gold, words already said are cream, words still to come are dim.
+// Placement: inside the YouTube Shorts safe area (above the title/description overlay, left of the button column).
+export const SAFE = { x0: 60, x1: 930, y0: 230, y1: 1440 };   // portrait 1080×1920, approximate Shorts UI-free zone (checked by tools/audit)
+const UIR = []; window.__ui = UIR;   // every drawn UI element registers its box here each frame (for the audit)
+const box = (k, x, y, w, h) => UIR.push({ k, x: Math.round(x), y: Math.round(y), w: Math.round(w), h: Math.round(h) });
+function phrases(v) {
+  if (v._ph) return v._ph; const W_ = v.w && v.w.length ? v.w : [[v.sub, v.t, v.t + (v.d || 2)]], out = []; let cur = [];
+  for (const w of W_) { cur.push(w); const txt = cur.map(x => x[0]).join(' '), end = /[.!?…]["”’]?$/.test(w[0]), soft = /[,;:—]$/.test(w[0]);
+    if (end || cur.length >= 4 || txt.length >= 24 || (soft && cur.length >= 2)) { out.push(cur); cur = []; } }
+  if (cur.length) out.push(cur); return (v._ph = out);
+}
+function allPhrases() { if (TL._ph) return TL._ph; const P = []; for (const s of TL.shots) for (const v of s.vo) if (!v.dlg) for (const ws of phrases(v)) { ws.cut = s.b; P.push(ws); } P.sort((a, b) => a[0][1] - b[0][1]); return (TL._ph = P); }
+function captions(t) {   // a caption never crosses a cut (2026-11-18 review: 'Rollo sneezed.' sat on the next shot)
+  const P = allPhrases(); let i = -1;
+  for (let k = 0; k < P.length; k++) { const a = P[k][0][1] - .06, nx = k + 1 < P.length ? P[k + 1][0][1] - .06 : Infinity, b = Math.min(P[k][P[k].length - 1][2] + .25, nx, P[k].cut ?? Infinity); if (t >= a && t < b) { i = k; break; } }
+  if (i < 0) return; const ws = P[i], a = ss(seg(t, ws[0][1] - .06, ws[0][1] + .06));
+  g.save(); g.textAlign = 'left'; g.textBaseline = 'alphabetic'; const fs = portrait ? 64 : 54; g.font = `italic 600 ${fs}px "Cormorant Garamond"`;
+  const sp = g.measureText(' ').width, widths = ws.map(w => g.measureText(w[0]).width), tw = widths.reduce((x, y) => x + y, 0) + sp * (ws.length - 1);
+  const cx = portrait ? (SAFE.x0 + SAFE.x1) / 2 : W / 2, y = portrait ? 1250 : H - 96; let x = cx - tw / 2;
+  const sh = g.createLinearGradient(0, y - fs - 24, 0, y + 30); sh.addColorStop(0, 'rgba(0,0,0,0)'); sh.addColorStop(.5, 'rgba(0,0,0,.5)'); sh.addColorStop(1, 'rgba(0,0,0,0)');
+  g.globalAlpha = a; g.fillStyle = sh; g.fillRect(cx - tw / 2 - 70, y - fs - 24, tw + 140, fs + 54); box('caption', cx - tw / 2 - 20, y - fs, tw + 40, fs + 18);
+  g.shadowColor = 'rgba(0,0,0,.95)'; g.shadowBlur = 10; g.shadowOffsetY = 3;
+  ws.forEach((w, j) => { const said = t >= w[2], now = t >= w[1] - .03 && t < w[2]; g.fillStyle = now ? '#ffd36e' : said ? '#f6f0e2' : 'rgba(246,240,226,.5)'; g.fillText(w[0], x, y); x += widths[j] + sp; });
   g.restore();
 }
 function dialogue(t, v) {
-  const d = v.d || 3, a = ss(seg(t, v.t - .3, v.t)) * (1 - ss(seg(t, v.t + d + .6, v.t + d + 1.0)));
+  const d = v.d || 3, a = ss(seg(t, v.t - .25, v.t)) * (1 - ss(seg(t, v.t + d + .2, v.t + d + .45)));   // in on the first word, out .45 s after the last
   if (a <= 0) return;
   g.save(); g.globalAlpha = a;
-  const bw = portrait ? 960 : 1180, bh = portrait ? 250 : 210, x = W / 2 - bw / 2, y = (portrait ? H - 720 : H - 300) + (1 - a) * 14;
+  const bw = portrait ? 840 : 1180, bh = portrait ? 250 : 210, x = portrait ? SAFE.x0 + 10 : W / 2 - bw / 2, y = (portrait ? 1160 : H - 300) + (1 - a) * 14; box('dialogue', x, y - 22, bw, bh + 22);
   const gr = g.createLinearGradient(0, y, 0, y + bh); gr.addColorStop(0, 'rgba(14,18,34,.86)'); gr.addColorStop(1, 'rgba(6,8,18,.9)');
   g.fillStyle = gr; g.fillRect(x, y, bw, bh); g.strokeStyle = 'rgba(214,190,130,.9)'; g.lineWidth = 2; g.strokeRect(x + 1, y + 1, bw - 2, bh - 2); g.strokeStyle = 'rgba(214,190,130,.35)'; g.lineWidth = 1; g.strokeRect(x + 7, y + 7, bw - 14, bh - 14);
   g.fillStyle = '#e2c989'; for (const [px, py] of [[x, y], [x + bw, y], [x, y + bh], [x + bw, y + bh]]) { g.beginPath(); g.moveTo(px, py - 6); g.lineTo(px + 6, py); g.lineTo(px, py + 6); g.lineTo(px - 6, py); g.closePath(); g.fill(); }
@@ -86,7 +100,7 @@ function dialogue(t, v) {
   g.font = '600 32px "Cormorant Garamond"'; g.textAlign = 'left'; g.textBaseline = 'middle'; const nw = g.measureText(v.dlg).width + 44;
   g.fillStyle = 'rgba(6,8,18,.95)'; g.fillRect(x + 28, y - 22, nw, 44); g.strokeStyle = 'rgba(214,190,130,.9)'; g.lineWidth = 2; g.strokeRect(x + 28, y - 22, nw, 44); g.fillStyle = '#e2c989'; g.fillText(v.dlg, x + 50, y);
   // typed text over 92 % of the voice
-  const k = clamp((t - v.t) / (d * .92)), full = v.sub, n = Math.floor(full.length * k), shown = full.slice(0, n);
+  const ws = v.w && v.w.length ? v.w : null, k = ws ? (t >= ws[ws.length - 1][2] ? 1 : 0) : clamp((t - v.t) / (d * .92)), full = v.sub, shown = ws ? ws.filter(w => t >= w[1] - .03).map(w => w[0]).join(' ') : full.slice(0, Math.floor(full.length * k));   // words appear as they are spoken
   const fs = portrait ? 44 : 42; g.font = `500 ${fs}px "Cormorant Garamond"`; g.fillStyle = '#f3ead6'; g.textBaseline = 'alphabetic';
   const lines = wrap(shown, bw - 100); let ty = y + 72; for (const l of lines) { g.fillText(l, x + 46, ty); ty += fs * 1.2; }
   if (k >= 1 && Math.floor(t * 2) % 2 === 0) { g.fillStyle = '#e2c989'; g.beginPath(); g.moveTo(x + bw - 46, y + bh - 36); g.lineTo(x + bw - 30, y + bh - 36); g.lineTo(x + bw - 38, y + bh - 24); g.closePath(); g.fill(); }
@@ -126,9 +140,30 @@ function titleShot(t, s) {
   g.restore();
   if (T.buttons !== false) { g.save(); g.globalAlpha = ss(seg(lt, 2.4, 2.9)) * out; buttons(t, s.a, H / 2 + (portrait ? 250 : 200), [3.0, 3.35, 3.7], null); g.restore(); }   // like · subscribe · bell on every end title
 }
+// INSERT shots: a full-frame painted pixel close-up of an object the narration names (shot.insert = 'locket' | …)
+function insertShot(t, s) {
+  const lt = t - s.a, d = s.b - s.a, a = ss(seg(lt, 0, .06)) * (1 - ss(seg(lt, d - .1, d))); if (a <= 0) return;   // an insert is a hard cut, not a dissolve
+  g.save(); g.globalAlpha = a; g.fillStyle = '#07090c'; g.fillRect(0, 0, W, H);
+  const k = Math.round((portrait ? 26 : 18) * (1 + .06 * lt / d)), cx = W / 2, cy = H * (portrait ? .45 : .5);
+  if (s.insert === 'locket') {
+    const gw = g.createRadialGradient(cx, cy, 10, cx, cy, 34 * k); gw.addColorStop(0, 'rgba(120,200,170,.35)'); gw.addColorStop(1, 'rgba(0,0,0,0)'); g.fillStyle = gw; g.fillRect(0, 0, W, H);   // the cave's green light
+    const R = 14, ox = cx - R * k, oy = cy - R * k * 1.15, px = (x, y, c) => { g.fillStyle = c; g.fillRect(ox + x * k, oy + y * k, k, k); };
+    for (let i = 0; i < 6; i++) px(R - 1 + (i % 2), -6 + i, i % 2 ? '#9aa0aa' : '#d8dde6');   // chain
+    for (let y = 0; y < 2 * R * 1.15; y++) for (let x = 0; x < 2 * R; x++) { const dx = (x + .5 - R) / R, dy = (y + .5 - R * 1.15) / (R * 1.15), r = dx * dx + dy * dy;
+      if (r < 1 && r > .62) px(x, y, (dx - dy) > .3 ? '#f2f5fa' : (dx - dy) < -.6 ? '#6a7080' : '#b8bec9');   // silver rim, lit from top-left
+      else if (r <= .62) { const rr = (dx * 1.25) ** 2 + ((dy + .02) * 1.25) ** 2; px(x, y, rr < .62 ? '#f1d9b8' : '#e9dcc4'); } }   // painted ivory + a round face
+    const F = (x, y, c) => px(R + x, Math.round(R * 1.15) + y, c);
+    F(-3, -1, '#2a1a14'); F(2, -1, '#2a1a14'); F(-4, 1, '#f0a0a0'); F(3, 1, '#f0a0a0'); F(-1, 3, '#b0605a'); F(0, 3, '#b0605a');   // eyes, cheeks, a small smile
+    for (const [x, y] of [[-1, -6], [0, -7], [1, -6], [0, -6]]) F(x, y, '#8a6040');   // a curl of hair
+    const sh = ss(seg(lt, .4, 1.6)); g.globalCompositeOperation = 'lighter'; g.globalAlpha = a * .35 * Math.sin(sh * Math.PI); g.fillStyle = '#ffffff';   // a glint sweeping the rim
+    g.beginPath(); g.ellipse(ox + R * k * (.4 + 1.2 * sh), oy + R * k * .6, k * 1.4, R * k * 1.1, -.5, 0, Math.PI * 2); g.fill();
+  }
+  g.restore();
+  const vg = g.createRadialGradient(cx, cy, W * .25, cx, cy, W * .8); vg.addColorStop(0, 'rgba(0,0,0,0)'); vg.addColorStop(1, `rgba(0,0,0,${.6 * a})`); g.fillStyle = vg; g.fillRect(0, 0, W, H);
+}
 function blackout(t) {
   let a = 0;
-  for (const s of TL.shots.slice(1)) { const c = s.a; if (t < c && t > c - .3) a = Math.max(a, ss((t - (c - .3)) / .3)); if (t >= c && t < c + .45) a = Math.max(a, 1 - ss((t - c) / .45)); }
+  for (const s of TL.shots.slice(1)) { if (s.cut === 'hard') continue; const c = s.a; if (t < c && t > c - .3) a = Math.max(a, ss((t - (c - .3)) / .3)); if (t >= c && t < c + .45) a = Math.max(a, 1 - ss((t - c) / .45)); }
   a = Math.max(a, ss(seg(t, TL.DUR - .7, TL.DUR - .05)), 1 - ss(seg(t, 0, .5)));
   if (a > 0) { g.fillStyle = `rgba(0,0,0,${a})`; g.fillRect(0, 0, W, H); }
 }
@@ -169,7 +204,7 @@ let MAB = null;
 function mabelSprite() { if (MAB) return MAB; try { MAB = window.__makeMabel ? window.__makeMabel().atlas : null; } catch (e) { MAB = null; } return MAB; }
 function outro(t) {
   const o = TL.outroAt; if (o == null || t < o) return; const st = TL.outro || 'lamp', u = t - o, fade = 1 - ss(seg(t, TL.DUR - .7, TL.DUR - .1));
-  const veil = ss(seg(u, 0, .8)) * .55; g.fillStyle = `rgba(4,6,14,${veil})`; g.fillRect(0, 0, W, H);
+  box('outro', SAFE.x0, (portrait ? H * .64 : H * .7) - (portrait ? 360 : 280), SAFE.x1 - SAFE.x0, portrait ? 440 : 360); const veil = ss(seg(u, 0, .8)) * .55; g.fillStyle = `rgba(4,6,14,${veil})`; g.fillRect(0, 0, W, H);
   const cy = portrait ? H * .64 : H * .70;
   if (st === 'lamp') {
     const p = clamp((u - .2) / 1.7), bx = -W * .5 + p * W * 2.0;   // the lighthouse beam: a warm diagonal band sweeping left -> right
@@ -204,15 +239,17 @@ function outro(t) {
   }
 }
 export function drawOverlay(t, shot) {
-  g.setTransform(1, 0, 0, 1, 0, 0); g.clearRect(0, 0, cv.width, cv.height); g.setTransform(cv.width / W, 0, 0, cv.height / H, 0, 0);
+  g.setTransform(1, 0, 0, 1, 0, 0); g.clearRect(0, 0, cv.width, cv.height); g.setTransform(cv.width / W, 0, 0, cv.height / H, 0, 0); UIR.length = 0;
   const cur = TL.shots.find(s => t >= s.a && t < s.b) || TL.shots[TL.shots.length - 1];
-  for (const s of TL.shots) for (const v of s.vo) { if (v.dlg) dialogue(t, v); else subtitle(t, v); }
+  if (cur.insert) { insertShot(t, cur); box('insert', 0, 0, W, H); }
+  for (const s of TL.shots) for (const v of s.vo) if (v.dlg) dialogue(t, v);
+  captions(t);
   for (const v of TAGS) nameTag(t, v);
   if (cur.solve) solveShot(t, cur);
   if (cur.title) titleShot(t, cur);
   if (cur.card) { cardShot(t, cur); return; }
-  if (TL.hook) plate(TL.hook, portrait ? 330 : 150, ss(seg(t, .25, .75)) * (1 - ss(seg(t, TL.hookEnd - .5, TL.hookEnd))), { label: TL.label });
-  if (TL.ask) plate(TL.ask, portrait ? 330 : 150, ss(seg(t, TL.askAt, TL.askAt + .6)) * (1 - ss(seg(t, TL.DUR - .6, TL.DUR - .1))), { size: portrait ? 56 : 50 });
+  if (TL.hook) plate(TL.hook, portrait ? 420 : 150, ss(seg(t, .25, .75)) * (1 - ss(seg(t, TL.hookEnd - .5, TL.hookEnd))), { label: TL.label });
+  if (TL.ask) plate(TL.ask, portrait ? 420 : 150, ss(seg(t, TL.askAt, TL.askAt + .6)) * (1 - ss(seg(t, TL.DUR - .6, TL.DUR - .1))), { size: portrait ? 56 : 50 });
   outro(t);
   blackout(t);
 }

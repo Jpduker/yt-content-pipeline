@@ -221,6 +221,19 @@ export function buildWorld(aspect) {
     for (let i = 0; i < 12; i++) { const a = i / 12 * Math.PI * 2, l = new THREE.Group(); l.add(new THREE.Mesh(new THREE.BoxGeometry(.18, .26, .18), lm)); const g = glow('#ffb25e', .7, 1); l.add(g); l.position.set(Math.cos(a), .14, Math.sin(a)); l.userData.a = a; ring.add(l); }
     [0, 1, 2].forEach(i => { const pl = new THREE.PointLight('#ffae55', 7, 9, 1.6); pl.userData.a = i / 3 * Math.PI * 2; ring.add(pl); }); }
   ring.visible = false; scene.add(ring);
+  // a small silver locket on a chain, dragged by whoever has cast spec carry: 'locket' (S20 v2)
+  const carried = new THREE.Group();
+  { const m = new THREE.MeshStandardMaterial({ color: '#e4e8f0', metalness: .6, roughness: .2, emissive: '#9aa4b8', emissiveIntensity: .9 });
+    const lk = new THREE.Mesh(new THREE.CylinderGeometry(.05, .05, .02, 14), m); lk.rotation.z = Math.PI / 2.4; lk.position.y = .045; carried.add(lk);
+    for (let i = 0; i < 5; i++) { const b = new THREE.Mesh(new THREE.SphereGeometry(.015, 5, 4), m); b.position.set(.045 + i * .04, .025 + Math.sin(i) * .008, 0); carried.add(b); }
+    const gl = glow('#e8f0ff', .06, .22); gl.position.y = .07; carried.add(gl); }   // 2026-11-18 review: a .55 glow read as a grey frying pan
+  carried.visible = false; scene.add(carried);
+  // puffs (a sneeze, dust): shot.puffs = [{t, at:[x,y,z], n, col, dir:[x,z]}]
+  const puffs = []; for (let i = 0; i < 14; i++) { const p = glow('#eef4f8', .22, .9); p.visible = false; scene.add(p); puffs.push(p); }
+  // rings on water: shot.rings = [{t, at:[x,y,z], col, r}]
+  const ringM = new THREE.MeshBasicMaterial({ color: '#7affc8', transparent: true, opacity: 0, side: THREE.DoubleSide, depthWrite: false, blending: THREE.AdditiveBlending });
+  const wring = new THREE.Mesh(new THREE.RingGeometry(.86, 1, 48), ringM); wring.rotation.x = -Math.PI / 2; wring.visible = false; scene.add(wring);
+  const wring2 = new THREE.Mesh(new THREE.RingGeometry(.9, 1, 48), ringM.clone()); wring2.rotation.x = -Math.PI / 2; wring2.visible = false; scene.add(wring2);
   const _wp = new THREE.Vector3();
   const PROPS = { ring, wreck, prints, ship, coat, barge, cshadow, cables, farlight };
 
@@ -252,7 +265,15 @@ export function buildWorld(aspect) {
     const walking = spec.to && lt > w0 && lt < w1;
     let pose = spec.pose || 'idle'; if (walking) pose = spec.walkPose || (spec.fly ? 'fly' : 'walk');
     if (spec.poses) for (const [tt, p] of spec.poses) if (lt >= tt) pose = p;
-    return { x, y, z, pose, flip: spec.face === 'l' ? true : spec.face === 'r' ? false : (spec.to ? to[0] < at[0] : false), lit: spec.lit ?? 1 };
+    let flip = spec.face === 'l' ? true : spec.face === 'r' ? false : (spec.to ? to[0] < at[0] : false);
+    if (spec.faces) for (const [tt, f] of spec.faces) if (lt >= tt) flip = f === 'l';   // turn around mid-shot: faces [[t, 'l'|'r']]
+    let jy = 0, sx = 1, sy = 1;   // acting: acts [{t, kind:'sneeze'|'jump'|'flinch'|'shiver'}] → squash & stretch on the sprite
+    for (const a of (spec.acts || [])) { const d = lt - a.t; if (d < -.6 || d > 1.2) continue;
+      if (a.kind === 'sneeze') { if (d < 0) { const w = 1 + d / .6; sy *= 1 + .14 * w; sx *= 1 - .06 * w; } else if (d < .5) { const e = Math.exp(-d * 7); sy *= 1 - .22 * e; sx *= 1 + .18 * e; jy += .08 * Math.sin(Math.min(1, d / .25) * Math.PI) * (1 - d * 2); } }
+      else if (a.kind === 'jump' && d >= 0 && d < .45) jy += .35 * Math.sin(d / .45 * Math.PI);
+      else if (a.kind === 'flinch' && d >= 0 && d < .6) { const e = Math.exp(-d * 6); sx *= 1 - .1 * e; jy += .05 * e; }
+      else if (a.kind === 'shiver' && d >= 0) sx *= 1 + .03 * Math.sin(d * 60); }
+    return { x, y: y + jy, z, pose, flip, sx, sy, hidden: spec.hide != null && lt >= spec.hide, lit: spec.lit ?? 1 };
   }
 
   function update(t, shot, cam, post, renderer) {
@@ -280,26 +301,44 @@ export function buildWorld(aspect) {
       const k0 = lt - shot.lightsOut; winLights.forEach((L, i) => { if (k0 > i * .9) L.intensity = 0; });
       lamps.forEach((L, i) => { if (k0 > .45 + i * .9) { if (L.L) L.L.intensity = 0; if (L.gl) L.gl.material.opacity = 0; if (L.lm) L.lm.emissiveIntensity = 0; } });
       const f = Math.max(0, 1 - Math.max(0, k0) / 5); winMats.forEach(m => { m.emissiveIntensity *= f; }); }
+    puffs.forEach(p => p.visible = false); let pi = 0;
+    for (const f of (shot.puffs || [])) { const d = lt - f.t; if (d < 0 || d > 1.0) continue; const n = f.n || 6, dir = f.dir || [1, 0];
+      for (let i = 0; i < n && pi < puffs.length; i++, pi++) { const p = puffs[pi], a = (i / n - .5) * 1.4, sp = (.5 + (i % 3) * .25) * (f.speed || 1);
+        p.visible = true; p.position.set(f.at[0] + (dir[0] * Math.cos(a) - dir[1] * Math.sin(a)) * d * sp, f.at[1] + d * .25 + Math.sin(i) * .05, f.at[2] + (dir[1] * Math.cos(a) + dir[0] * Math.sin(a)) * d * sp);
+        p.material.opacity = (f.op || .7) * (1 - d); p.scale.setScalar((f.size || .22) * (1 + d * 2.2)); if (f.col) p.material.color.set(f.col); } }
+    [wring, wring2].forEach(w => w.visible = false);
+    (shot.rings || []).forEach((r, i) => { const d = lt - r.t, w = [wring, wring2][i % 2]; if (d < 0 || d > 2.6) return; w.visible = true; w.position.set(r.at[0], r.at[1], r.at[2]);
+      const sc = (r.r || 2.4) * (.15 + d * .9); w.scale.set(sc, sc, sc); w.material.opacity = .9 * Math.max(0, 1 - d / 2.6); if (r.col) w.material.color.set(r.col);
+      if (d > .45) { const w2 = [wring, wring2][(i + 1) % 2]; w2.visible = true; w2.position.copy(w.position); const s2 = (r.r || 2.4) * (.1 + (d - .45) * .9); w2.scale.set(s2, s2, s2); w2.material.opacity = .6 * Math.max(0, 1 - (d - .45) / 2.2); } });
     if (shot.farlight) { farlight.visible = true; const f = shot.farlight, k = clamp(lt / dur); farlight.position.set(f.from[0] + (f.to[0] - f.from[0]) * k, f.from[1] + (f.to[1] - f.from[1]) * k + Math.sin(t * 2.4) * .08, f.from[2] + (f.to[2] - f.from[2]) * k); }
     { const C2 = cave.userData, inCave = shot.time === 'cave', ul = inCave ? (shot.under == null ? 0 : (typeof shot.under === 'number' ? (lt > shot.under ? 1 : 0) : (shot.under === 'on' ? 1 : 0))) : 0;
       C2.lensM.emissiveIntensity = ul * 1.8 * flick(t, 13); C2.uL.intensity = ul * 12 * flick(t, 13); C2.uG.material.opacity = ul; C2.teal.intensity = inCave ? 3 : 0; C2.amb.intensity = inCave ? 22 : 0;
       C2.ub.visible = ul > 0; if (ul > 0) { const o = new THREE.Vector3(CAVE.x + 3, 1.85, CAVE.z - 2.5), dir = new THREE.Vector3(.6, -.02, .8).normalize(); C2.ub.userData.aim(o, dir, cam); C2.ub.material.uniforms.k.value = .35 * ul; C2.ub.material.uniforms.t.value = t; } }
+    // identity guard (2026-11-18 frame review: Rollo turned green under the cave's teal water light). Each character keeps a little of
+    // its own colour as self-light so coloured practicals tint it without changing who it is. Gus keeps his lantern emissive map.
+    { const self = shot.time === 'cave' ? .32 : (TM.prac > 0 ? .12 : 0);
+      for (const k in cast) { const m = cast[k].mesh && cast[k].mesh.material; if (!m || k === 'gus') continue;
+        if (!m.userData.selfLit) { if (m.emissiveMap) { m.userData.selfLit = 'own'; continue; } m.emissiveMap = m.map; m.emissive.set('#ffffff'); m.userData.selfLit = 1; m.needsUpdate = true; }
+        if (m.userData.selfLit === 1) m.emissiveIntensity = self * (k === 'stranger' ? .35 : 1); } }
     if (barge.visible) { barge.position.y = SEA_Y + Math.sin(t * 1.1) * .12; }
     if (ship.visible) { ship.position.y = SEA_Y + Math.sin(t * 1.3) * .25; ship.rotation.z = Math.sin(t * .9) * .06; }
     gulls.forEach((g, i) => { const vis = TM.prac < .5; g.visible = vis; if (vis) { const a = t * .25 + i * 2.1; g.position.set(-6 + Math.cos(a) * (14 + i * 3), 12 + i * 1.5 + Math.sin(t * 1.3 + i) * .4, 2 + Math.sin(a) * (10 + i * 2)); g.rotation.y = Math.atan2(cam.position.x - g.position.x, cam.position.z - g.position.z); } });
 
     // —— Cast blocking ——
-    const B = {}; let hero = null;
+    const B = {}; let hero = null; carried.visible = false;
     for (const k in cast) cast[k].root.visible = false;
     for (const k in (shot.cast || {})) {
       const c = cast[k]; if (!c) continue; const b = block(shot.cast[k], lt, dur); B[k] = b;
-      c.root.visible = true; c.root.position.set(b.x, b.y, b.z); c.frame(poseFrame(k, b.pose, t, k.length)); c.mesh.castShadow = shot.cast[k].shadow ?? (k !== 'stranger' && k !== 'shade');
+      c.root.visible = !b.hidden; c.root.position.set(b.x, b.y, b.z); c.frame(poseFrame(k, b.pose, t, k.length)); c.root.scale.set(b.sx, b.sy, b.sx);
+      if (shot.cast[k].carry) { carried.visible = !b.hidden; carried.position.set(b.x + (b.flip ? .32 : -.32), b.y + .05, b.z); } c.mesh.castShadow = shot.cast[k].shadow ?? (k !== 'stranger' && k !== 'shade');
       if (!hero || shot.cast[k].hero) hero = k;
     }
-    const heroP = hero ? new THREE.Vector3(B[hero].x, B[hero].y + .8, B[hero].z) : V(shot.cam.at || [LH.x, LH.y + 6, LH.z]);
+    // framing rule (2026-11-18 audit): close-ups ('dive') aim at the FACE, so the face sits mid-frame, clear of the Shorts top bar and the captions
+    const EYE = { rollo: .2, mabel: .32, pip: .3 }, FACE = { rollo: .22, mabel: .4, pip: .32 }, aimY = k => shot.cast[k].eye ?? (shot.cam.type === 'dive' ? (FACE[k] ?? 1.3) : (EYE[k] ?? .8));
+    const heroP = hero ? new THREE.Vector3(B[hero].x, B[hero].y + aimY(hero), B[hero].z) : V(shot.cam.at || [LH.x, LH.y + 6, LH.z]);
 
     // —— Camera presets (portrait: higher and closer, subject lower in frame) ——
-    const C = shot.cam || { type: 'map' }, u = ss(clamp(lt / dur)), lin = clamp(lt / dur);
+    const C = shot.cam || { type: 'map' }, cd = shot.camEnd || dur, u = ss(clamp(lt / cd)), lin = clamp(lt / cd);   // camEnd: the last shot holds still under the question + outro
     const pm = portrait ? 1 : 1; let pos, look, fov = C.fov || 30;
     if (C.type === 'map') {
       const P0 = C.from || [-62, 58, 86], P1 = C.to || [-52, 50, 72], L0 = C.look || [6, 3, -6], L1 = C.look2 || C.look || [8, 4, -9];
@@ -313,13 +352,16 @@ export function buildWorld(aspect) {
       const az0 = (C.az ? C.az[0] : 35) * Math.PI / 180, az1 = (C.az ? (C.az[1] ?? C.az[0]) : (C.az0 ?? 35)) * Math.PI / 180;
       const defaults = { stage: [10, 5.2], dive: [7.5, 3.0], top: [.01, 30], orbit: [12, 7] }[C.type] || [10, 5.2];
       const d0 = (C.d ? C.d[0] : defaults[0]), d1 = (C.d ? (C.d[1] ?? C.d[0]) : defaults[0]), h0 = (C.h ? C.h[0] : defaults[1]), h1 = (C.h ? (C.h[1] ?? C.h[0]) : defaults[1]);
-      const pk = portrait ? [1, 1.15] : [1, 1]; const az = lerp(az0, az1, C.type === 'orbit' ? lin : u), d = lerp(d0, d1, u) * pk[0], h = lerp(h0, h1, u) * pk[1];
+      const pk = portrait ? [1, 1.15] : [1, 1], ue = C.ease === 'in' ? lin * lin : C.ease === 'out' ? 1 - (1 - lin) * (1 - lin) : C.ease === 'lin' ? lin : u;
+      let zk = 1; if (C.punch) { const d = lt - C.punch.t; zk = d < -.25 ? 1 : d < 0 ? 1 + .04 * (1 + d / .25) : d < .2 ? lerp(1.04, C.punch.k || .5, (d / .2) ** 2) : (C.punch.k || .5) * (1 + .03 * Math.exp(-(d - .2) * 9) * Math.cos((d - .2) * 30)); }   // crash zoom: wind back 4 %, punch in over 0.2 s, settle
+      const az = lerp(az0, az1, C.type === 'orbit' ? lin : ue), d = lerp(d0, d1, ue) * pk[0] * zk, h = lerp(h0, h1, ue) * pk[1] * (C.punch ? (.6 + .4 * zk) : 1);
       pos = new THREE.Vector3(tgt.x + Math.sin(az) * d, tgt.y + h, tgt.z + Math.cos(az) * d);
       look = tgt.clone().add(V(C.lookOff || [0, portrait ? -.3 : 0, 0]));
       if (C.type === 'top') look = tgt.clone().add(new THREE.Vector3(0, -1, .001));
       fov = (C.fov || 30) * (portrait ? 1.45 : 1);
     }
     if (C.drift) { pos.x += Math.sin(t * .3) * C.drift; pos.z += Math.cos(t * .23) * C.drift * .5; }
+    for (const sh of [...(C.shake || []), ...(C.punch && C.punch.shake ? [{ t: C.punch.t + .2, amp: C.punch.shake }] : [])]) { const d = lt - sh.t; if (d > 0 && d < .6) { const e = (sh.amp || .08) * Math.exp(-d * 9); pos.x += Math.sin(d * 97) * e; pos.y += Math.cos(d * 83) * e; look.x += Math.sin(d * 71) * e * .5; } }
     cam.position.copy(pos); cam.fov = fov; cam.aspect = aspect; cam.updateProjectionMatrix(); cam.lookAt(look);
     for (const k in B) cast[k].face(cam, B[k].flip);   // after the camera, so the first frame of a cut is right
     tufts.forEach((b, i) => { b.rotation.y = Math.atan2(cam.position.x - b.position.x, cam.position.z - b.position.z); b.rotation.z = Math.sin(t * 1.7 + i) * .06; });

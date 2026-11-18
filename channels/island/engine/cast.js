@@ -192,17 +192,29 @@ const PIP = { stand0: {}, stand1: { head: 1 }, standBlink: { blink: 1 }, fly0: {
 
 // —— Rollo the mouse —— 14×10. p: { step, nibble }
 const CR = { fur: ramp(['#6a4a2a', '#9a7244', '#c49a62', '#dcb882'], .22), ear: ramp(['#b85a6a', '#e88a9a'], .22) };
+// Rollo v2 (2026-11-18): drawn at double resolution (28×20, shown at the old size) so close-ups read; poses for acting.
+// p: { step, nibble, blink, head: [dx, dy], sneeze: 0|1|2 (0 wind-up, 1 the sneeze, 2 after), drag }
 function drawRollo(P, E, p) {
-  P.ellipse(6, 6, 4, 2.6, (x, y, dx, dy) => CR.fur(.7 - dy * .3 - dx * .1, x, y));
-  P.ellipse(10, 5, 2.4, 2, (x, y, dx, dy) => CR.fur(.8 - dy * .2, x, y));
-  P.ellipse(9, 2.5, 1.4, 1.4, () => CR.ear(.8, 0, 0)); P.ellipse(11.5, 2.5, 1.4, 1.4, () => CR.ear(.9, 0, 0));
-  P.set(11, 5, INK); P.set(13, 6, hex('#e8907a'));
-  for (let i = 0; i < 5; i++) P.set(1 + (i < 3 ? 0 : i - 2), 5 + i * (i < 3 ? 1 : 0) - (i >= 3 ? 1 : 0), hex('#d8707a'));   // tail
-  const st = p.step ?? -1; const L = st < 0 ? [3, 5, 8, 10] : [[2, 6, 7, 11], [4, 5, 9, 10], [5, 3, 11, 8], [4, 6, 9, 11]][st];
-  L.forEach((x, i) => P.set(x, 9 - (i % 2 && st >= 0 ? 1 : 0), CR.fur(.4, x, 9)));
-  if (p.nibble) { P.rect(12, 7, 2, 2, C.scarf(.9, 0, 0)); }
+  const [hx, hy] = p.head || [0, 0], fur = (v, x, y) => CR.fur(v, x, y), pink = hex('#e88a9a'), pinkD = hex('#c0607a'), whisk = hex('#d8d0c0');
+  for (let i = 0; i < 9; i++) { const x = 4 - i * .5, y = 13 - Math.sin(i * .45) * 4; P.set(Math.round(x + 2), Math.round(y), i < 2 ? pinkD : pink); }   // tail, curling up
+  P.ellipse(12, 12.5, 8.4, 5.4, (x, y, dx, dy) => fur(.78 - dy * .32 - dx * .08, x, y));        // body
+  P.ellipse(13, 14.6, 5.2, 2.4, (x, y, dx, dy) => fur(.95 - dy * .1, x, y));                     // belly
+  const st = p.step ?? -1, feet = st < 0 ? [7, 10, 15, 18] : [[5, 11, 14, 19], [8, 9, 17, 16], [10, 6, 19, 14], [8, 9, 16, 17]][st];
+  feet.forEach((x, i) => { P.rect(x, 17 - (st >= 0 && i % 2 ? 1 : 0), 2, 1, pinkD); });
+  const ex = 20 + hx, ey = 10 + hy;
+  P.ellipse(ex, ey, 5.2, 4.4, (x, y, dx, dy) => fur(.86 - dy * .24 - dx * .06, x, y));              // head
+  P.ellipse(ex + 4.2, ey + 1.2, 2.4, 1.8, (x, y, dx, dy) => fur(.95 - dy * .2, x, y));              // snout
+  [[ex - 2.6, ey - 5.2], [ex + 1.8, ey - 5.6]].forEach(([cx, cy], i) => { P.ellipse(cx, cy, 2.9, 2.9, (x, y, dx, dy) => fur(.6 + i * .1, x, y)); P.ellipse(cx + .3, cy + .3, 1.7, 1.7, () => CR.ear(.9 - i * .1, 0, 0)); });   // ears
+  const shut = p.blink || p.sneeze === 0 || p.sneeze === 1;
+  if (shut) P.rect(ex + 1, ey - 1, 3, 1, INK); else { P.rect(ex + 1, ey - 2, 2, 3, INK); P.set(ex + 1, ey - 2, hex('#ffffff')); }   // eye
+  P.rect(ex + 6, ey + 1, 2, 2, p.sneeze === 0 ? hex('#ff7a8a') : pink);                             // nose (red before the sneeze)
+  if (p.sneeze === 1) { P.rect(ex + 4, ey + 3, 3, 1, INK); for (const [dx, dy] of [[9, 0], [10, 2], [11, -1], [9, 3], [12, 1]]) { P.set(ex + dx, ey + dy, hex('#e8f0f4')); E.set(ex + dx, ey + dy, hex('#a0b0b8')); } }
+  for (const [dy, len] of [[0, 4], [2, 4]]) for (let i = 0; i < len; i++) P.set(ex + 7 + i, ey + 1 + dy - (i > 2 ? 1 : 0), whisk);  // whiskers
+  if (p.nibble) P.rect(ex + 6, ey + 3, 3, 2, C.scarf(.9, 0, 0));
 }
-const ROLLO = { idle0: {}, idle1: { nibble: 1 }, w0: { step: 0 }, w1: { step: 1 }, w2: { step: 2 }, w3: { step: 3 } };
+const ROLLO = { idle0: {}, idle1: { nibble: 1 }, blink: { blink: 1 }, w0: { step: 0 }, w1: { step: 1 }, w2: { step: 2 }, w3: { step: 3 },
+  sniff0: { head: [1, 0] }, sniff1: { head: [1, -1] }, sneeze0: { head: [-1, -2], sneeze: 0 }, sneeze1: { head: [2, 1], sneeze: 1 }, sneeze2: { head: [0, 0], sneeze: 2, blink: 1 },
+  look: { head: [0, -1] }, d0: { step: 0, head: [-1, 1] }, d1: { step: 2, head: [-1, 1] } };
 
 // —— Marlo, the ferry pilot (Chapter 2) —— orange knit cap, navy sailor jumper, rolled trousers, a coil of rope. p: { step, bob, blink, arm:'rope'|'wave' }
 const CM = { cap: ramp(['#7a2a08', '#c24a12', '#ee7a2a', '#ffa860'], .22), jumper: ramp(['#0c1430', '#18244a', '#283a6a', '#3a5288'], .22), trou: ramp(['#3a3020', '#5a4a30', '#7a6644'], .22), hair: ramp(['#1a0e08', '#3a2010', '#5a3418'], .22), rope: ramp(['#6a5430', '#a8884a', '#d0b070'], .22) };
@@ -257,13 +269,31 @@ function drawShade(P, E, p) {
   if (!p.blink) { P.set(hx + 1, hy - 1, [150, 200, 180]); P.set(hx + 4, hy - 1, [150, 200, 180]); }
 }
 const SHADE = { idle0: {}, idle1: { bob: 1 }, blink: { blink: 1 }, cap0: { cap: 1 }, cap1: { cap: 1, bob: 1 }, w0: { step: 0 }, w1: { step: 1, bob: -1 }, w2: { step: 2 }, w3: { step: 3, bob: -1 } };
+// HD pass (2026-11-18, Vivek: "make the characters a bit clearer"): Scale2x twice (4x) smooths the stair-step diagonals and curves
+// of every sprite while keeping hard pixel edges and the exact palette. Off with ?lowres.
+function scale2x(src) {
+  const w = src.width, h = src.height, sd = src.getContext('2d').getImageData(0, 0, w, h).data, out = document.createElement('canvas'); out.width = w * 2; out.height = h * 2;
+  const og = out.getContext('2d'), od = og.createImageData(w * 2, h * 2), D = od.data;
+  const px = (x, y) => (Math.min(h - 1, Math.max(0, y)) * w + Math.min(w - 1, Math.max(0, x))) * 4;
+  const eq = (i, j) => sd[i] === sd[j] && sd[i + 1] === sd[j + 1] && sd[i + 2] === sd[j + 2] && sd[i + 3] === sd[j + 3];
+  const put = (x, y, i) => { const o = (y * w * 2 + x) * 4; D[o] = sd[i]; D[o + 1] = sd[i + 1]; D[o + 2] = sd[i + 2]; D[o + 3] = sd[i + 3]; };
+  for (let y = 0; y < h; y++) for (let x = 0; x < w; x++) {
+    const P = px(x, y), A = px(x, y - 1), B = px(x + 1, y), C = px(x - 1, y), Dd = px(x, y + 1);
+    let e0 = P, e1 = P, e2 = P, e3 = P;
+    if (!eq(A, Dd) && !eq(C, B)) { if (eq(C, A)) e0 = A; if (eq(A, B)) e1 = B; if (eq(C, Dd)) e2 = C; if (eq(Dd, B)) e3 = Dd; }
+    put(2 * x, 2 * y, e0); put(2 * x + 1, 2 * y, e1); put(2 * x, 2 * y + 1, e2); put(2 * x + 1, 2 * y + 1, e3);
+  }
+  og.putImageData(od, 0, 0); return out;
+}
+const HD = typeof location === 'undefined' || !/[?&]lowres/.test(location.search);
+const hd = c => HD ? scale2x(scale2x(c)) : c;
 function atlas(table, draw, FW, FH) {
   const names = Object.keys(table), n = names.length, P = new PX(FW * n, FH), E = new PX(FW * n, FH);
   names.forEach((k, i) => {
     const p1 = new PX(FW, FH), e1 = new PX(FW, FH); draw(p1, e1, table[k]); p1.outline(.3);
     for (let y = 0; y < FH; y++) for (let x = 0; x < FW; x++) { const c = p1.get(x, y); if (c) P.set(i * FW + x, y, c); const e = e1.get(x, y); if (e) E.set(i * FW + x, y, e); }
   });
-  const tex = texOf(P.done()), em = texOf(E.done()); for (const t of [tex, em]) t.repeat.set(1 / n, 1);
+  const tex = texOf(hd(P.done())), em = texOf(hd(E.done())); for (const t of [tex, em]) t.repeat.set(1 / n, 1);
   return { tex, em, names, n, canvas: P.c };
 }
 
@@ -296,7 +326,7 @@ export function makeMabel() {
 }
 
 function simple(table, draw, FW, FH, name, o = {}) {
-  const A = atlas(table, draw, FW, FH), mesh = billboard(A.tex, FW * SPX, FH * SPX, { em: o.em ? A.em : undefined, emCol: '#ffffff', emI: 2.2, shadow: o.shadow !== false });
+  const A = atlas(table, draw, FW, FH), ps = o.ps || 1, mesh = billboard(A.tex, FW * SPX * ps, FH * SPX * ps, { em: o.em ? A.em : undefined, emCol: '#ffffff', emI: 2.2, shadow: o.shadow !== false });
   const root = new THREE.Group(); root.add(mesh); root.userData.char = name;
   if (o.shadow !== false) { const sh = blob(o.blob || .36, .5); sh.position.y = .012; root.add(sh); }
   return { root, mesh, atlas: A, frame(n) { const i = A.names.indexOf(n); if (i < 0) throw new Error(name + ' frame ' + n); A.tex.offset.x = i / A.n; if (o.em) A.em.offset.x = i / A.n; },
@@ -306,7 +336,7 @@ export const makeDunn = () => simple(DUNN, drawDunn, 34, 50, 'dunn', { blob: .42
 export const makeWren = () => simple(WREN, drawWren, 34, 50, 'wren', { blob: .4, em: true });
 export const makeStranger = () => { const c = simple(STRANGER, drawStranger, 34, 50, 'stranger', { shadow: false }); c.mesh.castShadow = false; return c; };
 export const makePip = () => simple(PIP, drawPip, 22, 18, 'pip', { blob: .2 });
-export const makeRollo = () => simple(ROLLO, drawRollo, 14, 10, 'rollo', { blob: .16 });
+export const makeRollo = () => simple(ROLLO, drawRollo, 28, 20, 'rollo', { blob: .18, ps: .55 });   // double-res art, shown a little bigger than before (was 14×10 at 1)
 export const makeMarlo = () => simple(MARLO, drawMarlo, 34, 50, 'marlo', { blob: .38 });
 export const makeCrane = () => simple(CRANE, drawCrane, 34, 50, 'crane', { blob: .36 });
 export const makeShade = () => { const c = simple(SHADE, drawShade, 34, 50, 'shade', { shadow: false, em: true }); c.mesh.castShadow = false; return c; };
@@ -323,7 +353,7 @@ export function poseFrame(who, pose, t, seed = 0) {
   if (who === 'wren') return { idle: bl ? 'blink' : (i2 ? 'idle1' : 'idle0'), open: i2 ? 'open1' : 'open' }[pose] || 'idle0';
   if (who === 'stranger') return { walk: w, idle: i2 ? 'idle1' : 'idle0' }[pose] || 'idle0';
   if (who === 'pip') return { fly: ['fly0', 'fly1', 'fly2', 'fly3'][Math.floor(t * 7 + seed) % 4], idle: bl ? 'standBlink' : (Math.floor(t * .8 + seed) % 2 ? 'stand1' : 'stand0') }[pose] || 'stand0';
-  if (who === 'rollo') return { walk: ['w0', 'w1', 'w2', 'w3'][Math.floor(t * 12 + seed) % 4], idle: Math.floor(t * 2 + seed) % 2 ? 'idle1' : 'idle0' }[pose] || 'idle0';
+  if (who === 'rollo') return { walk: ['w0', 'w1', 'w2', 'w3'][Math.floor(t * 12 + seed) % 4], drag: ['d0', 'd1'][Math.floor(t * 6 + seed) % 2], sniff: ['sniff0', 'sniff1'][Math.floor(t * 9 + seed) % 2], idle: Math.floor(t * 2 + seed) % 7 === 0 ? 'blink' : (Math.floor(t * 2 + seed) % 2 ? 'idle1' : 'idle0') }[pose] || (ROLLO[pose] ? pose : 'idle0');
   return 'idle0';
 }
 export const FRAMES = { GUS: Object.keys(GUS), MABEL: Object.keys(MABEL) };

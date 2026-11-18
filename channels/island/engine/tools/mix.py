@@ -99,6 +99,12 @@ for t0, k in misc:
     elif k == 'whoosh': place(fx, whoosh(.9, .7), t0)
     elif k == 'bell': place(fx, ding(.3), t0)
     elif k == 'splash': place(fx, lp(noise(.6), 2500) * np.exp(-t_(.6) / .18) * .5, t0)
+    elif k == 'sneeze':   # a mouse-sized sneeze: a short breathy inhale, then a bright 'tchi'
+        inh = bp(noise(.35), 1800, 5000) * np.linspace(0, 1, int(.35 * SR)) ** 2 * .18; place(fx, inh, t0 - .38)
+        place(fx, (bp(noise(.16), 3000, 9000) * np.exp(-t_(.16) / .035) + np.sin(2 * np.pi * 1400 * t_(.16)) * np.exp(-t_(.16) / .02) * .3) * .55, t0)
+    elif k == 'squeak': place(fx, np.sin(2 * np.pi * (2600 + 900 * t_(.12) / .12) * t_(.12)) * np.exp(-t_(.12) / .04) * .25, t0)
+    elif k == 'tick': place(fx, click(.35, .25), t0, pan=.3)
+    elif k == 'chain': [place(fx, click(.18, .2), t0 + i * .11 + rng.uniform(0, .03), pan=-.2) for i in range(6)]
     elif k == 'match': place(fx, hp(noise(.12), 2500) * np.exp(-t_(.12) / .03) * .6, t0)
 # steps for walking humans (gus, dunn, stranger): 2 steps per second-ish, on the surface under them
 def surf(x, z):
@@ -173,11 +179,17 @@ for t0 in lamp_out:
 # —— Levels, ducking, master ——
 def lvl(x, db): r = np.sqrt(np.mean(x[np.abs(x).sum(1) > 1e-4] ** 2)) if np.any(np.abs(x) > 1e-4) else 1; return x * (10 ** (db / 20)) / (r + 1e-9)
 voS = lvl(vo, -17); musS = lvl(mus, -22); ambS = lvl(amb, -30); fxS = lvl(fx, -27)
-keys = [(0, 1.0)]
-for v in VO:
-    a, b = int(v['t'] * SR), int((v['t'] + v['d']) * SR); need = rms_db(voS[a:b]) - 10 - rms_db((musS + ambS)[a:b]); g = min(1.0, 10 ** (need / 20))
-    keys += [(v['t'] - .35, 1.0), (v['t'] - .05, g), (v['t'] + v['d'] + .1, g), (v['t'] + v['d'] + .6, 1.0)]
-keys.sort(); gk = np.array(keys); bedG = np.interp(tt, gk[:, 0], gk[:, 1])
+# Sidechain ducking (2026-11-18 audio audit: words were only 1-8 dB above the bed): in 20 ms frames, the bed is pulled down so the voice's
+# short-term level stays >= 16 dB above it while anyone speaks; fast attack (looks ahead 80 ms), slow release (350 ms) so it never pumps.
+FR = int(.02 * SR); nF = N // FR + 1
+def frms(x): y = np.zeros(nF); m = (x ** 2).mean(1) if x.ndim > 1 else x ** 2; c = np.add.reduceat(m[:nF * FR] if len(m) >= nF * FR else np.pad(m, (0, nF * FR - len(m))), np.arange(0, nF * FR, FR)) / FR; return 10 * np.log10(c + 1e-12)
+vdb = frms(voS); bdb = frms(musS + ambS); spk = vdb > -45
+vdb_s = np.maximum.reduce([np.roll(vdb, -k) for k in range(0, 5)]); vdb_s = np.where(spk | np.roll(spk, -4), np.maximum(vdb_s, -30), -120)
+need = np.minimum(0, vdb_s - 16 - bdb); gF = np.ones(nF); cur = 1.0
+for i in range(nF):
+    tgt = 10 ** (need[i] / 20) if need[i] > -119 else 1.0; tgt = max(.06, tgt)
+    cur = tgt if tgt < cur else cur + (tgt - cur) * (1 - np.exp(-.02 / .35)); gF[i] = cur
+bedG = np.interp(tt, np.arange(nF) * .02, gF)
 musS *= bedG[:, None]; ambS *= (.25 + .75 * bedG)[:, None]
 mix = voS + musS + ambS + fxS
 mix *= np.minimum(1, (DUR - tt) / .6)[:, None]   # fade out with the picture
@@ -185,4 +197,6 @@ pk = np.abs(mix).max(); mix = np.tanh(mix / max(pk, 1e-6) * 1.2) * .9
 os.makedirs(os.path.join(D, 'out'), exist_ok=True); OUT = os.path.join(D, 'out', 'mix.wav')
 sf.write(OUT, mix.astype(np.float32), SR, subtype='FLOAT')
 sf.write(os.path.join(D, 'out', 'score.wav'), lvl(mus, -20).astype(np.float32), SR, subtype='FLOAT')
+k_ = .9 / max(pk, 1e-6) * 1.2   # stems at the same gain as the mix (before the soft clip), for tools/audio_check.py
+for nm, x in (('vo', voS), ('bed', musS + ambS), ('fx', fxS)): sf.write(os.path.join(D, 'out', f'stem_{nm}.wav'), (x * k_ / 1.2).astype(np.float32), SR, subtype='FLOAT')
 print(f"{TL['code']} mix {DUR:.1f}s mood={mood} | vo {rms_db(voS):.1f} mus {rms_db(musS):.1f} amb {rms_db(ambS):.1f} fx {rms_db(fxS):.1f} | gaps", [round(rms_db(voS[int(v['t']*SR):int((v['t']+v['d'])*SR)]) - rms_db((musS+ambS+fxS)[int(v['t']*SR):int((v['t']+v['d'])*SR)]), 1) for v in VO])

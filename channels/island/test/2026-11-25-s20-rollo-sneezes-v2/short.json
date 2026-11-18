@@ -1,0 +1,844 @@
+{
+ "code": "S20",
+ "day": "2026-11-25",
+ "slot": 2,
+ "title": "Rollo sneezes",
+ "hook": "Twelve seconds of silence. Rollo lasted nine.",
+ "ask": "A locket with Gus’s face… as a baby. Who keeps that?",
+ "music": {
+  "mood": "tense"
+ },
+ "shots": [
+  {
+   "id": "watch",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -96.9,
+     1.0,
+     -98.6
+    ],
+    "az": [
+     -121,
+     -119
+    ],
+    "d": [
+     9.6,
+     9.0
+    ],
+    "h": [
+     1.5,
+     1.4
+    ],
+    "ease": "lin",
+    "aper": 90
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -92.8,
+      -95.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "tag": false,
+     "hero": 1
+    },
+    "gus": {
+     "at": [
+      -101.0,
+      -101.6
+     ],
+     "pose": "look",
+     "face": "r",
+     "lit": 0.25,
+     "tag": false
+    },
+    "rollo": {
+     "at": [
+      -100.2,
+      -102.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "tag": false
+    }
+   },
+   "lines": [
+    {
+     "id": "n1",
+     "text": "The stranger stood by the lamp, and counted.",
+     "pause": 0.2
+    }
+   ],
+   "under": "on",
+   "lead": 1.4,
+   "tail": 0.2
+  },
+  {
+   "id": "hood",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "az": [
+     -104,
+     -98
+    ],
+    "d": [
+     3.6,
+     3.1
+    ],
+    "h": [
+     0.5,
+     0.4
+    ],
+    "ease": "lin"
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -92.8,
+      -95.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "tag": false,
+     "hero": 1,
+     "eye": 1.25
+    }
+   },
+   "lines": [
+    {
+     "id": "n2",
+     "text": "Gus could see the hood move.",
+     "pause": 0.1
+    }
+   ],
+   "pov": "gus",
+   "min": 0.8,
+   "cut": "hard",
+   "lead": 0.25,
+   "tail": 0.2,
+   "under": "on"
+  },
+  {
+   "id": "count",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "az": [
+     -62,
+     -58
+    ],
+    "d": [
+     2.6,
+     2.4
+    ],
+    "h": [
+     0.25,
+     0.2
+    ],
+    "ease": "lin"
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -92.8,
+      -95.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "tag": false,
+     "hero": 1,
+     "eye": 1.3,
+     "acts": [
+      {
+       "t": 0.45,
+       "kind": "flinch"
+      },
+      {
+       "t": 0.88,
+       "kind": "flinch"
+      },
+      {
+       "t": 1.32,
+       "kind": "flinch"
+      }
+     ]
+    }
+   },
+   "lines": [
+    {
+     "id": "n3",
+     "text": "One. Two. Three.",
+     "pause": 0.5
+    }
+   ],
+   "events": [
+    {
+     "t": 0.45,
+     "kind": "tick"
+    },
+    {
+     "t": 0.88,
+     "kind": "tick"
+    },
+    {
+     "t": 1.32,
+     "kind": "tick"
+    }
+   ],
+   "min": 0.8,
+   "cut": "hard",
+   "lead": 0.25,
+   "tail": 0.2,
+   "under": "on"
+  },
+  {
+   "id": "sneeze",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "az": [
+     62,
+     58
+    ],
+    "d": [
+     2.0,
+     1.7
+    ],
+    "h": [
+     0.35,
+     0.3
+    ],
+    "ease": "lin",
+    "punch": {
+     "t": 2.35,
+     "k": 0.74,
+     "shake": 0.05
+    }
+   },
+   "cast": {
+    "rollo": {
+     "at": [
+      -100.2,
+      -102.6
+     ],
+     "pose": "sniff",
+     "face": "r",
+     "hero": 1,
+     "poses": [
+      [
+       1.85,
+       "sneeze0"
+      ],
+      [
+       2.35,
+       "sneeze1"
+      ],
+      [
+       2.8,
+       "sneeze2"
+      ]
+     ],
+     "acts": [
+      {
+       "t": 2.35,
+       "kind": "sneeze"
+      }
+     ]
+    },
+    "gus": {
+     "at": [
+      -101.0,
+      -101.6
+     ],
+     "pose": "look",
+     "face": "r",
+     "lit": 0.25
+    }
+   },
+   "lines": [
+    {
+     "id": "n4",
+     "text": "Nine seconds in, Rollo sneezed.",
+     "pause": 0.7
+    }
+   ],
+   "events": [
+    {
+     "t": 2.35,
+     "kind": "sneeze"
+    }
+   ],
+   "puffs": [
+    {
+     "t": 2.35,
+     "at": [
+      -99.55,
+      0.66,
+      -101.9
+     ],
+     "n": 8,
+     "dir": [
+      1,
+      0
+     ],
+     "speed": 0.9,
+     "size": 0.045
+    }
+   ],
+   "min": 0.8,
+   "cut": "hard",
+   "lead": 0.25,
+   "tail": 0.2,
+   "under": "on"
+  },
+  {
+   "id": "turn",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "az": [
+     -100,
+     -96
+    ],
+    "d": [
+     3.6,
+     3.2
+    ],
+    "h": [
+     0.4,
+     0.35
+    ],
+    "punch": {
+     "t": 0.9,
+     "k": 0.8
+    }
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -92.8,
+      -95.6
+     ],
+     "pose": "idle",
+     "face": "r",
+     "tag": false,
+     "hero": 1,
+     "eye": 1.25,
+     "faces": [
+      [
+       0.9,
+       "l"
+      ]
+     ],
+     "acts": [
+      {
+       "t": 0.9,
+       "kind": "flinch"
+      }
+     ]
+    }
+   },
+   "lines": [
+    {
+     "id": "n5",
+     "text": "The hood turned.",
+     "pause": 0.3
+    }
+   ],
+   "min": 0.8,
+   "cut": "hard",
+   "lead": 0.25,
+   "tail": 0.2,
+   "under": "on"
+  },
+  {
+   "id": "gus",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "az": [
+     52,
+     56
+    ],
+    "d": [
+     3.4,
+     2.6
+    ],
+    "h": [
+     0.7,
+     0.6
+    ],
+    "ease": "in"
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -101.0,
+      -101.6
+     ],
+     "pose": "look",
+     "face": "r",
+     "lit": 0.25,
+     "hero": 1,
+     "acts": [
+      {
+       "t": 1.6,
+       "kind": "flinch"
+      }
+     ]
+    },
+    "rollo": {
+     "at": [
+      -100.2,
+      -102.6
+     ],
+     "pose": "look",
+     "face": "r"
+    }
+   },
+   "lines": [
+    {
+     "id": "n6",
+     "text": "Not toward the noise. Toward Gus.",
+     "pause": 0.3
+    }
+   ],
+   "offscreen": [
+    "stranger"
+   ],
+   "min": 0.8,
+   "cut": "hard",
+   "lead": 0.25,
+   "tail": 0.2,
+   "under": "on"
+  },
+  {
+   "id": "known",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -126,
+     -126
+    ],
+    "d": [
+     5.6,
+     4.0
+    ],
+    "h": [
+     1.2,
+     1.1
+    ],
+    "ease": "in"
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -92.8,
+      -95.6
+     ],
+     "pose": "idle",
+     "face": "l",
+     "tag": false,
+     "hero": 1,
+     "eye": 1.2
+    }
+   },
+   "lines": [
+    {
+     "id": "n7",
+     "text": "As if the stranger had known, all along, exactly where he was.",
+     "pause": 0.4
+    }
+   ],
+   "min": 0.8,
+   "cut": "hard",
+   "lead": 0.25,
+   "tail": 0.2,
+   "under": "on"
+  },
+  {
+   "id": "splash",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "az": [
+     -112,
+     -108
+    ],
+    "d": [
+     7.6,
+     7.2
+    ],
+    "h": [
+     3.6,
+     3.4
+    ],
+    "aper": 120
+   },
+   "cast": {
+    "stranger": {
+     "at": [
+      -93.2,
+      -89.8
+     ],
+     "pose": "walk",
+     "face": "l",
+     "tag": false,
+     "to": [
+      -93.4,
+      -86.1
+     ],
+     "walk": [
+      0,
+      0.85
+     ],
+     "hide": 0.95,
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "n8",
+     "text": "Then a splash,",
+     "pause": 0.1
+    }
+   ],
+   "events": [
+    {
+     "t": 0.95,
+     "kind": "splash"
+    }
+   ],
+   "rings": [
+    {
+     "t": 0.95,
+     "at": [
+      -93.4,
+      -1.22,
+      -85.1
+     ],
+     "r": 2.6
+    }
+   ],
+   "puffs": [
+    {
+     "t": 0.95,
+     "at": [
+      -93.4,
+      -0.9,
+      -85.4
+     ],
+     "n": 10,
+     "col": "#9ff0d8",
+     "dir": [
+      0,
+      1
+     ],
+     "speed": 1.4,
+     "size": 0.3
+    }
+   ],
+   "lead": 0.3,
+   "tail": 0.1,
+   "min": 0.8,
+   "cut": "hard",
+   "under": "on"
+  },
+  {
+   "id": "ring",
+   "time": "cave",
+   "cam": {
+    "type": "stage",
+    "at": [
+     -93.4,
+     -1.2,
+     -85.1
+    ],
+    "az": [
+     -160,
+     -164
+    ],
+    "d": [
+     1.8,
+     2.0
+    ],
+    "h": [
+     7.4,
+     7.8
+    ],
+    "lookOff": [
+     0,
+     0,
+     0
+    ]
+   },
+   "cast": {},
+   "lines": [
+    {
+     "id": "n9",
+     "text": "a ring of green light on the water,",
+     "pause": 0.1
+    },
+    {
+     "id": "n10",
+     "text": "and nothing.",
+     "pause": 1.0
+    }
+   ],
+   "rings": [
+    {
+     "t": -1.0,
+     "at": [
+      -93.4,
+      -1.22,
+      -85.1
+     ],
+     "r": 2.6
+    },
+    {
+     "t": 0.3,
+     "at": [
+      -93.4,
+      -1.22,
+      -85.1
+     ],
+     "r": 3.4,
+     "col": "#5affb8"
+    }
+   ],
+   "tail": 0.3,
+   "min": 0.8,
+   "cut": "hard",
+   "lead": 0.25,
+   "under": "on"
+  },
+  {
+   "id": "run",
+   "time": "cave",
+   "cam": {
+    "type": "track",
+    "side": "south",
+    "h": 0.7,
+    "d": 2.8,
+    "lead": 0.5
+   },
+   "cast": {
+    "rollo": {
+     "at": [
+      -98.6,
+      -93.0
+     ],
+     "pose": "idle",
+     "face": "r",
+     "to": [
+      -94.4,
+      -89.4
+     ],
+     "walk": [
+      0.1,
+      2.6
+     ],
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "n11",
+     "text": "Rollo, ashamed, ran to the waterline to make up for it.",
+     "pause": 0.3
+    }
+   ],
+   "events": [
+    {
+     "t": 0.2,
+     "kind": "squeak"
+    }
+   ],
+   "cut": "dip",
+   "min": 0.8,
+   "lead": 0.25,
+   "tail": 0.2,
+   "under": "on"
+  },
+  {
+   "id": "drag",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "az": [
+     70,
+     60
+    ],
+    "d": [
+     2.4,
+     2.0
+    ],
+    "h": [
+     0.45,
+     0.4
+    ]
+   },
+   "cast": {
+    "rollo": {
+     "at": [
+      -94.4,
+      -89.6
+     ],
+     "pose": "drag",
+     "face": "l",
+     "to": [
+      -95.6,
+      -90.8
+     ],
+     "walk": [
+      0.2,
+      3.0
+     ],
+     "walkPose": "drag",
+     "carry": "locket",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "n12",
+     "text": "He came back dragging something on a chain.",
+     "pause": 0.3
+    }
+   ],
+   "events": [
+    {
+     "t": 0.4,
+     "kind": "chain"
+    },
+    {
+     "t": 1.4,
+     "kind": "chain"
+    }
+   ],
+   "min": 0.8,
+   "cut": "hard",
+   "lead": 0.25,
+   "tail": 0.2,
+   "under": "on"
+  },
+  {
+   "id": "locket",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "az": [
+     70,
+     66
+    ],
+    "d": [
+     1.6,
+     1.5
+    ],
+    "h": [
+     0.3,
+     0.3
+    ]
+   },
+   "cast": {
+    "rollo": {
+     "at": [
+      -95.6,
+      -90.8
+     ],
+     "pose": "idle",
+     "face": "r",
+     "carry": "locket",
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "n13",
+     "text": "A silver locket.",
+     "pause": 0.2
+    },
+    {
+     "id": "n14",
+     "text": "Inside, a tiny painted face Gus had only ever seen in his mother’s photographs.",
+     "pause": 0.4
+    }
+   ],
+   "insert": "locket",
+   "events": [
+    {
+     "t": 0.3,
+     "kind": "bell"
+    }
+   ],
+   "min": 0.8,
+   "cut": "hard",
+   "lead": 0.25,
+   "tail": 0.2,
+   "under": "on"
+  },
+  {
+   "id": "baby",
+   "time": "cave",
+   "cam": {
+    "type": "dive",
+    "az": [
+     40,
+     44
+    ],
+    "d": [
+     3.8,
+     3.2
+    ],
+    "h": [
+     0.3,
+     0.2
+    ],
+    "ease": "in"
+   },
+   "cast": {
+    "gus": {
+     "at": [
+      -96.4,
+      -91.6
+     ],
+     "pose": "look",
+     "face": "r",
+     "lit": 0.6,
+     "hero": 1
+    }
+   },
+   "lines": [
+    {
+     "id": "n15",
+     "text": "His own.",
+     "pause": 0.6
+    },
+    {
+     "id": "n16",
+     "text": "As a baby.",
+     "pause": 1.0
+    }
+   ],
+   "tail": 1.0,
+   "min": 0.8,
+   "cut": "hard",
+   "lead": 0.25,
+   "under": "on"
+  }
+ ],
+ "thumb": "a tiny mouse mid-sneeze in a green-glowing sea cave, a hooded figure by a glowing brass lamp turning around",
+ "thumbText": "ACHOO.",
+ "label": "THE KEEPER'S ISLAND · 20",
+ "outro": "mabel",
+ "next": {
+  "part": 21,
+  "title": "The boat that belonged to nobody",
+  "when": "TOMORROW"
+ }
+}
