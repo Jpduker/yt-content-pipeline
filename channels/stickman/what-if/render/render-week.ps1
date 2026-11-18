@@ -26,14 +26,28 @@ cmd /c "npx playwright install chromium-headless-shell 2>&1"
 # 3. the gate (pure ffmpeg/ffprobe; numbers in InvariantCulture so a German Windows doesn't write 26,72)
 $IC = [Globalization.CultureInfo]::InvariantCulture
 function N($x) { return ([double]$x).ToString("0.###", $IC) }
-function Probe($f, $sel) { $o = & ffprobe -v error -select_streams $sel -show_entries stream=duration -of csv=p=0 "$f" 2>$null | Select-Object -First 1; $d = 0.0; if ([double]::TryParse("$o".Trim(), [Globalization.NumberStyles]::Float, $IC, [ref]$d)) { return $d }; return -1.0 }
+function Probe($f, $kind) {   # duration of the first video/audio stream from ffprobe JSON (line order and extra metadata don't matter)
+  try { $j = (& ffprobe -v error -show_entries "stream=codec_type,duration,nb_frames,r_frame_rate:format=duration" -of json "$f" 2>$null | Out-String) | ConvertFrom-Json } catch { return -1.0 }
+  $st = @($j.streams | Where-Object { $_.codec_type -eq $kind }) | Select-Object -First 1; if (-not $st) { return -1.0 }
+  $d = 0.0
+  if ($st.duration -and [double]::TryParse("$($st.duration)", [Globalization.NumberStyles]::Float, $IC, [ref]$d)) { return $d }
+  if ($st.nb_frames -and $st.r_frame_rate -match '^(\d+)/(\d+)$' -and [int]$Matches[1] -gt 0) { return [double]$st.nb_frames * [int]$Matches[2] / [int]$Matches[1] }
+  if ($j.format.duration -and [double]::TryParse("$($j.format.duration)", [Globalization.NumberStyles]::Float, $IC, [ref]$d)) { return $d }
+  return -1.0 }
+function MeanVol($ffargs) { $o = (& ffmpeg @ffargs 2>&1 | Out-String); $m = [regex]::Match($o, "mean_volume: ([-0-9.]+) dB"); if ($m.Success) { return [double]::Parse($m.Groups[1].Value, $IC) }; return -99.0 }
+function AudioMargin($video, $mix, $t0, $dur) {   # dB the difference (video audio - current mix) sits below the signal; same mix ~25 dB
+  $tr = "atrim=$(N $t0)" + $(if ($dur) { ":$(N ($t0 + $dur))" } else { "" }) + ",asetpts=PTS-STARTPTS"
+  $sig = MeanVol @("-nostdin", "-i", $video, "-af", "$tr,volumedetect", "-vn", "-f", "null", "-")
+  $fmt = "aformat=sample_rates=48000:channel_layouts=stereo"
+  $dif = MeanVol @("-nostdin", "-i", $video, "-i", $mix, "-filter_complex", "[0:a]$tr,$fmt[a];[1:a]$tr,$fmt,volume=-1[b];[a][b]amix=inputs=2:normalize=0,volumedetect", "-vn", "-f", "null", "-")
+  return $sig - $dif }
 function Match($img, $gold, $filter, $pat) {
   $o = (& ffmpeg -nostdin -i "$img" -i "$gold" -lavfi "[0:v]scale=640:-2,format=gray[x];[1:v]scale=640:-2,format=gray[y];[x][y]$filter" -f null - 2>&1 | Out-String)
   $m = [regex]::Match($o, $pat); if (-not $m.Success) { return 0.0 }; if ($m.Groups[1].Value -eq "inf") { return 99.0 }; return [double]::Parse($m.Groups[1].Value, $IC) }
 function Gate($it, $file) {   # returns "" when the video passes, else the reasons
   $why = @(); $sp = $Manifest.spec
   if (-not (Test-Path $file)) { return "file missing" }
-  $vd = Probe $file "v:0"; $ad = Probe $file "a:0"
+  $vd = Probe $file "video"; $ad = Probe $file "audio"
   if ([math]::Abs($vd - $it.duration) -gt $sp.dur_tol) { $why += "video $(N $vd)s, expected $(N $it.duration)s" }
   if ([math]::Abs($ad - $it.duration) -gt $sp.dur_tol) { $why += "audio $(N $ad)s, expected $(N $it.duration)s" }
   $png = "$CheckDir\$([IO.Path]::GetFileNameWithoutExtension($file)).png"; Remove-Item $png -ErrorAction SilentlyContinue
@@ -50,6 +64,12 @@ function Gate($it, $file) {   # returns "" when the video passes, else the reaso
       if ($rs -lt $sp.roi_ssim_min) { $why += "outro detail area does not match the approved $($it.variant) outro (roi ssim $(N $rs))" }
     }
   }
+  $mix = "$WhatIf\$($it.project -replace '/', '\')\build\mix.flac"
+  if ((Test-Path $mix) -and $ad -gt 0) {
+    $m1 = AudioMargin $file $mix 0 $null; $m2 = AudioMargin $file $mix $it.outro_start ($it.duration - $it.outro_start)
+    if ($m1 -lt $sp.audio_match_db) { $why += "audio is not the current mix (margin $(N $m1) dB)" }
+    if ($m2 -lt $sp.audio_match_db) { $why += "outro audio is not the current mix (margin $(N $m2) dB)" }
+  }
   return ($why -join "; ") }
 # 4. every project in the list: (re-check finished file) -> picture -> mux -> GATE -> final file
 if (-not $List) { $List = (Get-ChildItem $Here -Filter "week-*.txt" | Sort-Object Name | Select-Object -Last 1).Name }
@@ -59,6 +79,8 @@ if (-not (Test-Path $ManFile)) { Say "STOP: $ManFile missing (the cloud pack mus
 $Manifest = Get-Content $ManFile -Raw | ConvertFrom-Json
 $CheckDir = "$Here\check-$Base"; New-Item -ItemType Directory -Force $CheckDir | Out-Null
 Say "start $List - workers $Workers (PC kept awake until this window closes)"
+$probeTest = Probe "$Here\gate\selftest.mp4" "video"
+if ([math]::Abs($probeTest - 2.0) -gt 0.1) { Say "STOP: gate self-test failed (read $(N $probeTest)s from gate\selftest.mp4, expected 2s). Tell Claude. Nothing rendered."; if (-not $NoWait) { Read-Host "Press Enter to close" }; exit 1 }
 $fails = 0; $passed = @(); $failed = @()
 foreach ($it in $Manifest.items) {
   $P = "$WhatIf\$($it.project -replace '/', '\')"; $D = "$WhatIf\$($it.dest -replace '/', '\')"; $name = Split-Path $D -Leaf

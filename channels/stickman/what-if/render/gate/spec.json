@@ -1,5 +1,5 @@
 {
- "_doc": "APPROVED outro spec (Vivek 17 Nov 2026: Outro_Test.mp4 / Outro_Test_16x9.mp4). Single source of truth for add_outro.py, validate_outro.py and the laptop gate. Never edit durations/params without a new approval.",
+ "_doc": "APPROVED outro spec (Vivek 17 Nov 2026: Outro_Test.mp4 / Outro_Test_16x9.mp4; 18 Nov: iris sounds moved onto the motion, ident dashed end-screen boxes replaced by the subscribe/bell/like animation). Single source of truth for add_outro.py, validate_outro.py and the laptop gate. Never edit without Vivek.",
  "fps": 24,
  "rules": {
   "9:16": "iris",
@@ -31,15 +31,21 @@
    "sfx": [
     [
      "swish",
-     1.9,
+     2.66,
      -12
     ],
     [
      "ding",
-     3.0,
+     2.92,
      -14
+    ],
+    [
+     "pop",
+     3.62,
+     -10
     ]
-   ]
+   ],
+   "_sfx_doc": "iris sweeps onto the hero 2.6-2.9 s (swish peaks 0.1 s after start), lands 2.9 (ding), snaps shut 3.5-3.7 + sign-off (pop)"
   },
   "silent": {
    "approved_secs": 4.3,
@@ -114,7 +120,7 @@
     "9:16": 6.0,
     "16:9": 10.0
    },
-   "proof_t": 3.0,
+   "proof_t": 4.0,
    "in": {
     "type": "bands",
     "dur": 0.5
@@ -138,6 +144,26 @@
      "swish",
      1.2,
      -16
+    ],
+    [
+     "pop",
+     1.4,
+     -10
+    ],
+    [
+     "pop",
+     2.3,
+     -8
+    ],
+    [
+     "ding",
+     2.7,
+     -10
+    ],
+    [
+     "pop",
+     3.3,
+     -12
     ]
    ],
    "roi": {
@@ -148,7 +174,7 @@
      0.9
     ]
    },
-   "_roi_doc": "end-screen panel (dashed next-video + subscribe boxes): faint, so it gets its own SSIM check (missing panel 0.958, correct 0.995)"
+   "_roi_doc": "subscribe/bell/like area: own SSIM check (it is small next to the full frame)"
   }
  },
  "gate": {
@@ -157,6 +183,8 @@
   "dur_tol": 0.12,
   "outro_audio_min_db": -45,
   "_doc": "proof frame vs golden: full-frame SSIM AND PSNR (PSNR catches a mostly-black iris frame with the SUBSCRIBE text missing: 15 dB vs 46 dB when correct)",
-  "roi_ssim_min": 0.975
+  "roi_ssim_min": 0.975,
+  "audio_match_db": 15.0,
+  "_audio_doc": "final audio vs build/mix.flac (whole file and outro window): difference must be >= 15 dB below the signal (same mix ~25 dB; misplaced sfx or old mix much less)"
  }
 }

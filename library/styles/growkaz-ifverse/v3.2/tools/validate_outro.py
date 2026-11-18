@@ -12,9 +12,26 @@ sys.path.insert(0, HERE); from add_outro import pick
 G = SP['gate']
 def run(a): return subprocess.run(a, capture_output=True, text=True)
 def probe(f, sel):
-    r = run(['ffprobe', '-v', 'error', '-select_streams', sel, '-show_entries', 'stream=duration', '-of', 'csv=p=0', f]).stdout.strip().split('\n')[0]
-    try: return float(r)
+    """duration of the first video ('v:0') or audio ('a:0') stream, read from ffprobe JSON (line-order independent); falls back to frames/rate, then the container."""
+    kind = 'video' if sel.startswith('v') else 'audio'
+    try: j = json.loads(run(['ffprobe', '-v', 'error', '-show_entries', 'stream=codec_type,duration,nb_frames,r_frame_rate:format=duration', '-of', 'json', f]).stdout)
     except ValueError: return -1.0
+    for st in j.get('streams', []):
+        if st.get('codec_type') != kind: continue
+        try: return float(st['duration'])
+        except (KeyError, ValueError): pass
+        try: n, d = st['r_frame_rate'].split('/'); return int(st['nb_frames']) * int(d) / int(n)
+        except (KeyError, ValueError, ZeroDivisionError): pass
+        try: return float(j['format']['duration'])
+        except (KeyError, ValueError): return -1.0
+    return -1.0
+def audio_match(video, mix, t0=0.0, dur=None):
+    """(signal dB, difference dB) of the video's audio vs the mix over [t0, t0+dur]. Same mix -> difference ~25 dB below the signal."""
+    tr = f'atrim={t0}' + (f':{t0 + dur}' if dur else '') + ',asetpts=PTS-STARTPTS'
+    def mv(args): m = re.search(r'mean_volume: ([-0-9.]+) dB', run(args).stderr); return float(m.group(1)) if m else -99.0
+    sig = mv(['ffmpeg', '-nostdin', '-i', video, '-af', tr + ',volumedetect', '-vn', '-f', 'null', '-'])
+    dif = mv(['ffmpeg', '-nostdin', '-i', video, '-i', mix, '-filter_complex', f'[0:a]{tr},aformat=sample_rates=48000:channel_layouts=stereo[a];[1:a]{tr},aformat=sample_rates=48000:channel_layouts=stereo,volume=-1[b];[a][b]amix=inputs=2:normalize=0,volumedetect', '-vn', '-f', 'null', '-'])
+    return sig, dif
 def fdur(f):
     try: return float(run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f]).stdout.strip())
     except ValueError: return -1.0
@@ -48,6 +65,8 @@ def check(P, mix=False, kit=None, video=None):
         if abs((o['end'] - o['start']) - secs) > .01: bad.append(f'outro {o["end"] - o["start"]:.2f}s != approved {secs}s')
         if abs(o['end'] - S['duration']) > .01 or abs(S['duration'] - cfg.get('duration', -1)) > .01: bad.append('outro does not end the video (timeline/config duration mismatch)')
         if o.get('in') != var['in']: bad.append(f'outro transition {o.get("in")} != {var["in"]}')
+        want_sfx = [{'at': a, 'name': n, 'gain': g} for n, a, g in var['sfx']]
+        if o.get('sfx') != want_sfx: bad.append(f'outro sound effects {o.get("sfx")} != approved {want_sfx}')
     if asp == '9:16' and S['duration'] > SP['short_max_total'] + .001: bad.append(f'Short is {S["duration"]:.2f}s > {SP["short_max_total"]}s')
     if any(m['end'] < S['duration'] - .01 for m in S.get('music', []) if m['end'] >= o.get('start', 0) - .01) or not any(m['end'] >= S['duration'] - .01 for m in S.get('music', [])): bad.append('music does not run to the end')
     ost = o.get('start', 0); tproof = ost + var['proof_t']; gold = os.path.join(GOLD, f'{ak}_{v}.png'); info = f'{v} {secs}s @{ost:.2f}s'
@@ -75,6 +94,12 @@ def check(P, mix=False, kit=None, video=None):
                 vd, ad = probe(video, 'v:0'), probe(video, 'a:0')
                 if abs(vd - S['duration']) > G['dur_tol']: bad.append(f'video {vd:.2f}s != {S["duration"]:.2f}s')
                 if abs(ad - S['duration']) > G['dur_tol']: bad.append(f'audio {ad:.2f}s != {S["duration"]:.2f}s')
+                mix = f'{P}/build/mix.flac'
+                if os.path.exists(mix) and ad > 0:
+                    for lab, t0, du in (('whole', 0.0, None), ('outro', ost, secs)):
+                        sg, df = audio_match(video, mix, t0, du)
+                        if sg - df < G['audio_match_db']: bad.append(f'{lab} audio is not the current mix (difference only {sg - df:.1f} dB below the signal, need {G["audio_match_db"]})')
+                    info += ' audio=mix' 
                 fr = os.path.join(td, 'f.png'); run(['ffmpeg', '-nostdin', '-v', 'error', '-y', '-ss', f'{tproof:.3f}', '-i', video, '-frames:v', '1', fr])
                 if not os.path.exists(fr): bad.append('no frame at the outro proof time (video too short)')
                 else:

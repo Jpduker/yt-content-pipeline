@@ -1269,6 +1269,26 @@
      "at": 1.2,
      "name": "swish",
      "gain": -16
+    },
+    {
+     "at": 1.4,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 2.3,
+     "name": "pop",
+     "gain": -8
+    },
+    {
+     "at": 2.7,
+     "name": "ding",
+     "gain": -10
+    },
+    {
+     "at": 3.3,
+     "name": "pop",
+     "gain": -12
     }
    ],
    "captions": false,

@@ -1,6 +1,7 @@
 """Repair finished videos whose outro fails the gate WITHOUT re-rendering the story part.
 usage: repair_outro.py <what-if dir> <list.txt> <segments dir>
-For each list item with a final file: gate it (validate_outro --video). If it fails and <segments>/<project path with / -> __>.mp4 exists
+For each list item with a final file: gate it (validate_outro --video). If it fails and there is no segment, try swapping in the
+current build/mix.flac only (picture kept) and re-gate. If it fails and <segments>/<project path with / -> __>.mp4 exists
 (the outro frames rendered in the cloud from frame round(outro_start*fps) to the end), keep the old file's frames before that point,
 append the segment, put the project's current build/mix.flac under it, re-gate. Pass -> replaces the final (old one kept in final/_rejected/).
 Fail -> the final is moved to _rejected so the laptop .bat re-renders it. Prints one line per item."""
@@ -17,7 +18,13 @@ for line in open(L):
     bad, info = check(P, video=D)
     if not bad: print(f'PASS {p} {info}'); continue
     S = json.load(open(f'{P}/story/shots.json')); st = S['shots'][-1]['start']; n = round(st * FPS); seg = os.path.join(SEG, p.replace('/', '__') + '.mp4')
-    if not os.path.exists(seg): print(f'FAIL-NO-SEGMENT {p}: {"; ".join(bad)} -> moved to _rejected (laptop re-renders)'); reject(D, 'old'); continue
+    if not os.path.exists(seg):   # picture fine, sound outdated? swap in the current mix (video stream copied, no re-encode)
+        tmp = D + '.remux.mp4'
+        subprocess.run(['ffmpeg', '-nostdin', '-v', 'error', '-y', '-i', D, '-i', f'{P}/build/mix.flac', '-map', '0:v', '-map', '1:a', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', tmp])
+        bad2, info2 = check(P, video=tmp) if os.path.exists(tmp) else (['remux failed'], '')
+        if not bad2: reject(D, 'oldaudio'); shutil.move(tmp, D); print(f'REMUXED {p} (picture kept, current mix){info2}'); continue
+        if os.path.exists(tmp): reject(tmp, 'remuxfail')
+        print(f'FAIL {p}: {"; ".join(bad2)} -> moved to _rejected (laptop re-renders)'); reject(D, 'old'); continue
     tmp = D + '.repair.mp4'
     r = subprocess.run(['ffmpeg', '-nostdin', '-v', 'error', '-y', '-i', D, '-i', seg, '-i', f'{P}/build/mix.flac', '-filter_complex',
                         f'[0:v]trim=end_frame={n},setpts=PTS-STARTPTS[a];[1:v]setpts=PTS-STARTPTS[b];[a][b]concat=n=2:v=1:a=0,fps={FPS}[v]',

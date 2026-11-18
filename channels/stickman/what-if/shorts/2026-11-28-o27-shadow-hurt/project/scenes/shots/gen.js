@@ -672,15 +672,23 @@ function outro(g, t, p) {
     if (d > 2.0) { const q = KTE.backOut((d - 2.0) / .35), sw = Math.sin((d - 2.0) * 22) * Math.exp(-3 * (d - 2.0)) * .5; g.save(); g.translate(bx + bw * .62, by - bh * .1); g.scale(q, q); g.rotate(sw); g.fillStyle = '#ffd23f'; g.beginPath(); g.moveTo(-34 * U, 26 * U); g.quadraticCurveTo(-34 * U, -40 * U, 0, -42 * U); g.quadraticCurveTo(34 * U, -40 * U, 34 * U, 26 * U); g.closePath(); g.fill(); g.beginPath(); g.arc(0, 34 * U, 10 * U, 0, 7); g.fill(); g.restore(); }
     if (d > 2.6) ktText(g, '👍', bx - bw * .1, by + bh * 1.25, 90 * U, '#fff', { sc: KTE.backOut((d - 2.6) / .35) });
     if (d > 3.0) marker(g, p.line || 'New what if every day', V9 ? W / 2 : bx, by - bh * (V9 ? 2.6 : 1.6), (V9 ? 52 : 58) * U, '#c8f04a', -.04, KTE.backOut((d - 3.0) / .3), 1);
-  } else {   // 'ident': TV-station style channel card (lemo-opuscar "Broadcast News"/"Swiss Motion"): logo slam, tagline, room for YouTube end-screen elements
+  } else {   // 'ident': channel card (logo slam + tagline) + the subscribe / bell / like animation (v3.2.3, Vivek 18 Nov: no dashed end-screen boxes)
     g.fillStyle = '#F4EFE6'; g.fillRect(0, 0, W, H); g.fillStyle = '#FFD23F'; const band = KTE.expoOut(clamp(d / .5)); g.fillRect(0, H * (V9 ? .26 : .18), W * band, H * (V9 ? .2 : .3));
     const lx = V9 ? W / 2 : W * .3;
     ktText(g, 'BETWEEN', lx, H * (V9 ? .32 : .28), 130 * U, '#111', { sc: 1.7 - .7 * KTE.spring(d - .3), a: clamp((d - .3) / .06), w: 700 });
     ktText(g, 'THE IFS', lx, H * (V9 ? .41 : .42), 130 * U, '#111', { sc: 1.7 - .7 * KTE.spring(d - .65), a: clamp((d - .65) / .06), w: 700 });
     if (d > 1.2) ktText(g, 'A new "What if…?" every day', lx, H * (V9 ? .5 : .56), 44 * U, '#333', { a: clamp((d - 1.2) / .3), w: 600 });
-    hero(V9 ? lx : W * .065, H * (V9 ? .86 : .93), V9 ? 2.4 : 2.0, 'wave', 'joy');
-    if (p.slots !== false) { const sx = V9 ? W * .5 : W * .74, slot = (y, w, h, lab) => { g.save(); g.setLineDash([14, 10]); g.strokeStyle = 'rgba(17,17,17,.35)'; g.lineWidth = 3; rr(g, sx - w / 2, y - h / 2, w, h, 16); g.stroke(); g.restore(); ktText(g, lab, sx, y, 30 * U, 'rgba(17,17,17,.45)', { w: 600 }); };
-      if (!V9) { slot(H * .33, 560 * U, 315 * U, 'end screen: next video'); slot(H * .72, 230 * U, 230 * U, 'subscribe'); } }
+    const T_IN = 1.4, T_PRESS = 2.3, T_BELL = 2.7, T_LIKE = 3.3, press = d > T_PRESS;
+    hero(V9 ? W * .26 : W * .065, H * (V9 ? .86 : .93), V9 ? 2.4 : 2.0, d > T_PRESS - .35 && d < T_PRESS + 1.2 ? 'point' : 'wave', 'joy');
+    const bx = V9 ? W * .62 : W * .72, by = H * (V9 ? .66 : .7), bw = 430 * U, bh = 120 * U;   // on the cream, below the yellow band (bell is yellow)
+    if (d > T_IN) {
+      const pk = clamp((d - T_PRESS) / .12), sq = press ? 1 - .14 * Math.exp(-18 * (d - T_PRESS)) * (pk < 1 ? pk : 1) : KTE.backOut(clamp((d - T_IN) / .35));
+      if (press && d < T_PRESS + .5) { const q = (d - T_PRESS) / .5; g.save(); g.strokeStyle = `rgba(232,50,42,${.5 * (1 - q)})`; g.lineWidth = 6 * U; rr(g, bx - bw / 2 * (1 + .25 * q), by - bh / 2 * (1 + .6 * q), bw * (1 + .25 * q), bh * (1 + .6 * q), bh * .6); g.stroke(); g.restore(); }   // tap ripple
+      g.save(); g.translate(bx, by); g.scale(sq, sq); rr(g, -bw / 2, -bh / 2, bw, bh, bh / 2); g.fillStyle = press ? '#5a5a66' : '#e8322a'; g.fill(); g.restore();
+      ktText(g, press ? 'SUBSCRIBED ✓' : 'SUBSCRIBE', bx, by, 54 * U, '#fff', { sc: sq, w: 700 });
+    }
+    if (d > T_BELL) { const q = KTE.backOut((d - T_BELL) / .35), sw = Math.sin((d - T_BELL) * 22) * Math.exp(-3 * (d - T_BELL)) * .5; g.save(); g.translate(bx + bw * .62, by - bh * .1); g.scale(q, q); g.rotate(sw); g.fillStyle = '#ffd23f'; g.beginPath(); g.moveTo(-34 * U, 26 * U); g.quadraticCurveTo(-34 * U, -40 * U, 0, -42 * U); g.quadraticCurveTo(34 * U, -40 * U, 34 * U, 26 * U); g.closePath(); g.fill(); g.beginPath(); g.arc(0, 34 * U, 10 * U, 0, 7); g.fill(); g.restore(); }
+    if (d > T_LIKE) ktText(g, '👍', bx - bw * .1, by + bh * 1.25, 90 * U, '#fff', { sc: KTE.backOut((d - T_LIKE) / .35) });
   }
   if (p.tag) { const fs = V9 ? 34 : 28; g.save(); g.font = `700 ${fs}px Fredoka`; const w = g.measureText(p.tag).width + fs * 1.2; rr(g, 40, 40, w, fs * 1.7, fs * .85); g.fillStyle = 'rgba(17,17,17,.82)'; g.fill(); g.restore(); ktText(g, p.tag, 40 + w / 2, 40 + fs * .85, fs, '#fff', { w: 700 }); }
 }

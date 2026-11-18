@@ -48,6 +48,15 @@ export const CAST = {
   DETECTIVE: { top: 'trench', color: '#8a7660', head: 'none' }, CHEF: { top: 'chef', color: '#f2f0ec', head: 'none', pants: '#80808a' },
   SCI:       { top: 'lab', color: '#eeeef2', head: 'none' }, PUFFER: { top: 'puffer', color: '#4a4852', head: 'none' },
   TRACK:     { top: 'track', color: '#3a3a44', head: 'none' }, TEE: { top: 'tshirt', color: '#4a4858', head: 'none', pants: '#5a5272' },
+  // week 22-28 Nov originals
+  GRAN: { top: 'sweater', color: '#b86a8a', head: 'none' }, KAI: { top: 'tshirt', color: '#e8a33a', head: 'none', pants: '#4a4a5a' },
+  LIA: { top: 'tshirt', color: '#7a5ad6', head: 'none', pants: '#3a3a4a' }, BEN: { top: 'track', color: '#3a6ea5', head: 'none' },
+  NOAH: { top: 'tshirt', color: '#d8504a', head: 'none', pants: '#3a4a6a' }, ZARA: { top: 'tshirt', color: '#2aa6a0', head: 'none', pants: '#4a3a5a' },
+  LEO: { top: 'track', color: '#e8743b', head: 'none' }, MAYA: { top: 'tshirt', color: '#f29ac0', head: 'none', pants: '#3a3a5a' },
+  NINA: { top: 'sweater', color: '#3a6ea5', head: 'none' }, OLI: { top: 'tshirt', color: '#f2c21a', head: 'none', pants: '#4a4a5a' },
+  AVA: { top: 'sweater', color: '#c8503a', head: 'none' }, AVA_OLD: { top: 'trench', color: '#6a6a74', head: 'none' }, NANA: { top: 'sweater', color: '#8a7ab8', head: 'none' }, POPS: { top: 'sweater', color: '#5a7a5a', head: 'none' }, JUN: { top: 'tshirt', color: '#3a8a8a', head: 'none', pants: '#3a3a4a' },
+  RAFA: { top: 'puffer', color: '#3a4a6a', head: 'none' }, TOM: { top: 'tshirt', color: '#8ad04a', head: 'none', pants: '#3a3a4a' }, LILY: { top: 'sweater', color: '#e8a33a', head: 'none' },
+  SHADOW: { top: 'hoodie', color: '#211c2a', head: 'none', pants: '#16121a' },   // O27: the hero's shadow = hero shape in near-black (same hoodie cut)
 };
 // thought-thread colour per thinker
 export const THREAD = { THEO: '#4a8fe8', DEV: '#e8743b', PIA: '#d8504a', DAD: '#c8a070', MIRA: YELLOW, MIRA_EVE: YELLOW, BARISTA: ORANGE, BOSS: '#6ea0e0', COLL: '#b48cf0', TRAIN: PINK };

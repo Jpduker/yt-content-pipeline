@@ -512,14 +512,19 @@
    },
    "sfx": [
     {
-     "at": 1.9,
+     "at": 2.66,
      "name": "swish",
      "gain": -12
     },
     {
-     "at": 3.0,
+     "at": 2.92,
      "name": "ding",
      "gain": -14
+    },
+    {
+     "at": 3.62,
+     "name": "pop",
+     "gain": -10
     }
    ],
    "captions": false,

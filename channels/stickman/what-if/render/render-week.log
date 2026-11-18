@@ -106,3 +106,18 @@
 21:09 skip (done)  shorts/2026-11-27-o25-dad-kid/final/o25-dad-kid-9x16.mp4
 21:09 skip (done)  shorts/2026-11-27-o26-three-rewinds/final/o26-three-rewinds-9x16.mp4
 21:09 picture: 2026-11-28-wi19-dog-talks/project 
+22:15 checking headless Chrome for playwright (downloads once, ~100 MB)
+22:15 start week-2026-11-22.txt - workers 4 (PC kept awake until this window closes)
+22:15 verified (skip) 2026-11-22-wi13-thousand-words/final/what-if-you-only-had-1000-words-a-day-1080p.mp4
+22:15 verified (skip) 2026-11-22-wi13-thousand-words/final/wi13-short-1-9x16.mp4
+22:15 picture: 2026-11-22-wi13-thousand-words/short-2
+22:19 GATE-FAIL 2026-11-22-wi13-thousand-words/final/wi13-short-2-9x16.mp4: video -1s, expected 59.762s -> NOT delivered (in _rejected)
+22:19 verified (skip) shorts/2026-11-22-o15-grandma-hug/final/o15-grandma-hug-9x16.mp4
+22:19 verified (skip) shorts/2026-11-22-o16-sister-thoughts/final/o16-sister-thoughts-9x16.mp4
+22:19 verified (skip) 2026-11-23-wi14-lie-freeze/final/what-if-every-lie-froze-the-world-for-5-seconds-1080p.mp4
+22:19 picture: 2026-11-23-wi14-lie-freeze/short-1
+22:23 GATE-FAIL 2026-11-23-wi14-lie-freeze/final/wi14-short-1-9x16.mp4: video -1s, expected 48.534s -> NOT delivered (in _rejected)
+22:23 two failures in a row: stopping. Tell Claude: render-week.log has the reasons.
+22:23 SUMMARY: 5 passed the gate, 2 failed: 2026-11-22-wi13-thousand-words/final/wi13-short-2-9x16.mp4, 2026-11-23-wi14-lie-freeze/final/wi14-short-1-9x16.mp4
+22:23 proof frames: C:\Users\Vivek Sai\Downloads\YouTube\channels\stickman\what-if\render\check-week-2026-11-22\index.html
+22:23 ALL DONE

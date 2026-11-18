@@ -1,4 +1,3 @@
-outro button 10.0s -> /home/claude/yt/channels/stickman/what-if/2026-11-22-wi13-thousand-words/project (now 151.55s)
 WARN  2026-11-22-wi13-thousand-words/project sOUT: 10.0s shot
 lint ok 2026-11-22-wi13-thousand-words/project: 0 errors, 1 warnings
 GATE-OK /home/claude/yt/channels/stickman/what-if/2026-11-22-wi13-thousand-words/project button 10.0s @141.55s render: ssim=0.994 psnr=52.2
@@ -8,6 +7,7 @@ WARN  2026-11-22-wi13-thousand-words/short-1 last shot has no ask
 lint ok 2026-11-22-wi13-thousand-words/short-1: 0 errors, 1 warnings
 GATE-OK /home/claude/yt/channels/stickman/what-if/2026-11-22-wi13-thousand-words/short-1 iris 5.177s @42.33s render: ssim=1.000 psnr=99.0
 OK 2026-11-22-wi13-thousand-words/short-1 
+outro iris 5.177s -> /home/claude/yt/channels/stickman/what-if/2026-11-22-wi13-thousand-words/short-2 (now 59.76s)
 WARN  2026-11-22-wi13-thousand-words/short-2 last shot has no ask
 lint ok 2026-11-22-wi13-thousand-words/short-2: 0 errors, 1 warnings
 GATE-OK /home/claude/yt/channels/stickman/what-if/2026-11-22-wi13-thousand-words/short-2 iris 5.177s @54.59s render: ssim=0.992 psnr=51.2
@@ -24,7 +24,7 @@ OK shorts/2026-11-22-o16-sister-thoughts/project
 outro ident 10.0s -> /home/claude/yt/channels/stickman/what-if/2026-11-23-wi14-lie-freeze/project (now 114.02s)
 WARN  2026-11-23-wi14-lie-freeze/project sOUT: 10.0s shot
 lint ok 2026-11-23-wi14-lie-freeze/project: 0 errors, 1 warnings
-GATE-OK /home/claude/yt/channels/stickman/what-if/2026-11-23-wi14-lie-freeze/project ident 10.0s @104.02s render: ssim=0.998 psnr=56.0
+GATE-OK /home/claude/yt/channels/stickman/what-if/2026-11-23-wi14-lie-freeze/project ident 10.0s @104.02s render: ssim=0.998 psnr=55.7 roi_ssim=0.996
 OK 2026-11-23-wi14-lie-freeze/project 
 outro iris 5.177s -> /home/claude/yt/channels/stickman/what-if/2026-11-23-wi14-lie-freeze/short-1 (now 48.53s)
 WARN  2026-11-23-wi14-lie-freeze/short-1 s001: 8.6s shot
@@ -49,7 +49,6 @@ WARN  shorts/2026-11-23-o18-pause-parents/project last shot has no ask
 lint ok shorts/2026-11-23-o18-pause-parents/project: 0 errors, 1 warnings
 GATE-OK /home/claude/yt/channels/stickman/what-if/shorts/2026-11-23-o18-pause-parents/project iris 5.177s @25.07s render: ssim=0.992 psnr=51.2
 OK shorts/2026-11-23-o18-pause-parents/project 
-outro silent 10.0s -> /home/claude/yt/channels/stickman/what-if/2026-11-24-wi15-midnight-delete/project (now 90.85s)
 WARN  2026-11-24-wi15-midnight-delete/project sOUT: 10.0s shot
 lint ok 2026-11-24-wi15-midnight-delete/project: 0 errors, 1 warnings
 GATE-OK /home/claude/yt/channels/stickman/what-if/2026-11-24-wi15-midnight-delete/project silent 10.0s @80.85s render: ssim=1.000 psnr=60.1
@@ -75,7 +74,6 @@ WARN  shorts/2026-11-24-o20-hate-voice/project last shot has no ask
 lint ok shorts/2026-11-24-o20-hate-voice/project: 0 errors, 1 warnings
 GATE-OK /home/claude/yt/channels/stickman/what-if/shorts/2026-11-24-o20-hate-voice/project iris 5.177s @25.64s render: ssim=0.992 psnr=51.2
 OK shorts/2026-11-24-o20-hate-voice/project 
-outro button 10.0s -> /home/claude/yt/channels/stickman/what-if/2026-11-25-wi16-promise-strings/project (now 103.30s)
 WARN  2026-11-25-wi16-promise-strings/project s003: 10.4s shot
 WARN  2026-11-25-wi16-promise-strings/project sOUT: 10.0s shot
 lint ok 2026-11-25-wi16-promise-strings/project: 0 errors, 2 warnings
@@ -106,7 +104,7 @@ OK shorts/2026-11-25-o22-grandparents-glow/project
 outro ident 10.0s -> /home/claude/yt/channels/stickman/what-if/2026-11-26-wi17-mum-calls/project (now 81.61s)
 WARN  2026-11-26-wi17-mum-calls/project sOUT: 10.0s shot
 lint ok 2026-11-26-wi17-mum-calls/project: 0 errors, 1 warnings
-GATE-OK /home/claude/yt/channels/stickman/what-if/2026-11-26-wi17-mum-calls/project ident 10.0s @71.61s render: ssim=1.000 psnr=99.0
+GATE-OK /home/claude/yt/channels/stickman/what-if/2026-11-26-wi17-mum-calls/project ident 10.0s @71.61s render: ssim=1.000 psnr=101.8 roi_ssim=1.000
 OK 2026-11-26-wi17-mum-calls/project 
 outro iris 5.177s -> /home/claude/yt/channels/stickman/what-if/2026-11-26-wi17-mum-calls/short-1 (now 40.18s)
 WARN  2026-11-26-wi17-mum-calls/short-1 last shot has no ask
@@ -129,7 +127,6 @@ WARN  shorts/2026-11-26-o24-deleted-texts/project last shot has no ask
 lint ok shorts/2026-11-26-o24-deleted-texts/project: 0 errors, 2 warnings
 GATE-OK /home/claude/yt/channels/stickman/what-if/shorts/2026-11-26-o24-deleted-texts/project iris 5.177s @33.42s render: ssim=0.992 psnr=51.2
 OK shorts/2026-11-26-o24-deleted-texts/project 
-outro silent 10.0s -> /home/claude/yt/channels/stickman/what-if/2026-11-27-wi18-last-bell/project (now 80.28s)
 WARN  2026-11-27-wi18-last-bell/project sOUT: 10.0s shot
 lint ok 2026-11-27-wi18-last-bell/project: 0 errors, 1 warnings
 GATE-OK /home/claude/yt/channels/stickman/what-if/2026-11-27-wi18-last-bell/project silent 10.0s @70.28s render: ssim=0.995 psnr=46.0
@@ -155,7 +152,6 @@ WARN  shorts/2026-11-27-o26-three-rewinds/project last shot has no ask
 lint ok shorts/2026-11-27-o26-three-rewinds/project: 0 errors, 1 warnings
 GATE-OK /home/claude/yt/channels/stickman/what-if/shorts/2026-11-27-o26-three-rewinds/project iris 5.177s @32.87s render: ssim=0.992 psnr=51.2
 OK shorts/2026-11-27-o26-three-rewinds/project 
-outro button 10.0s -> /home/claude/yt/channels/stickman/what-if/2026-11-28-wi19-dog-talks/project (now 134.11s)
 WARN  2026-11-28-wi19-dog-talks/project sOUT: 10.0s shot
 lint ok 2026-11-28-wi19-dog-talks/project: 0 errors, 1 warnings
 GATE-OK /home/claude/yt/channels/stickman/what-if/2026-11-28-wi19-dog-talks/project button 10.0s @124.11s render: ssim=0.995 psnr=53.0
