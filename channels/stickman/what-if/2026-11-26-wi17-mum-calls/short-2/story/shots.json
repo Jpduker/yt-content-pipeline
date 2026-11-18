@@ -1,6 +1,6 @@
 {
  "title": "Mum Stopped Calling. Then He Called Her. #shorts",
- "duration": 37.774,
+ "duration": 39.551,
  "shots": [
   {
    "id": "s005",
@@ -626,7 +626,7 @@
   {
    "id": "sOUT",
    "start": 34.374,
-   "end": 37.774,
+   "end": 39.551,
    "line": "",
    "scene": "outro",
    "bars": "none",
@@ -650,8 +650,7 @@
    "params": {
     "k": "outro",
     "v": "iris",
-    "line": "See you between the ifs!",
-    "slots": false
+    "line": "See you between the ifs!"
    }
   }
  ],
@@ -664,7 +663,7 @@
   },
   {
    "start": 18.46,
-   "end": 37.774,
+   "end": 39.551,
    "mood": "sad",
    "intensity": 0.3
   }

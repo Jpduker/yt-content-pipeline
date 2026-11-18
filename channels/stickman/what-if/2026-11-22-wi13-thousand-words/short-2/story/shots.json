@@ -1,98 +1,11 @@
 {
  "title": "His Brother Needed Him. He Had 14 Words Left. #shorts",
- "duration": 59.8,
+ "duration": 59.762,
  "shots": [
   {
-   "id": "s016",
-   "start": 0.0,
-   "end": 2.203,
-   "line": "",
-   "scene": "scene",
-   "bars": "none",
-   "in": {
-    "type": "cut",
-    "dur": 0
-   },
-   "sfx": [
-    {
-     "at": 0,
-     "name": "whoosh",
-     "gain": -10
-    },
-    {
-     "at": 0.15,
-     "name": "blip",
-     "gain": -18
-    }
-   ],
-   "captions": true,
-   "params": {
-    "k": "scene",
-    "set": "bedroom",
-    "so": {
-     "night": true
-    },
-    "cam": [
-     [
-      960,
-      600,
-      1.2
-     ],
-     [
-      960,
-      600,
-      1.3
-     ]
-    ],
-    "vx": 930,
-    "who": [
-     {
-      "id": "YOU",
-      "x": 760,
-      "pose": "sitHands",
-      "expr": [
-       [
-        0,
-        "sad"
-       ],
-       [
-        0.32955061280072867,
-        "surprised"
-       ]
-      ],
-      "f": 1,
-      "badge": {
-       "k": "words",
-       "v": 14,
-       "at": 0
-      }
-     },
-     {
-      "id": "THEO",
-      "x": 0,
-      "pose": "walk",
-      "expr": "teary",
-      "f": -1,
-      "walk": [
-       1500,
-       1080,
-       0,
-       0.6
-      ]
-     }
-    ],
-    "motif": "num",
-    "hookText": "HIS BROTHER NEEDS HIM"
-   },
-   "amb": {
-    "name": "roomtone",
-    "gain": -30
-   }
-  },
-  {
    "id": "s017",
-   "start": 2.203,
-   "end": 6.173,
+   "start": 0.0,
+   "end": 3.97,
    "line": "",
    "scene": "face",
    "bars": "none",
@@ -120,7 +33,9 @@
      "k": "words",
      "v": 1000,
      "at": 0
-    }
+    },
+    "motif": "num",
+    "hookText": "HIS BROTHER NEEDS HIM"
    },
    "amb": {
     "name": "roomtone",
@@ -129,8 +44,8 @@
   },
   {
    "id": "s018",
-   "start": 6.173,
-   "end": 10.929,
+   "start": 3.97,
+   "end": 8.726,
    "line": "",
    "scene": "scene",
    "bars": "none",
@@ -192,8 +107,8 @@
   },
   {
    "id": "s019",
-   "start": 10.929,
-   "end": 17.2,
+   "start": 8.726,
+   "end": 14.997,
    "line": "",
    "scene": "face",
    "bars": "none",
@@ -260,8 +175,8 @@
   },
   {
    "id": "s020",
-   "start": 17.2,
-   "end": 22.308,
+   "start": 14.997,
+   "end": 20.105,
    "line": "",
    "scene": "face",
    "bars": "none",
@@ -329,8 +244,8 @@
   },
   {
    "id": "s021",
-   "start": 22.308,
-   "end": 27.916,
+   "start": 20.105,
+   "end": 25.713,
    "line": "",
    "scene": "face",
    "bars": "none",
@@ -368,8 +283,8 @@
   },
   {
    "id": "s022",
-   "start": 27.916,
-   "end": 34.148,
+   "start": 25.713,
+   "end": 31.945,
    "line": "",
    "scene": "kt",
    "bars": "none",
@@ -440,8 +355,8 @@
   },
   {
    "id": "s023",
-   "start": 34.148,
-   "end": 36.389,
+   "start": 31.945,
+   "end": 34.186,
    "line": "",
    "scene": "scene",
    "bars": "none",
@@ -524,8 +439,8 @@
   },
   {
    "id": "s024",
-   "start": 36.389,
-   "end": 38.05,
+   "start": 34.186,
+   "end": 35.847,
    "line": "",
    "scene": "face",
    "bars": "none",
@@ -571,8 +486,8 @@
   },
   {
    "id": "s025",
-   "start": 38.05,
-   "end": 41.066,
+   "start": 35.847,
+   "end": 38.863,
    "line": "",
    "scene": "face",
    "bars": "none",
@@ -609,8 +524,8 @@
   },
   {
    "id": "s026",
-   "start": 41.066,
-   "end": 43.617,
+   "start": 38.863,
+   "end": 41.414,
    "line": "",
    "scene": "scene",
    "bars": "none",
@@ -681,8 +596,8 @@
   },
   {
    "id": "s027",
-   "start": 43.617,
-   "end": 47.308,
+   "start": 41.414,
+   "end": 45.105,
    "line": "",
    "scene": "kt",
    "bars": "none",
@@ -733,8 +648,8 @@
   },
   {
    "id": "s028",
-   "start": 47.308,
-   "end": 51.862,
+   "start": 45.105,
+   "end": 49.659,
    "line": "",
    "scene": "kt",
    "bars": "none",
@@ -780,8 +695,8 @@
   },
   {
    "id": "s029",
-   "start": 51.862,
-   "end": 56.788,
+   "start": 49.659,
+   "end": 54.585,
    "line": "",
    "scene": "face",
    "bars": "none",
@@ -829,8 +744,8 @@
   },
   {
    "id": "sOUT",
-   "start": 56.788,
-   "end": 59.8,
+   "start": 54.585,
+   "end": 59.762,
    "line": "",
    "scene": "outro",
    "bars": "none",
@@ -854,15 +769,14 @@
    "params": {
     "k": "outro",
     "v": "iris",
-    "line": "See you between the ifs!",
-    "slots": false
+    "line": "See you between the ifs!"
    }
   }
  ],
  "music": [
   {
-   "start": 0.15,
-   "end": 59.8,
+   "start": 0.0,
+   "end": 59.762,
    "mood": "sad",
    "intensity": 0.28
   }

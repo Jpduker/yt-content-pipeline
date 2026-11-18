@@ -1,6 +1,6 @@
 {
  "title": "The Bell Rings Once. Then They're Gone.",
- "duration": 31.847,
+ "duration": 33.624,
  "shots": [
   {
    "id": "s001",
@@ -374,7 +374,7 @@
   {
    "id": "sOUT",
    "start": 28.447,
-   "end": 31.847,
+   "end": 33.624,
    "line": "",
    "scene": "outro",
    "bars": "none",
@@ -398,8 +398,7 @@
    "params": {
     "k": "outro",
     "v": "iris",
-    "line": "See you between the ifs!",
-    "slots": false
+    "line": "See you between the ifs!"
    }
   }
  ],
@@ -412,7 +411,7 @@
   },
   {
    "start": 14.2,
-   "end": 31.847,
+   "end": 33.624,
    "mood": "sad",
    "intensity": 0.26
   }

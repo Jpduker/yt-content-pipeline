@@ -602,7 +602,10 @@ function shortEnd(g, t, info) {   // last 2 s of a Short: drawn straight in 9:16
 // p.items: {k:'slam'|'rise'|'pop'|'typed'|'marker'|'bignum'|'word', t, at, out, x, y, sz, c, ...}
 const KTE = { expoOut: x => x >= 1 ? 1 : 1 - 2 ** (-10 * clamp(x)), expoIn: x => x <= 0 ? 0 : 2 ** (10 * clamp(x) - 10), spring: (t, f = 2.2, d = 10) => t <= 0 ? 0 : 1 - Math.exp(-d * t) * Math.cos(2 * Math.PI * f * t),
   backOut: (x, k = 2.8) => { x = clamp(x); return 1 + (k + 1) * (x - 1) ** 3 + k * (x - 1) ** 2; } };
-function ktText(g, str, x, y, sz, col, o = {}) { g.save(); g.translate(x, y); if (o.rot) g.rotate(o.rot); if (o.sc != null) g.scale(o.sc, o.sc); g.globalAlpha *= o.a ?? 1;
+// v3.2.2: text never leaves the frame. ktFit = scale that keeps `str` (at size sz, times the item's largest zoom `peak`) inside 94 % of the frame width.
+function ktFit(g, str, sz, w = 700, font = 'Fredoka', peak = 1) { g.save(); g.font = `${w} ${sz}px ${font}`; const tw = g.measureText(str).width * peak; g.restore(); return Math.min(1, E.W * .94 / Math.max(1, tw)); }
+function ktText(g, str, x, y, sz, col, o = {}) { const fit = o.fit ?? ktFit(g, str, sz, o.w || 700, o.font || 'Fredoka', o.peak || 1);
+  g.save(); g.translate(x, y); if (o.rot) g.rotate(o.rot); if (o.sc != null) g.scale(o.sc, o.sc); if (fit < 1) g.scale(fit, fit); g.globalAlpha *= o.a ?? 1;
   g.font = `${o.w || 700} ${sz}px ${o.font || 'Fredoka'}`; g.textAlign = o.align || 'center'; g.textBaseline = 'middle'; g.fillStyle = col; g.fillText(str, 0, 0); g.restore(); }
 function kt(g, t, p) {
   const W = E.W, H = E.H, dur = p.dur, X = v => v <= 1 ? v * W : v, Y = v => v <= 1 ? v * H : v;
@@ -626,9 +629,9 @@ function kt(g, t, p) {
       g.save(); g.globalAlpha *= exA; const q = KTE.backOut(d / .3, 1.6); g.translate(x, y); g.scale(q * ex, q * ex); rr(g, -bw / 2, -fs * 1.1, bw, fs * 2.2, 30); g.fillStyle = it.bubble || '#3A86FF'; g.fill();
       ktText(g, str + ((d * 2) % 1 < .5 ? '|' : ''), -bw / 2 + 40, 0, fs, it.c || '#fff', { align: 'left', w: 600 }); g.restore(); }
     else if (it.k === 'marker') { const mk = it.mark ?? a0 + .4, q = KTE.expoOut((t - mk) / .3), key = t > mk + .25 ? 1 + .25 * KTE.spring(t - mk - .25, 2.5, 9) : 1;
-      g.save(); g.font = `700 ${sz}px Fredoka`; const tw = g.measureText(it.t).width; g.restore();
-      if (t > mk) { g.save(); g.translate(x, y); g.scale(key * ex, key * ex); g.globalAlpha *= exA; g.fillStyle = it.mc || '#FFD23F'; g.beginPath(); const L = -tw / 2 - 20, R = L + (tw + 40) * q; g.moveTo(L, sz * .42); g.lineTo(R, sz * .42 - (R - L) * .0); g.lineTo(R + sz * .18, -sz * .38); g.lineTo(L + sz * .18, -sz * .38); g.closePath(); g.fill(); g.restore(); }
-      const qi = KTE.expoOut(d / .33); g.save(); g.beginPath(); g.rect(0, y - sz * key * .75, W, sz * key * 1.5); g.clip(); ktText(g, it.t, x, y + sz * 1.2 * (1 - qi), sz, c, { sc: key * ex, a: exA }); g.restore(); }
+      g.save(); g.font = `700 ${sz}px Fredoka`; const tw = g.measureText(it.t).width; g.restore(); const fit = Math.min(1, E.W * .94 / Math.max(1, (tw + 40) * 1.4));   // bar + text fit even at the key-zoom peak
+      if (t > mk) { g.save(); g.translate(x, y); g.scale(key * ex * fit, key * ex * fit); g.globalAlpha *= exA; g.fillStyle = it.mc || '#FFD23F'; g.beginPath(); const L = -tw / 2 - 20, R = L + (tw + 40) * q; g.moveTo(L, sz * .42); g.lineTo(R, sz * .42 - (R - L) * .0); g.lineTo(R + sz * .18, -sz * .38); g.lineTo(L + sz * .18, -sz * .38); g.closePath(); g.fill(); g.restore(); }
+      const qi = KTE.expoOut(d / .33); g.save(); g.beginPath(); g.rect(0, y - sz * key * .75, W, sz * key * 1.5); g.clip(); ktText(g, it.t, x, y + sz * 1.2 * (1 - qi), sz, c, { sc: key * ex, a: exA, fit }); g.restore(); }
     else if (it.k === 'word') { const sp = KTE.backOut(d / .3, 2); ktText(g, it.t, x, y, sz, c, { sc: sp * ex, a: clamp(d / .05) * exA }); }
   }
   g.restore();

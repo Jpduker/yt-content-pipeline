@@ -1365,9 +1365,7 @@
    "captions": false,
    "params": {
     "k": "outro",
-    "v": "silent",
-    "line": null,
-    "slots": false
+    "v": "silent"
    }
   }
  ],

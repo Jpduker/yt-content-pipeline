@@ -1,6 +1,6 @@
 {
  "title": "In This World, Lonely People Glow",
- "duration": 30.29,
+ "duration": 32.067,
  "shots": [
   {
    "id": "s001",
@@ -491,7 +491,7 @@
   {
    "id": "sOUT",
    "start": 26.89,
-   "end": 30.29,
+   "end": 32.067,
    "line": "",
    "scene": "outro",
    "bars": "none",
@@ -515,8 +515,7 @@
    "params": {
     "k": "outro",
     "v": "iris",
-    "line": "See you between the ifs!",
-    "slots": false
+    "line": "See you between the ifs!"
    }
   }
  ],
@@ -529,7 +528,7 @@
   },
   {
    "start": 11.37,
-   "end": 30.29,
+   "end": 32.067,
    "mood": "hopeful",
    "intensity": 0.38
   }

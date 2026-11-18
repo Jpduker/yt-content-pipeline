@@ -1,0 +1,162 @@
+{
+ "_doc": "APPROVED outro spec (Vivek 17 Nov 2026: Outro_Test.mp4 / Outro_Test_16x9.mp4). Single source of truth for add_outro.py, validate_outro.py and the laptop gate. Never edit durations/params without a new approval.",
+ "fps": 24,
+ "rules": {
+  "9:16": "iris",
+  "16:9": [
+   "silent",
+   "button",
+   "ident"
+  ],
+  "16:9_pick": "date.toordinal() % 3"
+ },
+ "short_max_total": 59.8,
+ "variants": {
+  "iris": {
+   "approved_secs": 5.177,
+   "secs": {
+    "9:16": 5.177,
+    "16:9": 10.0
+   },
+   "proof_t": 4.75,
+   "in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "params": {
+    "k": "outro",
+    "v": "iris",
+    "line": "See you between the ifs!"
+   },
+   "sfx": [
+    [
+     "swish",
+     1.9,
+     -12
+    ],
+    [
+     "ding",
+     3.0,
+     -14
+    ]
+   ]
+  },
+  "silent": {
+   "approved_secs": 4.3,
+   "secs": {
+    "9:16": 5.177,
+    "16:9": 10.0
+   },
+   "proof_t": 3.6,
+   "in": {
+    "type": "dipWhite",
+    "dur": 0.5
+   },
+   "params": {
+    "k": "outro",
+    "v": "silent"
+   },
+   "sfx": [
+    [
+     "shimmer",
+     0.2,
+     -18
+    ],
+    [
+     "ding",
+     2.8,
+     -16
+    ]
+   ]
+  },
+  "button": {
+   "approved_secs": 4.9,
+   "secs": {
+    "9:16": 5.177,
+    "16:9": 10.0
+   },
+   "proof_t": 4.4,
+   "in": {
+    "type": "push",
+    "dur": 0.45
+   },
+   "params": {
+    "k": "outro",
+    "v": "button",
+    "line": "New what if every day"
+   },
+   "sfx": [
+    [
+     "footstep",
+     0.3,
+     -16
+    ],
+    [
+     "pop",
+     1.6,
+     -8
+    ],
+    [
+     "ding",
+     2.0,
+     -10
+    ],
+    [
+     "pop",
+     2.6,
+     -12
+    ]
+   ]
+  },
+  "ident": {
+   "approved_secs": 6.0,
+   "secs": {
+    "9:16": 6.0,
+    "16:9": 10.0
+   },
+   "proof_t": 3.0,
+   "in": {
+    "type": "bands",
+    "dur": 0.5
+   },
+   "params": {
+    "k": "outro",
+    "v": "ident"
+   },
+   "sfx": [
+    [
+     "hit",
+     0.3,
+     -8
+    ],
+    [
+     "hit",
+     0.65,
+     -9
+    ],
+    [
+     "swish",
+     1.2,
+     -16
+    ]
+   ],
+   "roi": {
+    "16:9": [
+     0.55,
+     0.05,
+     0.4,
+     0.9
+    ]
+   },
+   "_roi_doc": "end-screen panel (dashed next-video + subscribe boxes): faint, so it gets its own SSIM check (missing panel 0.958, correct 0.995)"
+  }
+ },
+ "gate": {
+  "ssim_min": 0.9,
+  "psnr_min": 28.0,
+  "dur_tol": 0.12,
+  "outro_audio_min_db": -45,
+  "_doc": "proof frame vs golden: full-frame SSIM AND PSNR (PSNR catches a mostly-black iris frame with the SUBSCRIBE text missing: 15 dB vs 46 dB when correct)",
+  "roi_ssim_min": 0.975
+ }
+}

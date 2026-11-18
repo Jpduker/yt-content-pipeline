@@ -1,6 +1,6 @@
 {
  "title": "My Dog Told Me Something the Vet Knew",
- "duration": 39.821,
+ "duration": 41.598,
  "shots": [
   {
    "id": "s020",
@@ -547,7 +547,7 @@
   {
    "id": "sOUT",
    "start": 36.421,
-   "end": 39.821,
+   "end": 41.598,
    "line": "",
    "scene": "outro",
    "bars": "none",
@@ -571,15 +571,14 @@
    "params": {
     "k": "outro",
     "v": "iris",
-    "line": "See you between the ifs!",
-    "slots": false
+    "line": "See you between the ifs!"
    }
   }
  ],
  "music": [
   {
    "start": 0.15,
-   "end": 39.821,
+   "end": 41.598,
    "mood": "sad",
    "intensity": 0.28
   }

@@ -1,23 +1,13 @@
 [
  {
-  "id": "L018",
-  "tag": "N",
-  "thought": false,
-  "note": "",
-  "text": "And then Theo knocks on your door.",
-  "sec": "act1",
-  "start": 0.15,
-  "end": 2.093
- },
- {
   "id": "L019",
   "tag": "THEO",
   "thought": false,
   "note": "",
   "text": "Can I tell you something? Something real?",
   "sec": "act1",
-  "start": 2.353,
-  "end": 4.424
+  "start": 0.15,
+  "end": 2.221
  },
  {
   "id": "L020",
@@ -26,8 +16,8 @@
   "note": "",
   "text": "Theo has nine hundred and ninety-three words. He saved them all day.",
   "sec": "act2",
-  "start": 6.323,
-  "end": 10.819
+  "start": 4.12,
+  "end": 8.616
  },
  {
   "id": "L021",
@@ -36,8 +26,8 @@
   "note": "",
   "text": "I quit the football team. I didn't tell Mum.",
   "sec": "act2",
-  "start": 11.079,
-  "end": 13.284
+  "start": 8.876,
+  "end": 11.081
  },
  {
   "id": "L022",
@@ -46,8 +36,8 @@
   "note": "",
   "text": "Everyone thinks I'm lazy. I'm not. I just hate being bad at it.",
   "sec": "act2",
-  "start": 13.424,
-  "end": 17.209
+  "start": 11.221,
+  "end": 15.006
  },
  {
   "id": "L023",
@@ -56,8 +46,8 @@
   "note": "",
   "text": "Coach said I was the slowest one there. Everyone laughed.",
   "sec": "act2",
-  "start": 17.35,
-  "end": 19.89
+  "start": 15.147,
+  "end": 17.687
  },
  {
   "id": "L024",
@@ -66,8 +56,8 @@
   "note": "",
   "text": "So I stopped going. Three weeks ago.",
   "sec": "act2",
-  "start": 20.136,
-  "end": 22.058
+  "start": 17.933,
+  "end": 19.855
  },
  {
   "id": "L025",
@@ -76,8 +66,8 @@
   "note": "",
   "text": "Three weeks. You didn't notice.",
   "sec": "act2",
-  "start": 22.458,
-  "end": 24.593
+  "start": 20.255,
+  "end": 22.39
  },
  {
   "id": "L026",
@@ -86,8 +76,8 @@
   "note": "",
   "text": "You were busy spending words on people you'll never meet.",
   "sec": "act2",
-  "start": 24.732,
-  "end": 27.883
+  "start": 22.529,
+  "end": 25.68
  },
  {
   "id": "L027",
@@ -96,8 +86,8 @@
   "note": "",
   "text": "Every sentence you want to say is longer than fourteen words.",
   "sec": "act2",
-  "start": 28.066,
-  "end": 31.891
+  "start": 25.863,
+  "end": 29.688
  },
  {
   "id": "L028",
@@ -106,8 +96,8 @@
   "note": "",
   "text": "So you don't say any of them.",
   "sec": "act2",
-  "start": 32.107,
-  "end": 33.757
+  "start": 29.904,
+  "end": 31.554
  },
  {
   "id": "L029",
@@ -116,8 +106,8 @@
   "note": "",
   "text": "You nod. Nods are free.",
   "sec": "act2",
-  "start": 34.298,
-  "end": 36.28
+  "start": 32.095,
+  "end": 34.077
  },
  {
   "id": "L030",
@@ -126,8 +116,8 @@
   "note": "",
   "text": "You think I'm a quitter.",
   "sec": "act2",
-  "start": 36.539,
-  "end": 37.8
+  "start": 34.336,
+  "end": 35.597
  },
  {
   "id": "L031",
@@ -136,8 +126,8 @@
   "note": "",
   "text": "You shake your head. Also free.",
   "sec": "act2",
-  "start": 38.2,
-  "end": 40.376
+  "start": 35.997,
+  "end": 38.173
  },
  {
   "id": "L032",
@@ -146,8 +136,8 @@
   "note": "",
   "text": "Then your phone buzzes. It's Mum.",
   "sec": "act2",
-  "start": 41.216,
-  "end": 43.626
+  "start": 39.013,
+  "end": 41.423
  },
  {
   "id": "L033",
@@ -156,8 +146,8 @@
   "note": "",
   "text": "Is Theo okay? she writes. He's been so quiet.",
   "sec": "act2",
-  "start": 43.767,
-  "end": 47.266
+  "start": 41.564,
+  "end": 45.063
  },
  {
   "id": "L034",
@@ -166,8 +156,8 @@
   "note": "",
   "text": "Typing counts. One reply could cost you everything you have left.",
   "sec": "act2",
-  "start": 47.458,
-  "end": 51.873
+  "start": 45.255,
+  "end": 49.67
  },
  {
   "id": "L035",
@@ -176,7 +166,7 @@
   "note": "",
   "text": "You can answer her. Or you can answer him.",
   "sec": "act2",
-  "start": 52.012,
-  "end": 54.438
+  "start": 49.809,
+  "end": 52.235
  }
 ]

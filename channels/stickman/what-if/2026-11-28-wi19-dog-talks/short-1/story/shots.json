@@ -1,6 +1,6 @@
 {
  "title": "My Dog Could Talk for 24 Hours. First: Complaints.",
- "duration": 40.023,
+ "duration": 41.8,
  "shots": [
   {
    "id": "s001",
@@ -625,7 +625,7 @@
   {
    "id": "sOUT",
    "start": 36.623,
-   "end": 40.023,
+   "end": 41.8,
    "line": "",
    "scene": "outro",
    "bars": "none",
@@ -649,8 +649,7 @@
    "params": {
     "k": "outro",
     "v": "iris",
-    "line": "See you between the ifs!",
-    "slots": false
+    "line": "See you between the ifs!"
    }
   }
  ],
@@ -663,7 +662,7 @@
   },
   {
    "start": 16.27,
-   "end": 40.023,
+   "end": 41.8,
    "mood": "playful",
    "intensity": 0.42
   }

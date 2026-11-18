@@ -1,6 +1,6 @@
 {
  "title": "Two Promises. Same Sunday. One Has to Break. #shorts",
- "duration": 35.812,
+ "duration": 37.589,
  "shots": [
   {
    "id": "s008",
@@ -396,7 +396,7 @@
   {
    "id": "sOUT",
    "start": 32.412,
-   "end": 35.812,
+   "end": 37.589,
    "line": "",
    "scene": "outro",
    "bars": "none",
@@ -420,8 +420,7 @@
    "params": {
     "k": "outro",
     "v": "iris",
-    "line": "See you between the ifs!",
-    "slots": false
+    "line": "See you between the ifs!"
    }
   }
  ],
@@ -434,7 +433,7 @@
   },
   {
    "start": 19.75,
-   "end": 35.812,
+   "end": 37.589,
    "mood": "tension",
    "intensity": 0.3
   }

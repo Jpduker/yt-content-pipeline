@@ -1,6 +1,6 @@
 {
  "title": "His Sister Could Hear His Thoughts for 1 Minute a Day",
- "duration": 28.37,
+ "duration": 30.147,
  "shots": [
   {
    "id": "s001",
@@ -472,7 +472,7 @@
   {
    "id": "sOUT",
    "start": 24.97,
-   "end": 28.37,
+   "end": 30.147,
    "line": "",
    "scene": "outro",
    "bars": "none",
@@ -496,8 +496,7 @@
    "params": {
     "k": "outro",
     "v": "iris",
-    "line": "See you between the ifs!",
-    "slots": false
+    "line": "See you between the ifs!"
    }
   }
  ],
@@ -510,7 +509,7 @@
   },
   {
    "start": 9.33,
-   "end": 28.37,
+   "end": 30.147,
    "mood": "hopeful",
    "intensity": 0.34
   }

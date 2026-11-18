@@ -1629,9 +1629,7 @@
    "captions": false,
    "params": {
     "k": "outro",
-    "v": "ident",
-    "line": null,
-    "slots": false
+    "v": "ident"
    }
   }
  ],

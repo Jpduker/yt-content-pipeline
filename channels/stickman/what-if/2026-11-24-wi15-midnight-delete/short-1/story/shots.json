@@ -1,6 +1,6 @@
 {
  "title": "His Phone Deletes Whoever He Ignored Longest. Tonight: His Brother. #shorts",
- "duration": 41.713,
+ "duration": 43.49,
  "shots": [
   {
    "id": "s001",
@@ -493,7 +493,7 @@
   {
    "id": "sOUT",
    "start": 38.313,
-   "end": 41.713,
+   "end": 43.49,
    "line": "",
    "scene": "outro",
    "bars": "none",
@@ -517,8 +517,7 @@
    "params": {
     "k": "outro",
     "v": "iris",
-    "line": "See you between the ifs!",
-    "slots": false
+    "line": "See you between the ifs!"
    }
   }
  ],
@@ -531,7 +530,7 @@
   },
   {
    "start": 21.05,
-   "end": 41.713,
+   "end": 43.49,
    "mood": "mystery",
    "intensity": 0.32
   }

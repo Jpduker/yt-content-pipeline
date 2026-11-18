@@ -1,6 +1,6 @@
 {
  "title": "In This World, Your Shadow Stays With the Last Person You Hurt",
- "duration": 41.04,
+ "duration": 42.817,
  "shots": [
   {
    "id": "s001",
@@ -825,7 +825,7 @@
   {
    "id": "sOUT",
    "start": 37.64,
-   "end": 41.04,
+   "end": 42.817,
    "line": "",
    "scene": "outro",
    "bars": "none",
@@ -849,8 +849,7 @@
    "params": {
     "k": "outro",
     "v": "iris",
-    "line": "See you between the ifs!",
-    "slots": false
+    "line": "See you between the ifs!"
    }
   }
  ],
@@ -863,7 +862,7 @@
   },
   {
    "start": 25.28,
-   "end": 41.04,
+   "end": 42.817,
    "mood": "hopeful",
    "intensity": 0.36
   }

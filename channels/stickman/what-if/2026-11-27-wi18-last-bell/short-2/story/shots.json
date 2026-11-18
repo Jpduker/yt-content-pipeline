@@ -1,6 +1,6 @@
 {
  "title": "The Bell Rang for My Brother",
- "duration": 22.587,
+ "duration": 24.364,
  "shots": [
   {
    "id": "s007",
@@ -320,7 +320,7 @@
   {
    "id": "sOUT",
    "start": 19.187,
-   "end": 22.587,
+   "end": 24.364,
    "line": "",
    "scene": "outro",
    "bars": "none",
@@ -344,15 +344,14 @@
    "params": {
     "k": "outro",
     "v": "iris",
-    "line": "See you between the ifs!",
-    "slots": false
+    "line": "See you between the ifs!"
    }
   }
  ],
  "music": [
   {
    "start": 0.15,
-   "end": 22.587,
+   "end": 24.364,
    "mood": "tension",
    "intensity": 0.32
   }

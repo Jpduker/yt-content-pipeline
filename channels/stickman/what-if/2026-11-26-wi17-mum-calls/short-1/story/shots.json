@@ -1,6 +1,6 @@
 {
  "title": "Every Call From Mum He Ignored Made Him 1 Year Older #shorts",
- "duration": 38.407,
+ "duration": 40.184,
  "shots": [
   {
    "id": "s001",
@@ -568,7 +568,7 @@
   {
    "id": "sOUT",
    "start": 35.007,
-   "end": 38.407,
+   "end": 40.184,
    "line": "",
    "scene": "outro",
    "bars": "none",
@@ -592,8 +592,7 @@
    "params": {
     "k": "outro",
     "v": "iris",
-    "line": "See you between the ifs!",
-    "slots": false
+    "line": "See you between the ifs!"
    }
   }
  ],
@@ -606,7 +605,7 @@
   },
   {
    "start": 15.65,
-   "end": 38.407,
+   "end": 40.184,
    "mood": "playful",
    "intensity": 0.38
   }

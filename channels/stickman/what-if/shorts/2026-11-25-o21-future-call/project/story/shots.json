@@ -1,6 +1,6 @@
 {
  "title": "Every Birthday, You Get 1 Call From Your Future Self",
- "duration": 30.14,
+ "duration": 31.917,
  "shots": [
   {
    "id": "s001",
@@ -451,7 +451,7 @@
   {
    "id": "sOUT",
    "start": 26.74,
-   "end": 30.14,
+   "end": 31.917,
    "line": "",
    "scene": "outro",
    "bars": "none",
@@ -475,8 +475,7 @@
    "params": {
     "k": "outro",
     "v": "iris",
-    "line": "See you between the ifs!",
-    "slots": false
+    "line": "See you between the ifs!"
    }
   }
  ],
@@ -489,7 +488,7 @@
   },
   {
    "start": 14.67,
-   "end": 30.14,
+   "end": 31.917,
    "mood": "hopeful",
    "intensity": 0.38
   }

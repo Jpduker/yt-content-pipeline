@@ -1,6 +1,6 @@
 {
  "title": "Her Voice Disappeared After She Said \"I Hate You\"",
- "duration": 29.04,
+ "duration": 30.817,
  "shots": [
   {
    "id": "s001",
@@ -502,7 +502,7 @@
   {
    "id": "sOUT",
    "start": 25.64,
-   "end": 29.04,
+   "end": 30.817,
    "line": "",
    "scene": "outro",
    "bars": "none",
@@ -526,8 +526,7 @@
    "params": {
     "k": "outro",
     "v": "iris",
-    "line": "See you between the ifs!",
-    "slots": false
+    "line": "See you between the ifs!"
    }
   }
  ],
@@ -540,7 +539,7 @@
   },
   {
    "start": 17.38,
-   "end": 29.04,
+   "end": 30.817,
    "mood": "hopeful",
    "intensity": 0.36
   }

@@ -1,6 +1,6 @@
 {
  "title": "Her Brother Had 24 Hours of Luck. He Gave It Away.",
- "duration": 41.64,
+ "duration": 43.417,
  "shots": [
   {
    "id": "s001",
@@ -887,7 +887,7 @@
   {
    "id": "sOUT",
    "start": 38.24,
-   "end": 41.64,
+   "end": 43.417,
    "line": "",
    "scene": "outro",
    "bars": "none",
@@ -911,8 +911,7 @@
    "params": {
     "k": "outro",
     "v": "iris",
-    "line": "See you between the ifs!",
-    "slots": false
+    "line": "See you between the ifs!"
    }
   }
  ],
@@ -931,7 +930,7 @@
   },
   {
    "start": 27.09,
-   "end": 41.64,
+   "end": 43.417,
    "mood": "hopeful",
    "intensity": 0.38
   }

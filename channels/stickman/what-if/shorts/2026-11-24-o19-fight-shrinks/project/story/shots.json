@@ -1,6 +1,6 @@
 {
  "title": "In This World, Every Sibling Fight Shrinks the House",
- "duration": 29.73,
+ "duration": 31.507,
  "shots": [
   {
    "id": "s001",
@@ -458,7 +458,7 @@
   {
    "id": "sOUT",
    "start": 26.33,
-   "end": 29.73,
+   "end": 31.507,
    "line": "",
    "scene": "outro",
    "bars": "none",
@@ -482,8 +482,7 @@
    "params": {
     "k": "outro",
     "v": "iris",
-    "line": "See you between the ifs!",
-    "slots": false
+    "line": "See you between the ifs!"
    }
   }
  ],
@@ -496,7 +495,7 @@
   },
   {
    "start": 17.57,
-   "end": 29.73,
+   "end": 31.507,
    "mood": "hopeful",
    "intensity": 0.36
   }

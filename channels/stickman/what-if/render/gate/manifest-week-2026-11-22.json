@@ -1,0 +1,372 @@
+{
+ "spec": {
+  "ssim_min": 0.9,
+  "psnr_min": 28.0,
+  "dur_tol": 0.12,
+  "outro_audio_min_db": -45,
+  "_doc": "proof frame vs golden: full-frame SSIM AND PSNR (PSNR catches a mostly-black iris frame with the SUBSCRIBE text missing: 15 dB vs 46 dB when correct)",
+  "roi_ssim_min": 0.975
+ },
+ "items": [
+  {
+   "project": "2026-11-22-wi13-thousand-words/project",
+   "dest": "2026-11-22-wi13-thousand-words/final/what-if-you-only-had-1000-words-a-day-1080p.mp4",
+   "duration": 151.55,
+   "outro_start": 141.55,
+   "variant": "button",
+   "proof_t": 145.95,
+   "golden": "golden/16x9_button.png",
+   "roi": null
+  },
+  {
+   "project": "2026-11-22-wi13-thousand-words/short-1",
+   "dest": "2026-11-22-wi13-thousand-words/final/wi13-short-1-9x16.mp4",
+   "duration": 47.511,
+   "outro_start": 42.334,
+   "variant": "iris",
+   "proof_t": 47.084,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "2026-11-22-wi13-thousand-words/short-2",
+   "dest": "2026-11-22-wi13-thousand-words/final/wi13-short-2-9x16.mp4",
+   "duration": 59.762,
+   "outro_start": 54.585,
+   "variant": "iris",
+   "proof_t": 59.335,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "shorts/2026-11-22-o15-grandma-hug/project",
+   "dest": "shorts/2026-11-22-o15-grandma-hug/final/o15-grandma-hug-9x16.mp4",
+   "duration": 31.897,
+   "outro_start": 26.72,
+   "variant": "iris",
+   "proof_t": 31.47,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "shorts/2026-11-22-o16-sister-thoughts/project",
+   "dest": "shorts/2026-11-22-o16-sister-thoughts/final/o16-sister-thoughts-9x16.mp4",
+   "duration": 30.147,
+   "outro_start": 24.97,
+   "variant": "iris",
+   "proof_t": 29.72,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "2026-11-23-wi14-lie-freeze/project",
+   "dest": "2026-11-23-wi14-lie-freeze/final/what-if-every-lie-froze-the-world-for-5-seconds-1080p.mp4",
+   "duration": 114.02,
+   "outro_start": 104.02,
+   "variant": "ident",
+   "proof_t": 107.02,
+   "golden": "golden/16x9_ident.png",
+   "roi": [
+    0.55,
+    0.05,
+    0.4,
+    0.9
+   ]
+  },
+  {
+   "project": "2026-11-23-wi14-lie-freeze/short-1",
+   "dest": "2026-11-23-wi14-lie-freeze/final/wi14-short-1-9x16.mp4",
+   "duration": 48.534,
+   "outro_start": 43.357,
+   "variant": "iris",
+   "proof_t": 48.107,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "2026-11-23-wi14-lie-freeze/short-2",
+   "dest": "2026-11-23-wi14-lie-freeze/final/wi14-short-2-9x16.mp4",
+   "duration": 45.586,
+   "outro_start": 40.409,
+   "variant": "iris",
+   "proof_t": 45.159,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "shorts/2026-11-23-o17-dad-later/project",
+   "dest": "shorts/2026-11-23-o17-dad-later/final/o17-dad-later-9x16.mp4",
+   "duration": 35.827,
+   "outro_start": 30.65,
+   "variant": "iris",
+   "proof_t": 35.4,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "shorts/2026-11-23-o18-pause-parents/project",
+   "dest": "shorts/2026-11-23-o18-pause-parents/final/o18-pause-parents-9x16.mp4",
+   "duration": 30.247,
+   "outro_start": 25.07,
+   "variant": "iris",
+   "proof_t": 29.82,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "2026-11-24-wi15-midnight-delete/project",
+   "dest": "2026-11-24-wi15-midnight-delete/final/what-if-your-phone-deleted-whoever-you-ignored-longest-1080p.mp4",
+   "duration": 90.85,
+   "outro_start": 80.85,
+   "variant": "silent",
+   "proof_t": 84.45,
+   "golden": "golden/16x9_silent.png",
+   "roi": null
+  },
+  {
+   "project": "2026-11-24-wi15-midnight-delete/short-1",
+   "dest": "2026-11-24-wi15-midnight-delete/final/wi15-short-1-9x16.mp4",
+   "duration": 43.49,
+   "outro_start": 38.313,
+   "variant": "iris",
+   "proof_t": 43.063,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "2026-11-24-wi15-midnight-delete/short-2",
+   "dest": "2026-11-24-wi15-midnight-delete/final/wi15-short-2-9x16.mp4",
+   "duration": 33.655,
+   "outro_start": 28.478,
+   "variant": "iris",
+   "proof_t": 33.228,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "shorts/2026-11-24-o19-fight-shrinks/project",
+   "dest": "shorts/2026-11-24-o19-fight-shrinks/final/o19-fight-shrinks-9x16.mp4",
+   "duration": 31.507,
+   "outro_start": 26.33,
+   "variant": "iris",
+   "proof_t": 31.08,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "shorts/2026-11-24-o20-hate-voice/project",
+   "dest": "shorts/2026-11-24-o20-hate-voice/final/o20-hate-voice-9x16.mp4",
+   "duration": 30.817,
+   "outro_start": 25.64,
+   "variant": "iris",
+   "proof_t": 30.39,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "2026-11-25-wi16-promise-strings/project",
+   "dest": "2026-11-25-wi16-promise-strings/final/what-if-every-promise-you-made-was-a-string-1080p.mp4",
+   "duration": 103.3,
+   "outro_start": 93.3,
+   "variant": "button",
+   "proof_t": 97.7,
+   "golden": "golden/16x9_button.png",
+   "roi": null
+  },
+  {
+   "project": "2026-11-25-wi16-promise-strings/short-1",
+   "dest": "2026-11-25-wi16-promise-strings/final/wi16-short-1-9x16.mp4",
+   "duration": 45.944,
+   "outro_start": 40.767,
+   "variant": "iris",
+   "proof_t": 45.517,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "2026-11-25-wi16-promise-strings/short-2",
+   "dest": "2026-11-25-wi16-promise-strings/final/wi16-short-2-9x16.mp4",
+   "duration": 37.589,
+   "outro_start": 32.412,
+   "variant": "iris",
+   "proof_t": 37.162,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "shorts/2026-11-25-o21-future-call/project",
+   "dest": "shorts/2026-11-25-o21-future-call/final/o21-future-call-9x16.mp4",
+   "duration": 31.917,
+   "outro_start": 26.74,
+   "variant": "iris",
+   "proof_t": 31.49,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "shorts/2026-11-25-o22-grandparents-glow/project",
+   "dest": "shorts/2026-11-25-o22-grandparents-glow/final/o22-grandparents-glow-9x16.mp4",
+   "duration": 32.067,
+   "outro_start": 26.89,
+   "variant": "iris",
+   "proof_t": 31.64,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "2026-11-26-wi17-mum-calls/project",
+   "dest": "2026-11-26-wi17-mum-calls/final/what-if-you-aged-1-year-every-time-you-ignored-mums-call-1080p.mp4",
+   "duration": 81.61,
+   "outro_start": 71.61,
+   "variant": "ident",
+   "proof_t": 74.61,
+   "golden": "golden/16x9_ident.png",
+   "roi": [
+    0.55,
+    0.05,
+    0.4,
+    0.9
+   ]
+  },
+  {
+   "project": "2026-11-26-wi17-mum-calls/short-1",
+   "dest": "2026-11-26-wi17-mum-calls/final/wi17-short-1-9x16.mp4",
+   "duration": 40.184,
+   "outro_start": 35.007,
+   "variant": "iris",
+   "proof_t": 39.757,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "2026-11-26-wi17-mum-calls/short-2",
+   "dest": "2026-11-26-wi17-mum-calls/final/wi17-short-2-9x16.mp4",
+   "duration": 39.551,
+   "outro_start": 34.374,
+   "variant": "iris",
+   "proof_t": 39.124,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "shorts/2026-11-26-o23-borrow-day/project",
+   "dest": "shorts/2026-11-26-o23-borrow-day/final/o23-borrow-day-9x16.mp4",
+   "duration": 35.657,
+   "outro_start": 30.48,
+   "variant": "iris",
+   "proof_t": 35.23,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "shorts/2026-11-26-o24-deleted-texts/project",
+   "dest": "shorts/2026-11-26-o24-deleted-texts/final/o24-deleted-texts-9x16.mp4",
+   "duration": 38.597,
+   "outro_start": 33.42,
+   "variant": "iris",
+   "proof_t": 38.17,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "2026-11-27-wi18-last-bell/project",
+   "dest": "2026-11-27-wi18-last-bell/final/what-if-a-bell-rang-the-last-time-youd-see-someone-1080p.mp4",
+   "duration": 80.28,
+   "outro_start": 70.28,
+   "variant": "silent",
+   "proof_t": 73.88,
+   "golden": "golden/16x9_silent.png",
+   "roi": null
+  },
+  {
+   "project": "2026-11-27-wi18-last-bell/short-1",
+   "dest": "2026-11-27-wi18-last-bell/final/wi18-short-1-9x16.mp4",
+   "duration": 33.624,
+   "outro_start": 28.447,
+   "variant": "iris",
+   "proof_t": 33.197,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "2026-11-27-wi18-last-bell/short-2",
+   "dest": "2026-11-27-wi18-last-bell/final/wi18-short-2-9x16.mp4",
+   "duration": 24.364,
+   "outro_start": 19.187,
+   "variant": "iris",
+   "proof_t": 23.937,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "shorts/2026-11-27-o25-dad-kid/project",
+   "dest": "shorts/2026-11-27-o25-dad-kid/final/o25-dad-kid-9x16.mp4",
+   "duration": 47.347,
+   "outro_start": 42.17,
+   "variant": "iris",
+   "proof_t": 46.92,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "shorts/2026-11-27-o26-three-rewinds/project",
+   "dest": "shorts/2026-11-27-o26-three-rewinds/final/o26-three-rewinds-9x16.mp4",
+   "duration": 38.047,
+   "outro_start": 32.87,
+   "variant": "iris",
+   "proof_t": 37.62,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "2026-11-28-wi19-dog-talks/project",
+   "dest": "2026-11-28-wi19-dog-talks/final/what-if-your-dog-could-talk-for-24-hours-1080p.mp4",
+   "duration": 134.11,
+   "outro_start": 124.11,
+   "variant": "button",
+   "proof_t": 128.51,
+   "golden": "golden/16x9_button.png",
+   "roi": null
+  },
+  {
+   "project": "2026-11-28-wi19-dog-talks/short-1",
+   "dest": "2026-11-28-wi19-dog-talks/final/wi19-short-1-9x16.mp4",
+   "duration": 41.8,
+   "outro_start": 36.623,
+   "variant": "iris",
+   "proof_t": 41.373,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "2026-11-28-wi19-dog-talks/short-2",
+   "dest": "2026-11-28-wi19-dog-talks/final/wi19-short-2-9x16.mp4",
+   "duration": 41.598,
+   "outro_start": 36.421,
+   "variant": "iris",
+   "proof_t": 41.171,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "shorts/2026-11-28-o27-shadow-hurt/project",
+   "dest": "shorts/2026-11-28-o27-shadow-hurt/final/o27-shadow-hurt-9x16.mp4",
+   "duration": 42.817,
+   "outro_start": 37.64,
+   "variant": "iris",
+   "proof_t": 42.39,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  },
+  {
+   "project": "shorts/2026-11-28-o28-luck-gift/project",
+   "dest": "shorts/2026-11-28-o28-luck-gift/final/o28-luck-gift-9x16.mp4",
+   "duration": 43.417,
+   "outro_start": 38.24,
+   "variant": "iris",
+   "proof_t": 42.99,
+   "golden": "golden/9x16_iris.png",
+   "roi": null
+  }
+ ]
+}

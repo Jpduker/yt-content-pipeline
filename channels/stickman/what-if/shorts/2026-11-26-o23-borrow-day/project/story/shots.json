@@ -1,6 +1,6 @@
 {
  "title": "In This World, You Can Borrow 1 Day From Your Brother",
- "duration": 33.88,
+ "duration": 35.657,
  "shots": [
   {
    "id": "s001",
@@ -514,7 +514,7 @@
   {
    "id": "sOUT",
    "start": 30.48,
-   "end": 33.88,
+   "end": 35.657,
    "line": "",
    "scene": "outro",
    "bars": "none",
@@ -538,8 +538,7 @@
    "params": {
     "k": "outro",
     "v": "iris",
-    "line": "See you between the ifs!",
-    "slots": false
+    "line": "See you between the ifs!"
    }
   }
  ],
@@ -552,7 +551,7 @@
   },
   {
    "start": 13.46,
-   "end": 33.88,
+   "end": 35.657,
    "mood": "hopeful",
    "intensity": 0.36
   }

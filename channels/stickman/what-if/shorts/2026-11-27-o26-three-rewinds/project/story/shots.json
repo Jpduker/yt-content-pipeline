@@ -1,6 +1,6 @@
 {
  "title": "Every Parent Gets 3 Rewinds a Year. Mum Used Hers on Me.",
- "duration": 36.27,
+ "duration": 38.047,
  "shots": [
   {
    "id": "s001",
@@ -718,7 +718,7 @@
   {
    "id": "sOUT",
    "start": 32.87,
-   "end": 36.27,
+   "end": 38.047,
    "line": "",
    "scene": "outro",
    "bars": "none",
@@ -742,8 +742,7 @@
    "params": {
     "k": "outro",
     "v": "iris",
-    "line": "See you between the ifs!",
-    "slots": false
+    "line": "See you between the ifs!"
    }
   }
  ],
@@ -756,7 +755,7 @@
   },
   {
    "start": 18.67,
-   "end": 36.27,
+   "end": 38.047,
    "mood": "hopeful",
    "intensity": 0.36
   }
