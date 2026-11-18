@@ -239,10 +239,25 @@ export function drawPuppet(g, id, o) {
   const tf = (dx, dy) => { g.translate(o.x + dx, o.y + dy); g.scale(f * s, s); if (o.rot) { g.translate(p.hip[0], p.hip[1]); g.rotate(o.rot); g.translate(-p.hip[0], -p.hip[1]); } };
   g.save();
   if (o.shadow !== false && !o.rot) { g.fillStyle = 'rgba(10,4,12,.22)'; g.beginPath(); g.ellipse(o.x, o.y + 2, 38 * s, 6 * s, 0, 0, 7); g.fill(); }
-  g.save(); g.filter = `blur(${3.2 * s}px)`; tf(3.6 * s, -3 * s); puppetParts(g, id, o, p, alpha(GLOW, .7)); g.restore();     // soft peach glow behind the silhouette (top-right)
+  filterGroup(g, `blur(${3.2 * s}px)`, L => { L.save(); const g0 = g; g = L; tf(3.6 * s, -3 * s); puppetParts(L, id, o, p, alpha(GLOW, .7)); g = g0; L.restore(); });     // soft peach glow behind the silhouette (top-right)
   g.save(); tf(1.7 * s, -1.5 * s); puppetParts(g, id, o, p, EDGE); g.restore();                                                 // thin warm edge line (as in the sheets)
   g.save(); tf(0, 0); puppetParts(g, id, o, p, null, 'out'); puppetParts(g, id, o, p, null, 'fill'); g.restore();
   g.restore();
+}
+// v3.2.1 speed: a canvas filter set on g re-runs for EVERY draw call (8x slower frames). filterGroup draws fn
+// unfiltered into a scratch layer, then composites it once through the filter. Same look, one filter pass.
+const _FL = [];
+export function filterGroup(g, filter, fn) {
+  if (!filter || filter === 'none') return fn(g);
+  const W = g.canvas.width, H = g.canvas.height, d = filterGroup.depth = (filterGroup.depth || 0) + 1;
+  try {
+    let L = _FL[d];
+    if (!L || L.canvas.width !== W || L.canvas.height !== H) { const c = typeof OffscreenCanvas !== 'undefined' ? new OffscreenCanvas(W, H) : Object.assign(document.createElement('canvas'), { width: W, height: H }); L = _FL[d] = c.getContext('2d'); }
+    L.setTransform(1, 0, 0, 1, 0, 0); L.globalAlpha = 1; L.globalCompositeOperation = 'source-over'; L.filter = 'none'; L.clearRect(0, 0, W, H); L.setTransform(g.getTransform());
+    const r = fn(L), f0 = g.filter;
+    g.save(); g.setTransform(1, 0, 0, 1, 0, 0); g.filter = (f0 && f0 !== 'none' ? f0 + ' ' : '') + filter; g.drawImage(L.canvas, 0, 0); g.restore();
+    return r;
+  } finally { filterGroup.depth = d - 1; }
 }
 // ---------- full figure: kit body + our head ----------
 // v3.1: group opacity. Drawing a figure part-by-part with globalAlpha < 1 lets the neck, body and
@@ -291,7 +306,7 @@ export function bust(g, cx, cy, r, id, o = {}) {
   const hair = H.hair && HAIR[H.hair];
   if (hair?.behind) hair.behind(g, 0, 0, r, hairSide, { t: o.t, rim: [side * r * .05, -r * .02], rimCol: rc, ...H });
   // rim behind body + head
-  g.save(); g.filter = `blur(${r * .03}px)`; g.translate(side * r * .05, -r * .04); torso(alpha(GLOW, .85)); circle(g, 0, 0, r * 1.02, alpha(GLOW, .85)); g.restore();
+  { const g0 = g; filterGroup(g0, `blur(${r * .03}px)`, L => { g = L; L.save(); L.translate(side * r * .05, -r * .04); torso(alpha(GLOW, .85)); circle(L, 0, 0, r * 1.02, alpha(GLOW, .85)); L.restore(); }); g = g0; }
   g.fillStyle = ink; g.fillRect(-r * .22, r * .6, r * .44, sy - r * .45);
   torso(INK, r * .05);   // v3.2 ink outline
   if (top === 'hoodie') {

@@ -142,6 +142,11 @@ export const HEAD = {
   THEO: { hair: 'headphonesNeck', color: '#4a8fe8' }, DEV: { hair: 'scarf', color: '#e8743b' }, PIA: { hair: 'clipBun', color: '#d8504a', lashes: true },
   DAD: { hair: 'stache', color: '#b8b4b0', glasses: true }, INTERN: { hair: 'lanyard', color: '#1f8a8a' }, KID: { hair: 'bun', lashes: true }, SAMI: { hair: 'cap', color: '#3a6ea5' }, OMAR: {}, PIP: { hair: 'bun', lashes: true }, CLEANER: { hair: 'beanie', color: '#3a6ea5' }, GUS: { hair: 'stache' }, INES: { hair: 'curly', lashes: true }, RAJ: {}, TIA: { hair: 'clipBun', color: '#3fb950', lashes: true }, LEO: {}, DAVE: { glasses: true }, NADIA: { hair: 'bunTop', lashes: true }, ROSA: { hair: 'bun', lashes: true }, JO: { hair: 'cap', color: '#3a6ea5' }, SAM: { hair: 'curly', lashes: true }, WALT: { hair: 'flatcap', color: '#6a6a74' }, ZOE: { hair: 'bunTop', lashes: true }, ELI: {}, JAY: { hair: 'curly' }, GRANDPA: { hair: 'flatcap', color: '#5a4a3a', glasses: true }, NEW: { hair: 'lanyard', color: '#e05a9a', lashes: true }, LILA: { hair: 'bunTop', lashes: true }, MA: { hair: 'curly', lashes: true }, BRO: { hair: 'beanie', color: '#e8743b' },
   DETECTIVE: { hair: 'fedora', color: '#8a7660' }, CHEF: { hair: 'chefhat' }, SCI: { hair: 'goggles' }, PUFFER: { hair: 'beanie', color: '#4a4852' }, TRACK: {}, TEE: {},
+  GRAN: { hair: 'bunTop', lashes: true, glasses: true }, KAI: { hair: 'curly' }, LIA: { hair: 'clipBun', color: '#ffd23f', lashes: true }, BEN: {},
+  NOAH: { hair: 'cap', color: '#2a2430' }, ZARA: { hair: 'curly', lashes: true },
+  LEO: {}, MAYA: { hair: 'bun', lashes: true }, NINA: { hair: 'curly', lashes: true }, OLI: { hair: 'cap', color: '#3a6ea5' },
+  AVA: { hair: 'bun', lashes: true }, AVA_OLD: { hair: 'bunTop', lashes: true, glasses: true }, NANA: { hair: 'bunTop', lashes: true, glasses: true }, POPS: { hair: 'flatcap', color: '#6a5a4a' }, JUN: {},
+  RAFA: {}, TOM: { hair: 'curly' }, LILY: { hair: 'bun', lashes: true },
   X1: {}, X2: { hair: 'cap', color: '#2a2430' }, X3: { hair: 'curly' }, X4: { hair: 'bun', lashes: true }, X5: { hair: 'beanie', color: '#3a3040' },
 };
 
@@ -234,10 +239,25 @@ export function drawPuppet(g, id, o) {
   const tf = (dx, dy) => { g.translate(o.x + dx, o.y + dy); g.scale(f * s, s); if (o.rot) { g.translate(p.hip[0], p.hip[1]); g.rotate(o.rot); g.translate(-p.hip[0], -p.hip[1]); } };
   g.save();
   if (o.shadow !== false && !o.rot) { g.fillStyle = 'rgba(10,4,12,.22)'; g.beginPath(); g.ellipse(o.x, o.y + 2, 38 * s, 6 * s, 0, 0, 7); g.fill(); }
-  g.save(); g.filter = `blur(${3.2 * s}px)`; tf(3.6 * s, -3 * s); puppetParts(g, id, o, p, alpha(GLOW, .7)); g.restore();     // soft peach glow behind the silhouette (top-right)
+  filterGroup(g, `blur(${3.2 * s}px)`, L => { L.save(); const g0 = g; g = L; tf(3.6 * s, -3 * s); puppetParts(L, id, o, p, alpha(GLOW, .7)); g = g0; L.restore(); });     // soft peach glow behind the silhouette (top-right)
   g.save(); tf(1.7 * s, -1.5 * s); puppetParts(g, id, o, p, EDGE); g.restore();                                                 // thin warm edge line (as in the sheets)
   g.save(); tf(0, 0); puppetParts(g, id, o, p, null, 'out'); puppetParts(g, id, o, p, null, 'fill'); g.restore();
   g.restore();
+}
+// v3.2.1 speed: a canvas filter set on g re-runs for EVERY draw call (8x slower frames). filterGroup draws fn
+// unfiltered into a scratch layer, then composites it once through the filter. Same look, one filter pass.
+const _FL = [];
+export function filterGroup(g, filter, fn) {
+  if (!filter || filter === 'none') return fn(g);
+  const W = g.canvas.width, H = g.canvas.height, d = filterGroup.depth = (filterGroup.depth || 0) + 1;
+  try {
+    let L = _FL[d];
+    if (!L || L.canvas.width !== W || L.canvas.height !== H) { const c = typeof OffscreenCanvas !== 'undefined' ? new OffscreenCanvas(W, H) : Object.assign(document.createElement('canvas'), { width: W, height: H }); L = _FL[d] = c.getContext('2d'); }
+    L.setTransform(1, 0, 0, 1, 0, 0); L.globalAlpha = 1; L.globalCompositeOperation = 'source-over'; L.filter = 'none'; L.clearRect(0, 0, W, H); L.setTransform(g.getTransform());
+    const r = fn(L), f0 = g.filter;
+    g.save(); g.setTransform(1, 0, 0, 1, 0, 0); g.filter = (f0 && f0 !== 'none' ? f0 + ' ' : '') + filter; g.drawImage(L.canvas, 0, 0); g.restore();
+    return r;
+  } finally { filterGroup.depth = d - 1; }
 }
 // ---------- full figure: kit body + our head ----------
 // v3.1: group opacity. Drawing a figure part-by-part with globalAlpha < 1 lets the neck, body and
@@ -286,7 +306,7 @@ export function bust(g, cx, cy, r, id, o = {}) {
   const hair = H.hair && HAIR[H.hair];
   if (hair?.behind) hair.behind(g, 0, 0, r, hairSide, { t: o.t, rim: [side * r * .05, -r * .02], rimCol: rc, ...H });
   // rim behind body + head
-  g.save(); g.filter = `blur(${r * .03}px)`; g.translate(side * r * .05, -r * .04); torso(alpha(GLOW, .85)); circle(g, 0, 0, r * 1.02, alpha(GLOW, .85)); g.restore();
+  { const g0 = g; filterGroup(g0, `blur(${r * .03}px)`, L => { g = L; L.save(); L.translate(side * r * .05, -r * .04); torso(alpha(GLOW, .85)); circle(L, 0, 0, r * 1.02, alpha(GLOW, .85)); L.restore(); }); g = g0; }
   g.fillStyle = ink; g.fillRect(-r * .22, r * .6, r * .44, sy - r * .45);
   torso(INK, r * .05);   // v3.2 ink outline
   if (top === 'hoodie') {
@@ -304,7 +324,9 @@ export function bust(g, cx, cy, r, id, o = {}) {
     torso(col); poly(g, [[-r * .35, sy - r * .02], [0, sy + r * 1.0], [r * .35, sy - r * .02]], '#e8e4ee'); poly(g, [[-r * .08, sy + r * .02], [r * .08, sy + r * .02], [r * .1, sy + r * .85], [0, sy + r * .98], [-r * .1, sy + r * .85]], C.color2 || '#3a6ea5');
   } else if (top === 'tshirt') {
     torso(col); g.fillStyle = ink; g.beginPath(); g.ellipse(0, sy + r * .02, r * .44, r * .2, 0, 0, Math.PI); g.fill();
-  } else torso(ink);
+  } else if (top && top !== 'none') { torso(col); g.fillStyle = INK; g.beginPath(); g.ellipse(0, sy + r * .02, r * .44, r * .2, 0, 0, Math.PI); g.fill();   // v3.2: sweater/track/puffer/chef/lab busts keep their colour
+    if (top === 'track') seg(g, [[0, sy + r * .15], [0, r * 3]], r * .04, '#e8e6ee'); if (top === 'puffer') for (let k = 1; k < 4; k++) seg(g, [[-shW, sy + k * r * .45], [shW, sy + k * r * .45]], r * .03, alpha(INK, .6)); }
+  else torso(ink);
   circle(g, 0, 0, r * 1.03, INK); circle(g, 0, 0, r, HEADC);
   face(g, 0, 0, r, { front: true, expr: o.expr, ex: o.ex, talk: o.talk, blink: o.blink, look: o.look, lashes: H.lashes, glasses: H.glasses, tear: o.tear, t: o.t });
   if (hair?.front) hair.front(g, 0, 0, r, hairSide, { ...H, front: true, t: o.t });

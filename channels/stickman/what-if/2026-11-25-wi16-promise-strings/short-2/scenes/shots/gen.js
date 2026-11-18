@@ -8,7 +8,7 @@ import * as UI from '/engine/ui2d.js';
 import { SETS, SC, GYf, F, lerpCam, table, longTable, chair, cup, steam, cafeCounter, cardboard, drawHorse as drawHorseI, dog as drawDog } from '../sets/world.js';
 import { CAST, THREAD, GREEN, YELLOW } from '../cast.js';
 import { cap } from './_cap.js';
-import { drawChar, bust, mixEx, exP, alphaGroup } from '../chars.js';
+import { drawChar, bust, mixEx, exP, alphaGroup, filterGroup } from '../chars.js';
 
 const base = new URL('../../timeline/', import.meta.url);
 const LINES = await (await fetch(new URL('lines.json', base))).json();
@@ -237,8 +237,7 @@ function scene(g, t, info) {
   if (!frozen) { cam.x += Math.sin(t * .7 + (p.seed || 0)) * 3 / cam.z; cam.y += Math.sin(t * .9 + 1) * 2 / cam.z; }
   const dof = p.dof ?? (cam.z >= 1.45 ? Math.min(5, (cam.z - 1.2) * 4) : 0);
   const [thL, thAmt] = frozen ? [null, 0] : thoughtEnv(gt); let S0;
-  const drawSet = g => { const f0 = g.filter; g.filter = (f0 && f0 !== 'none' ? f0 + ' ' : '') + 'saturate(1.28) brightness(1.06)';   // v3.2: no dull rooms
-    S0 = SETS[p.set](g, frozen ? (p.ft ?? 0) : t, cam, { ...(p.so || {}), frozen, counterAt1: p.set === 'cafe' }); g.filter = f0; };
+  const drawSet = g => filterGroup(g, 'saturate(1.28) brightness(1.06)', L => { S0 = SETS[p.set](L, frozen ? (p.ft ?? 0) : t, cam, { ...(p.so || {}), frozen, counterAt1: p.set === 'cafe' }); });   // v3.2: no dull rooms (one filter pass, v3.2.1)
   if (thAmt > .03 || dof > .5) vblur(g, Math.max(7 * thAmt, dof), drawSet); else drawSet(g);
   const { GY, CX, M } = S0, rim = { color: (S0.MI || M).rim, dir: p.rimDir || [0, -1], w: 4 }, figs = {};
   layer(g, cam, 1, g => {
@@ -676,7 +675,7 @@ function outro(g, t, p) {
     ktText(g, 'BETWEEN', lx, H * (V9 ? .32 : .28), 130 * U, '#111', { sc: 1.7 - .7 * KTE.spring(d - .3), a: clamp((d - .3) / .06), w: 700 });
     ktText(g, 'THE IFS', lx, H * (V9 ? .41 : .42), 130 * U, '#111', { sc: 1.7 - .7 * KTE.spring(d - .65), a: clamp((d - .65) / .06), w: 700 });
     if (d > 1.2) ktText(g, 'A new "What if…?" every day', lx, H * (V9 ? .5 : .56), 44 * U, '#333', { a: clamp((d - 1.2) / .3), w: 600 });
-    hero(V9 ? lx : W * .1, H * (V9 ? .86 : .93), V9 ? 2.4 : 2.0, 'wave', 'joy');
+    hero(V9 ? lx : W * .065, H * (V9 ? .86 : .93), V9 ? 2.4 : 2.0, 'wave', 'joy');
     if (p.slots !== false) { const sx = V9 ? W * .5 : W * .74, slot = (y, w, h, lab) => { g.save(); g.setLineDash([14, 10]); g.strokeStyle = 'rgba(17,17,17,.35)'; g.lineWidth = 3; rr(g, sx - w / 2, y - h / 2, w, h, 16); g.stroke(); g.restore(); ktText(g, lab, sx, y, 30 * U, 'rgba(17,17,17,.45)', { w: 600 }); };
       if (!V9) { slot(H * .33, 560 * U, 315 * U, 'end screen: next video'); slot(H * .72, 230 * U, 230 * U, 'subscribe'); } }
   }

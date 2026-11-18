@@ -8,7 +8,7 @@ import * as UI from '/engine/ui2d.js';
 import { SETS, SC, GYf, F, lerpCam, table, longTable, chair, cup, steam, cafeCounter, cardboard, drawHorse as drawHorseI, dog as drawDog } from '../sets/world.js';
 import { CAST, THREAD, GREEN, YELLOW } from '../cast.js';
 import { cap } from './_cap.js';
-import { drawChar, bust, mixEx, exP, alphaGroup } from '../chars.js';
+import { drawChar, bust, mixEx, exP, alphaGroup, filterGroup } from '../chars.js';
 
 const base = new URL('../../timeline/', import.meta.url);
 const LINES = await (await fetch(new URL('lines.json', base))).json();
@@ -237,8 +237,7 @@ function scene(g, t, info) {
   if (!frozen) { cam.x += Math.sin(t * .7 + (p.seed || 0)) * 3 / cam.z; cam.y += Math.sin(t * .9 + 1) * 2 / cam.z; }
   const dof = p.dof ?? (cam.z >= 1.45 ? Math.min(5, (cam.z - 1.2) * 4) : 0);
   const [thL, thAmt] = frozen ? [null, 0] : thoughtEnv(gt); let S0;
-  const drawSet = g => { const f0 = g.filter; g.filter = (f0 && f0 !== 'none' ? f0 + ' ' : '') + 'saturate(1.28) brightness(1.06)';   // v3.2: no dull rooms
-    S0 = SETS[p.set](g, frozen ? (p.ft ?? 0) : t, cam, { ...(p.so || {}), frozen, counterAt1: p.set === 'cafe' }); g.filter = f0; };
+  const drawSet = g => filterGroup(g, 'saturate(1.28) brightness(1.06)', L => { S0 = SETS[p.set](L, frozen ? (p.ft ?? 0) : t, cam, { ...(p.so || {}), frozen, counterAt1: p.set === 'cafe' }); });   // v3.2: no dull rooms (one filter pass, v3.2.1)
   if (thAmt > .03 || dof > .5) vblur(g, Math.max(7 * thAmt, dof), drawSet); else drawSet(g);
   const { GY, CX, M } = S0, rim = { color: (S0.MI || M).rim, dir: p.rimDir || [0, -1], w: 4 }, figs = {};
   layer(g, cam, 1, g => {
@@ -635,9 +634,55 @@ function kt(g, t, p) {
   g.restore();
   if (p.tag) { const fs = E.vertical ? 34 : 28; g.save(); g.font = `700 ${fs}px Fredoka`; const w = g.measureText(p.tag).width + fs * 1.2; rr(g, 40, 40, w, fs * 1.7, fs * .85); g.fillStyle = 'rgba(17,17,17,.82)'; g.fill(); g.restore(); ktText(g, p.tag, 40 + w / 2, 40 + fs * .85, fs, '#fff', { w: 700 }); }
   if (p.caps) cap(g, p.globalT);
+  if (p.ask || p.hookText) vOverlay(g, t, p);   // v3.2: question / premise plate on KT pages too
+}
+
+// ---------- v3.2 OUTRO (sign-off + subscribe), drawn straight in the frame. p.v: 'iris' | 'silent' | 'button' | 'ident' ----------
+function outro(g, t, p) {
+  const W = E.W, H = E.H, V9 = H > W, dur = p.dur, d = t, hero = (x, y, s, pose, expr, f = 1) => drawChar(g, 'YOU', { x, y, s, facing: f, pose: POSES[pose] || POSES.stand, expr, ex: exP(expr), talk: talkFor('YOU', p.globalT), blink: (t + .4) % 3 > 2.86, look: [0, 0] }, t);
+  const U = Math.min(W, H) / 1080;
+  if (p.v === 'iris') {   // 1930s cartoon iris-out (lemo-opuscar "Rubber Hose"): warm sunburst, hero waves, iris closes on him, sign-off in hand lettering
+    const g0 = g.createRadialGradient(W / 2, H * .55, 10, W / 2, H * .55, Math.max(W, H) * .7); g0.addColorStop(0, '#ffe7a8'); g0.addColorStop(1, '#f2a65a'); g.fillStyle = g0; g.fillRect(0, 0, W, H);
+    g.save(); g.translate(W / 2, H * .55); g.rotate(t * .15); g.fillStyle = 'rgba(255,255,255,.18)'; for (let i = 0; i < 16; i++) { g.rotate(Math.PI / 8); g.beginPath(); g.moveTo(0, 0); g.lineTo(Math.max(W, H), -60 * U); g.lineTo(Math.max(W, H), 60 * U); g.fill(); } g.restore();
+    const [hx, hy] = hero(W / 2, H * (V9 ? .7 : .9), (V9 ? 3.2 : 2.6), d > .5 ? 'wave' : 'stand', d > 1.4 ? 'laugh' : 'joy');
+    const k = KTE.expoIn(clamp((d - 1.9) / 1.0)), R0 = Math.hypot(W, H), r = lerp(R0, 230 * U, k), kk = clamp((d - 3.2) / .5), rr0 = r * (1 - KTE.expoIn(kk));
+    g.save(); g.fillStyle = '#111'; g.beginPath(); g.rect(0, 0, W, H); g.moveTo(hx + Math.max(0, rr0), hy); g.arc(hx, hy, Math.max(0, rr0), 0, Math.PI * 2, true); g.fill('evenodd'); g.restore();
+    if (d > 3.6) marker(g, p.line || 'See you between the ifs!', W / 2, H * .45, (V9 ? 64 : 92) * U, '#f6ecd6', -.04, KTE.backOut((d - 3.6) / .4), 1);
+    if (d > 4.1) ktText(g, 'SUBSCRIBE', W / 2, H * .58, 64 * U, '#ffd23f', { sc: KTE.backOut((d - 4.1) / .35), w: 700 });
+  } else if (p.v === 'silent') {   // 1920s silent-film title card (lemo-opuscar "Silent Film"): flicker, grain, ornate border
+    const fl = .9 + .1 * Math.sin(t * 47) * Math.sin(t * 13); g.fillStyle = '#0d0b0a'; g.fillRect(0, 0, W, H);
+    g.save(); g.globalAlpha = fl; g.strokeStyle = '#e9dfc8'; const m = 70 * U; g.lineWidth = 6 * U; g.strokeRect(m, m, W - 2 * m, H - 2 * m); g.lineWidth = 2 * U; g.strokeRect(m + 18 * U, m + 18 * U, W - 2 * m - 36 * U, H - 2 * m - 36 * U);
+    for (const [cx, cy] of [[m, m], [W - m, m], [m, H - m], [W - m, H - m]]) { g.beginPath(); g.arc(cx, cy, 22 * U, 0, 7); g.stroke(); }
+    const a1 = clamp((d - .3) / .5), a2 = clamp((d - 1.5) / .5), a3 = clamp((d - 2.8) / .4);
+    ktText(g, 'The End', W / 2, H * .36, 150 * U, '#efe6d2', { a: a1, font: '"Playfair Display"', w: 900 });
+    ktText(g, '... or is it?', W / 2, H * .5, 70 * U, '#cfc4ac', { a: a2, font: '"Playfair Display"', w: 900 });
+    if (a3 > 0) { g.save(); g.globalAlpha *= a3; const bw = 520 * U, bh = 110 * U; rr(g, W / 2 - bw / 2, H * .64 - bh / 2, bw, bh, 12 * U); g.strokeStyle = '#efe6d2'; g.lineWidth = 4 * U; g.stroke(); g.restore(); ktText(g, 'SUBSCRIBE', W / 2, H * .64, 64 * U, '#efe6d2', { a: a3, font: '"Playfair Display"', w: 900 }); }
+    g.restore(); g.fillStyle = 'rgba(255,255,255,.07)'; for (let i = 0; i < 160; i++) { const x = (Math.sin(i * 91.7 + t * 33) * .5 + .5) * W, y = (Math.sin(i * 47.3 + t * 21) * .5 + .5) * H; g.fillRect(x, y, 2, 2); }
+    if (Math.sin(t * 7.3) > .97) { g.fillStyle = 'rgba(255,255,255,.12)'; g.fillRect(W * (.2 + .6 * Math.abs(Math.sin(t))), 0, 3, H); }
+  } else if (p.v === 'button') {   // the classic YouTube ask, acted by the hero (huashu pop/slam): he walks in, presses SUBSCRIBE, the bell rings
+    g.fillStyle = '#14213D'; g.fillRect(0, 0, W, H); g.fillStyle = 'rgba(255,255,255,.06)'; const o = (t * 36) % 64; for (let x = -64; x < W + 64; x += 64) for (let y = -64; y < H + 64; y += 64) { g.beginPath(); g.arc(x + o, y + o, 4, 0, 7); g.fill(); }
+    const walkK = clamp(d / 1.1), hxp = lerp(-.1, V9 ? .32 : .36, KTE.expoOut(walkK)), press = d > 1.6, pk = clamp((d - 1.6) / .12);
+    hero(W * hxp, H * (V9 ? .74 : .92), V9 ? 2.8 : 2.4, walkK < 1 ? 'stand' : press ? 'point' : 'stand', press ? 'joy' : 'happy');
+    const bx = W * (V9 ? .66 : .64), by = H * (V9 ? .5 : .45), bw = 430 * U, bh = 120 * U, sq = press ? 1 - .14 * Math.exp(-18 * (d - 1.6)) * (pk < 1 ? pk : 1) : KTE.backOut(clamp((d - .4) / .35));
+    g.save(); g.translate(bx, by); g.scale(sq, sq); rr(g, -bw / 2, -bh / 2, bw, bh, bh / 2); g.fillStyle = press ? '#5a5a66' : '#e8322a'; g.fill(); g.restore();
+    ktText(g, press ? 'SUBSCRIBED ✓' : 'SUBSCRIBE', bx, by, 54 * U, '#fff', { sc: sq, w: 700 });
+    if (d > 2.0) { const q = KTE.backOut((d - 2.0) / .35), sw = Math.sin((d - 2.0) * 22) * Math.exp(-3 * (d - 2.0)) * .5; g.save(); g.translate(bx + bw * .62, by - bh * .1); g.scale(q, q); g.rotate(sw); g.fillStyle = '#ffd23f'; g.beginPath(); g.moveTo(-34 * U, 26 * U); g.quadraticCurveTo(-34 * U, -40 * U, 0, -42 * U); g.quadraticCurveTo(34 * U, -40 * U, 34 * U, 26 * U); g.closePath(); g.fill(); g.beginPath(); g.arc(0, 34 * U, 10 * U, 0, 7); g.fill(); g.restore(); }
+    if (d > 2.6) ktText(g, '👍', bx - bw * .1, by + bh * 1.25, 90 * U, '#fff', { sc: KTE.backOut((d - 2.6) / .35) });
+    if (d > 3.0) marker(g, p.line || 'New what if every day', V9 ? W / 2 : bx, by - bh * (V9 ? 2.6 : 1.6), (V9 ? 52 : 58) * U, '#c8f04a', -.04, KTE.backOut((d - 3.0) / .3), 1);
+  } else {   // 'ident': TV-station style channel card (lemo-opuscar "Broadcast News"/"Swiss Motion"): logo slam, tagline, room for YouTube end-screen elements
+    g.fillStyle = '#F4EFE6'; g.fillRect(0, 0, W, H); g.fillStyle = '#FFD23F'; const band = KTE.expoOut(clamp(d / .5)); g.fillRect(0, H * (V9 ? .26 : .18), W * band, H * (V9 ? .2 : .3));
+    const lx = V9 ? W / 2 : W * .3;
+    ktText(g, 'BETWEEN', lx, H * (V9 ? .32 : .28), 130 * U, '#111', { sc: 1.7 - .7 * KTE.spring(d - .3), a: clamp((d - .3) / .06), w: 700 });
+    ktText(g, 'THE IFS', lx, H * (V9 ? .41 : .42), 130 * U, '#111', { sc: 1.7 - .7 * KTE.spring(d - .65), a: clamp((d - .65) / .06), w: 700 });
+    if (d > 1.2) ktText(g, 'A new "What if…?" every day', lx, H * (V9 ? .5 : .56), 44 * U, '#333', { a: clamp((d - 1.2) / .3), w: 600 });
+    hero(V9 ? lx : W * .065, H * (V9 ? .86 : .93), V9 ? 2.4 : 2.0, 'wave', 'joy');
+    if (p.slots !== false) { const sx = V9 ? W * .5 : W * .74, slot = (y, w, h, lab) => { g.save(); g.setLineDash([14, 10]); g.strokeStyle = 'rgba(17,17,17,.35)'; g.lineWidth = 3; rr(g, sx - w / 2, y - h / 2, w, h, 16); g.stroke(); g.restore(); ktText(g, lab, sx, y, 30 * U, 'rgba(17,17,17,.45)', { w: 600 }); };
+      if (!V9) { slot(H * .33, 560 * U, 315 * U, 'end screen: next video'); slot(H * .72, 230 * U, 230 * U, 'subscribe'); } }
+  }
+  if (p.tag) { const fs = V9 ? 34 : 28; g.save(); g.font = `700 ${fs}px Fredoka`; const w = g.measureText(p.tag).width + fs * 1.2; rr(g, 40, 40, w, fs * 1.7, fs * .85); g.fillStyle = 'rgba(17,17,17,.82)'; g.fill(); g.restore(); ktText(g, p.tag, 40 + w / 2, 40 + fs * .85, fs, '#fff', { w: 700 }); }
 }
 const B0 = { charsheet, faces, scene, face, insert, blueprint, topdown, title, end }, B = { shortEnd };
-B.kt = kt;
+B.kt = kt; B.outro = outro;
 for (const k in B0) B[k] = (g, t, info) => { if (!E.vertical) return B0[k](g, t, info);
   const W0 = E.W, H0 = E.H, kk = H0 / 1080, vis = W0 / kk, left = clamp(panFor(info, t) - vis / 2, 0, 1920 - vis);
   E.W = 1920; E.H = 1080; E.vertical = false; VERT = { left, k: kk }; GQ.length = 0; g.save(); g.scale(kk, kk); g.translate(-left, 0);
